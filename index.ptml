@@ -24,28 +24,80 @@
                 </h2>
 
                 <h3>
-                    Introduction
+                    1. The Foundation: Logic and Proofs
                 </h3>
 
                 <h3>
-                    Set Theory
+                    2. Basic Structures: Sets, Functions, Etc.
                 </h3>
 
+                <h3>
+                    3. Algorithms
+                </h3>
 
-                <hr>
+                <h3>
+                    4. Number Theory and Cryptography
+                </h3>
+
+                <h3>
+                    5. Induction and Recursion
+                </h3>
+
+                <h3>
+                    6. Counting
+                </h3>
+
+                <h3>
+                    7. Discrete Probability
+                </h3>
+
+                <h3>
+                    8. Advanced Counting Techniques
+                </h3>
+
+                <h3>
+                    9. Relations
+                </h3>
+
+                <h3>
+                    10. Graphs
+                </h3>
+
+                <h3>
+                    11. Trees
+                </h3>
+
+                <h3>
+                    12. Boolean Algebra
+                </h3>
+
+                <h3>
+                    13. Modeling Computation
+                </h3>
+
             </div>
 
-                <h2>
-                    Other Material
-                </h2>
-                <ul>
-                    <li>
-                            Syllabus
-                    </li>
+            <hr>
 
-                </ul>
+            <h2>
+                Other Material
+            </h2>
+            <ul>
+                <li>
+                    Syllabus
+                </li>
+            </ul>
 
-            </div>
-
+            <h4>
+                Credits
+            </h4>
+            <ul>
+                <li>
+                Four-color graphic by
+                <a href="https://commons.wikimedia.org/wiki/User:Inductiveload">
+                    Inductiveload
+                </a>
+                </li>
+            </ul>
     </body>
 </html>

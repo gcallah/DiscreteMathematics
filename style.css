@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #111;
+    background: #cff;
+}
+
+#header {
+    width: auto;
+    height: 3em;
+    padding: .5em 2em;
+    line-height: 2em;
+    background-color: #bfd;
+    color: #448;
+    overflow: hidden;
+}
+
+#header a:link, #header a:visited {
+    color: #748;
+}
+
+#header a:focus , #header a:hover {
+    text-decoration: underline;
+}
+
+table, th, td {
+    margin: .4em 2.5em .4em 2.5em;
+    font-size: 1em;
+    border-collapse: collapse;
+    border: 1px solid black;
+    }
+
+th, td {
+        padding: 1em;
+}
+
+th {
+    background: #bdf;
+}
+
+td {
+    background: #fff;
+}
+
+p {
+    margin: .4em 1.5em .4em 1.5em;
+    font-size: 1.4em;
+    padding: 0;
+    line-height: 140%;
+}
+
+p.lead-quote {
+    color: #303;
+    text-align: center;
+}
+
+hr {
+    margin: .8em 20em .8em 20em;
+}
+
+blockquote {
+    margin: .4em 6em .4em 6em;
+    font-size: 1.1em;
+}
+
+ol, ul, dl, li {
+    margin: 1em 1.5em .4em 1.5em;
+    font-size: 1.4rem;
+}
+
+dt {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: .4em 3em .4em 1em;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .4em;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    background-color: #bfd;
+    color: #448;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 1.2em 1em .6em 1em;
+    color: #903;
+}
+
+h2.subhead {
+    font-weight:
+    normal;
+}
+
+h3 {
+    font-size: 1.6em;
+    margin: 1em 1.4em .6em 1.4em;
+    color: #137;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: .8em 1.6em .6em 1.6em;
+    color: #339;
+    font-weight: bold;
+}
+
+summary.sum1 {
+    font-size: 1.7em;
+    color: #903;
+    margin: .8em 1.2em .8em 1.2em;
+}
+
+summary.sum2 {
+    font-size: 1.6em;
+    color: #137;
+    margin: .6em 1.2em .6em 2em;
+}
+
+summary.sum3 {
+    font-size: 1.5em;
+    color: #339;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.sum4 {
+    font-size: 1.4em;
+    color: #903;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.menu_sum {
+    font-size: 1.4em;
+    color: #639;
+    margin: .5em 0em .5em 0em;
+}
+
+.lead_illus {
+    text-align: center;
+}
+
+#logo {
+    float: left;
+}
+
+#user-tools {
+    float: right;
+    padding: 0;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+figure {
+    text-align: center;
+}
+
+figure#front-page {
+    margin: 0em 1em 1em 1em;
+}
+
+figcaption {
+    color: #606;
+    font-style: italic;
+    text-align: center;
+    margin: .8em 1em .6em 1em;
+}
