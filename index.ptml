@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+			Discrete Mathematics
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+            
+		<h1>
+			Discrete Mathematics
+		</h1>
+            <div style="text-align:center">
+                <p class="lead-quote">
+                </p>
+                <hr>
+
+                <h2>
+                    Topics
+                </h2>
+
+                <h3>
+                    Introduction
+                </h3>
+
+                <h3>
+                    Set Theory
+                </h3>
+
+
+                <hr>
+            </div>
+
+                <h2>
+                    Other Material
+                </h2>
+                <ul>
+                    <li>
+                            Syllabus
+                    </li>
+
+                </ul>
+
+            </div>
+
+    </body>
+</html>
