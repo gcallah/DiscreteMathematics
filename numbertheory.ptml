@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Basic Structures: Sets, Functions, Etc.
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1 class="chap-title">
+            Basic Structures: Sets, Functions, Etc.
+        </h1>
+            <div style="text-align:center">
+                <figure class="lead-figure">
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
+                </figure>
+            </div>
+            <p>
+            </p>
+
+    </body>
+</html>
