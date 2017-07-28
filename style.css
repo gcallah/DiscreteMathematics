@@ -6,24 +6,6 @@ body {
     background: #cff;
 }
 
-#header {
-    width: auto;
-    height: 3em;
-    padding: .5em 2em;
-    line-height: 2em;
-    background-color: #bfd;
-    color: #448;
-    overflow: hidden;
-}
-
-#header a:link, #header a:visited {
-    color: #748;
-}
-
-#header a:focus , #header a:hover {
-    text-decoration: underline;
-}
-
 table, th, td {
     margin: .4em 2.5em .4em 2.5em;
     font-size: 1em;
@@ -75,18 +57,40 @@ dt {
     margin: .4em 3em .4em 1em;
 }
 
+#header {
+    width: auto;
+    height: 3em;
+    padding: .5em 2em;
+    line-height: 2em;
+    background-color: #9fb;
+    color: #448;
+    overflow: hidden;
+}
+
+#header a:link, #header a:visited {
+    color: #748;
+}
+
+#header a:focus , #header a:hover {
+    text-decoration: underline;
+}
+
 h1,h2,h3,h4,h5 {
     font-weight: bold;
 }
 
 h1 {
     margin: 0em 0em 1em 0em;
-    padding-bottom: .4em;
+    padding-bottom: .8em;
     text-align: center;
     font-weight: 300;
-    font-size: 2em;
-    background-color: #bfd;
+    font-size: 2.2em;
+    background-color: #9fb;
     color: #448;
+}
+
+h1#course-title {
+    margin: 0em 0em 0em 0em;
 }
 
 h2 {

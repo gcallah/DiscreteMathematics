@@ -11,15 +11,16 @@
 
 <!--include menu.txt -->
             
-		<h1>
+		<h1 id="course-title">
 			Discrete Mathematics
 		</h1>
             <div style="text-align:center">
-                <figure>
+                <figure id="front-page">
                     <img src="graphics/FourColourMap.svg.png">
                     <figcaption>
                     </figcaption>
-                    </figure>
+                </figure>
+
                 <hr>
 
                 <h2>
