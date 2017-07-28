@@ -93,6 +93,10 @@ h1#course-title {
     margin: 0em 0em 0em 0em;
 }
 
+h1.chap-title {
+    margin: 0em 0em 0em 0em;
+}
+
 h2 {
     font-size: 1.8em;
     margin: 1.2em 1em .6em 1em;
@@ -171,7 +175,7 @@ figure {
     text-align: center;
 }
 
-figure#front-page {
+figure.lead-figure {
     margin: 0em 1em 1em 1em;
 }
 

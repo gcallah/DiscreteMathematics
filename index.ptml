@@ -15,9 +15,10 @@
 			Discrete Mathematics
 		</h1>
             <div style="text-align:center">
-                <figure id="front-page">
+                <figure class="lead-figure">
                     <img src="graphics/FourColourMap.svg.png">
                     <figcaption>
+                        Four-color mapping
                     </figcaption>
                 </figure>
 
@@ -34,11 +35,15 @@
                 </h3>
 
                 <h3>
+                    <a href="basic.html">
                     2. Basic Structures: Sets, Functions, Etc.
+                    </a>
                 </h3>
 
                 <h3>
+                    <a href="algorithms.html">
                     3. Algorithms
+                    </a>
                 </h3>
 
                 <h3>
