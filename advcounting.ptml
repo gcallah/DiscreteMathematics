@@ -16,8 +16,11 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iterated_logistic_functions.svg/220px-Iterated_logistic_functions.svg.png">
                 </figure>
+                <figcaption>
+                    The logistic equation and its iterated versions.
+                </figcaption>
             </div>
 
 

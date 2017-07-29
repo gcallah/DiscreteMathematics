@@ -15,8 +15,7 @@
         </h1>
             <div style="text-align:center">
                 <figure class="lead-figure">
-                    <img
-                        src="">
+                    <img src="graphics/powerset_of_3.svg.png">
                 </figure>
             </div>
             
@@ -49,6 +48,16 @@
                 Partial Orderings 
                 </summary>
             </details>
+
+            <h3>
+                Credits
+            </h3>
+                <ul>
+                    <li>
+                        Partial ordering: By I, KSmrq, CC BY-SA 3.0,
+                        https://commons.wikimedia.org/w/index.php?curid=2118211
+                    </li>
+                </ul>
 
     </body>
 </html>
