@@ -19,8 +19,36 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/180px-Tree_graph.svg.png">
                 </figure>
             </div>
-            <p>
-            </p>
+
+            <details>
+                <summary class="sum1">
+                Introduction to Trees
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Applications of Trees
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Tree Traversal
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Spanning Trees
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Minimum Spanning Trees 
+                </summary>
+            </details>
 
     </body>
 </html>

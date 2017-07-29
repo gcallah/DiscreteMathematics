@@ -19,8 +19,43 @@
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
                 </figure>
             </div>
-            <p>
-            </p>
+            
+
+            <details>
+                <summary class="sum1">
+                Sets 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Set Operations 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Functions 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Sequences and Summations
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Cardinality of Sets 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Matrices 
+                </summary>
+            </details>
 
     </body>
 </html>

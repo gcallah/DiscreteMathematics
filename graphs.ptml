@@ -19,8 +19,54 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png">
                 </figure>
             </div>
-            <p>
-            </p>
+            
+            <details>
+                <summary class="sum1">
+                Graphs and Graph Models
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Graph Terminology and Special Types of Graphs
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Representing Graphs and Graph Isomorphism 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Connectivity 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Euler and Hamilton Paths 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Shortest-Path Problems
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Planar Graphs
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Graph Coloring
+                </summary>
+            </details>
 
     </body>
 </html>

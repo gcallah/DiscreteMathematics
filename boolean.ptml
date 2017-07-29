@@ -19,8 +19,32 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Vennandornot.svg/500px-Vennandornot.svg.png">
                 </figure>
             </div>
-            <p>
-            </p>
+            
+
+            <details>
+                <summary class="sum1">
+                Boolean Functions
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Representing Boolean Functions 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Logic Gates
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Minimization of Circuits 
+                </summary>
+            </details>
+
 
     </body>
 </html>

@@ -23,8 +23,55 @@
                     </figcaption>
                 </figure>
             </div>
-            <p>
-            </p>
+
+            <details>
+                <summary class="sum1">
+                Propositional Logic 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Applications of Propositional Logic
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Propositional Equivalences 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Predicates and Quantifiers 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Nested Quantifiers 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Rules of Inference 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Introduction to Proofs 
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum1">
+                Proof Methods and Strategy
+                </summary>
+            </details>
+
 
     </body>
 </html>

@@ -1,69 +1,97 @@
-The Foundations: Logic and Proofs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 
-Propositional Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 
-Applications of Propositional Logic.............................................16 
-Propositional Equivalences .................................................... 25 
-Predicates and Quantifiers ..................................................... 36 
-Nested Quantifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57 
-Rules of Inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69 Introduction to Proofs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80 
-Proof Methods and Strategy....................................................92
-Basic Structures: Sets, Functions, Sequences, Sums, and Matrices . 115 
-Sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115 
-Set Operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127 Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138 Sequences and Summations...................................................15
-Cardinality of Sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170 Matrices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177 
-Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191 
-Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191 
-The Growth of Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204 Complexity of Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218 
-Number Theory and Cryptography................................237 
-Divisibility and Modular Arithmetic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237 
-Integer Representations and Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 245 
-Primes and Greatest Common Divisors ........................................ 257 
-Solving Congruences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 274 Applications of Congruences..................................................287 Cryptography ............................................................... 294 
+foundation.ptml
+Propositional Logic 
+Applications of Propositional Logic
+Propositional Equivalences 
+Predicates and Quantifiers 
+Nested Quantifiers 
+Rules of Inference 
+Introduction to Proofs 
+Proof Methods and Strategy
 
-Induction and Recursion .......................................... 311 
-Mathematical Induction ...................................................... 311 
-Strong Induction and Well-Ordering...........................................333 
-Recursive Definitions and Structural Induction..................................344 
-Recursive Algorithms........................................................360 
-Program Correctness.........................................................372 
-Counting..........................................................385 
-TheBasicsofCounting.......................................................385 
-The Pigeonhole Principle.....................................................399 
-Permutations and Combinations...............................................407 
-Binomial Coefficients and Identities ........................................... 415 
-Generalized Permutations and Combinations ................................... 423 
-Generating Permutations and Combinations .................................... 434 
-DiscreteProbability...............................................445 
-An Introduction to Discrete Probability ........................................ 445 
-Probability Theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 452 Bayes’ Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 468 Expected Value and Variance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
-Advanced Counting Techniques...................................501 
-Applications of Recurrence Relations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 501 
-Solving Linear Recurrence Relations .......................................... 514 
-Divide-and-Conquer Algorithms and Recurrence Relations . . . . . . . . . . . . . . . . . . . . . . . 527 Generating Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 537 Inclusion–Exclusion ......................................................... 552 
-Applications of Inclusion–Exclusion...........................................558 
-Relations..........................................................573 
-Relations and Their Properties ................................................ 573 n-aryRelationsandTheirApplications.........................................583 
-Representing Relations.......................................................591 ClosuresofRelations ........................................................ 597 EquivalenceRelations........................................................607 PartialOrderings ............................................................ 618 
-Graphs............................................................641 
-Graphs and Graph Models....................................................641 
-Graph Terminology and Special Types of Graphs................................651 
-Representing Graphs and Graph Isomorphism .................................. 668 Connectivity ................................................................ 678 
-Euler and Hamilton Paths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 693 Shortest-Path Problems.......................................................707 
-Planar Graphs...............................................................718 
-Graph Coloring..............................................................727 
-Trees...............................................................745 
-Introduction to Trees.........................................................745
-Applications of Trees.........................................................757
-Tree Traversal...............................................................
-Spanning Trees..............................................................785 
-Minimum Spanning Trees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 797 
-BooleanAlgebra...................................................811 
-Boolean Functions...........................................................811 
-Representing Boolean Functions .............................................. 819
-Logic Gates.................................................................822 
-Minimization of Circuits ..................................................... 828 
-Modeling Computation ........................................... 847 
-Languages and Grammars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 847 
-Finite-State Machines with Output.............................................858 
-Finite-State Machines with No Output ......................................... 865 
-Language Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 878
-Turing Machines.............................................................888 
+basic.ptml
+Sets 
+Set Operations 
+Functions 
+Sequences and Summations
+Cardinality of Sets 
+Matrices 
+
+algorithms.ptml
+Algorithms 
+The Growth of Functions 
+Complexity of Algorithms 
+
+numbertheory.ptml
+Divisibility and Modular Arithmetic 
+Integer Representations and Algorithms 
+Primes and Greatest Common Divisors 
+Solving Congruences 
+Applications of Congruences
+Cryptography 
+
+induction.ptml
+Mathematical Induction 
+Strong Induction and Well-Ordering
+Recursive Definitions and Structural Induction
+Recursive Algorithms
+Program Correctness
+
+counting.ptml
+The Basics of Counting
+The Pigeonhole Principle
+Permutations and Combinations
+Binomial Coefficients and Identities 
+Generalized Permutations and Combinations 
+Generating Permutations and Combinations 
+
+probability.ptml
+An Introduction to Discrete Probability 
+Probability Theory 
+Bayes’ Theorem 
+Expected Value and Variance 
+
+advcounting.ptml
+Applications of Recurrence Relations 
+Solving Linear Recurrence Relations 
+Divide-and-Conquer Algorithms and Recurrence Relations 
+Generating Functions 
+Inclusion–Exclusion 
+Applications of Inclusion–Exclusion
+
+relations.ptml
+Relations and Their Properties 
+n-aryRelations and Their Applications
+Representing Relations
+Closures of Relations 
+Equivalence Relations
+Partial Orderings 
+
+graphs.ptml
+Graphs and Graph Models
+Graph Terminology and Special Types of Graphs
+Representing Graphs and Graph Isomorphism 
+Connectivity 
+Euler and Hamilton Paths 
+Shortest-Path Problems
+Planar Graphs
+Graph Coloring
+
+trees.ptml
+Introduction to Trees
+Applications of Trees
+Tree Traversal
+Spanning Trees
+Minimum Spanning Trees 
+
+boolean.ptml
+Boolean Functions
+Representing Boolean Functions 
+Logic Gates
+Minimization of Circuits 
+
+computation.ptml
+Languages and Grammars 
+Finite-State Machines with Output
+Finite-State Machines with No Output
+Language Recognition 
+Turing Machines
