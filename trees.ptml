@@ -2,7 +2,7 @@
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
-            Number Theory and Cryptography
+            Trees
         </title>
     </head>
 
@@ -11,15 +11,12 @@
 <!--include menu.txt -->
 
         <h1 class="chap-title">
-            Number Theory and Cryptography
+            Trees
         </h1>
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ModularGroup-FundamentalDomain.svg/220px-ModularGroup-FundamentalDomain.svg.png">
-                    <figcaption>
-                        Action of the modular group on the upper-half plane
-                    </figcaption>
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/180px-Tree_graph.svg.png">
                 </figure>
             </div>
             <p>
