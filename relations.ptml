@@ -16,6 +16,9 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img src="graphics/powerset_of_3.svg.png">
+                    <figcaption>
+                    Powerset of three.
+                    </figcaption>
                 </figure>
             </div>
             
