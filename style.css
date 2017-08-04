@@ -152,6 +152,13 @@ summary.menu_sum {
     margin: .5em 0em .5em 0em;
 }
 
+p.def {
+    text-decoration: underline;
+    margin: .8em 1.5em .3em 4em;
+    font-size: 1.3em;
+    color: #609;
+}
+
 .lead_illus {
     text-align: center;
 }
