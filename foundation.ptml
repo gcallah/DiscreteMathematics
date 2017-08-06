@@ -78,6 +78,12 @@
                             x + y = z.
                         </li>
                     </ol>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Some definitions concerning propositions
+                    </summary>
 
                     <p class="def">
                     DEFINITION 1:
@@ -94,6 +100,122 @@
                     pass discrete mathematics."
                     </p>
 
+                    <table>
+                        <tr>
+                            <th class="table-head" colspan="2">
+                                Truth table for negation
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i>p</i>
+                            </th>
+                            <th>
+                                &not;<i>p</i>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                T
+                            </td>
+                            <td>
+                                F
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                T
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="def">
+                    DEFINITION 2:
+                    </p>
+                    <p>
+                    Let <i>p</i> and <i>q</i> be propositions.
+                    The conjunction of <i>p</i> and <i>q</i>,
+                    denoted by <i>p</i> &and; <i>q</i>,
+                    is the proposition "<i>p</i> and <i>q</i>." The
+                    conjunction <i>p</i> &and; <i>q</i> is true
+                    when both <i>p</i> and <i>q</i> are true and is
+                    false otherwise.
+                    </p>
+
+                    <p>
+                    <b>Example:</b>
+                    <br />
+                    If <i>p</i> is "It is raining," and <i>q</i> is "It is
+                    sunny," then <i>p</i> &and; <i>q</i> is "it is raining and
+                    sunny."
+                    </p>
+
+                    <table>
+                        <tr>
+                            <th class="table-head" colspan="3">
+                                Truth table for conjunction of two
+                                propositions
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i>p</i>
+                            </th>
+                            <th>
+                                <i>q</i>
+                            </th>
+                            <th>
+                                <i>p</i> &and; <i>q</i>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                T
+                            </td>
+                            <td>
+                                T
+                            </td>
+                            <td>
+                                T
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                T
+                            </td>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                F
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                T
+                            </td>
+                            <td>
+                                F
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                F
+                            </td>
+                        </tr>
+                    </table>
                 </details>
 
             </details>

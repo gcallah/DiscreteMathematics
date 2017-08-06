@@ -21,6 +21,10 @@ th {
     background: #bdf;
 }
 
+th.table-head {
+    background: #fcc;
+}
+
 td {
     background: #fff;
 }
