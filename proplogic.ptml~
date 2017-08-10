@@ -1,0 +1,687 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Propositional Logic
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1 class="chap-title">
+            Propositional Logic
+        </h1>
+            <div style="text-align:center">
+                <figure class="lead-figure">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logic_Gates.svg/220px-Logic_Gates.svg.png"
+                        height="200" width="190">
+                    <figcaption>
+                        Logic gates
+                    </figcaption>
+                </figure>
+            </div>
+
+            <details>
+                <summary class="sum2">
+                Propositions
+                </summary>
+
+                <p>
+                A <b>proposition</b> is a declarative sentence (that is, a
+                sentence that declares a fact) that is either true or
+                false, but not both.
+                </p>
+
+                <p>
+                Some propositions:
+                </p>
+
+                <ol>
+                    <li>
+                    Washington, D.C., is the capital of the United
+                    States of America.
+                    </li>
+                    <li>
+                    Toronto is the capital of Canada.
+                    </li>
+                    <li>
+                    1 + 1 = 2.
+                    </li>
+                    <li>
+                    2 + 2 = 3.
+                    </li>
+                </ol>
+
+                <p>
+                Some non-propositions:
+                </p>
+
+                <ol>
+                    <li>
+                        What time is it?
+                    </li>
+                    <li>
+                        Read this carefully.
+                    </li>
+                    <li>
+                        x + 1 = 2.
+                    </li>
+                    <li>
+                        x + y = z.
+                    </li>
+                </ol>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Some definitions concerning propositions
+                </summary>
+
+                <p class="def">
+                DEFINITION 1:
+                </p>
+                <p>
+                Let <i>p</i> be a proposition. Then &not;<i>p</i> is the
+                negation of <i>p</i>. The truth value of &not;<i>p</i> is
+                T if <i>p</i> is false, and F if <i>p</i> is true.
+                <br />
+                <b>Example:</b>
+                <br />
+                If <i>p</i> is "All students will pass discrete
+                mathematics, then &not;<i>p</i> is "Not all students will
+                pass discrete mathematics."
+                </p>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="2">
+                            Truth table for negation
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            &not;<i>p</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                </table>
+
+                <p class="def">
+                DEFINITION 2:
+                </p>
+                <p>
+                Let <i>p</i> and <i>q</i> be propositions.
+                The <i>conjunction</i> of <i>p</i> and <i>q</i>,
+                denoted by <i>p</i> &and; <i>q</i>,
+                is the proposition "<i>p</i> and <i>q</i>." The
+                conjunction <i>p</i> &and; <i>q</i> is true
+                when both <i>p</i> and <i>q</i> are true and is
+                false otherwise.
+                </p>
+
+                <p>
+                <b>Example:</b>
+                <br />
+                If <i>p</i> is "It is raining," and <i>q</i> is "It is
+                sunny," then <i>p</i> &and; <i>q</i> is "it is raining and
+                sunny."
+                </p>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="3">
+                            Truth table for conjunction of two
+                            propositions
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &and; <i>q</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    More definitions concerning propositions
+                </summary>
+
+                <p class="def">
+                DEFINITION 3:
+                </p>
+
+                <p>
+                Let <i>p</i> and <i>q</i> be propositions.
+                The <i>disjunction</i> of <i>p</i> and <i>q</i>,
+                denoted by <i>p</i> &or; <i>q</i>,
+                is the proposition "p or q." The
+                disjunction <i>p</i> &or; <i>q</i> is
+                false when both <i>p</i> and <i>q</i> are false and
+                is true otherwise.
+                </p>
+
+                <p>
+                <b>Example:</b>
+                <br />
+                If <i>p</i> is "It is raining," and <i>q</i> is "It is
+                sunny," then <i>p</i> &or; <i>q</i> is "it is raining or
+                sunny."
+                </p>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="3">
+                            Truth table for disjunction of two
+                            propositions
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &and; <i>q</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                </table>
+
+                <p class="def">
+                DEFINITION 4:
+                </p>
+
+                <p>
+                Let <i>p</i> and <i>q</i> be propositions.
+                The <i>exclusive or</i> of <i>p</i> and <i>q</i>,
+                denoted by <i>p</i> &xotime; <i>q</i>,
+                is the proposition that is true
+                when exactly one of <i>p</i> and <i>q</i> is
+                true and false otherwise.
+                </p>
+
+                <p>
+                <b>Example:</b>
+                <br />
+                If <i>p</i> is "It is night," and <i>q</i> is "It is
+                day," then <i>p</i> &xotime; <i>q</i>
+                is "it is either night or day."
+                </p>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="3">
+                            Truth table for xor of two propositions
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &xotime; <i>q</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Conditional Statements
+                </summary>
+
+                <p class="def">
+                DEFINITION 5:
+                </p>
+
+                <p>
+                Let <i>p</i> and <i>q</i> be propositions.
+                The <i>conditional statement</i>
+                <i>p</i> &Implies; <i>q</i>
+                is the proposition "if <i>p</i>, then q." The conditional
+                statement <i>p</i> &Implies;
+                <i>q</i> is false when <i>p</i> is
+                true and <i>q</i> is false, and
+                true otherwise. In the conditional
+                statement <i>p</i> &Implies; <i>q</i>, <i>p</i> is
+                called the <i>hypothesis</i>
+                (or <i>antecedent</i> or <i>premise</i>)
+                and <i>q</i> is called the <i>conclusion</i>
+                (or <i>consequence</i>).
+                </p>
+
+                <p>
+                    Some ways of expressing implication:
+                </p>
+
+                <ul>
+                    <li>
+                        if <i>p</i>, then <i>q</i>
+                    </li>
+                    <li>
+                        <i>p</i> is sufficient for <i>q</i>
+                    </li>
+                    <li>
+                        <i>q</i> if <i>p</i>
+                    </li>
+                    <li>
+                        <i>q</i> when <i>p</i>
+                    </li>
+                    <li>
+                        <i>p</i> implies <i>q</i>
+                    </li>
+                    <li>
+                        <i>p</i> only if <i>q</i>
+                    </li>
+                    <li>
+                        <i>q</i> follows from <i>p</i>
+                    </li>
+                </ul>
+
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="3">
+                            Truth table for the conditional statement
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &Implies; <i>q</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Biconditionals
+                </summary>
+
+                <p class="def">
+                DEFINITION 6:
+                </p>
+
+                <p>
+                Let p and q be propositions.
+                The <i>biconditional statement</i> p
+                &iff; q is the proposition
+                "p if and only if q."
+                The biconditional statement p &iff; q
+                is true when p and q have the
+                same truth values, and is false otherwise.
+                Biconditional statements are
+                also called <i>bi-implications</i>.
+                </p>
+
+                <p>
+                <b>Example:</b>
+                <br />
+                The ponds freeze if and only if the temperature is below
+                32 F.
+                </p>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="3">
+                            Truth table for the biconditional statement
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &iff; <i>q</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Truth Tables of Compound Statements
+                </summary>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Precedence of Logical Operators
+                </summary>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="2">
+                            Precedence of Logical Operators
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>Operator</i>
+                        </th>
+                        <th>
+                            <i>Precedence</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            &not;
+                        </td>
+                        <td>
+                            1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &and; <br /> &or;
+                        </td>
+                        <td>
+                            2 <br /> 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &and; <br /> &iff;
+                        </td>
+                        <td>
+                            4 <br /> 5
+                        </td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Logic and Bit Operations
+                </summary>
+
+                <table>
+                    <tr>
+                        <th>
+                            <i>Truth Value</i>
+                        </th>
+                        <th>
+                            <i>Bit</i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                </table>
+            </details>
+    </body>
+</html>
