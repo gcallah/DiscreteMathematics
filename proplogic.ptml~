@@ -505,6 +505,25 @@
                         </td>
                     </tr>
                 </table>
+
+                <p>
+                    For <i>p</i> &Implies; <i>q</i>:
+                </p>
+
+                <ul>
+                    <li>
+                    <b>Converse</b>: <i>q</i> &Implies; <i>p</i>
+                    </li>
+                    <li>
+                    <b>Contrapositive</b>:
+                    &not;<i>q</i> &Implies; &not;<i>p</i>
+                    </li>
+                    <li>
+                    <b>Inverse</b>:
+                    &not;<i>p</i> &Implies; &not;<i>q</i>:
+                    </li>
+                </ul>
+
             </details>
 
             <details>
@@ -603,6 +622,117 @@
                 <summary class="sum2">
                 Truth Tables of Compound Statements
                 </summary>
+
+                <table>
+                    <tr>
+                        <th class="table-head" colspan="6">
+                            Truth table of
+                            (<i>p</i> &or; &not;<i>q</i>)
+                            &Implies; (<i>p</i> &and; <i>q</i>)
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <i>p</i>
+                        </th>
+                        <th>
+                            <i>q</i>
+                        </th>
+                        <th>
+                            &not;<i>q</i>
+                        </th>
+                        <th>
+                            <i>p</i> &or; &not;<i>q</i> 
+                        </th>
+                        <th>
+                            <i>p</i> &and; <i>q</i> 
+                        </th>
+                        <th>
+                            (<i>p</i> &or; &not;<i>q</i>)
+                            &Implies; (<i>p</i> &and; <i>q</i>)
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            T
+                        </td>
+                        <td>
+                            F
+                        </td>
+                        <td>
+                            F
+                        </td>
+                    </tr>
+                </table>
             </details>
 
             <details>
@@ -642,7 +772,7 @@
                     </tr>
                     <tr>
                         <td>
-                            &and; <br /> &iff;
+                            &Implies; <br /> &iff;
                         </td>
                         <td>
                             4 <br /> 5
