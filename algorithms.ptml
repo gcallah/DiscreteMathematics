@@ -159,7 +159,7 @@
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 			<img src="http://www.opentechguides.com/images/howto/howto_5101.png"><br>
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="/graphics/Bubble_sort.png"><br>
+                			<img src="../graphics/Bubble_sort.png"><br>
                 		</details>
                 		<details>
                 			<summary class="sum3">
@@ -192,7 +192,7 @@
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_12.jpg"><br>
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="/graphics/Insertionsort.png"><br>
+                			<img src="../graphics/Insertion_sort.png"><br>
                 		</details>
                 	</details>
                 	
