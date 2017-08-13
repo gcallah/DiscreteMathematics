@@ -170,7 +170,7 @@
                 			</summary>
                 				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 				<img src="http://www.opentechguides.com/images/howto/howto_5101.png"><br>
-                				<h2>Psuedocode</h2>
+                				<b>Psuedocode</b>
                 				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 				<img src="graphics/BubbleSort.svg.png"><br>
                 		</details>
@@ -221,16 +221,16 @@
                 			<h2>Greedy Change-Making Algorithm</h2><br>
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 			<img src="graphics/GreedyChangeMaking.svg.png">
-                			<h3>LEMMA 1</h3>
+                			<p class="def">LEMMA 1</p>
                 			<p>If n is a positive integer, then n cents in change using 
                 			quarters, dimes, nickels, and pennies using the fewest coins possible 
                 			has at most two dimes, at most one nickel, at most four pennies, and 
                 			cannot have two dimes and a nickel. The amount of change in dimes, 
                 			nickels, and pennies cannot exceed 24 cents.</p>
-                			<h3>THEOREM 1</h3>
+                			<p class="def">THEOREM 1</p>
                 			<p>The greedy algorithm produces change using the 
                 			fewest coins possible.</p>
-                			<h2>Greedy Algorithm for Scheduling Talks</h2>
+                			<b>Greedy Algorithm for Scheduling Talks</b>
                 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 			<img src="graphics/GreedyScheduling.svg.png">
                 </details>
@@ -238,7 +238,7 @@
                 	<summary class="sum2">
                 	The Halting Problem
                 	</summary>
-                		<h2>The Halting Problem is Unsolvable</h2>
+                		<b>The Halting Problem is Unsolvable</b>
                 		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 		<img src="graphics/HaltingProblem.svg.png">
                 </details>
@@ -252,7 +252,7 @@
                 <summary class="sum2">
                 	Big-O Notation
                 </summary>
-                	<h3>DEFINITION 1</h3>
+                	<p class="def">DEFINITION 1</p>
                 	<p>1 Let f and g be functions from the set of integers or the set of
                  	real numbers to the set of real numbers.We say that f (x) is O(g(x)) if 
                  	there are constants C and k such that |f (x)| <= C|g(x)|whenever x > k.<br> 
@@ -262,14 +262,14 @@
                 <summary class="sum2">
                 Big-O Estimates for Some Important Functions
                 </summary>
-                	<h3>THEOREM 1</h3>
+                	<p class="def">THEOREM 1</p>
                 	<p>Let f (x) = a<sub>n</sub>x<sup>n</sup> +
                 	 a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
                 	 a<sub>1</sub>...
                 	 a<sub>n−1</sub>, a<sub>n<sub> are real numbers.<br>
 					Then f (x) is O(x<sup>n</sup>).</p>
-					<h2>A Display of the Growth of Functions Commonly Used in Big-O 
-					Estimates.</h2>
+					<b>A Display of the Growth of Functions Commonly Used in Big-O 
+					Estimates.</b>
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 					<img src="graphics/BigOEstimates.svg.png">
                 </details>
@@ -277,16 +277,17 @@
                 	<summary class="sum2">
                 	The Growth of Combinations of Functions
                 	</summary>
-                		<h3>THEOREM 2</h3>
+                		<p class="def">THEOREM 2</p>
                 		<p>Suppose that f<sub>1</sub> (x) is O(g<sub>1</sub> (x)) and that 
                 		f<sub>2</sub> (x) is O(g<sub>2</sub> (x)).<br> 
                 		Then (f<sub>1</sub>  + f<sub>2</sub> )(x) isO(max(|g<sub>1</sub> 
                 		(x)|, |g<sub>2</sub> (x)|)).</p>
                 		
-                		<h3>COROLLARY 1</h3>
+                		<p class="def">COROLLARY 1</p>
                 		<p>Suppose that f<sub>1</sub>(x) and f<sub>2</sub>(x) are both O(g(x)). 
                 		Then (f<sub>1</sub> + f<sub>2</sub>)(x) is O(g(x)).</p>
-                 		<h3>THEOREM 3</h3>
+                		
+                 		<p class="def">THEOREM 3</p>
                 		<p>Suppose that f<sub>1</sub>(x) is O(g<sub>1</sub>(x)) and f<sub>2</sub>(x) 
                 		is O(g<sub>2</sub>(x)). Then (f<sub>1</sub>f<sub>2</sub>)(x) is 
                 		O(g<sub>1</sub>(x)g<sub>2</sub>(x)).</p>
@@ -297,21 +298,21 @@
                 	Big-Omega and Big-Theta Notation
                 	</summary>
         		
-        				<h3>DEFINITION 2</h3>
+        				<p class="def">DEFINITION 2</p>
         				<p>Let f and g be functions from the set of integers or the set of 
         				real numbers to the set of real numbers.We say that f (x) is &#937;
         				(g(x)) if there are positive constants C and k such that |f (x)| >= 
         				C|g(x)| whenever x > k.<br>
         				(This is read as "f (x) is big-Omega of g(x).")</p>
         		
-        				<h3>DEFINITION 3</h3>
+        				<p class="def">DEFINITION 3</p>
         				<p>Let f and g be functions from the set of integers or the set of
         				 real numbers to the set of real numbers.We say that f (x) is 
         				 &#920;(g(x)) if f (x) is O(g(x)) and f (x) is &#937;(g(x)). When f (x) is 
         				 &#920;(g(x)) we say that f is big-Theta of g(x), that f (x) is of 
         				 order g(x), and that f (x) and g(x) are of the same order.</p>
         				 
-        				 <h3>THEOREM 4</h3>
+        				 <p class="def">THEOREM 4</p>
         				 <p>Let f (x) = a<sub>n</sub>x<sup>n</sup> + 
         				 a<sub>n-1</sub>x<sup>n-1</sup> +...+a<sub>1</sub>x + a0, 
         				 where a0, a1, . . . , an are real numbers with a<sub>n</sub> != 0. 
