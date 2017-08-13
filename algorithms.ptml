@@ -25,41 +25,41 @@
                 <summary class="sum1">
                 Algorithms 
                 </summary>
-            	<p>
+            		<p>
                 An <b>algorithm</b> is a finite sequence of precise instructions 
                 for performing a computation or for solving a problem.
                 </p>
 
-                <p>
+                	<p>
                 Algorithm for finding the maximum (largest) value in a finite 
                 sequence of integers:
                 Solution Steps:
                 </p>
 
-                <ol>
-                      	<li>
-                        Set the temporary maximum equal to the first integer in 
-                        the sequence.
-                      	</li>
-                      	<li>
-                        Compare the next integer in the sequence to the temporary 
-                        maximum, and if it is larger than the temporary maximum, set the 
-                        temporary maximum equal to this integer.
-                      	</li>
-                      	<li>
-                        Repeat the previous step if there are more integers in the
-                        sequence.
-                      	</li>
-                      	<li>
+                	<ol>
+                      		<li>
+                        	Set the temporary maximum equal to the first integer in 
+                        	the sequence.
+                      		</li>
+                      		<li>
+                        	Compare the next integer in the sequence to the temporary 
+                        	maximum, and if it is larger than the temporary maximum, set the 
+                        	temporary maximum equal to this integer.
+                      		</li>
+                      		<li>
+                        	Repeat the previous step if there are more integers in the
+                        	sequence.
+                      		</li>
+                      		<li>
                         Stop when there are no integers left in the sequence. 
                         The temporary maximum at this point is the largest integer in 
                         the sequence.
                         </li>
-				</ol>
-						<p>
-                    	Properties of an Algorithm
-                    	</p>
-                <ol>
+					</ol>
+							<p>
+                    		Properties of an Algorithm
+                    		</p>
+                	<ol>
                     	<li>
                     	Input
                     	</li>
@@ -81,162 +81,229 @@
                     	<li>
                     	Generality
                     	</li>
-				</ol>
+					</ol>
                 	<details>
-                	<summary class="sum2">
-                	Searching Algorithm 
-                	</summary>
-                		<p>
-                		The problem of locating an element in an ordered list occurs in 
-                		many contexts. For instance, a program that checks the spelling of 
-                		words searches for them in a dictionary, which is just an ordered 
-                		list of words. Problems of this kind are called searching problems.
-                		</p>
-                		<details>
-                		<summary class="sum3">
-                		Linear Search
+                		<summary class="sum2">
+                		Searching Algorithm 
                 		</summary>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif" 
-                			alt="Linear Search Animation">
-                			<p><b>procedure</b> <i>linear search(x</i>: integer, <i>a1, a2, .
-                			 . . , an</i>: distinct integers)<br>
-                			<i>i := 1</i><br>
-                			<b>while</b> (i <= n and x != a[i] )<br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			i = i + 1<br>
-							<b>if</b> i <= n <b>then</b> <i>location</i> := i<br>
-							<b>else</b> <i>location =</i> 0<br>
-							<b>return</b> <i>location{location</i> is the subscript of 
-							the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
+                			<p>
+                			The problem of locating an element in an ordered list occurs in 
+                			many contexts. For instance, a program that checks the spelling of 
+                			words searches for them in a dictionary, which is just an ordered 
+                			list of words. Problems of this kind are called searching problems.
                 			</p>
-                		</details>
-                		<details>
-                		<summary class="sum3">
-                		Binary Search
-                		</summary>
-                		<p>
-                		This algorithm can be used when the list has terms occurring in 
-                		order of increasing size (for instance: if the terms are numbers, 
-                		they are listed from smallest to largest; if they are words, they 
-                		are listed in lexicographic, or alphabetic, order). This second 
-                		searching algorithm is called the binary search algorithm.
-                		</p>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img 
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_0.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img 
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_1.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_2.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img 
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_3.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_4.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_5.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                		<img
-                		src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_6.jpg"><br>
-                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                
-                		</details>
+                			<details>
+                				<summary class="sum3">
+                				Linear Search
+                				</summary>
+                					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                					<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif" 
+                					alt="Linear Search Animation">
+                					<p><b>procedure</b> <i>linear search(x</i>: integer, <i>a1, a2, .
+                			 		. . , an</i>: distinct integers)<br>
+                					<i>i := 1</i><br>
+                					<b>while</b> (i <= n and x != a[i] )<br>
+                					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                					i = i + 1<br>
+									<b>if</b> i <= n <b>then</b> <i>location</i> := i<br>
+									<b>else</b> <i>location =</i> 0<br>
+									<b>return</b> <i>location{location</i> is the subscript of 
+									the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
+                					</p>
+                			</details>
+                			<details>
+                				<summary class="sum3">
+                				Binary Search
+                				</summary>
+                					<p>
+                					This algorithm can be used when the list has terms occurring in 
+                					order of increasing size (for instance: if the terms are numbers, 
+                					they are listed from smallest to largest; if they are words, they 
+                					are listed in lexicographic, or alphabetic, order). This second 
+                					searching algorithm is called the binary search algorithm.
+                					</p>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img 
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_0.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img 
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_1.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_2.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img 
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_3.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_4.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_5.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img
+                				src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_6.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                			</details>
                 	</details>
                 	<details>
                 	<summary class="sum2">
-                	Sorting Algorithm
+                	Sorting Algorithms
                 	</summary>
                 		<p></p>
                 		<details>
                 			<summary class="sum3">
                 			Bubble Sort
                 			</summary>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="http://www.opentechguides.com/images/howto/howto_5101.png"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="../graphics/Bubble_sort.png"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="http://www.opentechguides.com/images/howto/howto_5101.png"><br>
+                				<h2>Psuedocode</h2>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="graphics/BubbleSort.svg.png"><br>
                 		</details>
                 		<details>
                 			<summary class="sum3">
                 			Insertion Sort
                 			</summary>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/unsorted_array.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_1.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_2.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_3.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_4.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_5.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_6.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_7.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_8.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_9.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_10.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_11.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_12.jpg"><br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="../graphics/Insertion_sort.png"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/unsorted_array.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_1.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_2.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_3.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_4.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_5.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_6.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_7.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_8.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_9.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_10.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_11.jpg"><br>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/insertion_sort_12.jpg"><br>
+                				<h2>Psuedocode</h2>
+                				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                				<img src="graphics/InsertionSort.svg.png"><br>
                 		</details>
                 	</details>
                 	
                 	<details>
-                	<summary class="sum2">
-                	Greedy Algorithm
-                	</summary>
-                	<p>
-                	Algorithms that make what seems to be the best
-					choice at each step are called <b>greedy algorithms.</b>
-                	</p>
-                	</details>
-                	<details>
+                		<summary class="sum2">
+                		Greedy Algorithms
+                		</summary>
+                			<p>
+                			Algorithms that make what seems to be the best
+							choice at each step are called <b>greedy algorithms.</b>
+                			</p>
+                			<h2>Greedy Change-Making Algorithm</h2><br>
+                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                			<img src="graphics/GreedyChangeMaking.svg.png">
+                			<h3>LEMMA 1</h3>
+                			<p>If n is a positive integer, then n cents in change using 
+                			quarters, dimes, nickels, and pennies using the fewest coins possible 
+                			has at most two dimes, at most one nickel, at most four pennies, and 
+                			cannot have two dimes and a nickel. The amount of change in dimes, 
+                			nickels, and pennies cannot exceed 24 cents.</p>
+                			<h3>THEOREM 1</h3>
+                			<p>The greedy algorithm produces change using the 
+                			fewest coins possible.</p>
+                			<h2>Greedy Algorithm for Scheduling Talks</h2>
+                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                			<img src="graphics/GreedyScheduling.svg.png">
+                </details>
+                <details>
                 	<summary class="sum2">
                 	The Halting Problem
                 	</summary>
-                	</details>
+                		<h2>The Halting Problem is Unsolvable</h2>
+                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                		<img src="graphics/HaltingProblem.svg.png">
+                </details>
                 	
-			</details>	
-            <details>
+				</details>	
+            	<details>
                 <summary class="sum1">
                 The Growth of Functions 
                 </summary>
                 <details>
                 <summary class="sum2">
-                Big-O Notation
+                	Big-O Notation
                 </summary>
+                	<h3>DEFINITION 1</h3>
+                	<p>1 Let f and g be functions from the set of integers or the set of
+                 	real numbers to the set of real numbers.We say that f (x) is O(g(x)) if 
+                 	there are constants C and k such that |f (x)| <= C|g(x)|whenever x > k.<br> 
+                 	(This is read as "f(x) is big-oh of g(x).")</p>
                 </details>
                 <details>
                 <summary class="sum2">
                 Big-O Estimates for Some Important Functions
                 </summary>
+                	<h3>THEOREM 1</h3>
+                	<p>Let f (x) = a<sub>n</sub>x<sup>n</sup> +
+                	 a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
+                	 a<sub>1</sub>...
+                	 a<sub>n−1</sub>, a<sub>n<sub> are real numbers.<br>
+					Then f (x) is O(x<sup>n</sup>).</p>
+					<h2>A Display of the Growth of Functions Commonly Used in Big-O 
+					Estimates.</h2>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<img src="graphics/BigOEstimates.svg.png">
                 </details>
                 <details>
-                <summary class="sum2">
-                The Growth of Combinations of Functions
-                </summary>
-                </details>
-                <details>
-                <summary class="sum2">
-                Big-Omega and Big-Theta Notation
-                </summary>
+                	<summary class="sum2">
+                	The Growth of Combinations of Functions
+                	</summary>
+                		<h3>THEOREM 2</h3>
+                		<p>Suppose that f<sub>1</sub> (x) is O(g<sub>1</sub> (x)) and that 
+                		f<sub>2</sub> (x) is O(g<sub>2</sub> (x)).<br> 
+                		Then (f<sub>1</sub>  + f<sub>2</sub> )(x) isO(max(|g<sub>1</sub> 
+                		(x)|, |g<sub>2</sub> (x)|)).</p>
+                		
+                		<h3>COROLLARY 1</h3>
+                		<p>Suppose that f<sub>1</sub>(x) and f<sub>2</sub>(x) are both O(g(x)). 
+                		Then (f<sub>1</sub> + f<sub>2</sub>)(x) is O(g(x)).</p>
+                 		<h3>THEOREM 3</h3>
+                		<p>Suppose that f<sub>1</sub>(x) is O(g<sub>1</sub>(x)) and f<sub>2</sub>(x) 
+                		is O(g<sub>2</sub>(x)). Then (f<sub>1</sub>f<sub>2</sub>)(x) is 
+                		O(g<sub>1</sub>(x)g<sub>2</sub>(x)).</p>
                 </details>
                 
+                <details>
+                	<summary class="sum2">
+                	Big-Omega and Big-Theta Notation
+                	</summary>
+        		
+        				<h3>DEFINITION 2</h3>
+        				<p>Let f and g be functions from the set of integers or the set of 
+        				real numbers to the set of real numbers.We say that f (x) is &#937;
+        				(g(x)) if there are positive constants C and k such that |f (x)| >= 
+        				C|g(x)| whenever x > k.<br>
+        				(This is read as "f (x) is big-Omega of g(x).")</p>
+        		
+        				<h3>DEFINITION 3</h3>
+        				<p>Let f and g be functions from the set of integers or the set of
+        				 real numbers to the set of real numbers.We say that f (x) is 
+        				 &#920;(g(x)) if f (x) is O(g(x)) and f (x) is &#937;(g(x)). When f (x) is 
+        				 &#920;(g(x)) we say that f is big-Theta of g(x), that f (x) is of 
+        				 order g(x), and that f (x) and g(x) are of the same order.</p>
+        				 
+        				 <h3>THEOREM 4</h3>
+        				 <p>Let f (x) = a<sub>n</sub>x<sup>n</sup> + 
+        				 a<sub>n-1</sub>x<sup>n-1</sup> +...+a<sub>1</sub>x + a0, 
+        				 where a0, a1, . . . , an are real numbers with a<sub>n</sub> != 0. 
+        				 Then f (x) is of order x<sup>n</sup>.</p>
+                </details>  
             </details>
             <details>
                 <summary class="sum1">
