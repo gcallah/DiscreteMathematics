@@ -87,18 +87,84 @@
             <summary class="sum1">
                 System Specifications
             </summary>
+
+            <p>
+                Our textbook makes the following claim:
+            </p>
+
+            <blockquote>
+                Translating sentences in natural language (such as English)
+                into logical expressions is an essential part of specifying
+                both hardware and software systems. System and software
+                engineers take requirements in natural language and produce
+                precise and unambiguous specifications that can be used as the
+                basis for system development. 
+            </blockquote>
+
+            <p>
+                This claim is simply not true when it comes to software
+                development: very little real-world development takes place
+                by trying to first formally specify all requirements; when
+                that is attempted, it rarely works.
+            </p>
+
         </details>
 
         <details>
             <summary class="sum1">
                 Boolean Searches
             </summary>
+
+            <p>
+                Searches of things like the web, or large databses, such as our
+                library's catalog, often can be done using logical operators.
+                <br />
+                <b>Example</b>: Mexico AND university -New
+                <br />
+                Searches Google for pages containing "Mexico" and "university"
+                but not "New".
+            </p>
+
         </details>
 
         <details>
             <summary class="sum1">
                 Logic Puzzles
             </summary>
+
+            <figure>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/5SVtJHTRY44"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <figcaption>
+                Muddy children video
+                </figcaption>
+            </figure>
+
+            <ul>
+                <li>
+                    <a
+                        href="http://sierra.nmsu.edu/morandi/coursematerials/MuddyChildren.html">
+                        The Muddy Children Puzzle
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">
+                        Knights and Knaves
+                    </a>
+                </li>
+            </ul>
+
+            <figure>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/tQr7D92Plck"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <figcaption>
+                    Knights and Knaves
+                </figcaption>
+            </figure>
         </details>
 
         <details>
