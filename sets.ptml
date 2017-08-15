@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Sets
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Sets
+        </h1>
+            <details>
+                <summary class ="sum1">
+                Introduction 
+                </summary>
+            </details>    
+
+    </body>
+</html>
