@@ -2,7 +2,7 @@
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
-            Sets
+            About
         </title>
     </head>
 
@@ -11,13 +11,16 @@
 <!--include menu.txt -->
 
         <h1>
-            Sets
+            About this site
         </h1>
-            <details>
-                <summary class ="sum1">
-                Introduction 
-                </summary>
-            </details>    
+            <p>
+                This site has been developed primarily by Dr. Eugene Callahan,
+                with the help of Disha Umarwani,
+                at NYU for use in the class Discrete Mathematics.
+                <br />
+                
+                You may re-use any material you wish to so long as you give credit.
+            </p>
 
     </body>
 </html>

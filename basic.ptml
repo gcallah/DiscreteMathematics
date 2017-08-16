@@ -29,10 +29,75 @@
 
             <details>
                 <summary class="sum1">
+                Introduction
+                </summary>
+
+                    
+                    <details>
+                        <summary class="sum2">
+                        Sets
+                        </summary>
+                            <p>
+
+                            <img src"https://en.wikipedia.org/wiki/File:Example_of_a_set.svg">
+
+                            <br>
+                            <p>
+                            A <b>set</b> is an unordered collection of objects, called elements or members of the set. A set is said to contain its elements. We write a ∈ A to denote that a is an element of the set A. The notation a ̸∈ A denotes that a is not an element of the set A.
+                        </p>
+
+                            <p>
+
+                            There are two ways of describing, or specifying the members of, a set
+                            Two Ways are :
+                        </p>
+                            <ol>
+                                <li>
+                                <b>Roster method:</b> refers to a technique in representing a set by directly listing all of its elements, which are separated by commas and enclosed by a pair of curly brackets.
+                                <br>
+                                Example: The set V of all vowels in the English alphabet can be written as V = {a, e, i, o, u}.
+                                </li>
+                                <li>
+                                <b>Set builder:</b> We characterize all those elements in the set by stating the property or properties they must have to be members. 
+                                <br>
+                                For instance, the set O of all odd positive integers less than 10 can be written as
+                                O = {x | x is an odd positive integer less than 10}
+                                or, specifying the universe as the set of positive integers, as
+                                O={x∈<b>Z+</b>|xisodd andx< 10}.
+                                <br>
+                                We often use this type of notation to describe sets when it is impossible to list all the elements
+                                of the set. For instance, the set <b>Q+</b> of all positive rational numbers can be written as
+                                <br>
+                                <b>Q+</b>={x∈<b>R</b>|x=p, for some positive integers p and q}.
+                                <br>
+                                These sets, each denoted using a boldface letter, play an important role in discrete mathematics:
+                                <br>
+                                <b>N</b> = {0,1,2,3,...}, the set of <b>natural numbers</b>
+                                <br>
+                                <b>Z</b> = {...,−2,−1,0,1,2,...}, the set of <b>integers</b>
+                                <br>
+                                <b>Z+</b> = {1, 2, 3, . . .}, the set of <b>positive integers</b>
+                                <br>
+                                <b>Q</b> = {p/q | p ∈ Z, q ∈ Z, and q ̸= 0}, the set of <b>rational numbers</b> 
+                                <br>
+                                <b>R</b>, the set of <b>real numbers</b>
+                                <br>
+                                <b>R+</b>, the set of <b>positive real numbers</b>
+                                <br>
+                                <b>C</b>, the set of <b>complex numbers</b>.
+                                </li>
+                                    </ol>
+                        
+                        </details>
+                    
+                           
+
+            <details>
+                <summary class="sum1">
                 Set Operations 
                 </summary>
             </details>
-
+                
             <details>
                 <summary class="sum1">
                 Functions 
