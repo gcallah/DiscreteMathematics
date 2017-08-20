@@ -49,22 +49,22 @@
                 	</p>
                 	<ol>
                       	<li>
-                        Set the temporary maximum equal to the first integer in 
-                    	the sequence.
+                        	Set the temporary maximum equal to the first integer in 
+                    		the sequence.
                     	</li>
                     	<li>
-                    	Compare the next integer in the sequence to the temporary 
-                    	maximum, and if it is larger than the temporary maximum, set the 
-                    	temporary maximum equal to this integer.
+                    		Compare the next integer in the sequence to the temporary 
+                    		maximum, and if it is larger than the temporary maximum, set the 
+                    		temporary maximum equal to this integer.
                     	</li>
                     	<li>
-                      	Repeat the previous step if there are more integers in the
-                    	sequence.
-                  		</li>
-                  		<li>
-                        Stop when there are no integers left in the sequence. 
-                        The temporary maximum at this point is the largest integer in 
-                        the sequence.
+                      		Repeat the previous step if there are more integers in the
+                    		sequence.
+                  	</li>
+                  	<li>
+                        	Stop when there are no integers left in the sequence. 
+                        	The temporary maximum at this point is the largest integer in 
+                        	the sequence.
                         </li>
                     </ol>
                     <p>
@@ -72,25 +72,25 @@
             		</p>
                 	<ol>
                     	<li>
-                    	Input
+                    		Input
                     	</li>
                     	<li>
-                    	Output
+                    		Output
                     	</li>
                     	<li>
-                    	Definitiveness
+                    		Definitiveness
                     	</li>
                     	<li>
-                    	Correctness
+                    		Correctness
                     	</li>
                     	<li>
-                    	Finiteness
+                    		Finiteness
                     	</li>
                     	<li>
-                    	Effectiveness
+                    		Effectiveness
                     	</li>
                     	<li>
-                    	Generality
+                    		Generality
                     	</li>
                     </ol>
                 	<details>
@@ -123,8 +123,8 @@
                 					<b>else</b> <i>location =</i> 0
                 					<br>
                 					<b>return</b> <i>location{location</i> is the subscript of 
-									the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
-									</p>
+							the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
+							</p>
                 			</details>
                 			<details>
                 				<summary class="sum3">
@@ -244,36 +244,36 @@
                 		<summary class="sum2">
                 		Greedy Algorithms
                 		</summary>
-                			<p>
-                			Algorithms that make what seems to be the best
-							choice at each step are called <b>greedy algorithms.</b>
-							<br>
-                			<b>Greedy Change-Making Algorithm</b>
-                			<br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="graphics/GreedyChangeMaking.svg.png">
-                			<br>
-                			</p>
-                			<p class="def">LEMMA 1</p>
-                			<p>
-                			If n is a positive integer, then n cents in change using 
-                			quarters, dimes, nickels, and pennies using the fewest coins possible 
-                			has at most two dimes, at most one nickel, at most four pennies, and 
-                			cannot have two dimes and a nickel. The amount of change in dimes, 
-                			nickels, and pennies cannot exceed 24 cents.
-                			</p>
-                			<br>
-                			<p class="def">THEOREM 1</p>
-                			<p>
-                			The greedy algorithm produces change using the 
-                			fewest coins possible.<br>
-                			<br>
-                			<b>Greedy Algorithm for Scheduling Talks</b>
-                			<br>
-                			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                			<img src="graphics/GreedyScheduling.svg.png">
-                			<br>
-                			</p>
+                		<p>
+                		Algorithms that make what seems to be the best
+				choice at each step are called <b>greedy algorithms.</b>
+				<br>
+                		<b>Greedy Change-Making Algorithm</b>
+                		<br>
+                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                		<img src="graphics/GreedyChangeMaking.svg.png">
+                		<br>
+                		</p>
+                		<p class="def">LEMMA 1</p>
+               			<p>
+               			If n is a positive integer, then n cents in change using 
+               			quarters, dimes, nickels, and pennies using the fewest coins possible 
+               			has at most two dimes, at most one nickel, at most four pennies, and 
+               			cannot have two dimes and a nickel. The amount of change in dimes, 
+               			nickels, and pennies cannot exceed 24 cents.
+               			</p>
+               			<br>
+               			<p class="def">THEOREM 1</p>
+               			<p>
+               			The greedy algorithm produces change using the 
+               			fewest coins possible.<br>
+               			<br>
+               			<b>Greedy Algorithm for Scheduling Talks</b>
+               			<br>
+               			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                		<img src="graphics/GreedyScheduling.svg.png">
+                		<br>
+                		</p>
                 	</details>
                 	<details>
                 	<summary class="sum2">
@@ -287,15 +287,15 @@
                 		<br>
                 		</p>
                 	</details>    	
-			</details>	
-            <details>
+		</details>
+		<details>
             	<summary class="sum1">
                 The Growth of Functions 
                 </summary>
                 	<details>
                 		<summary class="sum2">
-                Big-O Notation
-                </summary>
+                		Big-O Notation
+                		</summary>
                 		<p class="def">DEFINITION 1</p>
                 		<p>Let <i>f</i> and <i>g</i> be functions from the set of integers 
                 		or the set of real numbers to the set of real numbers.We say that 
@@ -305,46 +305,46 @@
                 		<br> 
                  		(This is read as "<i>f(x)</i> is big-oh of <i>g(x)</i>.")
                  		<br>
-						<b>Example 1 </b>Show that <i>f(x)</i> = 7<i>x<sup>2</sup></i> is 
-						O(<i>x<sup>3</sup></i>).
-						Take <i>C</i> =1 and <i>k</i> = 7 as witnesses to establish 
-						that 7<i>x<sup>2</sup></i>  is <i>O(x<sup>3</sup>)</i>.
-						<br>
-						When <i>x</i> > 7, 7<i>x<sup>2</sup></i> < <i>x<sup>3</sup></i>.
-						<br>
-						Consequently, we can take <i>C</i>= 1 and <i>k</i> = 7 as 
-						witnesses to establish the relationship 7<i>x<sup>2</sup></i> is 
-						O(<i>x<sup>3</sup></i>).
-						<br>
-						Alternatively, when <i>x</i> > 1, we have 7<i>x<sup>2</sup></i> < 
-						7<i>x<sup>3</sup></i>, so that <i>C</i> = 7 
-						and <i>k</i> = 1 are also witnesses to the relationship 
-						7<i>x<sup>2</sup></i> is <i>O(x<sup>3</sup>)</i>.
-						</p>
+				<b>Example 1 </b>Show that <i>f(x)</i> = 7<i>x<sup>2</sup></i> is 
+				O(<i>x<sup>3</sup></i>).
+				Take <i>C</i> =1 and <i>k</i> = 7 as witnesses to establish 
+				that 7<i>x<sup>2</sup></i>  is <i>O(x<sup>3</sup>)</i>.
+				<br>
+				When <i>x</i> > 7, 7<i>x<sup>2</sup></i> < <i>x<sup>3</sup></i>.
+				<br>
+				Consequently, we can take <i>C</i>= 1 and <i>k</i> = 7 as 
+				witnesses to establish the relationship 7<i>x<sup>2</sup></i> is 
+				O(<i>x<sup>3</sup></i>).
+				<br>
+				Alternatively, when <i>x</i> > 1, we have 7<i>x<sup>2</sup></i> < 
+				7<i>x<sup>3</sup></i>, so that <i>C</i> = 7 
+				and <i>k</i> = 1 are also witnesses to the relationship 
+				7<i>x<sup>2</sup></i> is <i>O(x<sup>3</sup>)</i>.
+				</p>
                 	</details>
             		<details>
-                	<summary class="sum2">
-                	Big-O Estimates for Some Important Functions
-                	</summary>
-                	<p class="def">THEOREM 1</p>
-                	<p>Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
-                	a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
-                	a<sub>1</sub>...
-                	a<sub>n - 1</sub>, a<sub>n</sub> are real numbers.
-                	<br>
-					Then f(x) is O(x<sup>n</sup>).
-					<br>
-					<b>A Display of the Growth of Functions Commonly Used in Big-O 
-					Estimates.</b>
-					<br>
-					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					<img src="graphics/BigOEstimates.svg.png">
-					</p>
-                </details>
+                		<summary class="sum2">
+                		Big-O Estimates for Some Important Functions
+                		</summary>
+                		<p class="def">THEOREM 1</p>
+                		<p>Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
+                		a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
+                		a<sub>1</sub>...
+                		a<sub>n - 1</sub>, a<sub>n</sub> are real numbers.
+                		<br>
+				Then f(x) is O(x<sup>n</sup>).
+				<br>
+				<b>A Display of the Growth of Functions Commonly Used in Big-O 
+				Estimates.</b>
+				<br>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<img src="graphics/BigOEstimates.svg.png">
+				</p>
+                	</details>
                 	<details>
-                	<summary class="sum2">
-                	The Growth of Combinations of Functions
-                	</summary>
+                		<summary class="sum2">
+                		The Growth of Combinations of Functions
+                		</summary>
                 		<p class="def">THEOREM 2</p>
                 		<p>Suppose that <i>f<sub>1</sub> (x)</i> is 
                 		<i>O(g<sub>1</sub> (x))</i> and that 
@@ -366,79 +366,79 @@
                 		Then <i>(f<sub>1</sub>f<sub>2</sub>)(x)</i> is 
                 		<i>O(g<sub>1</sub>(x)g<sub>2</sub>(x))</i>.
                 		</p>
-                </details>
+			</details>
                 
                 	<details>
                 		<summary class="sum2">
-                	Big-Omega and Big-Theta Notation
-                	</summary>
-        				<p class="def">DEFINITION 2</p>
-        				<p>
-        				Let <i>f</i> and <i>g</i> be functions from the set of integers 
-        				or the set of real numbers to the set of real numbers.We say that 
-        				<i>f (x)</i> is <i>&#937;(g(x))</i> if there are positive constants 
-        				<i>C</i> and <i>k</i> such that |<i>f (x)</i>| &ge; 
-        				<i>C</i>|<i>g(x)</i>| whenever <i>x</i> > <i>k</i>.
-        				<br>
-        				(This is read as "f (x) is big-Omega of g(x).")
-        				<br>
-        				<b>Example : </b>Show that <i>f(x)</i> = <i>x<sup>3</sup></i> is 
-					    &Omega;(7<i>x<sup>2</sup></i>).
-					    <ul>
-					    	<li>
-					    	In the above example we have proved the exact opposite.
-					    	</li>
-					    	<li>
-					    	Consider the same witness <i>C</i> =1 and <i>k</i> = 7 to 
-					    	establish this relation
-					    	</li>
-					    	<li>
-					    	Just by turning in inequality, we can sat that f(x) is &Omega;
-					    	(7<i>x<sup>2</sup></i>)
-					    	</li>
-					    </ul>
-        				</p>
-        				<p class="def">DEFINITION 3</p>
-  						<p>      		
-        				Let <i>f</i> and <i>g</i> be functions from the set of integers 
-        				or the set of real numbers to the set of real numbers.We say that
-        				<i>f (x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
-        				and <i>f(x) </i>is <i>&#937;(g(x))</i>. When <i>f(x)</i> is 
-        				<i>&#920;(g(x))</i> we say that <i>f</i> is big-Theta of <i>g(x)</i>, 
-        				that <i>f(x)</i> is of order <i>g(x)</i>, and that <i>f(x)</i> and 
-        				<i>g(x)</i> are of the same order.
-        				<br>
-        				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
-        				log <i>x</i> is <i>&Theta;(x<sup>2</sup>)</i>.
-        				<br>
-        				<ul>
-        					<li>
+                		Big-Omega and Big-Theta Notation
+                		</summary>
+        			<p class="def">DEFINITION 2</p>
+        			<p>
+        			Let <i>f</i> and <i>g</i> be functions from the set of integers 
+        			or the set of real numbers to the set of real numbers.We say that 
+       				<i>f (x)</i> is <i>&#937;(g(x))</i> if there are positive constants 
+       				<i>C</i> and <i>k</i> such that |<i>f (x)</i>| &ge; 
+       				<i>C</i>|<i>g(x)</i>| whenever <i>x</i> > <i>k</i>.
+       				<br>
+       				(This is read as "f (x) is big-Omega of g(x).")
+       				<br>
+       				<b>Example : </b>Show that <i>f(x)</i> = <i>x<sup>3</sup></i> is 
+				&Omega;(7<i>x<sup>2</sup></i>).
+				<ul>
+					<li>
+						In the above example we have proved the exact opposite.
+				    	</li>
+				    	<li>
+				    		Consider the same witness <i>C</i> =1 and <i>k</i> = 7 to 
+				    		establish this relation
+				    	</li>
+					<li>
+				    		Just by turning in inequality, we can sat that f(x) is &Omega;
+				    		(7<i>x<sup>2</sup></i>)
+				    	</li>
+			    	</ul>
+        			</p>
+        			<p class="def">DEFINITION 3</p>
+  				<p>      		
+        			Let <i>f</i> and <i>g</i> be functions from the set of integers 
+       				or the set of real numbers to the set of real numbers.We say that
+       				<i>f (x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
+       				and <i>f(x) </i>is <i>&#937;(g(x))</i>. When <i>f(x)</i> is 
+       				<i>&#920;(g(x))</i> we say that <i>f</i> is big-Theta of <i>g(x)</i>, 
+       				that <i>f(x)</i> is of order <i>g(x)</i>, and that <i>f(x)</i> and 
+       				<i>g(x)</i> are of the same order.
+       				<br>
+       				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
+        			log <i>x</i> is <i>&Theta;(x<sup>2</sup>)</i>.
+        			<br>
+        			<ul>
+        				<li>
         					Because 0 &le; 8<i>x</i> log <i>x</i> &le; 8<i>x<sup>2</sup></i>, 
         					it follows that 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> 
         					&le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
-        					</li>
-        					<li>
-        					Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
-        					O(<i>x<sup>2</sup></i>). 
-        					</li>
-							<li>
-							Clearly, <i>x<sup>2</sup></i> is 
-							O(3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i>).
-							</li>
-							<li>
-							Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
-							<i>&Theta;(x<sup>2</sup>)</i>.
-							</li>
-						</ul>
-        				</p>
-        				<p class="def">THEOREM 4</p>
-        				<p>Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> + 
-        				 <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>  
-        				 + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>, 
-        				 <i>a<sub>1</sub></i>, . . . , an are real numbers 
-        				 with <i>a<sub>n</sub> &ne;</i> 0.
-        				 <br>
-        				 Then <i>f(x)</i> is of order <i>x<sup>n</sup></i>.</p>
+        				</li>
+        				<li>
+       						Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
+       						O(<i>x<sup>2</sup></i>). 
+       					</li>
+					<li>
+						Clearly, <i>x<sup>2</sup></i> is 
+						O(3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i>).
+					</li>
+					<li>
+						Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
+						<i>&Theta;(x<sup>2</sup>)</i>.
+					</li>
+				</ul>
+        			</p>
+        			<p class="def">THEOREM 4</p>
+        			<p>Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> + 
+        			 <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>  
+       				 + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>, 
+       				 <i>a<sub>1</sub></i>, . . . , an are real numbers 
+       				 with <i>a<sub>n</sub> &ne;</i> 0.
+       				 <br>
+       				 Then <i>f(x)</i> is of order <i>x<sup>n</sup></i>.</p>
                 </details>  
             </details>
             <details>
@@ -464,27 +464,29 @@
                 the maximum element in a finite set of integers.
                 <ul>
                 	<li>
-                	Count the number of comparisons
+                		Count the number of comparisons
                 	</li>
                 	<li>
-                	There are n comparisons  while entering the for loop, one extra when i
-                	becomes equal to n
+                		There are n comparisons  while entering the for loop, one extra when i
+                		becomes equal to n
                 	</li>
                 	<li>
-                	There are n-1 comparison in the if loop to check the maximum element
+                		There are n-1 comparison in the if loop to check the maximum element
                 	</li>
                 	<li>
-                	The total comparison will be n + (n-1)<br>
-                	2(n-1) - 1 = 2n -1 comparisons are made
+                		The total comparison will be n + (n-1)<br>
+                		2(n-1) - 1 = 2n -1 comparisons are made
                 	</li>
-                	Hence, the complexity will be &Theta;(n)
-                </ul>         
+			<li>
+                		Hence, the complexity will be &Theta;(n)
+			</li>
+                </ul>       
                 </p>
                 </details>
                 <details>
                 	<summary class="sum2">
-                Complexity of Matrix Multiplication
-                </summary>
+               		 Complexity of Matrix Multiplication
+                	</summary>
                 	<p>The definition of the product of two matrices can be expressed as an
                  	algorithm for computing the product of two matrices. Suppose that 
                  	<b>C</b> = [<i>c<sub>ij</sub></i>] is the <i>m &#x2715; n</i> matrix that is the 
@@ -500,21 +502,21 @@
                  	How many additions of integers and multiplications of integers are used 
                  	by the matrix multiplication algorithm to multiply two <i>n * n </i>matrices.
                  	<ul>
-                 	<li>
-                 	There are a total of <i>n<sup>2</sup></i> elements in the product matrix.
-                 	</li>
-                 	<li>
-                 	Each element requires <i>n</i> multiplications and <i>n-1</i> additions.
-                 	</li>
-                 	<li>
-                 	Hence, <i>n<sup>3</sup></i> multiplications and
-                 	<i>n<sup>2</sup>(n - 1)</i> additions are used.
-                 	</li>
-                 	<li>
-                 	Hence, the complexity of matrix multiplication is <i>O(n<sup>3</sup>)</i>.  
-                 	</li>
-                 </ul>
-                 	</p>
+                 		<li>
+                 			There are a total of <i>n<sup>2</sup></i> elements in the product matrix.
+                 		</li>
+                 		<li>
+                 			Each element requires <i>n</i> multiplications and <i>n-1</i> additions.
+                 		</li>
+                 		<li>
+                 			Hence, <i>n<sup>3</sup></i> multiplications and
+                 			<i>n<sup>2</sup>(n - 1)</i> additions are used.
+                 		</li>
+                 		<li>
+                 			Hence, the complexity of matrix multiplication is <i>O(n<sup>3</sup>)</i>.  
+                 		</li>
+                	</ul>
+                </p>
                 </details>
                 <details>
                 <summary class="sum2">
@@ -529,16 +531,16 @@
                 <br>
                 <b>Example :</b> 
                 Brute Force Algorithms
-				<br>
-				A brute-force algorithm is solved in the most straightforward manner, 
-				without taking advantage of any ideas that can make the algorithm more 
-				efficient.
+		<br>
+		A brute-force algorithm is solved in the most straightforward manner, 
+		without taking advantage of any ideas that can make the algorithm more 
+		efficient.
                 Construct a brute-force algorithm for finding the closest pair of 
                 points in a set of n points in the plane and provide a worst-case 
                 estimate of the number of arithmetic operations.
                 <br>
                 <br>
-				<b>Pseudocode for Brute-Force Closest Point Algorithm</b>
+		<b>Pseudocode for Brute-Force Closest Point Algorithm</b>
                 <br>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <img src="graphics/ClosestPairAlgorithm.svg.png">
@@ -633,14 +635,14 @@
                 <br>
                 <b>Tractable problem : </b>a problem for which there is a worst-case 
                 polynomial-time algorithm that solves it
-				<br>
-				<b>Intractable problem : </b>a problem for which no worst-case
-				polynomial-time algorithm exists for solving it
-				<br>
-				<b>Solvable problem : </b>a problem that can be solved by an algorithm
-				<br>
-				<b>unsolvable problem : </b>a problem that cannot be solved by an
-				algorithm
+		<br>
+		<b>Intractable problem : </b>a problem for which no worst-case
+		polynomial-time algorithm exists for solving it
+		<br>
+		<b>Solvable problem : </b>a problem that can be solved by an algorithm
+		<br>
+		<b>unsolvable problem : </b>a problem that cannot be solved by an
+		algorithm
                 </p>
                 </details>
             </details>
