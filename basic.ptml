@@ -20,13 +20,6 @@
                 </figure>
             </div>
             
-
-            <h3>
-                <a href="sets.html">
-                Sets 
-                </a>
-            </h3>
-
             <details>
                 <summary class="sum1">
                 Introduction
@@ -200,13 +193,14 @@
                             Let A and B be sets. The <b>Cartesian product</b> of A and B, denoted by A × B, is the set of all ordered pairs (a, b), where a ∈ A and b ∈ B. Hence,
                             <br>
                             A × B = {(a, b) | a ∈ A ∧ b ∈ B}.
+                            </p>
                             <p>    
                             The <b>ordered n-tuple</b> (a1, a2, . . . , an) is the ordered collection that has a1 as its first element, a2 as its second element, . . . , and an as its nth element.
                             <br>
                             In other words, (a1,a2,...,an) = (b1,b2,...,bn) if and only if ai = bi, for i = 1, 2, . . . , n.
                                 </p>
                     </details>     
-                           
+              </details>             
 
             <details>
                 <summary class="sum1">
