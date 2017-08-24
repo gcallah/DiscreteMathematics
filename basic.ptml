@@ -20,13 +20,6 @@
                 </figure>
             </div>
             
-
-            <h3>
-                <a href="sets.html">
-                Sets 
-                </a>
-            </h3>
-
             <details>
                 <summary class="sum1">
                 Introduction
@@ -200,13 +193,14 @@
                             Let A and B be sets. The <b>Cartesian product</b> of A and B, denoted by A × B, is the set of all ordered pairs (a, b), where a ∈ A and b ∈ B. Hence,
                             <br>
                             A × B = {(a, b) | a ∈ A ∧ b ∈ B}.
+                            </p>
                             <p>    
                             The <b>ordered n-tuple</b> (a1, a2, . . . , an) is the ordered collection that has a1 as its first element, a2 as its second element, . . . , and an as its nth element.
                             <br>
                             In other words, (a1,a2,...,an) = (b1,b2,...,bn) if and only if ai = bi, for i = 1, 2, . . . , n.
                                 </p>
                     </details>     
-                           
+              </details>             
 
             <details>
                 <summary class="sum1">
@@ -535,12 +529,90 @@
                 <summary class="sum1">
                 Cardinality of Sets 
                 </summary>
+                <p>
+                    The sets A and B have the same cardinality if and only if there is a one-to-one correspondence from A to B. When A and B have the same cardinality, we write |A| = |B|.
+                </p>
+                <p>
+                    If there is a one-to-one function from A to B, the cardinality of A is less than or the same as the cardinality of B and we write |A| ≤ |B|. Moreover, when |A| ≤ |B| and A and B have different cardinality, we say that the cardinality of A is less than the cardinality of B and we write |A| < |B|.
+                </p>
+                <details>
+                <summary class="sum2">
+                Countable Sets
+                </summary>
+                <p>
+                A set that is either finite or has the same cardinality as the set of positive integers is called <b>countable</b>. A set that is not countable is called uncountable. When an infinite set S is countable, we denote the cardinality of S by א0 (where א is aleph, the first letter of the Hebrew alphabet). We write |S| = א0 and say that S has cardinality “aleph null.”
+                <br>
+                <b>For Example</b>:Show that the set of all integers is countable.
+                <br>
+                <b>Solution</b>: We can list all integers in a sequence by starting with 0 and alternating between positive and negative integers: 0, 1, −1, 2, −2, . . . . Alternatively, we could find a one-to-one correspondence between the set of positive integers and the set of all integers. We leave it to the reader to show that the function f (n) = n/2 when n is even and f (n) = −(n − 1)/2 when n is odd is such a function. Consequently, the set of all integers is countable.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                An Uncountable Set
+                </summary>
+                <p>
+                <b>An uncountable</b> set (or uncountably infinite set)[1] is an infinite set that contains too many elements to be countable. The uncountability of a set is closely related to its cardinal number: a set is uncountable if its cardinal number is larger than that of the set of all natural numbers.
+                </p>
+                </details>
+                <details>
+                <summary class="sum3">
+                Theorems  
+                </summary>
+                <ol>
+                    <li>
+                    <b>Theorem 1</b>: If A and B are countable sets, then A ∪ B is also countable.
+                    </li>
+                    <li>
+                    <b>Theorem 2</b>: SCHRÖDER-BERNSTEIN THEOREM If A and B are sets with |A| ≤ |B| and |B| ≤ |A|, then |A| = |B|. In other words, if there are one-to-one functions f from A to B and g from B to A, then there is a one-to-one correspondence between A and B.
+                    </li>
+                </ol>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Matrices 
                 </summary>
+                <p>
+                A <b>matrix</b> is a rectangular array of numbers. A matrix with m rows and n columns is called an m × n matrix. The plural of matrix is matrices. A matrix with the same number of rows as columns is called square. Two matrices are equal if they have the same number of rows and the same number of columns and the corresponding entries in every position are equal.
+                <br>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Matrix.svg/494px-Matrix.svg.png">
+                </p>
+
+                <details>
+                <summary class="sum1">
+                Basic Matrix operations
+                </summary>
+                <ol>
+                <li>
+                <b>Addition</b>: The sum A+B of two m-by-n matrices A and B is calculated entrywise:
+                (A + B)i,j = Ai,j + Bi,j, where 1 ≤ i ≤ m and 1 ≤ j ≤ n.
+                <br>        
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/9e600aa691a93ceb33f0fdac290002d1391d6688">
+                </li>
+                <li>
+                <b>Scalar multiplication</b>: The product c.A of a number c (also called a scalar in the parlance of abstract algebra) and a matrix A is computed by multiplying every entry of A by c:
+                <br>
+                (cA)i,j = c · Ai,j.  
+                <br>
+                <img src = " https://wikimedia.org/api/rest_v1/media/math/render/svg/cf7fe1075c8c575225e74096007bef9205c88964">
+                </li>
+                <li>
+                <b>Transposition</b>:The transpose of an m-by-n matrix A is the n-by-m matrix AT (also denoted Atr or tA) formed by turning rows into columns and vice versa:
+                (AT)i,j = Aj,i.
+                <br>
+                <img src = " https://wikimedia.org/api/rest_v1/media/math/render/svg/51f6dba024e104b412ed0562163ca9a11fcb9463">
+                </li>
+                <li>
+                <b>Matrix multiplication</b> : Multiplication of two matrices is defined if and only if the number of columns of the left matrix is the same as the number of rows of the right matrix.If A is an m-by-n matrix and B is an n-by-p matrix, then their matrix product AB is the m-by-p matrix whose entries are given by dot product of the corresponding row of A and the corresponding column of B:
+                <br>
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/db581eb370e44283170093b08a2ae8407bc38314">
+                <br>
+                <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Matrix_multiplication_diagram_2.svg/400px-Matrix_multiplication_diagram_2.svg.png">
+                </li>
+                </ol>
+            </details>
             </details>
 
     </body>
