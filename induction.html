@@ -41,8 +41,8 @@
                 <p>
                 	Mathematical induction can be used to prove 
                 	statements that assert that <i>P(n)</i> is
-			true for all positive integers <i>n</i>, 
-			where <i>P(n)</i> is a propositional function
+                    true for all positive integers <i>n</i>,
+                    where <i>P(n)</i> is a propositional function
                 </p>
                 <p class="def"> 
                 	<i>PRINCIPLE OF MATHEMATICAL INDUCTION</i>
@@ -75,7 +75,8 @@
     				<br>
     				when the domain is the set of positive integers.
     			</p>
-    			<details>
+
+                <details>
                 	<summary class="sum2">
                 		Why Mathematical Induction is Valid?
                 	</summary>
@@ -94,49 +95,51 @@
                 		<b>Proof : </b>
                 		<br>
                 		The set <i>S</i> of positive integers for which
-				<i>P(n)</i> is false is nonempty. Thus, by the 
-				well-ordering property, <i>S</i> has a least element, 
-				which will be denoted by <i>m</i>.
-				<br>
-				<i>m</i> 
-				cannot be 1, because <i>P(1)</i> is true
-				<br>
-				Because <i>m</i> is positive and greater than 1,
-				<i>m</i> - 1 is a positive integer. 
-				<br>
-				Furthermore, because <i>m</i> - 1 is 
-				less than <i>m</i>, it is not in <i>S</i>,
-				so <i>P(m</i> - 1) must be true. 
-				<br>
-				Because the conditional statement <i>P(m</i> - 1) 
-				&rarr; <i>P(m</i>)  is also true, it must be the case 
-				that <i>P(m</i>) is true. This contradicts the 
-				choice of <i>m</i>).
-				<br>
-				Hence, <i>P(n)</i> must be true 
-				for every positive integer <i>n</i>.
+                        <i>P(n)</i> is false is nonempty. Thus, by the
+                        well-ordering property, <i>S</i> has a least element,
+                        which will be denoted by <i>m</i>.
+                        <br>
+                        <i>m</i>
+                        cannot be 1, because <i>P(1)</i> is true
+                        <br>
+                        Because <i>m</i> is positive and greater than 1,
+                        <i>m</i> - 1 is a positive integer.
+                        <br>
+                        Furthermore, because <i>m</i> - 1 is
+                        less than <i>m</i>, it is not in <i>S</i>,
+                        so <i>P(m</i> - 1) must be true.
+                        <br>
+                        Because the conditional statement <i>P(m</i> - 1)
+                        &rarr; <i>P(m</i>)  is also true, it must be the case
+                        that <i>P(m</i>) is true. This contradicts the
+                        choice of <i>m</i>).
+                        <br>
+                        Hence, <i>P(n)</i> must be true
+                        for every positive integer <i>n</i>.
                 	</p>
                 </details>
+
                 <details>
                 	<summary class="sum2">
                 		The Good and the Bad of Mathematical Induction
                 	</summary>
                 	<p>
-                		<b>Good : </b>it can be used to prove
-                		a conjecture once it is has been made (and is true).
-                		<br>
-                		<b>Bad : </b>
+                        <b>Good : </b>it can be used to prove
+                        a conjecture once it is has been made (and is true).
+                        <br>
+                        <b>Bad : </b>
                 		it is that it cannot a theorem by mathematical induction
-				even if you do not have the slightest idea why it is true? 
-				be used to find new theorems. Mathematicians sometimes find 
-				proofs by mathematical induction unsatisfying because they 
-				do not provide insights as to why theorems are true. Many
-				theorems can be proved in manyways, including by mathematical 
-				induction. Proofs of these theorems by methods other than 
-				mathematical induction are often preferred because of the insights
-				they bring.
+                        even if you do not have the slightest idea why it is true?
+                        be used to find new theorems. Mathematicians sometimes find
+                        proofs by mathematical induction unsatisfying because they
+                        do not provide insights as to why theorems are true. Many
+                        theorems can be proved in manyways, including by mathematical
+                        induction. Proofs of these theorems by methods other than
+                        mathematical induction are often preferred because of the insights
+                        they bring.
                 	</p>
                 </details>
+
                 <details>
                 	<summary class="sum2">
             			Examples of Proofs by Mathematical Induction
@@ -146,129 +149,129 @@
             				Proving Summation Formulae
             			</summary>
             			<p>
-            				Show that if n is a positive integer, then
-					1 + 2 + . . . + <i>n</i> =
-					<span class="frac">
-						<sup>
-					    		<i>n(n+1)</i>
-					    	</sup>
-					    	<span>
-					    		&frasl;
-						</span>
-				    		<sub>
-				    			2
-				    		</sub>
-					</span>
-				</p>
-				<p class="def">
-			    		BASIS STEP: 
-				</p>
-				<p>
-					P(1) is true, because 1 = 
-				    	<span class="frac">
-				    		<sup>
-							1(1+1)
-					    	</sup>
-					    	<span>
-					    		&frasl;
-					    	</span>
-					    	<sub>
-					    		2
-					    	</sub>
-					</span>
-            			</p>
-            			<p class="def">
-				    	INDUCTIVE STEP: 
-				</p>
-            			<p>
-            				P(k) holds for an arbitrary positive integer <i>k</i>. 
-            				we assume that 1 + 2 + . . . + <i>k</i> = 
-            				<span class="frac">
-			    			<sup>
-			    				<i>k</i>(<i>k</i>+1)
-			    			</sup>
-						<span>
-		    					&frasl;
-			    			</span>
-						<sub>
-							2
-						</sub>
-					</span>
-					<br>
-				    	Under this assumption, 
-				    	it must be shown that P(<i>k</i> + 1) is true, 
-				    	namely, that
-				    	<br>
-				    	1 + 2 + . . . + <i>k</i> + (<i>k</i> + 1) =
-					<span class="frac">
-				    		<sup>
-				    			(<i>k</i> + 1)[(<i>k</i> + 1) + 1]
-				    		</sup>
-				    		<span>
-				    			&frasl;
-					    	</span>
-					    	<sub>
-					   		2
-					    	</sub>
-					</span>
-				    	<span class="frac">
-				   		<sup>
-				    			(<i>k</i> + 1)(<i>k</i> + 2)
-					    	</sup>
-					    	<span>
-					   		&frasl;
-					    	</span>
-					    	<sub>
-					    		2
-					    	</sub>
-					</span>
-            				<br>
+                            Show that if n is a positive integer, then
+                            1 + 2 + . . . + <i>n</i> =
+                            <span class="frac">
+                                <sup>
+                                    <i>n(n+1)</i>
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                        </p>
+                        <p class="def">
+                            BASIS STEP:
+                        </p>
+                        <p>
+                            P(1) is true, because 1 =
+                            <span class="frac">
+                                <sup>
+                                    1(1+1)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                        </p>
+                        <p class="def">
+                            INDUCTIVE STEP:
+                        </p>
+                        <p>
+                            P(k) holds for an arbitrary positive integer <i>k</i>.
+                            we assume that 1 + 2 + . . . + <i>k</i> =
+                            <span class="frac">
+                                <sup>
+                                    <i>k</i>(<i>k</i>+1)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                            <br>
+                            Under this assumption,
+                            it must be shown that P(<i>k</i> + 1) is true,
+                            namely, that
+                            <br>
+                            1 + 2 + . . . + <i>k</i> + (<i>k</i> + 1) =
+                            <span class="frac">
+                                <sup>
+                                    (<i>k</i> + 1)[(<i>k</i> + 1) + 1]
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                            <span class="frac">
+                                <sup>
+                                    (<i>k</i> + 1)(<i>k</i> + 2)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                            <br>
             				is also true. When we add k + 1 to both sides of 
             				the equation in P(<i>k</i>), we obtain
             				<br>
             				1 + 2+. . .+ <i>k</i> + (<i>k</i> + 1) = 
             				<span class="frac">
-						<sup>
-							<i>k</i>(<i>k</i>+1)
-					    	</sup>
-					    	<span>
-					    		&frasl;
-					    	</span>
-					    	<sub>
-					    		2
-						</sub>
-					</span> 
-					+ 
-					(<i>k</i> + 1)
-				    	<br>
-				    	= 
-				    	<span class="frac">
-				    		<sup>
-				    			<i>k</i>(<i>k</i> + 1) + 2(<i>k</i> + 1)
-					    	</sup>
-					    	<span>
-					   		&frasl;
-					    	</span>
-					    	<sub>
-					    		2
-						</sub>
-					</span>
+                                <sup>
+                                    <i>k</i>(<i>k</i>+1)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                            +
+                            (<i>k</i> + 1)
+                            <br>
+                            =
+                            <span class="frac">
+                                <sup>
+                                    <i>k</i>(<i>k</i> + 1) + 2(<i>k</i> + 1)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
             				<br>
-            				=
-            				<span class="frac">
-						<sup>
-					 		(<i>k</i> + 1)(<i>k</i> + 2)
-					    	</sup>
-					    	<span>
-					    		&frasl;
-					    	</span>
-					    	<sub>
-					    		2
-					    	</sub>
-					</span>
-				    	<br>
-				    	This last equation shows that P(<i>k</i> + 1) 
-				    	is true under the assumption that P(k) is true.
+                                =
+                            <span class="frac">
+                                <sup>
+                                    (<i>k</i> + 1)(<i>k</i> + 2)
+                                </sup>
+                                <span>
+                                    &frasl;
+                                </span>
+                                <sub>
+                                    2
+                                </sub>
+                            </span>
+                            <br>
+                            This last equation shows that P(<i>k</i> + 1)
+                            is true under the assumption that P(k) is true.
             			</p>
             		</details>
             	
@@ -276,34 +279,109 @@
                 		<summary class="sum3">
                 			Proving Inequalities
                 		</summary>
+                        <p>
+                            Use mathematical induction to prove the inequality
+                            <br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <i>n</i> < 2<i>n</i>
+                            <br>
+                            for all positive integers n.
+                        </p>
+                        <p class="def">
+                            BASIS STEP:
+                        </p>
+                        <p>
+                            <i>P</i>(1) is true, because 1 < 2<sup>1</sup> = 2.
+                            This completes the basis step.
+                        </p>
+                        <p class="def">
+                            INDUCTIVE STEP :
+                        </p>
+                        <p>
+                            We first assume the inductive hypothesis
+                            that <i>P(k)</i> is true for an arbitrary
+                            positive integer <i>k</i>. That is,
+                            the inductive hypothesis <i>P(k)</i> is
+                            the statement that <i>k</i> < 2<sup><i>k</i></sup>.
+                            <br>
+                            We need to show that if <i>P(k)</i> is true,
+                            then <i>P(k + 1)</i>, which is the statement
+                            that <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>, is true.
+                            That is, we need to show that if
+                            <i>k</i> < 2<sup><i>k</i></sup>,
+                            then <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>.
+                            <br> <i>k</i> + 1 = 2<sup><i>k</i> +
+                            1</sup> &le; 2<sup><i>k</i></sup>
+                            + 2<sup><i>k</i></sup> = 2 . 2<sup><i>k</i></sup>
+                            = 2<sup><i>k</i></sup> + 1.
+                            <br>
+                            This shows that <i>P(k</i> + 1) is true, namely,
+                            that <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>,
+                            based on the assumption that <i>P(k)</i> is true.
+                        </p>
                 	</details>
-                	<details>
+
+                    <details>
                 		<summary class="sum3">
                 			Proving Divisibility Results
                 		</summary>
+                        <p>
+                            Use mathematical induction to prove that
+                            <i>n<sup>3</sup></i> - <i>n</i> is
+                            divisible by 3 whenever <i>n</i> is a
+                            positive integer.
+                        </p>
+                        <p class="def">
+                            BASIS STEP:
+                        </p>
+                        <p>
+                            The statement <i>P</i>(1) is true because
+                            1<sup>3</sup> - 1 = 0 is divisible by 3.
+                        </p>
+                        <br>
+                        <p class="def">
+                            INDUCTIVE STEP :
+                        </p>
+                        <p>
+                            Assume that <i>P(k)</i> is true; that is, we
+                            assume that <i>k</i><sup>3</sup> - <i>k</i> is
+                            divisible by 3 for an arbitrary positive integer <i>k</i>
+                            <br>
+                            (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            = (<i>k</i><sup>3</sup> + 3<i>k</i><sup>2</sup> +
+                            3<i>k</i> + 1) - (<i>k</i> + 1)
+                            <br>
+                            = (<i>k</i><sup>3</sup> - <i>k</i>) + 3(<i>k</i><sup>2</sup> + <i>k</i>).
+                            Using the inductive hypothesis, we conclude that the first
+                            term <i>k</i><sup>3</sup> - <i>k</i> is divisible by 3.
+                            <br>
+                            The second term is divisible by 3 because it is 3 times an integer.
+                            <br>
+                            So, (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            is also divisible by 3.
+                        </p>
                 	</details>
-                	<details>
+
+                    <details>
                 		<summary class="sum3">
                 			Proving Results about sets
                 		</summary>
                 	</details>
-                	<details>
-                		<summary class="sum3">
-                			Proving Divisibility Results
-                		</summary>
-                	</details>
-                	<details>
+
+                    <details>
                 		<summary class="sum3">
                 			Proving Results about Algorithms
                 		</summary>
                 	</details>
+
                 </details>
+
                 <details>
             		<summary class="sum2">
             			Guidelines for Proofs by Mathematical Induction
             		</summary>
             		<p>
-            		<b><i>Template for Proofs by Mathematical Induction</i></b>
+                        <b><i>Template for Proofs by Mathematical Induction</i></b>
             			<ol>
             				<li>
             					Express the statement that is to be proved in the 
@@ -349,8 +427,8 @@
             				</li>
             			</ol>
             		</p>
-            		
                 </details>
+
             </details>
 
             <details>
