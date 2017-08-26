@@ -353,6 +353,69 @@
                 		<summary class="sum3">
                 			Proving Results about sets
                 		</summary>
+                        <p>
+                            <b>The Number of Subsets of a Finite Set</b>
+                            Use mathematical induction to show that if <i>S</i> is a
+                            finite set with <i>n</i> elements,
+                            where <i>n</i> is a nonnegative integer,
+                            then <i>S</i> has 2<sup><i>n</i></sup> subsets.
+                            <br>
+                            Let <i>P(n)</i> be the proposition that a set
+                            with <i>n</i> elements has 2<sup><i>n</i></sup> subsets.
+                            <br>
+                        </p>
+                        <p class="def">
+                            BASIS STEP:
+                        </p>
+                        <p>
+                            <i>P</i>(0) is true,
+                            because a set with zero elements,
+                            the empty set, has exactly 2<sup><i>0</i></sup> = 1
+                            subset, namely, itself.
+                        </p>
+                        <br>
+                        <p class="def">
+                            INDUCTIVE STEP :
+                        </p>
+                        <p>
+                            <i>P(k)</i> is true for an arbitrary
+                            nonnegative integer <i>k</i>, that is,
+                            we assume that every set with
+                            <i>k</i> elements has 2<sup><i>k</i></sup> subsets
+                            <br>
+                            let <i>T</i> be a set with <i>k</i> + 1 elements.
+                            <br>
+                            It is possible to write <i>T</i> = <i>S</i> &cup; {a},
+                            where a is one of the elements of
+                            <i>T</i> and <i>S</i> = <i>T</i> - {a}
+                            (and hence |<i>S</i>| = <i>k</i>).
+                            <br>
+                            The subsets of <i>T</i> can be obtained in
+                            the following way.
+                            For each subset <i>X</i> of <i>S</i> there are
+                            exactly two subsets of <i>T</i> ,
+                            namely, <i>X</i> and <i>X</i> &cup; {<i>a</i>}.
+                            <br>
+                            These constitute all the subsets
+                            of <i>T</i> and are all distinct.
+                            <br>
+                            <i>S</i> has 2<sup><i>k</i></sup> subsets,
+                            because it has <i>k</i> elements.
+                            We also know that there are two
+                            subsets of <i>T</i> for each subset of <i>S</i>.
+                            <br>
+                            Therefore, there are 2 . 2<sup><i>k</i></sup>
+                            = 2<sup><i>k+1</i></sup>
+                            subsets of <i>T</i>. This finishes
+                            the inductive argument.
+                            <br>
+                            <i>P(n)</i> is true for all nonnegative
+                            integers <i>n</i>. That is, we have proved
+                            that a set with <i>n</i> elements
+                            has 2<sup><i>n</i></sup>
+                            subsets whenever <i>n</i> is a
+                            nonnegative integer.
+                        </p>
                 	</details>
 
                     <details>
@@ -361,6 +424,13 @@
                 		</summary>
                 	</details>
 
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Mistaken Proofs by Mathematical Induction
+                    </summary>
+                    <p>
+                    </p>
                 </details>
 
                 <details>
@@ -416,14 +486,79 @@
             		</p>
                 </details>
 
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Strong Induction and Well-Ordering
                 </summary>
-            </details>
+                <p class="def">
+                    Strong Induction
+                </p>
+                <p>
+                    To prove that <i>P(n)</i> is true
+                    for all positive integers <i>n</i>, where <i>P(n)</i>
+                    is a propositional function,
+                    we complete two steps:
+                    <br>
+                </p>
+                <p class="def">
+                    BASIC STEP :
+                </p>
+                <p>
+                    We verify that the proposition <i>P</i>(1) is true.
+                    <br>
+                </p>
+                <p class="def">
+                    INDUCTIVE STEP :
+                </p>
+                <p>
+                    We show that the conditional
+                    statement [<i>P</i>(1) &or; <i>P</i>(2)
+                    &or; . . . &or;
+                    <i>P(k</i>)] &rarr; <i>P(k</i> + 1) is true
+                    for all positive integers <i>k</i>.
+                    <br>
+                    <b>Example : </b>Show that if n is an
+                    integer greater than 1,
+                    then <i>n</i> can be written
+                    as the product of primes.
+                    <br>
+                </p>
+                <p class="def">
+                    BASIC STEP :
+                </p>
+                <p>
+                    <i>P</i>(2) is true, because 2 can
+                    be written as the product of one prime, itself.
+                <p>
+                <p class="def">
+                    INDUCTIVE STEP :
+                </p>
+                <p>
+                    The inductive hypothesis is the
+                    assumption that <i>P(j</i>) is true for all
+                    integers j with 2 &le; <i>j</i> &le; <i>k</i>, that is,
+                    the assumption that <i>j</i> can be written
+                    as the product of primes
+                    whenever <i>j</i> is a positive integer
+                    at least 2 and not exceeding <i>k</i>.
+                    <br>
+                </p>
 
+                <details>
+                    <summary class="sum2">
+                        Using Strong Induction in Computational Geometry
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Proofs Using the Well-Ordering Property
+                    </summary>
+                </details>
+            </details>
             <details>
                 <summary class="sum1">
                 Recursive Definitions and Structural Induction
