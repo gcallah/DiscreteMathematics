@@ -84,6 +84,7 @@
                 <p>
                 The most common representation of a positive integer is a string of bits, using the binary numeral system. The order of the memory bytes storing the bits varies; see endianness. The width or precision of an integral type is the number of bits in its representation. An integral type with n bits can encode 2n numbers; for example an unsigned type typically represents the non-negative values 0 through 2n−1. Other encodings of integer values to bit patterns are sometimes used, for example Binary-coded decimal or Gray code, or as printed character codes such as ASCII.
                 </p>
+                
                 2<sup>n</sup>−1. 
             </details>
 
