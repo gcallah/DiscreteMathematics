@@ -325,7 +325,6 @@
                             The statement <i>P</i>(1) is true because
                             1<sup>3</sup> - 1 = 0 is divisible by 3.
                         </p>
-                        <br>
                         <p class="def">
                             INDUCTIVE STEP :
                         </p>
