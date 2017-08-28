@@ -492,9 +492,9 @@
                 <summary class="sum1">
                 Strong Induction and Well-Ordering
                 </summary>
-                <p class="def">
+                <h4>
                     Strong Induction
-                </p>
+                </h4>
                 <p>
                     To prove that <i>P(n)</i> is true
                     for all positive integers <i>n</i>, where <i>P(n)</i>
