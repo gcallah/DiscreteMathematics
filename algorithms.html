@@ -66,8 +66,9 @@
                         	the sequence.
                         </li>
                     </ol>
-		<p>
+		        <p>
             		Properties of an Algorithm
+		        </p>	
                 	<ol>
                     	<li>
                     		Input
@@ -91,7 +92,6 @@
                     		Generality
                     	</li>
                     	</ol>
-		</p>	
 			<details>
                 		<summary class="sum2">
                 		Searching Algorithms 
@@ -111,7 +111,8 @@
                 					<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif" 
                 					alt="Linear Search Animation">
                 					<br>
-                					<p><b>procedure</b> <i>linear search(x</i>: integer, <i>a1, a2, .
+                					<br>
+                					<b>procedure</b> <i>linear search(x</i>: integer, <i>a1, a2, .
                 			 		. . , an</i>: distinct integers)<br>
                 					<i>i := 1</i><br>
                 					<b>while</b> (i <= n and x != a[i] )<br>
@@ -123,7 +124,7 @@
                 					<br>
                 					<b>return</b> <i>location{location</i> is the subscript of 
 							the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
-						</p>
+						        </p>
                 			</details>
                 			<details>
                 				<summary class="sum3">
@@ -414,8 +415,8 @@
         		</p>
        			<p class="def">
 				DEFINITION 3
-			</p>
-  			<p>      		
+			    </p>
+  			    <p>      		
         			Let <i>f</i> and <i>g</i> be functions from the set of integers 
        				or the set of real numbers to the set of real numbers.We say that
        				<i>f (x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
@@ -426,7 +427,7 @@
        				<br>
        				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
         			log <i>x</i> is <i>&Theta;(x<sup>2</sup>)</i>.
-        			<br>
+        		</p>
         			<ul>
         				<li>
         					Because 0 &le; 8<i>x</i> log <i>x</i> &le; 8<i>x<sup>2</sup></i>, 
@@ -446,10 +447,9 @@
 						<i>&Theta;(x<sup>2</sup>)</i>.
 					</li>
 				</ul>
-        		</p>
         		<p class="def">
 				THEOREM 4
-			</p>
+			    </p>
         		<p>
 				Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> + 
         			 <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>  
@@ -470,7 +470,7 @@
                 	Time Complexity
                 </summary>
                 <p>
-			An analysis of the time required to solve a problem of a particular 
+			        An analysis of the time required to solve a problem of a particular 
                 	size involves the time complexity of the algorithm.The time complexity of 
                 	an algorithm can be expressed in terms of the number of operations 
                 	used by the algorithm when the input has a particular size.
@@ -483,6 +483,7 @@
                 	<br>
                 	<b>Example :</b> Describe the time complexity of an Algorithm for finding 
                 	the maximum element in a finite set of integers.
+                </p>
                 	<ul>
                 		<li>
                 			Count the number of comparisons
@@ -498,11 +499,10 @@
                 			The total comparison will be n + (n-1)<br>
                 			2(n-1) - 1 = 2n -1 comparisons are made
                 		</li>
-				<li>
+				        <li>
                 			Hence, the complexity will be &Theta;(n)
-				</li>
+				        </li>
                 	</ul>       
-                </p>
                 </details>
                 <details>
                 	<summary class="sum2">
@@ -582,7 +582,6 @@
                 <summary class="sum2">
                 	Understanding the Complexity of Algorithms
                 </summary>
-                <p>
                 	<table>
                     	<tr>
                         	<th class="table-head" colspan="2">
@@ -604,7 +603,7 @@
                         	<td>
                             		Constant Complexity
                         	</td>
-			</tr>
+			            </tr>
                     	<tr>
                         	<td>
                            		&Theta;(log <i>n</i>)
@@ -654,7 +653,7 @@
                         	</td>
                     	</tr>
                 	</table>
-                	<br>
+                	<p>
                		<b>Tractable problem : </b>a problem for which there is a worst-case 
                 	polynomial-time algorithm that solves it
 			<br>
