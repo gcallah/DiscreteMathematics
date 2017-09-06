@@ -66,7 +66,7 @@
                             O = {x | x is an odd positive integer less than 10}
                             or, specifying the universe as the set of positive 
                             integers, as
-                            O={x &isin; <b>Z+</b>|x is odd andx< 10}.
+                            O={x &isin; <b>Z+</b> | x is odd and x < 10}.
                             </p>
                         </details>
                     <details>
@@ -79,7 +79,7 @@
                         of the set. For instance, the set <b>Q+</b> of all 
                         positive rational numbers can be written as
                         <br>
-                        <b>Q+</b>={x &isin; <b>R</b> | x = p / q,
+                        <b>&#8474;+</b>={x &isin; <b>R</b> | x = p / q,
                         for some positive integers p and q}.
                         <br>
                         These sets, each denoted using a boldface letter, 
@@ -88,17 +88,20 @@
                         <b>&#8469;</b>
                         = {0, 1, 2, 3, ...}, the set of <b>natural numbers</b>
                         <br>
-                        <b>Z</b> = {..., -2, -1, 0, 1, 2, ...}, the set of <b>integers</b>
+                        <b>&#8484;</b> =
+                        {..., -2, -1, 0, 1, 2, ...}, the set of <b>integers</b>
                         <br>
-                        <b>Z+</b> = {1, 2, 3, . . .}, the set of <b>positive integers</b>
+                        <b>&#8484;+</b>
+                        = {1, 2, 3, . . .}, the set of <b>positive integers</b>
                         <br>
-                        <b>Q</b> = {p/q | p &isin; Z, q &isin; Z, and q ̸= 0}, the set of <b>rational numbers</b> 
+                        <b>&#8474;</b> =
+                        {p/q | p &isin; Z, q &isin; Z, and q &ne; 0}, the set of <b>rational numbers</b> 
                         <br>
-                        <b>R</b>, the set of <b>real numbers</b>
+                        <b>&#8477;</b>, the set of <b>real numbers</b>
                         <br>
-                        <b>R+</b>, the set of <b>positive real numbers</b>
+                        <b>&#8477;+</b>, the set of <b>positive real numbers</b>
                         <br>
-                        <b>C</b>, the set of <b>complex numbers</b>.
+                        <b>&#8450;</b>, the set of <b>complex numbers</b>.
                     </details>
                         
                     <details>
@@ -202,7 +205,8 @@
                             comes from the common usage of the 
                             term cardinal number as the size of a finite set.
                             <br>
-                            <b>For Example</b>: Let A be the set of odd positive integers less than 10. Then |A| = 5.
+                            <b>For Example</b>: Let A be the
+                            set of odd positive integers less than 10. Then |A| = 5.
                                 </p>
                         </details> 
                     <details>
