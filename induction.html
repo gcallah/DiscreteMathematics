@@ -50,7 +50,7 @@
                 <p>
                 	To prove that <i>P(n)</i> is true for all positive 
                 	integers <i>n</i>, where <i>P(n)</i> is 
-					a propositional function, we complete two steps:
+			a propositional function, we complete two steps:
                 </p>
                 <p class="def"> 
                 	BASIC STEP: 
@@ -95,27 +95,27 @@
                 		<b>Proof : </b>
                 		<br>
                 		The set <i>S</i> of positive integers for which
-                        <i>P(n)</i> is false is nonempty. Thus, by the
-                        well-ordering property, <i>S</i> has a least element,
-                        which will be denoted by <i>m</i>.
-                        <br>
-                        <i>m</i>
-                        cannot be 1, because <i>P(1)</i> is true
-                        <br>
-                        Because <i>m</i> is positive and greater than 1,
-                        <i>m</i> - 1 is a positive integer.
-                        <br>
-                        Furthermore, because <i>m</i> - 1 is
-                        less than <i>m</i>, it is not in <i>S</i>,
-                        so <i>P(m</i> - 1) must be true.
-                        <br>
-                        Because the conditional statement <i>P(m</i> - 1)
-                        &rarr; <i>P(m</i>)  is also true, it must be the case
-                        that <i>P(m</i>) is true. This contradicts the
-                        choice of <i>m</i>).
-                        <br>
-                        Hence, <i>P(n)</i> must be true
-                        for every positive integer <i>n</i>.
+                        	<i>P(n)</i> is false is nonempty. Thus, by the
+                        	well-ordering property, <i>S</i> has a least element,
+                        	which will be denoted by <i>m</i>.
+                        	<br>
+                        	<i>m</i>
+                        	cannot be 1, because <i>P(1)</i> is true
+                        	<br>
+                        	Because <i>m</i> is positive and greater than 1,
+                        	<i>m</i> - 1 is a positive integer.
+                        	<br>
+                        	Furthermore, because <i>m</i> - 1 is
+                        	less than <i>m</i>, it is not in <i>S</i>,
+                        	so <i>P(m</i> - 1) must be true.
+                        	<br>
+                        	Because the conditional statement <i>P(m</i> - 1)
+                        	&rarr; <i>P(m</i>)  is also true, it must be the case
+                        	that <i>P(m</i>) is true. This contradicts the
+                        	choice of <i>m</i>).
+                        	<br>
+                        	Hence, <i>P(n)</i> must be true
+                        	for every positive integer <i>n</i>.
                 	</p>
                 </details>
 
@@ -124,19 +124,20 @@
                 		The Good and the Bad of Mathematical Induction
                 	</summary>
                 	<p>
-                        <b>Good : </b>it can be used to prove
-                        a conjecture once it is has been made (and is true).
-                        <br>
-                        <b>Bad : </b>
-                		it is that it cannot a theorem by mathematical induction
-                        even if you do not have the slightest idea why it is true?
-                        be used to find new theorems. Mathematicians sometimes find
-                        proofs by mathematical induction unsatisfying because they
-                        do not provide insights as to why theorems are true. Many
-                        theorems can be proved in manyways, including by mathematical
-                        induction. Proofs of these theorems by methods other than
-                        mathematical induction are often preferred because of the insights
-                        they bring.
+                        	<b>Good : </b>it can be used to prove
+                        	a conjecture once it is has been made (and is true).
+                        	<br>
+                        	<b>Bad : </b>
+                		it is that it cannot a theorem 
+				by mathematical induction
+                        	even if you do not have the slightest idea why it is true?
+                        	be used to find new theorems. Mathematicians sometimes find
+                        	proofs by mathematical induction unsatisfying because they
+                        	do not provide insights as to why theorems are true. Many
+                        	theorems can be proved in manyways, including by mathematical
+                        	induction. Proofs of these theorems by methods other than
+                        	mathematical induction are often preferred because of the insights
+                        	they bring.
                 	</p>
                 </details>
 
@@ -149,20 +150,20 @@
             				Proving Summation Formulae
             			</summary>
             			<p>
-                            Show that if n is a positive integer, then
-                            1 + 2 + . . . + <i>n</i> =
-                            <span class="frac">
-                                <sup>
-                                    <i>n(n+1)</i>
-                                </sup>
-                                <span>
-                                    &frasl;
-                                </span>
-                                <sub>
-                                    2
-                                </sub>
-                            </span>
-                        </p>
+                            		Show that if n is a positive integer, then
+                            		1 + 2 + . . . + <i>n</i> =
+                            		<span class="frac">
+                                		<sup>
+                                    			<i>n(n+1)</i>
+                                		</sup>
+                                		<span>
+                                    			&frasl;
+                                	</span>
+                                	<sub>
+                                    		2
+                                	</sub>
+                            		</span>
+                        	</p>
                         <p class="def">
                             BASIS STEP:
                         </p>
@@ -325,46 +326,46 @@
                 		<summary class="sum3">
                 			Proving Divisibility Results
                 		</summary>
-                        <p>
-                            Use mathematical induction to prove that
-                            <i>n<sup>3</sup></i> - <i>n</i> is
-                            divisible by 3 whenever <i>n</i> is a
-                            positive integer.
-                        </p>
-                        <p class="def">
-                            BASIS STEP:
-                        </p>
-                        <p>
-                            The statement <i>P</i>(1) is true because
-                            1<sup>3</sup> - 1 = 0 is divisible by 3.
-                        </p>
-                        <p class="def">
-                            INDUCTIVE STEP :
-                        </p>
-                        <p>
-                            Assume that <i>P(k)</i> is true; that is, we
-                            assume that <i>k</i><sup>3</sup> - <i>k</i> is
-                            divisible by 3 for an arbitrary positive integer <i>k</i>
-                            <br>
-                            (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
-                            = (<i>k</i><sup>3</sup> + 3<i>k</i><sup>2</sup> +
-                            3<i>k</i> + 1) - (<i>k</i> + 1)
-                            <br>
-                            = (<i>k</i><sup>3</sup> - <i>k</i>) + 3(<i>k</i><sup>2</sup> + <i>k</i>).
-                            Using the inductive hypothesis, we conclude that the first
-                            term <i>k</i><sup>3</sup> - <i>k</i> is divisible by 3.
-                            <br>
-                            The second term is divisible by 3 because it is 3 times an integer.
-                            <br>
-                            So, (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
-                            is also divisible by 3.
-                        </p>
+                        	<p>
+                            		Use mathematical induction to prove that
+                            		<i>n<sup>3</sup></i> - <i>n</i> is
+                            		divisible by 3 whenever <i>n</i> is a
+                            		positive integer.
+                        	</p>
+                        	<p class="def">
+                            		BASIS STEP:
+                        	</p>
+                        	<p>
+                            		The statement <i>P</i>(1) is true because
+	                            	1<sup>3</sup> - 1 = 0 is divisible by 3.
+        	                </p>
+                	        <p class="def">
+                        	    INDUCTIVE STEP :
+                        	</p>
+                       		<p>
+                            		Assume that <i>P(k)</i> is true; that is, we
+                            		assume that <i>k</i><sup>3</sup> - <i>k</i> is
+                            		divisible by 3 for an arbitrary positive integer <i>k</i>
+                            		<br>
+                            		(<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            		= (<i>k</i><sup>3</sup> + 3<i>k</i><sup>2</sup> +
+                            		3<i>k</i> + 1) - (<i>k</i> + 1)
+                            		<br>
+                            		= (<i>k</i><sup>3</sup> - <i>k</i>) + 3(<i>k</i><sup>2</sup> + <i>k</i>).
+                            		Using the inductive hypothesis, we conclude that the first
+                            		term <i>k</i><sup>3</sup> - <i>k</i> is divisible by 3.
+                            		<br>
+                            		The second term is divisible by 3 because it is 3 times an integer.
+                            		<br>
+                            		So, (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            		is also divisible by 3.
+                        	</p>
                 	</details>
 
                     <details>
-                		<summary class="sum3">
-                			Proving Results about sets
-                		</summary>
+                	<summary class="sum3">
+                		Proving Results about sets
+               		</summary>
                         <p>
                             <b>The Number of Subsets of a Finite Set</b>
                             Use mathematical induction to show that if <i>S</i> is a
@@ -427,12 +428,12 @@
                             subsets whenever <i>n</i> is a
                             nonnegative integer.
                         </p>
-                	</details>
+               	</details>
 
                     <details>
-                		<summary class="sum3">
-                			Proving Results about Algorithms
-                		</summary>
+               		<summary class="sum3">
+               			Proving Results about Algorithms
+               		</summary>
                 	</details>
 
                 </details>
@@ -449,7 +450,7 @@
             			Guidelines for Proofs by Mathematical Induction
             		</summary>
             		<p>
-                        <b><i>Template for Proofs by Mathematical Induction</i></b>
+                        	<b><i>Template for Proofs by Mathematical Induction</i></b>
             			<ol>
             				<li>
             					Express the statement that is to be proved in the 
@@ -497,13 +498,11 @@
             			</ol>
             		</p>
                 </details>
-
-
             </details>
 
             <details>
                 <summary class="sum1">
-                Strong Induction and Well-Ordering
+                	Strong Induction and Well-Ordering
                 </summary>
                 <h4>
                     Strong Induction
@@ -591,7 +590,7 @@
                 	We use two steps to define a function 
                 	with the set of nonnegative integers 
                 	as its domain:
-                    <br>
+                    	<br>
                 </p>
                 <p class="def">
                     BASIC STEP:
@@ -602,40 +601,40 @@
                     <br>
                 </p>
                 <p class="def">
-                    RECURSIVE STEP:
+                	RECURSIVE STEP:
                 </p>
                 <p>
-                    Give a rule for finding its
-                    value at an integer from its
-                    values at smaller integers.
-                    <br>
-                    <b>Example:</b>
-                    <br>
-                    Suppose that f is defined
-                    recursively by
-                    <br>
-                    <i>f</i>(0) = 3,
-                    <br>
-                    <i>f</i>(n + 1) = 2<i>f</i>(n) + 3.
-                    <br>
-                    Find <i>f</i>(1), <i>f</i>(2), <i>f</i>(3),
-                    and <i>f</i>(4).
-                    <br>
-                    <i><b>Solution: </b></i>
-                    From the recursive definition it
-                    follows that
-                    <br>
-                    <i>f</i>(1) = 2<i>f</i>(0) + 3 =
-                    2 . 3 + 3 = 9,
-                    <br>
-                    <i>f</i>(2) = 2<i>f</i>(1) + 3 =
-                    2 . 9 + 3 = 21,
-                    <br>
-                    <i>f</i>(3) = 2<i>f</i>(2) + 3 =
-                    2 . 21 + 3 = 45,
-                    <br>
-                    <i>f</i>(4) = 2<i>f</i>(3) + 3 =
-                    2 . 45 + 3 = 93.
+                	Give a rule for finding its
+                    	value at an integer from its
+                    	values at smaller integers.
+                    	<br>
+                    	<b>Example:</b>
+                    	<br>
+                    	Suppose that f is defined
+                    	recursively by
+                    	<br>
+                    	<i>f</i>(0) = 3,
+                    	<br>
+                    	<i>f</i>(n + 1) = 2<i>f</i>(n) + 3.
+                    	<br>
+                    	Find <i>f</i>(1), <i>f</i>(2), <i>f</i>(3),
+                    	and <i>f</i>(4).
+                    	<br>
+                    	<i><b>Solution: </b></i>
+                    	From the recursive definition it
+                    	follows that
+                    	<br>
+                    	<i>f</i>(1) = 2<i>f</i>(0) + 3 =
+                    	2 . 3 + 3 = 9,
+                    	<br>
+                    	<i>f</i>(2) = 2<i>f</i>(1) + 3 =
+                    	2 . 9 + 3 = 21,
+                    	<br>
+                    	<i>f</i>(3) = 2<i>f</i>(2) + 3 =
+                    	2 . 21 + 3 = 45,
+                    	<br>
+                    	<i>f</i>(4) = 2<i>f</i>(3) + 3 =
+                    	2 . 45 + 3 = 93.
                 </p>
                 <p class="def">
                     <b>THEOREM 1</b>
@@ -673,27 +672,27 @@
                 <p>
                 	The set &sum;<sup>*</sup> of strings over the 
                 	alphabet &sum; is defined recursively by
-				</p>
-				<p class="def">
-					BASIS STEP: 
-				</p>
-				<p>			
-					&lambda; &isin; &sum;<sup>*</sup>
-					(where &lambda; is the 
-					empty string containing no symbols).
-					<br>
-				</p>
-				<p class ="def">
-					RECURSIVE STEP:
-				</p>
-				<p> 
-					If <i>w</i> &isin; &sum;<sup>*</sup> and
-					 <i>x</i> &isin; &sum;, 
-					 then <i>wx</i> &isin; &sum;<sup>*</sup>.
-					 <br>
+		</p>
+		<p class="def">
+			BASIS STEP: 
+		</p>
+		<p>			
+			&lambda; &isin; &sum;<sup>*</sup>
+			(where &lambda; is the 
+			empty string containing no symbols).
+			<br>
+		</p>
+		<p class ="def">
+			RECURSIVE STEP:
+		</p>
+		<p> 
+			If <i>w</i> &isin; &sum;<sup>*</sup> and
+			 <i>x</i> &isin; &sum;, 
+			then <i>wx</i> &isin; &sum;<sup>*</sup>.
+			<br>
                 </p>
                 <p class="def">
-                    <b>DEFINITION 2</b>
+                    	<b>DEFINITION 2</b>
                 </p>
                 <p>
                 	Two strings can be combined via 
@@ -701,45 +700,45 @@
                 	Let &sum; be a set of symbols and 
                 	&sum;<sup>*</sup> the set of 
                 	strings formed from 
-					symbols in &sum;.We can define the 
-					concatenation of two strings, 
-					denoted by ., recursively as follows.
-					<br>
+			symbols in &sum;.We can define the 
+			concatenation of two strings, 
+			denoted by ., recursively as follows.
+			<br>
                 </p>
                 <p class="def">
-					BASIS STEP:  
-				</p>
-				<p>
-					If <i>w</i> &isin; &sum;<sup>*</sup>, 
-					then <i>w</i> . &lambda; = <i>w</i>, 
-					where &lambda; is the empty string.	
-				</p>
-				<p class ="def">
-					RECURSIVE STEP: 
-				</p>
-				<p>
-					If <i>w</i><sub>1</sub> &isin; &sum;
-					<sup>*</sup> and <i>w</i><sub>2</sub> &isin; 
-					&sum;<sup>*</sup>
-					and x &isin; &sum;, then 
-					<i>w</i><sub>1</sub> . 
-					(<i>w</i><sub>2</sub>x)
-					 = (<i>w</i><sub>1</sub> . 
-					 <i>w</i><sub>2</sub>)x.
-					 <br>
-					 <b>Example:</b>Give a recursive 
-					 definition of l(w), the length 
-					 of the string <i>w</i>.
-					 <br>
-					 The length of a string can be 
-					 recursively defined by
-					 <br>
-					 l(&lambda;) = 0;
-					 <br>
-					 <i>l(wx</i>) = <i>l(w</i>) + 1 if <i>w</i> &isin; &sum;
-					 <sup>*</sup> and x &isin; &sum;.
-					 <br>
-				</p>
+			BASIS STEP:  
+		</p>
+		<p>
+			If <i>w</i> &isin; &sum;<sup>*</sup>, 
+			then <i>w</i> . &lambda; = <i>w</i>, 
+			where &lambda; is the empty string.	
+		</p>
+		<p class ="def">
+			RECURSIVE STEP: 
+		</p>
+		<p>
+			If <i>w</i><sub>1</sub> &isin; &sum;
+			<sup>*</sup> and <i>w</i><sub>2</sub> &isin; 
+			&sum;<sup>*</sup>
+			and x &isin; &sum;, then 
+			<i>w</i><sub>1</sub> . 
+			(<i>w</i><sub>2</sub>x)
+			 = (<i>w</i><sub>1</sub> . 
+			 <i>w</i><sub>2</sub>)x.
+			 <br>
+			 <b>Example:</b>Give a recursive 
+			 definition of l(w), the length 
+			 of the string <i>w</i>.
+			 <br>
+			 The length of a string can be 
+			recursively defined by
+			<br>
+			l(&lambda;) = 0;
+			<br>
+			<i>l(wx</i>) = <i>l(w</i>) + 1 if <i>w</i> &isin; &sum;
+			<sup>*</sup> and x &isin; &sum;.
+			 <br>
+			</p>
                 <p class="def">
                     <b>DEFINITION 3</b>
                     <br>
@@ -811,24 +810,24 @@
                 	and <i>T</i><sub>2</sub> are disjoint 
                 	extended binary trees, 
                 	there is an extended
-					binary tree, denoted by <i>T</i><sub>1</sub>
-					 . <i>T</i><sub>2</sub>, 
-					consisting of a root <i>r</i> 
-					together with edges connecting
-					the root to each of the roots 
-					of the left subtree 
-					<i>T</i><sub>1</sub> and 
-					the right subtree <i>T</i><sub>2</sub> when 
-					these trees are nonempty.
-					<br>
-					<b>Building Up Extended Binary Trees.</b>
-					<figure>
-						<img src="graphics/ExtendedBinary.svg.png">
-					</figure>
-                </p>
+			binary tree, denoted by <i>T</i><sub>1</sub>
+			 . <i>T</i><sub>2</sub>, 
+			consisting of a root <i>r</i> 
+			together with edges connecting
+			the root to each of the roots 
+			of the left subtree 
+			<i>T</i><sub>1</sub> and 
+			the right subtree <i>T</i><sub>2</sub> when 
+			these trees are nonempty.
+			<br>
+			<b>Building Up Extended Binary Trees.</b>
+		</p>	
+		<figure>
+			<img src="graphics/ExtendedBinary.svg.png">
+		</figure>
                 	
                 <p class="def">
-                    <b>DEFINITION 5</b>
+                    	<b>DEFINITION 5</b>
                 </p>
                 <p>
                 	The set of full binary trees 
@@ -850,23 +849,23 @@
                 	If <i>T</i><sub>1</sub> and <i>T</i><sub>2</sub> are disjoint 
                 	full binary trees, there 
                 	is a full binary tree,
-					denoted by <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>, consisting 
-					of a root r together with 
-					edges connecting the root 
-					to each of the roots of 
-					the left subtree <i>T</i><sub>1</sub> and 
-					the right subtree <i>T</i><sub>2</sub>.
-					<figure>
-						<img src="graphics/FullBinary.svg.png">
-					</figure>
-					<br>
+			denoted by <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>, consisting 
+			of a root r together with 
+			edges connecting the root 
+			to each of the roots of 
+			the left subtree <i>T</i><sub>1</sub> and 
+			the right subtree <i>T</i><sub>2</sub>.
+			<figure>
+			<img src="graphics/FullBinary.svg.png">
+			</figure>
+			<br>
                 </p>
                 <h4>
                 	Structural Induction
                 </h4>
                 
                 <p class="def">
-                    <b>DEFINITION 6</b>
+                    	<b>DEFINITION 6</b>
                 </p>
                 <p>
                 	We define the height <i>h(T</i>) 
@@ -892,8 +891,8 @@
                 	binary trees, then the 
                 	full binary tree <i>v</i> = 
                 	<i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>
-					has height <i>h(T</i> ) = 1 + 
-					max(<i>h(T</i><sub>1</sub>), <i>h(T</i><sub>2</sub>)).
+			has height <i>h(T</i> ) = 1 + 
+			max(<i>h(T</i><sub>1</sub>), <i>h(T</i><sub>2</sub>)).
                 </p>   
             </details>
 
@@ -901,37 +900,36 @@
                 <summary class="sum1">
                 Recursive Algorithms
                 </summary>
-                <p class="def">
-                    <b>DEFINITION 1</b>
-                </p>
-                <p>
-                	An algorithm is called
-                	recursive if it solves 
-                	a problem by reducing it 
-                	to an instance of the
-					same problem with smaller input.
-					<br>
-					<b>Example 1: </b>
-					Give a recursive algorithm 
-					for computing <i>n!</i>, where <i>n</i> 
-					is a nonnegative integer.
-					<br>
-				</p>
-					<figure>
-						<img src ="graphics/recursiveEX1.svg.png">
-					</figure>
-					<br>
-				<p>
-					<b>Example 2: </b>
-					Give a recursive algorithm for 
-					computing <i>a<sup>n</sup></i>, where 
-					a is a nonzero real number 
-					and <i>n</i> is a nonnegative integer.
-					<br>
-				</p>
-					<figure>
-						<img src ="graphics/recursiveEX2.svg.png">
-					</figure>
+                	<p class="def">
+                    		<b>DEFINITION 1</b>
+                	</p>
+                	<p>
+                		An algorithm is called
+                		recursive if it solves 
+                		a problem by reducing it 
+                		to an instance of the
+				same problem with smaller input.
+				<br>
+				<b>Example 1: </b>
+				Give a recursive algorithm 
+				for computing <i>n!</i>, where <i>n</i> 
+				is a nonnegative integer.
+				<br>
+			</p>
+				<figure>
+				<img src ="graphics/recursiveEX1.svg.png">
+				</figure>
+			<p>
+				<b>Example 2: </b>
+				Give a recursive algorithm for 
+				computing <i>a<sup>n</sup></i>, where 
+				a is a nonzero real number 
+				and <i>n</i> is a nonnegative integer.
+				<br>
+			</p>
+			<figure>
+				<img src ="graphics/recursiveEX2.svg.png">
+			</figure>
 				<p>	
 					<br>
 					<b>Example 3: </b>
@@ -1016,10 +1014,11 @@
 				</p>
 				<p>
 					<b>Merging Two lists</b>
-					<figure>
-						<img src="graphics/IterativeMerge.svg.png">	
-					</figure>
-				</p>        
+				</p>
+				<figure>
+					<img src="graphics/IterativeMerge.svg.png">	
+				</figure>
+			        
             </details>
 
             <details>
@@ -1034,16 +1033,16 @@
                 	correct if it produces the 
                 	correct output for every 
                 	possible input. A proof
-					that a program is correct 
-					consists of two parts.
+			that a program is correct 
+			consists of two parts.
                 	<br>
                 	The first part shows that 
                 	the correct answer is
-					obtained if the program 
-					terminates. This part of 
-					the proof establishes the 
-					<b>partial correctness</b>
-					of the program.
+			obtained if the program 
+			terminates. This part of 
+			the proof establishes the 
+			<b>partial correctness</b>
+			of the program.
                 	<br>
                 	The second part of the proof 
                 	shows that the program always terminates.
@@ -1051,20 +1050,20 @@
                 	To specify what it means 
                 	for a program to produce 
                 	the correct output, two propositions
-					are used.
-					<br>
-					The first is the 
-					initial assertion, which 
-					gives the properties that 
-					the input values must
-					have.
-					<br>
-					The second is the final assertion,
-					which gives the properties that
-					the output of the program
-					should have, if the program 
-					did what was intended.
-					<br>
+			are used.
+			<br>
+			The first is the 
+			initial assertion, which 
+			gives the properties that 
+			the input values must
+			have.
+			<br>
+			The second is the final assertion,
+			which gives the properties that
+			the output of the program
+			should have, if the program 
+			did what was intended.
+			<br>
                 </p>
                 <p class="def">
                 	<b>DEFINITION 1</b>
@@ -1073,16 +1072,16 @@
                 	A program, or program segment, 
                 	<i>S</i> is said to be partially 
                 	correct with respect to the
-					initial assertion p and the 
-					final assertion q if whenever 
-					p is true for the input values
-					of S and S terminates, then q is 
-					true for the output values of <i>S</i>. 
-					The notation p{<i>S</i>}q indicates
-					that the program, or program 
-					segment, <i>S</i> is partially correct
-					 with respect to the initial
-					assertion p and the final assertion q.
+			initial assertion p and the 
+			final assertion q if whenever 
+			p is true for the input values
+			of <i>S</i> and <i>S</i> terminates, then q is 
+			true for the output values of <i>S</i>. 
+			The notation p{<i>S</i>}q indicates
+			that the program, or program 
+			segment, <i>S</i> is partially correct
+			with respect to the initial
+			assertion p and the final assertion q.
                 </p>
                 <h4>
                 	CONDITIONAL STATEMENTS
