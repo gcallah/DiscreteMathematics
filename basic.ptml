@@ -59,7 +59,7 @@
                             <p>
                             <b>Set builder:</b> We characterize all 
                             those elements in the set by stating the
-                             property or properties they must have to be members. 
+                            property or properties they must have to be members. 
                             <br>
                             For instance, the set O of all odd 
                             positive integers less than 10 can be written as
@@ -265,9 +265,9 @@
                         </p>
                         <p>    
                         The <b>ordered n-tuple</b> (a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>) 
-                        is the ordered collection that has a1 as 
-                        its first element, a2 as its second element, . . . , 
-                        and an as its nth element.
+                        is the ordered collection that has a<sub>1</sub> as 
+                        its first element,a<sub>2</sub> as its second element, . . . , 
+                        and a<sub>n</sub> as its nth element.
                         <br>
                         In other words, (a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>) = 
                         (b<sub>1</sub>, b<sub>2</sub>, . . . , b<sub>n</sub>) if and only if a<sub>i</sub> = b<sub>i</sub>, 
@@ -309,7 +309,7 @@
                           <img 
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/440px-Venn0111.svg.png">
                           <br>
-                              <b>Figure 1: The union of A and B, denoted A &cup; B</b>
+                              <figcaption>Figure 1: The union of A and B, denoted A &cup; B</figcaption>
                           <br>
                            Examples:
                            <br>
@@ -335,8 +335,8 @@
                             <br>
                             <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/440px-Venn0001.svg.png">
                             <br>
-                              <b>Figure 2: The intersection of A and B,
-                                  denoted A &cap; B.</b>
+                              <figcaption>Figure 2: The intersection of A and B,
+                                  denoted A &cap; B.</figcaption>
                             <br>
                             Examples:
                             <br>
@@ -351,7 +351,7 @@
                             Set Difference
                             </summary>
                         <p>
-                        Two sets can also be 
+                            Two sets can also be 
                             "subtracted". The relative complement of B 
                             in A (also called the set-theoretic difference 
                             of A and B), denoted by A − B, is 
@@ -360,9 +360,9 @@
                             <br>
                             <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Venn0100.svg/440px-Venn0100.svg.png">
                             <br>
-                              <b>Figure 3: The relative complement of B in A</b>
+                              <figcaption>Figure 3: The relative complement of B in A</figcaption>
                             <br>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/440px-Venn1010.svg.png">
+                            
                         </p>
                         </details>
 
@@ -371,7 +371,9 @@
                             Complements
                             </summary>
                             <br>
-                              <b>Figure 4: The complement of A in U</b>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/440px-Venn1010.svg.png">
+                            <br>
+                            <figcaption>Figure 4: The complement of A in U</figcaption>
                             <br>
                         <p>
                             In certain settings all sets under discussion are considered 
@@ -497,7 +499,7 @@
                         <br />
                         <b>For Example </b>: Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 
                         and the ordering of elements of U has the elements in increasing 
-                        order; that is, ai = i. What bit strings represent the subset of 
+                        order; that is, a<sub>i</sub> = i. What bit strings represent the subset of 
                         all odd integers in U, the subset of all even integers in U, 
                         and the subset of integers not exceeding 5 in U?
                         <br>
@@ -529,7 +531,7 @@
                 </p>
                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/440px-Function_machine2.svg.png">
                 <br>
-                <b>Figure 1: A function f takes an input x, and returns a single output f(x).</b>
+                <figcaption>Figure 1: A function f takes an input x, and returns a single output f(x).</figcaption>
                 <details>
                 <summary class="sum2">
                 Types of Functions 
@@ -585,8 +587,8 @@
                         <br>
                         <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
                         <br>
-                        <b>Figure 2: The first takes input x and outputs 
-                        f(x). The second takes as input the value f(x) and outputs g(f(x))</b>
+                        <figcaption>Figure 2: The first takes input x and outputs 
+                        f(x). The second takes as input the value f(x) and outputs g(f(x))</figcaption>
                         </li>
                         <li>
                         <b>Inverse Functions</b>: Let f be a one-to-one 
@@ -598,8 +600,8 @@
                         <br>
                         <img src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Inverse_Function.png">
                         <br>
-                        <b>Figure 3: A function f and its inverse 
-                        f<sup>−1</sup>. Because f maps a to 3, the inverse f<sup>−1</sup> maps 3 back to a.</b>
+                        <figcaption>Figure 3: A function f and its inverse 
+                        f<sup>−1</sup>. Because f maps a to 3, the inverse f<sup>−1</sup> maps 3 back to a.</figcaption>
                         </li>
                         <li>
                         <b>Compositions of Functions</b>: Let g be a function from 
@@ -613,17 +615,17 @@
                             <li>
                                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
                                 <br>
-                                <b>Figure 4: Linear function = f(x) = ax + b.</b>
+                                <figcaption>Figure 4: Linear function = f(x) = ax + b.</figcaption>
                             </li>
                             <li>
                                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
                                 <br>
-                                <b>Figure 5: Quadratic function = f(x) = ax<sup>2</sup> + bx + c.</b>
+                                <figcaption>Figure 5: Quadratic function = f(x) = ax<sup>2</sup> + bx + c.</figcaption>
                             </li>
                             <li>
                                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
                                 <br>
-                                <b>Figure 6: Trigonometric function = sine_cosine</b>
+                                <figcaption>Figure 6: Trigonometric function = sine_cosine</figcaption>
                             </li>
                              <li>
                              The <b>floor</b> function assigns to the real number x 
@@ -632,7 +634,7 @@
                              <br>
                                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
                                 <br>
-                                <b>Figure 7: Floor function </b>
+                                <figcaption>Figure 7: Floor function </figcaption>
                             </li>
                             <li>   
                             The <b>ceiling</b> function assigns to the real number x 
@@ -641,7 +643,7 @@
                             <br>
                                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
                                 <br>
-                                <b>Figure 7: Ceiling function </b>
+                                <figcaption>Figure 7: Ceiling function </figcaption>
                             </li>
                         </ol>
                         </li>
@@ -681,7 +683,7 @@
                 <ol>
                     <li>
                         A <b>geometric progression</b> 
-                        is a sequence of the form a,ar,ar<sup>2</sup>,...,ar<sup>n</sup>,... 
+                        is a sequence of the form a, ar, ar<sup>2</sup>, ..., ar<sup>n</sup>, ... 
                         where the initial term a and the common 
                         ratio r are real numbers.
                     </li>
@@ -715,8 +717,8 @@
                         <br>
                         <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/34%2A21-FibonacciBlocks.png/600px-34%2A21-FibonacciBlocks.png">
                         <br>
-                        <b>Figure 1: A tiling with squares 
-                        whose side lengths are successive Fibonacci numbers</b>
+                        <figcaption>Figure 1: A tiling with squares 
+                        whose side lengths are successive Fibonacci numbers</figcaption>
                     </li>
                 
                     <li>
@@ -791,7 +793,7 @@
                 </p>
                 </details>
                 <details>
-                <summary class="sum3">
+                <summary class="sum2">
                 Theorems  
                 </summary>
                 <ol>
