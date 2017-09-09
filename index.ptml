@@ -111,7 +111,7 @@
                 <h2>
                     Other Material
                 </h2>
-                <ul>
+                <ul class="centered">
                     <li>
                         <a href="TAHours.html">
                         TA Hours Fall 2017
@@ -122,7 +122,7 @@
                 <h4>
                     Credits
                 </h4>
-                <ul>
+                <ul class="centered">
                     <li>
                     Four-color graphic by
                     <a href="https://commons.wikimedia.org/wiki/User:Inductiveload">

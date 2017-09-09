@@ -55,6 +55,11 @@ ol, ul, dl, li {
     font-size: 1.1em;
 }
 
+ul.centered {
+    text-align: center;
+    list-style-position: inside;
+}
+
 dt {
     font-size: 1.1rem;
     font-weight: bold;
