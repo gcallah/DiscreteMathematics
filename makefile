@@ -2,6 +2,7 @@ HTMLFILES = $(shell ls *.ptml | sed -e 's/ptml/html/g')
 INCS = menu.txt
  
 %.html: %.ptml $(INCS)
+	python3 utils/html_checker.py $<
 	./utils/html_include.awk <$< >$@
 
 website: $(HTMLFILES) $(INCS)
