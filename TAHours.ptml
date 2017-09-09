@@ -31,9 +31,10 @@
                     Becca Jiang
                 </td>
                 <td>
-		    Monday 12:30 PM - 2:30 PM
+                    Monday 12:30 PM - 2:30 PM
                 </td>
                 <td>
+                    10.098
                 </td>
             </tr>
             <tr>
@@ -41,9 +42,10 @@
                     Disha Umarwani
                 </td>
                 <td>
-                    Tuesday 11-1
+                    Tuesday 11:00 AM - 1:00 PM
                 </td>
                 <td>
+                    10.098
                 </td>
             </tr>
             <tr>
@@ -51,9 +53,10 @@
                     Manjiri Acharekar
                 </td>
                 <td>
-		    Monday
+                    Monday 10:00 AM - 12:00 PM
                 </td>
                 <td>
+                    10.098
                 </td>
             </tr>
             <tr>
@@ -61,8 +64,10 @@
                     Sunidhi Shukla
                 </td>
                 <td>
+                    Thursday 10:00 AM - 12:00 PM
                 </td>
                 <td>
+                    10.098
                 </td>
             </tr>
         </table>
@@ -70,3 +75,4 @@
     </body>
 <!--include google_analytics.txt -->
 </html>
+
