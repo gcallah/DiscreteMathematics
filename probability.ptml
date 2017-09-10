@@ -24,24 +24,268 @@
                 <summary class="sum1">
                 An Introduction to Discrete Probability 
                 </summary>
+                <details>
+                    <summary class="sum2">
+                        Finite Probability
+                    </summary>
+                    <p>
+                        An experiment is a procedure that 
+                        yields one of a given set of 
+                        possible outcomes. The sample space of 
+                        the experiment is the set of possible 
+                        outcomes. An event is a subset 
+                        of the sample space. 
+                    </p>
+                    <p class="def">
+                        DEFINITION 1
+                    </p>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Probabilities of Complements and Unions of Events
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 1
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 2
+                        </summary>
+                    </details>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Probabilistic Reasoning
+                    </summary>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Probability Theory 
                 </summary>
+                <details>
+                    <summary class="sum2">
+                        Assigning Probabilities
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 1
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 2
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Probabilities of Complements and 
+                        Unions of Events
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 1
+                        </summary>>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Conditional Probability
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 3
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Independence
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 4
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 5
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Bernoulli Trials and the Binomial Distribution
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 2
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Random Variables
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 6
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 7
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        The Birthday Problem
+                    </summary>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Monte Carlo Algorithms
+                    </summary>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        The Probabilistic Method
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 3
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 4
+                        </summary>
+                    </details>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Bayes' Theorem 
                 </summary>
+                <details>
+                    <summary class="sum2">
+                        THEOREM 1
+                    </summary>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        THEOREM 2
+                    </summary>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Bayesian Spam Filter
+                    </summary>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Expected Value and Variance 
                 </summary>
+                <details>
+                    <summary class="sum2">
+                        Expected Values
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 1
+                        </summary>
+                    </details>
+                    
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 1
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 2
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Linearity of Expectations
+                    </summary>   
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 3
+                        </summary>
+                    </details>    
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Average-Case Computational Complexity
+                    </summary>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        The Geometric Distribution
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 2
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 3
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 5
+                        </summary>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        Variance
+                    </summary>
+                    <details>
+                        <summary class="sum3">
+                            DEFINITION 4
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 6
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            COROLLARY 1
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum3">
+                            THEOREM 7
+                        </summary>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                            Chebyshev’s Inequality
+                        </summary>
+                        <details>
+                            <summary class="sum3">
+                                THEOREM 8
+                            </summary>
+                        </details>
+                    </details>
+                </details>
             </details>
 
     </body>
