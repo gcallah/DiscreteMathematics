@@ -26,62 +26,62 @@
                 Mathematical Induction 
                 </summary>
                 <p>
-                	Mathematical induction can be used to prove 
-                	statements that assert that <i>P(n)</i> is
+                    Mathematical induction can be used to prove 
+                    statements that assert that <i>P(n)</i> is
                     true for all positive integers <i>n</i>,
                     where <i>P(n)</i> is a propositional function
                 </p>
                 <p class="def"> 
-                	<b>PRINCIPLE OF MATHEMATICAL INDUCTION</b>
+                    <b>PRINCIPLE OF MATHEMATICAL INDUCTION</b>
                 </p>
                 <p>
-                	To prove that <i>P(n)</i> is true for all positive 
-                	integers <i>n</i>, where <i>P(n)</i> is 
-        			a propositional function, we complete two steps :
+                    To prove that <i>P(n)</i> is true for all positive 
+                    integers <i>n</i>, where <i>P(n)</i> is 
+                    a propositional function, we complete two steps :
                 </p>
                 <p class="def"> 
-                	BASIC STEP : 
-    			</p>
-    			<p>
-    				We verify that <i>P</i>(1) is true.
-    			</p>
-    			<p class="def"> 
-    				INDUCTIVE STEP : 
-    			</p>
-    			<p>
-    				We show that the conditional statement 
-    				<i>P(k)</i> &rarr; <i>P(k + 1)</i> is true for
-					all positive integers <i>k</i>.
-    			</p>
-    			<p>
-    				Expressed as a rule of inference, 
-    				this proof technique can be stated as
-    				<br>
-    				<i>(P(1)</i> &and; &forall;<i>k(P(k)</i> &rarr; 
-    				<i>P(k</i> + 1))) &rarr; &forall;<i>nP(n)</i>,
-    				<br>
-    				when the domain is the set of positive integers.
-    			</p>
+                    BASIC STEP : 
+                </p>
+                <p>
+                    We verify that <i>P</i>(1) is true.
+                </p>
+                <p class="def"> 
+                    INDUCTIVE STEP : 
+                </p>
+                <p>
+                     We show that the conditional statement 
+                     <i>P(k)</i> &rarr; <i>P(k + 1)</i> is true for
+                     all positive integers <i>k</i>.
+                 </p>
+                 <p>
+                     Expressed as a rule of inference, 
+                     this proof technique can be stated as
+                     <br>
+                     <i>(P(1)</i> &and; &forall;<i>k(P(k)</i> &rarr; 
+                     <i>P(k</i> + 1))) &rarr; &forall;<i>nP(n)</i>,
+                     <br>
+                     when the domain is the set of positive integers.
+                 </p>
 
-                <details>
-                	<summary class="sum2">
-                		Why Mathematical Induction is Valid?
-                	</summary>
-                	<p>
-                		The reason comes from the well ordering property.
-                		<br>
-                		<b>To show :</b> Mathematical Induction is valid.
-                		<br>
-                		<b>Proved Facts :</b><i>P(1)</i> is true and 
-                		<i>P(k)</i> implies <i>(P(k</i>+1) is true
-                		for all positive integers.
-                		<br>
-                		<b>Assumption :</b>There is at least one positive 
-                		integer for which <i>P(n)</i> is false.
-                		<br>
-                		<b>Proof : </b>
-                		<br>
-                		The set <i>S</i> of positive integers for which
+                 <details>
+                   <summary class="sum2">
+                      Why Mathematical Induction is Valid?
+                  </summary>
+                  <p>
+                The reason comes from the well ordering property.
+                        <br>
+                        <b>To show :</b> Mathematical Induction is valid.
+                        <br>
+                        <b>Proved Facts :</b><i>P(1)</i> is true and 
+                        <i>P(k)</i> implies <i>(P(k</i>+1) is true
+                        for all positive integers.
+                        <br>
+                        <b>Assumption :</b>There is at least one positive 
+                        integer for which <i>P(n)</i> is false.
+                        <br>
+                        <b>Proof : </b>
+                        <br>
+                        The set <i>S</i> of positive integers for which
                         <i>P(n)</i> is false is nonempty. Thus, by the
                         well-ordering property, <i>S</i> has a least element,
                         which will be denoted by <i>m</i>.
@@ -107,15 +107,15 @@
                 </details>
 
                 <details>
-                	<summary class="sum2">
-                		The Good and the Bad of Mathematical Induction
-                	</summary>
-                	<p>
+                    <summary class="sum2">
+                        The Good and the Bad of Mathematical Induction
+                    </summary>
+                    <p>
                         <b>Good : </b>it can be used to prove
-                    	a conjecture once it is has been made (and is true).
-                    	<br>
-                    	<b>Bad : </b>
-                		It cannot be
+                        a conjecture once it is has been made (and is true).
+                        <br>
+                        <b>Bad : </b>
+                        It cannot be
                         be used to find new theorems. 
                         Mathematicians sometimes find
                         proofs by mathematical induction 
@@ -129,31 +129,31 @@
                         mathematical induction are often preferred 
                         because of the insights
                         they bring.
-                	</p>
+                        </p>
                 </details>
 
                 <details>
                 	<summary class="sum2">
-            			Examples of Proofs by Mathematical Induction
-            		</summary>
-            		<details>
-            			<summary class="sum3">
-            				Proving Summation Formulae
-            			</summary>
-            			<p>
-                    		Show that if n is a positive integer, then
-                    		1 + 2 + . . . + <i>n</i> =
-                    		<span class="frac">
-                        		<sup>
-                            			<i>n(n+1)</i>
-                        		</sup>
-                        		<span>
-                            			&frasl;
-                        	    </span>
-                            	<sub>
-                                		2
-                            	</sub>
-                    		</span>
+                         Examples of Proofs by Mathematical Induction
+                     </summary>
+                     <details>
+                         <summary class="sum3">
+                            Proving Summation Formulae
+                        </summary>
+                        <p>
+                            Show that if n is a positive integer, then
+                            1 + 2 + . . . + <i>n</i> =
+                            <span class="frac">
+                              <sup>
+                               <i>n(n+1)</i>
+                            </sup>
+                            <span>
+                                &frasl;
+                            </span>
+                            <sub>
+                                2
+                            </sub>
+                            </span>
                         </p>
                         <p class="def">
                             BASIS STEP :
@@ -218,11 +218,11 @@
                                 </sub>
                             </span>
                             <br>
-            				is also true. When we add k + 1 to both sides of 
-            				the equation in P(<i>k</i>), we obtain
-            				<br>
-            				1 + 2+. . .+ <i>k</i> + (<i>k</i> + 1) = 
-            				<span class="frac">
+                            is also true. When we add k + 1 to both sides of 
+                            the equation in P(<i>k</i>), we obtain
+                            <br>
+                            1 + 2+. . .+ <i>k</i> + (<i>k</i> + 1) = 
+                            <span class="frac">
                                 <sup>
                                     <i>k</i>(<i>k</i>+1)
                                 </sup>
@@ -248,7 +248,7 @@
                                     2
                                 </sub>
                             </span>
-            				<br>
+                            <br>
                                 =
                             <span class="frac">
                                 <sup>
@@ -264,13 +264,13 @@
                             <br>
                             This last equation shows that P(<i>k</i> + 1)
                             is true under the assumption that P(k) is true.
-            			</p>
-            		</details>
-            	
-                	<details>
-                		<summary class="sum3">
-                			Proving Inequalities
-                		</summary>
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary class="sum3">
+                            Proving Inequalities
+                        </summary>
                         <p>
                             Use mathematical induction to prove the inequality
                             <br>
@@ -310,57 +310,56 @@
                             This shows that <i>P(k</i> + 1) is true, namely,
                             that <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>,
                             based on the assumption that <i>P(k)</i> is true.
+                            </p>
+                        </details>
+
+                        <details>
+                          <summary class="sum3">
+                             Proving Divisibility Results
+                         </summary>
+                         <p>
+                           Use mathematical induction to prove that
+                           <i>n<sup>3</sup></i> - <i>n</i> is
+                           divisible by 3 whenever <i>n</i> is a
+                           positive integer.
                         </p>
-                	</details>
-
-                    <details>
-                		<summary class="sum3">
-                			Proving Divisibility Results
-                		</summary>
-                        	<p>
-                            	Use mathematical induction to prove that
-                            	<i>n<sup>3</sup></i> - <i>n</i> is
-                        		divisible by 3 whenever <i>n</i> is a
-                        		positive integer.
-                        	</p>
-                        	<p class="def">
-                            		BASIS STEP:
-                        	</p>
-                        	<p>
-                         		The statement <i>P</i>(1) is true because
-	                          	1<sup>3</sup> - 1 = 0 is divisible by 3.
-        	                </p>
-                	        <p class="def">
-                        	    INDUCTIVE STEP :
-                        	</p>
-                       		<p>
-                    	        Assume that <i>P(k)</i> is true; that is, we
-                        		assume that <i>k</i><sup>3</sup> - <i>k</i> is
-                        		divisible by 3 for an arbitrary positive integer <i>k</i>
-                        		<br>
-                        		(<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
-                        		= (<i>k</i><sup>3</sup> + 3<i>k</i><sup>2</sup> +
-                        		3<i>k</i> + 1) - (<i>k</i> + 1)
-                        		<br>
-                        		= (<i>k</i><sup>3</sup> - <i>k</i>) 
-                                + 3(<i>k</i><sup>2</sup> + <i>k</i>).
-                        		Using the inductive hypothesis, 
-                                we conclude that the first
-                        		term <i>k</i><sup>3</sup> - <i>k</i> 
-                                is divisible by 3.
-                        		<br>
-                        		The second term is divisible by 3 because 
-                                it is 3 times an integer.
-                        		<br>
-                        		So, (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
-                        		is also divisible by 3.
-                        	</p>
-                	</details>
-
-                    <details>
-                	<summary class="sum3">
-                		Proving Results about sets
-               		</summary>
+                        <p class="def">
+                            BASIS STEP:
+                        </p>
+                        <p>
+                            The statement <i>P</i>(1) is true because
+                            1<sup>3</sup> - 1 = 0 is divisible by 3.
+                        </p>
+                        <p class="def">
+                            INDUCTIVE STEP :
+                        </p>
+                        <p>
+                            Assume that <i>P(k)</i> is true; that is, we
+                            assume that <i>k</i><sup>3</sup> - <i>k</i> is
+                            divisible by 3 for an arbitrary positive integer <i>k</i>
+                            <br>
+                            (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            = (<i>k</i><sup>3</sup> + 3<i>k</i><sup>2</sup> +
+                            3<i>k</i> + 1) - (<i>k</i> + 1)
+                            <br>
+                            = (<i>k</i><sup>3</sup> - <i>k</i>) 
+                            + 3(<i>k</i><sup>2</sup> + <i>k</i>).
+                            Using the inductive hypothesis, 
+                            we conclude that the first
+                            term <i>k</i><sup>3</sup> - <i>k</i> 
+                            is divisible by 3.
+                            <br>
+                            The second term is divisible by 3 because 
+                            it is 3 times an integer.
+                            <br>
+                            So, (<i>k</i> + 1)<sup>3</sup> - (<i>k</i> + 1)
+                            is also divisible by 3.
+                        </p>
+                    </details>
+                <details>
+                    <summary class="sum3">
+                        Proving Results about sets
+                    </summary>
                         <p>
                             <b>The Number of Subsets of a Finite Set</b>
                             Use mathematical induction to show that if <i>S</i> is a
@@ -440,57 +439,57 @@
                 </details>
 
                 <details>
-            		<summary class="sum2">
-            			Guidelines for Proofs by Mathematical Induction
-            		</summary>
-            		<p>
-                        <b><i>Template for Proofs by Mathematical Induction</i></b>
-            			<ol>
-            				<li>
-            					Express the statement that is to be proved in the 
-            					form "for all <i>n &ge; b, P(n)</i>" 
-            					for a fixed integer b.
-            				</li>
-            				<li>
-            					Write out the words "Basis Step." Then show that
-            					<i>P(b</i>) is true, taking care that the correct value 
-            					of <i>b</i> is used. This completes the first part of 
-            					the proof.
-            				</li>
-            				<li>
-            					Write out the words "Inductive Step."
-            				</li>
-            				<li>
-            					State, and clearly identify, 
-            					the inductive hypothesis, 
-            					in the form "assume that <i>P(k)</i> is true
-								for an arbitrary fixed integer <i>k &ge; b</i>."
-            				</li>
-            				<li>
-            					State what needs to be proved under the 
-            					assumption that the inductive hypothesis is true.
-								That is, write out what <i>P(k + 1)</i> says.
-            				</li>
-            				<li>
-            					Prove the statement <i>P(k + 1)</i> making use the 
-            					assumption <i>P(k)</i>. Be sure that your proof
-								is valid for all integers <i>k</i> with <i>k &ge; b</i>, 
-								taking care that the proof works for small values
-								of <i>k</i>, including <i>k = b</i>.
-            				</li>
-            				<li>
-            					Clearly identify the conclusion of the inductive 
-            					step, such as by saying "this completes
-								the inductive step."
-            				</li>
-            				<li>
-            					After completing the basis step and the inductive 
-            					step, state the conclusion, namely that
-								by mathematical induction, <i>P(n)</i> is true for 
-								all integers <i>n</i> with <i>n &ge; b</i>.
-            				</li>
-            			</ol>
-            		</p>
+                  <summary class="sum2">
+                     Guidelines for Proofs by Mathematical Induction
+                 </summary>
+                 <p>
+                    <b><i>Template for Proofs by Mathematical Induction</i></b>
+                    <ol>
+                        <li>
+                           Express the statement that is to be proved in the 
+                           form "for all <i>n &ge; b, P(n)</i>" 
+                           for a fixed integer b.
+                        </li>
+                        <li>
+                           Write out the words "Basis Step." Then show that
+                           <i>P(b</i>) is true, taking care that the correct value 
+                           of <i>b</i> is used. This completes the first part of 
+                           the proof.
+                        </li>
+                        <li>
+                           Write out the words "Inductive Step."
+                        </li>
+                        <li>
+                           State, and clearly identify, 
+                           the inductive hypothesis, 
+                           in the form "assume that <i>P(k)</i> is true
+                           for an arbitrary fixed integer <i>k &ge; b</i>."
+                        </li>
+                       <li>
+                           State what needs to be proved under the 
+                           assumption that the inductive hypothesis is true.
+                           That is, write out what <i>P(k + 1)</i> says.
+                       </li>
+                       <li>
+                           Prove the statement <i>P(k + 1)</i> making use the 
+                           assumption <i>P(k)</i>. Be sure that your proof
+                           is valid for all integers <i>k</i> with <i>k &ge; b</i>, 
+                           taking care that the proof works for small values
+                           of <i>k</i>, including <i>k = b</i>.
+                       </li>
+                       <li>
+                           Clearly identify the conclusion of the inductive 
+                           step, such as by saying "this completes
+                           the inductive step."
+                       </li>
+                       <li>
+                           After completing the basis step and the inductive 
+                           step, state the conclusion, namely that
+                           by mathematical induction, <i>P(n)</i> is true for 
+                           all integers <i>n</i> with <i>n &ge; b</i>.
+                       </li>
+                   </ol>
+               </p>
                 </details>
             </details>
 
@@ -847,16 +846,16 @@
                         there is an extended
                         binary tree, denoted by <i>T</i><sub>1</sub>
                         . <i>T</i><sub>2</sub>,
-            			consisting of a root <i>r</i>
-            			together with edges connecting
-            			the root to each of the roots 
-            			of the left subtree 
-            			<i>T</i><sub>1</sub> and 
-            			the right subtree <i>T</i><sub>2</sub> when 
-            			these trees are nonempty.
-            			<br>
-            			<b>Building Up Extended Binary Trees.</b>
-                    </p>	
+                        consisting of a root <i>r</i>
+                        together with edges connecting
+                        the root to each of the roots 
+                        of the left subtree 
+                        <i>T</i><sub>1</sub> and 
+                        the right subtree <i>T</i><sub>2</sub> when 
+                        these trees are nonempty.
+                        <br>
+                        <b>Building Up Extended Binary Trees.</b>
+                    </p>
                     <figure>
                         <img src="graphics/ExtendedBinary.svg.png">
                     </figure>
@@ -867,68 +866,68 @@
                     	DEFINITION 5
                     </summary>
                     <p>
-                	   The set of full binary trees 
-                	   can be defined recursively 
-                	   by these steps :
+                        The set of full binary trees 
+                        can be defined recursively 
+                        by these steps :
                     </p>
                     <p class="def">
                 	   BASIC STEP : 
                     </p>
                     <p>
-                	   There is a full binary tree 
-                	   consisting only of a single vertex <i>r</i>.
+                        There is a full binary tree 
+                        consisting only of a single vertex <i>r</i>.
                     </p>
                     <p class="def">
-                	   RECURSIVE STEP :
+                        RECURSIVE STEP :
                     </p>
                     <p>
-                	    If <i>T</i><sub>1</sub> and <i>T</i><sub>2</sub> are disjoint 
-                	    full binary trees, there 
-                	    is a full binary tree,
-                        denoted by <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>, consisting 
-            			of a root r together with 
-            			edges connecting the root 
-            			to each of the roots of 
-            			the left subtree <i>T</i><sub>1</sub> and 
-            			the right subtree <i>T</i><sub>2</sub>.
-                    </p>
-            		<figure>
-            			<img src="graphics/FullBinary.svg.png">
-            		</figure>
-                </details>
+                       If <i>T</i><sub>1</sub> and <i>T</i><sub>2</sub> are disjoint 
+                       full binary trees, there 
+                       is a full binary tree,
+                       denoted by <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>, consisting 
+                       of a root r together with 
+                       edges connecting the root 
+                       to each of the roots of 
+                       the left subtree <i>T</i><sub>1</sub> and 
+                       the right subtree <i>T</i><sub>2</sub>.
+                   </p>
+                   <figure>
+                     <img src="graphics/FullBinary.svg.png">
+                 </figure>
+             </details>
             <details>
                 <summary class="sum2">
-            	   Structural Induction
+                    Structural Induction
                 </summary>
                 <details>
                     <summary class="sum3">
                     	DEFINITION 6
                     </summary>
                     <p>
-                	   We define the height <i>h(T</i>) 
-                	   of a full binary tree 
-                	   <i>T</i> recursively.
+                        We define the height <i>h(T</i>) 
+                        of a full binary tree 
+                        <i>T</i> recursively.
                     </p>
                     <p class="def">
-                	   BASIC STEP : 
+                        BASIC STEP : 
                     </p>
                     <p>
-                	   The height of the full 
-                	   binary tree <i>T</i> consisting 
-                	   of only a root <i>r</i> is <i>h(T</i>) = 0.
+                        The height of the full 
+                        binary tree <i>T</i> consisting 
+                        of only a root <i>r</i> is <i>h(T</i>) = 0.
                     </p>
                     <p class="def">
-                	   RECURSIVE STEP :
+                        RECURSIVE STEP :
                     </p>
                     <p>
                     	If <i>T</i><sub>1</sub> and
-                    	 <i>T</i><sub>2</sub> are full 
-                    	binary trees, then the 
-                    	full binary tree <i>v</i> = 
-                    	<i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>
-                        has height <i>h(T</i> ) = 1 + 
-                        max(<i>h(T</i><sub>1</sub>), <i>h(T</i><sub>2</sub>)).
-                    </p>    
+                      <i>T</i><sub>2</sub> are full 
+                      binary trees, then the 
+                      full binary tree <i>v</i> = 
+                      <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>
+                      has height <i>h(T</i> ) = 1 + 
+                      max(<i>h(T</i><sub>1</sub>), <i>h(T</i><sub>2</sub>)).
+                  </p>    
                 </details>
             </details>
         </details> 
@@ -939,113 +938,113 @@
             <details>
                 <summary class="sum2">
                     DEFINITION 1
-        	    </summary>  
-            	<p>
-            		An algorithm is called
-            		recursive if it solves 
-            		a problem by reducing it 
-            		to an instance of the
-    				same problem with smaller input.
-    			</p>
+                </summary>  
+                <p>
+                    An algorithm is called
+                    recursive if it solves 
+                    a problem by reducing it 
+                    to an instance of the
+                    same problem with smaller input.
+                </p>
                 <details>
                     <summary class="sum3">
                         Example 1
                     </summary>
-    				<p>
-    				    Give a recursive algorithm 
-    				    for computing <i>n!</i>, where <i>n</i> 
-    				    is a nonnegative integer.
+                    <p>
+                        Give a recursive algorithm 
+                        for computing <i>n!</i>, where <i>n</i> 
+                        is a nonnegative integer.
                     </p>
                     <figure>
-				        <img src ="graphics/recursiveEX1.svg.png">
-				    </figure>
+                        <img src ="graphics/recursiveEX1.svg.png">
+                    </figure>
                 </details>
                 <details>
                     <summary class="sum3">
                         Example 2
                     </summary>
                     <p>
-        				Give a recursive algorithm for 
-        				computing <i>a<sup>n</sup></i>, where 
-        				a is a nonzero real number 
-        				and <i>n</i> is a nonnegative integer.
+                        Give a recursive algorithm for 
+                        computing <i>a<sup>n</sup></i>, where 
+                        a is a nonzero real number 
+                        and <i>n</i> is a nonnegative integer.
                     </p>
-        			<figure>
-        				<img src ="graphics/recursiveEX2.svg.png">
-        			</figure>
+                    <figure>
+                        <img src ="graphics/recursiveEX2.svg.png">
+                    </figure>
                 </details>
                 <details>
                     <summary class="sum3">
                         Example 3
                     </summary>
-    				<p>	
-    					Give a recursive algorithm 
-    					for computing the greatest 
-    					common divisor of two nonnegative
-    					integers a and b with <i>a</i> < <i>b</i>.
-    				</p>
-    				<figure>
-    					<img src ="graphics/recursiveEX3.svg.png">
-    				</figure>
+                    <p>	
+                        Give a recursive algorithm 
+                        for computing the greatest 
+                        common divisor of two nonnegative
+                        integers a and b with <i>a</i> < <i>b</i>.
+                    </p>
+                    <figure>
+                        <img src ="graphics/recursiveEX3.svg.png">
+                    </figure>
                 </details>
                 <details>
                     <summary class="sum3">
                         Example 4
                     </summary>
-    				<p>	
-    					Devise a recursive algorithm for 
-    					computing <i>bn</i> mod <i>m</i>, 
-    					where <i>b</i>, 
-    					<i>n</i>, and m are integers with
-    					<i>m</i> &le; 2, <i>n </i>&ge; 0, 
-    					and 1 &le; <i>b</i> < <i>m</i>.
-    				</p>
-					<figure>
-						<img src ="graphics/recursiveEX4.svg.png">
-					</figure>
-				</details>
-				<details>
+                    <p>	
+                     Devise a recursive algorithm for 
+                     computing <i>bn</i> mod <i>m</i>, 
+                     where <i>b</i>, 
+                     <i>n</i>, and m are integers with
+                     <i>m</i> &le; 2, <i>n </i>&ge; 0, 
+                     and 1 &le; <i>b</i> < <i>m</i>.
+                 </p>
+                <figure>
+                    <img src ="graphics/recursiveEX4.svg.png">
+                </figure>
+                </details>
+                <details>
                     <summary class="sum3">
                         Example 5
                     </summary>
                     <p>
-					   Express the linear search algorithm as a recursive procedure.
+                        Express the linear search algorithm as a recursive procedure.
                     </p>
-					<figure>
-						<img src ="graphics/recursiveEX5.svg.png">
-					</figure>
+                    <figure>
+                      <img src ="graphics/recursiveEX5.svg.png">
+                    </figure>
                 </details>
-				<details>
+                <details>
                     <summary class="sum3">
                         Example 6
                     </summary>
                     <p>
-    					Construct a recursive version of a binary search algorithm.
-    					<figure>
-    						<img src ="graphics/recursiveEX6.svg.png">
-    					</figure>	
-    				</p>
+                    Construct a recursive version of a binary search algorithm.
+                        <figure>
+                            <img src ="graphics/recursiveEX6.svg.png">
+                        </figure>	
+                    </p>
                 </details>
             </details>
             <details>
                 <summary class="sum2">
-					Recursion and Iteration
-				</summary>
-				<p>
-					Instead of successively 
-					reducing the computation 
-					to the evaluation of the 
-					function at smaller integers, 
-					we can start with the value 
-					of the function at one or
-					more integers, the base cases, 
-					and successively apply the 
-					recursive definition to
-					find the values of the function
-					at successive larger integers.
-					Such a procedure is 
-					called iterative.
-					<br>
+                    Recursion and Iteration
+                </summary>
+                <p>
+                    Instead of successively 
+                    reducing the computation 
+                    to the evaluation of the 
+                    function at smaller integers, 
+                    we can start with the value 
+                    of the function at one or
+                    more integers, the base cases, 
+                    and successively apply the 
+                    recursive definition to
+                    find the values of the function
+                    at successive larger integers.
+                    Such a procedure is 
+                    called iterative.
+                    <br>
                 </p>
                 <details>
                     <summary class="sum3">
@@ -1055,7 +1054,7 @@
                         <img src="graphics/recursiveFibonacci.svg.png">
                     </figure>
                 </details>
-				<details>
+                <details>
                     <summary class="sum3">
                         A Iterative Algorithm for Fibonacci Numbers.
                     </summary>
@@ -1093,41 +1092,38 @@
                 	Program Verification
                 </summary>
                 <p>
-                	A program is said to be 
-                	correct if it produces the 
-                	correct output for every 
-                	possible input. A proof
-        			that a program is correct 
-        			consists of two parts.
-                	<br>
-                	The first part shows that 
-                	the correct answer is
-        			obtained if the program 
-        			terminates. This part of 
-        			the proof establishes the 
-        			<b>partial correctness</b>
-        			of the program.
-                	<br>
-                	The second part of the proof 
-                	shows that the program always terminates.
-                	<br>
-                	To specify what it means 
-                	for a program to produce 
-                	the correct output, two propositions
-        			are used.
-        			<br>
-        			The first is the 
-        			initial assertion, which 
-        			gives the properties that 
-        			the input values must
-        			have.
-        			<br>
-        			The second is the final assertion,
-        			which gives the properties that
-        			the output of the program
-        			should have, if the program 
-        			did what was intended.
+                    A program is said to be 
+                    correct if it produces the 
+                    correct output for every 
+                    possible input. A proof
+                    that a program is correct 
+                    consists of two parts.
                     <br>
+                    The first part shows that 
+                    the correct answer is
+                    obtained if the program 
+                    terminates. This part of 
+                    the proof establishes the 
+                    <b>partial correctness</b>
+                     of the program.
+                    <br>
+                    The second part of the proof shows 
+                    that the program always terminates. 
+                    <br>
+                    To specify what it means 
+                    for a program to produce 
+                    the correct output, two propositions 
+                    are used. 
+                    <br>
+                    The first is the 
+                    initial assertion, which 
+                    gives the properties that the 
+                    input values must have. 
+                    <br> The second is the final 
+                    assertion, which gives the properties 
+                    that the output of the program should 
+                    have, if the program
+                    did what was intended. 
                 </p>
             </details>
             <details>
@@ -1151,16 +1147,15 @@
                 </p>   
             </details>
             <h4>
-            	CONDITIONAL STATEMENTS
+                CONDITIONAL STATEMENTS
             </h4>
             <figure>
 
             </figure>
             <h4>
-            	LOOP INVARIANTS
+                LOOP INVARIANTS
             </h4>
             <figure>
-            	
             </figure>
         </details>
     </body>
