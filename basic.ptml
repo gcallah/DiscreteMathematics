@@ -22,12 +22,12 @@
             
             <details>
                 <summary class="sum1">
-                Introduction
+                Sets
                 </summary>
                     
                     <details>
                         <summary class="sum2">
-                        Sets
+                        Meaning of Sets
                         </summary>
                             <p>
                             A <b>set</b> is an unordered collection of objects, 
@@ -92,10 +92,11 @@
                         {..., -2, -1, 0, 1, 2, ...}, the set of <b>integers</b>
                         <br>
                         <b>&#8484;+</b>
-                        = {1, 2, 3, . . .}, the set of <b>positive integers</b>
+                        = {1, 2, 3, ...}, the set of <b>positive integers</b>
                         <br>
                         <b>&#8474;</b> =
-                        {p/q | p &isin; Z, q &isin; Z, and q &ne; 0}, the set of <b>rational numbers</b> 
+                        {p/q | p &isin; Z, q &isin; Z, and q &ne; 0},
+                        the set of <b>rational numbers</b> 
                         <br>
                         <b>&#8477;</b>, the set of <b>real numbers</b>
                         <br>
@@ -221,7 +222,8 @@
                             <br>
                             <p>    
                             Given a set S, the <b>power set</b> of S is the set of 
-                            all subsets of the set S. The power set of S is denoted by P(S).
+                            all subsets of the set S.
+                            The power set of S is denoted by P(S).
                             <br>
                             <b>For Example</b>:
                             <br>
@@ -243,7 +245,8 @@
                             <br>
                             {x, y, z}
                             <br>
-                            and hence the power set of S is {{}, {x}, {y}, {z}, {x, y}, {x, z}, {y, z}, {x, y, z}}.
+                            and hence the power set of S is {{},
+                            {x}, {y}, {z}, {x, y}, {x, z}, {y, z}, {x, y, z}}.
                             </p>
                             </p>
                         </details> 
@@ -264,15 +267,18 @@
                         A x B = {(a, b) | a &isin; A &and; b &isin; B}.
                         </p>
                         <p>    
-                        The <b>ordered n-tuple</b> (a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>) 
+                        The <b>ordered n-tuple</b>
+                        (a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>n</sub>) 
                         is the ordered collection that has a<sub>1</sub> as 
                         its first element,
-                        a<sub>2</sub> as its second element, . . . , 
+                        a<sub>2</sub> as its second element, ... , 
                         and a<sub>n</sub> as its nth element.
                         <br>
-                        In other words, (a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>) = 
-                        (b<sub>1</sub>, b<sub>2</sub>, . . . , b<sub>n</sub>) if and only if a<sub>i</sub> = b<sub>i</sub>, 
-                        for i = 1, 2, . . . , n.
+                        In other words, (a<sub>1</sub>, a<sub>2</sub>,
+                        ... , a<sub>n</sub>) = 
+                        (b<sub>1</sub>, b<sub>2</sub>, ... ,
+                        b<sub>n</sub>) if and only if a<sub>i</sub> = b<sub>i</sub>, 
+                        for i = 1, 2, ... , n.
                         </p>
                     </details>     
               </details>             
@@ -290,6 +296,13 @@
                     computer science majors, the set of students who are joint 
                     majors in mathematics and computer science, the set of 
                     all students not majoring in mathematics, and so on.
+                    </p>
+
+                    <p>
+                    <a
+                        href="https://www.khanacademy.org/math/statistics-probability/probability-library/basic-set-ops/v/intersection-and-union-of-sets">
+                        Khan Academy on Set Operations
+                    </a>
                     </p>
 
                     <details>
@@ -692,7 +705,7 @@
                 <li>
                 A <b>sequence </b> is a function from a 
                 subset of the set of integers (usually 
-                either the set {0, 1, 2, . . .} 
+                either the set {0, 1, 2, ...} 
                 or the set{1,2,3,...})to a set S. We use the 
                 notation an 
                 to denote the image of the integern. We call an a term of the sequence.
@@ -723,7 +736,7 @@
                     <li>
                         An<b> arithmetic progression</b> 
                         is a sequence of the form a, a + d, 
-                        a + 2d, . . . , a + nd, . . . where 
+                        a + 2d, ... , a + nd, ... where 
                         the initial term a and the common 
                         difference d are real numbers.
                     </li>
@@ -732,7 +745,7 @@
                         sequence</b> {an} is an equation 
                         that expresses an in terms of one 
                         or more of the previous terms of the
-                         sequence, namely, a<sub>0</sub>, a<sub>1</sub>, . . . , a<sub>n−1</sub>, 
+                         sequence, namely, a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>n−1</sub>, 
                          for all integers n with n &ge; n<sub>0</sub>, where n<sub>0</sub> 
                          is a nonnegative integer. A sequence is 
                          called a solution of a recurrence relation 
@@ -743,7 +756,7 @@
                     </li>
                     <li>
                         The <b>Fibonacci sequence</b>, f<sub>0</sub>, f<sub>1</sub>, 
-                        f<sub>2</sub>, . . . , is defined by the 
+                        f<sub>2</sub>, ... , is defined by the 
                         initial conditions f<sub>0</sub> = 0, f<sub>1</sub> = 1, 
                         and the recurrence relation f<sub>n</sub> = 
                         f<sub>n - 1</sub> + f<sub>n - 2</sub> for n = 2, 3, 4,....
@@ -802,7 +815,7 @@
                 <br>
                 <b>Solution</b>: We can list all integers in a 
                 sequence by starting with 0 and alternating between 
-                positive and negative integers: 0, 1, −1, 2, −2, . . . .
+                positive and negative integers: 0, 1, −1, 2, −2, ... 
                  Alternatively, we could find a one-to-one correspondence
                   between the set of positive integers and the set of 
                   all integers. We leave it to the reader to show that 
