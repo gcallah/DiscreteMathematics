@@ -374,7 +374,7 @@
                             Two sets can also be 
                             "subtracted". The relative complement of B 
                             in A (also called the set-theoretic difference 
-                            of A and B), denoted by A − B, is 
+                            of A and B), denoted by A - B, is 
                             the set of all elements that are members of A 
                             but not members of B.
                         </p>
@@ -397,31 +397,34 @@
                             </figcaption>
                             </figure>
                         <p>
-                            In certain settings all sets under discussion are considered 
-                            to be subsets of a given universal set U. In such cases, U | A
-                            is called the absolute complement or simply complement of A, and is denoted by A′.
+                            In certain settings all sets under
+                            discussion are considered 
+                            to be subsets of a given universal set U.
+                            In such cases, U | A
+                            is called the absolute complement or
+                            simply complement of A, and is denoted by A′.
                             <br>
                             for instance :
                             <br>
-                            1. {1, 2} | {1, 2} = &empty;.
+                            1. {1, 2} - {1, 2} = &empty;.
                             <br>
-                            2. {1, 2, 3, 4} | {1, 3} = {2, 4}.
+                            2. {1, 2, 3, 4} - {1, 3} = {2, 4}.
                             <br>
                             Some basic <b>properties</b> of complements:
                             <br>
-                            1. A | B ≠ B | A for A ≠ B.
+                            1. A - B &ne; B - A for A &ne; B.
                             <br>
-                            2. A &cup; A′ = U.
+                            2. A &cup; compl(A) = U.
                             <br>
-                            3. A &cap; A′ = &empty;.
+                            3. A &cap; compl(A) = &empty;.
                             <br>
-                            4. (A′)′ = A.
+                            4. compl(compl(A)) = A.
                             <br>
                             5. A | A = &empty;.
                             <br>
-                            6. U′ = &empty; and &empty;′ = U.
+                            6. compl(U) = &empty; and compl(&empty;) = U.
                             <br>
-                            7. A | B = A &cap; B′.
+                            7. A | B = A &cap; compl(B).
                         </p>
                         </details>
                     </details>
@@ -465,9 +468,9 @@
                             <li>
                             <b>Complement laws:</b>
                             <br>
-                            A &cap; A' = U
+                            A &cup; compl(A) = U
                             <br>
-                            A &cup; A' = &empty;
+                            A &cap; compl(A) = &empty;
                             </li>
                             <li>
                             <b>Idempotent laws:</b>
