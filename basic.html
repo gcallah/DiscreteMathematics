@@ -546,159 +546,155 @@
                 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/440px-Function_machine2.svg.png">
                 <br>
                 <figcaption>Figure 1: A function f takes an input x, and returns a single output f(x).</figcaption>
+                
                 <details>
-                <summary class="sum2">
-                Types of Functions 
+                <summary class="sum3">
+                One-to-One function 
                 </summary>
+                    <p>
+                    function f is said to 
+                    be one-to-one, or an injunction, if and only if f(a) = f(b) 
+                    implies that a = b for all a and b in the domain of f.
+                     A function is said to be injective if it is one-to-one.
+                    <br>
+                    Note that a function f is one-to-one if and 
+                    only if f (a) &ne; f (b) whenever a &ne; b. This
+                    way of expressing that f is one-to-one is obtained by 
+                    taking the contrapositive of the implication in the definition.
+                    <br>
+                    <b>For Example:</b> Determine whether the function f 
+                    from {a,b,c,d} to {1,2,3,4,5} with f(a) = 4, f(b) = 5, 
+                    f(c) = 1, and f(d) = 3 is one-to-one?
+                    <br>
+                    <b>sol :</b> The function f is one-to-one because f takes 
+                    on different values at the four elements of its domain. 
+                    as 
+                    f(a) = 4, f(b) = 5, f(c) = 1, and f(d) = 3 
+                    </p>
+                    </details>
                     <details>
                     <summary class="sum3">
-                    One-to-One function 
+                    Onto function 
                     </summary>
-                        <p>
-                        function f is said to 
-                        be one-to-one, or an injunction, if and only if f(a) = f(b) 
-                        implies that a = b for all a and b in the domain of f.
-                         A function is said to be injective if it is one-to-one.
-                        <br>
-                        Note that a function f is one-to-one if and 
-                        only if f (a) &ne; f (b) whenever a &ne; b. This
-                        way of expressing that f is one-to-one is obtained by 
-                        taking the contrapositive of the implication in the definition.
-                        <br>
-                        <b>For Example:</b> Determine whether the function f 
-                        from {a,b,c,d} to {1,2,3,4,5} with f(a) = 4, f(b) = 5, 
-                        f(c) = 1, and f(d) = 3 is one-to-one?
-                        <br>
-                        <b>sol :</b> The function f is one-to-one because f takes 
-                        on different values at the four elements of its domain. 
-                        as 
-                        f(a) = 4, f(b) = 5, f(c) = 1, and f(d) = 3 
-                        </p>
-                        </details>
-                        <details>
-                        <summary class="sum3">
-                        Onto function 
-                        </summary>
-                        <p>
-                        A function f from A to B is 
-                        called onto, or a surjection, if and only if for every 
-                        element b &isin; B there is an element a&isin;A with f(a)=b. 
-                        A function f is called surjective if it is onto.
-                        <br>
-                        <b>For Example:</b> Is the function f (x) = x + 1 from 
-                        the set of integers to the set of integers onto?
-                        <br>
-                        <b>sol :</b> This function is onto, because for every 
-                        integer y there is an integer x such that f (x) = y. 
-                        To see this, note that f (x) = y if and 
-                        only if x + 1 = y, which holds if and only if x = y − 1.
-                        </p>
-                        </details>
-                        <details>
-                        <summary class="sum3">
-                        Function composition
-                        </summary>
-                        <p>
-                        The function 
-                        composition of two functions takes the output 
-                        of one function as the input of a second one. More 
-                        specifically, the composition of f with a function 
-                        g: Y &rarr; Z is the function (g ◦ f : X -> Z) defined by
-                        <br> 
-                        (g . f)(x)= g(f(x)).
-                        <br>
-                        The order of the composition is important. 
-                        For example, suppose f(x) = x<sup>2</sup> and g(x) = x+1. 
-                        Then g(f(x)) = x<sup>2</sup>+1, while 
-                        f(g(x)) = (x+1)<sup>2</sup>,
-                        which is x<sup>2</sup>+2x+1, a different function.
-                        <br>
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
-                        <br>
-                        <figcaption>Figure 2: The first takes input x and outputs 
-                        f(x). The second takes as input the value
-                        f(x) and outputs g(f(x))</figcaption>
-                        </p>
-                        </details>
-                        <details>
-                        <summary class="sum3">
-                        Inverse Functions
-                        </summary>
-                        <p>
-                       
-                        Let f be a one-to-one 
-                        correspondence from the set A to the set B. The 
-                        inverse function of f is the function that assigns 
-                        to an element b belonging to B the unique element a in 
-                        A such that f (a) = b. The inverse function of f is denoted 
-                        by f<sup>−1</sup>. Hence, f<sup>−1</sup>(b) = a when f (a) = b.
-                        <br>
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Inverse_Function.png">
-                        <br>
-                        <figcaption>Figure 3: A function f and its inverse 
-                        f<sup>−1</sup>. Because f maps a to 3, the inverse f<sup>−1</sup> maps 3 back to a.</figcaption>
-                        </p>
-                        </details>
-                        <details>
-                        <summary class="sum3">
-                        Compositions of Functions
-                        </summary>
-                        <p>
-                        Let g be a function from 
-                        these t A to these t Band let f be a function from the set B 
-                        to the set C. The composition of the functions f and g, 
-                        denoted for all a &isin; A by f ◦ g,
-                        is defined by (f ◦ g)(a) = f(g(a)).
-                        <br />
-                        (f ◦ g)(a) may not equal (g ◦ f)(a): consider f(a) =
-                        a<sup>2</sup> and g(a) = a + 2.
-                        </p>
-                        </details>
-                        <details>
-                        <summary class="sum3">
-                        The Graphs of Functions
-                        </summary>
-                        <p>
-                        
-                        <ol>
-                            <li>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
-                                <br>
-                                <figcaption>Figure 4: Linear function = f(x) = ax + b.</figcaption>
-                            </li>
-                            <li>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
-                                <br>
-                                <figcaption>Figure 5: Quadratic function = f(x) = ax<sup>2</sup> + bx + c.</figcaption>
-                            </li>
-                            <li>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
-                                <br>
-                                <figcaption>Figure 6: Trigonometric function = sine_cosine</figcaption>
-                            </li>
-                             <li>
-                             The <b>floor</b> function assigns to the real number x 
-                             the largest integer that is less than or equal to x. 
-                             The value of the floor function at x is denoted by ⌊x⌋. 
-                             <br>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
-                                <br>
-                                <figcaption>Figure 7: Floor function </figcaption>
-                            </li>
-                            <li>   
-                            The <b>ceiling</b> function assigns to the real number x 
-                            the smallest integer that is greater than or equal to x. 
-                            The value of the ceiling function at x is denoted by ⌈x⌉.
+                    <p>
+                    A function f from A to B is 
+                    called onto, or a surjection, if and only if for every 
+                    element b &isin; B there is an element a&isin;A with f(a)=b. 
+                    A function f is called surjective if it is onto.
+                    <br>
+                    <b>For Example:</b> Is the function f (x) = x + 1 from 
+                    the set of integers to the set of integers onto?
+                    <br>
+                    This function is onto, because for every 
+                    integer y there is an integer x such that f (x) = y. 
+                    To see this, note that f (x) = y if and 
+                    only if x + 1 = y, which holds if and only if x = y − 1.
+                    </p>
+                    </details>
+                    <details>
+                    <summary class="sum3">
+                    Function composition
+                    </summary>
+                    <p>
+                    The function 
+                    composition of two functions takes the output 
+                    of one function as the input of a second one. More 
+                    specifically, the composition of f with a function 
+                    g: Y &rarr; Z is the function (g ◦ f : X -> Z) defined by
+                    <br> 
+                    (g . f)(x)= g(f(x)).
+                    <br>
+                    The order of the composition is important. 
+                    For example, suppose f(x) = x<sup>2</sup> and g(x) = x+1. 
+                    Then g(f(x)) = x<sup>2</sup>+1, while 
+                    f(g(x)) = (x+1)<sup>2</sup>,
+                    which is x<sup>2</sup>+2x+1, a different function.
+                    <br>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
+                    <br>
+                    <figcaption>Figure 2: The first takes input x and outputs 
+                    f(x). The second takes as input the value
+                    f(x) and outputs g(f(x))</figcaption>
+                    </p>
+                    </details>
+                    <details>
+                    <summary class="sum3">
+                    Inverse Functions
+                    </summary>
+                    <p>
+                   
+                    Let f be a one-to-one 
+                    correspondence from the set A to the set B. The 
+                    inverse function of f is the function that assigns 
+                    to an element b belonging to B the unique element a in 
+                    A such that f (a) = b. The inverse function of f is denoted 
+                    by f<sup>−1</sup>. Hence, f<sup>−1</sup>(b) = a when f (a) = b.
+                    <br>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Inverse_Function.png">
+                    <br>
+                    <figcaption>Figure 3: A function f and its inverse 
+                    f<sup>−1</sup>. Because f maps a to 3, the inverse f<sup>−1</sup> maps 3 back to a.</figcaption>
+                    </p>
+                    </details>
+                    <details>
+                    <summary class="sum3">
+                    Compositions of Functions
+                    </summary>
+                    <p>
+                    Let g be a function from 
+                    these t A to these t Band let f be a function from the set B 
+                    to the set C. The composition of the functions f and g, 
+                    denoted for all a &isin; A by f ◦ g,
+                    is defined by (f ◦ g)(a) = f(g(a)).
+                    <br />
+                    (f ◦ g)(a) may not equal (g ◦ f)(a): consider f(a) =
+                    a<sup>2</sup> and g(a) = a + 2.
+                    </p>
+                    </details>
+                    <details>
+                    <summary class="sum3">
+                    The Graphs of Functions
+                    </summary>
+                    <p>
+                    
+                    <ol>
+                        <li>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
                             <br>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
-                                <br>
-                                <figcaption>Figure 7: Ceiling function </figcaption>
-                            </li>
-                        </ol>
-                        </p>
-                        </details>
+                            <figcaption>Figure 4: Linear function = f(x) = ax + b.</figcaption>
+                        </li>
+                        <li>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
+                            <br>
+                            <figcaption>Figure 5: Quadratic function = f(x) = ax<sup>2</sup> + bx + c.</figcaption>
+                        </li>
+                        <li>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
+                            <br>
+                            <figcaption>Figure 6: Trigonometric function = sine_cosine</figcaption>
+                        </li>
+                         <li>
+                         The <b>floor</b> function assigns to the real number x 
+                         the largest integer that is less than or equal to x. 
+                         The value of the floor function at x is denoted by ⌊x⌋. 
+                         <br>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
+                            <br>
+                            <figcaption>Figure 7: Floor function </figcaption>
+                        </li>
+                        <li>   
+                        The <b>ceiling</b> function assigns to the real number x 
+                        the smallest integer that is greater than or equal to x. 
+                        The value of the ceiling function at x is denoted by ⌈x⌉.
+                        <br>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
+                            <br>
+                            <figcaption>Figure 7: Ceiling function </figcaption>
+                        </li>
+                    </ol>
+                    </p>
+                    </details>
 
-                </details>
             </details>
 
             <details>
