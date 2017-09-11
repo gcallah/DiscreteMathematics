@@ -597,12 +597,14 @@
                         The order of the composition is important. 
                         For example, suppose f(x) = x<sup>2</sup> and g(x) = x+1. 
                         Then g(f(x)) = x<sup>2</sup>+1, while 
-                        f(g(x)) = (x+1)<sup>2</sup>, which is x<sup>2</sup>+2x+1, a different function.
+                        f(g(x)) = (x+1)<sup>2</sup>,
+                        which is x<sup>2</sup>+2x+1, a different function.
                         <br>
                         <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
                         <br>
                         <figcaption>Figure 2: The first takes input x and outputs 
-                        f(x). The second takes as input the value f(x) and outputs g(f(x))</figcaption>
+                        f(x). The second takes as input the value
+                        f(x) and outputs g(f(x))</figcaption>
                         </p>
                         </details>
                         <details>
@@ -632,7 +634,11 @@
                         Let g be a function from 
                         these t A to these t Band let f be a function from the set B 
                         to the set C. The composition of the functions f and g, 
-                        denoted for all a &isin; A by f ◦ g, is defined by (f ◦ g)(a) = f (g(a)).
+                        denoted for all a &isin; A by f ◦ g,
+                        is defined by (f ◦ g)(a) = f(g(a)).
+                        <br />
+                        (f ◦ g)(a) may not equal (g ◦ f)(a): consider f(a) =
+                        a<sup>2</sup> and g(a) = a + 2.
                         </p>
                         </details>
                         <details>
