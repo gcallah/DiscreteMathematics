@@ -336,9 +336,10 @@
                     </p>
                 	<p>
                         Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
-                		a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
+                		a<sub>n&minus;1</sub>x<sup>n&minus;1</sup>
+                        +...+ ax + a, where a<sub>0</sub>, 
                 		a<sub>1</sub>...
-                		a<sub>n - 1</sub>, a<sub>n</sub> are real numbers.
+                		a<sub>n&minus;1</sub>, a<sub>n</sub> are real numbers.
                 		<br>
                         Then f(x) is O(x<sup>n</sup>).
                         <br>
@@ -418,9 +419,10 @@
   			    <p>      		
         			Let <i>f</i> and <i>g</i> be functions from the set of integers 
        				or the set of real numbers to the set of real numbers.We say that
-       				<i>f (x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
+       				<i>f(x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
        				and <i>f(x) </i>is <i>&#937;(g(x))</i>. When <i>f(x)</i> is 
-       				<i>&#920;(g(x))</i> we say that <i>f</i> is big-Theta of <i>g(x)</i>, 
+       				<i>&#920;(g(x))</i> we say that <i>f</i>
+                    is big-Theta of <i>g(x)</i>, 
        				that <i>f(x)</i> is of order <i>g(x)</i>, and that <i>f(x)</i> and 
        				<i>g(x)</i> are of the same order.
        				<br>
@@ -451,7 +453,7 @@
 			    </p>
         		<p>
                     Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> +
-                    <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>
+                    <i>a<sub>n&minus;1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>
                     + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>,
                     <i>a<sub>1</sub></i>, . . . , an are real numbers
                     with <i>a<sub>n</sub> &ne;</i> 0.
@@ -488,15 +490,17 @@
                 			Count the number of comparisons
                 		</li>
                 		<li>
-                			There are n comparisons  while entering the for loop, one extra when i
+                			There are n comparisons while entering
+                            the for loop, one extra when i
                 			becomes equal to n
                 		</li>
                 		<li>
-                			There are n-1 comparison in the if loop to check the maximum element
+                			There are n&minus;1 comparison in the if
+                            loop to check the maximum element
                 		</li>
                 		<li>
-                			The total comparison will be n + (n-1)<br>
-                			2(n-1) - 1 = 2n -1 comparisons are made
+                			The total comparison will be n + (n&minus;1)<br>
+                			2(n&minus;1) - 1 = 2n &minus;1 comparisons are made
                 		</li>
 				        <li>
                 			Hence, the complexity will be &Theta;(n)
@@ -522,21 +526,26 @@
                     </figure>
                     <p>
                  		<b>Complexity Calculation</b>
-                 		How many additions of integers and multiplications of integers are used 
-                 		by the matrix multiplication algorithm to multiply two <i>n * n </i>matrices.
+                 		How many additions of integers and multiplications
+                        of integers are used 
+                 		by the matrix multiplication algorithm to multiply
+                        two <i>n * n </i>matrices.
                  		<ul>
                  			<li>
-                 				There are a total of <i>n<sup>2</sup></i> elements in the product matrix.
+                 				There are a total of <i>n<sup>2</sup></i>
+                                elements in the product matrix.
                  			</li>
                  			<li>
-                 				Each element requires <i>n</i> multiplications and <i>n-1</i> additions.
+                 				Each element requires <i>n</i> multiplications
+                                and <i>n-1</i> additions.
                  			</li>
                  			<li>
                  				Hence, <i>n<sup>3</sup></i> multiplications and
                  				<i>n<sup>2</sup>(n - 1)</i> additions are used.
                  			</li>
                  			<li>
-                 				Hence, the complexity of matrix multiplication is <i>O(n<sup>3</sup>)</i>.  
+                 				Hence, the complexity of matrix
+                                multiplication is <i>O(n<sup>3</sup>)</i>.  
                  			</li>
                 		</ul>
                 	</p>
@@ -546,20 +555,25 @@
                 		Algorithmic Paradigms
                 	</summary>
                 	<p>
-                		Algorithm Paradigms is a general approach based on a particular concept 
-                		that can be used to construct algorithms for solving a variety of problems.
+                		Algorithm Paradigms is a general approach based
+                        on a particular concept that can be used to
+                        construct algorithms for solving a variety of problems.
                 		Greedy Algorithm, Divide and Conquer Algorithm, 
-                		Brute Force Algorithm, Probabilistic Algorithm are algorithm paradigms.
+                		Brute Force Algorithm, Probabilistic Algorithm
+                        are algorithm paradigms.
                 		<br>
                 		<br>
                 		<b>Example :</b> 
                 		Brute Force Algorithms
                         <br>
-                        A brute-force algorithm is solved in the most straightforward manner,
-                        without taking advantage of any ideas that can make the algorithm more
-                        efficient.
-                		Construct a brute-force algorithm for finding the closest pair of 
-                		points in a set of n points in the plane and provide a worst-case 
+                        A brute-force algorithm is solved in the most
+                        straightforward manner,
+                        without taking advantage of any ideas
+                        that can make the algorithm more efficient.
+                		Construct a brute-force algorithm for finding
+                        the closest pair of 
+                		points in a set of n points in the
+                        plane and provide a worst-case 
                 		estimate of the number of arithmetic operations.
                 		<br>
                 		<br>
@@ -572,9 +586,12 @@
                     <p>
                 		<b>Complexity of the Algorithm</b>
                 		<br>
-                		The algorithm loops through <i>n(n - 1)/2</i> pairs of points, computes the value    
-                		(<i>x<sub>j</sub></i> - <i>x<sub>i</sub>)<sup>2</sup></i> + 
-                		(<i>y<sub>j</sub></i> - <i>y<sub>i</sub>)<sup>2</sup></i> and 
+                		The algorithm loops through <i>n(n &minus; 1)/2</i>
+                        pairs of points, computes the value    
+                		(<i>x<sub>j</sub></i> &minus;
+                        <i>x<sub>i</sub>)<sup>2</sup></i> + 
+                		(<i>y<sub>j</sub></i> &minus;
+                        <i>y<sub>i</sub>)<sup>2</sup></i> and 
                 		compares it with the minimum, etc. So, the algorithm uses
                 		<i> &Theta;(n<sup>2</sup>)</i> 
                 		arithmetic and comparison operations.
