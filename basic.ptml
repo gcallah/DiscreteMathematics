@@ -782,7 +782,7 @@
                     </li>
                     <li>
                         A <b>recurrence relation for the 
-                        sequence</b> {an} is an equation 
+                        sequence</b> {a<sub>n</sub>} is an equation 
                         that expresses an in terms of one 
                         or more of the previous terms of the
                         sequence, namely, a<sub>0</sub>,
