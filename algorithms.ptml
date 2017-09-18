@@ -250,13 +250,12 @@
                 The amount of change in dimes, 
                 nickels, and pennies cannot exceed 24 cents.
             </p>
-            <br>
             <p class="def">
                THEOREM 1
             </p>
             <p>
                 The greedy algorithm produces change using the 
-                fewest coins possible.<br>
+                fewest coins possible.
                 <br>
                 <b>Greedy Algorithm for Scheduling Talks</b>
             </p>
