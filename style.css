@@ -210,5 +210,8 @@ span.frac > sup, span.frac > sub {
   font: inherit;
   padding: 0 0.3em;
 }
+
 span.frac > sup {border-bottom: 0.08em solid;}
 span.frac > span {display: none;}
+
+.over { text-decoration: overline; }
