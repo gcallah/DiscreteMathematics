@@ -395,8 +395,9 @@
 				    		establish this relation
 				    	</li>
                         <li>
-				    		Just by turning in inequality, we can sat that f(x) is &Omega;
-				    		(7<i>x<sup>2</sup></i>)
+				    		Just by turning in inequality,
+                            we can sat that f(x) is 
+                            &Omega;(7<i>x<sup>2</sup></i>)
 				    	</li>
 			    	</ul>
         		</p>
@@ -414,21 +415,24 @@
        				<i>g(x)</i> are of the same order.
        				<br>
        				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
-        			log <i>x</i> is <i>&Theta;(x<sup>2</sup>)</i>.
+                    log <i>x</i> is &Theta;(<i>x</i><sup>2</sup>).
         		</p>
         			<ul>
         				<li>
-        					Because 0 &le; 8<i>x</i> log <i>x</i> &le; 8<i>x<sup>2</sup></i>, 
-        					it follows that 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> 
+        					Because 0 &le; 8<i>x</i> log <i>x</i>
+                            &le; 8<i>x<sup>2</sup></i>, 
+        					it follows that 3<i>x<sup>2</sup></i>
+                            + 8<i>x</i> log <i>x</i> 
         					&le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
         				</li>
         				<li>
-       						Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
+       						Consequently, 3<i>x<sup>2</sup></i>
+                            + 8<i>x</i> log <i>x</i> is 
        						O(<i>x<sup>2</sup></i>). 
        					</li>
                         <li>
-                            Clearly, <i>x<sup>2</sup></i> is
-                            O(3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i>).
+                            Clearly, <i>x</i><sup>2</sup> is
+                            O(3<i>x</i><sup>2</sup> + 8<i>x</i> log <i>x</i>).
                         </li>
                         <li>
                             Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is
@@ -440,7 +444,8 @@
 			    </p>
         		<p>
                     Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> +
-                    <i>a<sub>n&minus;1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>
+                    <i>a<sub>n&minus;1</sub>x<sup>n-1</sup></i>
+                    + . .  + <i>a<sub>1</sub>x</i>
                     + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>,
                     <i>a<sub>1</sub></i>, . . . , an are real numbers
                     with <i>a<sub>n</sub> &ne;</i> 0.
@@ -448,6 +453,20 @@
                     Then <i>f(x)</i> is of order <i>x<sup>n</sup></i>.
                 </p>
                 </details>
+
+                <details>
+                    <summary class="sum2">
+                        More on the Growth of Functions
+                    </summary>
+                    <p>
+                    <a
+                        href="https://gcallah.github.io/algorithms/GrowthOfFunctions.html">
+                        Algorithms class lecture
+                    </a>
+                        on the growth of functions.
+                    </p>
+                </details>
+
             </details>
             <details>
                 <summary class="sum1">
@@ -459,35 +478,37 @@
                 </summary>
                 <p>
 			        An analysis of the time required to solve a problem of a particular 
-                	size involves the time complexity of the algorithm.The time complexity of 
+                	size involves the time complexity of the algorithm.
+                    The time complexity of 
                 	an algorithm can be expressed in terms of the number of operations 
                 	used by the algorithm when the input has a particular size.
                 	<br>
-                	In most of the cases we consider the worst-case time complexity of an 
-                	algorithm. This provides an upper bound on the number of operations an 
+                	In most of the cases we consider the
+                    worst-case time complexity of an 
+                	algorithm. This provides an upper bound
+                    on the number of operations an 
                 	algorithm uses to solve a problem with input of a particular size.
                 	<br>
                 	<b>Complexity Analysis of Some Algorithms</b>
                 	<br>
-                	<b>Example :</b> Describe the time complexity of an Algorithm for finding 
-                	the maximum element in a finite set of integers.
+                	<b>Example :</b> Describe the time complexity of an Algorithm
+                    for finding the maximum element in a finite set of integers.
                 </p>
                 	<ul>
                 		<li>
                 			Count the number of comparisons
                 		</li>
                 		<li>
-                			There are n comparisons while entering
-                            the for loop, one extra when i
-                			becomes equal to n
+                			There are n comparisons checking the
+                            termination condition of the for loop.
                 		</li>
                 		<li>
-                			There are n&minus;1 comparison in the if
-                            loop to check the maximum element
+                			There are n &minus; 1 comparison in the if
+                            statement to check the maximum element.
                 		</li>
                 		<li>
-                			The total comparison will be n + (n&minus;1)<br>
-                			2(n&minus;1) - 1 = 2n &minus;1 comparisons are made
+                			The total comparisons will be n + (n &minus; 1)<br>
+                			= 2n &minus; 1.
                 		</li>
 				        <li>
                 			Hence, the complexity will be &Theta;(n)
@@ -499,10 +520,14 @@
                			Complexity of Matrix Multiplication
                 	</summary>
                 	<p>
-                        The definition of the product of two matrices can be expressed as an
-                 		algorithm for computing the product of two matrices. Suppose that 
-                 		<b>C</b> = [<i>c<sub>ij</sub></i>] is the <i>m &#x2715; n</i> matrix that is the 
-                 		product of the <i>m &#x2715; k</i> matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
+                        The definition of the product of two matrices can
+                        be expressed as an
+                 		algorithm for computing the product of
+                        two matrices. Suppose that 
+                 		<b>C</b> = [<i>c<sub>ij</sub></i>]
+                        is the <i>m &#x2715; n</i> matrix that is the 
+                 		product of the <i>m &#x2715; k</i>
+                        matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
                  		and the k &#x2715; n matrix <b>B</b> = [<i>b<sub>ij</sub></i> ].
                  		<br>
                  		<b>Pseudocode Matrix Multiplication</b>
