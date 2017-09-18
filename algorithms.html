@@ -128,12 +128,12 @@
                     <b>while</b> (<i>i</i> <= <i>n</i> 
                     and <i>x</i> != <i>a</i>[<i>i</i>] )<br>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    i = i + 1
+                    <i>i</i> = <i>i</i> + 1
                     <br>
-                    <b>if</b> i <= n <b>then</b> <i>location</i> := <i>i</i><br>
+                    <b>if</b> <i>i</i><= <i>n</i> <b>then</b> <i>location</i> := <i>i</i><br>
                     <b>else</b> <i>location =</i> 0
                     <br>
-                    <b>return</b> <i>location{location</i> is the subscript of 
+                    <b>return</b> <i>location</i>{<i>location</i> is the subscript of 
                     the term that equals <i>x</i>, or is 0 if <i>x</i> is not found}
                 </p>
             </details>
@@ -304,23 +304,22 @@
                 from the set of integers
                 or the set of real numbers to the set 
                 of real numbers.We say that 
-                <i>f(x)</i> is <i>O(g(x))</i> if 
+                <i>f</i>(<i>x</i>) is <i>O</i>(<i>g</i>(<i>x</i>)) if 
                 there are constants <i>C</i> and 
-                <i>k</i> such that |<i>f(x)</i>| 
-                &le; <i>C</i>|<i>g(x)</i>|whenever 
+                <i>k</i> such that |<i>f</i>(<i>x</i>)| 
+                &le; <i>C</i>|<i>g</i>(<i>x</i>)|whenever 
                 <i>x</i> > <i>k</i>.
-                <br> 
-
-                (This is read as "<i>f(x)</i> 
-                is big-oh of <i>g(x)</i>.")
+                <br>
+                (This is read as "<i>f</i>(<i>x</i>)
+                is big-oh of <i>g</i>(<i>x</i>).")
                 <br>
                 <b>Example 1 </b>Show that 
-                <i>f(x)</i> = 7<i>x<sup>2</sup></i> is
+                <i>f</i>(<i>x</i>) = 7<i>x</i><sup>2</sup> is
                 O(<i>x</i><sup>3</sup>).
-                Take <i>C</i> =1 and <i>k</i> 
+                Take <i>C</i> = 1 and <i>k</i> 
                 = 7 as witnesses to establish
                 that 7<i>x<sup>2</sup></i>  
-                is <i>O(x</i><sup>3</sup>).
+                is <i>O</i>(<i>x</i><sup>3</sup>).
                 <br>
                 When <i>x</i> > 7, 
                 7<i>x</i><sup>2</sup> < <i>x</i><sup>3</sup>.
@@ -337,7 +336,7 @@
                 so that <i>C</i> = 7
                 and <i>k</i> = 1 are also
                 witnesses to the relationship
-                7<i>x</i><sup>2</sup> is <i>O(x</i><sup>3</sup>).
+                7<i>x</i><sup>2</sup> is <i>O</i>(<i>x</i><sup>3</sup>).
             </p>
         </details>
         <details>
@@ -349,20 +348,21 @@
             </p>
             <p>
                 Let <i>f(x)</i> =
-                <i>a<sub>n</sub>x<sup>n</sup></i> +
-                <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ 
+                <i>a</i><sub><i>n</i></sub>
+                <i>x</i><sup><i>n</i></sup> +
+                <i>a</i><sub><i>n</i> - 1</sub><i>x</i><sup><i>n</i>-1</sup> +...+ 
                 <i>a<sup>x</sup></i> + <i>a</i>, 
                 where <i>a</i><sub>0</sub>, 
                 <i>a</i><sub>1</sub>...
                 <i>a</i><sub><i>n</i> - 1</sub>, 
                 <i>a</i><sub><i>n</i></sub> are real numbers.
-                Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
-                a<sub>n&minus;1</sub>x<sup>n&minus;1</sup>
-                +...+ ax + a, where a<sub>0</sub>, 
-                a<sub>1</sub>...
-                a<sub>n&minus;1</sub>, a<sub>n</sub> are real numbers.
+                Let <i>f</i>(<i>x</i>) = <i>a</i><sub><i>n</i></sub><i>x</i><sup><i>n</i></sup> +
+                <i>a</i><sub><i>n</i> &minus; 1</sub><i>x</i><sup>n &minus;1</sup>
+                +...+ <i>a</i><sub><i>x</i></sub> + <i>a</i>, where <i>a</i><sub>0</sub>, 
+                <i>a</i><sub>1</sub>...
+                <i>a</i><sub>n &minus; 1</sub>, <i>a</i><sub>n</sub> are real numbers.
                 <br>
-                Then <i>f(x)</i> is <i>O(x<sup>n</sup>)</i>.
+                Then <i>f</i>(<i>x</i>) is <i>O</i>(<i>x</i><sup><i>n</i></sup>).
                 <br>
                 <b>A Display of the Growth 
                 of Functions Commonly Used in Big-O
@@ -381,15 +381,15 @@
                 THEOREM 2
             </p>
             <p>
-                Suppose that <i>f</i><sub>1</sub><i>(x)</i> is
-                <i>O(g</i><sub>1</sub> (<i>x</i>)) and that 
-                <i>f</i><sub>2</sub> (<i>x</i>) 
-                is <i>O(g</i><sub>2</sub> (<i>x</i>)).<br> 
+                Suppose that <i>f</i><sub>1</sub>(<i>x</i>) is
+                <i>O(g</i><sub>1</sub>(<i>x</i>)) and that 
+                <i>f</i><sub>2</sub>(<i>x</i>) 
+                is <i>O(g</i><sub>2</sub>(<i>x</i>)).<br> 
                 Then (<i>f</i><sub>1</sub>  
                 + <i>f</i><sub>2</sub>)
                 (<i>x</i>) is <i>O</i>
-                (max(|<i>g</i><sub>1</sub> 
-                <i>(x)</i>|, |<i>g</i><sub>2</sub> <i>(x)</i>|)).
+                (max(|<i>g</i><sub>1</sub>
+                (<i>x</i>)|, |<i>g</i><sub>2</sub>(<i>x</i>)|)).
             </p>
             <p class="def">
                 COROLLARY 1
@@ -397,24 +397,25 @@
             <p>
                 Suppose that <i>f</i><sub>1</sub>(<i>x</i>)> and 
                 <i>f</i><sub>2</sub>(<i>x</i>) 
-                are both <i>O(g(x))</i>.<br>
+                are both <i>O</i>(<i>g</i>(<i>x</i>)).
+                <br>
                 Then (<i>f</i><sub>1</sub> + 
-                <i>f</i><sub>2</sub>)(<i>x)</i> is 
-                <i>O(g(x))</i>.
+                <i>f</i><sub>2</sub>)(<i>x</i>) is 
+                <i>O</i>(<i>g</i>(<i>x</i>)).
             </p>
             <p class="def">
                 THEOREM 3
             </p>
             <p>
                 Suppose that <i>f</i><sub>1</sub>(<i>x</i>)
-                is <i>O(g</i><sub>1</sub>(<i>x</i>)) 
+                is <i>O</i>(<i>g</i><sub>1</sub>(<i>x</i>)) 
                 and <i>f</i><sub>2</sub>(<i>x</i>) 
                 is <i>O(g</i><sub>2</sub>(<i>x</i>)).
                 <br>
-                Then (<i>f</i><sub>1</sub><i>f</i><sub>2</sub>)
-                (<i>x</i>) is 
-                <i>O(g</i><sub>1</sub>
-                (<i>x)g</i><sub>2</sub>(<i>x</i>)).
+                Then (<i>f</i><sub>1</sub>
+                <i>f</i><sub>2</sub>)(<i>x</i>) is 
+                <i>O(g</i><sub>1</sub>(<i>x</i>)
+                <i>g</i><sub>2</sub>(<i>x</i>)).
             </p>
         </details>
         <details>
@@ -429,15 +430,15 @@
                 functions from the set of integers 
                 or the set of real numbers to 
                 the set of real numbers.We say that 
-                <i>f (x)</i> is <i>&#937;
-                (g(x))</i> if there are positive constants 
+                <i>f</i>(<i>x</i>) is <i>&#937;
+                (<i>g</i>(<i>x</i>)</i> if there are positive constants 
                 <i>C</i> and <i>k</i> such that |<i>f (x)</i>| &ge; 
-                <i>C</i>|<i>g(x)</i>| whenever <i>x</i> > <i>k</i>.
+                <i>C</i>|<i>g</i>(<i>x</i>)| whenever <i>x</i> > <i>k</i>.
                 <br>
-                (This is read as "f (x) is big-Omega of g(x).")
+                (This is read as "<i>f</i>(<i>x</i> is big-Omega of <i>g</i>(<i>x</i>.")
                 <br>
                 <b>Example : </b>Show that 
-                <i>f(x)</i> = <i>x<sup>3</sup></i> is 
+                <i>f</i>(<i>x</i>) = <i>x<sup>3</sup></i> is 
                 &Omega;(7<i>x</i><sup>2</sup>).
                 <ul>
                     <li>
@@ -452,8 +453,8 @@
                         Just by turning in inequality,
                         we can sat that f(x) is &Omega;
                         (7<i>x</i><sup>2</sup>)
-                        we can sat that f(x) is 
-                        &Omega;(7<i>x<sup>2</sup></i>)
+                        we can say that <i>f</i>(<i>x</i> is 
+                        &Omega;(7<i>x</i><sup>2</sup>)
                     </li>
                 </ul>
             </p>
@@ -465,18 +466,18 @@
                 functions from the set of integers 
                 or the set of real numbers to 
                 the set of real numbers.We say that
-                <i>f (x)</i> is <i>&#920;(g(x))</i> 
-                if <i>f(x)</i> is <i>O(g(x))</i> 
-                and <i>f(x) </i>is <i>&#937;(g(x))</i>. 
-                When <i>f(x)</i> is 
-                <i>&#920;(g(x))</i> we say that <i>f</i> 
-                is big-Theta of <i>g(x)</i>, 
-                that <i>f(x)</i> is of order <i>g(x)</i>, 
-                and that <i>f(x)</i> and 
-                <i>g(x)</i> are of the same order.
+                <i>f</i>(<i>x</i>) is <i>&theta;</i>(<i>g</i>(<i>x</i>))
+                if <i>f</i>(<i>x</i>) is <i>O</i>(<i>g</i>(<i>x</i>) 
+                and <i>f</i>(<i>x</i>) is <i>&#937;</i><i>g</i>(<i>x</i>)). 
+                When <i>f</i>(<i>x</i>)is 
+                <i>&#920;(<i>g</i>(<i>x</i>))</i> we say that <i>f</i> 
+                is big-Theta of <i>g</i>(<i>x</i>), 
+                that <i>f</i>(<i>x</i>) is of order <i>g</i>(<i>x</i>), 
+                and that <i>f</i>(<i>x</i>) and 
+                <i>g</i>(<i>x</i>) are of the same order.
                 <br>
                 <b>Example :</b> Show that 3<i>x</i><sup>2</sup>+ 8<i>x</i> 
-                log <i>x</i> is <i>&Theta;(x</i><sup>2</sup>).
+                log <i>x</i> is <i>&Theta;</i>(<i>x</i><sup>2</sup>).
                 <ul>
                     <li>
                        Because 0 &le; 8<i>x</i> log 
@@ -488,51 +489,26 @@
                     <li>
                         Consequently, 3<i>x</i><sup>2</sup> 
                         + 8<i>x</i> log <i>x</i> is 
-                        O(<i>x</i><sup>2</sup>). 
+                        <i>O</i>(<i>x</i><sup>2</sup>). 
                     </li>
                     <li>
                         Clearly, <i>x</i><sup>2</sup> is
                         O(3<i>x</i><sup>2</sup> + 8<i>x</i> 
                         log <i>x</i>).
-                        Let <i>f</i> and <i>g</i> be 
+                        Let <i>f</i>(<i>x</i>) and <i>g</i>(<i>x</i>) be 
                         functions from the set of integers 
                         or the set of real numbers to the set 
                         of real numbers.We say that
-                        <i>f(x)</i> is <i>&#920;(g(x))</i> if 
-                        <i>f(x)</i> is <i>O(g(x))</i> 
-                        and <i>f(x) </i>is <i>&#937;(g(x))</i>. 
-                        When <i>f(x)</i> is 
-                        <i>&#920;(g(x))</i> we say that <i>f</i>
-                        is big-Theta of <i>g(x)</i>, 
-                        that <i>f(x)</i> is of order <i>g(x)</i>, 
-                        and that <i>f(x)</i> and 
-                        <i>g(x)</i> are of the same order.
+                        <i>f</i>(<i>x</i>) is <i>&#920;(<i>g</i>(<i>x</i>))</i> if 
+                        <i>f</i>(<i>x</i>) is <i>O</i>(<i>g</i>(<i>x</i>))
+                        and <i>f</i>(<i>x</i>)is <i>&#937;</i>(<i>g</i>(<i>x</i>)). 
+                        When <i>f</i>(<i>x</i>) is 
+                        <i>&#920;</i>(<i>g</i>(<i>x</i>)) we say that <i>f</i>
+                        is big-Theta of <i>g</i>(<i>x</i>), 
+                        that <i>f</i>(<i>x</i>) is of order <i>g</i>(<i>x</i>), 
+                        and that <i>f</i>(<i>x</i>) and 
+                        <i>g</i>(<i>x</i>) are of the same order.
                         <br>
-                        <b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
-                        log <i>x</i> is &Theta;(<i>x</i><sup>2</sup>).
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Because 0 &le; 8<i>x</i> log <i>x</i>
-                        &le; 8<i>x<sup>2</sup></i>, 
-                        it follows that 3<i>x<sup>2</sup></i>
-                        + 8<i>x</i> log <i>x</i> 
-                        &le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
-                    </li>
-                    <li>
-                       Consequently, 3<i>x<sup>2</sup></i>
-                       + 8<i>x</i> log <i>x</i> is 
-                       O(<i>x<sup>2</sup></i>). 
-                    </li>
-                    <li>
-                        Clearly, <i>x</i><sup>2</sup> is
-                        O(3<i>x</i><sup>2</sup> + 8<i>x</i> log <i>x</i>).
-                    </li>
-                    <li>
-                        Consequently, 3<i>x</i><sup>2</sup> + 
-                        8<i>x</i> log <i>x</i> is
-                        <i>&Theta;(x</i><sup>2</sup>).
                     </li>
                 </ul>
             </p>
@@ -540,21 +516,23 @@
                 THEOREM 4
             </p>
             <p>
-                Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> +
-                <i>a<sub>n-1</sub>x<sup>n-1</sup></i>
+                Let <i>f</i>(<i>x</i>) = <i>a</i><sub><i>n</i></sub>x<sup><i>n</i></sup> +
+                <i>a</i><sub><i>n</i>-1</sub><i>x</i><sup><i>n</i> - 1</sup>
                 +...+ <i>a</i><sub>1</sub>
                 + <i>a</i><sub>0</sub>, where <i>a</i><sub>0</sub>,
                 <i>a</i><sub>1</sub>, . . . , 
                 an are real numbers
-                with <i>a</i><sub>n</sub> &ne; 0.
-                <i>a<sub>n&minus;1</sub>x<sup>n-1</sup></i>
-                + . .  + <i>a<sub>1</sub>x</i>
-                + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>,
-                <i>a<sub>1</sub></i>, . . . , an are real numbers
-                with <i>a<sub>n</sub> &ne;</i> 0.
+                with <i>a</i><sub><i>n</i></sub> &ne; 0.
+                <i>a</i><sub><i>n</i> &minus; 
+                1</sub> <i>x</i> <sup> <i>n</i> - 1</sup>
+                + . .  + <i>a</i><sub>1</sub><i>x</i>
+                + <i>a</i><sub>0</sub>, where <i>a</i><sub>0</sub>,
+                <i>a</i><sub>1</sub>, . . . , 
+                <i>a</i><sub><i>n</i></sub> are real numbers
+                with <i>a</i><sub><i>n</i></sub> <i>&ne;</i> 0.
                 <br>
-                Then <i>f(x)</i> is of 
-                order <i>x</i><sup>n</sup>.
+                Then <i>f</i>(<i>x</i>) is of 
+                order <i>x</i><sup><i>n</i></sup>.
             </p>
         </details>
         <details>
@@ -565,7 +543,7 @@
                 <a
                 href="https://gcallah.github.io/algorithms/GrowthOfFunctions.html">
                 Algorithms class lecture
-            </a>
+                </a>
                 on the growth of functions.
             </p>
         </details>
@@ -629,18 +607,18 @@
                     Count the number of comparisons
                 </li>
                 <li>
-                    There are n comparisons  while 
+                    There are  <i>n</i> comparisons  while 
                     entering the for loop, one extra when i
                     becomes equal to <i>n</i>
                 </li>
                 <li>
-                    There are <i>n</i>-1 comparison in 
+                    There are <i>n</i> - 1 comparison in 
                     the if loop to check the maximum element
                 </li>
                 <li>
                     The total comparison will be 
-                    <i>n</i> + (<i>n</i>-1)<br>
-                    2(<i>n</i>-1) - 1 = 2<i>n</i> -1 comparisons are made
+                    <i>n</i> + (<i>n</i> - 1)<br>
+                    2(<i>n</i> - 1) - 1 = 2<i>n</i> - 1 comparisons are made
                     There are n comparisons checking the
                     termination condition of the for loop.
                 </li>
@@ -649,12 +627,12 @@
                     statement to check the maximum element.
                     </li>
                 <li>
-                    The total comparisons will be n + (n &minus; 1)<br>
-                    = 2n &minus; 1.
+                    The total comparisons will be <i>n</i> + (<i>n</i> &minus; 1)<br>
+                    = 2<i>n</i> &minus; 1.
                 </li>
                 <li>
                     Hence, the complexity 
-                    will be &Theta;(<i>n</i>)
+                    will be <i>&Theta;</i>(<i>n</i>)
                 </li>
             </ul>       
         </details>
@@ -671,7 +649,7 @@
                 <i>m</i> &#x2715; <i>n</i> matrix that is the 
                 product of the <i>m &#x2715; k</i> 
                 matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
-                and the <i>k</i> &#x2715; n matrix 
+                and the <i>k</i> &#x2715; <i>n</i> matrix 
                 <b>B</b> = [<i>b<sub>ij</sub></i> ].
                 The definition of the product of two matrices can
                 be expressed as an
@@ -681,7 +659,7 @@
                 is the <i>m &#x2715; n</i> matrix that is the 
                 product of the <i>m &#x2715; k</i>
                 matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
-                and the k &#x2715; n matrix <b>B</b> = [<i>b<sub>ij</sub></i> ].
+                and the <i>k</i> &#x2715; <i>n</i> matrix <b>B</b> = [<i>b<sub>ij</sub></i> ].
                 <br>
                 <b>Pseudocode Matrix Multiplication</b>
                 <br>
@@ -694,7 +672,7 @@
                 How many additions of integers and 
                 multiplications of integers are used 
                 by the matrix multiplication algorithm 
-                to multiply two <i>n * n </i>matrices.
+                to multiply two <i>n</i> * <i>n </i>matrices.
                 <ul>
                     <li>
                         There are a total of <i>n<sup>2</sup></i> 
@@ -702,21 +680,21 @@
                         </li>
                     <li>
                         Each element requires <i>n</i> multiplications 
-                        and <i>n-1</i> additions.
+                        and <i>n</i> - 1 additions.
                         How many additions of integers and multiplications
                         of integers are used 
                         by the matrix multiplication algorithm to multiply
-                        two <i>n * n </i>matrices.
+                        two <i>n</i> * <i>n</i> matrices.
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        There are a total of <i>n<sup>2</sup></i>
+                        There are a total of <i>n</i><sup>2</sup>
                         elements in the product matrix.
                     </li>
                     <li>
                         Each element requires <i>n</i> multiplications
-                        and <i>n-1</i> additions.
+                        and <i>n</i> -1 additions.
                     </li>
                     <li>
                         Hence, <i>n</i><sup>3</sup> multiplications and
@@ -724,9 +702,9 @@
                     </li>
                     <li>
                         Hence, the complexity of matrix 
-                        multiplication is <i>O(n</i><sup>3</sup>).  
+                        multiplication is <i>O</i>(<i>n</i><sup>3</sup>).  
                         Hence, the complexity of matrix
-                        multiplication is <i>O(n<sup>3</sup>)</i>.  
+                        multiplication is <i>O</i>(<i>n</i><sup>3</sup>).  
                     </li>
                 </ul>
             </p>
@@ -768,7 +746,7 @@
                 that can make the algorithm more efficient.
                 Construct a brute-force algorithm for finding
                 the closest pair of 
-                points in a set of n points in the
+                points in a set of <i>n</i> points in the
                 plane and provide a worst-case 
                 estimate of the number of arithmetic operations.
                 <br>
@@ -792,14 +770,14 @@
                 compares it with the minimum, etc.
                 So, the algorithm uses
                 <i> &Theta;(n</i><sup>2</sup>) 
-                The algorithm loops through <i>n(n &minus; 1)/2</i>
+                The algorithm loops through <i>n</i>(<i>n</i>> &minus; 1)/2
                 pairs of points, computes the value    
                 (<i>x<sub>j</sub></i> &minus;
-                <i>x<sub>i</sub>)<sup>2</sup></i> + 
-                (<i>y<sub>j</sub></i> &minus;
-                <i>y<sub>i</sub>)<sup>2</sup></i> and 
+                <i>x</i><sub><i>i</i></sub>)<sup>2</sup> + 
+                (<i>y</i><sub><i>j</i></sub> &minus;
+                <i>y</i><sub><i>i</i></sub>)<sup>2</sup> and 
                 compares it with the minimum, etc. So, the algorithm uses
-                <i> &Theta;(n<sup>2</sup>)</i> 
+                <i> &Theta;</i>(<i>n</i><sup>2</sup>)
                 arithmetic and comparison operations.
             </p>
         </details>
