@@ -245,6 +245,13 @@
                             <br>
                             and hence the power set of S is {{},
                             {x}, {y}, {z}, {x, y}, {x, z}, {y, z}, {x, y, z}}.
+                            <br />
+                            Size of the power set of a set of size <i>n</i>
+                            is <i>n</i> <sup>2</sup>. Why? See
+                            <a
+                                href="https://en.wikipedia.org/wiki/Pascal%27s_triangle">
+                                Pascal's Triangle
+                            </a>.
                             </p>
                         </details> 
                     <details>
@@ -769,7 +776,8 @@
                 <ol>
                     <li>
                         A <b>geometric progression</b> 
-                        is a sequence of the form a, ar, ar<sup>2</sup>, ..., ar<sup>n</sup>, ... 
+                        is a sequence of the form a,
+                        ar, ar<sup>2</sup>, ..., ar<sup>n</sup>, ... 
                         where the initial term a and the common 
                         ratio r are real numbers.
                     </li>
@@ -813,6 +821,13 @@
                     any intermediate result is a partial sum, 
                     prefix sum, or running total of the summation.
                     </li>
+
+                    <li>
+                        <a
+                            href="https://en.wikipedia.org/wiki/Look-and-say_sequence">
+                            Look-and-say sequence
+                        </a>
+                    </li>
                     </ol>
                 </details>
             </details>
@@ -844,16 +859,16 @@
                 is called <b>countable</b>. A set that is not 
                 countable is called uncountable. When an infinite 
                 set S is countable, we denote the cardinality of 
-                S by &#1488;<sub>0</sub>
-                (where &#1488; is aleph, the first letter of 
-                the Hebrew alphabet). We write |S| = &#1488;<sub>0</sub>
+                S by &alefsym;<sub>0</sub>
+                (where &alefsym; is aleph, the first letter of 
+                the Hebrew alphabet). We write |S| = &alefsym;<sub>0</sub>
                 and say that S has cardinality "aleph null."
                 <br>
                 <b>For Example</b>: Show that the set of all integers is countable.
                 <br>
                 <b>Solution</b>: We can list all integers in a 
                 sequence by starting with 0 and alternating between 
-                positive and negative integers: 0, 1, −1, 2, −2, ... 
+                positive and negative integers: 0, 1, -1, 2, -2, ... 
                  Alternatively, we could find a one-to-one correspondence
                   between the set of positive integers and the set of 
                   all integers. 
@@ -862,8 +877,22 @@
                   when n is odd is such a function. 
                   Consequently, the set of all integers is countable.
                 </p>
-                </details>
-                <details>
+                <p>
+                <b>A surprising result</b>: The rational numbers are countable.
+                <br />
+                How do we order them?
+                <br />
+                All rational numbers <i>p</i>/<i>q</i> where <i>p</i> + 
+                    <i>q</i> add to 2, then all where they add to 3...
+                <br />
+                So...
+                <br />
+                1/1, 1/2, 2/1, 1/3, 3/1, 1/4, 2/3, 3/2, 4/1... 
+                </p>
+
+            </details>
+
+            <details>
                 <summary class="sum2">
                 An Uncountable Set
                 </summary>
@@ -875,7 +904,17 @@
                 to its cardinal number: a set is uncountable
                  if its cardinal number is larger than 
                  that of the set of all natural numbers.
+                 <br />
+                 There is an injection from the smaller set to
+                 the larger set, but no bijection.
                 </p>
+                <p>
+                    <a
+                        href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">
+                    Cantor's diagonal argument
+                    </a>
+                </p>
+
                 </details>
                 <details>
                 <summary class="sum2">
