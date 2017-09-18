@@ -357,6 +357,7 @@
                         THEOREM 1
                     </p>
                 	<p>
+<<<<<<< HEAD
                         Let <i>f(x)</i> =
                          <i>a<sub>n</sub>x<sup>n</sup></i> +
                 		<i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ 
@@ -365,6 +366,13 @@
                 		<i>a</i><sub>1</sub>...
                 		<i>a</i><sub><i>n</i> - 1</sub>, 
                 		<i>a</i><sub><i>n</i></sub> are real numbers.
+=======
+                        Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
+                		a<sub>n&minus;1</sub>x<sup>n&minus;1</sup>
+                        +...+ ax + a, where a<sub>0</sub>, 
+                		a<sub>1</sub>...
+                		a<sub>n&minus;1</sub>, a<sub>n</sub> are real numbers.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 		<br>
                         Then <i>f(x)</i> is <i>O(x<sup>n</sup>)</i>.
                         <br>
@@ -449,8 +457,13 @@
 				    	</li>
                         <li>
 				    		Just by turning in inequality,
+<<<<<<< HEAD
 				    		 we can sat that f(x) is &Omega;
 				    		(7<i>x</i><sup>2</sup>)
+=======
+                            we can sat that f(x) is 
+                            &Omega;(7<i>x<sup>2</sup></i>)
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
 				    	</li>
 			    	</ul>
         		</p>
@@ -458,6 +471,7 @@
 				DEFINITION 3
 			    </p>
   			    <p>      		
+<<<<<<< HEAD
         			Let <i>f</i> and <i>g</i> be 
         			functions from the set of integers 
        				or the set of real numbers to 
@@ -492,6 +506,36 @@
                             Clearly, <i>x</i><sup>2</sup> is
                             O(3<i>x</i><sup>2</sup> + 8<i>x</i> 
                             log <i>x</i>).
+=======
+        			Let <i>f</i> and <i>g</i> be functions from the set of integers 
+       				or the set of real numbers to the set of real numbers.We say that
+       				<i>f(x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
+       				and <i>f(x) </i>is <i>&#937;(g(x))</i>. When <i>f(x)</i> is 
+       				<i>&#920;(g(x))</i> we say that <i>f</i>
+                    is big-Theta of <i>g(x)</i>, 
+       				that <i>f(x)</i> is of order <i>g(x)</i>, and that <i>f(x)</i> and 
+       				<i>g(x)</i> are of the same order.
+       				<br>
+       				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
+                    log <i>x</i> is &Theta;(<i>x</i><sup>2</sup>).
+        		</p>
+        			<ul>
+        				<li>
+        					Because 0 &le; 8<i>x</i> log <i>x</i>
+                            &le; 8<i>x<sup>2</sup></i>, 
+        					it follows that 3<i>x<sup>2</sup></i>
+                            + 8<i>x</i> log <i>x</i> 
+        					&le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
+        				</li>
+        				<li>
+       						Consequently, 3<i>x<sup>2</sup></i>
+                            + 8<i>x</i> log <i>x</i> is 
+       						O(<i>x<sup>2</sup></i>). 
+       					</li>
+                        <li>
+                            Clearly, <i>x</i><sup>2</sup> is
+                            O(3<i>x</i><sup>2</sup> + 8<i>x</i> log <i>x</i>).
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                         </li>
                         <li>
                             Consequently, 3<i>x</i><sup>2</sup> + 
@@ -504,17 +548,39 @@
 			    </p>
         		<p>
                     Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> +
+<<<<<<< HEAD
                     <i>a<sub>n-1</sub>x<sup>n-1</sup></i>
                     +...+ <i>a</i><sub>1</sub>
                     + <i>a</i><sub>0</sub>, where <i>a</i><sub>0</sub>,
                     <i>a</i><sub>1</sub>, . . . , 
                     an are real numbers
                     with <i>a</i><sub>n</sub> &ne; 0.
+=======
+                    <i>a<sub>n&minus;1</sub>x<sup>n-1</sup></i>
+                    + . .  + <i>a<sub>1</sub>x</i>
+                    + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>,
+                    <i>a<sub>1</sub></i>, . . . , an are real numbers
+                    with <i>a<sub>n</sub> &ne;</i> 0.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                     <br>
                     Then <i>f(x)</i> is of 
                     order <i>x</i><sup>n</sup>.
                 </p>
                 </details>
+
+                <details>
+                    <summary class="sum2">
+                        More on the Growth of Functions
+                    </summary>
+                    <p>
+                    <a
+                        href="https://gcallah.github.io/algorithms/GrowthOfFunctions.html">
+                        Algorithms class lecture
+                    </a>
+                        on the growth of functions.
+                    </p>
+                </details>
+
             </details>
             <details>
                 <summary class="sum1">
@@ -525,6 +591,7 @@
                 	Time Complexity
                 </summary>
                 <p>
+<<<<<<< HEAD
 			        An analysis of the time required 
 			        to solve a problem of a particular 
                 	size involves the time complexity 
@@ -546,12 +613,31 @@
                 	<b>Example :</b> Describe the time 
                 	complexity of an Algorithm for finding 
                 	the maximum element in a finite set of integers.
+=======
+			        An analysis of the time required to solve a problem of a particular 
+                	size involves the time complexity of the algorithm.
+                    The time complexity of 
+                	an algorithm can be expressed in terms of the number of operations 
+                	used by the algorithm when the input has a particular size.
+                	<br>
+                	In most of the cases we consider the
+                    worst-case time complexity of an 
+                	algorithm. This provides an upper bound
+                    on the number of operations an 
+                	algorithm uses to solve a problem with input of a particular size.
+                	<br>
+                	<b>Complexity Analysis of Some Algorithms</b>
+                	<br>
+                	<b>Example :</b> Describe the time complexity of an Algorithm
+                    for finding the maximum element in a finite set of integers.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 </p>
                 	<ul>
                 		<li>
                 			Count the number of comparisons
                 		</li>
                 		<li>
+<<<<<<< HEAD
                 			There are n comparisons  while 
                 			entering the for loop, one extra when i
                 			becomes equal to <i>n</i>
@@ -564,6 +650,18 @@
                 			The total comparison will be 
                 			<i>n</i> + (<i>n</i>-1)<br>
                 			2(<i>n</i>-1) - 1 = 2<i>n</i> -1 comparisons are made
+=======
+                			There are n comparisons checking the
+                            termination condition of the for loop.
+                		</li>
+                		<li>
+                			There are n &minus; 1 comparison in the if
+                            statement to check the maximum element.
+                		</li>
+                		<li>
+                			The total comparisons will be n + (n &minus; 1)<br>
+                			= 2n &minus; 1.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 		</li>
 				        <li>
                 			Hence, the complexity 
@@ -576,6 +674,7 @@
                			Complexity of Matrix Multiplication
                 	</summary>
                 	<p>
+<<<<<<< HEAD
                         The definition of the product 
                         of two matrices can be expressed as an
                  		algorithm for computing the 
@@ -586,6 +685,17 @@
                  		matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
                  		and the <i>k</i> &#x2715; n matrix 
                  		<b>B</b> = [<i>b<sub>ij</sub></i> ].
+=======
+                        The definition of the product of two matrices can
+                        be expressed as an
+                 		algorithm for computing the product of
+                        two matrices. Suppose that 
+                 		<b>C</b> = [<i>c<sub>ij</sub></i>]
+                        is the <i>m &#x2715; n</i> matrix that is the 
+                 		product of the <i>m &#x2715; k</i>
+                        matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
+                 		and the k &#x2715; n matrix <b>B</b> = [<i>b<sub>ij</sub></i> ].
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                  		<br>
                  		<b>Pseudocode Matrix Multiplication</b>
                  		<br>
@@ -595,6 +705,7 @@
                     </figure>
                     <p>
                  		<b>Complexity Calculation</b>
+<<<<<<< HEAD
                  		How many additions of integers and 
                  		multiplications of integers are used 
                  		by the matrix multiplication algorithm 
@@ -607,14 +718,33 @@
                  			<li>
                  				Each element requires <i>n</i> multiplications 
                  				and <i>n-1</i> additions.
+=======
+                 		How many additions of integers and multiplications
+                        of integers are used 
+                 		by the matrix multiplication algorithm to multiply
+                        two <i>n * n </i>matrices.
+                 		<ul>
+                 			<li>
+                 				There are a total of <i>n<sup>2</sup></i>
+                                elements in the product matrix.
+                 			</li>
+                 			<li>
+                 				Each element requires <i>n</i> multiplications
+                                and <i>n-1</i> additions.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                  			</li>
                  			<li>
                  				Hence, <i>n</i><sup>3</sup> multiplications and
                  				<i>n</i><sup>2</sup>(<i>n</i> - 1) additions are used.
                  			</li>
                  			<li>
+<<<<<<< HEAD
                  				Hence, the complexity of matrix 
                  				multiplication is <i>O(n</i><sup>3</sup>).  
+=======
+                 				Hence, the complexity of matrix
+                                multiplication is <i>O(n<sup>3</sup>)</i>.  
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                  			</li>
                 		</ul>
                 	</p>
@@ -624,6 +754,7 @@
                 		Algorithmic Paradigms
                 	</summary>
                 	<p>
+<<<<<<< HEAD
                 		Algorithm Paradigms is a general 
                 		approach based on a particular concept 
                 		that can be used to construct algorithms 
@@ -631,11 +762,20 @@
                 		Greedy Algorithm, Divide and Conquer Algorithm, 
                 		Brute Force Algorithm, Probabilistic 
                 		Algorithm are algorithm paradigms.
+=======
+                		Algorithm Paradigms is a general approach based
+                        on a particular concept that can be used to
+                        construct algorithms for solving a variety of problems.
+                		Greedy Algorithm, Divide and Conquer Algorithm, 
+                		Brute Force Algorithm, Probabilistic Algorithm
+                        are algorithm paradigms.
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 		<br>
                 		<br>
                 		<b>Example :</b> 
                 		Brute Force Algorithms
                         <br>
+<<<<<<< HEAD
                         A brute-force algorithm is solved in 
                         the most straightforward manner,
                         without taking advantage of any ideas 
@@ -645,6 +785,16 @@
                 		for finding the closest pair of 
                 		points in a set of n points in the 
                 		plane and provide a worst-case 
+=======
+                        A brute-force algorithm is solved in the most
+                        straightforward manner,
+                        without taking advantage of any ideas
+                        that can make the algorithm more efficient.
+                		Construct a brute-force algorithm for finding
+                        the closest pair of 
+                		points in a set of n points in the
+                        plane and provide a worst-case 
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 		estimate of the number of arithmetic operations.
                 		<br>
                 		<br>
@@ -657,6 +807,7 @@
                     <p>
                 		<b>Complexity of the Algorithm</b>
                 		<br>
+<<<<<<< HEAD
                 		The algorithm loops through 
                 		<i>n</i>(<i>n</i> - 1)/2 pairs of 
                 		points, computes the value    
@@ -667,6 +818,16 @@
                 		compares it with the minimum, etc.
                 		 So, the algorithm uses
                 		<i> &Theta;(n</i><sup>2</sup>) 
+=======
+                		The algorithm loops through <i>n(n &minus; 1)/2</i>
+                        pairs of points, computes the value    
+                		(<i>x<sub>j</sub></i> &minus;
+                        <i>x<sub>i</sub>)<sup>2</sup></i> + 
+                		(<i>y<sub>j</sub></i> &minus;
+                        <i>y<sub>i</sub>)<sup>2</sup></i> and 
+                		compares it with the minimum, etc. So, the algorithm uses
+                		<i> &Theta;(n<sup>2</sup>)</i> 
+>>>>>>> c2db1642ef0a57dbf53bbcabff93ed2b0b862624
                 		arithmetic and comparison operations.
                 	</p>
                 </details>
