@@ -34,25 +34,31 @@
                 	Solution Steps:
                	</p>
                	<ol>
-                	<li>
-                       		Set the temporary maximum equal to the first integer in 
+               		<li>
+                       	Set the temporary maximum equal 
+                       	to the first integer in 
                    		the sequence.
-                    	</li>
-                    	<li>
-                   		Compare the next integer in the sequence to the temporary 
-                    		maximum, and if it is larger than the temporary maximum, set the 
+                    </li>
+                   	<li>
+                   		Compare the next integer in the 
+                   		sequence to the temporary 
+                    	maximum, and if it is larger than the 
+                    	temporary maximum, set the 
                    		temporary maximum equal to this integer.
-                    	</li>
-                    	<li>
-                     		Repeat the previous step if there are more integers in the
-                    		sequence.
+                   	</li>
+                   	<li>
+                     	Repeat the previous step if there 
+                     	are more integers in the
+                    	sequence.
                		</li>
                   	<li>
-                        	Stop when there are no integers left in the sequence. 
-                        	The temporary maximum at this point is the largest integer in 
-                        	the sequence.
-                        </li>
-                    </ol>
+                        Stop when there are no integers 
+                        left in the sequence. 
+                        The temporary maximum at this point 
+                        is the largest integer in 
+                        the sequence.
+                    </li>
+                </ol>
 		        <p>
             		Properties of an Algorithm
 		        </p>	
@@ -84,10 +90,14 @@
                 		Searching Algorithms 
                 		</summary>
                 		<p>
-                			The problem of locating an element in an ordered list occurs in 
-                			many contexts. For instance, a program that checks the spelling of 
-                			words searches for them in a dictionary, which is just an ordered 
-                			list of words. Problems of this kind are called searching problems.
+                			The problem of locating an element 
+                			in an ordered list occurs in 
+                			many contexts. For instance, a program 
+                			that checks the spelling of 
+                			words searches for them in a dictionary, 
+                			which is just an ordered 
+                			list of words. Problems of this kind are 
+                			called searching problems.
                 		</p>
                 			<details>
                 				<summary class="sum3">
@@ -98,14 +108,16 @@
                 					alt="Linear Search Animation">
                                 </figure>
                                 <p>
-                					<b>procedure</b> <i>linear search(x</i>: integer, <i>a1, a2, .
-                			 		. . , an</i>: distinct integers)<br>
+                					<b>procedure</b> <i>linear search(x</i>: integer,
+                					<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
+                			 		. . , <i>a<sub>n</sub></i>: distinct integers)<br>
                 					<i>i := 1</i><br>
-                					<b>while</b> (i <= n and x != a[i] )<br>
+                					<b>while</b> (<i>i</i> <= <i>n</i> 
+                					and <i>x</i> != <i>a</i>[<i>i</i>] )<br>
                 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 					i = i + 1
                 					<br>
-                					<b>if</b> i <= n <b>then</b> <i>location</i> := i<br>
+                					<b>if</b> i <= n <b>then</b> <i>location</i> := <i>i</i><br>
                 					<b>else</b> <i>location =</i> 0
                 					<br>
                 					<b>return</b> <i>location{location</i> is the subscript of 
@@ -117,10 +129,14 @@
                 				Binary Search
                 				</summary>
                					<p>
-               						This algorithm can be used when the list has terms occurring in 
-                					order of increasing size (for instance: if the terms are numbers, 
-                					they are listed from smallest to largest; if they are words, they 
-                					are listed in lexicographic, or alphabetic, order). This second 
+               						This algorithm can be used when 
+               						the list has terms occurring in 
+                					order of increasing size (for instance: 
+                					if the terms are numbers, 
+                					they are listed from smallest to largest; 
+                					if they are words, they 
+                					are listed in lexicographic, or alphabetic, 
+                					order). This second 
                 					searching algorithm is called the binary search algorithm.
                 					<br>
                                 </p>
@@ -245,10 +261,14 @@
                             LEMMA 1
                         </p>
                			<p>
-               				If n is a positive integer, then n cents in change using 
-               				quarters, dimes, nickels, and pennies using the fewest coins possible 
-               				has at most two dimes, at most one nickel, at most four pennies, and 
-               				cannot have two dimes and a nickel. The amount of change in dimes, 
+               				If n is a positive integer, 
+               				then n cents in change using 
+               				quarters, dimes, nickels, and pennies 
+               				using the fewest coins possible 
+               				has at most two dimes, at most one nickel, 
+               				at most four pennies, and 
+               				cannot have two dimes and a nickel. 
+               				The amount of change in dimes, 
                				nickels, and pennies cannot exceed 24 cents.
                			</p>
                			<br>
@@ -289,29 +309,44 @@
                     DEFINITION
                     </p>
                 	<p>
-                        Let <i>f</i> and <i>g</i> be functions from the set of integers
-                		or the set of real numbers to the set of real numbers.We say that 
-                		<i>f(x)</i> is <i>O(g(x))</i> if there are constants <i>C</i> and 
-                		<i>k</i> such that |<i>f(x)</i>| &le; <i>C</i>|<i>g(x)</i>|whenever 
+                        Let <i>f</i> and <i>g</i> be functions 
+                        from the set of integers
+                		or the set of real numbers to the set 
+                		of real numbers.We say that 
+                		<i>f(x)</i> is <i>O(g(x))</i> if 
+                		there are constants <i>C</i> and 
+                		<i>k</i> such that |<i>f(x)</i>| 
+                		&le; <i>C</i>|<i>g(x)</i>|whenever 
                 		<i>x</i> > <i>k</i>.
                 		<br> 
-                 		(This is read as "<i>f(x)</i> is big-oh of <i>g(x)</i>.")
+
+                 		(This is read as "<i>f(x)</i> 
+                 		is big-oh of <i>g(x)</i>.")
                  		<br>
-                        <b>Example 1 </b>Show that <i>f(x)</i> = 7<i>x<sup>2</sup></i> is
-                        O(<i>x<sup>3</sup></i>).
-                        Take <i>C</i> =1 and <i>k</i> = 7 as witnesses to establish
-                        that 7<i>x<sup>2</sup></i>  is <i>O(x<sup>3</sup>)</i>.
+                        <b>Example 1 </b>Show that 
+                        <i>f(x)</i> = 7<i>x<sup>2</sup></i> is
+                        O(<i>x</i><sup>3</sup>).
+                        Take <i>C</i> =1 and <i>k</i> 
+                        = 7 as witnesses to establish
+                        that 7<i>x<sup>2</sup></i>  
+                        is <i>O(x</i><sup>3</sup>).
                         <br>
-                        When <i>x</i> > 7, 7<i>x<sup>2</sup></i> < <i>x<sup>3</sup></i>.
+                        When <i>x</i> > 7, 
+                        7<i>x</i><sup>2</sup> < <i>x</i><sup>3</sup>.
                         <br>
-                        Consequently, we can take <i>C</i>= 1 and <i>k</i> = 7 as
-                        witnesses to establish the relationship 7<i>x<sup>2</sup></i> is
-                        O(<i>x<sup>3</sup></i>).
+                        Consequently, we can take 
+                        <i>C</i>= 1 and <i>k</i> = 7 as
+                        witnesses to establish the 
+                        relationship 7<i>x</i><sup>2</sup> is
+                        O(<i>x</i><sup>3</sup>).
                         <br>
-                        Alternatively, when <i>x</i> > 1, we have 7<i>x<sup>2</sup></i> <
-                        7<i>x<sup>3</sup></i>, so that <i>C</i> = 7
-                        and <i>k</i> = 1 are also witnesses to the relationship
-                        7<i>x<sup>2</sup></i> is <i>O(x<sup>3</sup>)</i>.
+                        Alternatively, when <i>x</i> 
+                        > 1, we have 7<i>x</i><sup>2</sup> <
+                        7<i>x</i><sup>3</sup>, 
+                        so that <i>C</i> = 7
+                        and <i>k</i> = 1 are also
+                         witnesses to the relationship
+                        7<i>x</i><sup>2</sup> is <i>O(x</i><sup>3</sup>).
                     </p>
                 </details>
             	<details>
@@ -322,14 +357,19 @@
                         THEOREM 1
                     </p>
                 	<p>
-                        Let <i>f(x)</i> = a<sub>n</sub>x<sup>n</sup> +
-                		a<sub>n-1</sub>x<sup>n-1</sup> +...+ ax + a, where a<sub>0</sub>, 
-                		a<sub>1</sub>...
-                		a<sub>n - 1</sub>, a<sub>n</sub> are real numbers.
+                        Let <i>f(x)</i> =
+                         <i>a<sub>n</sub>x<sup>n</sup></i> +
+                		<i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ 
+                		<i>a<sup>x</sup></i> + <i>a</i>, 
+                		where <i>a</i><sub>0</sub>, 
+                		<i>a</i><sub>1</sub>...
+                		<i>a</i><sub><i>n</i> - 1</sub>, 
+                		<i>a</i><sub><i>n</i></sub> are real numbers.
                 		<br>
-                        Then f(x) is O(x<sup>n</sup>).
+                        Then <i>f(x)</i> is <i>O(x<sup>n</sup>)</i>.
                         <br>
-                        <b>A Display of the Growth of Functions Commonly Used in Big-O
+                        <b>A Display of the Growth 
+                        of Functions Commonly Used in Big-O
                         Estimates.</b>
                         <br>
                     </p>
@@ -345,25 +385,34 @@
                         THEOREM 2
                     </p>
                 	<p>
-                        Suppose that <i>f<sub>1</sub> (x)</i> is
-                		<i>O(g<sub>1</sub> (x))</i> and that 
-                		<i>f<sub>2</sub> (x)</i> is <i>O(g<sub>2</sub> (x))</i>.<br> 
-                		Then <i>(f<sub>1</sub>  + f<sub>2</sub> )(x)</i> is <i>O</i>
-                		(max(|<i>g<sub>1</sub> 
-                		(x)</i>|, |<i>g<sub>2</sub> (x)</i>|)).
+                        Suppose that <i>f</i><sub>1</sub><i>(x)</i> is
+                		<i>O(g</i><sub>1</sub> (<i>x</i>)) and that 
+                		<i>f</i><sub>2</sub> (<i>x</i>) 
+                		is <i>O(g</i><sub>2</sub> (<i>x</i>)).<br> 
+                		Then (<i>f</i><sub>1</sub>  
+                		+ <i>f</i><sub>2</sub>)
+                		(<i>x</i>) is <i>O</i>
+                		(max(|<i>g</i><sub>1</sub> 
+                		<i>(x)</i>|, |<i>g</i><sub>2</sub> <i>(x)</i>|)).
                 		</p>
                 		<p class="def">COROLLARY 1</p>
-                		<p>Suppose that <i>f<sub>1</sub>(x)</i> and <i>f<sub>2</sub>(x)</i> 
+                		<p>Suppose that <i>f</i><sub>1</sub>(<i>x</i>)> and 
+                		<i>f</i><sub>2</sub>(<i>x</i>) 
                 		are both <i>O(g(x))</i>.<br>
-                		Then (<i>f<sub>1</sub></i> + <i>f<sub>2</sub>)(x)</i> is 
+                		Then (<i>f</i><sub>1</sub> + 
+                		<i>f</i><sub>2</sub>)(<i>x)</i> is 
                 		<i>O(g(x))</i>.
                 		</p>
                  		<p class="def">THEOREM 3</p>
-                		<p>Suppose that <i>f<sub>1</sub>(x)</i> is <i>O(g<sub>1</sub>(x))</i> 
-                		and <i>f<sub>2</sub>(x)</i> is <i>O(g<sub>2</sub>(x)</i>).
+                		<p>Suppose that <i>f</i><sub>1</sub>(<i>x</i>)
+                		is <i>O(g</i><sub>1</sub>(<i>x</i>)) 
+                		and <i>f</i><sub>2</sub>(<i>x</i>) 
+                		is <i>O(g</i><sub>2</sub>(<i>x</i>)).
                 		<br>
-                		Then <i>(f<sub>1</sub>f<sub>2</sub>)(x)</i> is 
-                		<i>O(g<sub>1</sub>(x)g<sub>2</sub>(x))</i>.
+                		Then (<i>f</i><sub>1</sub><i>f</i><sub>2</sub>)
+                		(<i>x</i>) is 
+                		<i>O(g</i><sub>1</sub>
+                		(<i>x)g</i><sub>2</sub>(<i>x</i>)).
                 	</p>
                 </details>
                 
@@ -375,27 +424,33 @@
                     DEFINITION 2
                 </p>
         		<p>
-        			Let <i>f</i> and <i>g</i> be functions from the set of integers 
-        			or the set of real numbers to the set of real numbers.We say that 
-       				<i>f (x)</i> is <i>&#937;(g(x))</i> if there are positive constants 
+        			Let <i>f</i> and <i>g</i> be 
+        			functions from the set of integers 
+        			or the set of real numbers to 
+        			the set of real numbers.We say that 
+       				<i>f (x)</i> is <i>&#937;
+       				(g(x))</i> if there are positive constants 
        				<i>C</i> and <i>k</i> such that |<i>f (x)</i>| &ge; 
        				<i>C</i>|<i>g(x)</i>| whenever <i>x</i> > <i>k</i>.
        				<br>
        				(This is read as "f (x) is big-Omega of g(x).")
        				<br>
-       				<b>Example : </b>Show that <i>f(x)</i> = <i>x<sup>3</sup></i> is 
-                    &Omega;(7<i>x<sup>2</sup></i>).
+       				<b>Example : </b>Show that 
+       				<i>f(x)</i> = <i>x<sup>3</sup></i> is 
+                    &Omega;(7<i>x</i><sup>2</sup>).
                     <ul>
                         <li>
-						In the above example we have proved the exact opposite.
+						In the above example we have 
+						proved the exact opposite.
 				    	</li>
 				    	<li>
 				    		Consider the same witness <i>C</i> =1 and <i>k</i> = 7 to 
 				    		establish this relation
 				    	</li>
                         <li>
-				    		Just by turning in inequality, we can sat that f(x) is &Omega;
-				    		(7<i>x<sup>2</sup></i>)
+				    		Just by turning in inequality,
+				    		 we can sat that f(x) is &Omega;
+				    		(7<i>x</i><sup>2</sup>)
 				    	</li>
 			    	</ul>
         		</p>
@@ -403,34 +458,45 @@
 				DEFINITION 3
 			    </p>
   			    <p>      		
-        			Let <i>f</i> and <i>g</i> be functions from the set of integers 
-       				or the set of real numbers to the set of real numbers.We say that
-       				<i>f (x)</i> is <i>&#920;(g(x))</i> if <i>f(x)</i> is <i>O(g(x))</i> 
-       				and <i>f(x) </i>is <i>&#937;(g(x))</i>. When <i>f(x)</i> is 
-       				<i>&#920;(g(x))</i> we say that <i>f</i> is big-Theta of <i>g(x)</i>, 
-       				that <i>f(x)</i> is of order <i>g(x)</i>, and that <i>f(x)</i> and 
+        			Let <i>f</i> and <i>g</i> be 
+        			functions from the set of integers 
+       				or the set of real numbers to 
+       				the set of real numbers.We say that
+       				<i>f (x)</i> is <i>&#920;(g(x))</i> 
+       				if <i>f(x)</i> is <i>O(g(x))</i> 
+       				and <i>f(x) </i>is <i>&#937;(g(x))</i>. 
+       				When <i>f(x)</i> is 
+       				<i>&#920;(g(x))</i> we say that <i>f</i> 
+       				is big-Theta of <i>g(x)</i>, 
+       				that <i>f(x)</i> is of order <i>g(x)</i>, 
+       				and that <i>f(x)</i> and 
        				<i>g(x)</i> are of the same order.
        				<br>
-       				<b>Example :</b> Show that 3<i>x<sup>2</sup></i> + 8<i>x</i> 
-        			log <i>x</i> is <i>&Theta;(x<sup>2</sup>)</i>.
+       				<b>Example :</b> Show that 3<i>x</i><sup>2</sup>+ 8<i>x</i> 
+        			log <i>x</i> is <i>&Theta;(x</i><sup>2</sup>).
         		</p>
         			<ul>
         				<li>
-        					Because 0 &le; 8<i>x</i> log <i>x</i> &le; 8<i>x<sup>2</sup></i>, 
-        					it follows that 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> 
-        					&le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
+        					Because 0 &le; 8<i>x</i> log 
+        					<i>x</i> &le; 8<i>x</i><sup>2</sup>, 
+        					it follows that 3<i>x</i><sup>2</sup> 
+        					+ 8<i>x</i> log <i>x</i> 
+        					&le; 11<i>x</i><sup>2</sup> for <i>x</i> > 1.
         				</li>
         				<li>
-       						Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is 
-       						O(<i>x<sup>2</sup></i>). 
+       						Consequently, 3<i>x</i><sup>2</sup> 
+       						+ 8<i>x</i> log <i>x</i> is 
+       						O(<i>x</i><sup>2</sup>). 
        					</li>
                         <li>
-                            Clearly, <i>x<sup>2</sup></i> is
-                            O(3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i>).
+                            Clearly, <i>x</i><sup>2</sup> is
+                            O(3<i>x</i><sup>2</sup> + 8<i>x</i> 
+                            log <i>x</i>).
                         </li>
                         <li>
-                            Consequently, 3<i>x<sup>2</sup></i> + 8<i>x</i> log <i>x</i> is
-                            <i>&Theta;(x<sup>2</sup>)</i>.
+                            Consequently, 3<i>x</i><sup>2</sup> + 
+                            8<i>x</i> log <i>x</i> is
+                            <i>&Theta;(x</i><sup>2</sup>).
                         </li>
                     </ul>
         		<p class="def">
@@ -438,12 +504,15 @@
 			    </p>
         		<p>
                     Let <i>f(x)</i> = <i>a<sub>n</sub>x<sup>n</sup></i> +
-                    <i>a<sub>n-1</sub>x<sup>n-1</sup></i> +...+ <i>a<sub>1</sub>x</i>
-                    + <i>a<sub>0</sub></i>, where <i>a<sub>0</sub></i>,
-                    <i>a<sub>1</sub></i>, . . . , an are real numbers
-                    with <i>a<sub>n</sub> &ne;</i> 0.
+                    <i>a<sub>n-1</sub>x<sup>n-1</sup></i>
+                    +...+ <i>a</i><sub>1</sub>
+                    + <i>a</i><sub>0</sub>, where <i>a</i><sub>0</sub>,
+                    <i>a</i><sub>1</sub>, . . . , 
+                    an are real numbers
+                    with <i>a</i><sub>n</sub> &ne; 0.
                     <br>
-                    Then <i>f(x)</i> is of order <i>x<sup>n</sup></i>.
+                    Then <i>f(x)</i> is of 
+                    order <i>x</i><sup>n</sup>.
                 </p>
                 </details>
             </details>
@@ -456,18 +525,26 @@
                 	Time Complexity
                 </summary>
                 <p>
-			        An analysis of the time required to solve a problem of a particular 
-                	size involves the time complexity of the algorithm.The time complexity of 
-                	an algorithm can be expressed in terms of the number of operations 
-                	used by the algorithm when the input has a particular size.
+			        An analysis of the time required 
+			        to solve a problem of a particular 
+                	size involves the time complexity 
+                	of the algorithm.The time complexity of 
+                	an algorithm can be expressed 
+                	in terms of the number of operations 
+                	used by the algorithm when 
+                	the input has a particular size.
                 	<br>
-                	In most of the cases we consider the worst-case time complexity of an 
-                	algorithm. This provides an upper bound on the number of operations an 
-                	algorithm uses to solve a problem with input of a particular size.
+                	In most of the cases we consider 
+                	the worst-case time complexity of an 
+                	algorithm. This provides an upper
+                	 bound on the number of operations an 
+                	algorithm uses to solve a problem
+                	 with input of a particular size.
                 	<br>
                 	<b>Complexity Analysis of Some Algorithms</b>
                 	<br>
-                	<b>Example :</b> Describe the time complexity of an Algorithm for finding 
+                	<b>Example :</b> Describe the time 
+                	complexity of an Algorithm for finding 
                 	the maximum element in a finite set of integers.
                 </p>
                 	<ul>
@@ -475,18 +552,22 @@
                 			Count the number of comparisons
                 		</li>
                 		<li>
-                			There are n comparisons  while entering the for loop, one extra when i
-                			becomes equal to n
+                			There are n comparisons  while 
+                			entering the for loop, one extra when i
+                			becomes equal to <i>n</i>
                 		</li>
                 		<li>
-                			There are n-1 comparison in the if loop to check the maximum element
+                			There are <i>n</i>-1 comparison in 
+                			the if loop to check the maximum element
                 		</li>
                 		<li>
-                			The total comparison will be n + (n-1)<br>
-                			2(n-1) - 1 = 2n -1 comparisons are made
+                			The total comparison will be 
+                			<i>n</i> + (<i>n</i>-1)<br>
+                			2(<i>n</i>-1) - 1 = 2<i>n</i> -1 comparisons are made
                 		</li>
 				        <li>
-                			Hence, the complexity will be &Theta;(n)
+                			Hence, the complexity 
+                			will be &Theta;(<i>n</i>)
 				        </li>
                 	</ul>       
                 </details>
@@ -495,11 +576,16 @@
                			Complexity of Matrix Multiplication
                 	</summary>
                 	<p>
-                        The definition of the product of two matrices can be expressed as an
-                 		algorithm for computing the product of two matrices. Suppose that 
-                 		<b>C</b> = [<i>c<sub>ij</sub></i>] is the <i>m &#x2715; n</i> matrix that is the 
-                 		product of the <i>m &#x2715; k</i> matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
-                 		and the k &#x2715; n matrix <b>B</b> = [<i>b<sub>ij</sub></i> ].
+                        The definition of the product 
+                        of two matrices can be expressed as an
+                 		algorithm for computing the 
+                 		product of two matrices. Suppose that 
+                 		<b>C</b> = [<i>c<sub>ij</sub></i>] is the
+                 		 <i>m</i> &#x2715; <i>n</i> matrix that is the 
+                 		product of the <i>m &#x2715; k</i> 
+                 		matrix <b>A</b> = [<i>a<sub>ij</sub></i>] 
+                 		and the <i>k</i> &#x2715; n matrix 
+                 		<b>B</b> = [<i>b<sub>ij</sub></i> ].
                  		<br>
                  		<b>Pseudocode Matrix Multiplication</b>
                  		<br>
@@ -509,21 +595,26 @@
                     </figure>
                     <p>
                  		<b>Complexity Calculation</b>
-                 		How many additions of integers and multiplications of integers are used 
-                 		by the matrix multiplication algorithm to multiply two <i>n * n </i>matrices.
+                 		How many additions of integers and 
+                 		multiplications of integers are used 
+                 		by the matrix multiplication algorithm 
+                 		to multiply two <i>n * n </i>matrices.
                  		<ul>
                  			<li>
-                 				There are a total of <i>n<sup>2</sup></i> elements in the product matrix.
+                 				There are a total of <i>n<sup>2</sup></i> 
+                 				elements in the product matrix.
                  			</li>
                  			<li>
-                 				Each element requires <i>n</i> multiplications and <i>n-1</i> additions.
+                 				Each element requires <i>n</i> multiplications 
+                 				and <i>n-1</i> additions.
                  			</li>
                  			<li>
-                 				Hence, <i>n<sup>3</sup></i> multiplications and
-                 				<i>n<sup>2</sup>(n - 1)</i> additions are used.
+                 				Hence, <i>n</i><sup>3</sup> multiplications and
+                 				<i>n</i><sup>2</sup>(<i>n</i> - 1) additions are used.
                  			</li>
                  			<li>
-                 				Hence, the complexity of matrix multiplication is <i>O(n<sup>3</sup>)</i>.  
+                 				Hence, the complexity of matrix 
+                 				multiplication is <i>O(n</i><sup>3</sup>).  
                  			</li>
                 		</ul>
                 	</p>
@@ -533,20 +624,27 @@
                 		Algorithmic Paradigms
                 	</summary>
                 	<p>
-                		Algorithm Paradigms is a general approach based on a particular concept 
-                		that can be used to construct algorithms for solving a variety of problems.
+                		Algorithm Paradigms is a general 
+                		approach based on a particular concept 
+                		that can be used to construct algorithms 
+                		for solving a variety of problems.
                 		Greedy Algorithm, Divide and Conquer Algorithm, 
-                		Brute Force Algorithm, Probabilistic Algorithm are algorithm paradigms.
+                		Brute Force Algorithm, Probabilistic 
+                		Algorithm are algorithm paradigms.
                 		<br>
                 		<br>
                 		<b>Example :</b> 
                 		Brute Force Algorithms
                         <br>
-                        A brute-force algorithm is solved in the most straightforward manner,
-                        without taking advantage of any ideas that can make the algorithm more
+                        A brute-force algorithm is solved in 
+                        the most straightforward manner,
+                        without taking advantage of any ideas 
+                        that can make the algorithm more
                         efficient.
-                		Construct a brute-force algorithm for finding the closest pair of 
-                		points in a set of n points in the plane and provide a worst-case 
+                		Construct a brute-force algorithm 
+                		for finding the closest pair of 
+                		points in a set of n points in the 
+                		plane and provide a worst-case 
                 		estimate of the number of arithmetic operations.
                 		<br>
                 		<br>
@@ -559,11 +657,16 @@
                     <p>
                 		<b>Complexity of the Algorithm</b>
                 		<br>
-                		The algorithm loops through <i>n(n - 1)/2</i> pairs of points, computes the value    
-                		(<i>x<sub>j</sub></i> - <i>x<sub>i</sub>)<sup>2</sup></i> + 
-                		(<i>y<sub>j</sub></i> - <i>y<sub>i</sub>)<sup>2</sup></i> and 
-                		compares it with the minimum, etc. So, the algorithm uses
-                		<i> &Theta;(n<sup>2</sup>)</i> 
+                		The algorithm loops through 
+                		<i>n</i>(<i>n</i> - 1)/2 pairs of 
+                		points, computes the value    
+                		(<i>x</i>><sub><i>j</i>></sub> - 
+                		<i>x<sub>i</sub></i>)<sup>2</sup>+ 
+                		(<i>y<sub>j</sub></i> - 
+                		<i>y<sub>i</sub>)</i><sup>2</sup>and 
+                		compares it with the minimum, etc.
+                		 So, the algorithm uses
+                		<i> &Theta;(n</i><sup>2</sup>) 
                 		arithmetic and comparison operations.
                 	</p>
                 </details>
@@ -574,7 +677,8 @@
                 	<table>
                     	<tr>
                         	<th class="table-head" colspan="2">
-                            		Commonly Used Terminology for the Complexity of Algorithms.
+                            		Commonly Used Terminology 
+                            		for the Complexity of Algorithms.
                         	</th>
                     	</tr>
                         <tr>
@@ -643,15 +747,19 @@
                     	</tr>
                 	</table>
                 	<p>
-                        <b>Tractable problem : </b>a problem for which there is a worst-case
+                        <b>Tractable problem : </b>a problem 
+                        for which there is a worst-case
                         polynomial-time algorithm that solves it
                         <br>
-                        <b>Intractable problem : </b>a problem for which no worst-case
+                        <b>Intractable problem : </b>a 
+                        problem for which no worst-case
                         polynomial-time algorithm exists for solving it
                         <br>
-                        <b>Solvable problem : </b>a problem that can be solved by an algorithm
+                        <b>Solvable problem : </b>a problem 
+                        that can be solved by an algorithm
                         <br>
-                        <b>unsolvable problem : </b>a problem that cannot be solved by an
+                        <b>unsolvable problem : </b>a problem 
+                        that cannot be solved by an
                         algorithm
                 	</p>
                 	</details>
