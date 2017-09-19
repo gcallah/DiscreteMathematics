@@ -751,14 +751,14 @@
                 The algorithm loops through 
                 <i>n</i>(<i>n</i> - 1)/2 pairs of 
                 points, computes the value    
-                (<i>x</i>><sub><i>j</i>></sub> - 
+                (<i>x</i><sub><i>j</i></sub> - 
                 <i>x<sub>i</sub></i>)<sup>2</sup>+ 
                 (<i>y<sub>j</sub></i> - 
                 <i>y<sub>i</sub>)</i><sup>2</sup>and 
                 compares it with the minimum, etc.
                 So, the algorithm uses
                 <i> &Theta;(n</i><sup>2</sup>) 
-                The algorithm loops through <i>n</i>(<i>n</i>> &minus; 1)/2
+                The algorithm loops through <i>n</i>(<i>n</i> &minus; 1)/2
                 pairs of points, computes the value    
                 (<i>x<sub>j</sub></i> &minus;
                 <i>x</i><sub><i>i</i></sub>)<sup>2</sup> + 
