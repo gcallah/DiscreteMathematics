@@ -334,7 +334,7 @@
                 THEOREM 1
             </p>
             <p>
-                Let <i>f(x)</i> =
+                Let <i>f</i>(<i>x</i>) =
                 <i>a</i><sub><i>n</i></sub>
                 <i>x</i><sup><i>n</i></sup> +
                 <i>a</i><sub><i>n</i> - 1</sub><i>x</i><sup><i>n</i>-1</sup> +...+ 
@@ -345,9 +345,10 @@
                 <i>a</i><sub><i>n</i></sub> are real numbers.
                 Let <i>f</i>(<i>x</i>) = <i>a</i><sub><i>n</i></sub><i>x</i><sup><i>n</i></sup> +
                 <i>a</i><sub><i>n</i> &minus; 1</sub><i>x</i><sup>n &minus;1</sup>
-                +...+ <i>a</i><sub><i>x</i></sub> + <i>a</i>, where <i>a</i><sub>0</sub>, 
+                +...+ <i>a</i><i>x</i> + <i>a</i>, where <i>a</i><sub>0</sub>, 
                 <i>a</i><sub>1</sub>...
-                <i>a</i><sub>n &minus; 1</sub>, <i>a</i><sub>n</sub> are real numbers.
+                <i>a</i><sub><i>n</i> &minus; 1</sub>, 
+                <i>a</i><sub><i>n</i></sub> are real numbers.
                 <br>
                 Then <i>f</i>(<i>x</i>) is <i>O</i>(<i>x</i><sup><i>n</i></sup>).
                 <br>
