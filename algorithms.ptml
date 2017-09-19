@@ -456,7 +456,7 @@
                 the set of real numbers.We say that
                 <i>f</i>(<i>x</i>) is <i>&theta;</i>(<i>g</i>(<i>x</i>))
                 if <i>f</i>(<i>x</i>) is <i>O</i>(<i>g</i>(<i>x</i>) 
-                and <i>f</i>(<i>x</i>) is <i>&#937;</i><i>g</i>(<i>x</i>)). 
+                and <i>f</i>(<i>x</i>) is <i>&#937;(</i><i>g</i>(<i>x</i>)). 
                 When <i>f</i>(<i>x</i>)is 
                 <i>&#920;(<i>g</i>(<i>x</i>))</i> we say that <i>f</i> 
                 is big-Theta of <i>g</i>(<i>x</i>), 
