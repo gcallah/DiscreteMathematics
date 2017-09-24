@@ -30,7 +30,10 @@
                 <p>
                 <b>Division</b>:
                 <br>
-                If a and b are integers with a &ne; 0, we say that a divides b if there is an integer c such that b = ac, or equivalently, if b is an integer. When a divides b we say that a is a factor or divisor when a does not divide b.
+                If a and b are integers with a &ne; 0, we say that a
+                divides b if there is an integer c such that b = ac,
+                or equivalently, if b is an integer. When a divides b
+                we say that a is a factor or divisor when a does not divide b.
                 </p>
                 <br>
                 <p>
@@ -106,7 +109,13 @@
                 The most common representation of a positive integer is a
                 string of bits, using the binary numeral system. The order
                 of the memory bytes storing the bits varies; see endianness.
-                The width or precision of an integral type is the number of bits in its representation. An integral type with n bits can encode 2n numbers; for example an unsigned type typically represents the non-negative values 0 through 2n−1. Other encodings of integer values to bit patterns are sometimes used, for example Binary-coded decimal or Gray code, or as printed character codes such as ASCII.
+                The width or precision of an integral type is the number
+                of bits in its representation. An integral type with n
+                bits can encode 2n numbers; for example an unsigned type
+                typically represents the non-negative values 0 through 2n − 1.
+                Other encodings of integer values to bit patterns are
+                sometimes used, for example Binary-coded decimal or Gray code,
+                or as printed character codes such as ASCII.
                 </p>
 
                 2<sup>n</sup>−1. 
