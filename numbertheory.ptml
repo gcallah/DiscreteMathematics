@@ -35,45 +35,66 @@
                 <br>
                 <p>
                 <b>Modular Arithmetic</b>:
-                If a and b are integers and m is a positive integer, then a is congruent to b modulo m if m divides a − b. We use the notation a ≡ b (mod m) to indicate that a is congruent to b modulo m. We say that a ≡ b (mod m) is a congruence and that m is its modulus (plural moduli). If a and b are not congruent modulo m, we write a ̸≡ b (mod m).
+                If a and b are integers and m is a positive integer,
+                then a is congruent to b modulo m if m divides a − b.
+                We use the notation a &equiv; b (mod m) to indicate that a
+                is congruent to b modulo m. We say that a &equiv; b (mod m)
+                is a congruence and that m is its modulus (plural moduli).
+                If a and b are not congruent modulo m,
+                we write a ̸&equiv; b (mod m).
                 </p>
                 <p>
-                <b>Modular arithmetic </b>is a system of arithmetic for integers, where numbers "wrap around" upon reaching a certain value—the modulus (plural moduli)
+                <b>Modular arithmetic </b>is a system of arithmetic
+                for integers, where numbers "wrap around"
+                upon reaching a certain value—the modulus (plural moduli)
                 </p>
+
                 <details>
-                <summary class="sum2">
-                Theorems 
-                </summary>
-                <ol>
-                    <li>
-                    Let a, b, and c be integers, where a &ne; 0. Then
+                    <summary class="sum2">
+                    Theorems 
+                    </summary>
+                    <ol class="nested">
+                        <li>
+                        Let a, b, and c be integers, where a &ne; 0. Then
+                        <br>
+                        (i) if a | b and a | c, then a | (b + c); 
+                        <br>
+                        (ii) if a | b,then a | bc for all integers c;
+                        <br>
+                        (iii) if a | b and b | c, then a | c.
+                        </li>
+                        <li>
+                        <b>THE DIVISION ALGORITHM</b> Let a be an integer
+                             and d a positive integer. Then there are
+                             unique integers q and r, with 0
+                             &le; r &lt; d,
+                             such that a = dq + r.
+                        </li>
+                        <li>
+                        Let a and b be integers, and let m be a positive integer.
+                        Then a &equiv; b (mod m) if and only if a mod m = b mod m.
+                        </li>
+                        <li>
+                        Let m be a positive integer. The integers a and b are
+                        congruent modulo m if and only if there is an
+                        integer k such that a = b + km
+                        </li>
+                        <li>
+                        Let m be a positive integer. If a &equiv; b (mod m)
+                        and c &equiv; d (mod m), then a + c &equiv; b + d (mod m)
+                        and ac &equiv; bd (mod m).
+                        </li>
+                    </ol>
+                    <p>
+                    <b>Corollary:</b> 1. If a, b, and c are integers,
+                    where a &ne; 0, such that a | b and a | c, then
+                    a | mb + nc whenever m and n are integers.
                     <br>
-                    (i) if a|b and a|c, then a|(b+c); 
-                    <br>
-                    (ii) ifa|b,then a|bc for all integers c;
-                    <br>
-                    (iii) ifa|bandb|c,thena|c.
-                    </li>
-                    <li>
-                    <b>THE DIVISION ALGORITHM</b> Let a be an integer and d a positive integer. Then there are unique integers q and r, with 0 ≤ r < d, such that a = dq + r.
-                    </li>
-                    <li>
-                    Let a and b be integers, and let m be a positive integer. Then a ≡ b (mod m) if and only if a mod m = b mod m.
-                    </li>
-                    <li>
-                    Let m be a positive integer. The integers a and b are congruent modulo m if and only if there is an integer k such that a = b + km
-                    </li>
-                    <li>
-                    Let m be a positive integer. If a ≡ b (mod m) and c ≡ d (mod m), then a + c ≡ b + d (mod m) and ac ≡ bd (mod m).
-                    </li>
-                </ol>
-                <p>
-                <b>Corollary :</b> 1. If a, b, and c are integers, where a ̸= 0, such that a | b and a | c, then a | mb + nc whenever m and n are integers.
-                <br>
-                2. Let m be a positive integer and let a and b be integers. Then (a + b) mod m = ((a mod m) + (b mod m)) mod m
-                and
-                ab mod m = ((a mod m)(b mod m)) mod m.
-                </p>
+                    2. Let m be a positive integer and let a and b be
+                    integers. Then (a + b) mod m = ((a mod m) + (b mod m)) mod m
+                    and
+                    ab mod m = ((a mod m)(b mod m)) mod m.
+                    </p>
                 </details>
             </details>
 
@@ -82,7 +103,10 @@
                 Integer Representations and Algorithms 
                 </summary>
                 <p>
-                The most common representation of a positive integer is a string of bits, using the binary numeral system. The order of the memory bytes storing the bits varies; see endianness. The width or precision of an integral type is the number of bits in its representation. An integral type with n bits can encode 2n numbers; for example an unsigned type typically represents the non-negative values 0 through 2n−1. Other encodings of integer values to bit patterns are sometimes used, for example Binary-coded decimal or Gray code, or as printed character codes such as ASCII.
+                The most common representation of a positive integer is a
+                string of bits, using the binary numeral system. The order
+                of the memory bytes storing the bits varies; see endianness.
+                The width or precision of an integral type is the number of bits in its representation. An integral type with n bits can encode 2n numbers; for example an unsigned type typically represents the non-negative values 0 through 2n−1. Other encodings of integer values to bit patterns are sometimes used, for example Binary-coded decimal or Gray code, or as printed character codes such as ASCII.
                 </p>
 
                 2<sup>n</sup>−1. 
