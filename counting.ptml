@@ -42,6 +42,19 @@
                     <summary class="sum2">
                     Basic Counting Principles
                     </summary>
+
+					<details>
+						<summary class="sum3">
+						The Product Rule
+						</summary>
+					</details>
+					
+					<details>
+						<summary class="sum3">
+						The Sum Rule
+						</summary>
+					</details>
+				
                 </details>
             
                 <details>
