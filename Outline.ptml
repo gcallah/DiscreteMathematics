@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Course Outline Fall 2017
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Course Outline Fall 2017
+        </h1>
+            <p>
+                This is the plan of attack for Fall 2017.
+                It may be adjusted due to conditions in the field.
+            </p>
+
+            <ol>
+                <li>
+                    Basics (Sets, etc.)
+                </li>
+                <li>
+                    Algorithms    
+                </li>
+                <li>
+                    Induction and Recurrence
+                </li>
+                <li>
+                    Counting
+                </li>
+                <li>
+                    Discrete Probability
+                </li>
+                <li>
+                    Graphs
+                </li>
+                <li>
+                    Trees
+                </li>
+                <li>
+                    Logic and Proofs
+                </li>
+                <li>
+                    Number Theory
+                </li>
+                <li>
+                    Relations
+                </li>
+                <li>
+                    Boolean Algebra
+                </li>
+            </ol>
+    </body>
+</html>
