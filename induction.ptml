@@ -80,7 +80,7 @@
                         <b>To show:</b> Mathematical Induction is valid.
                         <br>
                         <b>Proved Facts: </b><i>P(1)</i> is true and 
-                        <i>P(k)</i> implies <i>(P(k</i>+1) is true
+                        <i>P(k)</i> implies P(<i>k</i> + 1) is true
                         for all positive integers.
                         <br>
                         <b>Assumption:</b> There is at least one positive 
