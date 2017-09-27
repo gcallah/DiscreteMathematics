@@ -425,9 +425,12 @@
                	    </details>
 
                     <details>
-               		   <summary class="sum3">
-               			  Proving Results about Algorithms
-               		   </summary>
+               		    <summary class="sum3">
+               				Proving Results about Algorithms
+               		    </summary>
+               		    <p>
+               		    	Not covered for Fall 2017
+               		    </p>
                 	</details>                        
                 </details>
                 <details>
@@ -435,6 +438,7 @@
                         Mistaken Proofs by Mathematical Induction
                     </summary>
                     <p>
+                    	Not covered for Fall 2017
                     </p>
                 </details>
 
@@ -581,12 +585,18 @@
                     <summary class="sum2">
                         Using Strong Induction in Computational Geometry
                     </summary>
+                    <p>
+                    	Not covered for Fall 2017
+                    </p>
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Proofs Using the Well-Ordering Property
                     </summary>
+                    <p>
+                    	Not covered for Fall 2017
+                    </p>
                 </details>
             </details>
             <details>
@@ -1149,14 +1159,16 @@
             <h4>
                 CONDITIONAL STATEMENTS
             </h4>
-            <figure>
-
-            </figure>
+            <p>
+            	Not covered for Fall 2017
+            </p>
+            
             <h4>
                 LOOP INVARIANTS
             </h4>
-            <figure>
-            </figure>
+            <p>
+            	Not covered for Fall 2017
+            </p>
         </details>
     </body>
 </html>
