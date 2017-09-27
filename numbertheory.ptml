@@ -150,38 +150,50 @@
                     </summary>
                     <ol class="nested">
                     <li>
-                    <i>ADDITION ALGORITHM:</i>Consider the problem of adding two integers in binary notation.
-                    A procedure to perform addition can be based on the usual method for adding numbers with
-                    pencil and paper. This method proceeds by adding pairs of binary digits together with carries,
+                    <i>ADDITION ALGORITHM:</i>
+                    Consider the problem of adding two integers in binary notation.
+                    A procedure to perform addition can be based on the usual
+                    method for adding numbers with
+                    pencil and paper. This method proceeds by adding
+                    pairs of binary digits together with carries,
                     when they occur, to compute the sum of two integers.
                     <br>
                     <i>Example:</i>Add a = (1110)<sub>2</sub> and b = (1011)<sub>2</sub>
                     <br>
-                    <i>Solutions:</i> Following the procedure specified in the algorithm, first note that
+                    <i>Solutions:</i>
+                    Following the procedure specified in the algorithm, first note that
                     <br>
-                    a<sub>0</sub> +b<sub>0</sub> = 0 + 1 = 0·2 + 1,
+                    a<sub>0</sub> + b<sub>0</sub> = 0 + 1 = 0·2 + 1,
                     <br>
                     so that c<sub>0</sub> = 0 and s<sub>0</sub> = 1. Then, because
                     <br>
-                    a<sub>1</sub> +b<sub>1</sub> +c<sub>0</sub> = 1 + 1 + 0 = 1·2 + 0,
+                    a<sub>1</sub> + b<sub>1</sub> + c<sub>0</sub> = 1 + 1 + 0 = 1·2 + 0,
                     <br>
                     it follows that c<sub>1</sub> = 1 and s<sub>1</sub> = 0. Continuing,
                     <br>
-                    a<sub>2</sub> +b<sub>2</sub> +c<sub>1</sub> = 1 + 0 + 1 = 1·2 + 0,
+                    a<sub>2</sub> + b<sub>2</sub> + c<sub>1</sub> = 1 + 0 + 1 = 1·2 + 0,
                     <br>
-                    so that c<sub>2</sub> = 1 and s<sub>2</sub> = 0. Finally, because a<sub>3</sub> + b<sub>3</sub> + c<sub>2</sub> = 1 + 1 + 1 = 1·2 + 1,
+                    so that c<sub>2</sub> = 1 and s<sub>2</sub> = 0.
+                    Finally, because a<sub>3</sub> + b<sub>3</sub> +
+                    c<sub>2</sub> = 1 + 1 + 1 = 1·2 + 1,
                     <br>
-                    follows that c<sub>3</sub> = 1 and s<sub>3</sub> = 1.This means that s<sub>4</sub> = c<sub>3</sub> = 1. 
+                    follows that c<sub>3</sub> = 1 and s<sub>3</sub> = 1.
+                    This means that s<sub>4</sub> = c<sub>3</sub> = 1. 
                     Therefore, s = a + b = (11001)<sub>2</sub>.
                     </li>
                     <li>
-                    <i>MULTIPLICATION ALGORITHM:</i> Consider the multiplication of two <i>n</i>-bit integers <i>a</i> and <i>b</i>.
+                    <i>MULTIPLICATION ALGORITHM:</i>
+                    Consider the multiplication of two <i>n</i>-bit
+                    integers <i>a</i> and <i>b</i>.
                     The conventional algorithm (used when multiplying with pencil and paper)
                     works as follows. Using the distributive law, we see that
                     <br>
-                    ab = a(b<sub>0</sub>2<sup>0</sup> + b<sub>1</sub>2<sup>1</sup> +···+ b<sub>n−1</sub>2<sup>n−1</sup>)
+                    ab = a(b<sub>0</sub>2<sup>0</sup>
+                    + b<sub>1</sub>2<sup>1</sup> +···+ b<sub>n−1</sub>2<sup>n−1</sup>)
                     <br>
-                    = a(b<sub>0</sub>2<sup>0</sup>) + a(b<sub>1</sub>2<sup>1</sup>) + · · · + a(b<sub>n−1</sub>2<sup>n−1</sup>)
+                    = a(b<sub>0</sub>2<sup>0</sup>)
+                    + a(b<sub>1</sub>2<sup>1</sup>)
+                    + · · · + a(b<sub>n−1</sub>2<sup>n−1</sup>)
                     </li>
                     </ol>
                 </details>   
