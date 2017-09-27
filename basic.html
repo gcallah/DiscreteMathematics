@@ -420,8 +420,7 @@
                             In such cases, U &minus; A
                             is called the absolute complement or
                             simply complement of A, and is denoted by an A
-                            with a bar over it. On web pages, we will use
-                            compl(A).
+                            with a bar over it. 
                             <br>
                             For instance:
                             <br>
@@ -433,17 +432,19 @@
                             <br>
                             1. A &minus; B &ne; B &minus; A for A &ne; B.
                             <br>
-                            2. A &cup; compl(A) = U.
+                            2. A &cup; <span class="over">A</span> = U.
                             <br>
-                            3. A &cap; compl(A) = &empty;.
+                            3. A &cap; <span class="over">A</span> = &empty;.
                             <br>
-                            4. compl(compl(A)) = A.
+                            4. compl(<span class="over">A</span>) = A.
                             <br>
                             5. A &minus; A = &empty;.
                             <br>
-                            6. compl(U) = &empty; and compl(&empty;) = U.
+                            6. <span class="over">U</span> = &empty; and <span
+                                class="over">&empty;</span> = U.
                             <br>
-                            7. A &minus; B = A &cap; compl(B).
+                            7. A &minus; B = A &cap; <span
+                                class="over">B</span>.
                         </p>
                         </details>
                     </details>
@@ -455,7 +456,7 @@
                         <p>
                             The fundamental laws of set algebra :
                         </p>
-                        <ol>
+                        <ol class="nested">
                             <li>
                             <b>Commutative laws:</b>
                             <br>
@@ -487,9 +488,9 @@
                             <li>
                             <b>Complement laws:</b>
                             <br>
-                            A &cup; compl(A) = U
+                            A &cup; <span class="over">A</span> = U
                             <br>
-                            A &cap; compl(A) = &empty;
+                            A &cap; <span class="over">A</span> = &empty;
                             </li>
                             <li>
                             <b>Idempotent laws:</b>
@@ -513,17 +514,22 @@
                             </summary>
                             <p>
                             If A and B are any two sets then,
-                            <ol>
+                            </p>
+                            <ol class="nested">
                                 <li>
-                                compl(A &cup; B) = compl(A) &cap; compl(B)
+                                    <span class="over">A &cup; B</span> = <span
+                                          class="over">A</span> &cap; <span
+                                          class="over">B</span>
                                 </li>
                                 <li>
-                                compl(A &cap; B) = compl(A) &cup; compl(B)
+                                    <span class="over">A &cap; B</span> = <span
+                                          class="over">A</span> &cup; <span
+                                          class="over">B</span>
                                 </li>
                             </ol>
-                            </p>
                         </details>
                     </details>  
+
                     <details>
                         <summary class="sum2">
                         Computer Representation of Sets
@@ -540,13 +546,18 @@
                         We can represent set by a bit string: bit <em>x</em>
                         is on if <em>x</em> is in the set.
                         <br />
-                        <b>For Example </b>: Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 
-                        and the ordering of elements of U has the elements in increasing 
-                        order; that is, a<sub>i</sub> = i. What bit strings represent the subset of 
-                        all odd integers in U, the subset of all even integers in U, 
+                        <b>For Example </b>:
+                        Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 
+                        and the ordering of elements of U has
+                        the elements in increasing 
+                        order; that is, a<sub>i</sub> = i.
+                        What bit strings represent the subset of 
+                        all odd integers in U, the subset
+                        of all even integers in U, 
                         and the subset of integers not exceeding 5 in U?
                         <br>
-                        Solution: The bit string that represents the set of odd 
+                        Solution:
+                        The bit string that represents the set of odd 
                         integers in U, namely, {1, 3, 5, 7, 9}, 
                         is 10 1010 1010.
                         <br>
@@ -591,18 +602,21 @@
                     </summary>
                     <p>
                     A function f is said to 
-                    be one-to-one, or an injunction, if and only if f(a) = f(b) 
+                    be one-to-one, or an injunction,
+                    if and only if f(a) = f(b) 
                     implies that a = b for all a and b in the domain of f.
-                     A function is said to be injective if it is one-to-one.
+                    A function is said to be injective if it is one-to-one.
                     <br>
                     Note that a function f is one-to-one if and 
                     only if f (a) &ne; f (b) whenever a &ne; b. This
                     way of expressing that f is one-to-one is obtained by 
-                    taking the contrapositive of the implication in the definition.
+                    taking the contrapositive of the
+                    implication in the definition.
                     <br>
                     <b>For example:</b>
                     Determine whether the function f 
-                    from {a, b, c, d} to {1, 2, 3, 4, 5} with f(a) = 4, f(b) = 5, 
+                    from {a, b, c, d} to {1, 2, 3, 4, 5}
+                    with f(a) = 4, f(b) = 5, 
                     f(c) = 1, and f(d) = 3 is one-to-one?
                     <br>
                     <b>Answer:</b> The function f is one-to-one because f takes 
@@ -671,8 +685,10 @@
                         Let f be a one-to-one 
                         correspondence from the set A to the set B. The 
                         inverse function of f is the function that assigns 
-                        to an element b belonging to B the unique element a in 
-                        A such that f (a) = b. The inverse function of f is denoted 
+                        to an element b belonging to B
+                        the unique element a in 
+                        A such that f (a) = b. The
+                        inverse function of f is denoted 
                         by f<sup>&minus;1</sup>.
                         Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
                         </p>
@@ -956,7 +972,8 @@
                 </summary>
                 <p>
                 A <b>matrix</b> is a rectangular array of numbers. 
-                A matrix with m rows and n columns is called an m &mul; n matrix. 
+                A matrix with m rows and n columns is
+                called an m &mul; n matrix. 
                 The plural of matrix is matrices. A matrix with the same 
                 number of rows as columns is called square. Two matrices 
                 are equal if they have the same number of rows and the same 

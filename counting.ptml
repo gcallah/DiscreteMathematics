@@ -8,7 +8,20 @@
 
     <body>
 
-<!--include menu.txt -->
+    <div id="header">
+        <div id="logo">
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/250px-6n-graf.svg.png"
+            height="56" width="84"
+            max-height=100%>
+        </div>
+        <div id="user-tools">
+            <a href="index.html">Home</a>
+            &nbsp; &nbsp; 
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
 
         <h1 class="chap-title">
             Counting
@@ -20,6 +33,13 @@
                 </figure>
             </div>
             
+
+	    <details>
+                    <summary class="sum1">
+                    Introduction
+                    </summary>
+            </details>
+
             <details>
                 <summary class="sum1">
                 The Basics of Counting
@@ -29,11 +49,54 @@
                     <summary class="sum2">
                     Basic Counting Principles
                     </summary>
+
+					<details>
+						<summary class="sum3">
+						The Product Rule
+						</summary>
+					</details>
+					
+					<details>
+						<summary class="sum3">
+						The Sum Rule
+						</summary>
+					</details>
+				
                 </details>
             
                 <details>
                     <summary class="sum2">
-                    More Advanced Counting Problems
+                    More Complex Counting Problems
+                    </summary>
+                </details>
+				
+				<details>
+                    <summary class="sum2">
+                    The Subtraction Rule (Inclusion-Exclusion for Two Sets)
+                    </summary>
+					
+					<details>
+						<summary class="sum3">
+						The Subtraction Rule
+						</summary>
+					</details>
+                </details>
+				
+				<details>
+                    <summary class="sum2">
+                    The Division Rule
+                    </summary>
+					
+					<details>
+						<summary class="sum3">
+						The Division Rule
+						</summary>
+					</details>
+                </details>
+				
+				<details>
+                    <summary class="sum2">
+                    Tree Diagrams
                     </summary>
                 </details>
 
@@ -43,30 +106,118 @@
                 <summary class="sum1">
                 The Pigeonhole Principle
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    Introduction
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Generalized Pigeonhole Principle
+                    </summary>
+                </details>
+                      
+                <details>
+                    <summary class="sum2">
+                    Some Elegant Applications of the Pigeonhole Principle
+                    </summary>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Permutations and Combinations
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    Permutations
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Combinations
+                    </summary>
+                </details>
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Binomial Coefficients and Identities 
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    The Binomial Theorem
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Pascal's Identity and Triangle
+                    </summary>
+                </details>
+                      
+                <details>
+                    <summary class="sum2">
+                    Other Identities Involving Binomial Cooefficients
+                    </summary>
+                </details>
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Generalized Permutations and Combinations 
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    Permutations With Repetition
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Combinations with Repetition
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Permutations with Indistinguishable Objects
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Distributing Objects Into Boxes
+                    </summary>
+                </details>
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Generating Permutations and Combinations 
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    Generating Permutations
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Generating Combinations
+                    </summary>
+                </details>
+
             </details>
 
 
