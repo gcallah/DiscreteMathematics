@@ -939,7 +939,7 @@
                       <i>T</i><sub>2</sub> are full 
                       binary trees, then the 
                       full binary tree <i>v</i> = 
-                      <i>T</i><sub>1</sub> . <i>T</i><sub>2</sub>
+                      <i>T</i><sub>1</sub> * <i>T</i><sub>2</sub>
                       has height <i>h(T</i> ) = 1 + 
                       max(<i>h(T</i><sub>1</sub>), <i>h(T</i><sub>2</sub>)).
                   </p>    
@@ -1101,6 +1101,8 @@
         <details>
             <summary class="sum1">
             Program Correctness
+            <br />
+            Not Covered Fall 2017
             </summary>
             <details>
                 <summary class="sum2">
@@ -1160,18 +1162,13 @@
                     with respect to the initial
                     assertion p and the final assertion q.
                 </p>   
+                <h4>
+                    CONDITIONAL STATEMENTS
+                </h4>
+                <h4>
+                    LOOP INVARIANTS
+                </h4>
             </details>
-            <h4>
-                CONDITIONAL STATEMENTS
-            </h4>
-            <figure>
-
-            </figure>
-            <h4>
-                LOOP INVARIANTS
-            </h4>
-            <figure>
-            </figure>
         </details>
     </body>
 </html>
