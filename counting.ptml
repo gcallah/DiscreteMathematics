@@ -38,12 +38,14 @@
                     <summary class="sum1">
                     Introduction
                     </summary>
+
 			<p>
+			<b>Combinatorics:</b> Study of aarangement of objects.<br>
+			<b>Enumeration:</b> Counting of objects with certain properties.<br>
+			
+			<br>
 			Say we have a set of objects with certain properties.<br>
-			<i><b>Counting</b></i> is used to determine the number of these objects.<br>
-			Examples:<br>
-			1. The successful outcomes of experiments.<br>
-			2. The number of operations used by an algorithm to study its Time Complexity.<br>	
+			<i><b>Counting</b></i> is used to determine the number of these objects.<br>	
 			</p>
 		
             </details>
@@ -52,11 +54,22 @@
                 <summary class="sum1">
                 The Basics of Counting
                 </summary>
-            
+
+            	<p>
+		Counting problems arise throughout mathematics and computer science.<br>
+		Examples:<br>
+                        1. The successful outcomes of experiments.<br>
+                        2. The number of operations used by an algorithm to study its Time Complexity.<br>
+		</p>
+
                 <details>
                     <summary class="sum2">
                     Basic Counting Principles
                     </summary>
+
+			<p>
+			There are two basic counting principles.<br>
+			</p>
 
 					<details>
 						<summary class="sum3">
