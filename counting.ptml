@@ -81,7 +81,7 @@
 						</figure>
 
 						<p>
-						Examples:<br>
+						<b>Examples:</b><br>
 						1. The chairs of an auditorium are to be labeled with an uppercase English letter followed by a positive integer not exceeding <b>100</b>. What is the largest number of chairs that can be labeled differently?<br>
 						
 						
@@ -96,6 +96,7 @@
 						</details>
 						</p>
 						<p>
+						<br>
 						2. How many different license plates can be made if each plate contains a sequence of three uppercase English letters followed by three digits (and no sequences of letters are prohibited, even if they are obscene)?<br>
 
 						<figure>	
@@ -123,6 +124,44 @@
 						<figure>	
 						<img src="graphics/Count2_sumrule.png">		
 						</figure>
+
+						<p>
+						<b>Examples:</b><br>
+						1. A student can choose a computer project from one of three lists. The three lists contain <b>23, 15, </b>and <b>19 </b>possible projects, respectively. No project is on more than one list. How many possible projects are there to choose from?
+						<br>
+						
+						
+						<details>
+							<summary class="sum4">
+							Answer:
+							</summary>
+							<p>
+							The student can choose a project by selecting a project from the first list, the second list, or the third list. Because no project is on more than one list, by the sum rule there are <b>23 + 15 + 19 = 57 </b>ways to choose a project.
+							
+							</p>
+							<br>
+						</details>
+						</p>
+						<p>
+						<br>
+						2.What is the value of k after the following code, where n<sub>1</sub> , n<sub>2</sub> , . . . , n<sub>m</sub> are positive integers, has been executed?
+						<br>
+
+						<figure>	
+						<img src="graphics/Count6_sumeg.png">		
+						</figure>					
+						
+						<details>
+							<summary class="sum4">
+							Answer:
+							</summary>
+							<p>
+							The initial value of k is zero. This block of code is made up of m different loops. Each time a loop is traversed, 1 is added to k. To determine the value of k after this code has been executed, we need to determine how many times we traverse a loop. Note that there are n <sub></sub> ways to traverse the ith loop. Because we only traverse one loop at a time, the sum rule shows that the final value of k, which is the number of ways to traverse one of the m loops is <b>n<sub>1</sub>+ n <sub>2</sub> + ... + n <sub>m</sub></b> .
+
+							</p>
+							<br>
+						</details>
+						</p>
 
 					</details>
 				
