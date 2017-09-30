@@ -90,7 +90,7 @@
 							Answer:
 							</summary>
 							<p>
-							The procedure of labeling a chair consists of two tasks, namely, assigning to the seat one of the 26 uppercase English letters, and then assigning to it one of the 100 possible integers. The product rule shows that there are <b>26 * 100 = 2600 </b>different ways that a chair can be labeled. Therefore, the largest number of chairs that can be labeled differently is <b>2600 </b>.
+							The procedure of labeling a chair consists of two tasks, namely, assigning to the seat one of the 26 uppercase English letters, and then assigning to it one of the 100 possible integers. The product rule shows that there are <b>26 · 100 = 2600 </b>different ways that a chair can be labeled. Therefore, the largest number of chairs that can be labeled differently is <b>2600 </b>.
 							</p>
 							<br>
 						</details>
@@ -107,7 +107,7 @@
 							Answer:
 							</summary>
 							<p>
-							There are <b>26 </b>choices for each of the three uppercase English letters and ten choices for each of the three digits. Hence, by the product rule there are a total of <b>26 * 26 * 26 * 10 * 10 * 10 = 17,576,000 </b>possible license plates.
+							There are <b>26 </b>choices for each of the three uppercase English letters and ten choices for each of the three digits. Hence, by the product rule there are a total of <b>26 · 26 · 26 · 10 · 10 · 10 = 17,576,000 </b>possible license plates.
 							</p>
 							<br>
 						</details>
