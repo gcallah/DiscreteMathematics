@@ -156,7 +156,7 @@
 							Answer:
 							</summary>
 							<p>
-							The initial value of k is zero. This block of code is made up of m different loops. Each time a loop is traversed, 1 is added to k. To determine the value of k after this code has been executed, we need to determine how many times we traverse a loop. Note that there are n <sub></sub> ways to traverse the ith loop. Because we only traverse one loop at a time, the sum rule shows that the final value of k, which is the number of ways to traverse one of the m loops is <b>n<sub>1</sub>+ n <sub>2</sub> + ... + n <sub>m</sub></b> .
+							The initial value of k is zero. This block of code is made up of m different loops. Each time a loop is traversed, 1 is added to k. To determine the value of k after this code has been executed, we need to determine how many times we traverse a loop. Note that there are n <sub>i</sub> ways to traverse the ith loop. Because we only traverse one loop at a time, the sum rule shows that the final value of k, which is the number of ways to traverse one of the m loops is <b>n<sub>1</sub>+ n <sub>2</sub> + ... + n <sub>m</sub></b> .
 
 							</p>
 							<br>
@@ -171,9 +171,36 @@
                     <summary class="sum2">
                     More Complex Counting Problems
                     </summary>
+			
+			<p>
+			<b>Example:</b><br>
+			Each user on a computer system has a password, which is six to eight characters long, where each character is an uppercase letter or a digit. Each password must contain at least one digit. How many possible passwords are there?
+			</p>
+
+			<details>
+				<summary class="sum3">
+				Answer:
+				</summary>
+				<p>
+				Let P be the total number of possible passwords, and let P<sub>6</sub> , P<sub>7</sub> , and P<sub>8</sub> denote the number of possible passwords of length 6, 7, and 8, respectively. <br>By the sum rule, <b>P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> </b>. <br>We will now find P<sub>6</sub> , P<sub>7</sub> , and P<sub>8</sub> . <br>Finding P<sub>6</sub> directly is difficult. To find P<sub>6</sub>  it is easier to find the number of strings of uppercase letters and digits that are six characters long, including those with no digits, and subtract from this the number of strings with no digits. By the product rule, the number of strings of six characters is 36<sup>6</sup>, and the number of strings with no digits is 26<sup>6</sup>. Hence,<br>
+
+P<sub>6</sub> = 36<sup>6</sup> - 26<sup>6</sup> = 2,176,782,336 - 308,915,776 = 1,867,866,560.<br>
+Similarly, we have<br>
+P<sub>7</sub> = 36<sup>7</sup> - 26<sup>7</sup> = 78,364,164,096 - 8,031,810,176 = 70,332,353,920<br>
+and<br>
+P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,064,576 = 2,612,282,842,880.<br>
+<b>P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> = 2,684,483,063,360.</b><br>
+				</p>
+				<br>
+			</details>
+		
+
+					
+
+
                 </details>
 				
-				<details>
+		<details>
                     <summary class="sum2">
                     The Subtraction Rule (Inclusion-Exclusion for Two Sets)
                     </summary>
