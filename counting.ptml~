@@ -729,12 +729,60 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 			<img src="graphics/Count25_pascal.gif" >		
 			</figure>
 		
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 2
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count26_pascalth2.png" width="742" height="130">		
+				</figure>
+
+				<figure>	
+				<img src="graphics/Count27_pascal.png" width="842" height="500">		
+				</figure>
+
+	 		</details>
+
                 </details>
                       
                 <details>
                     <summary class="sum2">
                     Other Identities Involving Binomial Cooefficients
                     </summary>
+
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 3
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count29_pascalth3.png" width="842" height="150">		
+				</figure>
+
+	 		 </details>
+			
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 4
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count28_pascalcol4.png" width="742" height="120">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 4
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count30_pascalth4.png" width="742" height="130">		
+				</figure>
+
+	 		 </details>
                 </details>
 
             </details>
