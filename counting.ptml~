@@ -601,7 +601,7 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count19_percomdef.png" width="1042" height="170">		
+				<img src="graphics/Count19_percomdef.png" width="1042" height="180">		
 				</figure>
 
 	 		 </details>
@@ -659,16 +659,76 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
                 Binomial Coefficients and Identities 
                 </summary>
 
+		<figure>	
+		<img src="graphics/Count20_Bino.svg.png" width="442" height="380">		
+		</figure>
+
+
                 <details>
                     <summary class="sum2">
                     The Binomial Theorem
                     </summary>
+
+			<p>
+			The binomial theorem gives the coefficients of the expansion of powers of binomial expressions.<br>
+			A binomial expression is simply the sum of two terms, such as x + y.
+			</p>
+
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 1
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count21_binoth.png" width="742" height="130">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 1
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count22_binocol.png" width="742" height="120">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 2
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count23_binocol2.png" width=742" height="120">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 3
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count24_binocol3.png" width="742" height="120">		
+				</figure>
+
+	 		 </details>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                     Pascal's Identity and Triangle
                     </summary>
+
+			<figure>	
+			<img src="graphics/Count25_pascal.gif" >		
+			</figure>
+		
                 </details>
                       
                 <details>
