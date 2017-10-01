@@ -189,42 +189,67 @@ Similarly, we have<br>
 P<sub>7</sub> = 36<sup>7</sup> - 26<sup>7</sup> = 78,364,164,096 - 8,031,810,176 = 70,332,353,920<br>
 and<br>
 P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,064,576 = 2,612,282,842,880.<br>
-P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> = 2,684,483,063,360.<br>
+<b>P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> = 2,684,483,063,360.</b><br>
 				</p>
 				<br>
 			</details>
 		
-
-					
-
-
                 </details>
+
 				
 		<details>
                     <summary class="sum2">
                     The Subtraction Rule (Inclusion-Exclusion for Two Sets)
                     </summary>
-					
+				
+
+			<figure>	
+			<img src="graphics/Count3_subtractrule.png">		
+			</figure>
+				
+			<p>
+			<b>Example:</b><br>
+			</p>
+			<p>
+			A computer company receives 350 applications from computer graduates for a job planning a line of new Web servers. Suppose that 220 of these applicants majored in computer science, 147 majored in business, and 51 majored both in computer science and in business. How many of these applicants majored neither in computer science nor in business?
+			</p>	
 					<details>
 						<summary class="sum3">
-						The Subtraction Rule
+						Answer:
 						</summary>
+
+					<p>
+					To find the number of these applicants who majored neither in computer science nor in business, we can subtract the number of students who majored either in computer science or in business (or both) from the total number of applicants. Let A 1 be the set of students who majored in computer science and A 2 the set of students who majored in business. Then A<sub>1</sub> &cup; A<sub>2</sub> is the set of students who majored in computer science or business (or both), and A 1 &cap; A 2 is the set of students who majored both in computer science and in business. By the subtraction rule the number of students who majored either in computer science or in business (or both) equals<br>
+
+<b>|A 1 &cup; A 2 | = |A 1 | + |A 2 | - |A 1 &cap; A 2 | = 220 + 147 - 51 = 316.</b><br>
+We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in computer science nor in business.
+
+					</p>
 					</details>
                 </details>
 				
-				<details>
+		<details>
                     <summary class="sum2">
                     The Division Rule
                     </summary>
+
+			<figure>	
+			<img src="graphics/Count4_divisionrule.png">		
+			</figure>
+
+			<p>
+			<b>Example:</b><br>
+			</p>
 					
 					<details>
 						<summary class="sum3">
-						The Division Rule
+						Answer:
 						</summary>
 					</details>
                 </details>
 				
-				<details>
+
+		<details>
                     <summary class="sum2">
                     Tree Diagrams
                     </summary>
