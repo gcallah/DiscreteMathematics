@@ -808,6 +808,30 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 	 		 </details>
 
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				How many strings of length r can be formed from the uppercase letters of the English alphabet?<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+				
+					<p>
+					By the product rule, because there are 26 uppercase English letters, and because each letter can be used repeatedly, we see that there are 26<sup> r</sup> strings of uppercase English letters of length r.<br>
+The number of r-permutations of a set with n elements when repetition is allowed is given in Theorem 1.
+					<br><br>
+					</p>
+               			 </details>
+
+
+	 		 </details>
+
 			
                 </details>
 
@@ -824,6 +848,31 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 				<figure>	
 				<img src="graphics/Count32_permth2.png" width="742" height="110">		
 				</figure>
+
+			</details>
+			
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				Suppose that a cookie shop has four different kinds of cookies. How many different ways can six cookies be chosen? Assume that only the type of cookie, and not the individual cookies or the order in which they are chosen, matters.<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+				
+					<p>
+					The number of ways to choose six cookies is the number of 6-combinations of a set with four elements. <br>
+From Theorem 2 this equals C(4 + 6 - 1, 6) = C(9, 6).<br>
+C(9, 6) = C(9, 3) = (9 * 8 * 7) / (1 * 2* 3) = 84 <br>
+There are<b> 84 </b>different ways to choose the six cookies.
+					<br><br>
+					</p>
+               			 </details>
 
 	 		 </details>
 
@@ -844,6 +893,38 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 				</figure>
 
 	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				How many different strings can be made by reordering the letters of the word SUCCESS?
+				<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+				
+					<p>
+					Because some of the letters of SU CCESS are the same, the answer is not given by the number of permutations of seven letters. This word contains three Ss, two Cs, one U , and one E.<br>
+To determine the number of different strings that can be made by reordering the letters, first note that the three Ss can be placed among the seven positions in C(7, 3) different ways, leaving four positions free. <br>
+Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U can be placed in C(2, 1) ways, leaving just one position free. Hence E can be placed in C(1, 1) way.<br> Consequently, from the product rule, the number of different strings that can be made is<br>
+
+					<figure>	
+					<img src="graphics/Count38_eg1.png" width="742" height="150">		
+					</figure>
+					<br><br>
+					</p>
+               			 </details>
+
+
+	 		
+
+	 		 </details>
                 </details>
 
                 <details>
@@ -853,6 +934,15 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
+                    		DISTINGUISHABLE OBJECTS AND DISTINGUISHABLE BOXES
+                    		</summary>
+
+				<p>
+				<b>Example:</b><br>
+				How many ways are there to distribute hands of 5 cards to each of four players from the standard deck of 52 cards?
+				</p>
+				<details>
+                    		<summary class="sum4">
                     		Theorem 4
                     		</summary>
 
@@ -860,7 +950,57 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 				<img src="graphics/Count34_permth4.png" width="742" height="150">		
 				</figure>
 
+	 			</details>
+				<br>
 	 		 </details>
+			
+			<details>
+                    		<summary class="sum3">
+                    		INDISTINGUISHABLE OBJECTS AND DISTINGUISHABLE BOXES
+                    		</summary>
+
+				<p>
+				Counting the number of ways of placing n indistinguishable objects into k distinguishable boxes turns out to be the same as counting the number of n-combinations for a set with k elements when repetitions are allowed. <br>
+The reason behind this is that there is a one-to-one correspondence between n-combinations from a set with k elements when repetition is allowed and the ways to place n indistinguishable balls into k distinguishable boxes. To set up this correspondence, we put a ball in the ith bin each time the ith element of the set is included in the n-combination.
+				</p>
+				<p>
+				<b>Example:</b><br>
+				How many ways are there to place 10 indistinguishable balls into eight distinguishable bins?
+				</p>
+				<br>
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		DISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
+                    		</summary>
+
+				<p>
+				Counting the ways to place n distinguishable objects into k indistinguishable boxes is more difficult than counting the ways to place objects, distinguishable or indistinguishable objects, into distinguishable boxes.
+				</p>
+				<p>
+				<b>Example:</b><br>
+				How many ways are there to put four different employees into three indistinguishable offices, when each office can contain any number of employees?
+				</p>
+				<br>
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		INDISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
+                    		</summary>
+
+				<p>
+				Some counting problems can be solved by determining the number of ways to distribute indistinguishable objects into indistinguishable boxes. We illustrate this principle with an example.<br>
+				</p>
+				<p>
+				<b>Example:</b><br>
+				How many ways are there to pack six copies of the same book into four identical boxes, where a box can contain as many as six books?
+				</p>
+				<br>
+	 		 </details>			
+
+			
                 </details>
 
             </details>
@@ -885,6 +1025,29 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 				</figure>
 
 	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				Generate the permutations of the integers 1, 2, 3 in lexicographic order.<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+
+					<p>
+					Begin with 123. The next permutation is obtained by interchanging 3 and 2 to obtain 132. Next, because 3 > 2 and 1 &lt; 3, permute the three integers in 132. Put the smaller of 3 and 2 in the first position, and then put 1 and 3 in increasing order in positions 2 and 3 to obtain 213. This is followed by 231, obtained by interchanging 1 and 3, because 1 &lt; 3. The next larger permutation has 3 in the first position, followed by 1 and 2 in increasing order, namely, 312.<br>
+Finally, interchange 1 and 2 to obtain the last permutation, 321. We have generated the permutations of 1, 2, 3 in lexicographic order.<br>
+<b>They are 123, 132, 213, 231, 312, and 321.</b>
+					</p>
+				</details>
+
+	 		 </details>
                 </details>
 
                 <details>
@@ -898,8 +1061,29 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count36_permalgo2.png" width="742" height=350">		
+				<img src="graphics/Count36_permalgo2.png" width="742" height=300">		
 				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				Find the next bit string after 10 0010 0111.<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+
+				<p>
+				The first bit from the right that is not a 1 is the fourth bit from the right. Change this bit to a 1 and change all the following bits to 0s. This produces the next larger bit string, 10 0010 1000.<br>
+				</p>
+				</details>
 
 	 		 </details>
 
@@ -913,6 +1097,30 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 				</figure>
 
 	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example
+                    		</summary>
+
+				<p>
+				Find the next larger 4-combination of the set {1, 2, 3, 4, 5, 6} after {1, 2, 5, 6}.<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer
+                    			</summary>
+
+					<p>
+					The last term among the terms a<sub>i</sub> with a<sub>1</sub>= 1, a<sub>2</sub> = 2, a<sub>3</sub> = 5, and a<sub>4</sub> = 6 such that a<sub>i</sub> &ne; 6 − 4 + i is a<sub> 2</sub> = 2. <br>
+To obtain the next larger 4-combination, increment a<sub>2</sub> by 1 to obtain a<sub>2</sub> = 3. Then set a<sub>3</sub> = 3 + 1 = 4 and a<sub>4</sub> = 3 + 2 = 5. <br>
+Hence the next larger 4-combination is <b>{1, 3, 4, 5}</b>.
+					</p>
+				</details>
+
+	 		 </details>
+
                 </details>
 
             </details>
