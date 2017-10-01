@@ -260,6 +260,26 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                     <summary class="sum2">
                     Tree Diagrams
                     </summary>
+
+		<p>
+		<b>Example:</b><br>
+		A playoff between two teams consists of at most five games. The first team that wins three games wins the playoff. In how many different ways can the playoff occur?<br>
+		</p>
+
+			<details>
+                   	 <summary class="sum3">
+                   	 Answer:
+                   	 </summary>
+			<p>
+			The tree diagram in Figure 3 displays all the ways the playoff can proceed, with the winner of each game shown. We see that there are 20 different ways for the playoff to occur.<br>
+			</p>
+
+			<figure>	
+			<img src="graphics/Count7_treeeg.png">		
+			</figure>
+
+              		</details>
+
                 </details>
 
             </details>

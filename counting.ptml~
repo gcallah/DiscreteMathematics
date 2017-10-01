@@ -212,6 +212,7 @@ P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,06
 			</p>
 			<p>
 			A computer company receives 350 applications from computer graduates for a job planning a line of new Web servers. Suppose that 220 of these applicants majored in computer science, 147 majored in business, and 51 majored both in computer science and in business. How many of these applicants majored neither in computer science nor in business?
+			<br>
 			</p>	
 					<details>
 						<summary class="sum3">
@@ -237,14 +238,20 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
 			<img src="graphics/Count4_divisionrule.png">		
 			</figure>
 
+
 			<p>
 			<b>Example:</b><br>
+			How many different ways are there to seat four people around a circular table, where two seatings are considered the same when each person has the same left neighbor and the same right neighbor?<br>
 			</p>
 					
 					<details>
 						<summary class="sum3">
 						Answer:
 						</summary>
+
+					<p>
+					We arbitrarily select a seat at the table and label it seat 1. We number the rest of the seats in numerical order, proceeding clockwise around the table. Note that are four ways to select the person for seat 1, three ways to select the person for seat 2, two ways to select the person for seat 3, and one way to select the person for seat 4. Thus, there are <b>4! = 24 </b>ways to order the given four people for these seats. However, each of the four choices for seat 1 leads to the same arrangement, as we distinguish two arrangements only when one of the people has a different immediate left or immediate right neighbor. Because there are four ways to choose the person for seat 1, by the division rule there are <b>24/4 = 6 </b>different seating arrangements of four people around the circular table.<br>
+					</p>
 					</details>
                 </details>
 				
@@ -253,6 +260,26 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                     <summary class="sum2">
                     Tree Diagrams
                     </summary>
+
+		<p>
+		<b>Example:</b><br>
+		A playoff between two teams consists of at most five games. The first team that wins three games wins the playoff. In how many different ways can the playoff occur?<br>
+		</p>
+
+			<details>
+                   	 <summary class="sum3">
+                   	 Answer:
+                   	 </summary>
+			<p>
+			The tree diagram in Figure 3 displays all the ways the playoff can proceed, with the winner of each game shown. We see that there are 20 different ways for the playoff to occur.<br>
+			</p>
+
+			<figure>	
+			<img src="graphics/Count4_treeeg.png">		
+			</figure>
+
+              		</details>
+
                 </details>
 
             </details>
