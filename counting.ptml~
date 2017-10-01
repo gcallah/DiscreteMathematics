@@ -461,7 +461,7 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
 				
 					<p>
 					The <b> Ramsey number R(m, n)</b>, where m and n are positive integers greater than or equal to 2, denotes the minimum number of people at a party such that there are either m mutual friends or n mutual enemies, assuming that every pair of people at the party are friends or enemies.<br>
-Example 2 shows that R(3, 3) ≤ 6.<br>
+Example 2 shows that R(3, 3) &le; 6.<br>
 We conclude that <b>R(3, 3) = 6 </b>because in a group of five people where every two people are friends or enemies, there may not be three mutual friends or
 three mutual enemies.
 					<br><br>
@@ -480,16 +480,176 @@ three mutual enemies.
                 Permutations and Combinations
                 </summary>
 
-                <details>
-                    <summary class="sum2">
-                    Permutations
-                    </summary>
-                </details>
+		<figure>	
+		<img src="graphics/Count14_percom.jpeg" width="642" height="300">		
+		</figure>
+
+               	<details>
+                    	<summary class="sum2">
+                    	Permutations
+                    	</summary>
+
+			<p>
+			A <i>permutation </i>of a set of distinct objects is an ordered arrangement of these objects.<br>
+			An ordered arrangement of r elements of a set is called an <b>r-permutation</b>.
+			</p>
+			
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 1
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count15_percomth.png" width="742" height="140">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 1
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count16_percomcol.png" width="842" height="120">		
+				</figure>
+
+	 		 </details>
+			
+			<details>
+                    		<summary class="sum3">
+                    		Example 1
+                    		</summary>
+
+				<p>
+				How many ways are there to select a first-prize winner, a second-prize winner, and a third-prize winner from 100 different people who have entered a contest?<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer:
+                    			</summary>
+				
+					<p>
+					P (100, 3) = 100 * 99 * 98 = <b>970,200</b><br><br>
+					</p>
+               			 </details>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example 2
+                    		</summary>
+
+				<p>
+				How many permutations of the letters ABCDEFGH contain the string ABC ?<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer:
+                    			</summary>
+				
+					<p>
+					Because the letters ABC must occur as a block, we can find the answer by finding the number of permutations of six objects, namely, the block ABC and the individual letters D, E, F , G, and H . <br>
+Because these six objects can occur in any order, there are <b>6! = 720</b> permutations of the letters ABCDEFGH in which ABC occurs as a block.<br><br>
+					</p>
+               			 </details>
+
+	 		 </details>
+
+               	</details>
 
                 <details>
-                    <summary class="sum2">
-                    Combinations
-                    </summary>
+                    	<summary class="sum2">
+                    	Combinations
+                    	</summary>
+
+			<p>
+			An <b>r-combination </b>of elements of a set is an unordered selection of r elements from the set.<br>
+Thus, an r-combination is simply a subset of the set with r elements.<br>
+The number of r-combinations of a set with n distinct elements is denoted by <i>C(n, r)</i>.<br>
+<i>C(n, r)</i> is called a <b>binomial coefficient</b>.
+			</p>
+
+			<details>
+                    		<summary class="sum3">
+                    		Theorem 2
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count17_percomth2.png" width="800" height="150">		
+				</figure>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Corollary 2
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count18_percomcol2.png" width="842" height="90">		
+				</figure>
+
+	 		 </details>
+	
+			<details>
+                    		<summary class="sum3">
+                    		Definition 1
+                    		</summary>
+
+				<figure>	
+				<img src="graphics/Count19_percomdef.png" width="1042" height="170">		
+				</figure>
+
+	 		 </details>
+			
+			<details>
+                    		<summary class="sum3">
+                    		Example 1
+                    		</summary>
+
+				<p>
+				How many ways are there to select five players from a 10-member tennis team to make a trip to a match at another school?				
+				<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer:
+                    			</summary>
+				
+					<p>
+					C(10, 5) = 10! /( 5! * 5!) = <b>252</b><br><br>
+					</p>
+               			 </details>
+
+	 		 </details>
+
+			<details>
+                    		<summary class="sum3">
+                    		Example 2
+                    		</summary>
+
+				<p>
+				How many bit strings of length n contain exactly r 1s?<br>
+				</p>
+
+				<details>
+                    			<summary class="sum4">
+                    			Answer:
+                    			</summary>
+				
+					<p>
+					The positions of r 1s in a bit string of length n form an r-combination of the set {1, 2, 3, . . . , n}. <br>
+					Hence, there are C(n, r) bit strings of length n that contain exactly r 1s..<br><br>
+					</p>
+               			 </details>
+
+	 		 </details>
+
                 </details>
 
             </details>
