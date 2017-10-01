@@ -275,7 +275,7 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
 			</p>
 
 			<figure>	
-			<img src="graphics/Count4_treeeg.png">		
+			<img src="graphics/Count7_treeeg.png">		
 			</figure>
 
               		</details>
@@ -288,6 +288,10 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                 <summary class="sum1">
                 The Pigeonhole Principle
                 </summary>
+		
+		<figure>	
+			<img src="graphics/Count8_pigeon.jpeg">		
+		</figure>
 
                 <details>
                     <summary class="sum2">
