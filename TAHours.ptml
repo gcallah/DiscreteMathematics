@@ -25,6 +25,9 @@
                 <th>
                     Location
                 </th>
+                <th>
+                    Email
+		</th>
             </tr>
             <tr>
                 <td>
@@ -35,6 +38,9 @@
                 </td>
                 <td>
                     10.098
+                </td>
+                <td>
+                    rjw229@nyu.edu
                 </td>
             </tr>
             <tr>
@@ -47,6 +53,9 @@
                 <td>
                     10.098
                 </td>
+                <td>
+                    jad752@nyu.edu
+                </td>
             </tr>
             <tr>
                 <td>
@@ -58,6 +67,9 @@
                 <td>
                     10.098
                 </td>
+                <td>
+                    msa530@nyu.edu
+                </td>
             </tr>
             <tr>
                 <td>
@@ -68,6 +80,9 @@
                 </td>
                 <td>
                     10.098
+                </td>
+                <td>
+                    ss10448@nyu.edu
                 </td>
             </tr>
         </table>
