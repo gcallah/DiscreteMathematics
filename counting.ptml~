@@ -676,7 +676,7 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
-                    		Theorem 1
+                    		Binomial Theorem 1
                     		</summary>
 
 				<figure>	
@@ -687,7 +687,7 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
-                    		Corollary 1
+                    		Binomial Corollary 1
                     		</summary>
 
 				<figure>	
@@ -698,7 +698,8 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
-                    		Corollary 2
+                    		Binomial Corollary 2:
+                            Not Covered Fall 2017
                     		</summary>
 
 				<figure>	
@@ -709,7 +710,8 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
-                    		Corollary 3
+                    		Binomial Corollary 3:
+                            Not Covered Fall 2017
                     		</summary>
 
 				<figure>	
@@ -753,33 +755,36 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
 
 			<details>
                     		<summary class="sum3">
-                    		Theorem 3
+                    		Theorem 3: Not Covered Fall 2017
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count29_pascalth3.png" width="742" height="150">		
+				<img src="graphics/Count29_pascalth3.png"
+                    width="742" height="150">		
 				</figure>
 
 	 		 </details>
 			
 			<details>
                     		<summary class="sum3">
-                    		Corollary 4
+                    		Corollary 4: Not Covered Fall 2017
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count28_pascalcol4.png" width="742" height="140">		
+				<img src="graphics/Count28_pascalcol4.png"
+                     width="742" height="140">		
 				</figure>
 
 	 		 </details>
 
 			<details>
                     		<summary class="sum3">
-                    		Theorem 4
+                    		Theorem 4: Not Covered Fall 2017
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count30_pascalth4.png" width="742" height="130">		
+				<img src="graphics/Count30_pascalth4.png"
+                    width="742" height="130">		
 				</figure>
 
 	 		 </details>
@@ -889,7 +894,7 @@ There are<b> 84 </b>different ways to choose the six cookies.
                     		</summary>
 
 				<figure>	
-				<img src="graphics/Count33_permth3.png" width="742" height="150">		
+				<img src="graphics/Count33_permth3.png" width="742" height="170">		
 				</figure>
 
 	 		 </details>
@@ -960,20 +965,34 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
                     		</summary>
 
 				<p>
-				Counting the number of ways of placing n indistinguishable objects into k distinguishable boxes turns out to be the same as counting the number of n-combinations for a set with k elements when repetitions are allowed. <br>
-The reason behind this is that there is a one-to-one correspondence between n-combinations from a set with k elements when repetition is allowed and the ways to place n indistinguishable balls into k distinguishable boxes. To set up this correspondence, we put a ball in the ith bin each time the ith element of the set is included in the n-combination.
+				Counting the number of ways of placing n
+                indistinguishable objects into k distinguishable
+                boxes turns out to be the same as counting the
+                number of n-combinations for a set with k elements
+                when repetitions are allowed.
+                <br>
+                The reason behind this is that there is a
+                one-to-one correspondence between n-combinations
+                from a set with k elements when repetition
+                is allowed and the ways to place n indistinguishable
+                balls into k distinguishable boxes.
+                To set up this correspondence, we put
+                a ball in the i<sup>th</sup> bin each time
+                the i<sup>th</sup> element of the set is
+                included in the n-combination.
 				</p>
 				<p>
 				<b>Example:</b><br>
-				How many ways are there to place 10 indistinguishable balls into eight distinguishable bins?
+				How many ways are there to place 10
+                indistinguishable balls into eight distinguishable bins?
 				</p>
 				<br>
 	 		 </details>
 
 			<details>
-                    		<summary class="sum3">
-                    		DISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
-                    		</summary>
+                <summary class="sum3">
+                    DISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
+                </summary>
 
 				<p>
 				Counting the ways to place n distinguishable objects into k indistinguishable boxes is more difficult than counting the ways to place objects, distinguishable or indistinguishable objects, into distinguishable boxes.
@@ -1023,7 +1042,7 @@ The reason behind this is that there is a one-to-one correspondence between n-co
 				<figure>	
 				<img src="graphics/Count35_permalgo1.png" width="742" height="650">		
 				</figure>
-
+			<br>
 	 		 </details>
 
 			<details>
@@ -1045,6 +1064,7 @@ The reason behind this is that there is a one-to-one correspondence between n-co
 Finally, interchange 1 and 2 to obtain the last permutation, 321. We have generated the permutations of 1, 2, 3 in lexicographic order.<br>
 <b>They are 123, 132, 213, 231, 312, and 321.</b>
 					</p>
+					<br>
 				</details>
 
 	 		 </details>
@@ -1063,7 +1083,7 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
 				<figure>	
 				<img src="graphics/Count36_permalgo2.png" width="742" height=300">		
 				</figure>
-
+				<br>
 	 		 </details>
 
 			<details>
@@ -1083,6 +1103,7 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
 				<p>
 				The first bit from the right that is not a 1 is the fourth bit from the right. Change this bit to a 1 and change all the following bits to 0s. This produces the next larger bit string, 10 0010 1000.<br>
 				</p>
+				<br>
 				</details>
 
 	 		 </details>
@@ -1095,7 +1116,7 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
 				<figure>	
 				<img src="graphics/Count37_permalgo3.png" width="742" height="350">		
 				</figure>
-
+				<br>
 	 		 </details>
 
 			<details>
@@ -1117,6 +1138,7 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
 To obtain the next larger 4-combination, increment a<sub>2</sub> by 1 to obtain a<sub>2</sub> = 3. Then set a<sub>3</sub> = 3 + 1 = 4 and a<sub>4</sub> = 3 + 2 = 5. <br>
 Hence the next larger 4-combination is <b>{1, 3, 4, 5}</b>.
 					</p>
+					<br>
 				</details>
 
 	 		 </details>
