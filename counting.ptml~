@@ -1005,9 +1005,9 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
 	 		 </details>
 
 			<details>
-                    		<summary class="sum3">
-                    		INDISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
-                    		</summary>
+                <summary class="sum3">
+                    INDISTINGUISHABLE OBJECTS AND INDISTINGUISHABLE BOXES
+                </summary>
 
 				<p>
 				Some counting problems can be solved by determining the number of ways to distribute indistinguishable objects into indistinguishable boxes. We illustrate this principle with an example.<br>
