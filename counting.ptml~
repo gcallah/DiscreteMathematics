@@ -450,7 +450,10 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
                     		</summary>
 				
 				<p>
-				Assume that in a group of six people, each pair of individuals consists of two friends or two enemies. Show that there are either three mutual friends or three mutual enemies in the group.
+				Assume that in a group of six people, each pair of
+                individuals consists of two friends or two enemies.
+                Show that there are either three mutual friends or
+                three mutual enemies in the group.
 				<br><br>
 				</p>
 
@@ -460,10 +463,17 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
                     			</summary>
 				
 					<p>
-					The <b> Ramsey number R(m, n)</b>, where m and n are positive integers greater than or equal to 2, denotes the minimum number of people at a party such that there are either m mutual friends or n mutual enemies, assuming that every pair of people at the party are friends or enemies.<br>
-Example 2 shows that R(3, 3) &le; 6.<br>
-We conclude that <b>R(3, 3) = 6 </b>because in a group of five people where every two people are friends or enemies, there may not be three mutual friends or
-three mutual enemies.
+					The <b> Ramsey number R(m, n)</b>, where m and n
+                    are positive integers greater than or equal to 2,
+                    denotes the minimum number of people at a party
+                    such that there are either m mutual friends or
+                    n mutual enemies, assuming that every pair of
+                    people at the party are friends or enemies.<br>
+                    Example 2 shows that R(3, 3) &le; 6.<br>
+                    We conclude that <b>R(3, 3) = 6</b>
+                    because in a group of five people where
+                    every two people are friends or enemies,
+                    there may not be three mutual friends or three mutual enemies.
 					<br><br>
 					</p>
 
@@ -490,8 +500,10 @@ three mutual enemies.
                     	</summary>
 
 			<p>
-			A <i>permutation </i>of a set of distinct objects is an ordered arrangement of these objects.<br>
-			An ordered arrangement of r elements of a set is called an <b>r-permutation</b>.
+			A <i>permutation </i>of a set of distinct objects is an
+            ordered arrangement of these objects.<br>
+			An ordered arrangement of r elements of a set is
+            called an <b>r-permutation</b>.
 			</p>
 			
 			<details>
@@ -795,6 +807,8 @@ The number of r-combinations of a set with n distinct elements is denoted by <i>
             <details>
                 <summary class="sum1">
                 Generalized Permutations and Combinations 
+                <br />
+                Not covered Fall 2017
                 </summary>
 
                 <details>
@@ -1027,6 +1041,8 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
             <details>
                 <summary class="sum1">
                 Generating Permutations and Combinations 
+                <br />
+                Not covered Fall 2017
                 </summary>
 
                 <details>
