@@ -61,6 +61,23 @@
                         Probabilistic Reasoning
                     </summary>
                 </details>
+
+
+                <details>
+                    <summary class="sum2">
+                        The Monty Hall Problem Video
+                    </summary>
+
+                    <figure>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/4Lb-6rxZxx0"
+                            frameborder="0" allowfullscreen>
+                        </iframe>
+                        <figcaption>
+                        </figcaption>
+                    </figure>
+                </details>
+
             </details>
 
             <details>
@@ -87,10 +104,24 @@
                         Probabilities of Complements and 
                         Unions of Events
                     </summary>
+
+                    <p>
+                        Complements:
+                        <br />
+                        p(<span class="over"><i>E</i></span>)
+                            = 1 - <i>p</i>(<i>E</i>)
+                    </p>
+
                     <details>
                         <summary class="sum3">
                             THEOREM 1
-                        </summary>>
+                        </summary>
+                        <p>
+                            The probability of any event from a
+                            sequence of disjoint events is just the sum of 
+                            the individual probabilities.
+                        </p>
+
                     </details>
                 </details>
                 <details>
@@ -101,6 +132,34 @@
                         <summary class="sum3">
                             DEFINITION 3
                         </summary>
+
+                        <p>
+                         The <i>conditional probability</i> of
+                         event <i>E</i> given event <i>F</i> has
+                         occurred is defined as:
+                        </p>
+
+                        <figure>
+                            <img src="graphics/CondProb.gif">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
+
+                        <p>
+                            Let's analyze with our shark example:
+                            <br />
+                            E = "bitten by shark"
+                            <br />
+                            F = "shark present" (imagine it's .001)
+                            <br />
+                            And E &cap; F = .0025
+                            <br />
+                            Therefore, p(E | F) = .5
+                            <br />
+                            Or, "Half the time, if there is a shark around, it
+                            bites someone."
+                        </p>
+
                     </details>
                 </details>
                 <details>
