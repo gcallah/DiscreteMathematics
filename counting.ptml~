@@ -578,10 +578,12 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                  <summary class="sum3">
                  Video on permutations and chairs
                  </summary>
+                 <figure>
                  <iframe width="560" height="315"
                      src="https://www.youtube.com/embed/540OebByCU0"
                      frameborder="0" allowfullscreen>
                  </iframe>
+                 </figure>
              </details>
 
                    </details>
@@ -591,14 +593,17 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                         Combinations
                         </summary>
 
-    		<p>
-    		An <b>r-combination </b>of elements of a set is an unordered selection of r elements from the set.<br>
-Thus, an r-combination is simply a subset of the set with r elements.<br>
-The number of r-combinations of a set with n distinct elements is denoted by <i>C(n, r)</i>.<br>
-<i>C(n, r)</i> is called a <b>binomial coefficient</b>.
-    		</p>
+            		<p>
+            		An <b>r-combination </b>of elements of a set is an
+                    unordered selection of r elements from the set.<br>
+                    Thus, an r-combination is simply a subset of the
+                    set with r elements.<br>
+                    The number of r-combinations of a set with n
+                    distinct elements is denoted by <i>C(n, r)</i>.<br>
+                    <i>C(n, r)</i> is called a <b>binomial coefficient</b>.
+            		</p>
 
-    		<details>
+            		<details>
                         	<summary class="sum3">
                         	Theorem 2
                         	</summary>
