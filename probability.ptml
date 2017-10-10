@@ -249,7 +249,8 @@
                     </p>
 
                     <p>
-                    Many problems can be solved by determining the probability
+                    Many problems can be solved by determining
+                    the probability
                     of <i>k</i> successes when an
                     experiment consists of <i>n</i> mutually
                     independent Bernoulli trials.
@@ -270,16 +271,38 @@
                     <summary class="sum2">
                         Random Variables
                     </summary>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 6
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 7
-                        </summary>
-                    </details>
+                    <p class="def">
+                        DEFINITION 6
+                    </p>
+                    <p>
+                        A <i>random variable</i> is a function from
+                        the sample space of an experiment to the set
+                        of real numbers. A random variable assigns a
+                        real number to each possible outcome.
+                        <br />
+                        <b>Example</b>: Let <i>X</i>(<i>t</i>) be the
+                        number of heads that appear in three coin tosses.
+                        Then, <i>X</i>(HHH) = 3, <i>X</i>(HHT) = 2,
+                        and so on.
+                    </p>
+
+                    <p class="def">
+                        DEFINITION 7
+                    </p>
+                    
+                    <p>
+                        The <i>distribution</i> of a random variable is the
+                        complete set of probabilities for each possible 
+                        value of the variable.
+                        <br />
+                        <b>Example</b>: In the above case of three coin tosses,
+                        <i>P</i>(<i>X</i> = 3) = 1/8, <i>P</i>(<i>X</i> = 2) =
+                        1/8, and so on.
+                        <br />
+                        We will study how to <i>use</i> random variables in
+                        section 7.4.
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
