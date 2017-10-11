@@ -212,8 +212,8 @@
                         Event <i>C</i> is the second toss is heads.
                         <br />
                         Notice that if <i>B</i> and <i>C</i> both occur, or 
-                        both don't occur, <i>A</i> occured for sure. And only
-                        one of <i>B</i> and <i>C</i> occured, 
+                        both don't occur, <i>A</i> occured for sure.
+                        And if only one of <i>B</i> and <i>C</i> occured, 
                         <i>A</i> didn't occur for sure.
                         <br />
                         Nevertheless, any two pairs of these events, taken on
