@@ -314,11 +314,74 @@
                         <figcaption>
                         </figcaption>
                     </figure>
+                    <p>
+                        How many people have to enter a party before it is
+                        likely (p &gt; .5) that two of them have the same 
+                        birthday?
+                        <br />
+                        Note that this <i>resembles</i> a pigeonhole problem,
+                        but with an important difference: we are not asking how
+                        many do we need to be <i>certain</i> two have the same
+                        birthday (answer: 367), but how many do we need for it
+                        to be <i>likely</i>?
+                    </p>
+                    <p>
+                        We are going to solve this by solving the complement
+                        of the problem: we will solve for <i>p<sub>n</sub></i>,
+                        the probability that they all have different birthdays,
+                        and then the probability two will have the same
+                        birthday will be 1 &minus; <i>p<sub>n</sub></i>.
+                        The first person obviously will not have "the same"
+                        birthday as anyone else. The probability the 
+                        second person will have a different birthday is 
+                        365 / 366. For the third (assuming no match yet!)
+                        it is 364 / 366. And so on.
+                    </p>
+                    <p>
+                        So our question becomes, at what point does 
+                        1 &minus; <i>p<sub>n</sub></i> become greater 
+                        than .5? And the answer is the surprisingly small
+                        number 23!
+                        <br />
+                        All of this would be just a curiosity, except it
+                        is the same question as "How likely is it our
+                        hashing function will produce a collision after
+                        hashing <i>n</i> items?"
+                        <br />
+                        In hashing, we are mapping <i>n</i> keys to
+                        <i>m</i> slots, where <i>n</i> is usually
+                        much greater than <i>m</i>. (For instance, possible
+                        student names to 100 slots in a class roster.)
+                        We want to know if students are randomly mapped
+                        to a slot with probability 1/<i>m</i>, how likely
+                        is it that two students will map to the same slot?
+                        (Too many collisions slow down our hashing algorithm.)
+                    </p>
                 </details>
+
                 <details>
                     <summary class="sum2">
                         Monte Carlo Algorithms
                     </summary>
+                    <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Roulette_casino.JPG/1024px-Roulette_casino.JPG"
+                         height="300" width="400">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        These are examples of <i>probabilistic 
+                        algorithms</i>. Most of the time, we study 
+                        algorithms that produce a definite answer.
+                        But probabilistic algorithms produce correct
+                        answers only with some likelihood.
+                        A <i>Monte Carlo Algorithm</i> runs repeated 
+                        trials of some process until the answer it gives is
+                        "close enough" to certainty for the purposes of
+                        the person or persons employing the algorithm.
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
