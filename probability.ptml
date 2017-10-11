@@ -142,39 +142,43 @@
                     <summary class="sum2">
                         Conditional Probability
                     </summary>
-                    <details>
-                        <summary class="sum3">
+                    <p class="def">
                             DEFINITION 3
-                        </summary>
+                    </p>
 
-                        <p>
-                         The <i>conditional probability</i> of
-                         event <i>E</i> given event <i>F</i> has
-                         occurred is defined as:
-                        </p>
+                    <p>
+                     The <i>conditional probability</i> of
+                     event <i>E</i> given event <i>F</i> has
+                     occurred is defined as:
+                    </p>
 
-                        <figure>
-                            <img src="graphics/CondProb.gif">
-                            <figcaption>
-                            </figcaption>
-                        </figure>
+                    <figure>
+                        <img src="graphics/CondProb.gif">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
 
-                        <p>
-                            Let's analyze with our shark example:
-                            <br />
-                            E = "bitten by shark"
-                            <br />
-                            F = "shark present" (imagine it's .001)
-                            <br />
-                            And E &cap; F = .0025
-                            <br />
-                            Therefore, p(E | F) = .5
-                            <br />
-                            Or, "Half the time, if there is a shark around, it
-                            bites someone."
-                        </p>
-
-                    </details>
+                    <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/240px-White_shark.jpg">
+                        <figcaption>
+                            When the shark bites, with his teeth big...
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Let's analyze with our shark example:
+                        <br />
+                        <i>E</i> = "bitten by shark" (imagine it's .001)
+                        <br />
+                        <i>F</i> = "shark present" (imagine it's .001 also)
+                        <br />
+                        And <i>E</i> &cap; <i>F</i> = .0005
+                        <br />
+                        Therefore, <i>p</i>(<i>E</i> | <i>F</i>) = .5
+                        <br />
+                        Or, "Half the time, if there is a shark around, it
+                        bites someone."
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -194,7 +198,8 @@
                         Notice how this was <i>not</i> the case with the shark
                         attacks! <i>Given</i> a shark is around, the
                         probability of a shark bite is much higher than
-                        <i>p</i>(<i>E</i>)<i>p</i>(<i>F</i>). This would not be
+                        <i>p</i>(<i>E</i>)<i>p</i>(<i>F</i>) (which was .000001).
+                        This would not be
                         true if <i>F</i> were, say, "UFO present."
                     </p>
 
@@ -261,11 +266,31 @@
                     whatsoever about the outcomes of the other trials.) 
                     </p>
 
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 2
-                        </summary>
-                    </details>
+                    <p class="def">
+                        THEOREM 2
+                    </p>
+                    <p>
+                     The probability of exactly <i>k</i> successes in
+                     <i>n</i> independent
+                     Bernoulli trials, with probability of success <i>p</i> and
+                     probability of failure <i>q</i> = 1
+                     &minus; <i>p</i>, is
+
+                     <i>C</i>(<i>n</i>, <i>k</i>)<i>p</i><sup><i>k</i></sup><i>q</i><sup><i>n</i>&minus;<i>k</i></sup>
+                    </p>
+
+                    <p>
+                        <b>Example:</b> Suppose that the probability that a 0
+                        bit is generated is 0.9, that the probability that a 1
+                        bit is generated is 0.1, and that bits are generated
+                        independently. What is the probability that exactly
+                        eight 0 bits are generated when 10 bits are generated?
+                        <br />
+                        <b>Answer:</b>
+                        <i>C</i>(10, 8)(0.9)<sup>8</sup>(0.1)<sup>2</sup>
+                        = 0.1937102445
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
@@ -382,10 +407,24 @@
                         the person or persons employing the algorithm.
                     </p>
 
+                    <p>
+                        <b>Example</b>: For an integer that is not prime, it
+                        will pass Miller's test for fewer than <i>n</i>/4 bases
+                        <i>b</i> with 1 &lt; <i>b</i> &lt; <i>n</i>. We can
+                        generate a large number and try, say, <i>k</i>
+                        iterations of the algorithm, and if it passes each 
+                        iteration, the that it is not prime are
+                        (1/4)<sup><i>k</i></sup>. For 30 iterations, this will
+                        give us a probability that <i>n</i> is composite
+                        of less than 1/10<sup>18</sup>.
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
                         The Probabilistic Method
+                        <br />
+                        Not Covered Fall 2017
                     </summary>
                     <details>
                         <summary class="sum3">
