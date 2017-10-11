@@ -8,20 +8,8 @@
 
     <body>
 
-    <div id="header">
-        <div id="logo">
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/250px-6n-graf.svg.png"
-            height="56" width="84"
-            max-height=100%>
-        </div>
-        <div id="user-tools">
-            <a href="index.html">Home</a>
-            &nbsp; &nbsp; 
-            <a href="about.html">About</a>
-        </div>
-    </div>
 
+<!--include menu.txt -->
 
         <h1 class="chap-title">
             Counting
@@ -220,7 +208,11 @@ P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,06
                         </summary>
 
                     <p>
-                    To find the number of these applicants who majored neither in computer science nor in business, we can subtract the number of students who majored either in computer science or in business (or both) from the total number of applicants. Let A 1 be the set of students who majored in computer science and A 2 the set of students who majored in business. Then A<sub>1</sub> &cup; A<sub>2</sub> is the set of students who majored in computer science or business (or both), and A 1 &cap; A 2 is the set of students who majored both in computer science and in business. By the subtraction rule the number of students who majored either in computer science or in business (or both) equals<br>
+                    To find the number of these applicants who majored
+                    neither in computer science nor in business, we
+                    can subtract the number of students who majored
+                    either in computer science or in business (or both)
+                    from the total number of applicants. Let A 1 be the set of students who majored in computer science and A 2 the set of students who majored in business. Then A<sub>1</sub> &cup; A<sub>2</sub> is the set of students who majored in computer science or business (or both), and A 1 &cap; A 2 is the set of students who majored both in computer science and in business. By the subtraction rule the number of students who majored either in computer science or in business (or both) equals<br>
 
 <b>|A 1 &cup; A 2 | = |A 1 | + |A 2 | - |A 1 &cap; A 2 | = 220 + 147 - 51 = 316.</b><br>
 We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in computer science nor in business.
