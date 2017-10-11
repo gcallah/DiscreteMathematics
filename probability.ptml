@@ -112,30 +112,26 @@
                             = 1 - <i>p</i>(<i>E</i>)
                     </p>
 
-                    <details>
-                        <summary class="sum3">
+                    <p class="def">
                             THEOREM 1
-                        </summary>
-                        <p>
-                            The probability of any event from a
-                            sequence of disjoint events is just the sum of 
-                            the individual probabilities.
-                        </p>
-                    </details>
+                    </p>
+                    <p>
+                        The probability of any event composed of a
+                        sequence of disjoint events is just the sum of 
+                        the individual probabilities.
+                    </p>
 
-                    <details>
-                        <summary class="sum3">
+                    <p class="def">
                             THEOREM 2
-                        </summary>
-                        <p>
-                            If <i>E</i> and <i>F</i> are events in the 
-                            sample space <i>S</i>, then:
-                            <br />
-                            <i>p</i>(<i>E</i> &cup; <i>F</i>)
-                            = <i>p</i>(<i>E</i>) + <i>p</i>(<i>F</i>)
-                            &minus; <i>p</i>(<i>E</i> &cap; <i>F</i>)
-                        </p>
-                    </details>
+                    </p>
+                    <p>
+                        If <i>E</i> and <i>F</i> are events in the 
+                        sample space <i>S</i>, then:
+                        <br />
+                        <i>p</i>(<i>E</i> &cup; <i>F</i>)
+                        = <i>p</i>(<i>E</i>) + <i>p</i>(<i>F</i>)
+                        &minus; <i>p</i>(<i>E</i> &cap; <i>F</i>)
+                    </p>
 
                 </details>
                 <details>
