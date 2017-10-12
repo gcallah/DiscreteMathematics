@@ -17,7 +17,8 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Indian_numerals_100AD.svg/343px-Indian_numerals_100AD.svg.png">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/
+                        Indian_numerals_100AD.svg/343px-Indian_numerals_100AD.svg.png">
                 </figure>
             </div>
             
@@ -44,10 +45,13 @@
                 </summary>
 
                 <p>
-        Counting problems arise throughout mathematics and computer science.<br>
+        Counting problems arise throughout 
+        mathematics and computer science.<br>
         Examples:<br>
-                        1. The successful outcomes of experiments.<br>
-                        2. The number of operations used by an algorithm to study its Time Complexity.<br>
+        1. The successful outcomes of experiments.<br>
+        2. The number of operations used by an 
+        algorithm to study its Time Complexity.
+                        <br>
         </p>
 
                 <details>
@@ -70,7 +74,12 @@
 
                         <p>
                         <b>Examples:</b><br>
-                        1. The chairs of an auditorium are to be labeled with an uppercase English letter followed by a positive integer not exceeding <b>100</b>. What is the largest number of chairs that can be labeled differently?<br>
+                        1. The chairs of an auditorium are to be 
+                        labeled with an uppercase English 
+                        letter followed by a positive
+                         integer not exceeding <b>100</b>. 
+                        What is the largest number of chairs
+                         that can be labeled differently?<br>
                         
                         
                         <details>
@@ -78,14 +87,30 @@
                             Answer:
                             </summary>
                             <p>
-                            The procedure of labeling a chair consists of two tasks, namely, assigning to the seat one of the 26 uppercase English letters, and then assigning to it one of the 100 possible integers. The product rule shows that there are <b>26 * 100 = 2600 </b>different ways that a chair can be labeled. Therefore, the largest number of chairs that can be labeled differently is <b>2600 </b>.
+                            The procedure of labeling a chair 
+                            consists of two tasks, namely,
+                             assigning to the seat one of the 
+                             26 uppercase English letters,
+                              and then assigning to it 
+                              one of the 100 possible integers. 
+                              The product rule shows that there are
+                               <b>26 * 100 = 2600
+                               </b>different ways that a chair can be labeled. 
+                               Therefore, the largest number of chairs 
+                               that can be
+                                labeled differently is <b>2600 </b>.
                             </p>
                             <br>
                         </details>
                         </p>
                         <p>
                         <br>
-                        2. How many different license plates can be made if each plate contains a sequence of three uppercase English letters followed by three digits (and no sequences of letters are prohibited, even if they are obscene)?<br>
+                        2. How many different license plates 
+                        can be made if each plate contains a 
+                        sequence of three uppercase English letters 
+                        followed by three digits 
+                        (and no sequences of letters are prohibited,
+                         even if they are obscene)?<br>
 
                         <figure>    
                         <img src="graphics/Count5_prodeg.png">        
@@ -96,7 +121,13 @@
                             Answer:
                             </summary>
                             <p>
-                            There are <b>26 </b>choices for each of the three uppercase English letters and ten choices for each of the three digits. Hence, by the product rule there are a total of <b>26 * 26 * 26 * 10 * 10 * 10 = 17,576,000 </b>possible license plates.
+                            There are <b>26 </b>choices 
+                            for each of the three uppercase 
+                            English letters and ten choices 
+                            for each of the three digits. 
+                            Hence, by the product rule there are a total
+                             of <b>26 * 26 * 26 * 10 * 10 * 10 = 17,576,000
+                              </b>possible license plates.
                             </p>
                             <br>
                         </details>
@@ -115,7 +146,12 @@
 
                         <p>
                         <b>Examples:</b><br>
-                        1. A student can choose a computer project from one of three lists. The three lists contain <b>23, 15, </b>and <b>19 </b>possible projects, respectively. No project is on more than one list. How many possible projects are there to choose from?
+                        1. A student can choose a computer project
+                         from one of three lists. 
+                         The three lists contain <b>23, 15, </b>and
+                          <b>19 </b>possible projects, respectively. 
+                          No project is on more than one list.
+                           How many possible projects are there to choose from?
                         <br>
                         
                         
@@ -124,7 +160,12 @@
                             Answer:
                             </summary>
                             <p>
-                            The student can choose a project by selecting a project from the first list, the second list, or the third list. Because no project is on more than one list, by the sum rule there are <b>23 + 15 + 19 = 57 </b>ways to choose a project.
+                            The student can choose a project
+                             by selecting a project from the first list,
+                              the second list, or the third list. 
+                              Because no project is on more than one list,
+                               by the sum rule there are <b>23 + 15 + 19 = 57 </b>ways 
+                               to choose a project.
                             
                             </p>
                             <br>
@@ -132,7 +173,11 @@
                         </p>
                         <p>
                         <br>
-                        2.What is the value of k after the following code, where n<sub>1</sub> , n<sub>2</sub> , . . . , n<sub>m</sub> are positive integers, has been executed?
+                        2.What is the value of k after 
+                        the following code,
+                         where n<sub>1</sub> , n<sub>2</sub> , . . . , 
+                         n<sub>m</sub> are positive integers, 
+                         has been executed?
                         <br>
 
                         <figure>    
@@ -144,7 +189,22 @@
                             Answer:
                             </summary>
                             <p>
-                            The initial value of k is zero. This block of code is made up of m different loops. Each time a loop is traversed, 1 is added to k. To determine the value of k after this code has been executed, we need to determine how many times we traverse a loop. Note that there are n <sub>i</sub> ways to traverse the ith loop. Because we only traverse one loop at a time, the sum rule shows that the final value of k, which is the number of ways to traverse one of the m loops is <b>n<sub>1</sub>+ n <sub>2</sub> + ... + n <sub>m</sub></b> .
+                            The initial value of k is zero. 
+                            This block of code is made up of m different loops.
+                             Each time a loop is traversed, 1 is added to k.
+                              To determine the value of k
+                               after this code has been executed, 
+                               we need to determine how
+                                many times we traverse a loop.
+                                Note that there are n <sub>i</sub> ways 
+                                to traverse the ith loop.
+                                 Because we only 
+                                 traverse one loop at a time,
+                                  the sum rule shows
+                                   that the final value of k, 
+                                  which is the number of ways to traverse 
+                                  one of the m loops is <b>n<sub>1</sub>+ 
+                                  n <sub>2</sub> + ... + n <sub>m</sub></b> .
 
                             </p>
                             <br>
@@ -162,7 +222,11 @@
             
             <p>
             <b>Example:</b><br>
-            Each user on a computer system has a password, which is six to eight characters long, where each character is an uppercase letter or a digit. Each password must contain at least one digit. How many possible passwords are there?
+            Each user on a computer system has a
+             password, which is six to eight characters long,
+              where each character is an uppercase letter or a digit.
+               Each password must contain at least one digit.
+                How many possible passwords are there?
             </p>
 
             <details>
@@ -170,7 +234,23 @@
                 Answer:
                 </summary>
                 <p>
-                Let P be the total number of possible passwords, and let P<sub>6</sub> , P<sub>7</sub> , and P<sub>8</sub> denote the number of possible passwords of length 6, 7, and 8, respectively. <br>By the sum rule, <b>P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> </b>. <br>We will now find P<sub>6</sub> , P<sub>7</sub> , and P<sub>8</sub> . <br>Finding P<sub>6</sub> directly is difficult. To find P<sub>6</sub>  it is easier to find the number of strings of uppercase letters and digits that are six characters long, including those with no digits, and subtract from this the number of strings with no digits. By the product rule, the number of strings of six characters is 36<sup>6</sup>, and the number of strings with no digits is 26<sup>6</sup>. Hence,<br>
+                Let P be the total number of possible passwords,
+                 and let P<sub>6</sub> , P<sub>7</sub> , 
+                 and P<sub>8</sub> denote the number of 
+                 possible passwords of length 6, 7, and 8, respectively.
+                  <br>By the sum rule, <b>P = 
+                  P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> </b>.
+                   <br>We will now find P<sub>6</sub> , P<sub>7</sub> , 
+                   and P<sub>8</sub> . <br>Finding P<sub>6</sub> 
+                   directly is difficult. To find P<sub>6</sub>  
+                   it is easier to find the number of strings of
+                    uppercase letters and digits that are six characters long,
+                     including those with no digits, and subtract from t
+                     his the number of strings with no digits.
+                      By the product rule, the number of strings of 
+                      six characters is 36<sup>6</sup>, 
+                      and the number of strings with no 
+                      digits is 26<sup>6</sup>. Hence,<br>
 
 P<sub>6</sub> = 36<sup>6</sup> - 26<sup>6</sup> = 2,176,782,336 - 308,915,776 = 1,867,866,560.<br>
 Similarly, we have<br>
@@ -199,7 +279,14 @@ P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,06
             <b>Example:</b><br>
             </p>
             <p>
-            A computer company receives 350 applications from computer graduates for a job planning a line of new Web servers. Suppose that 220 of these applicants majored in computer science, 147 majored in business, and 51 majored both in computer science and in business. How many of these applicants majored neither in computer science nor in business?
+            A computer company receives 350 applications
+             from computer graduates for a job planning
+              a line of new Web servers. 
+              Suppose that 220 of these applicants 
+              majored in computer science, 147 majored in business,
+               and 51 majored both in computer science and in business. 
+               How many of these applicants majored neither 
+               in computer science nor in business?
             <br>
             </p>    
                     <details>
@@ -212,7 +299,19 @@ P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,06
                     neither in computer science nor in business, we
                     can subtract the number of students who majored
                     either in computer science or in business (or both)
-                    from the total number of applicants. Let A 1 be the set of students who majored in computer science and A 2 the set of students who majored in business. Then A<sub>1</sub> &cup; A<sub>2</sub> is the set of students who majored in computer science or business (or both), and A 1 &cap; A 2 is the set of students who majored both in computer science and in business. By the subtraction rule the number of students who majored either in computer science or in business (or both) equals<br>
+                    from the total number of applicants.
+                     Let A 1 be the set of students who majored in 
+                     computer science and A 2 the set of students
+                      who majored in business. 
+                      Then A<sub>1</sub> &cup; 
+                      A<sub>2</sub> is the
+                       set of students who majored in 
+                       computer science or business (or both),
+                        and A 1 &cap; A 2 is the set of students who 
+                        majored both in computer science and in business. 
+                        By the subtraction rule the number of students 
+                        who majored either in computer science
+                         or in business (or both) equals<br>
 
 <b>|A 1 &cup; A 2 | = |A 1 | + |A 2 | - |A 1 &cap; A 2 | = 220 + 147 - 51 = 316.</b><br>
 We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in computer science nor in business.
@@ -233,7 +332,11 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
 
             <p>
             <b>Example:</b><br>
-            How many different ways are there to seat four people around a circular table, where two seatings are considered the same when each person has the same left neighbor and the same right neighbor?<br>
+            How many different ways are
+             there to seat four people around a circular table,
+              where two seatings are considered the same 
+              when each person has the same left neighbor 
+              and the same right neighbor?<br>
             </p>
                     
                     <details>
@@ -242,7 +345,26 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                         </summary>
 
                     <p>
-                    We arbitrarily select a seat at the table and label it seat 1. We number the rest of the seats in numerical order, proceeding clockwise around the table. Note that are four ways to select the person for seat 1, three ways to select the person for seat 2, two ways to select the person for seat 3, and one way to select the person for seat 4. Thus, there are <b>4! = 24 </b>ways to order the given four people for these seats. However, each of the four choices for seat 1 leads to the same arrangement, as we distinguish two arrangements only when one of the people has a different immediate left or immediate right neighbor. Because there are four ways to choose the person for seat 1, by the division rule there are <b>24/4 = 6 </b>different seating arrangements of four people around the circular table.<br>
+                    We arbitrarily select a seat at 
+                    the table and label it seat 1. 
+                    We number the rest of the seats in numerical order,
+                     proceeding clockwise around the table.
+                      Note that are four ways to select the person for seat 1, 
+                      three ways to select the person for seat 2, 
+                      two ways to select the person for seat 3,
+                       and one way to select the person for seat 4.
+                        Thus, there are <b>4! = 24 </b>ways 
+                        to order the given four people for these seats. 
+                        However, each of the four choices for
+                         seat 1 leads to the same arrangement, 
+                         as we distinguish two arrangements only 
+                         when one of the people has a different immediate
+                          left or immediate right neighbor. 
+                          Because there are four ways to 
+                          choose the person for seat 1, 
+                          by the division rule there are <b>24/4 = 6 
+                          </b>different seating arrangements of four
+                           people around the circular table.<br>
                     </p>
                     </details>
                 </details>
@@ -255,7 +377,9 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
 
         <p>
         <b>Example:</b><br>
-        A playoff between two teams consists of at most five games. The first team that wins three games wins the playoff. In how many different ways can the playoff occur?<br>
+        A playoff between two teams consists of at most five games. 
+        The first team that wins three games wins the playoff. 
+            In how many different ways can the playoff occur?<br>
         </p>
 
             <details>
@@ -263,7 +387,11 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                         Answer:
                         </summary>
             <p>
-            The tree diagram in Figure 3 displays all the ways the playoff can proceed, with the winner of each game shown. We see that there are 20 different ways for the playoff to occur.<br>
+            The tree diagram in Figure 3 displays
+             all the ways the playoff can proceed,
+              with the winner of each game shown.
+               We see that there are 20 different 
+               ways for the playoff to occur.<br>
             </p>
 
             <figure>    
@@ -295,7 +423,10 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
             </figure>
 
             <p>
-            <br>The <b>pigeonhole principle </b>states that if there are more pigeons than pigeonholes, then there must be at least one pigeonhole with at least two pigeons in it
+            <br>The <b>pigeonhole principle </b>states that 
+            if there are more pigeons than pigeonholes, 
+            then there must be at least one pigeonhole 
+            with at least two pigeons in it
             <br><br>            
             </p>
 
@@ -328,7 +459,10 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                             </summary>
                 
                 <p>
-                How many students must be in a class to guarantee that at least two students receive the same score on the final exam, if the exam is graded on a scale from 0 to 100 points?<br><br>
+How many students must be in a class to
+ guarantee that at least two students receive 
+ the same score on the final exam, 
+ if the exam is graded on a scale from 0 to 100 points?<br><br>
                 </p>
 
                 <details>
@@ -352,7 +486,15 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                     </summary>
         
         <p>
-The pigeonhole principle states that there must be at least two objects in the same box when there are more objects than boxes. However, even more can be said when the number of objects exceeds a multiple of the number of boxes. For instance, among any set of 21 decimal digits there must be 3 that are the same. This follows because when 21 objects are distributed into 10 boxes, one box must have more than 2 objects.<br>
+The pigeonhole principle states that there must 
+be at least two objects in the same box when 
+there are more objects than boxes. 
+However, even more can be said when the number of 
+objects exceeds a multiple of the number of boxes.
+ For instance, among any set of 21 decimal digits 
+ there must be 3 that are the same. 
+ This follows because when 21 objects are distributed into 10 boxes,
+  one box must have more than 2 objects.<br>
         </p>
 
             <details>
@@ -372,7 +514,10 @@ The pigeonhole principle states that there must be at least two objects in the s
                             </summary>
                 
                 <p>
-                What is the minimum number of students required in a discrete mathematics class to be sure that at least six will receive the same grade, if there are five possible grades, A, B, C, D, and F?
+What is the minimum number of students required in a 
+discrete mathematics class to be sure that
+ at least six will receive the same grade,
+  if there are five possible grades, A, B, C, D, and F?
                 <br><br>
                 </p>
 
@@ -382,7 +527,15 @@ The pigeonhole principle states that there must be at least two objects in the s
                                 </summary>
                 
                     <p>
-                    The minimum number of students needed to ensure that at least six students receive the same grade is the smallest integer N such that N/5 = 6. The smallest such integer is <b>N = 5 * 5 + 1 = 26</b>. If you have only 25 students, it is possible for there to be five who have received each grade so that no six students have received the same grade. Thus, 26 is the minimum number of students needed to ensure that at least six students will receive the same grade.
+The minimum number of students needed to ensure that
+ at least six students receive the same grade is
+  the smallest integer N such that N/5 = 6.
+   The smallest such integer is <b>N = 5 * 5 + 1 = 26</b>. 
+   If you have only 25 students, it is possible for 
+   there to be five who have received each grade so that no six
+    students have received the same grade.
+     Thus, 26 is the minimum number of students needed to ensure 
+     that at least six students will receive the same grade.
                     <br><br>
                     </p>
 
@@ -414,7 +567,11 @@ The pigeonhole principle states that there must be at least two objects in the s
                             </summary>
                 
                 <p>
-                During a month with 30 days, a baseball team plays at least one game a day, but no more than 45 games. Show that there must be a period of some number of consecutive days during which the team must play exactly 14 games.
+During a month with 30 days, 
+a baseball team plays at least one game a day,
+but no more than 45 games. 
+ Show that there must be a period of some number of consecutive days 
+ during which the team must play exactly 14 games.
                 <br><br>
                 </p>
 
@@ -424,11 +581,25 @@ The pigeonhole principle states that there must be at least two objects in the s
                                 </summary>
                 
                     <p>
-                    Let a<sub>j</sub> be the number of games played on or before the jth day of the month. Then a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub> is an increasing sequence of distinct positive integers, with 1 &le; a<sub>j</sub> &le; 45.<br>
-More-over, a<sub>1</sub> + 14, a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 is also an increasing sequence of distinct positive integers, with 15 &le; a<sub>j</sub> + 14 &le; 59.<br>
-The 60 positive integers a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub> , a<sub>1</sub> + 14, a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 are all less than or equal to 59.<br> 
-Hence, by the pigeonhole principle two of these integers are equal. <br>
-Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and the integers a<sub>j</sub> + 14, j = 1, 2, . . . , 30 are all distinct, there must be indices i and j with a<sub>i</sub> = a<sub>j</sub> + 14. This means that exactly 14 games were played from day j + 1 to day i.
+Let a<sub>j</sub> be the number of games played on or
+ before the jth day of the month. 
+ Then a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub> 
+ is an increasing sequence of distinct positive integers, 
+ with 1 &le; a<sub>j</sub> &le; 45.<br>
+More-over, a<sub>1</sub> + 14, a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 
+is also an increasing sequence of distinct positive integers, 
+with 15 &le; a<sub>j</sub> + 14 &le; 59.<br>
+The 60 positive integers a<sub>1</sub> ,
+ a<sub>2</sub> , . . . , a<sub>30</sub> , a<sub>1</sub> + 14, 
+ a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 are
+  all less than or equal to 59.<br> 
+Hence, by the pigeonhole principle two of these integers are equal. 
+<br>
+Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all 
+distinct and the integers a<sub>j</sub> + 14, j = 1, 2, . . . , 
+30 are all distinct, 
+there must be indices i and j with a<sub>i</sub> = a<sub>j</sub> + 14. 
+This means that exactly 14 games were played from day j + 1 to day i.
                     <br><br>
                     </p>
 
@@ -455,17 +626,17 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
                                 </summary>
                 
                     <p>
-                    The <b> Ramsey number R(m, n)</b>, where m and n
-                    are positive integers greater than or equal to 2,
-                    denotes the minimum number of people at a party
-                    such that there are either m mutual friends or
-                    n mutual enemies, assuming that every pair of
-                    people at the party are friends or enemies.<br>
-                    Example 2 shows that R(3, 3) &le; 6.<br>
-                    We conclude that <b>R(3, 3) = 6</b>
-                    because in a group of five people where
-                    every two people are friends or enemies,
-                    there may not be three mutual friends or three mutual enemies.
+    The <b> Ramsey number R(m, n)</b>, where m and n
+    are positive integers greater than or equal to 2,
+    denotes the minimum number of people at a party
+    such that there are either m mutual friends or
+    n mutual enemies, assuming that every pair of
+    people at the party are friends or enemies.<br>
+    Example 2 shows that R(3, 3) &le; 6.<br>
+    We conclude that <b>R(3, 3) = 6</b>
+    because in a group of five people where
+    every two people are friends or enemies,
+    there may not be three mutual friends or three mutual enemies.
                     <br><br>
                     </p>
 
@@ -549,7 +720,8 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
                 </summary>
 
                 <p>
-                How many permutations of the letters ABCDEFGH contain the string ABC ?<br>
+                How many permutations of the letters ABCDEFGH
+                 contain the string ABC ?<br>
                 </p>
 
                 <details>
@@ -558,9 +730,13 @@ Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all distinct and t
                     </summary>
                 
                     <p>
-                    Because the letters ABC must occur as a block,
-                    we can find the answer by finding the number of permutations of six objects, namely, the block ABC and the individual letters D, E, F , G, and H . <br>
-Because these six objects can occur in any order, there are <b>6! = 720</b> permutations of the letters ABCDEFGH in which ABC occurs as a block.<br><br>
+Because the letters ABC must occur as a block,
+we can find the answer by finding the number of permutations 
+of six objects, namely, the block ABC and the 
+individual letters D, E, F , G, and H . <br>
+Because these six objects can occur in any order, 
+there are <b>6! = 720</b> permutations of the
+s letters ABCDEFGH in which ABC occurs as a block.<br><br>
                     </p>
                     </details>
 
@@ -634,7 +810,9 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                             </summary>
 
                 <p>
-                How many ways are there to select five players from a 10-member tennis team to make a trip to a match at another school?                
+How many ways are there to select five players from a
+10-member tennis team to make a trip
+ to a match at another school?                
                 <br>
                 </p>
 
@@ -665,8 +843,10 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                                 </summary>
                 
                     <p>
-                    The positions of r 1s in a bit string of length n form an r-combination of the set {1, 2, 3, . . . , n}. <br>
-                    Hence, there are C(n, r) bit strings of length n that contain exactly r 1s..<br><br>
+The positions of r 1s in a bit string of length n form 
+an r-combination of the set {1, 2, 3, . . . , n}. <br>
+Hence, there are C(n, r) bit strings of length n
+ that contain exactly r 1s..<br><br>
                     </p>
                             </details>
 
@@ -692,8 +872,9 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                     </summary>
 
             <p>
-            The binomial theorem gives the coefficients of the expansion of powers of binomial expressions.<br>
-            A binomial expression is simply the sum of two terms, such as x + y.
+The binomial theorem gives the coefficients of the 
+expansion of powers of binomial expressions.<br>
+A binomial expression is simply the sum of two terms, such as x + y.
             </p>
 
             <details>
@@ -843,7 +1024,8 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                             </summary>
 
                 <p>
-                How many strings of length r can be formed from the uppercase letters of the English alphabet?<br>
+How many strings of length r can be formed
+ from the uppercase letters of the English alphabet?<br>
                 </p>
 
                 <details>
@@ -852,8 +1034,12 @@ Because these six objects can occur in any order, there are <b>6! = 720</b> perm
                                 </summary>
                 
                     <p>
-                    By the product rule, because there are 26 uppercase English letters, and because each letter can be used repeatedly, we see that there are 26<sup> r</sup> strings of uppercase English letters of length r.<br>
-The number of r-permutations of a set with n elements when repetition is allowed is given in Theorem 1.
+By the product rule, because there are 26 uppercase English letters, 
+and because each letter can be used repeatedly, 
+we see that there are 26<sup> r</sup> strings of 
+uppercase English letters of length r.<br>
+The number of r-permutations of a set with n elements when 
+repetition is allowed is given in Theorem 1.
                     <br><br>
                     </p>
                             </details>
@@ -886,7 +1072,11 @@ The number of r-permutations of a set with n elements when repetition is allowed
                             </summary>
 
                 <p>
-                Suppose that a cookie shop has four different kinds of cookies. How many different ways can six cookies be chosen? Assume that only the type of cookie, and not the individual cookies or the order in which they are chosen, matters.<br>
+Suppose that a cookie shop has four different kinds of cookies. 
+How many different ways can six cookies be chosen? 
+Assume that only the type of cookie,
+and not the individual cookies or the order 
+in which they are chosen, matters.<br>
                 </p>
 
                 <details>
@@ -895,7 +1085,8 @@ The number of r-permutations of a set with n elements when repetition is allowed
                                 </summary>
                 
                     <p>
-                    The number of ways to choose six cookies is the number of 6-combinations of a set with four elements. <br>
+                    The number of ways to choose six cookies is 
+                    the number of 6-combinations of a set with four elements. <br>
 From Theorem 2 this equals C(4 + 6 - 1, 6) = C(9, 6).<br>
 C(9, 6) = C(9, 3) = (9 * 8 * 7) / (1 * 2* 3) = 84 <br>
 There are<b> 84 </b>different ways to choose the six cookies.
@@ -929,7 +1120,8 @@ There are<b> 84 </b>different ways to choose the six cookies.
                             </summary>
 
                 <p>
-                How many different strings can be made by reordering the letters of the word SUCCESS?
+                How many different strings can be made by
+                 reordering the letters of the word SUCCESS?
                 <br>
                 </p>
 
@@ -939,9 +1131,19 @@ There are<b> 84 </b>different ways to choose the six cookies.
                                 </summary>
                 
                     <p>
-                    Because some of the letters of SU CCESS are the same, the answer is not given by the number of permutations of seven letters. This word contains three Ss, two Cs, one U , and one E.<br>
-To determine the number of different strings that can be made by reordering the letters, first note that the three Ss can be placed among the seven positions in C(7, 3) different ways, leaving four positions free. <br>
-Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U can be placed in C(2, 1) ways, leaving just one position free. Hence E can be placed in C(1, 1) way.<br> Consequently, from the product rule, the number of different strings that can be made is<br>
+Because some of the letters of SUCCESS are the same, 
+the answer is not given by the number of permutations of seven letters. 
+This word contains three Ss, two Cs, one U , and one E.<br>
+To determine the number of different strings 
+that can be made by reordering the letters, first note that 
+the three Ss can be placed among 
+the seven positions in C(7, 3) different ways, 
+leaving four positions free. <br>
+Then the two Cs can be placed in C(4, 2) ways, 
+leaving two free positions. The U can be placed in C(2, 1) ways, 
+leaving just one position free. Hence E can be placed in C(1, 1) way.
+<br> Consequently, from the product rule, 
+the number of different strings that can be made is<br>
 
                     <figure>    
                     <img src="graphics/Count38_eg1.png" width="742" height="150">        
@@ -968,7 +1170,8 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
 
                 <p>
                 <b>Example:</b><br>
-                How many ways are there to distribute hands of 5 cards to each of four players from the standard deck of 52 cards?
+    How many ways are there to distribute hands of 5 cards 
+    to each of four players from the standard deck of 52 cards?
                 </p>
                 <details>
                             <summary class="sum4">
@@ -1019,11 +1222,17 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
                 </summary>
 
                 <p>
-                Counting the ways to place n distinguishable objects into k indistinguishable boxes is more difficult than counting the ways to place objects, distinguishable or indistinguishable objects, into distinguishable boxes.
+Counting the ways to place n 
+distinguishable objects into
+k indistinguishable boxes is more difficult 
+than counting the ways to place objects, 
+distinguishable or indistinguishable objects, into distinguishable boxes.
                 </p>
                 <p>
                 <b>Example:</b><br>
-                How many ways are there to put four different employees into three indistinguishable offices, when each office can contain any number of employees?
+How many ways are there to put four different employees into 
+three indistinguishable offices, when each office can 
+contain any number of employees?
                 </p>
                 <br>
               </details>
@@ -1034,11 +1243,14 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
                 </summary>
 
                 <p>
-                Some counting problems can be solved by determining the number of ways to distribute indistinguishable objects into indistinguishable boxes. We illustrate this principle with an example.<br>
+Some counting problems can be solved by determining the number of ways
+ to distribute indistinguishable objects into indistinguishable boxes. 
+ We illustrate this principle with an example.<br>
                 </p>
                 <p>
                 <b>Example:</b><br>
-                How many ways are there to pack six copies of the same book into four identical boxes, where a box can contain as many as six books?
+                How many ways are there to pack six copies of the same book 
+into four identical boxes, where a box can contain as many as six books?
                 </p>
                 <br>
               </details>            
@@ -1076,8 +1288,8 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
                             Example
                             </summary>
 
-                <p>
-                Generate the permutations of the integers 1, 2, 3 in lexicographic order.<br>
+                <p>Generate the permutations of the integers 1, 2, 3 
+in lexicographic order.<br>
                 </p>
 
                 <details>
@@ -1086,8 +1298,16 @@ Then the two Cs can be placed in C(4, 2) ways, leaving two free positions. The U
                                 </summary>
 
                     <p>
-                    Begin with 123. The next permutation is obtained by interchanging 3 and 2 to obtain 132. Next, because 3 > 2 and 1 &lt; 3, permute the three integers in 132. Put the smaller of 3 and 2 in the first position, and then put 1 and 3 in increasing order in positions 2 and 3 to obtain 213. This is followed by 231, obtained by interchanging 1 and 3, because 1 &lt; 3. The next larger permutation has 3 in the first position, followed by 1 and 2 in increasing order, namely, 312.<br>
-Finally, interchange 1 and 2 to obtain the last permutation, 321. We have generated the permutations of 1, 2, 3 in lexicographic order.<br>
+                    Begin with 123.
+The next permutation is obtained by interchanging 3 and 2 to obtain 132. 
+Next, because 3 > 2 and 1 &lt; 3, permute the three integers in 132. 
+Put the smaller of 3 and 2 in the first position, and 
+then put 1 and 3 in increasing order in positions 2 and 3 to obtain 213. 
+This is followed by 231, obtained by interchanging 1 and 3, because 1 &lt; 3. 
+The next larger permutation has 3 in the first position, 
+followed by 1 and 2 in increasing order, namely, 312.<br>
+Finally, interchange 1 and 2 to obtain the last permutation, 321. 
+We have generated the permutations of 1, 2, 3 in lexicographic order.<br>
 <b>They are 123, 132, 213, 231, 312, and 321.</b>
                     </p>
                     <br>
@@ -1127,7 +1347,10 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
                                 </summary>
 
                 <p>
-                The first bit from the right that is not a 1 is the fourth bit from the right. Change this bit to a 1 and change all the following bits to 0s. This produces the next larger bit string, 10 0010 1000.<br>
+                The first bit from the right that is not a 1 is 
+the fourth bit from the right. <br>
+Change this bit to a 1 and change all the following bits to 0s. 
+                This produces the next larger bit string, 10 0010 1000.<br>
                 </p>
                 <br>
                 </details>
@@ -1151,7 +1374,9 @@ Finally, interchange 1 and 2 to obtain the last permutation, 321. We have genera
                             </summary>
 
                 <p>
-                Find the next larger 4-combination of the set {1, 2, 3, 4, 5, 6} after {1, 2, 5, 6}.<br>
+
+                Find the next larger 4-combination of the set 
+                {1, 2, 3, 4, 5, 6} after {1, 2, 5, 6}.<br>
                 </p>
 
                 <details>
