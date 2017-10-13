@@ -77,7 +77,7 @@
                         1. The chairs of an auditorium are to be 
                         labeled with an uppercase English 
                         letter followed by a positive
-                         integer not exceeding <b>100</b>. 
+                         integer not exceeding <b>100</b>. <br>
                         What is the largest number of chairs
                          that can be labeled differently?<br>
                         
@@ -92,7 +92,7 @@
                              assigning to the seat one of the 
                              26 uppercase English letters,
                               and then assigning to it 
-                              one of the 100 possible integers. 
+                              one of the 100 possible integers. <br>
                               The product rule shows that there are
                                <b>26 * 100 = 2600
                                </b>different ways that a chair can be labeled. 
@@ -126,7 +126,7 @@
                             English letters and ten choices 
                             for each of the three digits. 
                             Hence, by the product rule there are a total
-                             of <b>26 * 26 * 26 * 10 * 10 * 10 = 17,576,000
+                             of<br> <b>26 * 26 * 26 * 10 * 10 * 10 = 17,576,000
                               </b>possible license plates.
                             </p>
                             <br>
@@ -150,7 +150,7 @@
                          from one of three lists. 
                          The three lists contain <b>23, 15, </b>and
                           <b>19 </b>possible projects, respectively. 
-                          No project is on more than one list.
+                          No project is on more than one list.<br>
                            How many possible projects are there to choose from?
                         <br>
                         
@@ -164,7 +164,7 @@
                              by selecting a project from the first list,
                               the second list, or the third list. 
                               Because no project is on more than one list,
-                               by the sum rule there are <b>23 + 15 + 19 = 57 </b>ways 
+                               by the sum rule there are <br><b>23 + 15 + 19 = 57 </b>ways 
                                to choose a project.
                             
                             </p>
@@ -203,7 +203,7 @@
                                   the sum rule shows
                                    that the final value of k, 
                                   which is the number of ways to traverse 
-                                  one of the m loops is <b>n<sub>1</sub>+ 
+                                  one of the m loops is <br><b>n<sub>1</sub>+ 
                                   n <sub>2</sub> + ... + n <sub>m</sub></b> .
 
                             </p>
@@ -226,7 +226,7 @@
              password, which is six to eight characters long,
               where each character is an uppercase letter or a digit.
                Each password must contain at least one digit.
-                How many possible passwords are there?
+               <br> How many possible passwords are there?
             </p>
 
             <details>
@@ -353,7 +353,7 @@ We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in co
                       three ways to select the person for seat 2, 
                       two ways to select the person for seat 3,
                        and one way to select the person for seat 4.
-                        Thus, there are <b>4! = 24 </b>ways 
+                        <br>Thus, there are <b>4! = 24 </b>ways 
                         to order the given four people for these seats. 
                         However, each of the four choices for
                          seat 1 leads to the same arrangement, 
@@ -529,9 +529,9 @@ discrete mathematics class to be sure that
                     <p>
 The minimum number of students needed to ensure that
  at least six students receive the same grade is
-  the smallest integer N such that N/5 = 6.
+  the smallest integer N such that N/5 = 6.<br>
    The smallest such integer is <b>N = 5 * 5 + 1 = 26</b>. 
-   If you have only 25 students, it is possible for 
+   <br>If you have only 25 students, it is possible for 
    there to be five who have received each grade so that no six
     students have received the same grade.
      Thus, 26 is the minimum number of students needed to ensure 
