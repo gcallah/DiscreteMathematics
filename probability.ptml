@@ -472,7 +472,7 @@
                     
                     <p>
                         <i>s</i> being an event in <i>S</i>, then
-                        <i>i</i>E(<i>X</i>) = &Sigma;<i>p</i>(<i>s</i>)
+                        <i>E</i>(<i>X</i>) = &Sigma;<i>p</i>(<i>s</i>)
                         <i>X</i>(<i>s</i>)
                         <br />
                         This is also called the <i>mean</i> of the random
@@ -491,6 +491,9 @@
                         We can also get the above by summing up the
                         probability-weighted values for <i>X</i> being
                         equal to each outcome.
+                        <br />
+                        <b>Example:</b>
+                        Use two coin tosses to illustrate this.
                     </p>
 
                 
@@ -502,6 +505,11 @@
                         Bernoulli trials where the probability of 
                         success in each trial is <i>p</i> = 
                             <i>np</i>.
+                        <br />
+                        <b>Example:</b>
+                        The expected number of sixes in 36 dice rolls
+                        (where six is success and all other results failure)
+                        is six. (1/6 * 36)
                     </p>
 
                 </details>
@@ -513,6 +521,23 @@
                     <p class="def">
                         THEOREM 3
                     </p>
+                    <p>
+                        <i>E</i>&Sigma;(<i>X</i><sub>1</sub> + 
+                        <i>X</i><sub>2</sub> + ... +
+                        <i>X</i><sub>n</sub>
+                        = &Sigma;(
+                            <i>E</i>(<i>X</i><sub>1</sub>) + 
+                            <i>E</i>(<i>X</i><sub>2</sub>) + ... +
+                            <i>E</i>(<i>X</i><sub>n</sub>))
+                    </p>
+
+                    <p>
+                        <b>Expected value in the hatcheck problem</b>:
+                        The hatcheck employee loses all tickets and gives the
+                        hats back randomly. What is the expected number of
+                        people who get back the correct hat?
+                    </p>
+
 
                 </details>
                 <details>
