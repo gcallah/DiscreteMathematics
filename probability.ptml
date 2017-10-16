@@ -437,6 +437,8 @@
             <details>
                 <summary class="sum1">
                 Bayes' Theorem 
+                <br />
+                NOT COVERED FALL 2017
                 </summary>
                 <details>
                     <summary class="sum2">
@@ -468,15 +470,40 @@
                         DEFINITION 1
                     </p>
                     
+                    <p>
+                        <i>s</i> being an event in <i>S</i>, then
+                        <i>i</i>E(<i>X</i>) = &Sigma;<i>p</i>(<i>s</i>)
+                        <i>X</i>(<i>s</i>)
+                        <br />
+                        This is also called the <i>mean</i> of the random
+                        variable.
+                        <br />
+                        <b>Example:</b> The expected value of 1 toss of 
+                        a fair die is 7/2.
+                    </p>
+
               
                     <p class="def">
                         THEOREM 1
                     </p>
                
+                    <p>
+                        We can also get the above by summing up the
+                        probability-weighted values for <i>X</i> being
+                        equal to each outcome.
+                    </p>
+
                 
                     <p class="def">
                         THEOREM 2
                     </p>
+                    <p>
+                        The expected number of successes in <i>n</i>
+                        Bernoulli trials where the probability of 
+                        success in each trial is <i>p</i> = 
+                            <i>np</i>.
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
@@ -515,6 +542,21 @@
 
                 <details>
                     <summary class="sum2">
+                        Independent Random Variables
+                    </summary>
+                    <p>
+                    Two random variables <i>X</i> and <i>Y</i>
+                    are independent if:
+                    <i>p</i>(<i>X</i> = <i>r</i><sub>1</sub> and
+                    <i>Y</i> = <i>r</i><sub>2</sub>) =
+                    <i>p</i>(<i>X</i> = <i>r</i><sub>1</sub>) *
+                    <i>p</i>(<i>Y</i> = <i>r</i><sub>2</sub>)
+                    </p>
+
+                </details>
+
+                <details>
+                    <summary class="sum2">
                         Variance
                     </summary>
 
@@ -528,6 +570,12 @@
 
                     <p class="def">
                         COROLLARY 1
+                    </p>
+
+                    <p>
+                        If <i>X</i> is a random variable,
+                        <i>V</i>(<i>X</i>) = <i>E</i>((<i>X</i>
+                        &minus; <i>&mu;</i>)<sup>2</sup>) 
                     </p>
 
 
