@@ -422,16 +422,15 @@
                         <br />
                         Not Covered Fall 2017
                     </summary>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 3
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 4
-                        </summary>
-                    </details>
+
+                    <p class="def">
+                        THEOREM 3
+                    </p>
+
+                    <p class="def">
+                        THEOREM 4
+                    </p>
+
                 </details>
             </details>
 
@@ -464,32 +463,30 @@
                     <summary class="sum2">
                         Expected Values
                     </summary>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 1
-                        </summary>
-                    </details>
+                   
+                    <p class="def">
+                        DEFINITION 1
+                    </p>
                     
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 1
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 2
-                        </summary>
-                    </details>
+              
+                    <p class="def">
+                        THEOREM 1
+                    </p>
+               
+                
+                    <p class="def">
+                        THEOREM 2
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
                         Linearity of Expectations
                     </summary>   
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 3
-                        </summary>
-                    </details>    
+
+                    <p class="def">
+                        THEOREM 3
+                    </p>
+
                 </details>
                 <details>
                     <summary class="sum2">
@@ -500,55 +497,53 @@
                     <summary class="sum2">
                         The Geometric Distribution
                     </summary>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 2
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 3
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 5
-                        </summary>
-                    </details>
+
+                    <p class="def">
+                        DEFINITION 2
+                    </p>
+
+
+                    <p class="def">
+                        DEFINITION 3
+                    </p>
+
+                    <p class="def">
+                        THEOREM 5
+                    </p>
+
                 </details>
+
                 <details>
                     <summary class="sum2">
                         Variance
                     </summary>
+
+                    <p class="def">
+                        DEFINITION 4
+                    </p>
+
+                    <p class="def">
+                        THEOREM 6
+                    </p>
+
+                    <p class="def">
+                        COROLLARY 1
+                    </p>
+
+
+                    <p class="def">
+                        THEOREM 7
+                    </p>
+
                     <details>
                         <summary class="sum3">
-                            DEFINITION 4
+                            Chebyshev's Inequality
                         </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 6
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            COROLLARY 1
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            THEOREM 7
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum2">
-                            Chebyshev’s Inequality
-                        </summary>
-                        <details>
-                            <summary class="sum3">
-                                THEOREM 8
-                            </summary>
-                        </details>
+
+                        <p class="def">
+                            THEOREM 8
+                        </p>
+
                     </details>
                 </details>
             </details>
