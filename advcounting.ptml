@@ -160,9 +160,9 @@
                 <i>A linear homogeneous recurrence relation of degree k with 
                 constant coefficients is a recurrence relation of the form</i>
                 <br>
-                a<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub>
-                + c<sub>2</sub>a<sub>n−2</sub> + ··· +
-                c<sub>k</sub>a<sub>n−k</sub>,
+                a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub>
+                + c<sub>2</sub>a<sub>n &minus; 2</sub> + ··· +
+                c<sub>k</sub>a<sub>n &minus; k</sub>,
                 where c<sub>1</sub>, c<sub>2</sub>, ...,
                 c<sub>k</sub> are real numbers, and c<sub>k</sub> &ne; 0
                 </p>
@@ -174,12 +174,12 @@
                         <li>
                         <b>Theorem 1</b>:
                         <i>Let c<sub>1</sub> and c<sub>2</sub> be real numbers.
-                        Suppose that r<sup>2</sup> − c<sub>1</sub>r − c<sub>2</sub>
+                        Suppose that r<sup>2</sup>  &minus;  c<sub>1</sub>r  &minus;  c<sub>2</sub>
                         = 0 has two 
                         distinct roots r<sub>1</sub> and r<sub>2</sub>.
                         Then the sequence {a<sub>n</sub>} 
                         is a solution of the recurrence relation a<sub>n</sub>
-                        = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub>
+                        = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub>
                         if and only if 
                         <br>
                         a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup>
@@ -191,8 +191,8 @@
 
                         <li>
                         <b>Theorem 2</b>: <i>Let c<sub>1</sub> and c<sub>2</sub> be real numbers with c2 &ne; 0.
-                        Suppose that r<sup>2</sup> − c<sub>1</sub>r − c<sub>2</sub> = 0 has only one root r<sub>0</sub>.
-                        A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub> if and only if 
+                        Suppose that r<sup>2</sup>  &minus;  c<sub>1</sub>r  &minus;  c<sub>2</sub> = 0 has only one root r<sub>0</sub>.
+                        A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> if and only if 
                         <br>
                         a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>0</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>0</sub><sup>n</sup>, for n = 0, 1 , 2 ,..., where &alpha;<sub>1</sub> and &alpha;<sub>2</sub> are constants.</i>
                         </li>
@@ -201,10 +201,10 @@
                         <b>Theorem 3</b>: <i>Let c<sub>1</sub>, c<sub>2</sub> . . . , c<sub>k</sub> be real numbers.
                         Suppose that the characteristic equation
                         <br>
-                        r<sub>k</sub> − c<sub>1</sub>r<sub>k−1</sub> − · · · − c<sub>k</sub> = 0
+                        r<sub>k</sub>  &minus;  c<sub>1</sub>r<sub>k &minus; 1</sub>  &minus;  · · ·  &minus;  c<sub>k</sub> = 0
                         <br>
                         has k distinct roots r<sub>1</sub> , r<sub>2</sub> , . . . , r<sub>k</sub>.
-                        Then a sequence {a<sub>n</sub> } is a solution of the recurrence relationa<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub> + ··· + c<sub>k</sub>a<sub>n−k</sub>
+                        Then a sequence {a<sub>n</sub> } is a solution of the recurrence relationa<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> + ··· + c<sub>k</sub>a<sub>n &minus; k</sub>
                         if and only if
                         <br>
                         a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup> + · · · + &alpha;<sub>k</sub>r<sub>k</sub><sup>n</sup>
@@ -238,6 +238,8 @@
             <details>
                 <summary class="sum1">
                 Generating Functions 
+                <br />
+                NOT COVERED FALL 2017
                 </summary>
                 <p>
                 The generating function for the sequence a<sub>0</sub> , a<sub>1</sub> , . . . , a<sub>k</sub> , . . . of real numbers is the infinite series
@@ -249,6 +251,8 @@
             <details>
                 <summary class="sum1">
                 Inclusion-Exclusion 
+                <br />
+                NOT COVERED FALL 2017
                 </summary>
                 <p>
                 The <i>inclusion–exclusion</i> principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets; symbolically expressed as
@@ -270,6 +274,8 @@
             <details>
                 <summary class="sum1">
                 Applications of Inclusion-Exclusion
+                <br />
+                NOT COVERED FALL 2017
                 </summary>
                 <p>
                 Many counting problems can be solved using the principle of inclusion–exclusion.
