@@ -41,36 +41,156 @@
                 <summary class="sum1">
                 Applications of Recurrence Relations 
                 </summary>
+                <p>
+                    In this section we will show that recurrence relations can be
+                    used to study and to solve counting problems. For example, 
+                    suppose that the number of bacteria in a colony doubles every hour.
+                    If a colony begins with five bacteria, how many will be present in n hours? 
+                    <br>
+                    To solve this problem, let <i>a</i><sub>n</sub> be the number of 
+                    bacteria at the end of <i>n</i> hours. Because the number of bacteria 
+                    doubles every hour, the relationship a<sub>n</sub> = 2a<sub>n-1</sub> 
+                    holds whenever <i>n</i> is a positive integer. This recurrence relation, 
+                    together with the initial condition a<sub>0</sub> = 5, uniquely determines
+                    a<sub>n</sub> for all nonnegative integers <i>n</i>.
+                </p>
+                    <details>
+                    <summary class="sum2">
+                    Some Applications
+                    </summary>
+                    <ol>
+                    <li>
+                        The Tower of Hanoi
+                    </li>
+                    <li>
+                        Codeword Enumeration
+                    </li>   
+                    <li>
+                        Rabbits and the Fibonacci Numbers
+                    </li>  
+                    </ol>
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Solving Linear Recurrence Relations 
                 </summary>
+                <p>
+                <i>A linear homogeneous recurrence relation of degree k with 
+                constant coefficients is a recurrence relation of the form</i>
+                <br>
+                a<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub> + ··· + c<sub>k</sub>a<sub>n−k</sub>, where c<sub>1</sub>, c<sub>2</sub>, ..., c<sub>k</sub> are real numbers, and c<sub>k</sub> &ne; 0
+                </p>
+                <details>
+                    <summary class="sum2">
+                    Theorems:
+                    </summary>
+                    <ol>
+                        <li>
+                        <b>Theorem 1</b>: <i>Let c<sub>1</sub> and c<sub>2</sub> be real numbers.
+                        Suppose that r<sup>2</sup> − c<sub>1</sub>r − c<sub>2</sub> = 0 has two 
+                        distinct roots r<sub>1</sub> and r<sub>2</sub>. Then the sequence {a<sub>n</sub>} 
+                        is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub>
+                        if and only if 
+                        <br>
+                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup> for n = 0, 1, 2, ..., where &alpha;<sub>1</sub> and &alpha;<sub>2</sub> are constants.
+                        </i>
+                        </li>
+
+                        <li>
+                        <b>Theorem 2</b>: <i>Let c<sub>1</sub> and c<sub>2</sub> be real numbers with c2 &ne; 0.
+                        Suppose that r<sup>2</sup> − c<sub>1</sub>r − c<sub>2</sub> = 0 has only one root r<sub>0</sub>.
+                        A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub> if and only if 
+                        <br>
+                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>0</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>0</sub><sup>n</sup>, for n = 0, 1 , 2 ,..., where &alpha;<sub>1</sub> and &alpha;<sub>2</sub> are constants.</i>
+                        </li>
+
+                        <li>
+                        <b>Theorem 3</b>: <i>Let c<sub>1</sub>, c<sub>2</sub> . . . , c<sub>k</sub> be real numbers.
+                        Suppose that the characteristic equation
+                        <br>
+                        r<sub>k</sub> − c<sub>1</sub>r<sub>k−1</sub> − · · · − c<sub>k</sub> = 0
+                        <br>
+                        has k distinct roots r<sub>1</sub> , r<sub>2</sub> , . . . , r<sub>k</sub>.
+                        Then a sequence {a<sub>n</sub> } is a solution of the recurrence relationa<sub>n</sub> = c<sub>1</sub>a<sub>n−1</sub> + c<sub>2</sub>a<sub>n−2</sub> + ··· + c<sub>k</sub>a<sub>n−k</sub>
+                        if and only if
+                        <br>
+                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup> + · · · + &alpha;<sub>k</sub>r<sub>k</sub><sup>n</sup>
+                        for n = 0, 1, 2 ,..., where &alpha;1, &alpha;2, ..., &alpha;k are constants.</i>
+                        </li>
+                    </ol>
+                </details>    
             </details>
 
             <details>
                 <summary class="sum1">
                 Divide-and-Conquer Algorithms and Recurrence Relations 
                 </summary>
+                <p>
+                    Suppose that a recursive algorithm divides a problem of size <i>n</i> into a subproblems,
+                    where each subproblem is of size <i>n/b </i>(for simplicity, assume that <i>n</i> is a multiple 
+                    of <i>b</i>; in reality, the smaller problems are often of size equal to the nearest
+                    integers either less than or equal to, or greater than or equal to, <i>n/b </i>).
+                    Also, suppose that a total of <i>g(n)</i> extra operations are required in the 
+                    conquer step of the algorithm to combine the solutions of the subproblems
+                    into a solution of the original problem. Then, if <i>f(n)</i> represents the number
+                    of operations required to solve the problem of size <i>n</i>, it follows that <i>f</i>
+                    satisfies the recurrence relation
+                    <br>
+                    <i>f(n) = af(n/b) + g(n)</i>.
+                    <br>
+                    This is called a divide-and-conquer recurrence relation.
+                </p>
             </details>
 
             <details>
                 <summary class="sum1">
                 Generating Functions 
                 </summary>
+                <p>
+                The generating function for the sequence a<sub>0</sub> , a<sub>1</sub> , . . . , a<sub>k</sub> , . . . of real numbers is the infinite series
+                <br>
+                <i>G(x)=a<sub>0</sub> +a<sub>1</sub>x+ ··· + a<sub>k</sub>x<sup>k</sup> +··· = &sum; a<sub>k</sub>x<sup>k</sup></i>
+                </p>
             </details>
 
             <details>
                 <summary class="sum1">
                 Inclusion-Exclusion 
                 </summary>
+                <p>
+                The <i>inclusion–exclusion</i> principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets; symbolically expressed as
+                <br>
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/05f67b2ce4414f2a1f96e4210a86d71028aa53b6">
+                <br>
+                where A and B are two finite sets and |S| indicates the cardinality of
+                a set S (which may be considered as the number of elements of the set,
+                if the set is finite). The formula expresses the fact that the sum of
+                the sizes of the two sets may be too large since some elements may be
+                counted twice. The double-counted elements are those in the intersection
+                of the two sets and the count is corrected by subtracting the size of the intersection.
+                <br>
+                The principle is more clearly seen in the case of three sets, which for the sets A, B and C is given by
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/0b8e7c1631ec013eed94feb5aa406a573caa3559">
+                </p>
             </details>
 
             <details>
                 <summary class="sum1">
                 Applications of Inclusion-Exclusion
                 </summary>
+                <p>
+                Many counting problems can be solved using the principle of inclusion–exclusion.
+                For instance, we can use this principle to find the number of primes
+                less than a positive integer. Many problems can be solved by counting
+                the number of onto functions from one finite set to another.
+                The inclusion–exclusion principle can be used to find the number
+                of such functions. The famous hatcheck problem can be solved using
+                the principle of inclusion–exclusion. This problem asks for the
+                probability that no person is given the correct hat back by a
+                hatcheck person who gives the hats back randomly.
+                </p>
             </details>
 
     </body>
