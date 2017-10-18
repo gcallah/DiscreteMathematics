@@ -52,13 +52,15 @@
                     how many will be present in n hours? 
                     <br>
                     To solve this problem, let <i>a</i><sub>n</sub> be the number of 
-                    bacteria at the end of <i>n</i> hours. Because the number of bacteria 
-                    doubles every hour, the relationship a<sub>n</sub> = 2a<sub>n-1</sub> 
+                    bacteria at the end of <i>n</i> hours.
+                    Because the number of bacteria 
+                    doubles every hour, the relationship
+                    <i>a</i><sub>n</sub> = 2<i>a</i><sub><i>n</i>-1</sub> 
                     holds whenever <i>n</i> is a positive integer.
                     This recurrence relation, 
                     together with the initial condition
-                    a<sub>0</sub> = 5, uniquely determines
-                    a<sub>n</sub> for all nonnegative integers <i>n</i>.
+                    <i>a</i><sub>0</sub> = 5, uniquely determines
+                    <i>a</i><sub><i>n</i></sub> for all nonnegative integers <i>n</i>.
                 </p>
                     <details>
                     <summary class="sum2">
@@ -66,11 +68,41 @@
                     </summary>
                     <ol class="nested">
                     <li>
-                        Codeword Enumeration
-                    </li>   
-                    <li>
                         Rabbits and the Fibonacci Numbers
+                        <br />
+                        <i>f</i><sub><i>n</i></sub> =
+                            <i>f</i><sub><i>n</i> &minus; 1</sub>
+                            + <i>f</i><sub><i>n</i> &minus; 2</sub>
                     </li>  
+                    <li>
+                        Codeword Enumeration
+                        <br />
+                        Imagine valid codewords are strings of digits
+                        containing even numbers of zeroes. How many such 
+                        strings of length <i>n</i> are there?
+                        <br />
+                        We can append a digit other than 0 to a valid string.
+                        There are nine such digits, so we can do this
+                        9<sub><i>a</i><sub><i>n</i> &minus; 1</sub></sub> ways.
+                        <br />
+                        Or we can append a 0 to an invalid string. There
+                        are 10<sup><i>n</i> &minus; 1</sup> strings of length
+                        <i>n</i> &minus; 1, and <i>a</i><sub><i>n</i> &minus; 1</sub>
+                        are valid, there are 10<sup><i>n</i> &minus; 1</sup> &minus;
+                        <i>a</i><sub><i>n</i> &minus; 1</sub> valid <i>n</i>-digit
+                        strings obtained by appending a 0 to an <i>n</i>
+                        &minus; 1 length string.
+                        <br />
+                        So total valid strings of length <i>n</i> is:
+                        <br />
+                        <i>a<sub>n</sub></i> =
+                            9<sub><i>a</i><sub><i>n</i> &minus; 1</sub></sub>
+                            + 10<sup><i>n</i> &minus; 1</sup> &minus;
+                            <i>a</i><sub><i>n</i> &minus; 1</sub>
+                            <br />
+                            = 8<sub><i>a</i><sub><i>n</i> &minus; 1</sub></sub>
+                            + 10<sup><i>n</i> &minus; 1</sup>
+                    </li>   
                     <li>
                         The Towers of Hanoi
                         <br>
@@ -203,25 +235,31 @@
                         </li>
 
                         <li>
-                        <b>Theorem 2</b>: <i>Let c<sub>1</sub> and c<sub>2</sub> be real numbers with c2 &ne; 0.
+                        <b>Theorem 2</b>: Let c<sub>1</sub> and c<sub>2</sub> be real numbers with c2 &ne; 0.
                         Suppose that r<sup>2</sup>  &minus;  c<sub>1</sub>r  &minus;  c<sub>2</sub> = 0 has only one root r<sub>0</sub>.
                         A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> if and only if 
                         <br>
-                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>0</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>0</sub><sup>n</sup>, for n = 0, 1 , 2 ,..., where &alpha;<sub>1</sub> and &alpha;<sub>2</sub> are constants.</i>
+                        a<sub>n</sub> =
+                        &alpha;<sub>1</sub>r<sub>0</sub><sup>n</sup>
+                        + &alpha;<sub>2</sub>r<sub>0</sub><sup>n</sup>, for n = 0, 1 , 2 ,..., where &alpha;<sub>1</sub> and &alpha;<sub>2</sub> are constants.
                         </li>
 
                         <li>
-                        <b>Theorem 3</b>: <i>Let c<sub>1</sub>, c<sub>2</sub> . . . , c<sub>k</sub> be real numbers.
+                        <b>Theorem 3</b>:
+                        Let c<sub>1</sub>, c<sub>2</sub> ...
+                            , c<sub>k</sub> be real numbers.
                         Suppose that the characteristic equation
                         <br>
-                        r<sub>k</sub>  &minus;  c<sub>1</sub>r<sub>k &minus; 1</sub>  &minus;  · · ·  &minus;  c<sub>k</sub> = 0
+                        r<sub>k</sub>  &minus; 
+                       c<sub>1</sub>r<sub>k &minus; 1</sub>
+                       &minus;  · · ·  &minus;  c<sub>k</sub> = 0
                         <br>
                         has k distinct roots r<sub>1</sub> , r<sub>2</sub> , . . . , r<sub>k</sub>.
                         Then a sequence {a<sub>n</sub> } is a solution of the recurrence relationa<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> + ··· + c<sub>k</sub>a<sub>n &minus; k</sub>
                         if and only if
                         <br>
                         a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup> + · · · + &alpha;<sub>k</sub>r<sub>k</sub><sup>n</sup>
-                        for n = 0, 1, 2 ,..., where &alpha;1, &alpha;2, ..., &alpha;k are constants.</i>
+                        for n = 0, 1, 2 ,..., where &alpha;1, &alpha;2, ..., &alpha;k are constants.
                         </li>
                     </ol>
                 </details>    
