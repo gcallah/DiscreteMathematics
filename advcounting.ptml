@@ -83,7 +83,7 @@
                         <br />
                         We can append a digit other than 0 to a valid string.
                         There are nine such digits, so we can do this
-                        9<sub><i>a</i><sub><i>n</i> &minus; 1</sub></sub> ways.
+                        9<i>a</i><sub><i>n</i> &minus; 1</sub> ways.
                         <br />
                         Or we can append a 0 to an invalid string. There
                         are 10<sup><i>n</i>&minus;1</sup> strings of length
