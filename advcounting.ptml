@@ -31,6 +31,13 @@
                 <summary class="sum1">
                 Applications of Recurrence Relations 
                 </summary>
+                <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Prokaryote_cell.svg/440px-Prokaryote_cell.svg.png"
+                    height="300" width="240">
+                    <figcaption>
+                    </figcaption>
+                </figure>
                 <p>
                     In this section we will show that recurrence relations can be
                     used to study and to solve counting problems. For example, 
