@@ -1305,7 +1305,7 @@ in lexicographic order.<br>
                     <p>
                     Begin with 123.
 The next permutation is obtained by interchanging 3 and 2 to obtain 132. 
-Next, because 3 > 2 and 1 &lt; 3, permute the three integers in 132. 
+Next, because 3 &gt; 2 and 1 &lt; 3, permute the three integers in 132. 
 Put the smaller of 3 and 2 in the first position, and 
 then put 1 and 3 in increasing order in positions 2 and 3 to obtain 213. 
 This is followed by 231, obtained by interchanging 1 and 3, because 1 &lt; 3. 
