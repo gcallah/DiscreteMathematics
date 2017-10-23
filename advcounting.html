@@ -298,12 +298,20 @@
                        c<sub>1</sub>r<sub>k &minus; 1</sub>
                        &minus;  · · ·  &minus;  c<sub>k</sub> = 0
                         <br>
-                        has k distinct roots r<sub>1</sub> , r<sub>2</sub> , . . . , r<sub>k</sub>.
-                        Then a sequence {a<sub>n</sub> } is a solution of the recurrence relationa<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> + ··· + c<sub>k</sub>a<sub>n &minus; k</sub>
+                        has k distinct roots r<sub>1</sub>, r<sub>2</sub>,
+                        ..., r<sub>k</sub>.
+                        Then a sequence {a<sub>n</sub> } is a solution of the
+                        recurrence relationa<sub>n</sub> =
+                        c<sub>1</sub>a<sub>n &minus; 1</sub> +
+                        c<sub>2</sub>a<sub>n &minus; 2</sub> + ···
+                        + c<sub>k</sub>a<sub>n &minus; k</sub>
                         if and only if
                         <br>
-                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup> + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup> + · · · + &alpha;<sub>k</sub>r<sub>k</sub><sup>n</sup>
-                        for n = 0, 1, 2 ,..., where &alpha;1, &alpha;2, ..., &alpha;k are constants.
+                        a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup>
+                        + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup>
+                        + · · · + &alpha;<sub>k</sub>r<sub>k</sub><sup>n</sup>
+                        for n = 0, 1, 2 ,..., where &alpha;1, &alpha;2, ...,
+                        &alpha;k are constants.
                         </li>
                     </ol>
                 </details>    
@@ -314,14 +322,29 @@
                 Divide-and-Conquer Algorithms and Recurrence Relations 
                 </summary>
                 <p>
-                    Suppose that a recursive algorithm divides a problem of size <i>n</i> into a subproblems,
-                    where each subproblem is of size <i>n/b </i>(for simplicity, assume that <i>n</i> is a multiple 
-                    of <i>b</i>; in reality, the smaller problems are often of size equal to the nearest
-                    integers either less than or equal to, or greater than or equal to, <i>n/b </i>).
-                    Also, suppose that a total of <i>g(n)</i> extra operations are required in the 
-                    conquer step of the algorithm to combine the solutions of the subproblems
-                    into a solution of the original problem. Then, if <i>f(n)</i> represents the number
-                    of operations required to solve the problem of size <i>n</i>, it follows that <i>f</i>
+                    <a
+                        href="https://gcallah.github.io/algorithms/DivideAndConquer.html">
+                        Divide-and-Conquer lecture from Algorithms course
+                    </a>
+                </p>
+
+                <p>
+                    Suppose that a recursive algorithm divides a problem of size
+                    <i>n</i> into a subproblems,
+                    where each subproblem is of size <i>n/b </i>
+                    (for simplicity, assume that <i>n</i> is a multiple 
+                    of <i>b</i>; in reality, the smaller problems
+                    are often of size equal to the nearest
+                    integers either less than or equal to, or
+                    greater than or equal to, <i>n/b </i>).
+                    Also, suppose that a total of <i>g(n)</i>
+                    extra operations are required in the 
+                    conquer step of the algorithm to combine the
+                    solutions of the subproblems
+                    into a solution of the original problem.
+                    Then, if <i>f(n)</i> represents the number
+                    of operations required to solve the problem
+                    of size <i>n</i>, it follows that <i>f</i>
                     satisfies the recurrence relation
                     <br>
                     <i>f(n) = af(n/b) + g(n)</i>.
@@ -337,9 +360,13 @@
                 NOT COVERED FALL 2017
                 </summary>
                 <p>
-                The generating function for the sequence a<sub>0</sub> , a<sub>1</sub> , . . . , a<sub>k</sub> , . . . of real numbers is the infinite series
+                The generating function for the sequence a<sub>0</sub>,
+                a<sub>1</sub> , ... , a<sub>k</sub>, ...
+                of real numbers is the infinite series
                 <br>
-                <i>G(x)=a<sub>0</sub> +a<sub>1</sub>x+ ··· + a<sub>k</sub>x<sup>k</sup> +··· = &sum; a<sub>k</sub>x<sup>k</sup></i>
+                <i>G(x)=a<sub>0</sub> +a<sub>1</sub>x+ ···
+                    + a<sub>k</sub>x<sup>k</sup> +··· =
+                    &sum; a<sub>k</sub>x<sup>k</sup></i>
                 </p>
             </details>
 
