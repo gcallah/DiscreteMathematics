@@ -170,6 +170,19 @@
                     <summary class="sum2">
                        Connectedness in Undirected Graphs
                     </summary>
+
+                    <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Network_Community_Structure.svg/440px-Network_Community_Structure.svg.png">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        A graph is <i>connected</i> if
+                        there is a path from any vertex to 
+                        any other vertex.
+                    </p>
+
                 </details>
 
                 <details>
