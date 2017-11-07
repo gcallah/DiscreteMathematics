@@ -258,54 +258,123 @@
                         in K&ouml;nigsberg once and only once?
                     </p>
 
-                    <figure class="lead-figure">
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png">
-                        <figcaption>
-                        The Bridges of K&ouml;nigsberg
-                        </figcaption>
-                    </figure>
+                    <details>
+                        <summary class="sum3">
+                            Euler Path
+                        </summary>
 
-                    <p>
-                        Answer: No! For an <i>Eulerian path</i> to exist
-                        through a graph, there must be zero or two nodes of
-                        odd degree.
-                    </p>
+                        <figure class="lead-figure">
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png">
+                            <figcaption>
+                            The Bridges of K&ouml;nigsberg
+                            </figcaption>
+                        </figure>
+    
+                        <p>
+                            Answer: No! For an <i>Eulerian path</i> to exist
+                            through a graph, there must be zero or two nodes of
+                            odd degree.
+                        </p>
+    
+                        <figure>
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
+                            height="240" width="280">
+                            <figcaption>
+                                The graph Euler used to solve the problem
+                            </figcaption>
+                        </figure>
+                    </details>
 
-                    <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
-                        height="240" width="280">
-                        <figcaption>
-                            The graph Euler used to solve the problem
-                        </figcaption>
-                    </figure>
+                    <details>
+                        <summary class="sum3">
+                            Euler Circuit
+                        </summary>
 
-                    <p>
-                        For there to be an <i>Eulerian circuit</i>, all
-                        nodes must have even degree. That is both a necessary
-                        and a sufficient condition.
-                        <br />
-                        This can be proved with a graph like the following:
-                    </p>
-
-                    <figure>
-                        <img src="graphics/EulerCircuit.png">
-                        <figcaption>
-                        </figcaption>
-                    </figure>
+                        <p>
+                            For there to be an <i>Eulerian circuit</i>, all
+                            nodes must have even degree. That is both
+                            a necessary and a sufficient condition.
+                            <br />
+                            This can be proved with a graph like the following:
+                        </p>
+    
+                        <figure>
+                            <img src="graphics/EulerCircuit.png">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
+                    </details>
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Hamilton Paths and Circuits        
                     </summary>
+
+                    <p>
+                        A simple path that passes through each vertex 
+                        in a graph just once is called a <i>Hamilton
+                        path</i>. A simple circuit that passes through
+                        each vertex in a graph just once is called a
+                        <i>Hamilton circuit</i>.
+                    </p>
+
+                    <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/440px-Hamiltonian_path.svg.png"
+                        height="320" width="320">
+                        <figcaption>
+                            A Hamilton circuit on a dodecahedron
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        There is no easy way to always detect Hamilton
+                        circuits, but... a graph with a Hamilton circuit:
+                    </p>
+                    <ul>
+                        <li>
+                            Has no vertices of degree one.
+                        </li>
+                        <li>
+                            Both edges of any vertex of degree two are in the
+                            circuit.
+                        </li>
+                        <li>
+                            All incidenet edges of a traversed vertex, except
+                            those used building the circuit, can be dropped.
+                        </li>
+                        <li>
+                            No Hamilton circuit contains a smaller circuit.
+                        </li>
+                        <li>
+                            <i>K<sub>n</sub></i> has a Hamilton circuit
+                            when <i>n</i> &ge; 3.
+                        </li>
+                    </ul>
+
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Applications of Hamilton Circuits        
                     </summary>
+
+                    <p>
+                        Gray codes
+                    </p>
+
+                    <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Encoder_Disc_%283-Bit%29.svg/440px-Encoder_Disc_%283-Bit%29.svg.png"
+                        height="320" width="320">
+                        <figcaption>
+                            Rotary encoder for angle-measuring devices
+                        </figcaption>
+                    </figure>
                 </details>
             </details>
 
