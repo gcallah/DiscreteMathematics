@@ -280,6 +280,20 @@
                             The graph Euler used to solve the problem
                         </figcaption>
                     </figure>
+
+                    <p>
+                        For there to be an <i>Eulerian circuit</i>, all
+                        nodes must have even degree. That is both a necessary
+                        and a sufficient condition.
+                        <br />
+                        This can be proved with a graph like the following:
+                    </p>
+
+                    <figure>
+                        <img src="graphics/EulerCircuit.png">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
                 </details>
 
                 <details>
