@@ -29,6 +29,10 @@
                     Tree
                 </p>
 
+                <p>
+                    No circuits, unique simple path.
+                </p>
+
                 <p class="def">
                     Forest
                 </p>
@@ -37,12 +41,40 @@
                     <summary class="sum2">
                         Rooted Trees
                     </summary>
+
+                    <p>
+                    Root
+                    <br />
+                    Leaf
+                    <br />
+                    Subtree
+                    <br />
+                    M-ary tree
+                    <br />
+                    Full m-ary tree
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Trees as Models
                     </summary>
+
+                    <ul>
+                        <li>
+                            (Some) molecules
+                        </li>
+                        <li>
+                            Org charts
+                        </li>
+                        <li>
+                            Computer file systems
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+
                 </details>
 
                 <details>
@@ -75,6 +107,8 @@
                 <details>
                     <summary class="sum2">
                         Decision Trees
+                        <br />
+                        NOT COVERED FALL 2017
                     </summary>
                 </details>
 
@@ -181,10 +215,12 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png">
                         <br>
                         <br>
-                        Hoffman coding is away of compressing data that consists of
-                        characters buy creating short binary representations for the
-                        characters that occur most frequently in the data, and using longer
-                        representations for characters that occur less frequently.
+                        Hoffman coding is away of compressing data
+                        that consists of characters buy creating
+                        short binary representations for the
+                        characters that occur most frequently
+                        in the data, and using longer representations
+                        for characters that occur less frequently.
                         </p>
         
                         <figure>
@@ -241,9 +277,9 @@
                             110000010100010100100100001111101001101101
                             <br>
                             <br>
-                            Try parsing it, and convince yourself that there is
-                            only one possible interpretation of it. That is what
-                            the prefix coding buys us.
+                            Try parsing it, and convince yourself that
+                            there is only one possible interpretation
+                            of it. That is what the prefix coding buys us.
                         </p>
                     </details>
                 </details>
