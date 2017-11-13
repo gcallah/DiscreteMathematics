@@ -62,6 +62,14 @@
                     <summary class="sum2">
                         Binary Search Trees
                     </summary>
+
+                    <p>
+                        <a
+                            href="https://gcallah.github.io/algorithms/BinarySearchTrees.html">
+                            Binary Search Trees from DAA
+                        </a>
+                    </p>
+
                 </details>
 
                 <details>
@@ -74,6 +82,170 @@
                     <summary class="sum2">
                         Prefix Codes
                     </summary>
+
+                    <details>
+                        <summary class="sum3">
+                            Introduction
+                        </summary>
+
+                        <p>
+                        Prefix codes are coding schemes in which no codeword
+                        is a prefix of a different codeword.
+                        <br>
+                        This makes decoding easier -- no lookahead.
+                        (<b>else</b> and <b>else-if</b>)
+                        <br />
+                        It means that we never hit two letters on the same path
+                        down the tree!
+                        </p>
+    
+                        <table>
+                            <tr>
+                                <td>
+                                </td>
+                                <th>
+                                    a
+                                </th>
+                                <th>
+                                    b
+                                </th>
+                                <th>
+                                    c
+                                </th>
+                                <th>
+                                    d
+                                </th>
+                                <th>
+                                    e
+                                </th>
+                                <th>
+                                    f
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Frequency (in 1000s)
+                                </th>
+                                <td>
+                                    45
+                                </td>
+                                <td>
+                                    13
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    16
+                                </td>
+                                <td>
+                                    9
+                                </td>
+                                <td>
+                                    5
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Codeword
+                                </th>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    101
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                                <td>
+                                    111
+                                </td>
+                                <td>
+                                    1101
+                                </td>
+                                <td>
+                                    1100
+                                </td>
+                            </tr>
+                        </table>
+                    </details>
+
+                    <details>
+                        <summary class="sum3">
+                            Huffman codes
+                        </summary>
+        
+                        <p>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png">
+                        <br>
+                        <br>
+                        Hoffman coding is away of compressing data that consists of
+                        characters buy creating short binary representations for the
+                        characters that occur most frequently in the data, and using longer
+                        representations for characters that occur less frequently.
+                        </p>
+        
+                        <figure>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/dM6us854Jk0"
+                                frameborder="0" allowfullscreen></iframe>
+                            <figcaption>
+                                Huffman coding
+                            </figcaption>
+                        </figure>
+                    </details>
+    
+    
+                    <details>
+                        <summary class="sum3">
+                        Constructing a Huffman code
+                        </summary>
+    
+                        <p>
+                            We build a binary tree from the bottom-up,
+                            starting with the two least-frequent characters,
+                            and building up from there. This ensures the
+                            least-frequent characters have the longest codes.
+                            <br>
+                            <br>
+                            Consider the phrase "Mississippi River".
+                            This is 136 bits in 8-bit ASCII encoding.
+                            <br>
+                            <br>
+                            Here is the Huffman coding for it:
+                            <br>
+                            <img src="graphics/Huffman.png">
+                            <br>
+                            <br>
+                            I = 00
+                            <br>
+                            S = 01
+                            <br>
+                            P = 100
+                            <br>
+                            R - 101
+                            <br>
+                            M = 1100
+                            <br>
+                            V = 1101
+                            <br>
+                            E = 1110
+                            <br>
+                            _ = 1111
+                            <br>
+                            <br>
+                            The final string:
+                            <br>
+                            110000010100010100100100001111101001101101
+                            <br>
+                            <br>
+                            Try parsing it, and convince yourself that there is
+                            only one possible interpretation of it. That is what
+                            the prefix coding buys us.
+                        </p>
+                    </details>
                 </details>
 
                 <details>
@@ -204,6 +376,14 @@
                     <summary class="sum2">
                         Algorithms for Minimum Spanning Trees
                     </summary>
+
+                    <p>
+                        <a
+                            href="https://gcallah.github.io/algorithms/MinimumSpanningTrees.html">
+                            Minimum Spanning Trees from DAA
+                        </a>
+                    </p>
+
                 </details>
             </details>
 
