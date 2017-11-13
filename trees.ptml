@@ -24,24 +24,140 @@
                 <summary class="sum1">
                 Introduction to Trees
                 </summary>
+
+                <p class="def">
+                    Tree
+                </p>
+
+                <p class="def">
+                    Forest
+                </p>
+
+                <details>
+                    <summary class="sum2">
+                        Rooted Trees
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Trees as Models
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Properties of Trees
+                    </summary>
+                </details>
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Applications of Trees
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                        Binary Search Trees
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Decision Trees
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Prefix Codes
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Game Trees
+                    </summary>
+                </details>
+
             </details>
 
             <details>
                 <summary class="sum1">
                 Tree Traversal
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                        Universal Address Systems
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Traversal Algorithms
+                    </summary>
+
+                    <details>
+                        <summary class="sum3">
+                            Preorder Traversal
+                        </summary>
+
+                        <figure>
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sorted_binary_tree_preorder.svg/220px-Sorted_binary_tree_preorder.svg.png">
+                            <figcaption>
+                                Preorder traversal: F, B, A, D, C, E, G, I, H.
+                            </figcaption>
+                        </figure>
+
+                    </details>
+
+                    <details>
+                        <summary class="sum3">
+                            Inorder Traversal
+                        </summary>
+
+                        <figure>
+                            <img
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sorted_binary_tree_inorder.svg/220px-Sorted_binary_tree_inorder.svg.png">
+                            <figcaption>
+                                Inorder traversal: A, B, C, D, E, F, G, H, I.
+                            </figcaption>
+                        </figure>
+
+                    </details>
+
+                    <details>
+                        <summary class="sum3">
+                            Postorder Traversal
+                        </summary>
+
+                        <figure>
+                            <img
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sorted_binary_tree_postorder.svg/220px-Sorted_binary_tree_postorder.svg.png">
+                            <figcaption>
+                                Postorder traversal: A, C, E, D, B, H, I, G, F.
+                            </figcaption>
+                        </figure>
+
+                    </details>
+
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
                 Spanning Trees
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                    </summary>
+                </details>
+
             </details>
 
             <details>
@@ -55,6 +171,7 @@
             </h3>
             <ul>
                 <li>
+                    Images from Wikipedia are linked to the original.
                 </li>
             </ul>
 
