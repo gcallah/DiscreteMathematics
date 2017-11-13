@@ -155,6 +155,35 @@
 
                 <details>
                     <summary class="sum2">
+                        Introduction
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Depth-First Search
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Breadth-First Search
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Backtracking Applications
+                        <br />
+                        NOT COVERED FALL 2017
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Depth-First Search in Directed Graphs
+                        <br />
+                        NOT COVERED FALL 2017
                     </summary>
                 </details>
 
@@ -164,6 +193,18 @@
                 <summary class="sum1">
                 Minimum Spanning Trees 
                 </summary>
+
+                <details>
+                    <summary class="sum2">
+                        Introduction
+                    </summary>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Algorithms for Minimum Spanning Trees
+                    </summary>
+                </details>
             </details>
 
             <h3>
