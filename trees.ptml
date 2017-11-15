@@ -321,6 +321,23 @@
                             </figcaption>
                         </figure>
 
+                        <p>
+                        Preorder pseudocode:
+                        </p>
+                        <p>
+                        <code>
+                    <pre>
+                    preorder(T):
+                        if T == nil:
+                            return
+                        else:
+                            print(T)
+                            preorder(T.left)
+                            preorder(T.right)
+                    </pre>
+                        </code>
+                        </p>
+
                     </details>
 
                     <details>
@@ -335,6 +352,22 @@
                                 Inorder traversal: A, B, C, D, E, F, G, H, I.
                             </figcaption>
                         </figure>
+                        <p>
+                        Inorder pseudocode:
+                        </p>
+                        <p>
+                        <code>
+                    <pre>
+                    inorder(T):
+                        if T == nil:
+                            return
+                        else:
+                            inorder(T.left)
+                            print(T)
+                            inorder(T.right)
+                    </pre>
+                        </code>
+                        </p>
 
                     </details>
 
@@ -350,6 +383,23 @@
                                 Postorder traversal: A, C, E, D, B, H, I, G, F.
                             </figcaption>
                         </figure>
+
+                        <p>
+                        Postorder pseudocode:
+                        </p>
+                        <p>
+                        <code>
+                    <pre>
+                    postorder(T):
+                        if T == nil:
+                            return
+                        else:
+                            postorder(T.left)
+                            postorder(T.right)
+                            print(T)
+                    </pre>
+                        </code>
+                        </p>
 
                     </details>
 
