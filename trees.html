@@ -419,6 +419,27 @@
 
                     </details>
 
+                    <details>
+                        <summary class="sum3">
+                            Infix, Prefix, and Postfix Notation
+                        </summary>
+
+                        <figure>
+                            <img src="graphics/ParseTree.png">
+                            <figcaption>
+                                Parse tree for ((x + y)^2) + ((x - 4) / 3)
+                            </figcaption>
+                        </figure>
+
+                        <p>
+                        <b>Prefix form</b>: + ^ + x y 2 / - x 4 3
+                        <br />
+                        <b>Postfix form</b>: x y + 2 ^ x 4 - 3 / +
+                        <br />
+                        </p>
+
+                    </details>
+
                 </details>
             </details>
 
@@ -431,18 +452,75 @@
                     <summary class="sum2">
                         Introduction
                     </summary>
+
+                    <p>
+                        The <i>spanning tree</i> of a graph <i>G</i>
+                        is a subgraph of <i>G</i> that is a tree
+                        and that contains every vertex of G.
+                    </p>
+
+                    <p>
+                        A graph is connected if and only if it has a spanning
+                        tree.
+                        <br />
+                        We prove this by removing edges from circuits.
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
-                        Depth-First Search
+                        Depth-First Search (DFS)
                     </summary>
+
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/300px-Depth-first-tree.svg.png">
+                        <figcaption>
+                            The order in which nodes are visited in a DFS.
+                        </figcaption>
+                    </figure>
+                    <p>
+                        This is a way to find a spanning tree in a connected
+                        graph (or detect that the graph is unconnected).
+                        <br />
+                        The edges used to form that tree are called
+                        <b>tree edges</b>.
+                        <br />
+                        The edges not used in forming that tree are called
+                        <b>back edges</b> (because they lead <i>back</i>
+                        to a node already visited). If there are back edges,
+                        they show that circuits exist in the graph. And if
+                        there are unvisited vertices when DFS is done,
+                        then the graph is not connected.
+                        <br />
+                        So, DFS can:
+                    </p>
+
+                    <ul class="nested">
+                        <li>
+                            Find spanning trees
+                        </li>
+                        <li>
+                            Detect circuits
+                        </li>
+                        <li>
+                            Detect if a graph is connected
+                        </li>
+                    </ul>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Breadth-First Search
                     </summary>
+
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/300px-Breadth-first-tree.svg.png">
+                        <figcaption>
+                            The order in which nodes are visited in a BFS.
+                        </figcaption>
+                    </figure>
                 </details>
 
                 <details>
