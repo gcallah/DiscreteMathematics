@@ -26,6 +26,7 @@ th.table-head {
 }
 
 td {
+    text-align:center;
     background: #fff;
 }
 

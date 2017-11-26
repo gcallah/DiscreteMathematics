@@ -32,7 +32,7 @@
             Logic has many important applications to mathematics, computer
             science, and other disciplines:
             </p>
-            <ul>
+            <ul class="nested">
                 <li>
                 In the specification of software and hardware.
                 <br />
@@ -142,7 +142,7 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="nested">
                 <li>
                     <a
                         href="http://sierra.nmsu.edu/morandi/coursematerials/MuddyChildren.html">
