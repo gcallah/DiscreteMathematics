@@ -111,35 +111,31 @@
                 <h2>
                     Other Material
                 </h2>
-                <ul class="centered">
-                    <li>
-                        <a href="Outline.html">
-                            Course Outline Fall 2017
-                        </a>
-                    </li>
-                    <li>
-                        <a href="TAHours.html">
-                        TA Hours Fall 2017
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Homework/index.html">
-                            Homework Sets
-                        </a>
-                    </li>
-                </ul>
+                <p text-align="center">
+                    <a href="Outline.html">
+                        Course Outline Fall 2017
+                    </a>
+                    <br />
+                    <br />
+                    <a href="TAHours.html">
+                    TA Hours Fall 2017
+                    </a>
+                    <br />
+                    <br />
+                    <a href="Homework/index.html">
+                        Homework Sets
+                    </a>
+                </p>
     
                 <h4>
                     Credits
                 </h4>
-                <ul class="centered">
-                    <li>
+                <p text-align="center">
                     Four-color graphic by
                     <a href="https://commons.wikimedia.org/wiki/User:Inductiveload">
                         Inductiveload
                     </a>
-                    </li>
-                </ul>
+                </p>
             </div>
     </body>
 </html>
