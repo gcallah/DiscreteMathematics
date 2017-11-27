@@ -6,7 +6,7 @@ INCS = menu.txt
 	./utils/html_include.awk <$< >$@
 
 website: $(HTMLFILES) $(INCS)
-	-git commit -a -m "HTML rebuild."
+	-git commit -a -m "Website rebuild."
 	git push origin master
 
 quizzes:
