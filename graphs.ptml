@@ -492,7 +492,7 @@ The directed edge associated with the <i>ordered pair</i>
 6          dist[v] = INFINITY      // Unknown distance from source to v
 7          prev[v] = UNDEFINED     // Previous node in optimal path from source
 8          add v to Q              // All nodes initially in Q 
-(unvisited nodes)
+                                    //(unvisited nodes)
 9
 10      dist[source] = 0           // Distance from source to source
 11      
