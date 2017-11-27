@@ -41,8 +41,77 @@
 
 
                 <p>
-                <b>Definition 1:</b>
+                <b>Definition 1:</b><br>
+                A graph <b>G = (V , E) </b>consists of V , 
+                a nonempty set of vertices (or nodes) and E, a set of
+                edges. Each edge has either one or 
+                two vertices associated with it,
+                called its endpoints. An edge is said to connect its endpoints.
                 </p>
+                <p>
+                <b>Definition 2:</b><br>
+                A <i>directed graph (or digraph)</i><b> (V , E) </b>consists
+                 of a nonempty set of vertices V and a set of
+directed edges (or arcs) E. Each directed edge is associated 
+with an ordered pair of vertices.
+The directed edge associated with the <i>ordered pair</i>
+<b> (u, v) </b>is said to start at u and end at v.
+                </p>
+
+                <details>
+                    <summary class="sum2">
+                       Graph Terminology 
+                    </summary>
+                
+
+                <table style="width:80%">
+                    <tr>
+                        <th>Type</th>
+                        <th>Edges</th> 
+                        <th>Multiple Edges Allowed?</th>
+                        <th>Loops Allowed?</th>
+                     </tr>
+                    <tr>
+                        <td>Simple Graph</td>
+                        <td>Undirected</td>
+                        <td>NO</td>
+                        <td>NO</td>
+                    </tr>
+                    <tr>
+                        <td>Multigraph</td>
+                        <td>Undirected</td>
+                        <td>YES</td>
+                        <td>NO</td>
+                    </tr>
+                    <tr>
+                        <td>Pseudograph</td>
+                        <td>Undirected</td>
+                        <td>YES</td>
+                        <td>YES</td>
+                    </tr>
+                    <tr>
+                        <td>Simple Directed Graph</td>
+                        <td>Directed</td>
+                        <td>NO</td>
+                        <td>NO</td>
+                    </tr>
+                    <tr>
+                        <td>Directed Multigraph Graph</td>
+                        <td>Directed</td>
+                        <td>YES</td>
+                        <td>YES</td>
+                    </tr>
+                    <tr>
+                        <td>Mixed Graph</td>
+                        <td>Directed and Undirected</td>
+                        <td>YES</td>
+                        <td>YES</td>
+                    </tr>
+                </table>
+
+                </details> 
+
+            
             </details>
 
             <details>
@@ -436,7 +505,8 @@
 5      for each vertex v in Graph:     // Initialization
 6          dist[v] = INFINITY      // Unknown distance from source to v
 7          prev[v] = UNDEFINED     // Previous node in optimal path from source
-8          add v to Q              // All nodes initially in Q (unvisited nodes)
+8          add v to Q              // All nodes initially in Q 
+(unvisited nodes)
 9
 10      dist[source] = 0           // Distance from source to source
 11      
