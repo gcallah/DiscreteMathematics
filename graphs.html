@@ -205,7 +205,138 @@ The directed edge associated with the <i>ordered pair</i>
                     <summary class="sum2">
                        Basic Terminology 
                     </summary>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 1: 
+                    </summary>
+                        <p>
+                        Two vertices u and v in an undirected graph G 
+                        are called <i>adjacent</i> (or neighbors) in G if u
+and v are endpoints of an edge e of G.
+ Such an edge e is called <i>incident </i>with the vertices u
+and v and e is said to <i>connect </i>u and v.
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 2: 
+                    </summary>
+                        <p>
+                       The set of all neighbors of a vertex v of 
+                       G = (V , E), denoted by N (v), is called the
+                       <i> neighborhood</i>
+of v. If A is a subset of V , 
+we denote by N (A) the set of all vertices in G that are
+adjacent to at least one vertex in A. So, N (A) =<b> &cup;</b><sub>
+v∈A</sub> <i>N (v)</i>.
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 3: 
+                    </summary>
+                        <p>
+                       The<i> degree of a vertex in an undirected graph</i>
+                        is the number of edges incident with it, except
+that a loop at a vertex contributes 
+twice to the degree of that vertex. The degree of the
+vertex v is denoted by deg(v).
+                        </p>
+
+                    </details>
+
+
+                    <details>
+                    <summary class="sum3">
+                       Theorem 1: 
+                    </summary>
+                        <p>
+                        <b> The Handshaking Theorem.</b>
+
+                       Let G = (V , E) be an undirected graph with m
+edges. Then<br>
+2m = <sup><b>&sum;</b></sup><sub><sub> v∈V</sub></sub> deg(v).<br>
+(Note that this applies even if multiple edges and loops are present.)
+
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Theorem 2: 
+                    </summary>
+                        <p>
+                        An undirected graph has an even number
+                         of vertices of odd degree.
+
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 4: 
+                    </summary>
+                        <p>
+                       When (u, v) is an edge of the 
+                       graph G with directed edges,
+                        u is said to be<i> adjacent</i> to v and v
+is said to be<i> adjacent</i> from u.
+ The vertex u is called the <i>initial vertex of (u, v)</i>,
+  and v is called
+the <i>terminal or end vertex of (u, v)</i>.
+ The initial vertex and terminal vertex of a loop are the
+same.
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 5: 
+                    </summary>
+                        <p>
+                       In a graph with directed edges the
+                        <i>in-degree of a vertex v</i>, 
+                        denoted by deg<sup>−</sup>(v), is the number
+of edges with v as their terminal vertex.
+ The <i>out-degree of v</i>, 
+ denoted by deg<sup>+</sup>(v), is the
+number of edges with v as their initial vertex.<br>
+ (Note that a loop at a vertex contributes 1 to
+both the in-degree and the out-degree of this vertex.)
+                        </p>
+
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Theorem 3: 
+                    </summary>
+                        <p>
+                
+Let G = (V , E) be a graph with directed edges. Then<br>
+
+<b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>−</sup>(v) = <b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>+</sup>(v) = |E|
+
+                        </p>
+
+                    </details>
                 </details>
+
+                <details>
+                    <summary class="sum2">
+                       Some Special Simple Graphs 
+                    </summary>
+                </details>
+
+                
 
                 <details>
                     <summary class="sum2">
