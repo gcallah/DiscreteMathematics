@@ -320,15 +320,67 @@ Let G = (V , E) be a graph with directed edges. Then<br>
                     <summary class="sum2">
                        Some Special Simple Graphs 
                     </summary>
-                </details>
 
+                    <details>
+                    <summary class="sum3">
+                        Complete Graphs
+                    </summary>    
+                    <p>
+                    <b>A complete graph on n vertices</b>,
+                     denoted by K<sub>n</sub>, is a simple graph
+that contains exactly one edge between
+ each pair of distinct vertices.<br>
+ A simple graph for which there is at least one
+pair of distinct vertex not connected
+ by an edge is called <b>noncomplete</b>.
+</p>
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                        Cycles
+                    </summary>    
+                    <p>
+                    <b>A cycle C<sub>n</sub></b>, n ≥ 3, 
+                    consists of n vertices v<sub>1</sub>, 
+                    v<sub>2</sub>,..., v<sub>n</sub> and 
+                    edges {v<sub>1</sub>, v2},
+{v<sub>2</sub>, v<sub>3</sub>},...,{v<sub>n-1</sub>,
+ v<sub>n</sub>}, and {v<sub>n</sub>, v<sub>1</sub>}. 
+</p>
+                    </details>
+
+
+                    <details>
+                    <summary class="sum3">
+                        Wheels
+                    </summary>    
+                    <p>
+                     We obtain a <b>wheel W<sub>n</sub></b>
+                      when we add an additional vertex
+                       to a cycle C<sub>n</sub>, for n ≥ 3,
+and connect this new vertex to each of the 
+n vertices in C<sub>n</sub>, by new edges.
+                    </p>
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                        n-Cubes
+                    </summary>    
+                    <p>
+                     An <b>n-dimensional hypercube</b>, or <b>n-cube</b>, 
+                     denoted by Q<sub>n</sub>, is a graph that has vertices
+representing the 2<sup>n</sup> bit strings of length n.
+ Two vertices are adjacent if and only if the bit strings
+that they represent differ in exactly one bit position.
+                    </p>
+                    </details>
                 
 
-                <details>
-                    <summary class="sum2">
-                       Some Special Simple Graphs 
-                    </summary>
                 </details>
+
+            
 
                 <details>
                     <summary class="sum2">
