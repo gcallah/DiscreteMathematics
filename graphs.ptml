@@ -324,7 +324,17 @@ Let G = (V , E) be a graph with directed edges. Then<br>
                     <details>
                     <summary class="sum3">
                         Complete Graphs
-                    </summary>    
+                    </summary>  
+
+                    <figure>
+                        <img
+                        src="https://en.wikipedia.org/wiki/File:5-simplex_graph.svg"
+                        height="300" width="400">
+                        <figcaption>
+                            A Complete Graph
+                        </figcaption>
+                    </figure>
+
                     <p>
                     <b>A complete graph on n vertices</b>,
                      denoted by K<sub>n</sub>, is a simple graph
@@ -339,8 +349,17 @@ pair of distinct vertex not connected
                     <details>
                     <summary class="sum3">
                         Cycles
-                    </summary>    
-                    <p>
+                    </summary> 
+                    <figure>
+                        <img
+                        src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwj3yYOjwefXAhUSRN8KHRzYAdUQjRwIBw&url=http%3A%2F%2Fqa.geeksforgeeks.org%2F7461%2Fqa.geeksforgeeks.org%2F7461%2Fanyone-please-explain-about-graph-theory-especially-graphs&psig=AOvVaw2RCyPFtMT4dljqcsuBh7jz&ust=1512172927632228"
+                        height="300" width="400">
+                        <figcaption>
+                            A Complete Graph
+                        </figcaption>
+                    </figure>
+
+                   <p>
                     <b>A cycle C<sub>n</sub></b>, n ≥ 3, 
                     consists of n vertices v<sub>1</sub>, 
                     v<sub>2</sub>,..., v<sub>n</sub> and 
@@ -354,7 +373,17 @@ pair of distinct vertex not connected
                     <details>
                     <summary class="sum3">
                         Wheels
-                    </summary>    
+                    </summary>   
+                   
+                    <figure>
+                        <img
+                        src="https://en.wikipedia.org/wiki/File:CyclesW4.svg"
+                        height="300" width="400">
+                        <figcaption>
+                            A Complete Graph
+                        </figcaption>
+                    </figure>
+
                     <p>
                      We obtain a <b>wheel W<sub>n</sub></b>
                       when we add an additional vertex
@@ -367,7 +396,16 @@ n vertices in C<sub>n</sub>, by new edges.
                     <details>
                     <summary class="sum3">
                         n-Cubes
-                    </summary>    
+                    </summary>  
+                    <figure>
+                        <img
+                        src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwifmPSdwufXAhWFhOAKHUQzBDwQjRwIBw&url=https%3A%2F%2Fwww.computer.org%2Fcsdl%2Ftrans%2Ftc%2F2000%2F02%2Ft0160.html&psig=AOvVaw0LDaA89IpLu1jpwZZUixol&ust=1512173184228295"
+                        height="300" width="400">
+                        <figcaption>
+                            A Complete Graph
+                        </figcaption>
+                    </figure>
+
                     <p>
                      An <b>n-dimensional hypercube</b>, or <b>n-cube</b>, 
                      denoted by Q<sub>n</sub>, is a graph that has vertices
