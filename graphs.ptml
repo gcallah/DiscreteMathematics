@@ -424,12 +424,59 @@ that they represent differ in exactly one bit position.
                     <summary class="sum2">
                        Bipartite Graphs 
                     </summary>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 6: 
+                    </summary>
+                        <p>
+                    A simple graph G is called <i>bipartite</i> if 
+                    its vertex set V can be partitioned into two disjoint
+sets V1 and V2 such that every edge in the graph
+ connects a vertex in V1 and a vertex in V2
+(so that no edge in G connects either two vertices
+ in V1 or two vertices in V2). When this
+condition holds, we call the pair (V1, V2) 
+a <i>bipartition </i>of the vertex set V of G.
+
+                        </p>
+                    </details>    
+
+
+                    <details>
+                    <summary class="sum3">
+                       Theorem 4: 
+                    </summary>
+                        <p>
+                        A simple graph is bipartite if and only if it is 
+                        possible to assign one of two different colors to
+each vertex of the graph so that no two 
+adjacent vertices are assigned the same color.
+                        </p>
+                    </details>    
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                        Bipartite Graphs and Matchings
                     </summary>
+
+                    <details>
+                    <summary class="sum3">
+                       Theorem 5: 
+                    </summary>
+                        <p>
+                        <b>HALL’S MARRIAGE THEOREM</b> <br>
+                        The bipartite graph G = (V , E) with bipartition
+(V<sub>1</sub>, V<sub>2</sub>) has a complete matching from
+ V<sub>1</sub> to V<sub>2</sub> if and only if
+  |N (A)| &ge; |A| for all subsets
+A of V<sub>2</sub>.
+                        </p>
+                    </details>
+
+
                 </details>
 
                 <details>
@@ -455,7 +502,58 @@ that they represent differ in exactly one bit position.
                         </figcaption>
                     </figure>
                 </details>
+            
+
+            <details>
+                    <summary class="sum2">
+                       New Graphs from Old
+                    </summary>
+                     
+                    <details>
+                    <summary class="sum3">
+                       Definition 7:
+                    </summary>
+                     <p>
+                     A <i>subgraph of a graph G = (V , E)</i> 
+                     is a graph H = (W, F ), where W &sube; V and F &sube; E. A
+subgraph <i>H of G is a proper
+ subgraph of G if H &ne; G</i>.
+                     </p>
+
+                     
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 8:
+                    </summary>
+                     <p>
+                     Let G = (V , E) be a simple graph.
+                      The <i>subgraph induced </i>by a subset W of the vertex set V
+is the graph <i>(W, F )</i>, where the edge set F 
+contains an edge in E if and only if both endpoints
+of this edge are in W.
+                     </p>
+
+                     
+                    </details>
+
+                    <details>
+                    <summary class="sum3">
+                       Definition 9:
+                    </summary>
+                     <p>
+                     The <i>union</i> of two simple graphs
+                      <i>G1 = (V1, E1) and G2 = (V2, E2)</i> is the simple graph with
+vertex set <i>V1 &cup; V2</i> and edge set <i>E1 &cup; E2</i>. 
+The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
+                     </p>
+
+                     
+                    </details>
+
             </details>
+        </details>
 
             <details>
                 <summary class="sum1">
