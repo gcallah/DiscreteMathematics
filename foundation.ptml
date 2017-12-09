@@ -57,18 +57,169 @@
                     <summary class="sum2">
                         Introduction
                     </summary>
+
+                    <p>
+                        A use of nested quantifiers:
+                        <br />
+                        &forall;<i>x</i>&exist;<i>y</i>(<i>x</i> 
+                        + <i>y</i>) = 0
+                        <br />
+                        How to read this? "For any number, there is another
+                        number so that the first number plus the
+                        second equals zero."
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
-                        Understanding Statements Involving Nested Quantifiers
+                        Understanding Statements Involving
+                        Nested Quantifiers
                     </summary>
+
+                    <p>
+                        Let's try a few!
+                        <br />
+                        The commutative law for addition:
+                        <br />
+                        &forall;<i>x</i>&forall;<i>y</i>(<i>x</i> +
+                        <i>y</i> = <i>y</i> + <i>x</i>)
+                        <br />
+                        The associative law for addition:
+                        <br />
+                        &forall;<i>x</i>&forall;<i>y</i>&forall;<i>z</i>
+                        (<i>x</i> + (<i>y</i> + <i>z</i>) =
+                        (<i>x</i> + <i>y</i>) + <i>z</i>)
+                        <br />
+                        One more, on your own:
+                        <br />
+                        &forall;<i>x</i>&forall;<i>y</i>((<i>x</i> &gt; 0)
+                        &and; (<i>y</i> &lt; 0) &rarr;
+                        (<i>x</i><i>y</i> &lt; 0))
+                    </p>
+
+                    <h4>
+                        The Loop View
+                    </h4>
+
+                    <p>
+                        Quantifications can be thought of as loops, e.g.:
+                        <br />
+                        &forall;<i>x</i>&forall;<i>y</i><i>P</i>(<i>x</i>,
+                        <i>y</i>)
+                        <br />
+                        can be thought of as:
+                    </p>
+
+                    <p>
+                    <code>
+                        <pre>
+                        for x in (domain of x)
+                            for y in (domain of y)
+                                if P(x, y) == False
+                                    return False
+                        return True
+                        </pre>
+                    </code>
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         The Order of Quantifiers
                     </summary>
+
+                    <p>
+                        Order matters when quantifiers are mixed.
+                    </p>
+
+                    <table>
+                        <tr>
+                            <th class="table-head" colspan="3">
+                                Quantifications of Two Variables
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i>Statement</i>
+                            </th>
+                            <th>
+                                <i>When True?</i>
+                            </th>
+                            <th>
+                                <i>When False?</i>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                &forall;<i>x</i>&forall;<i>y</i><i>P</i>(<i>x</i>,
+                                <i>y</i>)
+                                <br />
+                                &forall;<i>y</i>&forall;<i>x</i><i>P</i>(<i>x</i>,
+                                <i>y</i>)
+                            </td>
+                            <td>
+                                <i>P</i>(<i>x</i>, <i>y</i>) is true
+                                for every pair <i>x</i>, <i>y</i>.
+                            </td>
+                            <td>
+                                There is a pair <i>x</i>, <i>y</i> for 
+                                which <i>P</i>(<i>x</i>, <i>y</i>)
+                                is false.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &forall;<i>x</i>&exist;<i>y</i><i>P</i>(<i>x</i>,
+                                <i>y</i>)
+                            </td>
+                            <td>
+                                For every <i>x</i> there is a <i>y</i> 
+                                for which <i>P</i>(<i>x</i>, <i>y</i>)
+                                is true.
+                            </td>
+                            <td>
+                                There is an <i>x</i> such that
+                                <i>P</i>(<i>x</i>, <i>y</i>)
+                                is false for every <i>y</i>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &exist;<i>x</i>&forall;<i>y</i><i>P</i>(<i>x</i>,
+                                <i>y</i>)
+                            </td>
+                            <td>
+                                There is an <i>x</i> for which
+                                <i>P</i>(<i>x</i>, <i>y</i>)
+                                is true for every <i>y</i>.
+                            </td>
+                            <td>
+                                For every <i>x</i> there is a
+                                <i>y</i> for which
+                                <i>P</i>(<i>x</i>, <i>y</i>)
+                                is false.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &exist;<i>x</i>&exist;<i>y</i><i>P</i>(<i>x</i>,
+                                <i>y</i>)
+                            </td>
+                            <td>
+                                There is a pair <i>x</i>, <i>y</i> 
+                                for which <i>P</i>(<i>x</i>, <i>y</i>)
+                                is true.
+                            </td>
+                            <td>
+                                <i>P</i>(<i>x</i>, <i>y</i>)
+                                is false for every
+                                pair <i>x</i>, <i>y</i>.
+                            </td>
+                        </tr>
+                    </table>
+
                 </details>
 
                 <details>
@@ -86,11 +237,14 @@
 
                 <details>
                     <summary class="sum2">
+                        Translating English Sentences into
+                        Logical Expressions
                     </summary>
                 </details>
 
                 <details>
                     <summary class="sum2">
+                        Negating Nested Quantifiers
                     </summary>
                 </details>
 
