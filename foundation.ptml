@@ -328,6 +328,9 @@
                         <br />
                         <b>Valid</b>: The conclusion of the argument must be
                         true if each premise is true.
+                        <br />
+                        <b>Fallacy</b>: An invalid argument. Certain fallacies
+                        are common.
                     </p>
 
                 </details>
@@ -336,6 +339,27 @@
                     <summary class="sum2">
                         Valid Arguments in Propositional Logic
                     </summary>
+
+                    <p>
+                        "If you have a current password, then you can log onto
+                        the network."
+                        <br />
+                        "You have a current password."
+                        <br />
+                        Therefore...
+                        <br />
+                        "You can log onto the network."
+                        <br />
+                        In formal terms:
+                        <br />
+                        <i>p</i> &rarr; <i>q</i>
+                        <br />
+                        <i>p</i>
+                        <br />
+                        &there4;<i>q</i>
+                    </p>
+
+
                 </details>
 
                 <details>
