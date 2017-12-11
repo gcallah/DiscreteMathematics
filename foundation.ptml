@@ -538,18 +538,136 @@
                     <summary class="sum2">
                         Using Rules of Inference to Build Arguments
                     </summary>
+
+                    <p>
+                    "It is not sunny this afternoon and 
+                    it is colder than yesterday."
+                    <br />
+                    "We will go swimming only if it is sunny."
+                    <br />
+                    "If we do not go swimming, we will take a canoe trip."
+                    <br />
+                    "If we take a canoe trip, then we 
+                    will be home by sunset."
+                    <br />
+                    When will we be home?
+                    </p>
+
+                    <table>
+                        <tr>
+                            <th>
+                                Step
+                            </th>
+                            <th>
+                                Reason
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                1. &not;<i>p</i> &and; <i>q</i>
+                            </td>
+                            <td>
+                                Premise
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                2. &not;<i>p</i>
+                            </td>
+                            <td>
+                                Simplification
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                3. <i>r</i> &rarr; <i>p</i>
+                            </td>
+                            <td>
+                                Premise
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                4. &not;<i>r</i>
+                            </td>
+                            <td>
+                                Modus tollens using (2) and (3)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                5. &not;<i>r</i> &rarr; <i>s</i>
+                            </td>
+                            <td>
+                                Premise
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                6. <i>s</i>
+                            </td>
+                            <td>
+                                Modus ponens using (4) and (5)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                7. <i>s</i> &rarr; <i>t</i>
+                            </td>
+                            <td>
+                                Premise
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                8. <i>t</i>
+                            </td>
+                            <td>
+                                Modus ponens using (6) and (7)
+                            </td>
+                        </tr>
+                    </table>
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Resolution
                     </summary>
+
+                    <p>
+                        The logical form:
+                        <br />
+                        ((<i>p</i> &or; <i>q</i>)
+                        &and; (&not;<i>p</i> &or; <i>r</i>))
+                        &rarr; (<i>q</i> &or; <i>r</i>)
+                        <br />
+                        "If you study hard, you will get an A."
+                        <br />
+                        "If you don't study hard, you will
+                        watch lots of movies."
+                        <br />
+                        "You will study hard or watch lots of movies."
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Fallacies
                     </summary>
+
+                    <p>
+                        An example -- <b>fallacy of affirming the
+                        conclusion</b>:
+                        <br />
+                        "If you buy Professor Callahan many nice
+                        Christmas presents, you will get an A."
+                        <br />
+                        "You got an A."
+                        <br />
+                        "Therefore you bought Professor Callahan
+                        many nice Christmas presents."
+                    </p>
                 </details>
 
                 <details>

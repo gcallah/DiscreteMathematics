@@ -30,6 +30,10 @@ td {
     background: #fff;
 }
 
+td.left {
+    text-align: left;
+}
+
 p {
     margin: .4em 1.5em .4em 1.5em;
     font-size: 1.4em;
