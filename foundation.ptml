@@ -406,9 +406,9 @@
                         </tr>
                         <tr>
                             <td>
-                                <i>p</i> &rarr; <i>q</i>
-                                <br />
                                 <i>p</i>
+                                <br />
+                                <i>p</i> &rarr; <i>q</i>
                                 <br />
                                 &there4;<i>q</i>
                             </td>
@@ -455,10 +455,16 @@
                         </tr>
                         <tr>
                             <td>
-
+                                <i>p</i> &or; <i>q</i>
+                                <br />
+                                &not;<i>p</i>
+                                <br />
+                                &there4;<i>q</i>
                             </td>
                             <td>
-
+                                ((<i>p</i> &or; <i>q</i>)
+                                &and; &not; <i>p</i>)
+                                &rarr; <i>q</i>
                             </td>
                             <td>
                                 Disjunctive syllogism
@@ -466,10 +472,12 @@
                         </tr>
                         <tr>
                             <td>
-
+                                <i>p</i>
+                                <br />
+                                &there4;<i>p</i> &or; <i>q</i>
                             </td>
                             <td>
-
+                                <i>p</i> &rarr; (<i>p</i> &or; <i>q</i>)
                             </td>
                             <td>
                                 Addition
@@ -477,10 +485,13 @@
                         </tr>
                         <tr>
                             <td>
-
+                                <i>p</i> &and; <i>q</i>
+                                <br />
+                                &there4;<i>p</i>
                             </td>
                             <td>
-
+                                (<i>p</i> &and; <i>q</i>)
+                                &rarr; <i>p</i>
                             </td>
                             <td>
                                 Simplification
@@ -488,10 +499,16 @@
                         </tr>
                         <tr>
                             <td>
-
+                                <i>p</i>
+                                <br />
+                                <i>q</i>
+                                <br />
+                                &there4;<i>p</i> &and; <i>q</i>
                             </td>
                             <td>
-
+                                ((<i>p</i>) &and; (<i>q</i>))
+                                &rarr;
+                                (<i>p</i> &and; <i>q</i>)
                             </td>
                             <td>
                                 Conjunction
@@ -499,9 +516,16 @@
                         </tr>
                         <tr>
                             <td>
-
+                                <i>p</i> &or; <i>q</i>
+                                <br />
+                                &not;<i>p</i> &or; <i>r</i>
+                                <br />
+                                &there4;<i>q</i> &or; <i>r</i> 
                             </td>
                             <td>
+                                ((<i>p</i> &or; <i>q</i>)
+                                &and; (&not;<i>p</i> &or; <i>r</i>))
+                                &rarr; (<i>q</i> &or; <i>r</i>)
                             </td>
                             <td>
                                 Resolution
