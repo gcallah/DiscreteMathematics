@@ -229,7 +229,7 @@
                     </summary>
 
                     <p>
-                        The sum of two positive integers is always positive.
+                        The sum of two positive reals is always positive.
                         <br />
                         &forall;<i>x</i>&forall;<i>y</i>((<i>x</i> &gt; 0
                         &and; <i>y</i> &gt; 0) &rarr;
@@ -253,8 +253,8 @@
 
                     <p>
                         &forall;<i>x</i>(<i>C</i>(<i>x</i>) &or;
-                        &exist;<i>y</i>(<i>C</i>(<i>y</i> &and;
-                        <i>F</i>(<i>x</i>, <i>y</i>)
+                        &exist;<i>y</i>(<i>C</i>(<i>y</i>) &and;
+                        <i>F</i>(<i>x</i>, <i>y</i>))
                         <br />
                         <i>C</i>(<i>x</i>) means "<i>x</i> has a computer
                         and <i>F</i>(<i>x</i>, <i>y</i>) means
