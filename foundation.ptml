@@ -1021,10 +1021,43 @@
                     </summary>
 
                     <p>
-                    Suppose we want to prove that a statement <i>p</i> is true.
+                    Suppose we want to prove that a statement
+                    <i>p</i> is true.
                     <br />
-                         Because a proof by contradiction does not prove a result
-                         directly, it is another type of indirect proof.
+                    Because a proof by contradiction does not
+                    prove a result directly, it is another
+                    type of indirect proof.
+                    </p>
+
+                    <p>
+                        <b>Example</b>: Prove that 2<sup>1/2</sup> is 
+                        irrational.
+                        <br />
+                        Suppose to the contrary that it is rational.
+                        Then there must be some lowest terms,
+                        call them <i>a</i> and <i>b</i> so that
+                        the square root of two is equal to
+                        <i>a</i>/<i>b</i>. Squaring both sides, we get:
+                        <br />
+                        2 = <i>a</i><sup>2</sup>/<i>b</i><sup>2</sup> 
+                        <br />
+                        2<i>b</i><sup>2</sup> = <i>a</i><sup>2</sup> 
+                        <br />
+                        So <i>a</i> must be even.
+                        <br />
+                        So for some <i>c</i>, <i>a</i> =
+                        2<i>c</i>. Then:
+                        <br />
+                        <i>a</i><sup>2</sup> = 4<i>c</i><sup>2</sup> 
+                        <br />
+                        So:
+                        <br />
+                        <i>b</i><sup>2</sup> = 2<i>c</i><sup>2</sup> 
+                        <br />
+                        So <i>b</i> is even as well!
+                        <br />
+                        But <i>a</i>/<i>b</i> was supposed to
+                        be a proper fraction. This is a contradiction.
                     </p>
 
                 </details>
