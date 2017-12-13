@@ -109,8 +109,8 @@
                         choice of <i>m</i>).
                         <br>
                         Hence, <i>P(n)</i> must be true
-                        for every positive integer <i>n</i>.	
-                	</p>
+                        for every positive integer <i>n</i>.    
+                    </p>
                 </details>
 
                 <details>
@@ -140,7 +140,7 @@
                 </details>
 
                 <details>
-                	<summary class="sum2">
+                    <summary class="sum2">
                          Examples of Proofs by Mathematical Induction
                      </summary>
                      <details>
@@ -289,7 +289,8 @@
                             BASIS STEP:
                         </p>
                         <p>
-                            <i>P</i>(1) is true, because 1 < 2<sup>1</sup> = 2.
+                            <i>P</i>(1) is true, because 1 &lt; 
+                            2<sup>1</sup> = 2.
                             This completes the basis step.
                         </p>
                         <p class="def">
@@ -300,22 +301,29 @@
                             that <i>P(k)</i> is true for an arbitrary
                             positive integer <i>k</i>. That is,
                             the inductive hypothesis <i>P(k)</i> is
-                            the statement that <i>k</i> < 2<sup><i>k</i></sup>.
+                            the statement that <i>k</i> &lt; 
+                            2<sup><i>k</i></sup>.
                             <br>
                             We need to show that if <i>P(k)</i> is true,
                             then <i>P(k + 1)</i>, which is the statement
-                            that <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>, is true.
+                            that <i>k</i> + 1 &lt;
+                            2<sup><i>k</i>+1</sup>, is true.
                             That is, we need to show that if
-                            <i>k</i> < 2<sup><i>k</i></sup>,
-                            then <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>.
+                            <i>k</i> &lt; 2<sup><i>k</i></sup>,
+                            then <i>k</i> + 1 &lt; 
+                            2<sup><i>k</i>+1</sup>.
                             <br> <i>k</i> + 1 = 2<sup><i>k</i> +
                             1</sup> &le; 2<sup><i>k</i></sup>
-                            + 2<sup><i>k</i></sup> = 2 . 2<sup><i>k</i></sup>
+                            + 2<sup><i>k</i></sup> = 2 .
+                            2<sup><i>k</i></sup>
                             = 2<sup><i>k</i></sup> + 1.
                             <br>
-                            This shows that <i>P(k</i> + 1) is true, namely,
-                            that <i>k</i> + 1 < 2<sup><i>k</i>+1</sup>,
-                            based on the assumption that <i>P(k)</i> is true.
+                            This shows that <i>P(k</i> + 1)
+                            is true, namely,
+                            that <i>k</i> + 1 &lt;
+                            2<sup><i>k</i>+1</sup>,
+                            based on the assumption that <i>P</i>(<i>k</i>)
+                            is true.
                             </p>
                         </details>
 
@@ -429,23 +437,23 @@
                             subsets whenever <i>n</i> is a
                             nonnegative integer.
                         </p>
-               	    </details>
+                       </details>
 
-                    <details>
-               		    <summary class="sum3">
-               				Proving Results about Algorithms
-               		    </summary>
-               		    <p>
-               		    	Not covered for Fall 2017
-               		    </p>
-                	</details>                        
+                       <details>
+                           <summary class="sum3">
+                            Proving Results about Algorithms
+                           </summary>
+                           <p>
+                               Not covered for Fall 2017
+                           </p>
+                    </details>                        
                 </details>
                 <details>
                     <summary class="sum2">
                         Mistaken Proofs by Mathematical Induction
                     </summary>
                     <p>
-                    	Not covered for Fall 2017
+                        Not covered for Fall 2017
                     </p>
                 </details>
 
@@ -455,58 +463,61 @@
                  </summary>
                  <p>
                     <b><i>Template for Proofs by Mathematical Induction</i></b>
-                    <ol>
-                        <li>
-                           Express the statement that is to be proved in the 
-                           form "for all <i>n &ge; b, P(n)</i>" 
-                           for a fixed integer b.
-                        </li>
-                        <li>
-                           Write out the words "Basis Step." Then show that
-                           <i>P(b</i>) is true, taking care that the correct value 
-                           of <i>b</i> is used. This completes the first part of 
-                           the proof.
-                        </li>
-                        <li>
-                           Write out the words "Inductive Step."
-                        </li>
-                        <li>
-                           State, and clearly identify, 
-                           the inductive hypothesis, 
-                           in the form "assume that <i>P(k)</i> is true
-                           for an arbitrary fixed integer <i>k &ge; b</i>."
-                        </li>
-                       <li>
-                           State what needs to be proved under the 
-                           assumption that the inductive hypothesis is true.
-                           That is, write out what <i>P(k + 1)</i> says.
-                       </li>
-                       <li>
-                           Prove the statement <i>P(k + 1)</i> making use the 
-                           assumption <i>P(k)</i>. Be sure that your proof
-                           is valid for all integers <i>k</i> with <i>k &ge; b</i>, 
-                           taking care that the proof works for small values
-                           of <i>k</i>, including <i>k = b</i>.
-                       </li>
-                       <li>
-                           Clearly identify the conclusion of the inductive 
-                           step, such as by saying "this completes
-                           the inductive step."
-                       </li>
-                       <li>
-                           After completing the basis step and the inductive 
-                           step, state the conclusion, namely that
-                           by mathematical induction, <i>P(n)</i> is true for 
-                           all integers <i>n</i> with <i>n &ge; b</i>.
-                       </li>
-                   </ol>
-               </p>
+                 </p>
+                 <ol class="nested">
+                     <li>
+                        Express the statement that is to be
+                        proved in the 
+                        form "for all <i>n</i> &ge;
+                        <i>b</i>, <i>P</i>(<i>n</i>)" 
+                        for a fixed integer b.
+                     </li>
+                     <li>
+                        Write out the words "Basis Step." Then show that
+                        <i>P</i>(<i>b</i>) is true, taking care
+                        that the correct value 
+                        of <i>b</i> is used. This completes
+                        the first part of the proof.
+                     </li>
+                     <li>
+                        Write out the words "Inductive Step."
+                     </li>
+                     <li>
+                        State, and clearly identify, 
+                        the inductive hypothesis, 
+                        in the form "assume that <i>P(k)</i> is true
+                        for an arbitrary fixed integer <i>k &ge; b</i>."
+                     </li>
+                    <li>
+                        State what needs to be proved under the 
+                        assumption that the inductive hypothesis is true.
+                        That is, write out what <i>P(k + 1)</i> says.
+                    </li>
+                    <li>
+                        Prove the statement <i>P(k + 1)</i> making use the 
+                        assumption <i>P(k)</i>. Be sure that your proof
+                        is valid for all integers <i>k</i> with <i>k &ge; b</i>, 
+                        taking care that the proof works for small values
+                        of <i>k</i>, including <i>k = b</i>.
+                    </li>
+                    <li>
+                        Clearly identify the conclusion of the inductive 
+                        step, such as by saying "this completes
+                        the inductive step."
+                    </li>
+                    <li>
+                        After completing the basis step and the inductive 
+                        step, state the conclusion, namely that
+                        by mathematical induction, <i>P(n)</i> is true for 
+                        all integers <i>n</i> with <i>n &ge; b</i>.
+                    </li>
+                </ol>
                 </details>
             </details>
 
             <details>
                 <summary class="sum1">
-                	Strong Induction and Well-Ordering
+                    Strong Induction and Well-Ordering
                 </summary>
                 <h4>
                     Strong Induction
@@ -569,7 +580,7 @@
                         that <i>P(k</i> + 1) is true. Otherwise, 
                         <i>k</i> + 1 is composite and
                         can be written as the product of two 
-                        positive integers <i>a</i>i> and <i>b</i> with 
+                        positive integers <i>a</i> and <i>b</i> with 
                         2 &le; <i>a</i> &le; <i>b</i> <i>k</i> + 1. 
                         <br>
                         Because both <i>a</i> and <i>b</i> are integers at 
@@ -595,7 +606,7 @@
                         Not Covered Fall 2017
                     </summary>
                     <p>
-                    	Not covered for Fall 2017
+                        Not covered for Fall 2017
                     </p>
                 </details>
 
@@ -606,7 +617,7 @@
                         Not Covered Fall 2017
                     </summary>
                     <p>
-                    	Not covered for Fall 2017
+                        Not covered for Fall 2017
                     </p>
                 </details>
             </details>
@@ -645,9 +656,9 @@
                     </p>
                     <p>
                         Give a rule for finding its
-                    	value at an integer from its
-                    	values at smaller integers.
-                    	<br>
+                        value at an integer from its
+                        values at smaller integers.
+                        <br>
                         <details>
                             <summary class="sum3">
                                 Example
@@ -728,7 +739,7 @@
                     </details>
                     <details>
                         <summary class="sum3">
-                        	DEFINITION 2
+                            DEFINITION 2
                         </summary>
                         <p>
                             Two strings can be combined via
@@ -879,9 +890,9 @@
                         </figure>
                     </details>
     
-                    <details>	
+                    <details>    
                         <summary class="sum3">
-                        	DEFINITION 5
+                            DEFINITION 5
                         </summary>
                         <p>
                             The set of
@@ -893,7 +904,7 @@
                             by these steps:
                         </p>
                         <p class="def">
-                    	   BASIC STEP: 
+                           BASIC STEP: 
                         </p>
                         <p>
                             There is a full binary tree 
@@ -926,7 +937,7 @@
                 </summary>
                 <details>
                     <summary class="sum3">
-                    	DEFINITION 6
+                        DEFINITION 6
                     </summary>
                     <p>
                         We define the height <i>h(T</i>) 
@@ -945,7 +956,7 @@
                         RECURSIVE STEP:
                     </p>
                     <p>
-                    	If <i>T</i><sub>1</sub> and
+                        If <i>T</i><sub>1</sub> and
                       <i>T</i><sub>2</sub> are full 
                       binary trees, then the 
                       full binary tree <i>v</i> = 
@@ -1002,11 +1013,12 @@
                     <summary class="sum3">
                         Example 3
                     </summary>
-                    <p>	
+                    <p>    
                         Give a recursive algorithm 
                         for computing the greatest 
                         common divisor of two nonnegative
-                        integers a and b with <i>a</i> < <i>b</i>.
+                        integers <i>a</i> and <i>b</i> with <i>a</i> &lt; 
+                        <i>b</i>.
                     </p>
                     <figure>
                         <img src ="graphics/recursiveEX3.svg.png">
@@ -1016,13 +1028,13 @@
                     <summary class="sum3">
                         Example 4
                     </summary>
-                    <p>	
+                    <p>    
                      Devise a recursive algorithm for 
                      computing <i>bn</i> mod <i>m</i>, 
                      where <i>b</i>, 
                      <i>n</i>, and m are integers with
                      <i>m</i> &le; 2, <i>n </i>&ge; 0, 
-                     and 1 &le; <i>b</i> < <i>m</i>.
+                     and 1 &le; <i>b</i> &lt; <i>m</i>.
                  </p>
                 <figure>
                     <img src ="graphics/recursiveEX4.svg.png">
@@ -1033,7 +1045,8 @@
                         Example 5
                     </summary>
                     <p>
-                        Express the linear search algorithm as a recursive procedure.
+                        Express the linear search algorithm
+                        as a recursive procedure.
                     </p>
                     <figure>
                       <img src ="graphics/recursiveEX5.svg.png">
@@ -1044,10 +1057,11 @@
                         Example 6
                     </summary>
                     <p>
-                    Construct a recursive version of a binary search algorithm.
+                    Construct a recursive version of
+                    a binary search algorithm.
                         <figure>
                             <img src ="graphics/recursiveEX6.svg.png">
-                        </figure>	
+                        </figure>    
                     </p>
                 </details>
             </details>
@@ -1116,7 +1130,7 @@
             </summary>
             <details>
                 <summary class="sum2">
-                	Program Verification
+                    Program Verification
                 </summary>
                 <p>
                     A program is said to be 
@@ -1172,29 +1186,20 @@
                     with respect to the initial
                     assertion p and the final assertion q.
                 </p>   
-                <h4>
-                    CONDITIONAL STATEMENTS
-                </h4>
-                <h4>
-                    LOOP INVARIANTS
-                </h4>
             </details>
-<<<<<<< HEAD
-            <h4>
-                CONDITIONAL STATEMENTS
-            </h4>
-            <p>
-            	Not covered for Fall 2017
-            </p>
-            
-            <h4>
-                LOOP INVARIANTS
-            </h4>
-            <p>
-            	Not covered for Fall 2017
-            </p>
-=======
->>>>>>> ea08fde2a0f7e9db2f6b371f19d8913a7d15ac8d
         </details>
+        <h4>
+            CONDITIONAL STATEMENTS
+        </h4>
+        <p>
+            Not covered for Fall 2017
+        </p>
+        
+        <h4>
+            LOOP INVARIANTS
+        </h4>
+        <p>
+            Not covered for Fall 2017
+        </p>
     </body>
 </html>
