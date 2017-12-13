@@ -877,12 +877,93 @@
                     <summary class="sum2">
                         Methods of Proving Theorems
                     </summary>
+
+                    <p>
+                        We have a whole lotta proof methods going on! Devising
+                        a proof is a <i>creative</i> activity! There is no 
+                        algorithm for infallibly arriving at a correct proof
+                        as easily as possible.
+                    </p>
+
+                    <p>
+                        In this section, we will focus on proofs of theorems
+                        of the form:
+                        <br />
+                        &forall;<i>x</i>(<i>P</i>(<i>x</i>) &rarr;
+                        <i>Q</i>(<i>x</i>))
+                        <br />
+                        We will want to show that:
+                        <br />
+                        <i>P</i>(<i>c</i>) &rarr; <i>Q</i>(<i>c</i>)
+                        <br />
+                        is true for any arbitrary <i>c</i>.
+                        This is a conditional statement.
+                        So we will 
+                        focus on methods that show that if <i>p</i> is
+                        true, <i>q</i> is true.
+                    </p>
+
+                    <p>
+                        We want to avoid to many uses of "obviously"
+                        and "clearly" -- story about Hardy!
+                        <br />
+                        Nevertheless, we can't always make every single step 
+                        explicit: the proofs would get way too long.
+                    </p>
+
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Direct Proofs
                     </summary>
+
+                    <p>
+                        A <b>direct proof</b> of a conditional statement
+                        <i>p</i> &rarr; <i>q</i> assumes <i>p</i> 
+                        is true, then takes steps to show that if
+                        <i>p</i> is true, then <i>q</i> must also be true.
+                    </p>
+
+                    <p class="def">
+                       Definition 1 
+                    </p>
+
+                    <p>
+                        The integer <i>n</i> is <i>even</i> if there
+                        exists an integer <i>k</i> such that <i>n</i> =
+                        2<i>k</i>, and <i>n</i> is <i>odd</i> if there
+                        exists an integer <i>k</i> such that 
+                        <i>n</i> = 2<i>k</i> + 1.
+                    </p>
+
+                    <p>
+                        To prove: "If <i>n</i> is an odd integer, then
+                        <i>n</i><sup>2</sup> is odd."
+                        <br />
+                        In symbolic logic:
+                        <br />
+                        &forall;<i>n</i>(<i>P</i>(<i>n</i>) &rarr; 
+                        <i>Q</i>(<i>n</i>))
+                        <br />
+                        <i>P</i>(<i>n</i>) means "<i>n</i> is an odd
+                        integer" and <i>Q</i>(<i>n</i>) means
+                        "<i>n</i><sup>2</sup> is odd".
+                        <br />
+                        By definition of odd, if <i>n</i> is odd,
+                        then <i>n</i> = 2<i>k</i> + 1. 
+                        <br />
+                        Then <i>n</i><sup>2</sup> =
+                        (2<i>k</i> + 1)<sup>2</sup>.
+                        <br />
+                        (2<i>k</i> + 1)<sup>2</sup> = 
+                        4<i>k</i><sup>2</sup> + 4<i>k</i> + 1 =
+                        2(2<i>k</i><sup>2</sup> + 2<i>k</i>) + 1.
+                        <br />
+                        2(2<i>k</i><sup>2</sup> + 2<i>k</i>) must be
+                        an even integer, so that + 1 must be odd.
+                    </p>
+
                 </details>
 
                 <details>
