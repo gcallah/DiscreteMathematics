@@ -1,2 +1,4 @@
 Which of the following is a proposition?#Quit while you are ahead.#Go to Paris!#^Paris is the capital of France.#What is the capital of Uruguay?
 Which of the following is a proposition?#^1 + 1 = 2#x + 1 = 2#x + y = z#7 + x = y
+The bit value for True is#0#arbitrary#^1
+A biconditional in formal logic can bbe best translated to English by#either / or#if else#if then#^if and only if
