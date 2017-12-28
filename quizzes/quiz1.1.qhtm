@@ -1,0 +1,57 @@
+    <details>
+        <summary class="sum2">
+            Quiz
+        </summary>
+        <ol>
+            <li>
+                Which of the following is a proposition?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                Quit while you are ahead.
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                Go to Paris!
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                Paris is the capital of France.
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                What is the capital of Uruguay?
+                </li>
+            </ol>
+            <li>
+                Which of the following is a proposition?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                1 + 1 = 2
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                x + 1 = 2
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                x + y = z
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                7 + x = y
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 2. a; 
+            </p>
+        </details>
+    </details>
