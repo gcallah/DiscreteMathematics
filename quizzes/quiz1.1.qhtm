@@ -45,13 +45,68 @@
                 7 + x = y
                 </li>
             </ol>
+            <li>
+                The bit value for True is
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                0
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                arbitrary
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                1
+                </li>
+            </ol>
+            <li>
+                A biconditional in formal logic can bbe best translated to English by
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                either / or
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                if else
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                if then
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                if and only if
+                </li>
+            </ol>
+            <li>
+                The difference between or and xor is that
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                p &xotime; q is false if both p and q are true whereas p &or; q is true in that case.
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                p &xotime; q is true if both p and q are true whereas p &or; q is false  in that case.
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                there is no difference.
+                </li>
+            </ol>
         </ol>
         <details>
             <summary class="sum3">
                 Answers
             </summary>
             <p>
-                1. c; 2. a; 
+                1. c; 2. a; 3. c; 4. d; 5. a; 
             </p>
         </details>
     </details>

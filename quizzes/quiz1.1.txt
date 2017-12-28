@@ -1,5 +1,5 @@
 Which of the following is a proposition?#Quit while you are ahead.#Go to Paris!#^Paris is the capital of France.#What is the capital of Uruguay?
 Which of the following is a proposition?#^1 + 1 = 2#x + 1 = 2#x + y = z#7 + x = y
 The bit value for True is#0#arbitrary#^1
-A biconditional in formal logic can bbe best translated to English by#either / or#if else#if then#^if and only if
-The difference between or and xor is that#^p &xotime; q is false if both p and q are true whereas p &or; q is true in that case.#p &xotime; q is true if both p and q are true whereas p &or; q is false  in that case.#there is no difference.
+A biconditional in formal logic can be best translated to English by#either / or#if else#if then#^if and only if
+The difference between or and xor is that#^<i>p</i> &xotime; <i>q</i> is false if both <i>p</i>and <i>q</i> are true whereas <i>p</i> &or; <i>q</i> is true in that case.#<i>p</i> &xotime; <i>q</i> is true if both <i>p</i> and <i>q</i> are true whereas <i>p</i> &or; <i>q</i> is false  in that case.#there is no difference.
