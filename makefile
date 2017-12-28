@@ -1,19 +1,24 @@
+# Need to export first two as ENV var
+export TEMPLATE_DIR = templates
+export QUIZ_DIR = quizzes
+export UTIL_DIR = ./utils
+
 HTMLFILES = $(shell ls *.ptml | sed -e 's/ptml/html/g')
-INCS = menu.txt
+INCS = $(TEMPLATE_DIR)/menu.txt
  
 %.html: %.ptml $(INCS)
-	python3 utils/html_checker.py $<
-	./utils/html_include.awk <$< >$@
+	python3 $(UTIL_DIR)/html_checker.py $<
+	$(UTIL_DIR)/html_include.awk <$< >$@
 
 website: $(HTMLFILES) $(INCS)
 	-git commit -a -m "Website rebuild."
 	git push origin master
 
-quizzes:
-	cd quizzes ; make all
+tests: $(QUIZ_DIR)
+	cd $(QUIZ_DIR) ; make all
 
 local: $(HTMLFILES)
 
 clean:
 	touch *.ptml
-	cd quizzes ; make clean
+	cd $(QUIZ_DIR) ; make clean

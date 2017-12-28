@@ -1,8 +1,8 @@
     <details>
         <summary class="sum2">
-            Quiz
+            Test Yourself!
         </summary>
-        <ol>
+        <ol class="nested">
             <li>
                 Which of the following is a proposition?
             </li>
