@@ -1,0 +1,117 @@
+﻿Homework 3: Algorithms and Induction
+
+
+1. (2 points) Consider the following function operating on natural numbers:
+f(0) = 0
+f(1) = 1
+f(2) = 3
+f(3) = 4
+If n > 3, f(n) = max(f(n - 2) + f(n -3), f(n - 1))
+What is f(7)?
+*a. 8 
+b. 7 
+c. 10 
+d. 12
+
+
+2. (2 points) What is the complexity of the program given below ? where m, n >= 1.
+
+int x=0;
+for (int i = 1; i <= m; i += c) {  
+       X = x + 2;
+}
+for (int i = 1; i <=n; i += c) {
+       x = x * 3;
+}
+a.  O(2m)
+b.  O(2n)
+*c. O(m + n)  
+d. O(m * n)
+
+
+3.  (2 points) Using the greedy algorithm to make change for 89 cents, we would wind up employing:
+a. Eight dimes, one nickel, and four pennies. 
+*b. Three quarters, one dime, and four pennies. 
+c. Three quarters, two nickels, and four pennies.
+d. Two quarters, three dimes, one nickel, four pennies
+
+
+4. (2 points) Which amount of postage can be formed using just 3-cent stamp and 10-cent stamps?
+a. 5
+b. 17
+c. 11
+*d. 19
+
+
+5. (2 points) What is the value of f(5) if f is recursively defined as following :
+f(n) = f(n - 1) + f(n - 2) + 1 where n > 1 and f(0) = f(1) = 1.
+a. 9
+*b. 15
+c. 25
+d. 5
+
+
+6. (2 points) Which is the big-O of the following code snippet:
+if (x equals 3) {
+        for (int y = 0; y < 5; y = y + 1) {
+                printf(“hello”);
+        }
+}
+*a. O(1) 
+b. O(x)
+C. O(y)
+d. O(x*y)
+
+
+7. (2 points) If the entire list is searched sequentially without locating x in linear search, the solution is ___ 
+a. 5
+b. -1
+*c. 0
+d. 1
+
+
+8. (1 points) f(x) = 1000x is O(x)
+*True
+
+
+9. (1 points) f(x) = 788 is O(x)
+*False
+
+
+10. (1 points) f(x) = 25 log (x/2) is O(x) 
+*False
+
+
+11. (1 points) Every simple polynomial has an interior diagonal.
+*True
+
+
+12. (2 points) If f is defined recursively by:
+f (0) = −1, f (1) = 2, and for n = 2, 3, ...
+f(n) = f(n - 1) / f(n - 2)
+Then f(3) =
+*a. -1
+b. 1
+c. 2
+d. -2
+
+
+13. (1 points) Consider following code snippet
+ for (int i = 0; i < x ; i++) { 
+        for(int j = 0; j < y ; j++){
+                printf(“Yes!”);
+}
+Big-O of this code is O(x + y)
+*False
+
+
+14. (1 points) (x + 1)*(3x + 4)/(2x - 5) is O(x)
+*True
+
+
+15. (4 points) Extend the book’s proof that 2^n < n! where n >= 4 to show that asymptotically x^n grows more slowly than n!
+
+
+
+
+16. (4 points) The book gave a power algorithm for powers where the power is >= 0. Extend that to handle negative, integral powers.
