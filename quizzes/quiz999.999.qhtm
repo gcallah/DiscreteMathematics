@@ -1,0 +1,28 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                What is this quiz for?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                Nothing
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                Just a demo!
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. b; 
+            </p>
+        </details>
+    </details>
