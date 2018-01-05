@@ -9,6 +9,7 @@ INCS = $(TEMPLATE_DIR)/menu.txt
 %.html: %.ptml $(INCS)
 	python3 $(UTIL_DIR)/html_checker.py $<
 	$(UTIL_DIR)/html_include.awk <$< >$@
+	git add $@
 
 website: $(HTMLFILES) $(INCS)
 	-git commit -a -m "Website rebuild."

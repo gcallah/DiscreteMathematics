@@ -29,6 +29,11 @@
                 </h2>
 
                 <h3>
+                    <a href="background.html">
+                    0. Some Background: Logs, Modulus, and More
+                    </a>
+                </h3>
+                <h3>
                     <a href="foundation.html">
                     1. The Foundation: Logic and Proofs
                     </a>
