@@ -1,5 +1,5 @@
 A statement that must <i>always</i> be true is called a#proposition#^tautology#non sequitur#implication
 A proposition that is always false is called a#futility#^contradiction#tautology#palindrome
-Which of the following is a logical equivalence?#<i>p</i> &and; <i>q</i> &equiv; <i>p</i> &and; &not;<i>q</i>#^<i>p</i> &rarr; <i>q</i> &equiv; &not;<i>p</i> &or; <i>q</i>#<i>p</i> &rarr; <i>q</i> &equiv; &not;<i>p</i> &or; <i>q</i>
+Which of the following is a logical equivalence?#<i>p</i> &and; <i>q</i> &equiv; <i>p</i> &and; &not;<i>q</i>#^<i>p</i> &rarr; <i>q</i> &equiv; &not;<i>p</i> &or; <i>q</i>#<i>p</i> &rarr; <i>q</i> &equiv; <i>p</i> &or; <i>q</i>
 A compound proposition is satisfiable if#it can never be true#^there is some combination of truth values for its variables that make it true#if all truth values for its variables that make it true#if it is satisfying to contemplate
 A portion of a circuit board that is not satisfiable is#^useless#like a not gate#energetic#crucial

@@ -25,7 +25,7 @@
         </div>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Introduction
             </summary>
             <p>
@@ -63,7 +63,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Translating English Sentences
             </summary>
             <p>
@@ -84,7 +84,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 System Specifications
             </summary>
 
@@ -111,7 +111,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Boolean Searches
             </summary>
 
@@ -128,7 +128,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Logic Puzzles
             </summary>
 
@@ -168,7 +168,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Logic Circuits
             </summary>
 

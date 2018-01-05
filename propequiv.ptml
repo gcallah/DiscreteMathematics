@@ -16,7 +16,7 @@
         </h1>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Introduction
             </summary>
 
@@ -59,7 +59,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Logical Equivalences
             </summary>
 
@@ -445,7 +445,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Using De Morgan's Laws
             </summary>
 
@@ -466,13 +466,13 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Constructing New Logical Equivalences
             </summary>
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Propositional Satisfiability        
             </summary>
 
@@ -491,7 +491,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Applications of Satisfiability        
             </summary>
             <p>
@@ -535,5 +535,8 @@
             </details>
 
         </details>
+
+<!--include quiz1.3.qhtm -->
+
     </body>
 </html>

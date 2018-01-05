@@ -1,0 +1,116 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                A statement that must <i>always</i> be true is called a
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                proposition
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                tautology
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                non sequitur
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                implication
+                </li>
+            </ol>
+            <li>
+                A proposition that is always false is called a
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                futility
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                contradiction
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                tautology
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                palindrome
+                </li>
+            </ol>
+            <li>
+                Which of the following is a logical equivalence?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                <i>p</i> &and; <i>q</i> &equiv; <i>p</i> &and; &not;<i>q</i>
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                <i>p</i> &rarr; <i>q</i> &equiv; &not;<i>p</i> &or; <i>q</i>
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                <i>p</i> &rarr; <i>q</i> &equiv; <i>p</i> &or; <i>q</i>
+                </li>
+            </ol>
+            <li>
+                A compound proposition is satisfiable if
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                it can never be true
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                there is some combination of truth values for its variables that make it true
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                if all truth values for its variables that make it true
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                if it is satisfying to contemplate
+                </li>
+            </ol>
+            <li>
+                A portion of a circuit board that is not satisfiable is
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                useless
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                like a not gate
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                energetic
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                crucial
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. b; 2. b; 3. b; 4. b; 5. a; 
+            </p>
+        </details>
+    </details>
