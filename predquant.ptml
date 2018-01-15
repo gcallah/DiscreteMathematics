@@ -16,7 +16,7 @@
         </h1>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Introduction
             </summary>
 
@@ -32,7 +32,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Predicates
             </summary>
 
@@ -52,7 +52,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Quantifiers
             </summary>
 
@@ -141,7 +141,7 @@
         </details>
 
         <details>
-            <summary class="sum1">
+            <summary class="sum2">
                 Quantifiers with Restricted Domains
             </summary>
 
@@ -163,6 +163,8 @@
             </p>
 
         </details>
+
+<!--include quiz1.4.qhtm -->
 
     </body>
 </html>

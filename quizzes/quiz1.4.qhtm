@@ -1,0 +1,49 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                To say all fire hydrants are red, where <i>R</i>(<i>x</i>) means "<i>x</i> is red," we would write:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                &exist;<i>x</i> <i>R</i>(<i>x</i>)
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                &not;&exist;<i>x</i> &not;<i>R</i>(<i>x</i>)
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                &forall;<i>x</i> <i>R</i>(<i>x</i>)
+                </li>
+            </ol>
+            <li>
+                To say that there exists a black swan, where <i>B</i>(<i>x</i>) means "<i>x</i> is black," we would write:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                &forall;<i>x</i> <i>R</i>(<i>x</i>)
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                &exist;<i>x</i> <i>B</i>(<i>x</i>)
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                &not;&exist;<i>x</i> &not;<i>R</i>(<i>x</i>)
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 2. b; 
+            </p>
+        </details>
+    </details>
