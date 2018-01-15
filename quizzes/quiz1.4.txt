@@ -1,0 +1,2 @@
+To say all fire hydrants are red, where <i>R</i>(<i>x</i>) means "<i>x</i> is red," we would write:#&exist;<i>x</i> <i>R</i>(<i>x</i>)#&not;&exist;<i>x</i> &not;<i>R</i>(<i>x</i>)#^&forall;<i>x</i> <i>R</i>(<i>x</i>)
+To say that there exists a black swan, where <i>B</i>(<i>x</i>) means "<i>x</i> is black," we would write:#&forall;<i>x</i> <i>R</i>(<i>x</i>)#^&exist;<i>x</i> <i>B</i>(<i>x</i>)#&not;&exist;<i>x</i> &not;<i>R</i>(<i>x</i>)
