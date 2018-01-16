@@ -130,12 +130,12 @@
                     <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
                     . . , <i>a<sub>n</sub></i>: distinct integers)<br>
                     <i>i := 1</i><br>
-                    <b>while</b> (<i>i</i> <= <i>n</i> 
+                    <b>while</b> (<i>i</i> &le; <i>n</i> 
                     and <i>x</i> != <i>a</i>[<i>i</i>] )<br>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     <i>i</i> = <i>i</i> + 1
                     <br>
-                    <b>if</b> <i>i</i><= <i>n</i> <b>then</b> <i>location</i> := <i>i</i><br>
+                    <b>if</b> <i>i</i>&le; <i>n</i> <b>then</b> <i>location</i> := <i>i</i><br>
                     <b>else</b> <i>location =</i> 0
                     <br>
                     <b>return</b> <i>location</i>{<i>location</i> is the subscript of 
@@ -319,7 +319,7 @@
                 there are constants <i>C</i> and 
                 <i>k</i> such that |<i>f</i>(<i>x</i>)| 
                 &le; <i>C</i>|<i>g</i>(<i>x</i>)|whenever 
-                <i>x</i> > <i>k</i>.
+                <i>x</i> &gt; <i>k</i>.
                 <br>
                 (This is read as "<i>f</i>(<i>x</i>)
                 is big-oh of <i>g</i>(<i>x</i>).")
@@ -332,8 +332,8 @@
                 that 7<i>x<sup>2</sup></i>  
                 is <i>O</i>(<i>x</i><sup>3</sup>).
                 <br>
-                When <i>x</i> > 7, 
-                7<i>x</i><sup>2</sup> < <i>x</i><sup>3</sup>.
+                When <i>x</i> &gt; 7, 
+                7<i>x</i><sup>2</sup> &lt; <i>x</i><sup>3</sup>.
                 <br>
                 Consequently, we can take 
                 <i>C</i>= 1 and <i>k</i> = 7 as
@@ -342,7 +342,7 @@
                 O(<i>x</i><sup>3</sup>).
                 <br>
                 Alternatively, when <i>x</i> 
-                > 1, we have 7<i>x</i><sup>2</sup> <
+                &gt; 1, we have 7<i>x</i><sup>2</sup> &lt;
                 7<i>x</i><sup>3</sup>, 
                 so that <i>C</i> = 7
                 and <i>k</i> = 1 are also
@@ -407,7 +407,7 @@
                 COROLLARY 1
             </p>
             <p>
-                Suppose that <i>f</i><sub>1</sub>(<i>x</i>)> and 
+                Suppose that <i>f</i><sub>1</sub>(<i>x</i>)&gt; and 
                 <i>f</i><sub>2</sub>(<i>x</i>) 
                 are both <i>O</i>(<i>g</i>(<i>x</i>)).
                 <br>
@@ -444,7 +444,7 @@
                 <i>f</i>(<i>x</i>) is <i>&#937;
                 (<i>g</i>(<i>x</i>)</i> if there are positive constants 
                 <i>C</i> and <i>k</i> such that |<i>f (x)</i>| &ge; 
-                <i>C</i>|<i>g</i>(<i>x</i>)| whenever <i>x</i> > <i>k</i>.
+                <i>C</i>|<i>g</i>(<i>x</i>)| whenever <i>x</i> &gt; <i>k</i>.
                 <br>
                 (This is read as "<i>f</i>(<i>x</i> is big-Omega of <i>g</i>(<i>x</i>.")
                 <br>
@@ -496,7 +496,7 @@
                    <i>x</i> &le; 8<i>x</i><sup>2</sup>, 
                    it follows that 3<i>x</i><sup>2</sup> 
                    + 8<i>x</i> log <i>x</i> 
-                   &le; 11<i>x</i><sup>2</sup> for <i>x</i> > 1.
+                   &le; 11<i>x</i><sup>2</sup> for <i>x</i> &gt; 1.
                 </li>
                 <li>
                     Consequently, 3<i>x</i><sup>2</sup> 
@@ -531,7 +531,7 @@
                     &le; 8<i>x<sup>2</sup></i>, 
                     it follows that 3<i>x<sup>2</sup></i>
                     + 8<i>x</i> log <i>x</i> 
-                    &le; 11<i>x<sup>2</sup></i> for <i>x</i> > 1.
+                    &le; 11<i>x<sup>2</sup></i> for <i>x</i> &gt; 1.
                 </li>
                 <li>
                    Consequently, 3<i>x<sup>2</sup></i>
