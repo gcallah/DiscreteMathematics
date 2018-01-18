@@ -18,49 +18,49 @@
                 It may be adjusted due to conditions in the field.
             </p>
 
-            <ol class="nested">
+            <ul class="nested">
                 <li>
-                    Basics (Sets, etc.)
+                    Basics (Sets, etc.) (Chapter 2)
                 </li>
                 <li>
-                    Logic and Proofs
+                    Logic and Proofs (Chapter 1)
                 </li>
                 <li>
-                    Algorithms    
+                    Algorithms (Chapter 3)
                 </li>
                 <li>
-                    Induction and Recurrence
+                    Induction and Recurrence (Chapter 5)
                 </li>
                 <li>
-                    Counting
+                    Counting (Chapter 6)
                 </li>
                 <li>
-                    Discrete Probability
+                    Discrete Probability (Chapter 7)
                 </li>
                 <li>
-                    Advanced Counting Techniques
+                    Advanced Counting Techniques (Chapter 8)
                 </li>
                 <li>
-                    Graphs
+                    Graphs (Chapter 10)
                 </li>
                 <li>
-                    Trees
+                    Trees (Chapter 11)
                 </li>
                 <li>
-                    Number Theory
+                    Number Theory (Chapter 4)
                     <br />
                     (We may not get this far.)
                 </li>
                 <li>
-                    Relations
+                    Relations (Chapter 9)
                     <br />
                     (We may not get this far.)
                 </li>
                 <li>
-                    Boolean Algebra
+                    Boolean Algebra (Chapter 12)
                     <br />
                     (We may not get this far.)
                 </li>
-            </ol>
+            </ul>
     </body>
 </html>
