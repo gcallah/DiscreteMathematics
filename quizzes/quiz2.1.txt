@@ -1,0 +1,1 @@
+How many subset/s does the power set of an empty set have?#Zero#Three#Two#^One
