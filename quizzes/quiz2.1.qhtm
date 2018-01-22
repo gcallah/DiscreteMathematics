@@ -1,0 +1,74 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                How many subset/s does the power set of an empty set have?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                Zero
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                Three
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                Two
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                One
+                </li>
+            </ol>
+            <li>
+                What is the cardinality of the set of odd positive integers less than 10?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                15
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                12
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                10
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                7
+                </li>
+            </ol>
+            <li>
+                The set of whole numbers is ___
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                Finite
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                Empty
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                Infinite
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. d; 2. a; 3. c; 
+            </p>
+        </details>
+    </details>
