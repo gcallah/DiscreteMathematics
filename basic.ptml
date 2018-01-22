@@ -774,6 +774,7 @@
                         A function f and its inverse
                       </figcaption>
                     </figure>
+                    <p>
                         f<sup>&minus;1</sup>. Because f maps a to 3,
                         the inverse f<sup>&minus;1</sup> maps 3 back to a.
                     This function is onto, because for every
@@ -783,6 +784,7 @@
                     <br>
                     <br>
                     <b>Example</b>: Square root is not an onto function.
+                  </p>
                     </details>
                 <details>
                     <summary class="sum2">
