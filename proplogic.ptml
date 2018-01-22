@@ -647,10 +647,10 @@
                             &not;<i>q</i>
                         </th>
                         <th>
-                            <i>p</i> &or; &not;<i>q</i> 
+                            <i>p</i> &or; &not;<i>q</i>
                         </th>
                         <th>
-                            <i>p</i> &and; <i>q</i> 
+                            <i>p</i> &and; <i>q</i>
                         </th>
                         <th>
                             (<i>p</i> &or; &not;<i>q</i>)
