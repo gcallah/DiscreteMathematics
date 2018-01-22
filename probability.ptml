@@ -37,8 +37,10 @@
                         of the sample space. 
                     </p>
                     <p class="def">
-                        DEFINITION 1
+                        DEFINITION
                     </p>
+                    <p>If S is a finite nonempty sample space of equally likely outcomes, and E is an event, that
+                        is, a subset of S, then the probability of E is p(E) = |E| | |S|</p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -48,23 +50,66 @@
                         <summary class="sum3">
                             THEOREM 1
                         </summary>
+                          <p>Let E be an event in a sample space S. The probability of the event E = S − E, the complementary
+                              event of E, is given by p(E) = 1 − p(E).</p>
                     </details>
+                    <details>
+                        <summary class="sum3">
+                          Example
+                        </summary>
+                          <p>What is the probability that when two dice are rolled, the sum of the numbers on the two dice is 7?<br></p>
+                     <details>
+                         <summary class="sum4">
+                           Answer
+                         </summary>
+                            <p> There are a total of 36 equally likely possible outcomes when two dice are rolled.There are six successful outcomes, namely, 
+                               (1, 6), (2, 5), (3, 4),<br> (4, 3), (5, 2), and (6, 1), where the values of the first and second dice are represented by an ordered pair.
+                                Hence, the probability that a seven comes <br>up when two fair dice are rolled is 6/36 = 1/6.</p>
+                      </details>
+                     </details>
+                     <details>
+                         <summary class="sum3">
+                           Example
+                         </summary>
+                           <p>Find the probability that a hand of five cards in poker contains four cards of one kind<br></p>
+                      <details>
+                          <summary class="sum4">
+                            Answer
+                          </summary>
+                             <p> By the product rule, the number of hands of five cards with four cards of one kind is the product of the number of ways
+                                  to pick one kind, the number of ways to pick the four of this kind out of the four in the deck of this kind,and the number of ways
+                                 to pick the fifth card.This is C(13, 1) C(4, 4) C(48, 1).By Example 11 in Section 6.3 there are C(52, 5) different hands of five cards. Hence, the
+                                probability that a hand contains four cards of one kind is (C(13, 1) C(4, 4) C(48, 1))/ C(52, 5) = (13 · 1 · 48) / 2,598,960 ≈ 0.00024.</p>
+                       </details>
+                      </details>
                     <details>
                         <summary class="sum3">
                             THEOREM 2
                         </summary>
+                           <p>Let <i>E1 </i>and <i>E2</i> be events in the sample space S. Then <i>p(E1 ∪ E2) = p(E1) + p(E2) − p(E1 ∩ E2).</i></p>
                     </details>
+                    <details>
+                        <summary class="sum3">
+                          Example
+                        </summary>
+                          <p>What is the probability that a positive integer selected at random from the set of positive integers not exceeding 100 is divisible by either 2 or 5?<br></p>
+                     <details>
+                         <summary class="sum4">
+                           Answer
+                         </summary>
+                            <p> Let <i>E1</i> be the event that the integer selected at random is divisible by 2, and let <i>E2</i> be the event that <br> it is divisible by 5.</p><p> Then <i>E1</i> ∪ <i>E2</i> is the event that it is divisible by either 2 or 5.</p><p>Also,<i> E1</i> ∩<i> E2</i> is the event that it is divisible by both 2 and 5, <br>or equivalently, that it is divisible by 10.</p><p> Because <i>|E1| = 50</i>, <i>|E2| = 20</i>, and <i> |E1 ∩ E2| = 10 </i>, it follows that <i>p(E1 ∪ E2) = p(E1) + p(E2) − p(E1 ∩ E2)= 50/100 + 20/100 - 10/100= 3/5.</i></p>
+                      </details>
+                     </details>
                 </details>
 
                 <details>
                     <summary class="sum2">
                         Probabilistic Reasoning
                     </summary>
+                    <p>Probabilistic reasoning is using logic and probability to handle uncertain situations. </p> <p>An example of probabilistic reasoning is using past situations and                          statistics to predict an outcome.</p><p>It is used to define which of two events is more likely.Analyzing <br>the probabilities of such events can be tricky. The below                       Example describes a problem of this type.</p>
                 </details>
-
-
                 <details>
-                    <summary class="sum2">
+                    <summary class="sum3">
                         The Monty Hall Problem Video
                     </summary>
 
@@ -82,22 +127,33 @@
 
             <details>
                 <summary class="sum1">
-                Probability Theory 
+                   Probability Theory 
                 </summary>
+                <summary class="sum2">
+                   Overview
+                </summary>
+                <p>
+                 We defined probability of an Event E as the number of outcomes in E divided by total number of outcomes.This definition assumes that outcomes are equally likely.
+               </p>
+                <p>
+                However,many experiments have outcomes that are not equally likely. For  instance, a coin may be biased so that it comes up heads twice as often as tails.
+                </p>
+                <p> In this section we will study how to define probabilities where outcomes are not equally likely.</p>
                 <details>
                     <summary class="sum2">
                         Assigning Probabilities
                     </summary>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 1
-                        </summary>
-                    </details>
-                    <details>
-                        <summary class="sum3">
-                            DEFINITION 2
-                        </summary>
-                    </details>
+                 <p>Let S be the sample space of an experiment with a finite or countable number of outcomes.We assign a probability p(s) to each outcome s.</p>
+                 <p>We require that two conditions be met:</p>
+                     <ol class="nested">
+                       <li>0 &le; p(s) &le; for each s∈S </li>
+                      <li><b>&sum;</b><sub> s∈S </sub>p(s)=1</li>
+                     </ol>
+                    <p>The function p from the set of all outcomes of the sample space S is called a probability distribution.</p><p>The probability p(s) assigned to an outcome s should                          equal the limit of the number of times s occurs divided by the number of times the experiment is performed,as this number grows without bound.</p>
+                    <p class="def">
+                        DEFINITION1
+                    </p>
+                <p>Consider a set S with n elements,then,the probability of each element of S considering uniform distribution is 1/n</p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -544,27 +600,33 @@
                     <summary class="sum2">
                         Average-Case Computational Complexity
                     </summary>
+                    <summary class="sum3">
+                        Overview
+                    </summary>
+                      <p>Average case computational complexity of an algorithm is amount of computational resourse used by algorithm,averaged over all possible inputs.It can also be                               interpreted as computing the expected value of a random variable.</p>
+                       <p>Let us consider a<sub>j</sub>, j=1,2,....k to be all the outcomes of an experiment and X be a random variable,that defines number of operations used by the                                 algorithm,when a<sub>j</sub> is an input</p><p>Let x<sub>1</sub>,x<sub>2</sub>...x<sub>k</sub> be the respective random variables p<sub>j</sub> is the probability to                         each possible input .Then the average case complexity of the algorithm is</p>
+
+                    <figure>
+                        <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d67d86418d069a861449610af313dfbc208fbd14">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
+
                 </details>
                 <details>
                     <summary class="sum2">
                         The Geometric Distribution
                     </summary>
-
-                    <p class="def">
+                    <p>Geometric distribution defines random variables with infinitely many outcomes</p>
+                      <p class="def">
                         DEFINITION 2
-                    </p>
-
-
+                      </p>
+                     <p>A random variable X has a geometric distribution with parameter p if <i>p(X = k) = (1 − p)<sup>k−1</sup></i> p for k = 1, 2, 3, . . ., where p is a real number with                       0 &le;p &le; 1.</p>
                     <p class="def">
-                        DEFINITION 3
+                        THEOREM 4
                     </p>
-
-                    <p class="def">
-                        THEOREM 5
-                    </p>
-
+                    <p>If the random variable X has the geometric distribution with parameter p, then <i>E(X) = 1/p.</i></p>
                 </details>
-
                 <details>
                     <summary class="sum2">
                         Independent Random Variables
@@ -584,15 +646,17 @@
                     <summary class="sum2">
                         Variance
                     </summary>
+                    <p>The variance of a random variable defines how widely a random variable is distributed</p>
 
                     <p class="def">
                         DEFINITION 4
                     </p>
-
+                     <p>Let <i> X</i> be a random variable on a sample space <i>S</i>. The variance of <i>X</i>, denoted by <i>V(X)</i>, is V(X) =&sum;<sub> s∈S </sub>(X(s) &minus;                               E(X))<sup>2</sup> p(s).</p><p>That is, V (X) is the weighted average of the square of the deviation of X. The standard deviation of X, denoted σ(X), is defined to be</p>
+                      <p><span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">&nbsp;V(X)&nbsp;</span></span></p>
                     <p class="def">
                         THEOREM 6
                     </p>
-
+                    <p>If X is a random variable on a sample space S, then V(X)= E(X<sup>2</sup>) &minus; E(X)<sup>2</sup>.</p>
                     <p class="def">
                         COROLLARY 1
                     </p>
@@ -607,15 +671,17 @@
                     <p class="def">
                         THEOREM 7
                     </p>
+                     <p>BIENAYMÉ’S FORMULA If <i>X</i> and <i>Y</i> are two independent      random variables on a sample space <i> S</i>, then <i>V (X + Y)</i> = <i>V (X)</i> +<i> V (Y).</i> Furthermore, if <i>Xi</i>, i = 1, 2, . . . , n, with n a positive integer, are pairwise independent random variables on <i>S</i>, then<i> V (X<sub>1</sub> + X<sub>2</sub> +· · ·+X<sub>n</sub>) = V (X1) + V (X2)+· · ·+V (Xn)</i>.</p>
 
                     <details>
                         <summary class="sum3">
                             Chebyshev's Inequality
                         </summary>
-
+                        <p>It defines the likeliness of a random variable to take a value far from it's expected value</p>
                         <p class="def">
-                            THEOREM 8
-                        </p>
+                             THEOREM 8
+                        </p>        
+                        <p>Let <i>X</i> be a random variable on a sample space <i>S</i> with probability function p. If r is a positive real number, then <i>p(|X(s) − E(X)| &ge; r) &le; V (X)/r<sup>2</sup>.</i></p>
 
                     </details>
                 </details>
