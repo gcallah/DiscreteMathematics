@@ -479,51 +479,56 @@
                             <li>
                             <b>Commutative laws:</b>
                             <br>
-                            A &cap; B = B &cap; A
+                            <i>A</i> &cap; <i>B</i> = <i>B</i> &cap; <i>A</i>
                             <br>
-                            A &cup; B = B &cup; A 
+                            <i>A</i> &cup; <i>B</i> = <i>B</i> &cup; <i>A</i> 
                             </li>
                             <li>
-                            <b> Associative  laws:</b>
+                            <b> <i>A</i>ssociative  laws:</b>
                             <br>
-                            (A &cap; B) &cap; C = A &cap; (B &cap; C)
+                            (<i>A</i> &cap; <i>B</i>) &cap;
+                            C = <i>A</i> &cap; (<i>B</i> &cap; C)
                             <br>
-                            (A &cup; B) &cup; C = A &cup; (B &cup; C) 
+                            (<i>A</i> &cup; <i>B</i>) &cup;
+                            C = <i>A</i> &cup; (<i>B</i> &cup; C) 
                             </li>
                             <li>
                             <b>Distributive laws:</b>
                             <br>
-                            A &cap; (B &cup; C) = (A &cap; B) &cup; (A &cap; C)
+                            <i>A</i> &cap; (<i>B</i> &cup; C) =
+                            (<i>A</i> &cap; <i>B</i>) &cup; (<i>A</i> &cap; C)
                             <br>
-                            A &cup; (B &cap; C) = (A &cup; B) &cap; (A &cup; C) 
+                            <i>A</i> &cup; (<i>B</i> &cap; C) =
+                            (<i>A</i> &cup; <i>B</i>) &cap; (<i>A</i> &cup; C) 
                             </li>
                             <li>
                             <b>Identity laws:</b>
                             <br>
-                            A &cap; U = A
+                            <i>A</i> &cap; <i>U</i> = <i>A</i>
                             <br>
-                            A &cup; &empty; = A 
+                            <i>A</i> &cup; &empty; = <i>A</i> 
                             </li>
                             <li>
                             <b>Complement laws:</b>
                             <br>
-                            A &cup; <span class="over">A</span> = U
+                            <i>A</i> &cup; <span class="over"><i>A</i></span> = <i>U</i>
                             <br>
-                            A &cap; <span class="over">A</span> = &empty;
+                            <i>A</i> &cap;
+                            <span class="over"><i>A</i></span> = &empty;
                             </li>
                             <li>
                             <b>Idempotent laws:</b>
                             <br>
-                            A &cap; A = A
+                            <i>A</i> &cap; <i>A</i> = <i>A</i>
                             <br>
-                            A &cup; A = A
+                            <i>A</i> &cup; <i>A</i> = <i>A</i>
                             </li>
                             <li>
-                            <b>Absorption laws:</b>
+                            <b><i>A</i>bsorption laws:</b>
                             <br>
-                            A &cap; (A &cup; B) = A
+                            <i>A</i> &cap; (<i>A</i> &cup; <i>B</i>) = <i>A</i>
                             <br>
-                            A &cup; (A &cap; B) = A
+                            <i>A</i> &cup; (<i>A</i> &cap; <i>B</i>) = <i>A</i>
                             </li>
                         </ol>
 
@@ -652,7 +657,8 @@
                     <p>
                     A function f from A to B is 
                     called onto, or a surjection, if and only if for every 
-                    element b &isin; B there is an element a&isin;A with f(a)=b. 
+                    element b &isin; B there is an element a &isin;
+                    A with f(a) = b. 
                     A function f is called surjective if it is onto.
                     <br>
                     <b>For Example:</b> Is the function f (x) = x + 1 from 
@@ -661,132 +667,135 @@
                     This function is onto, because for every 
                     integer y there is an integer x such that f (x) = y. 
                     To see this, note that f (x) = y if and 
-                    only if x + 1 = y, which holds if and only if x = y − 1.
+                    only if x + 1 = y, which holds if and only if x = y &minus; 1.
+                    <br>
+                    <br>
+                    <b>Example</b>: Square root is not an onto function.
                     </p>
                     </details>
-                    <details>
-                        <summary class="sum2">
-                        Function Composition
-                        </summary>
-                        <p>
-                        The function 
-                        composition of two functions takes the output 
-                        of one function as the input of a second one. More 
-                        specifically, the composition of f with a function 
-                        g: Y &rarr; Z is the function
-                        (g &ordm; f : X &rarr; Z) defined by
-                        <br> 
-                        (g &ordm; f)(x) = g(f(x)).
+                <details>
+                    <summary class="sum2">
+                    Function Composition
+                    </summary>
+                    <p>
+                    The function 
+                    composition of two functions takes the output 
+                    of one function as the input of a second one. More 
+                    specifically, the composition of f with a function 
+                    g: Y &rarr; Z is the function
+                    (g &ordm; f : X &rarr; Z) defined by
+                    <br> 
+                    (g &ordm; f)(x) = g(f(x)).
+                    <br>
+                    The order of the composition is important. 
+                    For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1. 
+                    Then g(f(x)) = x<sup>2</sup> + 1, while 
+                    f(g(x)) = (x + 1)<sup>2</sup>,
+                    which is x<sup>2</sup> + 2x + 1, a different function.
+                    </p>
+                    <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
+                    <figcaption>
+                    The first function takes input x and outputs 
+                    f(x). The second function takes as input the value
+                    f(x) and outputs g(f(x))
+                    </figcaption>
+                    </figure>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Inverse Functions
+                    </summary>
+                    <p>
+                   
+                    Let f be a one-to-one 
+                    correspondence from the set A to the set B. The 
+                    inverse function of f is the function that assigns 
+                    to an element b belonging to B
+                    the unique element a in 
+                    A such that f (a) = b. The
+                    inverse function of f is denoted 
+                    by f<sup>&minus;1</sup>.
+                    Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
+                    </p>
+                    <figure>
+                    <img src = "graphics/InverseFunction.png"
+                        height="280" width="210">
+                    <figcaption>
+                    A function f and its inverse 
+                    f<sup>&minus;1</sup>. Because f maps a to 3,
+                    the inverse f<sup>&minus;1</sup> maps 3 back to a.
+                    </figcaption>
+                    </figure>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    The Graphs of Functions
+                    </summary>
+                    <figure>
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
                         <br>
-                        The order of the composition is important. 
-                        For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1. 
-                        Then g(f(x)) = x<sup>2</sup> + 1, while 
-                        f(g(x)) = (x + 1)<sup>2</sup>,
-                        which is x<sup>2</sup> + 2x + 1, a different function.
-                        </p>
-                        <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
                         <figcaption>
-                        The first function takes input x and outputs 
-                        f(x). The second function takes as input the value
-                        f(x) and outputs g(f(x))
+                        Linear function: f(x) = ax + b.
                         </figcaption>
-                        </figure>
-                    </details>
-
-                    <details>
-                        <summary class="sum2">
-                        Inverse Functions
-                        </summary>
-                        <p>
-                       
-                        Let f be a one-to-one 
-                        correspondence from the set A to the set B. The 
-                        inverse function of f is the function that assigns 
-                        to an element b belonging to B
-                        the unique element a in 
-                        A such that f (a) = b. The
-                        inverse function of f is denoted 
-                        by f<sup>&minus;1</sup>.
-                        Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
-                        </p>
-                        <figure>
-                        <img src = "graphics/InverseFunction.png"
-                            height="280" width="210">
+                    </figure>
+                    <br />
+                    <figure>
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
                         <figcaption>
-                        A function f and its inverse 
-                        f<sup>&minus;1</sup>. Because f maps a to 3,
-                        the inverse f<sup>&minus;1</sup> maps 3 back to a.
+                        Quadratic function: f(x) = ax<sup>2</sup> + bx + c.
                         </figcaption>
+                    </figure>
+                    <br />
+                    <figure>
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
+                        <figcaption>
+                        Trigonometric functions sine and cosine
+                        </figcaption>
+                    </figure>
+                    <br />
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                    Two Important Functions
+                    </summary>
+
+                    <p>
+                    Let <i>x</i> be a real number.
+                    The floor function rounds <i>x</i>
+                    down to the closest integer less than or equal to <i>x</i>,
+                    and the ceiling function rounds <i>x</i> up to the closest
+                    integer greater than or equal to <i>x</i>. 
+                    </p>
+
+                    <details>
+                        <summary class="sum3">
+                        Floor
+                        </summary>
+                        <figure>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
+                            <figcaption>
+                            Floor function
+                            </figcaption>
                         </figure>
                     </details>
 
                     <details>
-                        <summary class="sum2">
-                        The Graphs of Functions
+                        <summary class="sum3">
+                        Ceiling
                         </summary>
                         <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
-                            <br>
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
                             <figcaption>
-                            Linear function: f(x) = ax + b.
+                            Ceiling function
                             </figcaption>
                         </figure>
-                        <br />
-                        <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
-                            <figcaption>
-                            Quadratic function: f(x) = ax<sup>2</sup> + bx + c.
-                            </figcaption>
-                        </figure>
-                        <br />
-                        <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
-                            <figcaption>
-                            Trigonometric functions sine and cosine
-                            </figcaption>
-                        </figure>
-                        <br />
                     </details>
-
-                    <details>
-                        <summary class="sum2">
-                        Two Important Functions
-                        </summary>
-
-                        <p>
-                        Let <i>x</i> be a real number.
-                        The floor function rounds <i>x</i>
-                        down to the closest integer less than or equal to <i>x</i>,
-                        and the ceiling function rounds <i>x</i> up to the closest
-                        integer greater than or equal to <i>x</i>. 
-                        </p>
-
-                        <details>
-                            <summary class="sum3">
-                            Floor
-                            </summary>
-                            <figure>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
-                                <figcaption>
-                                Floor function
-                                </figcaption>
-                            </figure>
-                        </details>
-
-                        <details>
-                            <summary class="sum3">
-                            Ceiling
-                            </summary>
-                            <figure>
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
-                                <figcaption>
-                                Ceiling function
-                                </figcaption>
-                            </figure>
-                        </details>
-                    </details>
+                </details>
 
             </details>
 
@@ -820,7 +829,7 @@
                 <summary class="sum2">
                 Types of Sequence 
                 </summary>
-                <ol>
+                <ol class="nested">
                     <li>
                         A <b>geometric progression</b> 
                         is a sequence of the form a,
@@ -850,8 +859,8 @@
                         (A recurrence relation is said to recursively 
                         define a sequence. We will explain this 
                         alternative terminology in Chapter 5.)
-                    </li>
-                    <li>
+                        <br />
+                        <br />
                         The <b>Fibonacci sequence</b>, f<sub>0</sub>, f<sub>1</sub>, 
                         f<sub>2</sub>, ... , is defined by the 
                         initial conditions f<sub>0</sub> = 0, f<sub>1</sub> = 1, 
