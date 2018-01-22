@@ -121,13 +121,34 @@
                 <i>p</i> is insufficient for <i>q</i>.
                 </li>
             </ol>
+            <li>
+                Which of the following sentences has the logical form (p^q)->r?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q7" value="a">
+                If the weather is rainy and the roads are slippery then John does not feel like going to school.
+                </li>
+                <li>
+                <input type="radio" name="q7" value="b">
+                If hshe gets the 8.00 train or the 9.00 train then maybe she can reach on time.
+                </li>
+                <li>
+                <input type="radio" name="q7" value="c">
+                Grass courts or clay courts can be used for tennis.
+                </li>
+                <li>
+                <input type="radio" name="q7" value="d">
+                Heavy traffic and rain puts Sheela in a bad mood.
+                </li>
+            </ol>
         </ol>
         <details>
             <summary class="sum3">
                 Answers
             </summary>
             <p>
-                1. c; 2. a; 3. c; 4. d; 5. a; 6. d; 
+                1. c; 2. a; 3. c; 4. d; 5. a; 6. d; 7. a; 
             </p>
         </details>
     </details>
