@@ -19,24 +19,31 @@
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
                 </figure>
             </div>
-            
+
             <details>
                 <summary class="sum1">
                 Sets
                 </summary>
-                    
+
                     <details>
                         <summary class="sum2">
                         Meaning of Sets
                         </summary>
                         <p>
-                            A <b>set</b> is an unordered collection of objects, 
-                            called elements or members of the set. 
-                            A set is said to contain its elements. 
+                            A <b>set</b> is an unordered collection of objects,
+                            called elements or members of the set.
+                            A set is said to contain its elements.
+                            We write a &isin; A to denote that a is an element of
+                            the set A. The notation a &notin;
+                            A denotes that a
+                            is not an element of the set A.
+                            A <b>set</b> is an unordered collection of objects,
+                            called elements or members of the set.
+                            A set is said to contain its elements.
                             We write <i>a</i> &isin; <i>A</i> to denote that
-                            <i>a</i> is an element of 
+                            <i>a</i> is an element of
                             the set <i>A</i>. The notation <i>a</i> &notin;
-                            <i>A</i> denotes that <i>a</i> 
+                            <i>A</i> denotes that <i>a</i>
                             is not an element of the set <i>A</i>.
                         </p>
                         <p>
@@ -47,28 +54,37 @@
                             The two ways are:
                         </p>
                             <p>
-                            <b>Roster method:</b> 
+                            <b>Roster method:</b>
                             refers to a technique in representing a set
-                             by directly listing all of its elements, 
-                             which are separated by commas and enclosed 
+                             by directly listing all of its elements,
+                             which are separated by commas and enclosed
                              by a pair of curly brackets.
                             <br>
-                            <b>Example</b>: The set <i>V</i> of all vowels 
-                            in the English alphabet can be 
+                            Example: The set V of all vowels
+                            in the English alphabet can be
+                            written as V = {a, e, i, o, u}.
+                            <b>Example</b>: The set <i>V</i> of all vowels
+                            in the English alphabet can be
                             written as <i>V</i> = {a, e, i, o, u}.
                             </p>
                             <p>
                             <b>Set builder:</b>
-                            We characterize all 
+                            We characterize all
                             those elements in the set by stating the
-                            property or properties they
-                            must have to be members. 
+                            property or properties they must have to be members.
                             <br>
-                            For instance, the set <i>O</i> of all odd 
+                            For instance, the set O of all odd
+                            positive integers less than 10 can be written as
+                            O = {x | x is an odd positive integer less than 10}
+                            or, specifying the universe as the set of positive
+                            property or properties they
+                            must have to be members.
+                            <br>
+                            For instance, the set <i>O</i> of all odd
                             positive integers less than 10 can be written as
                             <i>O</i> = {x | x is an odd
                             positive integer less than 10}
-                            or, specifying the universe as the set of positive 
+                            or, specifying the universe as the set of positive
                             integers, as
                             <i>O</i>={<i>x</i> &isin; <b>&#8484;+</b> |
                             <i>x</i> is odd and <i>x</i> &lt; 10}.
@@ -79,16 +95,17 @@
                             Special Sets
                         </summary>
                         <p>
-                        We often use this type of notation to describe sets 
+                        We often use this type of notation to describe sets
                         when it is impossible to list all the elements
-                        of the set. For instance, the set <b>&#8474;+</b> of all 
+                        of the set. For instance, the set <b>Q+</b> of all
+                        of the set. For instance, the set <b>&#8474;+</b> of all
                         positive rational numbers can be written as
                         <br>
                         <b>&#8474;+</b>={x &isin; <b>&#8477;</b>
                         | <i>x</i> = <i>p</i> / <i>q</i>,
                         for some positive integers <i>p</i> and <i>q</i>}.
                         <br>
-                        These sets, each denoted using a boldface letter, 
+                        These sets, each denoted using a boldface letter,
                         play an important role in discrete mathematics:
                         <br>
                         <b>&#8469;</b>
@@ -101,9 +118,11 @@
                         = {1, 2, 3, ...}, the set of <b>positive integers</b>
                         <br>
                         <b>&#8474;</b> =
+                        {p/q | p &isin; Z, q &isin; Z, and q &ne; 0},
+                        the set of <b>rational numbers</b>
                         {<i>p</i>/<i>q</i> | <i>p</i> &isin; Z,
                         <i>q</i> &isin; Z, and <i>q</i> &ne; 0},
-                        the set of <b>rational numbers</b> 
+                        the set of <b>rational numbers</b>
                         <br>
                         <b>&#8477;</b>, the set of <b>real numbers</b>
                         <br>
@@ -112,7 +131,7 @@
                         <b>&#8450;</b>, the set of <b>complex numbers</b>.
                         </p>
                     </details>
-                        
+
                     <details>
                         <summary class="sum2">
                             The Empty Set and Naive Set Theory
@@ -139,34 +158,47 @@
                         Venn Diagrams
                         </summary>
                         <figure>
-                            <img 
+                            <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg/440px-%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg.png">
                         </figure>
                         <br>
-                        <p>    
-                        A <b>Venn diagram</b> (also called primary diagram, 
-                        set diagram or logic diagram) is a diagram that 
-                        shows all possible logical relations between a 
-                        finite collection of different sets. These 
-                        diagrams depict elements as points in the plane, 
-                        and sets as regions inside closed curves.   
+                        <p>
+                        A <b>Venn diagram</b> (also called primary diagram,
+                        set diagram or logic diagram) is a diagram that
+                        shows all possible logical relations between a
+                        finite collection of different sets. These
+                        diagrams depict elements as points in the plane,
+                        and sets as regions inside closed curves.
                             </p>
-                    </details> 
+                    </details>
                     <details>
                         <summary class="sum2">
                         Subsets
                         </summary>
+                            <p>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/300px-Venn_A_subset_B.svg.png">
+                            <br>
+                            The set A is a <b>subset</b> of B
+                            iff every element of A is
+                            also an element of B. We use the notation A &sube; B
+                            to indicate that A is a subset of the set B.
+                            <br>
+                            We see that A &sube; B if and only if the
+                            quantification ∀x(x &isin; A &rarr; x &isin; B)
+                            is true.
                         <figure>
-                            <img 
+                            <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/300px-Venn_A_subset_B.svg.png">
                             <figcaption>
                             </figcaption>
                         </figure>
                             <p>
-                            The set <i>A</i> is a <b>subset</b> of <i>B</i> 
-                            iff every element of <i>A</i> is 
+                            The set <i>A</i> is a <b>subset</b> of <i>B</i>
+                            iff every element of <i>A</i> is
                             also an element of <i>B</i>.
-                            We use the notation <i>A</i> &sube; <i>B</i> 
+                            We use the notation <i>A</i> &sube; <i>B</i>
                             to indicate that <i>A</i>
                             is a subset of the set <i>B</i>.
                             <br>
@@ -174,69 +206,92 @@
                             if and only if the quantification
                             &forall;<i>x</i>(<i>x</i> &isin; <i>A</i>
                             &rarr; <i>x</i> &isin; <i>B</i>)
-                            is true.    
+                            is true.
                                 </p>
                             <p>
                             Theorem for Subsets :
                                 </p>
                             <p>
+                                For every set S,
+                                </p>
                                 For every set <i>S</i>,
-                                </p>    
+                                </p>
                             <ol class="nested">
                               <li>
                                 &empty; &sube; <i>S</i>.
                                 </li>
                               <li>
-                                <i>S</i> &sube; <i>S</i>. 
+                                S &sube; S.
+                                <i>S</i> &sube; <i>S</i>.
                                 </li>
-                            </ol>    
+                            </ol>
 
                             <p>
-                            The set <i>A</i> is a <b>subset</b> of <i>B</i> iff 
+                            The set A is a <b>subset</b> of B iff
+                            every element of A is also an element of B.
+                            We use the notation A &sube; B to indicate
+                            that A is a subset of the set B.
+                            <br>
+                            We see that A &sube; B if and only if the
+                            quantification ∀x(x &isin; A &rarr; x &isin; B)
+                            is true.
+                            The set <i>A</i> is a <b>subset</b> of <i>B</i> iff
                             every element of <i>A</i> is
-                            also an element of <i>B</i>. 
+                            also an element of <i>B</i>.
                             We use the notation <i>A</i> &sube;
-                            <i>B</i> to indicate 
+                            <i>B</i> to indicate
                             that <i>A</i> is a subset of the set <i>B</i>.
                             <br>
-                            We see that <i>A</i> &sube; <i>B</i> if and only if the 
+                            We see that <i>A</i> &sube; <i>B</i> if and only if the
                             quantification &forall;<i>x</i>(<i>x</i> &isin;
                             <i>A</i> &rarr; <i>x</i> &isin; <i>B</i>)
-                            is true.    
+                            is true.
                         </p>
-                    </details> 
+                    </details>
 
                     <details>
                         <summary class="sum2">
                         The Size of a Set
                         </summary>
-                            <p>    
-                            Let <i>S</i> be a set. If there are 
-                            exactly <i>n</i> distinct elements in <i>S</i> where 
-                            <i>n</i> is a nonnegative integer, we say that 
-                            <i>S</i> is a finite set and that n is the cardinality 
+                            <p>
+                            Let <b>S</b> be a set. If there are
+                            exactly n distinct elements in S where
+                            n is a nonnegative integer, we say that
+                            S is a finite set and that n is the cardinality
+                            of S. The cardinality of S is denoted by |S|.
+                            </p>
+                            <p>
+                            Let <i>S</i> be a set. If there are
+                            exactly <i>n</i> distinct elements in <i>S</i> where
+                            <i>n</i> is a nonnegative integer, we say that
+                            <i>S</i> is a finite set and that n is the cardinality
                             of <i>S</i>. The cardinality of <i>S</i>
                             is denoted by |<i>S</i>|.
                             <br>
-                            <b>Remark</b>: The term cardinality 
-                            comes from the common usage of the 
+                            <b>Remark</b>: The term cardinality
+                            comes from the common usage of the
                             term cardinal number as the size of a finite set.
                             <br>
                             <b>For Example</b>: Let <i>A</i> be the
                             set of odd positive integers less than 10.
                             Then |<i>A</i>| = 5.
                             </p>
-                    </details> 
+                    </details>
                     <details>
                         <summary class="sum2">
                         Power Sets
                         </summary>
                             <figure>
-                                <img 
+                                <img
                                 src = "graphics/powerset_of_3.svg.png">
                             </figure>
-                            <p>    
-                            Given a set <i>S</i>, the <b>power set</b> of <i>S</i> is the set of 
+                            <p>
+                            Given a set S, the <b>power set</b> of S is the set of
+                            all subsets of the set S.
+                            The power set of S is denoted by P(S).
+                            </p>
+                            <p>
+                            Given a set <i>S</i>, the <b>power set</b> of <i>S</i> is the set of
                             all subsets of the set <i>S</i>.
                             The power set of <i>S</i> is denoted by P(S).
                             <br>
@@ -270,54 +325,55 @@
                             <a
                                 href="https://en.wikipedia.org/wiki/Pascal%27s_triangle">
                                 Pascal's Triangle
-                            </a>.
+                            </a>
                             </p>
-                        </details> 
+                        </details>
                     <details>
                         <summary class="sum2">
                         Cartesian Products
                         </summary>
                         <figure>
-                            <img 
+                            <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cartesian_Product_qtl1.svg/440px-Cartesian_Product_qtl1.svg.png">
                         </figure>
 
                         <p>
-                        Let A and B be sets. The <b>Cartesian product</b> of A and B, 
-                        denoted by A x B, is the set of all ordered pairs (a, b), 
+                        Let A and B be sets. The <b>Cartesian product</b> of A and B,
+                        denoted by A x B, is the set of all ordered pairs (a, b),
                         where a &isin; A and b &isin; B. Hence,
                         <br>
                         A x B = {(a, b) | a &isin; A &and; b &isin; B}.
                         </p>
-                        <p>    
+                        <p>
                         The <b>ordered n-tuple</b>
-                        (a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>n</sub>) 
-                        is the ordered collection that has a<sub>1</sub> as 
+                        (a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>n</sub>)
+                        is the ordered collection that has a<sub>1</sub> as
                         its first element,
-                        a<sub>2</sub> as its second element, ... , 
+                        a<sub>2</sub> as its second element, ... ,
                         and a<sub>n</sub> as its nth element.
                         <br>
                         In other words, (a<sub>1</sub>, a<sub>2</sub>,
-                        ... , a<sub>n</sub>) = 
+                        ... , a<sub>n</sub>) =
                         (b<sub>1</sub>, b<sub>2</sub>, ... ,
-                        b<sub>n</sub>) if and only if a<sub>i</sub> = b<sub>i</sub>, 
+                        b<sub>n</sub>) if and only if a<sub>i</sub> = b<sub>i</sub>,
                         for i = 1, 2, ... , n.
                         </p>
-                    </details>     
-              </details>             
+                    </details>
+                    <!--include quiz2.1.qhtm -->
+              </details>
 
             <details>
                 <summary class="sum1">
-                Set Operations 
+                Set Operations
                 </summary>
                 <p>
-                    Two, or more, sets can be combined in many different ways. 
+                    Two, or more, sets can be combined in many different ways.
                     <br>
-                    For instance, starting with the set of mathematics majors at 
-                    your school and the set of computer science majors at your school, 
-                    we can form the set of students who are mathematics majors or 
-                    computer science majors, the set of students who are joint 
-                    majors in mathematics and computer science, the set of 
+                    For instance, starting with the set of mathematics majors at
+                    your school and the set of computer science majors at your school,
+                    we can form the set of students who are mathematics majors or
+                    computer science majors, the set of students who are joint
+                    majors in mathematics and computer science, the set of
                     all students not majoring in mathematics, and so on.
                     </p>
 
@@ -336,15 +392,15 @@
                             <summary class="sum3">
                             Union
                             </summary>
-                        
+
                         <p>
-                        Two sets can be "added" together. 
-                          The union of A and B, denoted by A &cup; B, 
-                          is the set of all things that are 
-                          members of either A or B.  
+                        Two sets can be "added" together.
+                          The union of A and B, denoted by A &cup; B,
+                          is the set of all things that are
+                          members of either A or B.
                         </p>
                         <figure>
-                          <img 
+                          <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/440px-Venn0111.svg.png">
                               <figcaption>
                               The union of A and B, denoted A &cup; B
@@ -366,11 +422,11 @@
                             Intersection
                             </summary>
                         <p>
-                        A new set can also be constructed 
-                        by determining which members two sets have "in common". 
-                        The intersection of A and B, denoted by A &cap; B, is 
-                            the set of all things that are members of both A 
-                            and B. If A &cap; B = &empty;, 
+                        A new set can also be constructed
+                        by determining which members two sets have "in common".
+                        The intersection of A and B, denoted by A &cap; B, is
+                            the set of all things that are members of both A
+                            and B. If A &cap; B = &empty;,
                             then A and B are said to be disjoint.
                         </p>
                         <figure>
@@ -394,11 +450,11 @@
                             Set Difference
                             </summary>
                         <p>
-                            Two sets can also be 
-                            "subtracted". The relative complement of B 
-                            in A (also called the set-theoretic difference 
-                            of A and B), denoted by A &minus; B, is 
-                            the set of all elements that are members of A 
+                            Two sets can also be
+                            "subtracted". The relative complement of B
+                            in A (also called the set-theoretic difference
+                            of A and B), denoted by A &minus; B, is
+                            the set of all elements that are members of A
                             but not members of B.
                         </p>
                         <figure>
@@ -421,12 +477,12 @@
                             </figure>
                         <p>
                             In certain settings all sets under
-                            discussion are considered 
+                            discussion are considered
                             to be subsets of a given universal set U.
                             In such cases, U &minus; A
                             is called the absolute complement or
                             simply complement of A, and is denoted by an A
-                            with a bar over it. 
+                            with a bar over it.
                             <br>
                             For instance:
                             <br>
@@ -468,7 +524,8 @@
                             <br>
                             <i>A</i> &cap; <i>B</i> = <i>B</i> &cap; <i>A</i>
                             <br>
-                            <i>A</i> &cup; <i>B</i> = <i>B</i> &cup; <i>A</i> 
+                            A &cup; B = B &cup; A
+                            <i>A</i> &cup; <i>B</i> = <i>B</i> &cup; <i>A</i>\
                             </li>
                             <li>
                             <b> <i>A</i>ssociative  laws:</b>
@@ -476,8 +533,9 @@
                             (<i>A</i> &cap; <i>B</i>) &cap;
                             C = <i>A</i> &cap; (<i>B</i> &cap; C)
                             <br>
+                            (A &cup; B) &cup; C = A &cup; (B &cup; C)
                             (<i>A</i> &cup; <i>B</i>) &cup;
-                            C = <i>A</i> &cup; (<i>B</i> &cup; C) 
+                            C = <i>A</i> &cup; (<i>B</i> &cup; C)
                             </li>
                             <li>
                             <b>Distributive laws:</b>
@@ -485,15 +543,17 @@
                             <i>A</i> &cap; (<i>B</i> &cup; C) =
                             (<i>A</i> &cap; <i>B</i>) &cup; (<i>A</i> &cap; C)
                             <br>
+                            A &cup; (B &cap; C) = (A &cup; B) &cap; (A &cup; C)
                             <i>A</i> &cup; (<i>B</i> &cap; C) =
-                            (<i>A</i> &cup; <i>B</i>) &cap; (<i>A</i> &cup; C) 
+                            (<i>A</i> &cup; <i>B</i>) &cap; (<i>A</i> &cup; C)
                             </li>
                             <li>
                             <b>Identity laws:</b>
                             <br>
                             <i>A</i> &cap; <i>U</i> = <i>A</i>
                             <br>
-                            <i>A</i> &cup; &empty; = <i>A</i> 
+                            A &cup; &empty; = A
+                            <i>A</i> &cup; &empty; = <i>A</i>
                             </li>
                             <li>
                             <b>Complement laws:</b>
@@ -539,15 +599,15 @@
                                 </li>
                             </ol>
                         </details>
-                    </details>  
+                    </details>
 
                     <details>
                         <summary class="sum2">
                         Computer Representation of Sets
                         </summary>
-                        <p> 
-                        There are various ways to represent sets using a computer. 
-                        One method is to store the elements of the set in an 
+                        <p>
+                        There are various ways to represent sets using a computer.
+                        One method is to store the elements of the set in an
                         unordered fashion. However:
                         <br />
                         Wastes time searching when doing union, intersection,
@@ -558,40 +618,41 @@
                         is on if <em>x</em> is in the set.
                         <br />
                         <b>For Example </b>:
-                        Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 
+                        Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
                         and the ordering of elements of U has
-                        the elements in increasing 
+                        the elements in increasing
                         order; that is, a<sub>i</sub> = i.
-                        What bit strings represent the subset of 
+                        What bit strings represent the subset of
                         all odd integers in U, the subset
-                        of all even integers in U, 
+                        of all even integers in U,
                         and the subset of integers not exceeding 5 in U?
                         <br>
                         Solution:
-                        The bit string that represents the set of odd 
-                        integers in U, namely, {1, 3, 5, 7, 9}, 
+                        The bit string that represents the set of odd
+                        integers in U, namely, {1, 3, 5, 7, 9},
                         is 10 1010 1010.
                         <br>
                         All even integers in U: 01 0101 0101.
                         <br>
                         </p>
-                    </details>                    
+                    </details>
+                    <!--include quiz2.2.qhtm -->
             </details>
-                
+
             <details>
                 <summary class="sum1">
-                Functions 
+                Functions
                 </summary>
                 <p>
-                A <b>function</b> is a relation between a set of inputs 
-                and a set of permissible outputs with the property that 
-                each input is related to exactly one output. 
+                A <b>function</b> is a relation between a set of inputs
+                and a set of permissible outputs with the property that
+                each input is related to exactly one output.
                 <br>
-                Let A and B be nonempty sets. A function f from 
-                A to B is an assignment of exactly one element of 
-                B to each element of A. We write f(a) = b if b is 
-                the unique element of B assigned by the function f 
-                to the element a of A. If f is a function from A to B, 
+                Let A and B be nonempty sets. A function f from
+                A to B is an assignment of exactly one element of
+                B to each element of A. We write f(a) = b if b is
+                the unique element of B assigned by the function f
+                to the element a of A. If f is a function from A to B,
                 we write f : A &rarr; B.
                 </p>
 
@@ -606,34 +667,34 @@
                     Khan Academy on Functions
                 </a>
                 </p>
-                
+
                 <details>
                     <summary class="sum2">
                     One-to-one Functions
                     </summary>
                     <p>
-                    A function f is said to 
+                    A function f is said to
                     be one-to-one, or an injunction,
-                    if and only if f(a) = f(b) 
+                    if and only if f(a) = f(b)
                     implies that a = b for all a and b in the domain of f.
                     A function is said to be injective if it is one-to-one.
                     <br>
-                    Note that a function f is one-to-one if and 
+                    Note that a function f is one-to-one if and
                     only if f (a) &ne; f (b) whenever a &ne; b. This
-                    way of expressing that f is one-to-one is obtained by 
+                    way of expressing that f is one-to-one is obtained by
                     taking the contrapositive of the
                     implication in the definition.
                     <br>
                     <b>For example:</b>
-                    Determine whether the function f 
+                    Determine whether the function f
                     from {a, b, c, d} to {1, 2, 3, 4, 5}
-                    with f(a) = 4, f(b) = 5, 
+                    with f(a) = 4, f(b) = 5,
                     f(c) = 1, and f(d) = 3 is one-to-one?
                     <br>
-                    <b>Answer:</b> The function f is one-to-one because f takes 
-                    on different values at the four elements of its domain. 
-                    as 
-                    f(a) = 4, f(b) = 5, f(c) = 1, and f(d) = 3 
+                    <b>Answer:</b> The function f is one-to-one because f takes
+                    on different values at the four elements of its domain.
+                    as
+                    f(a) = 4, f(b) = 5, f(c) = 1, and f(d) = 3
                     </p>
                 </details>
 
@@ -642,41 +703,107 @@
                     Onto Functions
                     </summary>
                     <p>
-                    A function f from A to B is 
-                    called onto, or a surjection, if and only if for every 
+                    A function f from A to B is
+                    called onto, or a surjection, if and only if for every
+                    element b &isin; B there is an element a&isin;A with f(a)=b.
+                    A function f from A to B is
+                    called onto, or a surjection, if and only if for every
                     element b &isin; B there is an element a &isin;
-                    A with f(a) = b. 
+                    A with f(a) = b.
                     A function f is called surjective if it is onto.
                     <br>
-                    <b>For Example:</b> Is the function f (x) = x + 1 from 
+                    <b>For Example:</b> Is the function f (x) = x + 1 from
                     the set of integers to the set of integers onto?
                     <br>
-                    This function is onto, because for every 
-                    integer y there is an integer x such that f (x) = y. 
-                    To see this, note that f (x) = y if and 
+                    This function is onto, because for every
+                    integer y there is an integer x such that f (x) = y.
+                    To see this, note that f (x) = y if and
+                    only if x + 1 = y, which holds if and only if x = y − 1.
+                    </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                        Function Composition
+                        </summary>
+                        <p>
+                        The function
+                        composition of two functions takes the output
+                        of one function as the input of a second one. More
+                        specifically, the composition of f with a function
+                        g: Y &rarr; Z is the function
+                        (g &ordm; f : X &rarr; Z) defined by
+                        <br>
+                        (g &ordm; f)(x) = g(f(x)).
+                        <br>
+                        The order of the composition is important.
+                        For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1.
+                        Then g(f(x)) = x<sup>2</sup> + 1, while
+                        f(g(x)) = (x + 1)<sup>2</sup>,
+                        which is x<sup>2</sup> + 2x + 1, a different function.
+                        </p>
+                        <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
+                        <figcaption>
+                        The first function takes input x and outputs
+                        f(x). The second function takes as input the value
+                        f(x) and outputs g(f(x))
+                        </figcaption>
+                        </figure>
+                    </details>
+
+                    <details>
+                        <summary class="sum2">
+                        Inverse Functions
+                        </summary>
+                        <p>
+
+                        Let f be a one-to-one
+                        correspondence from the set A to the set B. The
+                        inverse function of f is the function that assigns
+                        to an element b belonging to B
+                        the unique element a in
+                        A such that f (a) = b. The
+                        inverse function of f is denoted
+                        by f<sup>&minus;1</sup>.
+                        Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
+                        </p>
+                        <figure>
+                        <img src = "graphics/InverseFunction.png"
+                            height="280" width="210">
+                        <figcaption>
+                        A function f and its inverse
+                      </figcaption>
+                    </figure>
+                    <p>
+                        f<sup>&minus;1</sup>. Because f maps a to 3,
+                        the inverse f<sup>&minus;1</sup> maps 3 back to a.
+                    This function is onto, because for every
+                    integer y there is an integer x such that f (x) = y.
+                    To see this, note that f (x) = y if and
                     only if x + 1 = y, which holds if and only if x = y &minus; 1.
                     <br>
                     <br>
                     <b>Example</b>: Square root is not an onto function.
-                    </p>
+                  </p>
                     </details>
                 <details>
                     <summary class="sum2">
                     Function Composition
                     </summary>
                     <p>
-                    The function 
-                    composition of two functions takes the output 
-                    of one function as the input of a second one. More 
-                    specifically, the composition of f with a function 
+                    The function
+                    composition of two functions takes the output
+                    of one function as the input of a second one. More
+                    specifically, the composition of f with a function
                     g: Y &rarr; Z is the function
                     (g &ordm; f : X &rarr; Z) defined by
-                    <br> 
+                    <br>
                     (g &ordm; f)(x) = g(f(x)).
                     <br>
-                    The order of the composition is important. 
-                    For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1. 
-                    Then g(f(x)) = x<sup>2</sup> + 1, while 
+                    The order of the composition is important.
+                    For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1.
+                    Then g(f(x)) = x<sup>2</sup> + 1, while
                     f(g(x)) = (x + 1)<sup>2</sup>,
                     which is x<sup>2</sup> + 2x + 1, a different function.
                     </p>
@@ -684,7 +811,7 @@
                     <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
                     <figcaption>
-                    The first function takes input x and outputs 
+                    The first function takes input x and outputs
                     f(x). The second function takes as input the value
                     f(x) and outputs g(f(x))
                     </figcaption>
@@ -696,14 +823,14 @@
                     Inverse Functions
                     </summary>
                     <p>
-                   
-                    Let f be a one-to-one 
-                    correspondence from the set A to the set B. The 
-                    inverse function of f is the function that assigns 
+
+                    Let f be a one-to-one
+                    correspondence from the set A to the set B. The
+                    inverse function of f is the function that assigns
                     to an element b belonging to B
-                    the unique element a in 
+                    the unique element a in
                     A such that f (a) = b. The
-                    inverse function of f is denoted 
+                    inverse function of f is denoted
                     by f<sup>&minus;1</sup>.
                     Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
                     </p>
@@ -711,10 +838,11 @@
                     <img src = "graphics/InverseFunction.png"
                         height="280" width="210">
                     <figcaption>
-                    A function f and its inverse 
+                    A function f and its inverse
+                    </figcaption>
                     f<sup>&minus;1</sup>. Because f maps a to 3,
                     the inverse f<sup>&minus;1</sup> maps 3 back to a.
-                    </figcaption>
+
                     </figure>
                 </details>
 
@@ -756,7 +884,7 @@
                     The floor function rounds <i>x</i>
                     down to the closest integer less than or equal to <i>x</i>,
                     and the ceiling function rounds <i>x</i> up to the closest
-                    integer greater than or equal to <i>x</i>. 
+                    integer greater than or equal to <i>x</i>.
                     </p>
 
                     <details>
@@ -775,6 +903,38 @@
                         <summary class="sum3">
                         Ceiling
                         </summary>
+
+                        <p>
+                        Let <i>x</i> be a real number.
+                        The floor function rounds <i>x</i>
+                        down to the closest integer less than or equal to <i>x</i>,
+                        and the ceiling function rounds <i>x</i> up to the closest
+                        integer greater than or equal to <i>x</i>.
+                        </p>
+
+                        <details>
+                            <summary class="sum3">
+                            Floor
+                            </summary>
+                            <figure>
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
+                                <figcaption>
+                                Floor function
+                                </figcaption>
+                            </figure>
+                        </details>
+
+                        <details>
+                            <summary class="sum3">
+                            Ceiling
+                            </summary>
+                            <figure>
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
+                                <figcaption>
+                                Ceiling function
+                                </figcaption>
+                            </figure>
+                        </details>
                         <figure>
                             <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
                             <figcaption>
@@ -783,19 +943,23 @@
                         </figure>
                     </details>
                 </details>
-
+                <!--include quiz2.3.qhtm -->
             </details>
 
             <details>
                 <summary class="sum1">
                 Sequences
                 </summary>
-                
+
                 <p>
-                A <b>sequence </b> is a function from a 
-                subset of the set of integers (usually 
-                either the set {0, 1, 2, ...} 
-                or the set {1, 2, 3,...}) to a set <i>S</i>. We use the 
+                A <b>sequence </b> is a function from a
+                subset of the set of integers (usually
+                either the set {0, 1, 2, ...}
+                or the set {1, 2, 3,...}) to a set S. We use the
+                A <b>sequence </b> is a function from a
+                subset of the set of integers (usually
+                either the set {0, 1, 2, ...}
+                or the set {1, 2, 3,...}) to a set <i>S</i>. We use the
                 notation a<sub>n</sub> to denote the image of the integer.
                 We call a<sub>n</sub> a term of the sequence.
                 <br>
@@ -803,65 +967,71 @@
                 <br>
                 a = 1/n
                 <br>
-                The list of the terms of this sequence, 
+                The list of the terms of this sequence,
                 beginning with a<sub>1</sub>, namely, a<sub>1</sub>,
                 a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>,...,
                 <br>
                 starts with
                 <br>
-                1, 1/2, 1/3, 1/4,.... 
+                1, 1/2, 1/3, 1/4,....
                 </p>
 
                 <details>
                 <summary class="sum2">
-                Types of Sequence 
+                Types of Sequence
                 </summary>
                 <ol class="nested">
                     <li>
-                        A <b>geometric progression</b> 
+                        A <b>geometric progression</b>
                         is a sequence of the form a,
-                        ar, ar<sup>2</sup>, ..., ar<sup>n</sup>, ... 
-                        where the initial term a and the common 
+                        ar, ar<sup>2</sup>, ..., ar<sup>n</sup>, ...
+                        where the initial term a and the common
                         ratio r are real numbers.
                     </li>
                     <li>
-                        An<b> arithmetic progression</b> 
-                        is a sequence of the form a, a + d, 
-                        a + 2d, ... , a + nd, ... where 
-                        the initial term a and the common 
+                        An<b> arithmetic progression</b>
+                        is a sequence of the form a, a + d,
+                        a + 2d, ... , a + nd, ... where
+                        the initial term a and the common
                         difference d are real numbers.
                     </li>
                     <li>
-                        A <b>recurrence relation for the 
-                        sequence</b> {a<sub>n</sub>} is an equation 
-                        that expresses an in terms of one 
+                        A <b>recurrence relation for the
+                        sequence</b> {a<sub>n</sub>} is an equation
+                        that expresses an in terms of one
                         or more of the previous terms of the
                         sequence, namely, a<sub>0</sub>,
-                        a<sub>1</sub>, ... , a<sub>n&minus;1</sub>, 
+                        a<sub>1</sub>, ... , a<sub>n&minus;1</sub>,
                         for all integers n with n &ge;
-                        n<sub>0</sub>, where n<sub>0</sub> 
-                        is a nonnegative integer. A sequence is 
-                        called a solution of a recurrence relation 
-                        if its terms satisfy the recurrence relation. 
-                        (A recurrence relation is said to recursively 
-                        define a sequence. We will explain this 
+                        n<sub>0</sub>, where n<sub>0</sub>
+                        is a nonnegative integer. A sequence is
+                        called a solution of a recurrence relation
+                        if its terms satisfy the recurrence relation.
+                        (A recurrence relation is said to recursively
+                        define a sequence. We will explain this
                         alternative terminology in Chapter 5.)
+                    </li>
+                    <li>
+                        The <b>Fibonacci sequence</b>, f<sub>0</sub>, f<sub>1</sub>,
+                        f<sub>2</sub>, ... , is defined by the
+                        initial conditions f<sub>0</sub> = 0, f<sub>1</sub> = 1,
+                        and the recurrence relation f<sub>n</sub> =
                         <br />
                         <br />
-                        The <b>Fibonacci sequence</b>, f<sub>0</sub>, f<sub>1</sub>, 
-                        f<sub>2</sub>, ... , is defined by the 
-                        initial conditions f<sub>0</sub> = 0, f<sub>1</sub> = 1, 
-                        and the recurrence relation f<sub>n</sub> = 
+                        The <b>Fibonacci sequence</b>, f<sub>0</sub>, f<sub>1</sub>,
+                        f<sub>2</sub>, ... , is defined by the
+                        initial conditions f<sub>0</sub> = 0, f<sub>1</sub> = 1,
+                        and the recurrence relation f<sub>n</sub> =
                         f<sub>n &minus; 1</sub> + f<sub>n &minus; 2</sub>
                         for n = 2, 3, 4,....
                     </li>
-                
+
                     <li>
-                    <b>Summation</b> (&Sigma;) 
-                    is the addition of a sequence of numbers; 
-                    the result is their sum or total. If numbers 
-                    are added sequentially from left to right, 
-                    any intermediate result is a partial sum, 
+                    <b>Summation</b> (&Sigma;)
+                    is the addition of a sequence of numbers;
+                    the result is their sum or total. If numbers
+                    are added sequentially from left to right,
+                    any intermediate result is a partial sum,
                     prefix sum, or running total of the summation.
                     </li>
 
@@ -873,26 +1043,33 @@
                     </li>
                     </ol>
                 </details>
+                <!--include quiz2.4.qhtm -->
             </details>
 
             <details>
                 <summary class="sum1">
-                Cardinality of Sets 
+                Cardinality of Sets
                 </summary>
                 <p>
+<<<<<<< HEAD
                     The sets <i>A</i> and <i>B</i> have the
                     same cardinality if and only if 
                     there is a one-to-one correspondence
                     from <i>A</i> to <i>B</i>. When 
                     <i>A</i> and <i>B</i> have the same cardinality,
                     we write |<i>A</i>| = |<i>B</i>|.
+=======
+                    The sets A and B have the same cardinality if and only if
+                    there is a one-to-one correspondence from A to B. When
+                    A and B have the same cardinality, we write |A| = |B|.
+>>>>>>> 010b232a106b72d5060868b4957f9a3ca20ddbc4
                 </p>
                 <p>
-                    If there is a one-to-one function from A to B, 
-                    the cardinality of A is less than or the same as the 
+                    If there is a one-to-one function from A to B,
+                    the cardinality of A is less than or the same as the
                     cardinality of B and we write |A| &le; |B|. Moreover,
-                     when |A| &le; |B| and A and B have different cardinality, 
-                     we say that the cardinality of A is less than 
+                     when |A| &le; |B| and A and B have different cardinality,
+                     we say that the cardinality of A is less than
                      the cardinality of B and we write |A| &lt; |B|.
                 </p>
                 <details>
@@ -900,27 +1077,34 @@
                 Countable Sets
                 </summary>
                 <p>
-                A set that is either finite or has the same 
-                cardinality as the set of positive integers 
-                is called <b>countable</b>. A set that is not 
-                countable is called uncountable. When an infinite 
-                set <i>S</i> is countable, we denote the cardinality of 
+                A set that is either finite or has the same
+                cardinality as the set of positive integers
+                is called <b>countable</b>. A set that is not
+                countable is called uncountable. When an infinite
+                set S is countable, we denote the cardinality of
+                S by &alefsym;<sub>0</sub>
+                (where &alefsym; is aleph, the first letter of
+                A set that is either finite or has the same
+                cardinality as the set of positive integers
+                is called <b>countable</b>. A set that is not
+                countable is called uncountable. When an infinite
+                set <i>S</i> is countable, we denote the cardinality of
                 <i>S</i> by &alefsym;<sub>0</sub>
-                (where &alefsym; is aleph, the first letter of 
+                (where &alefsym; is aleph, the first letter of
                 the Hebrew alphabet). We write |S| = &alefsym;<sub>0</sub>
                 and say that <i>S</i> has cardinality "aleph null."
                 <br>
                 <b>For Example</b>: Show that the set of all integers is countable.
                 <br>
-                <b>Solution</b>: We can list all integers in a 
-                sequence by starting with 0 and alternating between 
-                positive and negative integers: 0, 1, -1, 2, -2, ... 
+                <b>Solution</b>: We can list all integers in a
+                sequence by starting with 0 and alternating between
+                positive and negative integers: 0, 1, -1, 2, -2, ...
                  Alternatively, we could find a one-to-one correspondence
-                  between the set of positive integers and the set of 
-                  all integers. 
+                  between the set of positive integers and the set of
+                  all integers.
                   The function f(n) = n/2 when n is even and
-                  f(n) = -(n &minus; 1)/2 
-                  when n is odd is such a function. 
+                  f(n) = -(n &minus; 1)/2
+                  when n is odd is such a function.
                   Consequently, the set of all integers is countable.
                 </p>
                 <p>
@@ -928,12 +1112,12 @@
                 <br />
                 How do we order them?
                 <br />
-                All rational numbers <i>p</i>/<i>q</i> where <i>p</i> + 
+                All rational numbers <i>p</i>/<i>q</i> where <i>p</i> +
                     <i>q</i> add to 2, then all where they add to 3...
                 <br />
                 So...
                 <br />
-                1/1, 1/2, 2/1, 1/3, 3/1, 1/4, 2/3, 3/2, 4/1... 
+                1/1, 1/2, 2/1, 1/3, 3/1, 1/4, 2/3, 3/2, 4/1...
                 </p>
 
             </details>
@@ -943,12 +1127,12 @@
                 An Uncountable Set
                 </summary>
                 <p>
-                <b>An uncountable</b> set (or uncountably 
-                infinite set)[1] is an infinite set that 
-                contains too many elements to be countable. 
-                The uncountability of a set is closely related 
+                <b>An uncountable</b> set (or uncountably
+                infinite set)[1] is an infinite set that
+                contains too many elements to be countable.
+                The uncountability of a set is closely related
                 to its cardinal number: a set is uncountable
-                 if its cardinal number is larger than 
+                 if its cardinal number is larger than
                  that of the set of all natural numbers.
                  <br />
                  There is an injection from the smaller set to
@@ -964,24 +1148,25 @@
                 </details>
                 <details>
                 <summary class="sum2">
-                Theorems  
+                Theorems
                 </summary>
                 <ol>
                     <li>
-                    If A and B are countable sets, 
+                    If A and B are countable sets,
                     then A &cup; B is also countable.
                     </li>
                     <li>
-                    SCHR&Ouml;DER-BERNSTEIN THEOREM 
+                    SCHR&Ouml;DER-BERNSTEIN THEOREM
                     <br />
-                    If A and B are sets with |A| &le; 
-                    |B| and |B| &le; |A|, then |A| = |B|. 
-                    In other words, if there are one-to-one 
-                    functions f from A to B and g from B to A, 
+                    If A and B are sets with |A| &le;
+                    |B| and |B| &le; |A|, then |A| = |B|.
+                    In other words, if there are one-to-one
+                    functions f from A to B and g from B to A,
                     then there is a one-to-one correspondence between A and B.
                     </li>
                 </ol>
                 </details>
+                <!--include quiz2.5.qhtm -->
             </details>
 
             <details>
@@ -989,12 +1174,12 @@
                 Matrices: NOT COVERED SPRING 2018
                 </summary>
                 <p>
-                A <b>matrix</b> is a rectangular array of numbers. 
+                A <b>matrix</b> is a rectangular array of numbers.
                 A matrix with m rows and n columns is
-                called an m &mul; n matrix. 
-                The plural of matrix is matrices. A matrix with the same 
-                number of rows as columns is called square. Two matrices 
-                are equal if they have the same number of rows and the same 
+                called an m &mul; n matrix.
+                The plural of matrix is matrices. A matrix with the same
+                number of rows as columns is called square. Two matrices
+                are equal if they have the same number of rows and the same
                 number of columns and the corresponding
                 entries in every position are equal.
                 <br>
@@ -1007,44 +1192,44 @@
                 </summary>
                 <ol>
                 <li>
-                <b>Addition</b>: The sum A+B of two 
+                <b>Addition</b>: The sum A+B of two
                 m-by-n matrices A and B is calculated entrywise:
-                (A + B)<sub>i,j</sub> = A<sub>i,j</sub> + B<sub>i,j</sub> , 
+                (A + B)<sub>i,j</sub> = A<sub>i,j</sub> + B<sub>i,j</sub> ,
                 where 1 &le; i &le; m and 1 &le; j &le; n.
-                <br>        
+                <br>
                 <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/9e600aa691a93ceb33f0fdac290002d1391d6688">
                 </li>
                 <li>
-                <b>Scalar multiplication</b>: The product c. 
-                A of a number c (also called a scalar in the 
-                parlance of abstract algebra) and a matrix A is 
+                <b>Scalar multiplication</b>: The product c.
+                A of a number c (also called a scalar in the
+                parlance of abstract algebra) and a matrix A is
                 computed by multiplying every entry of A by c:
                 <br>
-                (cA)<sub>i,j</sub> = c . A<sub>i,j</sub>.  
+                (cA)<sub>i,j</sub> = c . A<sub>i,j</sub>.
                 <br>
                 <img src = " https://wikimedia.org/api/rest_v1/media/math/render/svg/cf7fe1075c8c575225e74096007bef9205c88964">
                 </li>
                 <li>
-                <b>Transposition</b> : The transpose of an 
-                m-by-n matrix A is the n-by-m matrix AT 
-                (also denoted Atr or tA) formed by turning 
+                <b>Transposition</b> : The transpose of an
+                m-by-n matrix A is the n-by-m matrix AT
+                (also denoted Atr or tA) formed by turning
                 rows into columns and vice versa:
                 (AT)<sub>i,j</sub> = A<sub>j,i</sub>.
                 <br>
                 <img src = " https://wikimedia.org/api/rest_v1/media/math/render/svg/51f6dba024e104b412ed0562163ca9a11fcb9463">
                 </li>
                 <li>
-                <b>Matrix multiplication</b> : 
-                Multiplication of two matrices is 
-                defined if and only if the number of 
-                columns of the left matrix is the 
-                same as the number of rows of the 
-                right matrix.If A is an m-by-n matrix 
-                and B is an n-by-p matrix, then 
-                their matrix product AB is the 
-                m-by-p matrix whose entries are 
-                given by dot product of the 
-                corresponding row of A and 
+                <b>Matrix multiplication</b> :
+                Multiplication of two matrices is
+                defined if and only if the number of
+                columns of the left matrix is the
+                same as the number of rows of the
+                right matrix.If A is an m-by-n matrix
+                and B is an n-by-p matrix, then
+                their matrix product AB is the
+                m-by-p matrix whose entries are
+                given by dot product of the
+                corresponding row of A and
                 the corresponding column of B:
                 <br>
                 <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/db581eb370e44283170093b08a2ae8407bc38314">
@@ -1056,4 +1241,3 @@
             </details>
     </body>
 </html>
-

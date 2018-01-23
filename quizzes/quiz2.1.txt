@@ -1,0 +1,5 @@
+How many subset/s does the power set of an empty set have?#Zero#Three#Two#^One
+What is the cardinality of the set of odd positive integers less than 10?#^5#12#10#7
+The set of whole numbers is ___#Finite#Empty#^Infinite
+___ is a collection of objects #A proposition#Cardinality#^A set#A function
+If ∀x(x ∈ A → x ∈ B) is true, that means:#^A ⊆ B#A and B are mutually exclusive sets#None of the above#B ⊆ A

@@ -1,0 +1,5 @@
+The difference of {2,4,5} and {2,3,5} is the set:#{3}#{2,5}#^{4}#{3,4}
+The intersection of the sets {6,7,9} and {6,7,8} is the set:#{8,9}#^{6,7}#{6}#Empty set
+Which of the following laws says A ∩ U = A?#^Identity#Complement#Idempotent#Absorption
+What bit strings represent the subset of all odd integers in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}?#11 1111 1111#^10 1010 1010#01 0101 0101#00 0000 0000
+Which one of the following is the distributive law?#A ∪ (A ∩ B) = A#^A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)#A ∪ ∅ = A A ∪ ∅ = A#(A ∪ B) ∪ C = A ∪ (B ∪ C) (A ∪ B) ∪ C = A ∪ (B ∪ C)

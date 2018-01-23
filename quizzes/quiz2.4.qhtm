@@ -1,0 +1,120 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                (2^1)+(2^2)+(2^3)+...+(2^n) =
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                2((2^n)-1)
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                2((2^(n-1))-1)
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                2^(n-1)
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                2((2^(n+1))-1)
+                </li>
+            </ol>
+            <li>
+                Given the following terms a(1)=8 and a(2)=13, what is a(3) in an arithmetic sequence?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                18
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                21
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                34
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                26
+                </li>
+            </ol>
+            <li>
+                Given the following terms a(1)=8 and a(2)=32, what is a(3) in a geometric sequence?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                120
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                40
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                52
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                128
+                </li>
+            </ol>
+            <li>
+                Consider the sequence 7,7,7,7,7.. which one of the following is true?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                Sequence is geometric
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                Sequence is arithmetic and geometric
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                Sequence is neither arithmetic nor geometric
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                Sequence is arithmetic
+                </li>
+            </ol>
+            <li>
+                The recurrence relation for the sequence 1, 5, 9, 13, 17,.. is:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                x(n+1)=2(x(n))+1
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                x(n+1)=x(n)+4
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                x(n+1)+4=x(n)
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                x(n+1)=(x(n))^(1/2)
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. a; 2. a; 3. d; 4. b; 5. b; 
+            </p>
+        </details>
+    </details>
