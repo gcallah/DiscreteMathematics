@@ -1,5 +1,5 @@
 (2^1)+(2^2)+(2^3)+...+(2^n) =#^2((2^n)-1)#2((2^(n-1))-1)#2^(n-1)#2((2^(n+1))-1)
-Given the following terms a1=8 and a a2=13, what is a3 in an arithmetic sequence?#^18#21#34#26
-Given the following terms a1=8 and a2=32, what is a3 in a geometric sequence?#120#40#52#^128
-Consider the sequence 7,7,7,7,7.. which one of the following is true?#Sequence is geometric#^Sequence is arithmetic and geometric#Sequence is neieither arithmetic nor geometric#Sequence is arithmetic
+Given the following terms a(1)=8 and a(2)=13, what is a(3) in an arithmetic sequence?#^18#21#34#26
+Given the following terms a(1)=8 and a(2)=32, what is a(3) in a geometric sequence?#120#40#52#^128
+Consider the sequence 7,7,7,7,7.. which one of the following is true?#Sequence is geometric#^Sequence is arithmetic and geometric#Sequence is neither arithmetic nor geometric#Sequence is arithmetic
 The recurrence relation for the sequence 1, 5, 9, 13, 17,.. is:#x(n+1)=2(x(n))+1#^x(n+1)=x(n)+4#x(n+1)+4=x(n)#x(n+1)=(x(n))^(1/2)
