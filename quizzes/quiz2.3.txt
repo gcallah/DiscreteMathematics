@@ -2,3 +2,5 @@ If f(x) = x^3 and g(x) = x+5 then g(f(x)) is equal to:#x^3+125#^x^3 + 5#x^6#(x+5
 Floor(-2.7) =#-2#^-3#2#-2.5
 Ceil(-2.7) =#2#-3#^-2#-2.5
 Which of the following functions are one-to-one?#^
+Which of the following functions ais one-to-one?#f(x)=(x^2)-2#f(x)=x^2#f(x)=|x-2|#^f(x)=x^3
+Which of the following functions is an onto function?#f(x)=x+3#f(x)=x^2#^f(x)=3(x)-4#f(x)=(x^2)-2
