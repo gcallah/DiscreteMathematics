@@ -1,0 +1,1 @@
+If A and B are countable sets then:#^A ∪ B is also countable#A < B#B < A#A is a subset of B
