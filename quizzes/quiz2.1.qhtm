@@ -93,7 +93,7 @@
                 </li>
                 <li>
                 <input type="radio" name="q5" value="b">
-                A and B are mutually exclusivee sets
+                A and B are mutually exclusive sets
                 </li>
                 <li>
                 <input type="radio" name="q5" value="c">
