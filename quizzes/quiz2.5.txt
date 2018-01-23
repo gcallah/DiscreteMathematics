@@ -1,3 +1,5 @@
 If A and B are countable sets then:#^A ∪ B is also countable#A < B#B < A#A is a subset of B
 What is the cardinality of the power set of the set {1,2,4}?#3#^8#6#5
-The cardinality of A = { 5,6,3,2,3, 22} is:#6#^4#7#5
+The cardinality of A = {5,6,3,2,3,2} is:#6#^4#7#5
+True or False: a set is uncountable if its cardinal number is larger than that of the set of all natural numbers#False#^True
+True or False: the set of all integers is uncountable#True#^False
