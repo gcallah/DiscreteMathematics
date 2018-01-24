@@ -807,64 +807,6 @@
                     <br>
                     <b>Example</b>: Square root is not an onto function.
                   </p>
-                    </details>
-                <details>
-                    <summary class="sum2">
-                    Function Composition
-                    </summary>
-                    <p>
-                    The function
-                    composition of two functions takes the output
-                    of one function as the input of a second one. More
-                    specifically, the composition of f with a function
-                    g: Y &rarr; Z is the function
-                    (g &ordm; f : X &rarr; Z) defined by
-                    <br>
-                    (g &ordm; f)(x) = g(f(x)).
-                    <br>
-                    The order of the composition is important.
-                    For example, suppose f(x) = x<sup>2</sup> and g(x) = x + 1.
-                    Then g(f(x)) = x<sup>2</sup> + 1, while
-                    f(g(x)) = (x + 1)<sup>2</sup>,
-                    which is x<sup>2</sup> + 2x + 1, a different function.
-                    </p>
-                    <figure>
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
-                    <figcaption>
-                    The first function takes input x and outputs
-                    f(x). The second function takes as input the value
-                    f(x) and outputs g(f(x))
-                    </figcaption>
-                    </figure>
-                </details>
-
-                <details>
-                    <summary class="sum2">
-                    Inverse Functions
-                    </summary>
-                    <p>
-
-                    Let f be a one-to-one
-                    correspondence from the set A to the set B. The
-                    inverse function of f is the function that assigns
-                    to an element b belonging to B
-                    the unique element a in
-                    A such that f (a) = b. The
-                    inverse function of f is denoted
-                    by f<sup>&minus;1</sup>.
-                    Hence, f<sup>&minus;1</sup>(b) = a when f (a) = b.
-                    </p>
-                    <figure>
-                    <img src = "graphics/InverseFunction.png"
-                        height="280" width="210">
-                    <figcaption>
-                    A function f and its inverse
-                    </figcaption>
-                    f<sup>&minus;1</sup>. Because f maps a to 3,
-                    the inverse f<sup>&minus;1</sup> maps 3 back to a.
-
-                    </figure>
                 </details>
 
                 <details>
