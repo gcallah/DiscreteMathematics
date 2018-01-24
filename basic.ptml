@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
             Basic Structures: Sets, Functions, Etc.
@@ -306,21 +308,23 @@
                             <br>
                             {<i>x</i>}
                             <br>
-                            {y}
+                            {<i>y</i>}
                             <br>
-                            {z}
+                            {<i>z</i>}
                             <br>
-                            {<i>x</i>, y}
+                            {<i>x</i>, <i>y</i>}
                             <br>
-                            {<i>x</i>, z}
+                            {<i>x</i>, <i>z</i>}
                             <br>
-                            {y, z}
+                            {<i>y</i>, <i>z</i>}
                             <br>
-                            {<i>x</i>, y, z}
+                            {<i>x</i>, <i>y</i>, <i>z</i>}
                             <br>
                             and hence the power set of <i>S</i> is {{},
-                            {<i>x</i>}, {y}, {z}, {<i>x</i>, y},
-                            {<i>x</i>, z}, {y, z}, {<i>x</i>, y, z}}.
+                            {<i>x</i>}, {<i>y</i>}, {<i>z</i>},
+                            {<i>x</i>, <i>y</i>},
+                            {<i>x</i>, <i>z</i>}, {<i>y</i>, <i>z</i>},
+                            {<i>x</i>, <i>y</i>, <i>z</i>}}.
                             <br />
                             Size of the power set of a set of size <i>n</i>
                             is <i>2</i><sup>n</sup>. Why? See
@@ -474,17 +478,17 @@
                             <figure>
                             <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/440px-Venn1010.svg.png">
                             <figcaption>
-                            The complement of A in U
+                            The complement of <i>A</i> in <i>U</i>
                             </figcaption>
                             </figure>
                         <p>
                             In certain settings all sets under
                             discussion are considered
-                            to be subsets of a given universal set U.
-                            In such cases, U &minus; A
+                            to be subsets of a given universal set <i>U</i>.
+                            In such cases, <i>U</i> &minus; <i>A</i>
                             is called the absolute complement or
-                            simply complement of A, and is denoted by an A
-                            with a bar over it.
+                            simply complement of <i>A</i>, and is denoted
+                            by an <i>A</i> with a bar over it.
                             <br>
                             For instance:
                             <br>
@@ -494,21 +498,25 @@
                             <br>
                             Some basic properties of complements:
                             <br>
-                            1. A &minus; B &ne; B &minus; A for A &ne; B.
+                            1. <i>A</i> &minus; <i>B</i>
+                                &ne; <i>B</i> &minus; <i>A</i>
+                                for <i>A</i> &ne; <i>B</i>.
                             <br>
-                            2. A &cup; <span class="over">A</span> = U.
+                            2. <i>A</i> &cup; <span class="over"><i>A</i></span>
+                                = <i>U</i>.
                             <br>
-                            3. A &cap; <span class="over">A</span> = &empty;.
+                            3. <i>A</i> &cap; <span class="over"><i>A</i></span>
+                                = &empty;.
                             <br>
-                            4. compl(<span class="over">A</span>) = A.
+                            4. <span class="over"><i>A</i></span> = <i>A</i>.
                             <br>
-                            5. A &minus; A = &empty;.
+                            5. <i>A</i> &minus; <i>A</i> = &empty;.
                             <br>
-                            6. <span class="over">U</span> = &empty; and <span
-                                class="over">&empty;</span> = U.
+                            6. <span class="over"><i>U</i></span> = &empty;
+                               and <span class="over">&empty;</span> = <i>U</i>.
                             <br>
-                            7. A &minus; B = A &cap; <span
-                                class="over">B</span>.
+                            7. <i>A</i> &minus; <i>B</i> = <i>A</i> &cap;
+                                <span class="over"><i>B</i></span>.
                         </p>
                         </details>
                     </details>
@@ -526,45 +534,47 @@
                             <br>
                             <i>A</i> &cap; <i>B</i> = <i>B</i> &cap; <i>A</i>
                             <br>
-                            A &cup; B = B &cup; A
-                            <i>A</i> &cup; <i>B</i> = <i>B</i> &cup; <i>A</i>\
+                            <i>A</i> &cup; <i>B</i> = <i>B</i> &cup; <i>A</i>
                             </li>
+
                             <li>
                             <b> <i>A</i>ssociative  laws:</b>
                             <br>
                             (<i>A</i> &cap; <i>B</i>) &cap;
                             C = <i>A</i> &cap; (<i>B</i> &cap; C)
                             <br>
-                            (A &cup; B) &cup; C = A &cup; (B &cup; C)
                             (<i>A</i> &cup; <i>B</i>) &cup;
                             C = <i>A</i> &cup; (<i>B</i> &cup; C)
                             </li>
+
                             <li>
                             <b>Distributive laws:</b>
                             <br>
                             <i>A</i> &cap; (<i>B</i> &cup; C) =
                             (<i>A</i> &cap; <i>B</i>) &cup; (<i>A</i> &cap; C)
                             <br>
-                            A &cup; (B &cap; C) = (A &cup; B) &cap; (A &cup; C)
                             <i>A</i> &cup; (<i>B</i> &cap; C) =
                             (<i>A</i> &cup; <i>B</i>) &cap; (<i>A</i> &cup; C)
                             </li>
+
                             <li>
                             <b>Identity laws:</b>
                             <br>
                             <i>A</i> &cap; <i>U</i> = <i>A</i>
                             <br>
-                            A &cup; &empty; = A
                             <i>A</i> &cup; &empty; = <i>A</i>
                             </li>
+
                             <li>
                             <b>Complement laws:</b>
                             <br>
-                            <i>A</i> &cup; <span class="over"><i>A</i></span> = <i>U</i>
+                            <i>A</i> &cup; <span class="over"><i>A</i></span>
+                                = <i>U</i>
                             <br>
                             <i>A</i> &cap;
                             <span class="over"><i>A</i></span> = &empty;
                             </li>
+
                             <li>
                             <b>Idempotent laws:</b>
                             <br>
@@ -572,6 +582,7 @@
                             <br>
                             <i>A</i> &cup; <i>A</i> = <i>A</i>
                             </li>
+
                             <li>
                             <b><i>A</i>bsorption laws:</b>
                             <br>
@@ -579,6 +590,7 @@
                             <br>
                             <i>A</i> &cup; (<i>A</i> &cap; <i>B</i>) = <i>A</i>
                             </li>
+
                         </ol>
 
                         <details>
@@ -590,14 +602,16 @@
                             </p>
                             <ol class="nested">
                                 <li>
-                                    <span class="over">A &cup; B</span> = <span
-                                          class="over">A</span> &cap; <span
-                                          class="over">B</span>
+                                    <span class="over"><i>A</i>
+                                          &cup; <i>B</i></span> = <span
+                                          class="over"><i>A</i></span> &cap; <span
+                                          class="over"><i>B</i></span>
                                 </li>
                                 <li>
-                                    <span class="over">A &cap; B</span> = <span
-                                          class="over">A</span> &cup; <span
-                                          class="over">B</span>
+                                    <span class="over"><i>A</i>
+                                          &cap; <i>B</i></span> = <span
+                                          class="over"><i>A</i></span> &cup; <span
+                                          class="over"><i>B</i></span>
                                 </li>
                             </ol>
                         </details>
@@ -650,12 +664,15 @@
                 and a set of permissible outputs with the property that
                 each input is related to exactly one output.
                 <br>
-                Let A and B be nonempty sets. A function f from
-                A to B is an assignment of exactly one element of
-                B to each element of A. We write f(a) = b if b is
-                the unique element of B assigned by the function f
-                to the element a of A. If f is a function from A to B,
-                we write f : A &rarr; B.
+                Let <i>A</i> and <i>B</i> be nonempty sets.
+                A function <i>f</i> from
+                <i>A</i> to <i>B</i> is an assignment of exactly one element of
+                <i>B</i> to each element of <i>A</i>.
+                We write <i>f</i>(<i>a</i>) = <i>b</i> if <i>b</i> is
+                the unique element of <i>B</i> assigned by the function <i>f</i>
+                to the element <i>a</i> of <i>A</i>.
+                If <i>f</i> is a function from <i>A</i> to <i>B</i>,
+                we write <i>f</i> : <i>A</i> &rarr; <i>B</i>.
                 </p>
 
                 <figure>
@@ -707,7 +724,8 @@
                     <p>
                     A function f from A to B is
                     called onto, or a surjection, if and only if for every
-                    element b &isin; B there is an element a&isin;A with f(a)=b.
+                    element b &isin; B there is an element a &isin;
+                    A with f(a) = b.
                     A function f from A to B is
                     called onto, or a surjection, if and only if for every
                     element b &isin; B there is an element a &isin;
@@ -720,7 +738,8 @@
                     This function is onto, because for every
                     integer y there is an integer x such that f (x) = y.
                     To see this, note that f (x) = y if and
-                    only if x + 1 = y, which holds if and only if x = y − 1.
+                    only if x + 1 = y, which holds
+                    if and only if x = y &minus; 1.
                     </p>
                     </details>
                     <details>
