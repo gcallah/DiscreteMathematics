@@ -1159,19 +1159,22 @@
                 <summary class="sum2">
                 Theorems
                 </summary>
-                <ol>
+                <ol class="nested">
                     <li>
-                    If A and B are countable sets,
-                    then A &cup; B is also countable.
+                    If <i>A</i> and <i>B</i> are countable sets,
+                    then <i>A</i> &cup; <i>B</i> is also countable.
                     </li>
                     <li>
                     SCHR&Ouml;DER-BERNSTEIN THEOREM
                     <br />
-                    If A and B are sets with |A| &le;
-                    |B| and |B| &le; |A|, then |A| = |B|.
+                    If <i>A</i> and <i>B</i> are sets with |<i>A</i>| &le;
+                    |<i>B</i>| and |<i>B</i>| &le; |<i>A</i>|,
+                    then |<i>A</i>| = |<i>B</i>|.
                     In other words, if there are one-to-one
-                    functions f from A to B and g from B to A,
-                    then there is a one-to-one correspondence between A and B.
+                    functions <i>f</i> from <i>A</i> to
+                    <i>B</i> and <i>g</i> from <i>B</i> to <i>A</i>,
+                    then there is a one-to-one correspondence
+                    between <i>A</i> and <i>B</i>.
                     </li>
                 </ol>
                 </details>
