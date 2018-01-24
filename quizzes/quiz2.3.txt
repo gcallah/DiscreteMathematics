@@ -2,5 +2,5 @@ If <i>f</i>(<i>x</i>) = <i>x</i><sup>3</sup> and <i>g</i>(<i>x</i>) = <i>x</i> +
 Floor(-2.7) =#-2#^-3#2#-2.5
 Ceil(-2.7) =#2#-3#^-2#-2.5
 Which of the following functions is one-to-one, if the domain of <i>x</i> is the integers?#<i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> - 2#<i>f</i>(<i>x</i>) = <i>x</i><sup>n</sup> - <i>x</i> where <i>n</i> > 0#<i>f</i>(<i>x</i>) = |<i>x</i> - 2|#^<i>f</i>(<i>x</i>) = <i>x</i><sup>3</sup>
-Which of the following functions is an onto function, if the domain of <i>x</i> is the positive integers?#<i>f</i>(<i>x</i>) = <i>x</i> + 3#<i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup>#^<i>f</i>(<i>x</i>) = <i>x</i> &minus; 4#<i>f</i>(<i>x</i>) = <i>x<i><sup>2</sup> &minus; 2
+Which of the following functions is an onto function, if the domain of <i>x</i> is the positive integers?#<i>f</i>(<i>x</i>) = <i>x</i> + 3#<i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup>#^<i>f</i>(<i>x</i>) = <i>x</i> &minus; 4#<i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> &minus; 2
 The inverse of <i>f</i>(<i>x</i>) = 2<i>x</i> + 3 is <i>f</i><sup> -1</sup><i>y</i> = #(<i>y</i>/2) - 3#(<i>y</i> - 2)/3#2<i>y</i> + 3#^(<i>y</i> - 3)/2

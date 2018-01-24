@@ -105,7 +105,7 @@
                 </li>
                 <li>
                 <input type="radio" name="q5" value="d">
-                <i>f</i>(<i>x</i>) = <i>x<i><sup>2</sup> &minus; 2
+                <i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> &minus; 2
                 </li>
             </ol>
             <li>
