@@ -291,9 +291,11 @@
                             The power set of S is denoted by P(S).
                             </p>
                             <p>
-                            Given a set <i>S</i>, the <b>power set</b> of <i>S</i> is the set of
+                            Given a set <i>S</i>, the <b>power set</b>
+                            of <i>S</i> is the set of
                             all subsets of the set <i>S</i>.
-                            The power set of <i>S</i> is denoted by P(S).
+                            The power set of <i>S</i> is denoted
+                            by <i>P</i>(<i>S</i>).
                             <br>
                             <b>For Example</b>:
                             <br>
@@ -321,7 +323,7 @@
                             {<i>x</i>, z}, {y, z}, {<i>x</i>, y, z}}.
                             <br />
                             Size of the power set of a set of size <i>n</i>
-                            is <i>n</i> <sup>2</sup>. Why? See
+                            is <i>2</i><sup>n</sup>. Why? See
                             <a
                                 href="https://en.wikipedia.org/wiki/Pascal%27s_triangle">
                                 Pascal's Triangle
