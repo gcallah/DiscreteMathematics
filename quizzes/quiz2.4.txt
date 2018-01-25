@@ -1,5 +1,5 @@
-(2<sup>1</sup>) + (2<sup>2</sup>) + (2<sup>3</sup>) +...+ (2<sup>n</sup>) =#^2((2<sup>n</sup>) - 1)#2((2<sup>(n-1)</sup>) - 1)#2^<sup>(n-1)</sup>#2((2<sup>(n + 1)</sup>) - 1)
-Given the following terms a(1)=8 and a(2)=13, what is a(3) in an arithmetic sequence?#^18#21#34#26
-Given the following terms a(1)=8 and a(2)=32, what is a(3) in a geometric sequence?#120#40#52#^128
+(2<sup>1</sup>) + (2<sup>2</sup>) + (2<sup>3</sup>) +...+ (2<sup>n</sup>) =#^2((2<sup>n</sup>) - 1)#2((2<sup>(n-1)</sup>) - 1)#2<sup>(n-1)</sup>#2((2<sup>(n + 1)</sup>) - 1)
+Given the following terms a<sub>1</sub>=8 and a<sub>2</sub>=13, what is a<sub>3</sub> in an arithmetic sequence?#^18#21#34#26
+Given the following terms a<sub>1</sub>=8 and a<sub>2</sub>=32, what is a<sub>3</sub> in a geometric sequence?#120#40#52#^128
 Consider the sequence 7,7,7,7,7.. which one of the following is true?#Sequence is only geometric#^Sequence is arithmetic and geometric#Sequence is neither arithmetic nor geometric#Sequence is only arithmetic
-The recurrence relation for the sequence 1, 5, 9, 13, 17,.. is:#x(n+1)=2(x(n))+1#^x(n+1)=x(n)+4#x(n+1)+4=x(n)#x(n+1)=(x(n))^(1/2)
+The recurrence relation for the sequence 1, 5, 9, 13, 17,.. is:#<i>x</i>(<i>n</i>+1)=2<i>x</i>(<i>n</i>)+1#^<i>x</i>(<i>n</i>+1)=<i>x</i>(<i>n</i>)+4#<i>x</i>(<i>n</i>+1)+4=<i>x</i>(<i>n</i>)#<i>x</i>(<i>n</i>+1)=<i>x</i>(<i>n</i>)<sup>1/2</sup>
