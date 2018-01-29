@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Some Background: Logs, Modulus and More
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Some Background: Logs, Modulus and More
+        </h1>
+
+        <details>
+            <summary class="sum1">
+                Properties of Logs
+            </summary>
+            <p>
+                To be filled in with real material.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum1">
+                Modular Arithmetic
+            </summary>
+            <p>
+                To be filled in with real material.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum1">
+                What Else?
+            </summary>
+            <p>
+                To be answered by L.S.!
+            </p>
+        </details>
+
+
+    </body>
+</html>
