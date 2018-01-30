@@ -67,10 +67,10 @@
                         Read this carefully.
                     </li>
                     <li>
-                        x + 1 = 2.
+                        <i>x</i> + 1 = 2.
                     </li>
                     <li>
-                        x + y = z.
+                        <i>x</i> + <i>y</i> = <i>z</i>.
                     </li>
                 </ol>
             </details>

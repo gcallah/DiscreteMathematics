@@ -39,8 +39,8 @@
                     <p class="def">
                         DEFINITION
                     </p>
-                    <p>If S is a finite nonempty sample space of equally likely outcomes, and E is an event, that
-                        is, a subset of S, then the probability of E is p(E) = |E| | |S|</p>
+                    <p>If <i>S</i> is a finite nonempty sample space of equally likely outcomes, and <i>E</i> is an event, that
+                        is, a subset of <i>S</i>, then the probability of <i>E</i> is p(E) = |<i>E</i>| | |<i>S</i>|</p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -50,8 +50,8 @@
                         <summary class="sum3">
                             THEOREM 1
                         </summary>
-                          <p>Let E be an event in a sample space S. The probability of the event E = S − E, the complementary
-                              event of E, is given by p(E) = 1 − p(E).</p>
+                          <p>Let <i>E</i> be an event in a sample space <i>S</i>. The probability of the event <i>E</i> = <i>S</i> − <i>E</i>, the complementary
+                              event of <i>E</i>, is given by p(E) = 1 − p(E).</p>
                     </details>
                     <details>
                         <summary class="sum3">
@@ -86,7 +86,7 @@
                         <summary class="sum3">
                             THEOREM 2
                         </summary>
-                           <p>Let <i>E1 </i>and <i>E2</i> be events in the sample space S. Then <i>p(E1 ∪ E2) = p(E1) + p(E2) − p(E1 ∩ E2).</i></p>
+                           <p>Let <i>E1 </i>and <i>E2</i> be events in the sample space <i>S</i>. Then <i>p(E1 ∪ E2) = p(E1) + p(E2) − p(E1 ∩ E2).</i></p>
                     </details>
                     <details>
                         <summary class="sum3">
@@ -153,7 +153,7 @@
                     <p class="def">
                         DEFINITION1
                     </p>
-                <p>Consider a set S with n elements,then,the probability of each element of S considering uniform distribution is 1/n</p>
+                <p>Consider a set <i>S</i> with n elements,then,the probability of each element of <i>S</i> considering uniform distribution is 1/n</p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -527,7 +527,8 @@
                     </p>
                     
                     <p>
-                        <i>s</i> being an event in <i>S</i>, then
+                       The expected value of the random variable<i> X</i>on the
+                       sample space <i>S</i>, is
                         <i>E</i>(<i>X</i>) = &Sigma;<i>p</i>(<i>s</i>)
                         <i>X</i>(<i>s</i>)
                         <br />
@@ -604,7 +605,7 @@
                         Overview
                     </summary>
                       <p>Average case computational complexity of an algorithm is amount of computational resourse used by algorithm,averaged over all possible inputs.It can also be                               interpreted as computing the expected value of a random variable.</p>
-                       <p>Let us consider a<sub>j</sub>, j=1,2,....k to be all the outcomes of an experiment and X be a random variable,that defines number of operations used by the                                 algorithm,when a<sub>j</sub> is an input</p><p>Let x<sub>1</sub>,x<sub>2</sub>...x<sub>k</sub> be the respective random variables p<sub>j</sub> is the probability to                         each possible input .Then the average case complexity of the algorithm is</p>
+                       <p>Let us consider a<sub>j</sub>, j=1,2,....k to be all the outcomes of an experiment and <i>X</i> be a random variable,that defines number of operations used by the                                 algorithm,when a<sub>j</sub> is an input</p><p>Let x<sub>1</sub>,x<sub>2</sub>...x<sub>k</sub> be the respective random variables p<sub>j</sub> is the probability to                         each possible input .Then the average case complexity of the algorithm is</p>
 
                     <figure>
                         <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d67d86418d069a861449610af313dfbc208fbd14">
@@ -621,11 +622,11 @@
                       <p class="def">
                         DEFINITION 2
                       </p>
-                     <p>A random variable X has a geometric distribution with parameter p if <i>p(X = k) = (1 − p)<sup>k−1</sup></i> p for k = 1, 2, 3, . . ., where p is a real number with                       0 &le;p &le; 1.</p>
+                     <p>A random variable <i>X</i> has a geometric distribution with parameter p if <i>p(X = k) = (1 − p)<sup>k−1</sup></i> p for k = 1, 2, 3, . . ., where p is a real number with                       0 &le;p &le; 1.</p>
                     <p class="def">
                         THEOREM 4
                     </p>
-                    <p>If the random variable X has the geometric distribution with parameter p, then <i>E(X) = 1/p.</i></p>
+                    <p>If the random variable <i>X</i> has the geometric distribution with parameter p, then <i>E(X) = 1/p.</i></p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -651,12 +652,12 @@
                     <p class="def">
                         DEFINITION 4
                     </p>
-                     <p>Let <i> X</i> be a random variable on a sample space <i>S</i>. The variance of <i>X</i>, denoted by <i>V(X)</i>, is V(X) =&sum;<sub> s∈S </sub>(X(s) &minus;                               E(X))<sup>2</sup> p(s).</p><p>That is, V (X) is the weighted average of the square of the deviation of X. The standard deviation of X, denoted σ(X), is defined to be</p>
+                     <p>Let <i> X</i> be a random variable on a sample space <i>S</i>. The variance of <i>X</i>, denoted by <i>V(X)</i>, is V(X) =&sum;<sub> s∈S </sub>(X(s) &minus;                               E(X))<sup>2</sup> p(s).</p><p>That is, V (X) is the weighted average of the square of the deviation of <i>X</i>. The standard deviation of <i>X</i>, denoted σ(X), is defined to be</p>
                       <p><span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">&nbsp;V(X)&nbsp;</span></span></p>
                     <p class="def">
                         THEOREM 6
                     </p>
-                    <p>If X is a random variable on a sample space S, then V(X)= E(X<sup>2</sup>) &minus; E(X)<sup>2</sup>.</p>
+                    <p>If <i>X</i> is a random variable on a sample space <i>S</i>, then V(X)= E(X<sup>2</sup>) &minus; E(X)<sup>2</sup>.</p>
                     <p class="def">
                         COROLLARY 1
                     </p>
