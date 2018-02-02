@@ -835,22 +835,22 @@ an<i> isomorphism</i>.
                         Connectedness in Directed Graphs
                     </summary>
                 </details>
-				<details>
+                <details>
                     <summary class="sum3">
-				         Definition 4: 
-				     </summary>
-				      <p> 
-						  A directed graph is strongly connected if there is a path from                              <i>a</i> to <i>b</i> and from <i>b</i> to <i>a</i> whenever                                 <i>a</i> and <i>b</i> are vertices in the graph
-					  </p>
- 				 </details>
- 				<details>
+                         Definition 4: 
+                              </summary>
+                               <p> 
+                                  A directed graph is strongly connected if there is a path from <i>a</i> to <i>b</i> and from <i>b</i> to <i>a</i> whenever <i>a</i> and <i>b</i> are vertices in                             the graph
+                               </p>
+                     </details>
+                  <details>
                      <summary class="sum3">
- 				         Definition 5: 
- 				     </summary>
- 				      <p> 
-						  A directed graph is weakly connected if there is a path between                             every two vertices in the underlying undirected graph
-					  </p>                         
-  				 </details>
+                             Definition 5: 
+                               </summary>
+                                 <p> 
+                                 A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph
+                                       </p>                         
+                          </details>
 
                 <details>
                     <summary class="sum2">
