@@ -1137,11 +1137,16 @@
                             </summary>
 
                              <p>
-                              Sometimes we cannot prove a theorem using a single argument                                 that holds for all possible cases.We can prove a theorem, by                                considering different cases separately. This method is based                                on a rule of inference
+                             Sometimes we cannot prove a theorem using a
+                             single argument
+                             that holds for all possible cases.We can prove a
+                             theorem, by
+                             considering different cases separately. This
+                             method is based on
+                             a rule of inference.
                              </p>
 
-                    </details>
-                    <details>
+                        <details>
                              <summary class="sum3">
                                 Exhaustive Proof 
                              </summary>
@@ -1201,6 +1206,7 @@
                                </p>
 
                       </details>
+                  </details>
 
               </details>
  
