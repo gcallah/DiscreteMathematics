@@ -1176,6 +1176,29 @@
                                  The proofs that must cover all the cases that arises in a                                  theorem 
                                </p>
                                
+                               <p>
+                               <b>Example:</b>
+                               </p>
+
+                               <p>
+                               <br/>Prove that if n is an integer,then n<sup>2</sup> &ge;n                                   
+                                
+                               </p>
+                               <p>
+                               <br/> <b>Solution</b> We can prove that n <sup>2</sup> &ge;                                 n for every integer by considering three cases, when n                                      &equals; 0,when n &ge; 1, and when n &le; −1.
+                               </p>
+                               <p>
+                               We split the proof into three cases because it is                                           straightforward to prove the result by considering zero,                                    positive integers,and negative integers separately.
+                               </p>
+                               <p>
+                               Case (i): When n &equals; 0, because 0<sup>2</sup> &equals;                                 0, we see that 0<sup>2</sup> &ge; 0. It follows that                                        n<sup>2</sup> &ge; n is true in this case.
+                               </p>
+                               <p>
+                               Case (ii): When n &ge; 1, when we multiply both sides of the                                 inequality n &ge; 1 by the positive integer n, we obtain n                                  n &ge; n · 1. This implies that n2 &ge; n for n &ge; 1.
+                                </p>
+                                <p>
+                                Case (iii): In this case n &le; −1. However, n<sup>2</sup>                                  &ge; 0. It follows that n<sup>2</sup> &ge; n. Because the                                   inequality n<sup>2</sup> &ge; n holds in all three cases,                                   we can conclude that if n is an integer,then n<sup>2</sup>                                   &ge; n.
+                               </p>
 
                       </details>
 
