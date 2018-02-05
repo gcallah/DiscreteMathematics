@@ -1121,12 +1121,17 @@
                          </summary>
 
                          <p>
+
                             There are some commonly used proof methods,
                             like method of proving a theorem by considering
-                            different cases                                            seperately.
+                            different cases                                            
+                            seperately.
                          </p>
                          <p>   
-                            Also, there are strategies behind constructing                                              proof which includes selecting a proof method and then                                      succesfully constructing an argument step by step,based on                                  this method.
+                            Also, there are strategies behind constructing
+                            proof which includes selecting a proof method and then                                      
+                            succesfully constructing an argument step by step,based on                                  
+                            this method.
                          </p>
 
                    </details>
@@ -1153,7 +1158,8 @@
 
                               <p>
                                 Proofs that prove a theorem by exhausting all the
-                                posibilities are called Exhaustive proofs i.e. The theorem                                  can be proved using relatively small number of examples. 
+                                posibilities are called Exhaustive proofs i.e. The theorem                                  
+                                can be proved using relatively small number of examples. 
                               </p>
                                
                                <p>
@@ -1161,12 +1167,17 @@
                                </p>
 
                                <p>
-                               <br/>Prove that (n+1) <sup>3</sup> &ge; 3 <sup>n</sup> if                                   <i>n</i> is a positive integer with n &le; 4
+                               <br/>Prove that (n+1) <sup>3</sup> &ge; 3 <sup>n</sup> if                                   
+                               <i>n</i> is a positive integer with n &le; 4
                                 
                                </p>
                                <p>
                                <br/> <b>Solution</b> We only need to verify the inequality
-                               (n+1) <sup>3</sup> &ge; 3 <sup>n</sup> for <i>n</i> &equals;                                 1,2,3 & 4. For n &equals; 1 we have (8,3), n &equals; 2                                    (27,9). n &equals; 3 (64,27) and n &equals; 4 (125,81). For                                  all the above cases we have (n+1) <sup>3</sup> &ge; 3                                       <sup>n</sup>
+                               (n+1) <sup>3</sup> &ge; 3 <sup>n</sup> for <i>n</i> &equals;                                 
+                               1,2,3 & 4. For n &equals; 1 we have (8,3), n &equals; 2                                    
+                               (27,9). n &equals; 3 (64,27) and n &equals; 4 (125,81). For                                  
+                               all the above cases we have (n+1) <sup>3</sup> &ge; 3                                       
+                               <sup>n</sup>
                                </p>
                                
                               
@@ -1178,7 +1189,8 @@
                               </summary>
 
                                <p>
-                                 The proofs that must cover all the cases that arises in a                                  theorem 
+                                 The proofs that must cover all the cases that arises in a                                  
+                                 theorem 
                                </p>
                                
                                <p>
@@ -1190,19 +1202,31 @@
                                 
                                </p>
                                <p>
-                               <br/> <b>Solution</b> We can prove that n <sup>2</sup> &ge;                                 n for every integer by considering three cases, when n                                      &equals; 0,when n &ge; 1, and when n &le; −1.
+                               <br/> <b>Solution</b> We can prove that n <sup>2</sup> &ge;                                 
+                               n for every integer by considering three cases, when n                                      
+                               &equals; 0,when n &ge; 1, and when n &le; −1.
                                </p>
                                <p>
-                               We split the proof into three cases because it is                                           straightforward to prove the result by considering zero,                                    positive integers,and negative integers separately.
+                               We split the proof into three cases because it is                                           
+                               straightforward to prove the result by considering zero,                                    
+                               positive integers,and negative integers separately.
                                </p>
                                <p>
-                               Case (i): When n &equals; 0, because 0<sup>2</sup> &equals;                                 0, we see that 0<sup>2</sup> &ge; 0. It follows that                                        n<sup>2</sup> &ge; n is true in this case.
+                               Case (i): When n &equals; 0, because 0<sup>2</sup> &equals;                                 
+                               0, we see that 0<sup>2</sup> &ge; 0. It follows that                                        
+                               n<sup>2</sup> &ge; n is true in this case.
                                </p>
                                <p>
-                               Case (ii): When n &ge; 1, when we multiply both sides of the                                 inequality n &ge; 1 by the positive integer n, we obtain n                                  n &ge; n · 1. This implies that n2 &ge; n for n &ge; 1.
+                               Case (ii): When n &ge; 1, when we multiply both sides of the                                 
+                               inequality n &ge; 1 by the positive integer n, we obtain n                                  
+                               n &ge; n · 1. This implies that n2 &ge; n for n &ge; 1.
                                 </p>
                                 <p>
-                                Case (iii): In this case n &le; −1. However, n<sup>2</sup>                                  &ge; 0. It follows that n<sup>2</sup> &ge; n. Because the                                   inequality n<sup>2</sup> &ge; n holds in all three cases,                                   we can conclude that if n is an integer,then n<sup>2</sup>                                   &ge; n.
+                                Case (iii): In this case n &le; −1. However, n<sup>2</sup>                                  
+                                &ge; 0. It follows that n<sup>2</sup> &ge; n. Because the                                   
+                                inequality n<sup>2</sup> &ge; n holds in all three cases,                                   
+                                we can conclude that if n is an integer,then n<sup>2</sup>                                   
+                                &ge; n.
                                </p>
 
                       </details>
