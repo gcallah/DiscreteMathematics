@@ -1,4 +1,4 @@
-
+B
 
 <html>
     <head>
@@ -643,9 +643,9 @@
                         &and; (&not;<i>p</i> &or; <i>r</i>))
                         &rarr; (<i>q</i> &or; <i>r</i>)
                         <br />
-                        "If you study hard, you will get an A."
+                        "You study hard OR get an A."
                         <br />
-                        "If you don't study hard, you will
+                        "You don't study hard OR
                         watch lots of movies."
                         <br />
                         "You will get an A or watch lots of movies."
@@ -1064,44 +1064,39 @@
 
                 </details>
 
-                <details>
-                    <summary class="sum2">
-                        Mistakes in Proofs
-                        <br />
+                <details> <summary class="sum2"> Mistakes in Proofs <br />
                     </summary>
-                    <p>
-                    There are many common errors made in constructing
-                    mathematical proofs.Most common of these errors are                                         mistakes in arithemetic and basic algebra.
+                    <p> There are many common errors made in
+                    constructing mathematical proofs.Most common of these
+                    errors are mistakes
+                    in arithemetic and basic algebra.
                     </p>
-                    <p>
-                    It is important to check for such computations.Each step of
-                    mathematical proof needs to be correct and the conclusion                                   needs to follow logically. 
+                    <p> It is important
+                    to check for such computations.Each step of mathematical
+                    proof needs to be correct and the conclusion
+                    needs to follow logically.
                     </p>
                     
                        <p>
                          
-                         <b>Example</b>:   
-                        </p> 
-                         <p>
-                         What is wrong with this proof?
-                         <br/>Theorem:If n<sup>2</sup> is positive,then n is positive                                  </p>
-                         <p>
-                         <br/>
-                          Proof:Suppose that n<sup>2</sup> is positive.Because
-                          the conditional statement "If n is positive,then
-                          n<sup>2</sup> is positive is true,we can conclude that
-                          n is positive.
-                         </p>
-                         <p>
-                         Solution:
-                         Let <i>P(n) </i> be "<i>n</i> is positive" and <i> Q(n)</i>
-                         be <i>n</i><sup><i>2</i></sup> is positive.positive,then                                    <i>n</i><sup><i>2</i></sup> is positive is the statement
-                         &forall;<i>n</i> (<i>P(n)</i>&rarr;<i>Q(n)</i>) and <i>Q(n)</i> is a                        hypothesis.
-                         </p>
+                         <b>Example</b>:   </p> <p> What is wrong with this
+                         proof?  <br/>Theorem:If n<sup>2</sup> is positive,then
+                         n is positive                                  </p>
+                         <p> <br/> Proof:Suppose that n<sup>2</sup> is
+                         positive.Because the conditional statement "If n is
+                         positive,then n<sup>2</sup> is positive is true,we can
+                         conclude that n is positive.  </p> <p> Solution: Let
+                         <i>P(n) </i> be "<i>n</i> is positive" and <i>
+                         Q(n)</i> be <i>n</i><sup><i>2</i></sup> is
+                          positive.positive,then <i>n</i><sup><i>2</i></sup> is
+                          positive is the statement &forall;<i>n</i>
+                         (<i>P(n)</i>&rarr;<i>Q(n)</i>) and <i>Q(n)</i> is a
+                         hypothesis.  </p>
                 
-                         <p>
-                         From the hypothesis and the statement,we cannot conclude                                    <i>P(n)</i> because we are not using a valid rule of inference. A                           counterexample is for <i>n</i>=&minus;1
-                         </p>
+                         <p> From the hypothesis and the statement,we cannot
+                         conclude <i>P(n)</i> because we are not using a valid
+                         rule of inference. A counterexample is for
+                         <i>n</i>=&minus;1 </p>
     
                    
                </details>
@@ -1153,7 +1148,7 @@
 
                         <details>
                              <summary class="sum3">
-                                Exhaustive Proof 
+                                Exhaustive Proof
                              </summary>
 
                               <p>
@@ -1174,10 +1169,12 @@
                                <p>
                                <br/> <b>Solution</b> We only need to verify the inequality
                                (n+1) <sup>3</sup> &ge; 3 <sup>n</sup> for <i>n</i> &equals;                                 
-                               1,2,3 & 4. For n &equals; 1 we have (8,3), n &equals; 2                                    
-                               (27,9). n &equals; 3 (64,27) and n &equals; 4 (125,81). For                                  
-                               all the above cases we have (n+1) <sup>3</sup> &ge; 3                                       
-                               <sup>n</sup>
+                               1,2,3 &amp; 4. For <i> n</i> &equals; 1 we have
+                               (8,3), <i>n </i>&equals; 2                                    
+                               (27,9). <i>n </i>&equals; 3 (64,27) and <i>n
+                               </i> &equals; 4 (125,81). For                                  
+                               all the above cases we have (<i>n</i>+1) <sup>3</sup> &ge; 3                                       
+                               <sup><i>n</i></sup>
                                </p>
                                
                               
@@ -1198,13 +1195,15 @@
                                </p>
 
                                <p>
-                               <br/>Prove that if n is an integer,then n<sup>2</sup> &ge;n                                   
+                               <br/>Prove that if <i>n</i> is an integer, then
+                               <i>n</i><sup>2</sup> &ge; <i>n</i>                                   
                                 
                                </p> <p> <br/> <b>Solution</b> We can prove that
-                               n <sup>2</sup> &ge;
-                               n for every integer by considering three cases,
-                               when n
-                               &equals; 0,when n &ge; 1, and when n &le;
+                               <i>n </i><sup>2</sup> &ge;
+                               <i>n</i> for every integer by considering three cases,
+                               when <i>n</i>
+                               &equals; 0,when<i> n</i> &ge; 1, and when <i>n
+                               </i>&le;
                                &minus;1.
                                </p> <p> We split the proof into three cases
                                because it is
@@ -1215,7 +1214,7 @@
                                0, because 0<sup>2</sup> &equals;
                                0, we see that 0<sup>2</sup> &ge; 0. It follows
                                that
-                               n<sup>2</sup> &ge; n is true in this case.
+                               <i>n</i><sup>2</sup> &ge; <i>n </i>is true in this case.
                                </p>
 
                                <p>
