@@ -717,7 +717,10 @@ an<i> isomorphism</i>.
                        Determining Whether Two Simple Graphs Are 
                        Isomorphic
                     </summary>
-                    
+                    <p>
+                    It is difficult to show that two graphs are isomorphic. There are many possible one to one correspondences between the vertex sets of two simple graphs.There are n! possible mappings for graph with n vertices.
+                    </p>
+					<p>Instead of testing for each correspondence,we can show that two graphs are not isomorphic. If we can find only one property that only one of the two graphs has,then we can prove that thew graphs are not isomorphic</p>
 
                 </details>
 
@@ -832,6 +835,22 @@ an<i> isomorphism</i>.
                         Connectedness in Directed Graphs
                     </summary>
                 </details>
+                <details>
+                    <summary class="sum3">
+                         Definition 4: 
+                              </summary>
+                               <p> 
+                                  A directed graph is strongly connected if there is a path from <i>a</i> to <i>b</i> and from <i>b</i> to <i>a</i> whenever <i>a</i> and <i>b</i> are vertices in                             the graph
+                               </p>
+                     </details>
+                  <details>
+                     <summary class="sum3">
+                             Definition 5: 
+                               </summary>
+                                 <p> 
+                                 A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph
+                                       </p>                         
+                          </details>
 
                 <details>
                     <summary class="sum2">
