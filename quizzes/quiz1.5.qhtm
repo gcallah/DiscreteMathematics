@@ -1,0 +1,36 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                \forall x \exists y (x + y = 0) is read as:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                For all x and y, x + y = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                For all y, there exists an x such that x + y = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                For all x, there exists a y such that x +  y = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                For all x and y, xy = 0
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 
+            </p>
+        </details>
+    </details>

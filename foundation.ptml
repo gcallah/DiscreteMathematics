@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -300,7 +301,7 @@
                     <summary class="sum2">
                         Negating Nested Quantifiers
                         <br />
-                        NOT COVERED FALL 2017
+                        NOT COVERED SPRING 2018
                     </summary>
                 </details>
 
@@ -641,9 +642,9 @@
                         &and; (&not;<i>p</i> &or; <i>r</i>))
                         &rarr; (<i>q</i> &or; <i>r</i>)
                         <br />
-                        "If you study hard, you will get an A."
+                        "You study hard OR get an A."
                         <br />
-                        "If you don't study hard, you will
+                        "You don't study hard OR
                         watch lots of movies."
                         <br />
                         "You will get an A or watch lots of movies."
@@ -661,12 +662,12 @@
                         conclusion</b>:
                         <br />
                         1. "If you buy Professor Callahan many nice
-                        Christmas presents, you will get an A."
+                        presents, you will get an A."
                         <br />
                         2. "You got an A."
                         <br />
                         "Therefore you bought Professor Callahan
-                        many nice Christmas presents."
+                        many nice presents."
                     </p>
 
                     <p>
@@ -675,7 +676,7 @@
                         <br />
                         Take (1) and (2) as in the previous paragraph.
                         If you did <b>not</b> buy Professor Callahan
-                        many nice Christmas presents, does that mean
+                        many nice presents, does that mean
                         you did <b>not</b> get an A?
                         <br />
                         No!
@@ -1062,25 +1063,190 @@
 
                 </details>
 
-                <details>
-                    <summary class="sum2">
-                        Mistakes in Proofs
-                        <br />
-                        NOT COVERED FALL 2017
+                <details> <summary class="sum2"> Mistakes in Proofs <br />
                     </summary>
-                </details>
+                    <p> There are many common errors made in
+                    constructing mathematical proofs.Most common of these
+                    errors are mistakes
+                    in arithemetic and basic algebra.
+                    </p>
+                    <p> It is important
+                    to check for such computations.Each step of mathematical
+                    proof needs to be correct and the conclusion
+                    needs to follow logically.
+                    </p>
+                    
+                       <p>
+                         
+                         <b>Example</b>:   </p> <p> What is wrong with this
+                         proof?  <br/>Theorem:If n<sup>2</sup> is positive,then
+                         n is positive                                  </p>
+                         <p> <br/> Proof:Suppose that n<sup>2</sup> is
+                         positive.Because the conditional statement "If n is
+                         positive,then n<sup>2</sup> is positive is true,we can
+                         conclude that n is positive.  </p> <p> Solution: Let
+                         <i>P(n) </i> be "<i>n</i> is positive" and <i>
+                         Q(n)</i> be <i>n</i><sup><i>2</i></sup> is
+                          positive.positive,then <i>n</i><sup><i>2</i></sup> is
+                          positive is the statement &forall;<i>n</i>
+                         (<i>P(n)</i>&rarr;<i>Q(n)</i>) and <i>Q(n)</i> is a
+                         hypothesis.  </p>
+                
+                         <p> From the hypothesis and the statement,we cannot
+                         conclude <i>P(n)</i> because we are not using a valid
+                         rule of inference. A counterexample is for
+                         <i>n</i>=&minus;1 </p>
+    
+                   
+               </details>
 
-
+               
+               
             </details>
 
             <details>
                 <summary class="sum1">
                 Proof Methods and Strategy
-                <br />
-                NOT COVERED FALL 2017
                 </summary>
-            </details>
+                
+                <details>
+                         <summary class="sum2">
+                             Introduction
+                         </summary>
 
+                         <p>
+
+                            There are some commonly used proof methods,
+                            like method of proving a theorem by considering
+                            different cases                                            
+                            seperately.
+                         </p>
+                         <p>   
+                            Also, there are strategies behind constructing
+                            proof which includes selecting a proof method and then                                      
+                            succesfully constructing an argument step by step,based on                                  
+                            this method.
+                         </p>
+
+                   </details>
+            
+                   <details>
+                            <summary class="sum2">
+                               Exhaustive Proof and Proof by cases
+                            </summary>
+
+                             <p>
+                             Sometimes we cannot prove a theorem using a
+                             single argument
+                             that holds for all possible cases. We can prove a
+                             theorem, by
+                             considering different cases separately. This
+                             method is based on
+                             a rule of inference.
+                             </p>
+
+                        <details>
+                             <summary class="sum3">
+                                Exhaustive Proof
+                             </summary>
+
+                              <p>
+                                Proofs that prove a theorem by exhausting all the
+                                posibilities are called Exhaustive proofs i.e. The theorem                                  
+                                can be proved using relatively small number of examples. 
+                              </p>
+                               
+                               <p>
+                               <b>Example:</b>
+                               </p>
+
+                               <p>
+                               <br/>Prove that (<i>n</i>+1) <sup>3</sup> &ge; 3
+                               <sup><i>n</i></sup> if                                   
+                               <i>n</i> is a positive integer with <i>n </i>&le; 4
+                                
+                               </p>
+                               <p>
+                               <br/> <b>Solution</b> We only need to verify the inequality
+                               (<i>n</i>+1) <sup>3</sup> &ge; 3 <sup><i>n</i></sup> for <i>n</i> &equals;                                 
+                               1,2,3 &amp; 4. For <i> n</i> &equals; 1 we have
+                               (8,3), <i>n </i>&equals; 2                                    
+                               (27,9). <i>n </i>&equals; 3 (64,27) and <i>n
+                               </i> &equals; 4 (125,81). For                                  
+                               all the above cases we have (<i>n</i>+1) <sup>3</sup> &ge; 3                                       
+                               <sup><i>n</i></sup>
+                               </p>
+                               
+                              
+
+                     </details>
+                     <details>
+                              <summary class="sum3">
+                                 Proof by Cases
+                              </summary>
+
+                               <p>
+                                 The proofs that must cover all the cases that arises in a                                  
+                                 theorem 
+                               </p>
+                               
+                               <p>
+                               <b>Example:</b>
+                               </p>
+
+                               <p>
+                               Prove that if <i>n</i> is an integer, then
+                               <i>n</i><sup>2</sup> &ge; <i>n</i>                                   
+                                
+                               </p> <p><b>Solution</b> We can prove that
+                               <i>n </i><sup>2</sup> &ge;
+                               <i>n</i> for every integer by considering three cases,
+                               when <i>n</i>
+                               &equals; 0,when<i> n</i> &ge; 1, and when <i>n
+                               </i>&le;
+                               &minus;1.
+                               </p> <p> We split the proof into three cases
+                               because it is
+                               straightforward to prove the result by
+                               considering zero,
+                               positive integers,and negative integers
+                               separately.  </p> <p> Case (i): When <i>n</i> &equals;
+                               0, because 0<sup>2</sup> &equals;
+                               0, we see that 0<sup>2</sup> &ge; 0. It follows
+                               that
+                               <i>n</i><sup>2</sup> &ge; <i>n </i>is true in this case.
+                               </p>
+
+                               <p>
+                               Case (ii): When <i>n</i> &ge; 1, when we multiply
+                               both sides of the
+                               inequality <i>n</i> &ge; 1
+                               by the positive integer <i>n</i>,
+                               we obtain <i>n</i>
+                               &ge; <i>n</i> * 1. This implies that
+                               <i>n</i><sup>2</sup>
+                               &ge; <i>n</i> for <i>n</i> &ge; 1.
+                               </p>
+                               
+                               <p>
+                               Case (iii): In this case <i>n</i>
+                               &le; &minus;1. However, <i>n</i><sup>2</sup>
+                               &ge; 0. It follows that <i>n</i><sup>2</sup>
+                               &ge; <i>n</i>.
+                               Because the
+                               inequality <i>n</i><sup>2</sup> &ge;
+                               <i>n</i> holds in all
+                               three cases,
+                               we can conclude that if <i>n</i> is an integer,
+                               then <i>n</i><sup>2</sup> &ge; <i>n</i>.
+                               </p>
+
+                      </details>
+                  </details>
+
+              </details>
+ 
 
     </body>
 </html>
+
