@@ -4,16 +4,16 @@
         </summary>
         <ol class="nested">
             <li>
-                &
+                <p>&
             </li>
             <ol type="a" class="nested">
                 <li>
                 <input type="radio" name="q1" value="a">
-                8704;<i>x</i>&
+                8704;</p><i>x</i><p>&
                 </li>
                 <li>
                 <input type="radio" name="q1" value="b">
-                8707;<i>y</i>(<i>x</i> + <i>y</i> = 0) is read as:
+                8707;</p><i>y</i>(<i>x</i> + <i>y</i> = 0) is read as:
                 </li>
                 <li>
                 <input type="radio" name="q1" value="c">
