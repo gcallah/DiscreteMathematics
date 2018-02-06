@@ -4,31 +4,23 @@
         </summary>
         <ol class="nested">
             <li>
-                <p>&
+                <p>&forall;</p><i>x</i><p>&exist;</p><i>y</i>(<i>x</i> + <i>y</i> = 0) is read as:
             </li>
             <ol type="a" class="nested">
                 <li>
                 <input type="radio" name="q1" value="a">
-                8704;</p><i>x</i><p>&
-                </li>
-                <li>
-                <input type="radio" name="q1" value="b">
-                8707;</p><i>y</i>(<i>x</i> + <i>y</i> = 0) is read as:
-                </li>
-                <li>
-                <input type="radio" name="q1" value="c">
                 For all <i>x</i> and <i>y</i>, <i>x</i> + <i>y</i> = 0
                 </li>
                 <li>
-                <input type="radio" name="q1" value="d">
+                <input type="radio" name="q1" value="b">
                 For all <i>y</i>, there exists an <i>x</i> such that <i>x</i> + <i>y</i> = 0
                 </li>
                 <li>
-                <input type="radio" name="q1" value="e">
+                <input type="radio" name="q1" value="c">
                 For all <i>x</i>, there exists a <i>y</i> such that <i>x</i> +  <i>y</i> = 0
                 </li>
                 <li>
-                <input type="radio" name="q1" value="f">
+                <input type="radio" name="q1" value="d">
                 For all <i>x</i> and <i>y</i>, <i>x</i><i>y</i> = 0
                 </li>
             </ol>
@@ -38,7 +30,7 @@
                 Answers
             </summary>
             <p>
-                1. e; 
+                1. c; 
             </p>
         </details>
     </details>
