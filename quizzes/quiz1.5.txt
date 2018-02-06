@@ -1,0 +1,1 @@
+\forall x \exists y (x + y = 0) is read as:#For all x and y, x + y = 0#For all y, there exists an x such that x + y = 0#^For all x, there exists a y such that x +  y = 0#For all x and y, xy = 0
