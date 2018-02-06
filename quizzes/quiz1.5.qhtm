@@ -4,7 +4,7 @@
         </summary>
         <ol class="nested">
             <li>
-                \forall x \exists y (x + y = 0) is read as:
+                ∀x∈y(x + y = 0) is read as:
             </li>
             <ol type="a" class="nested">
                 <li>
