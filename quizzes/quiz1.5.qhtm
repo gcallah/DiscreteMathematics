@@ -1,0 +1,36 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                <i>∀x∃y</i>(<i>x</i> + <i>y</i> = 0) is read as:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                For all <i>x</i> and <i>y</i>, <i>x</i> + <i>y</i> = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                For all <i>y</i>, there exists an <i>x</i> such that <i>x</i> + <i>y</i> = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                For all <i>x</i>, there exists a <i>y</i> such that <i>x</i> +  <i>y</i> = 0
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                For all <i>x</i> and <i>y</i>, <i>x</i><i>y</i> = 0
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 
+            </p>
+        </details>
+    </details>
