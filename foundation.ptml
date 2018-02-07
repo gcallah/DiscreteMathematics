@@ -1065,19 +1065,20 @@
 
                 <details> <summary class="sum2"> Mistakes in Proofs <br />
                     </summary>
-                    <p> There are many common errors made in
-                    constructing mathematical proofs.Most common of these
-                    errors are mistakes
-                    in arithemetic and basic algebra.
+                    <p>
+                    There are many common errors made in
+                    constructing mathematical proofs. Most common of these
+                    errors are mistakes in arithemetic and basic algebra.
                     </p>
-                    <p> It is important
+
+                    <p>
+                    It is important
                     to check for such computations.Each step of mathematical
                     proof needs to be correct and the conclusion
                     needs to follow logically.
                     </p>
 
                        <p>
-
                          <b>Example</b>:
                        </p>
 
@@ -1086,15 +1087,16 @@
                          proof?
                          <br/>
                          <b>Theorem</b>:
-                         If <i>n</i><sup>2</sup> is positive,then
-                         n is positive.
+                         If <i>n</i><sup>2</sup> is positive,
+                         then <i>n</i> is positive.
                        </p>
 
                          <p>
-                         Proof:
-                         Suppose that n<sup>2</sup> is
-                         positive. Because the conditional statement "If n is
-                         positive, then n<sup>2</sup> is positive is true,
+                         <b>Proof</b>:
+                         Suppose that <i>n</i><sup>2</sup> is
+                         positive. Because the conditional statement
+                         "If <i>n</i> is
+                         positive, then <i>n</i><sup>2</sup> is positive is true,
                          we can
                          conclude that <i>n</i> is positive.
                          
@@ -1103,15 +1105,17 @@
                          <p>
                          Solution: Let
                          <i>P</i>(<i>n)</i> be "<i>n</i> is positive" and <i>
-                         Q(n)</i> be <i>n</i><sup><i>2</i></sup> is
-                          positive. Then <i>n</i><sup><i>2</i></sup> is
+                         Q(n)</i> be "<i>n</i><sup><i>2</i></sup> is
+                          positive." Then <i>n</i><sup><i>2</i></sup> is
                           positive is the statement &forall;<i>n</i>
                           (<i>P</i>(<i>n</i>) &rarr;
                           <i>Q</i>(<i>n</i>)) and <i>Q</i>(<i>n</i>) is a
                          hypothesis.  </p>
 
-                         <p> From the hypothesis and the statement,we cannot
-                         conclude <i>P</i>(<i>n</i>) because we are not using a valid
+                         <p>
+                         From the hypothesis and the statement,we cannot
+                         conclude <i>P</i>(<i>n</i>) because we 
+                         are not using a valid
                          rule of inference. A counterexample is for
                          <i>n</i> = &minus;1
                          </p>
