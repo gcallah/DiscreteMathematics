@@ -1106,13 +1106,15 @@
                          Q(n)</i> be <i>n</i><sup><i>2</i></sup> is
                           positive. Then <i>n</i><sup><i>2</i></sup> is
                           positive is the statement &forall;<i>n</i>
-                         (<i>P(n)</i>&rarr;<i>Q(n)</i>) and <i>Q(n)</i> is a
+                          (<i>P</i>(<i>n</i>) &rarr;
+                          <i>Q</i>(<i>n</i>)) and <i>Q</i>(<i>n</i>) is a
                          hypothesis.  </p>
 
                          <p> From the hypothesis and the statement,we cannot
-                         conclude <i>P(n)</i> because we are not using a valid
+                         conclude <i>P</i>(<i>n</i>) because we are not using a valid
                          rule of inference. A counterexample is for
-                         <i>n</i>=&minus;1 </p>
+                         <i>n</i> = &minus;1
+                         </p>
 
 
                </details>
