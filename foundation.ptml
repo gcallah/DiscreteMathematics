@@ -1078,16 +1078,33 @@
 
                        <p>
 
-                         <b>Example</b>:   </p> <p> What is wrong with this
-                         proof?  <br/>Theorem:If n<sup>2</sup> is positive,then
-                         n is positive                                  </p>
-                         <p> <br/> Proof:Suppose that n<sup>2</sup> is
-                         positive.Because the conditional statement "If n is
-                         positive,then n<sup>2</sup> is positive is true,we can
-                         conclude that n is positive.  </p> <p> Solution: Let
-                         <i>P(n) </i> be "<i>n</i> is positive" and <i>
+                         <b>Example</b>:
+                       </p>
+
+                       <p>
+                       What is wrong with this
+                         proof?
+                         <br/>
+                         <b>Theorem</b>:
+                         If <i>n</i><sup>2</sup> is positive,then
+                         n is positive.
+                       </p>
+
+                         <p>
+                         Proof:
+                         Suppose that n<sup>2</sup> is
+                         positive. Because the conditional statement "If n is
+                         positive, then n<sup>2</sup> is positive is true,
+                         we can
+                         conclude that <i>n</i> is positive.
+                         
+                         </p>
+                         
+                         <p>
+                         Solution: Let
+                         <i>P</i>(<i>n)</i> be "<i>n</i> is positive" and <i>
                          Q(n)</i> be <i>n</i><sup><i>2</i></sup> is
-                          positive.positive,then <i>n</i><sup><i>2</i></sup> is
+                          positive. Then <i>n</i><sup><i>2</i></sup> is
                           positive is the statement &forall;<i>n</i>
                          (<i>P(n)</i>&rarr;<i>Q(n)</i>) and <i>Q(n)</i> is a
                          hypothesis.  </p>
@@ -1152,8 +1169,9 @@
 
                               <p>
                                 Proofs that prove a theorem by exhausting all the
-                                posibilities are called Exhaustive proofs i.e. The theorem
-                                can be proved using relatively small number of examples.
+                                posibilities are called exhaustive proofs
+                                i.e., the theorem can be proved using
+                                relatively small number of examples.
                               </p>
 
                                <p>
@@ -1161,20 +1179,23 @@
                                </p>
 
                                <p>
-                               <br/>Prove that (<i>n</i>+1) <sup>3</sup> &ge; 3
-                               <sup><i>n</i></sup> if
+                               Prove that (<i>n</i> + 1)<sup>3</sup> &ge;
+                               3<sup><i>n</i></sup> if
                                <i>n</i> is a positive integer with <i>n </i>&le; 4
 
                                </p>
+
                                <p>
-                               <br/> <b>Solution</b> We only need to verify the inequality
-                               (<i>n</i>+1) <sup>3</sup> &ge; 3 <sup><i>n</i></sup> for <i>n</i> &equals;
-                               1,2,3 &amp; 4. For <i> n</i> &equals; 1 we have
-                               (8,3), <i>n </i>&equals; 2
-                               (27,9). <i>n </i>&equals; 3 (64,27) and <i>n
-                               </i> &equals; 4 (125,81). For
-                               all the above cases we have (<i>n</i>+1) <sup>3</sup> &ge; 3
-                               <sup><i>n</i></sup>
+                               <b>Solution</b> We only need to verify the inequality
+                               (<i>n</i> + 1)<sup>3</sup>
+                               &ge; 3<sup><i>n</i></sup> for <i>n</i> &equals;
+                               1, 2, 3 &amp; 4. For <i> n</i> &equals; 1 we have
+                               (8, 3), <i>n </i>&equals; 2
+                               (27, 9), <i>n </i>&equals; 3 (64, 27) and <i>n
+                               </i> &equals; 4 (125, 81). For
+                               all the above cases we have
+                               (<i>n</i> + 1)<sup>3</sup> &ge;
+                               3<sup><i>n</i></sup>
                                </p>
 
 
@@ -1186,8 +1207,8 @@
                               </summary>
 
                                <p>
-                                 The proofs that must cover all the cases that arises in a
-                                 theorem
+                                 The proofs that must cover 
+                                 all the cases that arises in a theorem
                                </p>
 
                                <p>
@@ -1209,8 +1230,12 @@
                                because it is
                                straightforward to prove the result by
                                considering zero,
-                               positive integers,and negative integers
-                               separately.  </p> <p> Case (i): When <i>n</i> &equals;
+                               positive integers, and negative integers
+                               separately
+                               </p>
+                               
+                               <p>
+                               Case (i): When <i>n</i> &equals;
                                0, because 0<sup>2</sup> &equals;
                                0, we see that 0<sup>2</sup> &ge; 0. It follows
                                that
@@ -1222,7 +1247,7 @@
                                both sides of the
                                inequality <i>n</i> &ge; 1
                                by the positive integer <i>n</i>,
-                               we obtain <i>n</i>
+                               we obtain <i>n</i><sup>2</sup>
                                &ge; <i>n</i> * 1. This implies that
                                <i>n</i><sup>2</sup>
                                &ge; <i>n</i> for <i>n</i> &ge; 1.
