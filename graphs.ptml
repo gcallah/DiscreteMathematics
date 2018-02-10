@@ -19,7 +19,7 @@
                         src="https://upload.wikimedia.org/wikipedia/en/5/52/London_Tube_Map.png">
                 </figure>
             </div>
-            
+
             <details>
                 <summary class="sum1">
                 Graphs and Graph Models
@@ -32,9 +32,9 @@
 
                 <p>
                 <b>Definition 1:</b><br>
-                A graph <b>G = (V , E) </b>consists of V , 
+                A graph <b>G = (V , E) </b>consists of V ,
                 a nonempty set of vertices (or nodes) and E, a set of
-                edges. Each edge has either one or 
+                edges. Each edge has either one or
                 two vertices associated with it,
                 called its endpoints. An edge is said to connect its endpoints.
                 </p>
@@ -42,22 +42,22 @@
                 <b>Definition 2:</b><br>
                 A <i>directed graph (or digraph)</i><b> (V , E) </b>consists
                  of a nonempty set of vertices V and a set of
-directed edges (or arcs) E. Each directed edge is associated 
-with an ordered pair of vertices.
-The directed edge associated with the <i>ordered pair</i>
-<b> (u, v) </b>is said to start at u and end at v.
+                 directed edges (or arcs) E. Each directed edge is associated
+                 with an ordered pair of vertices.
+                 The directed edge associated with the <i>ordered pair</i>
+                 <b> (u, v) </b>is said to start at u and end at v.
                 </p>
 
                 <details>
                     <summary class="sum3">
-                       Graph Terminology 
+                       Graph Terminology
                     </summary>
-                
+
 
                 <table style="width:80%">
                     <tr>
                         <th>Type</th>
-                        <th>Edges</th> 
+                        <th>Edges</th>
                         <th>Multiple Edges Allowed?</th>
                         <th>Loops Allowed?</th>
                      </tr>
@@ -99,7 +99,7 @@ The directed edge associated with the <i>ordered pair</i>
                     </tr>
                 </table>
 
-                </details> 
+                </details>
 
                 </details>
 
@@ -114,10 +114,10 @@ The directed edge associated with the <i>ordered pair</i>
                         Social Networks
                         </summary>
                         <p>
-                        Examples: Acquaintanceship (Friendship Graphs), 
+                        Examples: Acquaintanceship (Friendship Graphs),
                         Influence Graphs, Collaboration Graphs.
                         </p>
-            
+
 
                     </details>
 
@@ -144,7 +144,7 @@ The directed edge associated with the <i>ordered pair</i>
                         Software Design Applications
                         </summary>
                         <p>
-                        Examples: Module Dependency Graphs, 
+                        Examples: Module Dependency Graphs,
                         Precedence Graphs and Concurrent Processing.
                         </p>
                     </details>
@@ -163,7 +163,7 @@ The directed edge associated with the <i>ordered pair</i>
                         Biological Networks
                         </summary>
                         <p>
-                        Examples: Niche Overlap Graphs in Ecology, 
+                        Examples: Niche Overlap Graphs in Ecology,
                         Protein Interaction Graphs.
                         </p>
                     </details>
@@ -173,7 +173,7 @@ The directed edge associated with the <i>ordered pair</i>
                         Tournaments
                         </summary>
                         <p>
-                        Examples: Round-Robin Tournaments, 
+                        Examples: Round-Robin Tournaments,
                         Single-EliminationTournaments.
                         </p>
                     </details>
@@ -189,49 +189,49 @@ The directed edge associated with the <i>ordered pair</i>
 
                 <details>
                     <summary class="sum2">
-                       Basic Terminology 
+                       Basic Terminology
                     </summary>
 
                     <details>
                     <summary class="sum3">
-                       Definition 1: 
+                       Definition 1:
                     </summary>
                         <p>
-                        Two vertices u and v in an undirected graph G 
+                        Two vertices u and v in an undirected graph G
                         are called <i>adjacent</i> (or neighbors) in G if u
-and v are endpoints of an edge e of G.
- Such an edge e is called <i>incident </i>with the vertices u
-and v and e is said to <i>connect </i>u and v.
+                        and v are endpoints of an edge e of G.
+                        Such an edge e is called <i>incident </i>with the vertices u
+                        and v and e is said to <i>connect </i>u and v.
                         </p>
 
                     </details>
 
                     <details>
                     <summary class="sum3">
-                       Definition 2: 
+                       Definition 2:
                     </summary>
                         <p>
-                       The set of all neighbors of a vertex v of 
+                       The set of all neighbors of a vertex v of
                        G = (V , E), denoted by N (v), is called the
                        <i> neighborhood</i>
-of v. If A is a subset of V , 
-we denote by N (A) the set of all vertices in G that are
-adjacent to at least one vertex in A. So, N (A) =<b> &cup;</b><sub>
-v∈A</sub> <i>N (v)</i>.
+                       of v. If A is a subset of V ,
+                       we denote by N (A) the set of all vertices in G that are
+                       adjacent to at least one vertex in A. So, N (A) =<b> &cup;</b><sub>
+                      v∈A</sub> <i>N (v)</i>.
                         </p>
 
                     </details>
 
                     <details>
                     <summary class="sum3">
-                       Definition 3: 
+                       Definition 3:
                     </summary>
                         <p>
                        The<i> degree of a vertex in an undirected graph</i>
                         is the number of edges incident with it, except
-that a loop at a vertex contributes 
-twice to the degree of that vertex. The degree of the
-vertex v is denoted by deg(v).
+                        that a loop at a vertex contributes
+                        twice to the degree of that vertex. The degree of the
+                        vertex v is denoted by deg(v).
                         </p>
 
                     </details>
@@ -239,15 +239,15 @@ vertex v is denoted by deg(v).
 
                     <details>
                     <summary class="sum3">
-                       Theorem 1: 
+                       Theorem 1:
                     </summary>
                         <p>
                         <b> The Handshaking Theorem.</b>
 
                        Let G = (V , E) be an undirected graph with m
-edges. Then<br>
-2m = <sup><b>&sum;</b></sup><sub><sub> v∈V</sub></sub> deg(v).<br>
-(Note that this applies even if multiple edges and loops are present.)
+                       edges. Then<br>
+                       2m = <sup><b>&sum;</b></sup><sub><sub> v∈V</sub></sub> deg(v).<br>
+                       (Note that this applies even if multiple edges and loops are present.)
 
                         </p>
 
@@ -255,7 +255,7 @@ edges. Then<br>
 
                     <details>
                     <summary class="sum3">
-                       Theorem 2: 
+                       Theorem 2:
                     </summary>
                         <p>
                         An undirected graph has an even number
@@ -267,32 +267,32 @@ edges. Then<br>
 
                     <details>
                     <summary class="sum3">
-                       Definition 4: 
+                       Definition 4:
                     </summary>
                         <p>
-                       When (u, v) is an edge of the 
+                       When (u, v) is an edge of the
                        graph G with directed edges,
                         u is said to be<i> adjacent</i> to v and v
-is said to be<i> adjacent</i> from u.
- The vertex u is called the <i>initial vertex of (u, v)</i>,
-  and v is called
-the <i>terminal or end vertex of (u, v)</i>.
- The initial vertex and terminal vertex of a loop are the
-same.
+                        is said to be<i> adjacent</i> from u.
+                        The vertex u is called the <i>initial vertex of (u, v)</i>,
+                        and v is called
+                        the <i>terminal or end vertex of (u, v)</i>.
+                        The initial vertex and terminal vertex of a loop are the
+                        same.
                         </p>
 
                     </details>
 
                     <details>
                     <summary class="sum3">
-                       Definition 5: 
+                       Definition 5:
                     </summary>
                         <p>
                        In a graph with directed edges the
-                        <i>in-degree of a vertex v</i>, 
+                        <i>in-degree of a vertex v</i>,
                         denoted by deg<sup>−</sup>(v), is the number
 of edges with v as their terminal vertex.
- The <i>out-degree of v</i>, 
+ The <i>out-degree of v</i>,
  denoted by deg<sup>+</sup>(v), is the
 number of edges with v as their initial vertex.<br>
  (Note that a loop at a vertex contributes 1 to
@@ -303,10 +303,10 @@ both the in-degree and the out-degree of this vertex.)
 
                     <details>
                     <summary class="sum3">
-                       Theorem 3: 
+                       Theorem 3:
                     </summary>
                         <p>
-                
+
 Let G = (V , E) be a graph with directed edges. Then<br>
 
 <b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>−</sup>(v) = <b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>+</sup>(v) = |E|
@@ -318,13 +318,13 @@ Let G = (V , E) be a graph with directed edges. Then<br>
 
                 <details>
                     <summary class="sum2">
-                       Some Special Simple Graphs 
+                       Some Special Simple Graphs
                     </summary>
 
                     <details>
                     <summary class="sum3">
                         Complete Graphs
-                    </summary>  
+                    </summary>
 
                     <figure>
                         <img
@@ -349,7 +349,7 @@ pair of distinct vertex not connected
                     <details>
                     <summary class="sum3">
                         Cycles
-                    </summary> 
+                    </summary>
                     <figure>
                         <img
                         src="graphics/graph2.jpg"
@@ -360,12 +360,12 @@ pair of distinct vertex not connected
                     </figure>
 
                    <p>
-                    <b>A cycle C<sub>n</sub></b>, n ≥ 3, 
-                    consists of n vertices v<sub>1</sub>, 
-                    v<sub>2</sub>,..., v<sub>n</sub> and 
+                    <b>A cycle C<sub>n</sub></b>, n ≥ 3,
+                    consists of n vertices v<sub>1</sub>,
+                    v<sub>2</sub>,..., v<sub>n</sub> and
                     edges {v<sub>1</sub>, v2},
 {v<sub>2</sub>, v<sub>3</sub>},...,{v<sub>n-1</sub>,
- v<sub>n</sub>}, and {v<sub>n</sub>, v<sub>1</sub>}. 
+ v<sub>n</sub>}, and {v<sub>n</sub>, v<sub>1</sub>}.
 </p>
                     </details>
 
@@ -373,8 +373,8 @@ pair of distinct vertex not connected
                     <details>
                     <summary class="sum3">
                         Wheels
-                    </summary>   
-                   
+                    </summary>
+
                     <figure>
                         <img
                         src="graphics/graph3.png"
@@ -388,7 +388,7 @@ pair of distinct vertex not connected
                      We obtain a <b>wheel W<sub>n</sub></b>
                       when we add an additional vertex
                        to a cycle C<sub>n</sub>, for n ≥ 3,
-and connect this new vertex to each of the 
+and connect this new vertex to each of the
 n vertices in C<sub>n</sub>, by new edges.
                     </p>
                     </details>
@@ -396,7 +396,7 @@ n vertices in C<sub>n</sub>, by new edges.
                     <details>
                     <summary class="sum3">
                         n-Cubes
-                    </summary>  
+                    </summary>
                     <figure>
                         <img
                         src="graphics/graph4.gif"
@@ -407,53 +407,53 @@ n vertices in C<sub>n</sub>, by new edges.
                     </figure>
 
                     <p>
-                     An <b>n-dimensional hypercube</b>, or <b>n-cube</b>, 
+                     An <b>n-dimensional hypercube</b>, or <b>n-cube</b>,
                      denoted by Q<sub>n</sub>, is a graph that has vertices
 representing the 2<sup>n</sup> bit strings of length n.
  Two vertices are adjacent if and only if the bit strings
 that they represent differ in exactly one bit position.
                     </p>
                     </details>
-                
+
 
                 </details>
 
-            
+
 
                 <details>
                     <summary class="sum2">
-                       Bipartite Graphs 
+                       Bipartite Graphs
                     </summary>
 
                     <details>
                     <summary class="sum3">
-                       Definition 6: 
+                       Definition 6:
                     </summary>
                         <p>
-                    A simple graph G is called <i>bipartite</i> if 
+                    A simple graph G is called <i>bipartite</i> if
                     its vertex set V can be partitioned into two disjoint
 sets V1 and V2 such that every edge in the graph
  connects a vertex in V1 and a vertex in V2
 (so that no edge in G connects either two vertices
  in V1 or two vertices in V2). When this
-condition holds, we call the pair (V1, V2) 
+condition holds, we call the pair (V1, V2)
 a <i>bipartition </i>of the vertex set V of G.
 
                         </p>
-                    </details>    
+                    </details>
 
 
                     <details>
                     <summary class="sum3">
-                       Theorem 4: 
+                       Theorem 4:
                     </summary>
                         <p>
-                        A simple graph is bipartite if and only if it is 
+                        A simple graph is bipartite if and only if it is
                         possible to assign one of two different colors to
-each vertex of the graph so that no two 
+each vertex of the graph so that no two
 adjacent vertices are assigned the same color.
                         </p>
-                    </details>    
+                    </details>
 
                 </details>
 
@@ -464,7 +464,7 @@ adjacent vertices are assigned the same color.
 
                     <details>
                     <summary class="sum3">
-                       Theorem 5: 
+                       Theorem 5:
                     </summary>
                         <p>
                         <b>HALL’S MARRIAGE THEOREM</b> <br>
@@ -502,25 +502,25 @@ A of V<sub>2</sub>.
                         </figcaption>
                     </figure>
                 </details>
-            
+
 
             <details>
                     <summary class="sum2">
                        New Graphs from Old
                     </summary>
-                     
+
                     <details>
                     <summary class="sum3">
                        Definition 7:
                     </summary>
                      <p>
-                     A <i>subgraph of a graph G = (V , E)</i> 
+                     A <i>subgraph of a graph G = (V , E)</i>
                      is a graph H = (W, F ), where W &sube; V and F &sube; E. A
 subgraph <i>H of G is a proper
  subgraph of G if H &ne; G</i>.
                      </p>
 
-                     
+
                     </details>
 
                     <details>
@@ -530,12 +530,12 @@ subgraph <i>H of G is a proper
                      <p>
                      Let G = (V , E) be a simple graph.
                       The <i>subgraph induced </i>by a subset W of the vertex set V
-is the graph <i>(W, F )</i>, where the edge set F 
+is the graph <i>(W, F )</i>, where the edge set F
 contains an edge in E if and only if both endpoints
 of this edge are in W.
                      </p>
 
-                     
+
                     </details>
 
                     <details>
@@ -545,11 +545,11 @@ of this edge are in W.
                      <p>
                      The <i>union</i> of two simple graphs
                       <i>G1 = (V1, E1) and G2 = (V2, E2)</i> is the simple graph with
-vertex set <i>V1 &cup; V2</i> and edge set <i>E1 &cup; E2</i>. 
+vertex set <i>V1 &cup; V2</i> and edge set <i>E1 &cup; E2</i>.
 The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
                      </p>
 
-                     
+
                     </details>
 
             </details>
@@ -557,7 +557,7 @@ The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
 
             <details>
                 <summary class="sum1">
-                Representing Graphs and Graph Isomorphism 
+                Representing Graphs and Graph Isomorphism
                 </summary>
 
                 <details>
@@ -636,7 +636,7 @@ The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
                         </figcaption>
                     </figure>
                     </p>
-                    
+
                 </details>
 
                 <details>
@@ -644,14 +644,14 @@ The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
                        Incidence Matrices
                     </summary>
                     <p>
-                    Let G = (V , E) be an undirected graph. 
-                    Suppose that v<sub>1</sub>, v<sub>2</sub>,..., 
-                    v<sub>n</sub> are the vertices and e<sub>1</sub>, 
+                    Let G = (V , E) be an undirected graph.
+                    Suppose that v<sub>1</sub>, v<sub>2</sub>,...,
+                    v<sub>n</sub> are the vertices and e<sub>1</sub>,
                     e<sub>2</sub>,...,e<sub>m</sub> are the edges
 of G. Then the incidence matrix with respect to this
  ordering of V and E is the n × m matrix
 M = [m<sub>ij</sub> ], where<br>
-m<sub>ij</sub> = 1 when edge e<sub>j</sub> 
+m<sub>ij</sub> = 1 when edge e<sub>j</sub>
 is incident with v<sub>i</sub>,<br>
 m<sub>ij</sub> = 0 otherwise.
 
@@ -695,11 +695,11 @@ m<sub>ij</sub> = 0 otherwise.
                        Definition 1:
                     </summary>
                     <p>
-                    The simple graphs G<sub>1</sub> = (V<sub>1</sub>, 
+                    The simple graphs G<sub>1</sub> = (V<sub>1</sub>,
                     E<sub>1</sub>) and G<sub>2</sub> = (V<sub>2</sub>,
-                     E<sub>2</sub>) are <i>isomorphic</i> if there exists 
+                     E<sub>2</sub>) are <i>isomorphic</i> if there exists
                      a oneto-one
-and onto function <i>f</i> from V<sub>1</sub> to V<sub>2</sub> with the property 
+and onto function <i>f</i> from V<sub>1</sub> to V<sub>2</sub> with the property
 that a and b are adjacent in G<sub>1</sub> if
 and only if <i>f (a)</i> and <i>f (b)</i> are adjacent in G<sub>2</sub>,
  for all a and b in V<sub>1</sub>. Such a function <i>f</i> is called
@@ -714,13 +714,13 @@ an<i> isomorphism</i>.
 
                 <details>
                     <summary class="sum2">
-                       Determining Whether Two Simple Graphs Are 
+                       Determining Whether Two Simple Graphs Are
                        Isomorphic
                     </summary>
                     <p>
                     It is difficult to show that two graphs are isomorphic. There are many possible one to one correspondences between the vertex sets of two simple graphs.There are n! possible mappings for graph with n vertices.
                     </p>
-					<p>Instead of testing for each correspondence,we can show that two graphs are not isomorphic. If we can find only one property that only one of the two graphs has,then we can prove that thew graphs are not isomorphic</p>
+  <p>Instead of testing for each correspondence,we can show that two graphs are not isomorphic. If we can find only one property that only one of the two graphs has,then we can prove that thew graphs are not isomorphic</p>
 
                 </details>
 
@@ -728,7 +728,7 @@ an<i> isomorphism</i>.
 
             <details>
                 <summary class="sum1">
-                Connectivity 
+                Connectivity
                 </summary>
 
 
@@ -788,7 +788,7 @@ an<i> isomorphism</i>.
                     </figure>
                     <p>
                         A graph is <i>connected</i> if
-                        there is a path from any vertex to 
+                        there is a path from any vertex to
                         any other vertex.
                     </p>
 
@@ -802,7 +802,7 @@ an<i> isomorphism</i>.
 
                 <details>
                     <summary class="sum2">
-                        How Connected Is a Graph?       
+                        How Connected Is a Graph?
                     </summary>
 
                     <p>
@@ -819,7 +819,7 @@ an<i> isomorphism</i>.
                         <figcaption>
                             The dashed line signifies the edge that, if
                             removed, would split the graph into two connected
-                            components. 
+                            components.
                         </figcaption>
                     </figure>
 
@@ -834,28 +834,39 @@ an<i> isomorphism</i>.
                     <summary class="sum2">
                         Connectedness in Directed Graphs
                     </summary>
-                </details>
-                <details>
-                    <summary class="sum3">
-                         Definition 4: 
-                              </summary>
-                               <p> 
+
+                    <details>
+                        <summary class="sum3">
+                         Definition 4:
+                        </summary>
+                               <p>
                                   A directed graph is strongly connected if there is a path from <i>a</i> to <i>b</i> and from <i>b</i> to <i>a</i> whenever <i>a</i> and <i>b</i> are vertices in                             the graph
                                </p>
-                     </details>
-                  <details>
-                     <summary class="sum3">
-                             Definition 5: 
-                               </summary>
-                                 <p> 
+                    </details>
+                    <details>
+                       <summary class="sum3">
+                             Definition 5:
+                      </summary>
+                                 <p>
                                  A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph
-                                       </p>                         
-                          </details>
+                                </p>
+                    </details>
+                </details>
 
                 <details>
                     <summary class="sum2">
                         Paths and Isomorphism
                     </summary>
+                    <p>
+                      Paths and circuits can help in determining isomorphism.Length of circuit is a useful invariant in determining the isomorphism of two graphs, also mappings constructed using path can help in deciding isomorphism.
+                    </p>
+                    <figure>
+                        <img
+                        src="http://images.slideplayer.com/28/9296211/slides/slide_6.jpg"
+                        height="300" width="320">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
                 </details>
 
                 <details>
@@ -869,7 +880,7 @@ an<i> isomorphism</i>.
 
             <details>
                 <summary class="sum1">
-                Euler and Hamilton Paths 
+                Euler and Hamilton Paths
                 </summary>
 
                 <details>
@@ -894,13 +905,13 @@ an<i> isomorphism</i>.
                             The Bridges of K&ouml;nigsberg
                             </figcaption>
                         </figure>
-    
+
                         <p>
                             Answer: No! For an <i>Eulerian path</i> to exist
                             through a graph, there must be zero or two nodes of
                             odd degree.
                         </p>
-    
+
                         <figure>
                             <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
@@ -923,7 +934,7 @@ an<i> isomorphism</i>.
                             <br />
                             This can be proved with a graph like the following:
                         </p>
-    
+
                         <figure>
                             <img src="graphics/EulerCircuit.png">
                             <figcaption>
@@ -934,11 +945,11 @@ an<i> isomorphism</i>.
 
                 <details>
                     <summary class="sum2">
-                        Hamilton Paths and Circuits        
+                        Hamilton Paths and Circuits
                     </summary>
 
                     <p>
-                        A simple path that passes through each vertex 
+                        A simple path that passes through each vertex
                         in a graph just once is called a <i>Hamilton
                         path</i>. A simple circuit that passes through
                         each vertex in a graph just once is called a
@@ -984,7 +995,7 @@ an<i> isomorphism</i>.
 
                 <details>
                     <summary class="sum2">
-                        Applications of Hamilton Circuits        
+                        Applications of Hamilton Circuits
                     </summary>
 
                     <p>
@@ -1041,23 +1052,23 @@ an<i> isomorphism</i>.
 5      for each vertex v in Graph:     // Initialization
 6          dist[v] = INFINITY      // Unknown distance from source to v
 7          prev[v] = UNDEFINED     // Previous node in optimal path from source
-8          add v to Q              // All nodes initially in Q 
+8          add v to Q              // All nodes initially in Q
                                     //(unvisited nodes)
 9
 10      dist[source] = 0           // Distance from source to source
-11      
+11
 12      while Q is not empty:
 13          u = vertex in Q with min dist[u]  // Node with the least distance
 14                                            // will be selected first
-15          remove u from Q 
-16          
+15          remove u from Q
+16
 17          for each neighbor v of u:           // where v is still in Q.
 18              alt = dist[u] + length(u, v)
 19              if alt &lt; dist[v]:      // A shorter path to v has been found
-20                  dist[v] = alt 
-21                  prev[v] = u 
+20                  dist[v] = alt
+21                  prev[v] = u
 22
-23      return dist[], prev[] 
+23      return dist[], prev[]
                         </pre>
                     </code>
                     </p>
