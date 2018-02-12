@@ -36,23 +36,36 @@
                 <p class="def">
                     Forest
                 </p>
+                <p>
+                  Forest is a set of zero or more disjoint trees.
+                </p>
 
                 <details>
                     <summary class="sum2">
                         Rooted Trees
                     </summary>
 
-                    <p>
+                    <ul class="nested">
+                    <li>
                     Root
-                    <br />
+                    </li>
+                    <li>
                     Leaf
-                    <br />
+                    </li>
+                    <li>
                     Subtree
-                    <br />
+                    </li>
+                    <li>
+                        <b>Siblings</b>:
+                        vertices with the same parent
+                    </li>
+                    <li>
                     M-ary tree
-                    <br />
+                    </li>
+                    <li>
                     Full m-ary tree
-                    </p>
+                    </li>
+                    </ul>
 
                 </details>
 
@@ -61,7 +74,17 @@
                         Trees as Models
                     </summary>
 
-                    <ul>
+                    <figure>
+                        <img src="graphics/OrgChart.png">
+                        <figcaption>
+                            An org chart
+                            <br />
+                            (Source:
+                            https://en.wikipedia.org/wiki/Organizational_chart)
+                        </figcaption>
+                    </figure>
+                    
+                    <ul class="nested">
                         <li>
                             (Some) molecules
                         </li>
@@ -71,8 +94,7 @@
                         <li>
                             Computer file systems
                         </li>
-                        <li>
-                        </li>
+
                     </ul>
 
                 </details>
@@ -81,6 +103,48 @@
                     <summary class="sum2">
                         Properties of Trees
                     </summary>
+                    <summary class="sum3">
+                       Theorem 2:
+                    </summary>
+                    <p>
+                    A tree with <i>n</i> vertices has <i>n</i> &minus; 1 edges.
+                    </p>
+                    <summary class="sum3">
+                       Theorem 3:
+                    </summary>
+                    <p>
+                    A full <i>m</i>-ary tree with i internal vertices
+                    contains <i>n</i> = <i>m</i>*<i>i</i> + <i>1</i> vertices.
+                    </p>
+                    <summary class="sum3">
+                       Theorem 4:
+                    </summary>
+                    <p>
+                    A full <i>m</i>-ary tree with
+                    <ol class="nested">
+    <li>
+        <i>n</i> vertices has <i>i = (n &minus; 1)/m </i>internal
+        vertices and <i>l = [(m &minus; 1)n + 1]/m</i> leaves,
+    </li>
+    <li>
+        <i>i</i> internal vertices has <i>n</i> = <i>m</i><i>i</i> + <i>1</i>
+        vertices and <i>l</i> = <i>(m &minus; 1)i + 1</i> leaves,
+    </li>
+    <li>
+        <i>l</i> leaves has <i>n = (ml &minus; 1)/(m &minus; 1)</i> vertices
+        and <i>i = (l &minus; 1)/(m &minus; 1) </i>internal vertices.
+    </li>
+    </ol>
+                    </p>
+                    <summary class="sum3">
+                       Theorem 5:
+                    </summary>
+                    <p>
+                      There are at most <i>m</i><sup><i>h</i></sup>
+                      leaves in an m-ary tree of height <i>h</i>.
+                    </p>
+
+
                 </details>
 
             </details>
@@ -89,7 +153,11 @@
                 <summary class="sum1">
                 Applications of Trees
                 </summary>
-
+                <p>
+                  Trees provide easier location of items.
+                  Depending on a certain property, items are stored in a tree
+                  data structure for faster retrieval.
+                </p>
                 <details>
                     <summary class="sum2">
                         Binary Search Trees
@@ -108,7 +176,7 @@
                     <summary class="sum2">
                         Decision Trees
                         <br />
-                        NOT COVERED FALL 2017
+                        NOT COVERED SPRING 2018
                     </summary>
                 </details>
 
@@ -132,7 +200,7 @@
                         It means that we never hit two letters on the same path
                         down the tree!
                         </p>
-    
+
                         <table>
                             <tr>
                                 <td>
@@ -209,7 +277,7 @@
                         <summary class="sum3">
                             Huffman codes
                         </summary>
-        
+
                         <p>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png">
@@ -222,7 +290,7 @@
                         in the data, and using longer representations
                         for characters that occur less frequently.
                         </p>
-        
+
                         <figure>
                             <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/dM6us854Jk0"
@@ -232,13 +300,13 @@
                             </figcaption>
                         </figure>
                     </details>
-    
-    
+
+
                     <details>
                         <summary class="sum3">
                         Constructing a Huffman code
                         </summary>
-    
+
                         <p>
                             We build a binary tree from the bottom-up,
                             starting with the two least-frequent characters,
@@ -288,6 +356,25 @@
                     <summary class="sum2">
                         Game Trees
                     </summary>
+                    <p>
+                      Trees can be used to analyze certain type of games like
+                      tic-tac-toe where there is no element of chance and
+                      previous move is known to each player.
+                    </p>
+                    <p>
+                      The vertices of trees represent position that a game can
+                      be in as the game progresses, the edge represent legal
+                      moves between these positions
+                    </p>
+                    <p>
+                      Game trees can be simplified by representing all
+                      symmetric positions of game by the same vertex.
+                    </p>
+                    <p>
+                    However, same position of the game may be represent by
+                    different vertices if different sequences of moves lead to
+                    this position.
+                    </p>
                 </details>
 
             </details>
@@ -529,7 +616,7 @@
 
             <details>
                 <summary class="sum1">
-                Minimum Spanning Trees 
+                Minimum Spanning Trees
                 </summary>
 
                 <details>

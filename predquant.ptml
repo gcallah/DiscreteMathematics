@@ -69,7 +69,7 @@
             </p>
 
             <details>
-                <summary class="sum2">
+                <summary class="sum3">
                     The Universal Quantifier
                 </summary>
 
@@ -107,7 +107,7 @@
             </details>
 
             <details>
-                <summary class="sum2">
+                <summary class="sum3">
                     The Existential Quantifier
                 </summary>
 
@@ -136,7 +136,6 @@
                 </p>
 
             </details>
-
 
         </details>
 
