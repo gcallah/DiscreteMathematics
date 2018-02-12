@@ -83,13 +83,34 @@
                 ∀zL(x,y,z)
                 </li>
             </ol>
+            <li>
+                When are two quantifiers said to be nested?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                If one is within scope of the other
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                If one is independent of the other
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                If their domain is complex numbers only
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                If their domain is integers only
+                </li>
+            </ol>
         </ol>
         <details>
             <summary class="sum3">
                 Answers
             </summary>
             <p>
-                1. c; 2. b; 3. b; 4. b; 
+                1. c; 2. b; 3. b; 4. b; 5. a; 
             </p>
         </details>
     </details>
