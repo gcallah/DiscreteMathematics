@@ -107,13 +107,14 @@
                        Theorem 2:
                     </summary>
                     <p>
-                    A tree with <i>n</i> vertices has <i>n</i> − 1 edges.
+                    A tree with <i>n</i> vertices has <i>n</i> &minus; 1 edges.
                     </p>
                     <summary class="sum3">
                        Theorem 3:
                     </summary>
                     <p>
-                    A full <i>m</i>-ary tree with i internal vertices contains <i>n</i> = <i>m</i>*<i>i</i> + <i>1</i> vertices.
+                    A full <i>m</i>-ary tree with i internal vertices
+                    contains <i>n</i> = <i>m</i>*<i>i</i> + <i>1</i> vertices.
                     </p>
                     <summary class="sum3">
                        Theorem 4:
@@ -121,16 +122,26 @@
                     <p>
                     A full <i>m</i>-ary tree with
                     <ol class="nested">
-    <li> <i>n</i> vertices has <i>i = (n − 1)/m </i>internal vertices and <i>l = [(m − 1)n + 1]/m</i> leaves,</li>
-    <li> <i>i</i> internal vertices has <i>n</i> = <i>m</i>*<i>i</i> + <i>1</i> vertices and <i>l</i> = <i>(m − 1)i + 1</i> leaves,</li>
-    <li> <i>l</i> leaves has <i>n = (ml − 1)/(m − 1)</i> vertices and <i>i = (l − 1)/(m − 1) </i>internal vertices.</li>
+    <li>
+        <i>n</i> vertices has <i>i = (n &minus; 1)/m </i>internal
+        vertices and <i>l = [(m &minus; 1)n + 1]/m</i> leaves,
+    </li>
+    <li>
+        <i>i</i> internal vertices has <i>n</i> = <i>m</i><i>i</i> + <i>1</i>
+        vertices and <i>l</i> = <i>(m &minus; 1)i + 1</i> leaves,
+    </li>
+    <li>
+        <i>l</i> leaves has <i>n = (ml &minus; 1)/(m &minus; 1)</i> vertices
+        and <i>i = (l &minus; 1)/(m &minus; 1) </i>internal vertices.
+    </li>
     </ol>
                     </p>
                     <summary class="sum3">
                        Theorem 5:
                     </summary>
                     <p>
-                      There are at most <i>m</i> <sup> <i>h</i> </sup>leaves in an m-ary tree of height <i>h</i>.
+                      There are at most <i>m</i><sup><i>h</i></sup>
+                      leaves in an m-ary tree of height <i>h</i>.
                     </p>
 
 
