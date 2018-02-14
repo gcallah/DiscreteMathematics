@@ -267,9 +267,12 @@
                         animeRunning = false;
                     }
                 </script>
-                <footer id="footer">
-                    <script> window.footer() </script>
-                </footer>
+
+                <p id="legend">
+                    <script>
+                        window.create_legend()
+                    </script>
+                </p>
 
                 <figure>
                     <img src="graphics/InsertionSort.svg.png">
@@ -739,16 +742,16 @@
                     The total comparison will be 
                     <i>n</i> + (<i>n</i> &minus; 1)<br>
                     2(<i>n</i> &minus; 1) &minus; 1 = 2<i>n</i> &minus; 1 comparisons are made
-                    There are n comparisons checking the
+                    There are <i>n</i> comparisons checking the
                     termination condition of the for loop.
                 </li>
                 <li>
-                    There are n &minus; 1 comparison in the if
+                    There are <i>n</i> &minus; 1 comparison in the if
                     statement to check the maximum element.
                     </li>
                 <li>
                     The total comparisons will be
-                    <i>n</i> + (<i>n</i> &minus; 1)<br>
+                    <i>n</i> + (<i>n</i> &minus; 1)
                     = 2<i>n</i> &minus; 1.
                 </li>
                 <li>
@@ -812,29 +815,14 @@
                     How many additions of integers and multiplications
                     of integers are used 
                     by the matrix multiplication algorithm to multiply
-                    two <i>n * n </i>matrices.
+                    two <i>n</i> * <i>n</i> matrices.
                 </li>
-            </ul>
 
-            <ul class="nested">
-                <li>
-                    There are a total of <i>n<sup>2</sup></i>
-                    elements in the product matrix.
-                </li>
-                <li>
-                    Each element requires <i>n</i> multiplications
-                    and <i>n</i> &minus; 1 additions.
-                </li>
-                <li>
-                    Hence, <i>n</i><sup>3</sup> multiplications and
-                    <i>n</i><sup>2</sup>(<i>n</i> &minus; 1)
-                    additions are used.
-                </li>
                 <li>
                     Hence, the complexity of matrix 
-                    multiplication is <i>O(n</i><sup>3</sup>).  
+                    multiplication is <i>O</i>(<i>n</i><sup>3</sup>).  
                     Hence, the complexity of matrix
-                    multiplication is <i>O(n<sup>3</sup>)</i>.  
+                    multiplication is <i>O</i>(<i>n</i><sup>3</sup>).  
                 </li>
             </ul>
 
