@@ -1,1 +1,1 @@
-What is not correct from the following about mathematical induction?#They do not provide insights about why a theorem is true.#None of the above.#It can be used to prove a conjecture once it is made.#^It can be used to find new theorems.
+What is not correct about Mathematical Induction from following?#All the statements are correct.#^They provide insights about why a theorem is true.#It can be used to prove a conjecture once it has been made.#It can not be used to find new theorems.
