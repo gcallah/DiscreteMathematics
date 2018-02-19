@@ -47,7 +47,7 @@
                      Ordered Pairs can be used to express relation between two elements.
                      These are called as binary relations.
                    </p>
-                </details>
+
                    <details>
                       <summary class="sum3">
                        DEFINITION 1:
@@ -62,7 +62,7 @@
                         {1,1} ,{2,2}
                       </p>
                    </details>
-
+               </details>
                 <details>
                     <summary class="sum2">
                      Functions as Relations
@@ -114,14 +114,90 @@
                           ((<i>a</i>, <i>a</i>) &isin; <i>R</i>) for every element a &isin; <i>A</i>.
                         </p>
                       </details>
+                      <details>
+                        <summary class="sum3">
+                         DEFINITION 4:
+                        </summary>
+                        <p>
+                          A relation <i>R</i> on a set <i>A</i> is called symmetric
+                           if (<i>b</i>, <i>a</i>) &isin; <i>R</i> whenever
+                           (<i>a</i>,  <i>b</i>) &isin; <i>R</i> , for all
+                         </p>
+                         <p>
+                           <i>a</i>, <i>b</i> &isin; <i>A</i>. A relation <i>R</i> on a set
+                           <i>A</i> such that for all <i>a</i>, <i>b</i> &isin; <i>A</i>,
+                           if (<i>a</i>,  <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>a</i>)
+                          &isin; <i>R</i>, then <i>a</i> &equals; <i>b</i> is called antisymmetric.
+                        </p>
+                      </details>
+
+                      <details>
+                         <summary class="sum3">
+                        DEFINITION 5:
+                         </summary>
+
+                      <p>
+                        A relation <i>R</i> on a set <i>A</i> is called transitive if whenever (<i>a</i>,  <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>c</i>) &isin; <i>R</i>,
+                        then (<i>a</i>, <i>c</i>) &isin; <i>R</i>, for all <i>a </i>, <i>b </i>, <i>c </i> &isin; <i>A</i>.
+                      </p>
+                      </details>
+
+                      <details>
+                        <summary class="sum3">
+                       DEFINITION 6:
+                        </summary>
+                        <p>
+                          Let <i>R</i> be a relation from a set <i>A</i>
+                          to a set <i>B</i> and <i>S</i> a relation from <i>B</i>
+                          to a set <i>C</i>. The composite of <i>R</i> and <i>S</i>
+                        </p>
+                        <p>
+                          is the relation consisting of ordered pairs (<i>a</i>, <i>c</i>),
+                          where <i>a</i> &isin; <i>A</i>, <i>c</i> &isin; <i>C</i>,
+                           and for which there exists an element <i>b</i> &isin; <i>B</i>
+                      </p>
+                       <p>
+                           such that (<i>a</i>, <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>c</i>)
+                            &isin; <i>S</i>. We denote the composite of <i>R</i> and <i>S</i>
+                           by <i>S</i> ◦<i>R</i>.
+                        </p>
+                      </details>
                     </details>
                 </details>
-
 
             <details>
                 <summary class="sum1">
                 Representing Relations
                 </summary>
+                <details>
+                   <summary class="sum2">
+                      Introduction
+                   </summary>
+                   <p>
+                     Relations can also be expresed using zero-one matrices and directed graphs.
+                     We are considering relations to be binary relations hereon.
+                   </p>
+                </details>
+                <details>
+                  <summary class ="sum2">
+                     Representing Relations Using Matrices
+                  </summary>
+                  <p>
+                    A relation between finite sets can be represented in using zero-one matrices.
+                    If two sets <i>A</i> and <i>B</i> are equal then the relation <i>R</i> between them is given by:
+
+                          m<sub>i</sub><sub>j</sub>  &equals; 1 if (a<sub>i</sub> , b<sub>j</sub>) &isin; <i> R</i>
+                      and m<sub>i</sub><sub>j</sub>  &equals; 0 if (a<sub>i</sub> , b<sub>j</sub>) &notin; <i> R</i>
+                  </p>
+                  <details>
+                     <summary class="sum3">
+                       Example:
+                     </summary>
+                     <p>
+                     </p>
+                  </details>
+
+                </details>
             </details>
 
             <details>
