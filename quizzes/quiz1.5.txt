@@ -1,1 +1,5 @@
 <i>∀x∃y</i>(<i>x</i> + <i>y</i> = 0) is read as:#For all <i>x</i> and <i>y</i>, <i>x</i> + <i>y</i> = 0#For all <i>y</i>, there exists an <i>x</i> such that <i>x</i> + <i>y</i> = 0#^For all <i>x</i>, there exists a <i>y</i> such that <i>x</i> +  <i>y</i> = 0#For all <i>x</i> and <i>y</i>, <i>x</i><i>y</i> = 0
+Let Q(x,y,z) denote the statement x^2 + y^2 = z^2. What is the truth value of Q(3,4,5)?#Cannot determine#^True#False
+Express the statement “for every x and for every y, x + y > 10”#∀x∀yP(y, y)#^∀x∀yP(x, y)#∀yP(x > y)#∀x∀yP(x)
+How can we translate "Everybody loves somebody sometime."?#∀xL(x,y,z)#^∀x∃y∃z(L(x, y, z))#∀x∃y(x,y)#∀zL(x,y,z)
+When are two quantifiers said to be nested?#^If one is within scope of the other#If one is independent of the other#If their domain is complex numbers only#If their domain is integers only

@@ -30,29 +30,98 @@
                 </p>
 
                 <p>
-                    No circuits, unique simple path.
+                    A tree is a connected graph with no circuits and a
+                    unique simple path between any of it's vertices.
                 </p>
+
+                <figure>
+                    <img src="graphics/DirectedCyclicGraphs.svg">
+                    <figcaption>
+                        Not a Tree
+                        <br />
+                        (Source:
+                        https://en.wikipedia.org/wiki/Tree_(data_structure))
+                    </figcaption>
+                </figure>
 
                 <p class="def">
                     Forest
+                </p>
+                <p>
+                  Forest is a graph containing zero or more disjoint trees.
                 </p>
 
                 <details>
                     <summary class="sum2">
                         Rooted Trees
                     </summary>
-
-                    <p>
-                    Root
-                    <br />
-                    Leaf
-                    <br />
-                    Subtree
-                    <br />
-                    M-ary tree
-                    <br />
-                    Full m-ary tree
+                    <p class="def">
+                       Definition:
                     </p>
+                    <p>
+                        A rooted tree is an acyclic graph,
+                        with one vertex designated as root.
+                    </p>
+                    <ul class="nested">
+                    <li>
+                        <b>Root</b>
+                        A vertex is defined in a tree as a root.
+                        It is the entry point of a tree.
+                    </li>
+                    <li>
+                        <b>Parent</b>
+                        A vertex <i>u</i> is said to be a parent of <i>v</i>, if there is a unidirected edge from <i>u</i> to <i>v</i>. A root has no parent
+                    </li>
+                    <li>
+                       <b>Child</b>
+                       The vertex <i>v</i> defined above is a child of <i>u</i>
+                    </li>
+                    <li>
+                        <b>Leaf</b>
+                        The last vertices of a tree are leaf.
+                        leaf has no children
+                    </li>
+                    <li>
+                        <b>Subtree</b>
+                        A tree formed by an internal vertex,
+                         which is not a root.
+                    </li>
+                    <figure>
+                        <img src="graphics/tree_example.gif">
+                        <figcaption>
+                            Tree Example
+                            <br />
+                            (Source:
+                            http://holowczak.com/programming-concepts-tutorial-programmers/4/)
+                        </figcaption>
+                    </figure>
+                    <li>
+                        <b>Siblings</b>:
+                        vertices with the same parent
+                    </li>
+                    <li>
+                        <b>Ancestors</b>:
+                        vertices which come along the path when
+                        traversing to a vertex from the root.
+                        It doesnot include the vertex
+                    </li>
+                    <li>
+                        <b>Decendants</b>:
+                        Decendants of a vertex are vertices which
+                        come along the path when traversing from the vertex
+                        to a leaf, excluding the vertex itself.
+                    </li>
+                    <li>
+                       <b>M-ary tree</b>
+                       A tree with every internal vertices
+                       having no more than m children.
+                    </li>
+                    <li>
+                        <b>Full m-ary tree</b>
+                        A tree with every internal vetrx having
+                        exactly m children.
+                    </li>
+                    </ul>
 
                 </details>
 
@@ -61,7 +130,17 @@
                         Trees as Models
                     </summary>
 
-                    <ul>
+                    <figure>
+                        <img src="graphics/OrgChart.png">
+                        <figcaption>
+                            An org chart
+                            <br />
+                            (Source:
+                            https://en.wikipedia.org/wiki/Organizational_chart)
+                        </figcaption>
+                    </figure>
+
+                    <ul class="nested">
                         <li>
                             (Some) molecules
                         </li>
@@ -71,8 +150,7 @@
                         <li>
                             Computer file systems
                         </li>
-                        <li>
-                        </li>
+
                     </ul>
 
                 </details>
@@ -81,6 +159,48 @@
                     <summary class="sum2">
                         Properties of Trees
                     </summary>
+                    <summary class="sum3">
+                       Theorem 2:
+                    </summary>
+                    <p>
+                    A tree with <i>n</i> vertices has <i>n</i> &minus; 1 edges.
+                    </p>
+                    <summary class="sum3">
+                       Theorem 3:
+                    </summary>
+                    <p>
+                    A full <i>m</i>-ary tree with i internal vertices
+                    contains <i>n</i> = <i>m</i>*<i>i</i> + <i>1</i> vertices.
+                    </p>
+                    <summary class="sum3">
+                       Theorem 4:
+                    </summary>
+                    <p>
+                    A full <i>m</i>-ary tree with
+                    <ol class="nested">
+    <li>
+        <i>n</i> vertices has <i>i = (n &minus; 1)/m </i>internal
+        vertices and <i>l = [(m &minus; 1)n + 1]/m</i> leaves,
+    </li>
+    <li>
+        <i>i</i> internal vertices has <i>n</i> = <i>m</i><i>i</i> + <i>1</i>
+        vertices and <i>l</i> = <i>(m &minus; 1)i + 1</i> leaves,
+    </li>
+    <li>
+        <i>l</i> leaves has <i>n = (ml &minus; 1)/(m &minus; 1)</i> vertices
+        and <i>i = (l &minus; 1)/(m &minus; 1) </i>internal vertices.
+    </li>
+    </ol>
+                    </p>
+                    <summary class="sum3">
+                       Theorem 5:
+                    </summary>
+                    <p>
+                      There are at most <i>m</i><sup><i>h</i></sup>
+                      leaves in an m-ary tree of height <i>h</i>.
+                    </p>
+
+
                 </details>
 
             </details>
@@ -89,7 +209,11 @@
                 <summary class="sum1">
                 Applications of Trees
                 </summary>
-
+                <p>
+                  Trees provide easier location of items.
+                  Depending on a certain property, items are stored in a tree
+                  data structure for faster retrieval.
+                </p>
                 <details>
                     <summary class="sum2">
                         Binary Search Trees
@@ -108,7 +232,7 @@
                     <summary class="sum2">
                         Decision Trees
                         <br />
-                        NOT COVERED FALL 2017
+                        NOT COVERED SPRING 2018
                     </summary>
                 </details>
 
@@ -132,7 +256,7 @@
                         It means that we never hit two letters on the same path
                         down the tree!
                         </p>
-    
+
                         <table>
                             <tr>
                                 <td>
@@ -209,7 +333,7 @@
                         <summary class="sum3">
                             Huffman codes
                         </summary>
-        
+
                         <p>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png">
@@ -222,7 +346,7 @@
                         in the data, and using longer representations
                         for characters that occur less frequently.
                         </p>
-        
+
                         <figure>
                             <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/dM6us854Jk0"
@@ -232,13 +356,13 @@
                             </figcaption>
                         </figure>
                     </details>
-    
-    
+
+
                     <details>
                         <summary class="sum3">
                         Constructing a Huffman code
                         </summary>
-    
+
                         <p>
                             We build a binary tree from the bottom-up,
                             starting with the two least-frequent characters,
@@ -288,6 +412,25 @@
                     <summary class="sum2">
                         Game Trees
                     </summary>
+                    <p>
+                      Trees can be used to analyze certain type of games like
+                      tic-tac-toe where there is no element of chance and
+                      previous move is known to each player.
+                    </p>
+                    <p>
+                      The vertices of trees represent position that a game can
+                      be in as the game progresses, the edge represent legal
+                      moves between these positions
+                    </p>
+                    <p>
+                      Game trees can be simplified by representing all
+                      symmetric positions of game by the same vertex.
+                    </p>
+                    <p>
+                    However, same position of the game may be represent by
+                    different vertices if different sequences of moves lead to
+                    this position.
+                    </p>
                 </details>
 
             </details>
@@ -529,13 +672,30 @@
 
             <details>
                 <summary class="sum1">
-                Minimum Spanning Trees 
+                Minimum Spanning Trees
                 </summary>
 
                 <details>
                     <summary class="sum2">
                         Introduction
                     </summary>
+                    <p>
+                        An electrical grid in an area can be thought
+                        of as a weighted graph.
+                    </p>
+                    <p>There is a certain cost attached to forming a
+                       grid which depends on the area, the distance
+                        between two poles and certain other factors.
+                    </p>
+                    <p>
+                       We can think of all the poles to be vertices
+                       and the cost of forming a connection as the weighing
+                      factor.
+                    </p>
+                    <p>
+                         We can form a Minimum Spanning Tree to
+                        determine the minimum cost of total connection.
+                    </p>
                 </details>
 
                 <details>

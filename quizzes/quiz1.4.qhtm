@@ -79,13 +79,34 @@
                 ∀p∀q L(p,q)
                 </li>
             </ol>
+            <li>
+                Which of the following is not a type of quantifier?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                Existential
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                Nested
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                Complex
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                Universal
+                </li>
+            </ol>
         </ol>
         <details>
             <summary class="sum3">
                 Answers
             </summary>
             <p>
-                1. c; 2. b; 3. c; 4. d; 
+                1. c; 2. b; 3. c; 4. d; 5. c; 
             </p>
         </details>
     </details>

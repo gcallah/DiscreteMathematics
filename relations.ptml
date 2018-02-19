@@ -21,22 +21,188 @@
                     </figcaption>
                 </figure>
             </div>
-            
             <details>
                 <summary class="sum1">
-                Relations and Their Properties 
+                 Introduction
                 </summary>
+                <p>
+                 In Mathematics, A relation between elements of two sets can
+                 occur in many contexts. Like consider a relation between two
+                 sets of stations linked through trains.
+                </p>
+                <p>
+                 A relation set between two relations say <i>A</i> and <i>B</i>
+                 is a subset of cartesian products of <i>A</i> and <i>B</i>
+                </p>
             </details>
+            <details>
+                <summary class="sum1">
+                   Relations and Their Properties
+                </summary>
+                <details>
+                   <summary class="sum2">
+                      Introduction
+                   </summary>
+                   <p>
+                     Ordered Pairs can be used to express relation between two elements.
+                     These are called as binary relations.
+                   </p>
+
+                   <details>
+                      <summary class="sum3">
+                       DEFINITION 1:
+                      </summary>
+                      <p>
+                        A binary relation from <i>A</i> to <i>B</i> is a subset of <i>A</i> x <i>B</i>;
+                      </p>
+                      <p>
+                       <b>Example</b>
+                        Let <i>A</i> &equals; {0,1,2} and <i>B</i> &equals; {1,2}
+                        then a relation set of {x | x &isin; R x &equals;x} is given by
+                        {1,1} ,{2,2}
+                      </p>
+                   </details>
+               </details>
+                <details>
+                    <summary class="sum2">
+                     Functions as Relations
+                     </summary>
+                     <p>
+                      A relation between a function from <i>A</i> to <i>B</i>  is defined by assigning exactly one element of <i>B</i> to <i>A</i>;
+                     </p>
+                     <p>
+                     The graph of <i>f</i> is the set of ordered pairs (<i>a</i>, <i>b</i>) such that <i>b</i> &equals; f <i>(a)</i>.
+                     </p>
+                      <p>
+                       <b>Example</b>
+                        A relation on a set <i>A</i> is a subset of <i>A</i> x <i>A</i>.
+                        Because <i>A</i> x <i>A</i> has n<sup>2</sup> elements
+                     </p>
+                     <p>
+                        when <i>A</i> has <i>n</i> elements, and there are
+                        2 n<sup>2</sup> subsets of <i>A</i> x <i>A</i>.
+                        Thus, there are 2 n<sup>2</sup> relations on a set with <i>n</i> elements.
+                      </p>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                     Relations on a Set
+                    </summary>
+
+                    <details>
+                      <summary class="sum3">
+                       DEFINITION 2:
+                      </summary>
+                      <p>
+                        A relation on a set <i>A</i> is a relation from <i>A</i> to <i>A</i>.
+                      </p>
+                    </details>
+                  </details>
+
+                  <details>
+                      <summary class="sum2">
+                       Properties of Relations
+                      </summary>
+
+                      <details>
+                        <summary class="sum3">
+                         DEFINITION 3:
+                        </summary>
+                        <p>
+                          A relation <i>R</i> on a set <i>A</i> is called reflexive if
+                          ((<i>a</i>, <i>a</i>) &isin; <i>R</i>) for every element a &isin; <i>A</i>.
+                        </p>
+                      </details>
+                      <details>
+                        <summary class="sum3">
+                         DEFINITION 4:
+                        </summary>
+                        <p>
+                          A relation <i>R</i> on a set <i>A</i> is called symmetric
+                           if (<i>b</i>, <i>a</i>) &isin; <i>R</i> whenever
+                           (<i>a</i>,  <i>b</i>) &isin; <i>R</i> , for all
+                         </p>
+                         <p>
+                           <i>a</i>, <i>b</i> &isin; <i>A</i>. A relation <i>R</i> on a set
+                           <i>A</i> such that for all <i>a</i>, <i>b</i> &isin; <i>A</i>,
+                           if (<i>a</i>,  <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>a</i>)
+                          &isin; <i>R</i>, then <i>a</i> &equals; <i>b</i> is called antisymmetric.
+                        </p>
+                      </details>
+
+                      <details>
+                         <summary class="sum3">
+                        DEFINITION 5:
+                         </summary>
+
+                      <p>
+                        A relation <i>R</i> on a set <i>A</i> is called transitive if whenever (<i>a</i>,  <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>c</i>) &isin; <i>R</i>,
+                        then (<i>a</i>, <i>c</i>) &isin; <i>R</i>, for all <i>a </i>, <i>b </i>, <i>c </i> &isin; <i>A</i>.
+                      </p>
+                      </details>
+
+                      <details>
+                        <summary class="sum3">
+                       DEFINITION 6:
+                        </summary>
+                        <p>
+                          Let <i>R</i> be a relation from a set <i>A</i>
+                          to a set <i>B</i> and <i>S</i> a relation from <i>B</i>
+                          to a set <i>C</i>. The composite of <i>R</i> and <i>S</i>
+                        </p>
+                        <p>
+                          is the relation consisting of ordered pairs (<i>a</i>, <i>c</i>),
+                          where <i>a</i> &isin; <i>A</i>, <i>c</i> &isin; <i>C</i>,
+                           and for which there exists an element <i>b</i> &isin; <i>B</i>
+                      </p>
+                       <p>
+                           such that (<i>a</i>, <i>b</i>) &isin; <i>R</i> and (<i>b</i>, <i>c</i>)
+                            &isin; <i>S</i>. We denote the composite of <i>R</i> and <i>S</i>
+                           by <i>S</i> ◦<i>R</i>.
+                        </p>
+                      </details>
+                    </details>
+                </details>
 
             <details>
                 <summary class="sum1">
                 Representing Relations
                 </summary>
+                <details>
+                   <summary class="sum2">
+                      Introduction
+                   </summary>
+                   <p>
+                     Relations can also be expresed using zero-one matrices and directed graphs.
+                     We are considering relations to be binary relations hereon.
+                   </p>
+                </details>
+                <details>
+                  <summary class ="sum2">
+                     Representing Relations Using Matrices
+                  </summary>
+                  <p>
+                    A relation between finite sets can be represented in using zero-one matrices.
+                    If two sets <i>A</i> and <i>B</i> are equal then the relation <i>R</i> between them is given by:
+
+                          m<sub>i</sub><sub>j</sub>  &equals; 1 if (a<sub>i</sub> , b<sub>j</sub>) &isin; <i> R</i>
+                      and m<sub>i</sub><sub>j</sub>  &equals; 0 if (a<sub>i</sub> , b<sub>j</sub>) &notin; <i> R</i>
+                  </p>
+                  <details>
+                     <summary class="sum3">
+                       Example:
+                     </summary>
+                     <p>
+                     </p>
+                  </details>
+
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
-                Closures of Relations 
+                Closures of Relations
                 </summary>
             </details>
 
@@ -48,7 +214,7 @@
 
             <details>
                 <summary class="sum1">
-                Partial Orderings 
+                Partial Orderings
                 </summary>
             </details>
 
