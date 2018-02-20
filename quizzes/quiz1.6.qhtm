@@ -4,44 +4,23 @@
         </summary>
         <ol class="nested">
             <li>
-                This is a test question
-            </li>
-            <ol type="a" class="nested">
-                <li>
-                <input type="radio" name="q1" value="a">
-                e
-                </li>
-                <li>
-                <input type="radio" name="q1" value="b">
-                abc
-                </li>
-                <li>
-                <input type="radio" name="q1" value="c">
-                f
-                </li>
-                <li>
-                <input type="radio" name="q1" value="d">
-                d
-                </li>
-            </ol>
-            <li>
                 Which rule of inference is used in each of these arguments: If it snows today, school will be closed. School is not closed today. Thus, it did not snow today.
             </li>
             <ol type="a" class="nested">
                 <li>
-                <input type="radio" name="q2" value="a">
+                <input type="radio" name="q1" value="a">
                 Resolution
                 </li>
                 <li>
-                <input type="radio" name="q2" value="b">
+                <input type="radio" name="q1" value="b">
                 Addition
                 </li>
                 <li>
-                <input type="radio" name="q2" value="c">
+                <input type="radio" name="q1" value="c">
                 Modus ponens
                 </li>
                 <li>
-                <input type="radio" name="q2" value="d">
+                <input type="radio" name="q1" value="d">
                 Modus tollens
                 </li>
             </ol>
@@ -50,19 +29,19 @@
             </li>
             <ol type="a" class="nested">
                 <li>
-                <input type="radio" name="q3" value="a">
+                <input type="radio" name="q2" value="a">
                 Conjunction
                 </li>
                 <li>
-                <input type="radio" name="q3" value="b">
+                <input type="radio" name="q2" value="b">
                 Simplification
                 </li>
                 <li>
-                <input type="radio" name="q3" value="c">
+                <input type="radio" name="q2" value="c">
                 Modus tollens
                 </li>
                 <li>
-                <input type="radio" name="q3" value="d">
+                <input type="radio" name="q2" value="d">
                 Modus ponens
                 </li>
             </ol>
@@ -71,19 +50,19 @@
             </li>
             <ol type="a" class="nested">
                 <li>
-                <input type="radio" name="q4" value="a">
+                <input type="radio" name="q3" value="a">
                 Disjunctive syllogism
                 </li>
                 <li>
-                <input type="radio" name="q4" value="b">
+                <input type="radio" name="q3" value="b">
                 Modus tollens
                 </li>
                 <li>
-                <input type="radio" name="q4" value="c">
+                <input type="radio" name="q3" value="c">
                 Simplification
                 </li>
                 <li>
-                <input type="radio" name="q4" value="d">
+                <input type="radio" name="q3" value="d">
                 Hypothetical syllogism
                 </li>
             </ol>
@@ -92,15 +71,15 @@
             </li>
             <ol type="a" class="nested">
                 <li>
-                <input type="radio" name="q5" value="a">
+                <input type="radio" name="q4" value="a">
                 They are not reversible
                 </li>
                 <li>
-                <input type="radio" name="q5" value="b">
+                <input type="radio" name="q4" value="b">
                 They are reversible
                 </li>
                 <li>
-                <input type="radio" name="q5" value="c">
+                <input type="radio" name="q4" value="c">
                 They allow you to infer one formula from another
                 </li>
             </ol>
@@ -109,19 +88,19 @@
             </li>
             <ol type="a" class="nested">
                 <li>
-                <input type="radio" name="q6" value="a">
+                <input type="radio" name="q5" value="a">
                 Simplification
                 </li>
                 <li>
-                <input type="radio" name="q6" value="b">
+                <input type="radio" name="q5" value="b">
                 Conjunction
                 </li>
                 <li>
-                <input type="radio" name="q6" value="c">
+                <input type="radio" name="q5" value="c">
                 Addition
                 </li>
                 <li>
-                <input type="radio" name="q6" value="d">
+                <input type="radio" name="q5" value="d">
                 Disjunctive syllogism
                 </li>
             </ol>
@@ -131,7 +110,7 @@
                 Answers
             </summary>
             <p>
-                1. b; 2. d; 3. d; 4. d; 5. b; 6. a; 
+                1. d; 2. d; 3. d; 4. b; 5. a; 
             </p>
         </details>
     </details>
