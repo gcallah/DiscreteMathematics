@@ -1,0 +1,116 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                Which rule of inference is used in each of these arguments: If it snows today, school will be closed. School is not closed today. Thus, it did not snow today.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                Resolution
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                Addition
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                Modus ponens
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                Modus tollens
+                </li>
+            </ol>
+            <li>
+                Which rule of inference is used in each of these arguments: If it snows today, school will be closed. It is snowing today. Thus, school will be closed.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                Conjunction
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                Simplification
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                Modus tollens
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                Modus ponens
+                </li>
+            </ol>
+            <li>
+                What rule of inference is used in this argument? "If I exercise, then I will be physically fit. If I will be physically fit, then I will stay healthy. Therefore, if I exercise, then I will stay healthy."
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                Disjunctive syllogism
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                Modus tollens
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                Simplification
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                Hypothetical syllogism
+                </li>
+            </ol>
+            <li>
+                Which of the following is NOT true about rules of inference?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                They are not reversible
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                They are reversible
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                They allow you to infer one formula from another
+                </li>
+            </ol>
+            <li>
+                What rule of inference is used in this argument? "Its raining and cloudy now. Thus, it is raining now."
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                Simplification
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                Conjunction
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                Addition
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                Disjunctive syllogism
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. d; 2. d; 3. d; 4. b; 5. a; 
+            </p>
+        </details>
+    </details>
