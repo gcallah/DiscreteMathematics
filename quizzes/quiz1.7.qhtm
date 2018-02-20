@@ -1,0 +1,120 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                A direct proof of a conditional statement p → q assumes:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                q is true so then p must be true
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                p is true so then q must be true
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                p and q both are false
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                p and q both are true
+                </li>
+            </ol>
+            <li>
+                A theorem is a:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                false statement
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                statement that is always true
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                proof
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                statement that can be proven to be true
+                </li>
+            </ol>
+            <li>
+                Indirect proofs make use of the following:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                p → q ⇔ ~p ∨ q
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                p ∨ T ⇔ T
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                p ∧ p ⇔ p
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                p → q ⇔ ~q → ~p
+                </li>
+            </ol>
+            <li>
+                Which of the following is NOT true for mistakes in proofs?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                Most common errors are mistakes in arithmetic and basic algebra
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                Conclusion needs to follow logically
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                Each step should be correct
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                Most common errors are mistakes in grammar
+                </li>
+            </ol>
+            <li>
+                What is wrong with this proof? <b>Theorem:</b> If n<sup>2</sup> is positive, then n is positive. <b>Proof:</b> Suppose that n<sup>2</sup> is positive. Because the conditional statement "If n is positive, then n<sup>2</sup> is positive" is true, we can conclude that n is positive.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                Because n is a complex number
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                We cannot conclude that because we are not using a valid rule of inference
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                If n<sup>2</sup> is positive then n must be negative
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                The proof is wrong due to grammatical errors
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. b; 2. d; 3. d; 4. d; 5. b; 
+            </p>
+        </details>
+    </details>

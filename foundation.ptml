@@ -786,6 +786,7 @@
                         "Therefore..."
                     </p>
                 </details>
+                <!--include quiz1.6.qhtm -->
 
             </details>
 
@@ -1099,9 +1100,9 @@
                          positive, then <i>n</i><sup>2</sup> is positive is true,
                          we can
                          conclude that <i>n</i> is positive.
-                         
+
                          </p>
-                         
+
                          <p>
                          Solution: Let
                          <i>P</i>(<i>n)</i> be "<i>n</i> is positive" and <i>
@@ -1114,7 +1115,7 @@
 
                          <p>
                          From the hypothesis and the statement,we cannot
-                         conclude <i>P</i>(<i>n</i>) because we 
+                         conclude <i>P</i>(<i>n</i>) because we
                          are not using a valid
                          rule of inference. A counterexample is for
                          <i>n</i> = &minus;1
@@ -1122,6 +1123,7 @@
 
 
                </details>
+               <!--include quiz1.7.qhtm -->
 
 
 
@@ -1213,7 +1215,7 @@
                               </summary>
 
                                <p>
-                                 The proofs that must cover 
+                                 The proofs that must cover
                                  all the cases that arises in a theorem
                                </p>
 
@@ -1239,7 +1241,7 @@
                                positive integers, and negative integers
                                separately
                                </p>
-                               
+
                                <p>
                                Case (i): When <i>n</i> &equals;
                                0, because 0<sup>2</sup> &equals;
@@ -1274,6 +1276,7 @@
 
                       </details>
                   </details>
+                  <!--include quiz1.8.qhtm -->
 
               </details>
 

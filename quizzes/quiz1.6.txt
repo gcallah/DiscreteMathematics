@@ -1,0 +1,5 @@
+Which rule of inference is used in each of these arguments: If it snows today, school will be closed. School is not closed today. Thus, it did not snow today.#Resolution#Addition#Modus ponens#^Modus tollens
+Which rule of inference is used in each of these arguments: If it snows today, school will be closed. It is snowing today. Thus, school will be closed.#Conjunction#Simplification#Modus tollens#^Modus ponens
+What rule of inference is used in this argument? "If I exercise, then I will be physically fit. If I will be physically fit, then I will stay healthy. Therefore, if I exercise, then I will stay healthy."#Disjunctive syllogism#Modus tollens#Simplification#^Hypothetical syllogism
+Which of the following is NOT true about rules of inference?#They are not reversible#^They are reversible#They allow you to infer one formula from another
+What rule of inference is used in this argument? "Its raining and cloudy now. Thus, it is raining now."#^Simplification#Conjunction#Addition#Disjunctive syllogism

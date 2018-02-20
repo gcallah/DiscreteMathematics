@@ -1,0 +1,62 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                A proof that proves a theorem by checking every possibility is called a/an:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                Exhaustive proof
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                Irrational proof
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                Proof by contraposition
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                Proof by contradiction
+                </li>
+            </ol>
+            <li>
+                True or false: In 'proof by cases', proofs need not cover all cases that arise in a theorem.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                The following statement: 'if n is an integer, then n<sup>2</sup> ≥ n' can be proven by using the 'proof by cases' method.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                True
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                False
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. a; 2. a; 3. a; 
+            </p>
+        </details>
+    </details>
