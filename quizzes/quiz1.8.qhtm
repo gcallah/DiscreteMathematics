@@ -38,7 +38,7 @@
                 </li>
             </ol>
             <li>
-                The following statement: 'if n is an integer, then n2 ≥ n' can be proven by using the 'proof by cases' method.
+                The following statement: 'if n is an integer, then n<sup>2</sup> ≥ n' can be proven by using the 'proof by cases' method.
             </li>
             <ol type="a" class="nested">
                 <li>

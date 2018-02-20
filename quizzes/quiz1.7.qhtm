@@ -46,7 +46,7 @@
                 </li>
             </ol>
             <li>
-                Indirect proofs make use of the followig:
+                Indirect proofs make use of the following:
             </li>
             <ol type="a" class="nested">
                 <li>
@@ -80,7 +80,7 @@
                 </li>
                 <li>
                 <input type="radio" name="q4" value="c">
-                Each step should be correct i.
+                Each step should be correct
                 </li>
                 <li>
                 <input type="radio" name="q4" value="d">
@@ -88,7 +88,7 @@
                 </li>
             </ol>
             <li>
-                What is wrong with this proof? Theorem: If n<sup>2</sup> is positive, then n is positive. Proof: Suppose that n<sup>2</sup> is positive. Because the conditional statement "If n is positive, then n<sup>2</sup> is positive is true, we can conclude that n is positive.
+                What is wrong with this proof? <b>Theorem:</b> If n<sup>2</sup> is positive, then n is positive. <b>Proof:</b> Suppose that n<sup>2</sup> is positive. Because the conditional statement "If n is positive, then n<sup>2</sup> is positive" is true, we can conclude that n is positive.
             </li>
             <ol type="a" class="nested">
                 <li>
