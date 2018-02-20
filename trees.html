@@ -114,6 +114,18 @@
                         vertices with the same parent
                     </li>
                     <li>
+                        <b>Ancestors</b>:
+                        vertices which come along the path when
+                        traversing to a vertex from the root.
+                        It doesnot include the vertex
+                    </li>
+                    <li>
+                        <b>Decendants</b>:
+                        Decendants of a vertex are vertices which
+                        come along the path when traversing from the vertex
+                        to a leaf, excluding the vertex itself.
+                    </li>
+                    <li>
                        <b>M-ary tree</b>
                        A tree with every internal vertices
                        having no more than m children.
@@ -681,6 +693,23 @@
                     <summary class="sum2">
                         Introduction
                     </summary>
+                    <p>
+                        An electrical grid in an area can be thought
+                        of as a weighted graph.
+                    </p>
+                    <p>There is a certain cost attached to forming a
+                       grid which depends on the area, the distance
+                        between two poles and certain other factors.
+                    </p>
+                    <p>
+                       We can think of all the poles to be vertices
+                       and the cost of forming a connection as the weighing
+                      factor.
+                    </p>
+                    <p>
+                         We can form a Minimum Spanning Tree to
+                        determine the minimum cost of total connection.
+                    </p>
                 </details>
 
                 <details>

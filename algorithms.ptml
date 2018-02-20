@@ -4,6 +4,7 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="Algocynfas/lib/bootstrap.min.js"></script>
     <script src="Algocynfas/lib/fabric.js"></script>
+
     <title>
         Algorithms
     </title>
@@ -232,6 +233,7 @@
                     <canvas id="canvas" width="800" height="144"
                         style="border:1px solid #000000"></canvas>
                 </p>
+
                 <script src="Algocynfas/algocynfas.js"></script>
                 <script src="Algocynfas/insertion_sort.js"></script>
                 <script src="Algocynfas/widgets.js"></script>
@@ -256,7 +258,7 @@
 
                 <p id="legend">
                     <script>
-                        window.create_legend()
+                        window.display_legend()
                     </script>
                 </p>
 
