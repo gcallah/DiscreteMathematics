@@ -1,0 +1,3 @@
+A proof that proves a theorem by checking every possibility is called a/an:#^Exhaustive proof#Irrational proof#Proof by contraposition#Proof by contradiction
+True or false: In 'proof by cases', proofs need not cover all cases that arise in a theorem.#^False#True
+The following statement: 'if n is an integer, then n<sup>2</sup> ≥ n' can be proven by using the 'proof by cases' method.#^True#False
