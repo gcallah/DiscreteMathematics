@@ -523,7 +523,7 @@
                     </li>
                 </ol>
                 </details>
-            <!--include quiz5.1.qhtm -->
+            <!--do not include quiz5.1.qhtm at the moment! -->
             </details>
 
             <details>
@@ -560,7 +560,7 @@
                         Example
                     </summary>
                     <p>
-                    Show that if n is an
+                    Show that if <i>n</i> is an
                     integer greater than 1,
                     then <i>n</i> can be written
                     as the product of primes.
@@ -578,7 +578,8 @@
                     <p>
                         The inductive hypothesis is the
                         assumption that <i>P(j</i>) is true for all
-                        integers j with 2 &le; <i>j</i> &le; <i>k</i>, that is,
+                        integers <i>j</i> with 2 &le;
+                        <i>j</i> &le; <i>k</i>, that is,
                         the assumption that <i>j</i> can be written
                         as the product of primes
                         whenever <i>j</i> is a positive integer
@@ -592,7 +593,7 @@
                         <i>k</i> + 1 is composite and
                         can be written as the product of two 
                         positive integers <i>a</i> and <i>b</i> with 
-                        2 &le; <i>a</i> &le; <i>b</i> <i>k</i> + 1. 
+                        2 &le; <i>a</i> &le; <i>b</i> &lt; <i>k</i> + 1. 
                         <br>
                         Because both <i>a</i> and <i>b</i> are integers at 
                         least 2 and not exceeding <i>k</i>, we can use 
