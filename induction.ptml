@@ -315,11 +315,11 @@
                             2<sup><i>k</i>+1</sup>.
                             <br>
 
-                            <i>k</i> + 1 &lt; 2<sup><i>k</i> +
-                            1</sup> &le; 2<sup><i>k</i></sup>
+                            <i>k</i> + 1 &lt; 2<sup><i>k</i></sup>
+                            + 1 &le; 2<sup><i>k</i></sup>
                             + 2<sup><i>k</i></sup> = 2 .
                             2<sup><i>k</i></sup>
-                            = 2<sup><i>k</i></sup> + 1.
+                            = 2<sup><i>k</i> + 1</sup>.
                             <br>
 
                             This shows that <i>P</i>(<i>k</i> + 1)
