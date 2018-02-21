@@ -183,7 +183,8 @@
                             INDUCTIVE STEP:
                         </p>
                         <p>
-                            P(k) holds for an arbitrary positive integer <i>k</i>.
+                            P(k) holds for an arbitrary
+                            positive integer <i>k</i>.
                             we assume that 1 + 2 + . . . + <i>k</i> =
                             <span class="frac">
                                 <sup>
@@ -312,13 +313,16 @@
                             <i>k</i> &lt; 2<sup><i>k</i></sup>,
                             then <i>k</i> + 1 &lt; 
                             2<sup><i>k</i>+1</sup>.
-                            <br> <i>k</i> + 1 = 2<sup><i>k</i> +
+                            <br>
+
+                            <i>k</i> + 1 &lt; 2<sup><i>k</i> +
                             1</sup> &le; 2<sup><i>k</i></sup>
                             + 2<sup><i>k</i></sup> = 2 .
                             2<sup><i>k</i></sup>
                             = 2<sup><i>k</i></sup> + 1.
                             <br>
-                            This shows that <i>P(k</i> + 1)
+
+                            This shows that <i>P</i>(<i>k</i> + 1)
                             is true, namely,
                             that <i>k</i> + 1 &lt;
                             2<sup><i>k</i>+1</sup>,
@@ -404,9 +408,10 @@
                             we assume that every set with
                             <i>k</i> elements has 2<sup><i>k</i></sup> subsets
                             <br>
-                            let <i>T</i> be a set with <i>k</i> + 1 elements.
+                            Let <i>T</i> be a set with <i>k</i> + 1 elements.
                             <br>
-                            It is possible to write <i>T</i> = <i>S</i> &cup; {a},
+                            It is possible to write
+                            <i>T</i> = <i>S</i> &cup; {a},
                             where a is one of the elements of
                             <i>T</i> and <i>S</i> = <i>T</i> &minus; {a}
                             (and hence |<i>S</i>| = <i>k</i>).
@@ -436,6 +441,10 @@
                             has 2<sup><i>n</i></sup>
                             subsets whenever <i>n</i> is a
                             nonnegative integer.
+                            <br>
+                            <br>
+                            <b>NOTE</b>: This is Pascal's Triangle showing up
+                            again!
                         </p>
                        </details>
 
@@ -444,7 +453,8 @@
                             Proving Results about Algorithms
                            </summary>
                            <p>
-                               Not covered for Fall 2017
+                               Here we will discuss the greedy scheduling
+                               algorithm.
                            </p>
                     </details>                        
                 </details>
@@ -604,10 +614,10 @@
                     <summary class="sum2">
                         Using Strong Induction in Computational Geometry
                         <br />
-                        Not Covered Fall 2017
+                        Not Covered Spring 2018
                     </summary>
                     <p>
-                        Not covered for Fall 2017
+                        Not covered for Spring 2018
                     </p>
                 </details>
 
@@ -615,10 +625,10 @@
                     <summary class="sum2">
                         Proofs Using the Well-Ordering Property
                         <br />
-                        Not Covered Fall 2017
+                        Not Covered Spring 2018
                     </summary>
                     <p>
-                        Not covered for Fall 2017
+                        Not covered for Spring 2018
                     </p>
                 </details>
             </details>
@@ -1127,7 +1137,7 @@
             <summary class="sum1">
             Program Correctness
             <br />
-            Not Covered Fall 2017
+            Not Covered Spring 2018
             </summary>
             <details>
                 <summary class="sum2">
@@ -1170,7 +1180,7 @@
             </details>
             <details>
                 <summary class="sum2">
-                    DEFINITION 1
+                    Definition 1
                 </summary>
                 <p>
                     A program, or program segment, 
@@ -1188,19 +1198,19 @@
                     assertion p and the final assertion q.
                 </p>   
             </details>
+            <h4>
+                Conditional Statements
+            </h4>
+            <p>
+                Not covered for Spring 2018
+            </p>
+            
+            <h4>
+                Loop Invariants
+            </h4>
+            <p>
+                Not covered for Spring 2018
+            </p>
         </details>
-        <h4>
-            CONDITIONAL STATEMENTS
-        </h4>
-        <p>
-            Not covered for Fall 2017
-        </p>
-        
-        <h4>
-            LOOP INVARIANTS
-        </h4>
-        <p>
-            Not covered for Fall 2017
-        </p>
     </body>
 </html>
