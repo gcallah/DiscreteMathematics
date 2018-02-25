@@ -1,0 +1,9 @@
+What is an algorithm?#None of above#A function executing a task to solve a problem#^1.    Finite sequence of precise instructions for performing a computation or for solving a problem.#A excerpt of code that can be run induvidually to perform computation
+Which of these is a property of an algorithm#^All of them#Effectiveness#Finiteness#Definitiveness
+The minimum runtime for a linear and binary search algorithm?#O(n), O(n)#^O(n), O(log n)#O(log),O(n)#O(log n), O(log n)
+Bubble sort is a type of:#Algorithm with highest space complexity#^Brute-Force algorithm#Optimized Algorithm#An algorithm that works only on positive numbers
+Insertion Sort has lower running time as compared to bubble sort?#^False#True
+Greedy algorithms are also used widely in memory management. Given a list of blocks, in which the sizes are { 100, 150, 180, 200, 300 }, how would a greedy algorithm (grab the smallest block that works first) fit processes with sizes {10, 222, 198, 147, 178 }?#process 1: block 1, process 2: block 5, process 3: block 4, process 4: block 3, process 5: block 2#process 1: block 5, process 2: block 2, process 3: block 4, process 4: block 3, process 5: block 1#process 1: block 1, process 2: block 2, process 3: block 4, process 4: block 3, process 5: block 5#^process 1: block 1, process 2: block 5, process 3: block 4, process 4: block 2, process 5: block 3
+An example of set of coin denominations for which the greedy algorithm does not yield an optimal solution is#{ 1, 3, 3}#{ 1, 4, 2}#^{ 1, 3, 4 }
+Binary search only works on sorted array whereas linear search works on sorted as well as unsorted array.#False#^True
+You need to have complete array into memory for linear search but binary search reduces the in-memory usage.#^True#False
