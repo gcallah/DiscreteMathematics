@@ -1,0 +1,176 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                What is an algorithm?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                None of above
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                A function executing a task to solve a problem
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                1.    Finite sequence of precise instructions for performing a computation or for solving a problem.
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                A excerpt of code that can be run induvidually to perform computation
+                </li>
+            </ol>
+            <li>
+                Which of these is a property of an algorithm
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                All of them
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                Effectiveness
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                Finiteness
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                Definitiveness
+                </li>
+            </ol>
+            <li>
+                The minimum runtime for a linear and binary search algorithm?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                O(n), O(n)
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                O(n), O(log n)
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                O(log),O(n)
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                O(log n), O(log n)
+                </li>
+            </ol>
+            <li>
+                Bubble sort is a type of:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                Algorithm with highest space complexity
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                Brute-Force algorithm
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                Optimized Algorithm
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                An algorithm that works only on positive numbers
+                </li>
+            </ol>
+            <li>
+                Insertion Sort has lower running time as compared to bubble sort?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                Greedy algorithms are also used widely in memory management. Given a list of blocks, in which the sizes are { 100, 150, 180, 200, 300 }, how would a greedy algorithm (grab the smallest block that works first) fit processes with sizes {10, 222, 198, 147, 178 }?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q6" value="a">
+                process 1: block 1, process 2: block 5, process 3: block 4, process 4: block 3, process 5: block 2
+                </li>
+                <li>
+                <input type="radio" name="q6" value="b">
+                process 1: block 5, process 2: block 2, process 3: block 4, process 4: block 3, process 5: block 1
+                </li>
+                <li>
+                <input type="radio" name="q6" value="c">
+                process 1: block 1, process 2: block 2, process 3: block 4, process 4: block 3, process 5: block 5
+                </li>
+                <li>
+                <input type="radio" name="q6" value="d">
+                process 1: block 1, process 2: block 5, process 3: block 4, process 4: block 2, process 5: block 3
+                </li>
+            </ol>
+            <li>
+                An example of set of coin denominations for which the greedy algorithm does not yield an optimal solution for change of 6 is
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q7" value="a">
+                { 1, 3, 3}
+                </li>
+                <li>
+                <input type="radio" name="q7" value="b">
+                { 1, 4, 2}
+                </li>
+                <li>
+                <input type="radio" name="q7" value="c">
+                { 1, 3, 4 }
+                </li>
+            </ol>
+            <li>
+                Binary search only works on sorted array whereas linear search works on sorted as well as unsorted array.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q8" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q8" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                You need to have complete array into memory for linear search but binary search reduces the in-memory usage.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q9" value="a">
+                True
+                </li>
+                <li>
+                <input type="radio" name="q9" value="b">
+                False
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 2. a; 3. b; 4. b; 5. a; 6. d; 7. c; 8. b; 9. a; 
+            </p>
+        </details>
+    </details>
