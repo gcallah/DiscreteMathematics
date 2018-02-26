@@ -1,0 +1,1 @@
+The Big – O for n! will be:#n<sup>2</sup>#^1.	n<sup>n</sup>#n<sup>3</sup>#n
