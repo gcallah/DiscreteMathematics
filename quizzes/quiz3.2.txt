@@ -1,6 +1,6 @@
-The Big – O for n! will be:#n<sup>2</sup>#^1.	n<sup>n</sup>#n<sup>3</sup>#n
-Which of the following functions is O(x)?#f(x) = x<sup>2</sup>   + 10x + 2#^f(x) = 10#f(x) = x<sup>x</sup>
+The Big – O for n! will be:#n<sup>2</sup>#^n<sup>n</sup>#n<sup>3</sup>#n
+Which of the following functions is O(x)?#f(x) = x<sup>2</sup> + 10x + 2#^f(x) = 10#f(x) = x<sup>x</sup>
 x<sup>2</sup>   + 4x + 17 is O(x<sup>3</sup>) and x<sup>3</sup> is not O(x<sup>2</sup> + 4x + 17)#^False#True
-What is the Big-O estimate for f (x) = (x + 1) log(x<sup>2</sup>    + 1) + 3x<sup>2</sup>?#^1.	n<sup>2</sup>#1.	n<sup>3</sup>#n<sup>n</sup>#n<sup>n</sup>
+What is the Big-O estimate for f(x) = (x + 1) log(x<sup>2</sup> + 1) + 3x<sup>2</sup>?#^n<sup>2</sup>#n<sup>3</sup>#n<sup>n</sup>#n<sup>n</sup>
 What is the witness for f (n) = 3n log(n!) + (n<sup>2</sup>   + 3)log n?#^n>2#n>log 2#n >3#n>=2
 n < 2<sup>n</sup>  whenever n is a positive integer.#False#^True

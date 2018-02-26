@@ -1,0 +1,121 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                The Big – O for n! will be:
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                n<sup>2</sup>
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                1.	n<sup>n</sup>
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                n<sup>3</sup>
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                n
+                </li>
+            </ol>
+            <li>
+                Which of the following functions is O(x)?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                f(x) = x<sup>2</sup>   + 10x + 2
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                f(x) = 10
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                f(x) = x<sup>x</sup>
+                </li>
+            </ol>
+            <li>
+                x<sup>2</sup>   + 4x + 17 is O(x<sup>3</sup>) and x<sup>3</sup> is not O(x<sup>2</sup> + 4x + 17)
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                What is the Big-O estimate for f (x) = (x + 1) log(x<sup>2</sup>    + 1) + 3x<sup>2</sup>?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                1.	n<sup>2</sup>
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                1.	n<sup>3</sup>
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                n<sup>n</sup>
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                n<sup>n</sup>
+                </li>
+            </ol>
+            <li>
+                What is the witness for f (n) = 3n log(n!) + (n<sup>2</sup>   + 3)log n?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                n>2
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                n>log 2
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                n >3
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                n>=2
+                </li>
+            </ol>
+            <li>
+                n < 2<sup>n</sup>  whenever n is a positive integer.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q6" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q6" value="b">
+                True
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. b; 2. b; 3. a; 4. a; 5. a; 6. b; 
+            </p>
+        </details>
+    </details>
