@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -16,7 +17,9 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/250px-Sierpinski_triangle.svg.png">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/250px-Sierpinski_triangle.svg.png"
+                        width="24%"
+                    >
                 </figure>
             </div>
             
@@ -637,15 +640,13 @@
                 <summary class="sum1">
                 Recursive Definitions and Structural Induction
                 </summary>
-                <p>
-                    <h4>
-                        A Recursively Defined Picture.
-                    </h4>
-                    <figure>
-                        <img src = "graphics/RecursiveImage.svg.png">
-                    </figure>
-                    <br>
-                </p>
+
+                <figure>
+                    <img
+                         src="https://upload.wikimedia.org/wikipedia/en/0/02/Print_Gallery_by_M._C._Escher.jpg"
+                         width="24%">
+                </figure>
+
                 <details>
                     <summary class="sum2">
                         Recursively Defined Functions
@@ -761,33 +762,32 @@
                             strings formed from
                             symbols in &sum;. We can define the
                             concatenation of two strings,
-                            denoted by *, recursively as follows.
+                            denoted by &middot;, recursively as follows.
                         </p>
                         <p class="def">
                             BASIS STEP:
                         </p>
                         <p>
                             If <i>w</i> &isin; &sum;<sup>*</sup>,
-                            then <i>w</i> . &lambda; = <i>w</i>,
+                            then <i>w</i> &middot; &lambda; = <i>w</i>,
                             where &lambda; is the empty string.
                         </p>
                         <p class ="def">
                             RECURSIVE STEP:
                         </p>
                         <p>
-                            If <i>w</i><sub>1</sub> &isin; &sum;
-                            <sup>*</sup> and <i>w</i><sub>2</sub> &isin;
+                            If <i>w</i><sub>1</sub> &isin;
+                            &sum;<sup>*</sup> and
+                            <i>w</i><sub>2</sub> &isin;
                             &sum;<sup>*</sup>
-                            and x &isin; &sum;, then
-                            <i>w</i><sub>1</sub> *
-                            (<i>w</i><sub>2</sub>x)
-                            = (<i>w</i><sub>1</sub> *
-                            <i>w</i><sub>2</sub>)x.
-                            <details>
-                                <summary class="sum4">
-                                    Example
-                                </summary>
-                                <p>
+                            and <i>x</i> &isin; &sum;, then
+                            <i>w</i><sub>1</sub> &middot;
+                            (<i>w</i><sub>2</sub><i>x</i>)
+                            = (<i>w</i><sub>1</sub> &middot;
+                            <i>w</i><sub>2</sub>)<i>x</i>.
+
+                            <p>
+                                <b>Example</b>: 
                                     Give a recursive
                                     definition of l(w), the length
                                     of the string <i>w</i>.
@@ -799,9 +799,9 @@
                                     <br>
                                     <i>l(wx</i>) =
                                     <i>l(w</i>) + 1 if <i>w</i>
-                                    &isin; &sum;<sup>*</sup> and x &isin; &sum;.
-                                </p>
-                            </details>
+                                    &isin; &sum;<sup>*</sup>
+                                    and x &isin; &sum;.
+                            </p>
                          </p>   
                     </details>
                     <details >
@@ -832,25 +832,30 @@
                             <i>T</i><sub>2</sub>,
                             . . ., <i>T</i><sub>n</sub> are disjoint
                             rooted trees with roots
-                            <i>r</i><sub>1</sub>, <i>r</i><sub>2</sub>, . . . ,
+                            <i>r</i><sub>1</sub>,
+                            <i>r</i><sub>2</sub>, . . . ,
                             <i>r</i><sub>n</sub>, respectively.
                             Then the graph formed
                             by starting with a
-                            root r, which is not
+                            root <i>r</i>, which is not
                             in any of the rooted
                             trees <i>T</i><sub>1</sub>,
-                            <i>T</i><sub>2</sub>, . . . , <i>T</i><sub>n</sub>,
+                            <i>T</i><sub>2</sub>,
+                            . . . , <i>T</i><sub>n</sub>,
                             and adding an edge from
                             <i>r</i> to each of the vertices
                             <i>r</i><sub>1</sub>, <i>r</i><sub>2</sub>,
                             . . . , <i>r</i><sub>n</sub>,
                             is also a rooted tree.
                             <br>
-                            <b>Building Up Rooted Trees.</b>
                         </p>
                         <figure>
-                            <img src="graphics/RootedTrees.svg.png">
-                            <br>
+                            <img src="graphics/RootedTrees.svg.png"
+                                width="40%"
+                            >
+                            <figcaption>
+                                Building rooted trees
+                            </figcaption>
                         </figure>
                     </details>
                     <details>
@@ -860,7 +865,8 @@
                         <figure>
                                 <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/2/26/Waldburg_Ahnentafel.jpg"
-                                height="300" width="360">
+                                width="40%"
+                                >
                                 <figcaption>
                                 A binary tree
                                 </figcaption>
@@ -886,7 +892,7 @@
                             extended binary trees,
                             there is an extended
                             binary tree, denoted by <i>T</i><sub>1</sub>
-                            . <i>T</i><sub>2</sub>,
+                            &middot; <i>T</i><sub>2</sub>,
                             consisting of a root <i>r</i>
                             together with edges connecting
                             the root to each of the roots 
@@ -895,10 +901,14 @@
                             the right subtree <i>T</i><sub>2</sub> when 
                             these trees are nonempty.
                             <br>
-                            <b>Building Up Extended Binary Trees.</b>
                         </p>
                         <figure>
-                            <img src="graphics/ExtendedBinary.svg.png">
+                            <img src="graphics/ExtendedBinary.svg.png"
+                                width="40%"
+                            >
+                            <figcaption>
+                            Building Extended Binary Trees
+                            </figcaption>
                         </figure>
                     </details>
     

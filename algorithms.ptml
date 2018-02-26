@@ -339,7 +339,7 @@
 
 
         </details>
-    	<!--include quiz3.1.qhtm --!>
+<!--include quiz3.1.qhtm --!>
     </details>
     <details>
         <summary class="sum1">
@@ -796,9 +796,10 @@
 
             <ul class="nested">
                 <li>
-                    There are a total of <i>n<sup>2</sup></i> 
+                    There are a total of <i>n</i><sup>2</sup>
                     elements in the product matrix.
-                    </li>
+                </li>
+
                 <li>
                     Each element requires <i>n</i> multiplications 
                     and <i>n</i> &minus; 1 additions.
