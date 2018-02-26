@@ -322,13 +322,32 @@
                         Equivalence class
 
                     </summary>
-                    <details>
+                    <details> 
                         <summary class="sum3">
-                        Definition:
-
+                            Definition: It
+                            is a class of all members of a set that are given
+                            in an equivalence relation.  If <i>R</i> is an equivalence
+                            relation on a set,then the set of all elements that
+                            are related to an element of Set is called the
+                            equivalence class of that element of Set.
                         </summary>
                     </details>
-                </details>
+                        
+            <div style="text-align:center"> 
+                <figure class="lead-figure"> 
+                    <img src="graphics/Congruent_non-congruent_triangles.svg.png">
+                    <figcaption>
+                        Congruence is an example of an equivalence
+                        relation. The leftmost two triangles are congruent,
+                        while the third and fourth triangles are not congruent
+                        to any other triangle shown here. Thus, the first two
+                        triangles are in the same equivalence class, while the
+                        third and fourth triangles are each in their own
+                        equivalence class.
+                    </figcaption>
+                </figure>
+            </div>
+            </details>
 
             </details>
 
@@ -345,6 +364,8 @@
                     <li>
                         Partial ordering: By I, KSmrq, CC BY-SA 3.0,
                         https://commons.wikimedia.org/w/index.php?curid=2118211
+                        Equivalence class example :By Lfahlberg - Own work, CC BY-SA 3.0, 
+                        https://commons.wikimedia.org/w/index.php?curid=29230748
                     </li>
                 </ul>
 
