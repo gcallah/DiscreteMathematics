@@ -13,6 +13,7 @@ INCS = $(TEMPLATE_DIR)/menu.txt
 
 website: $(HTMLFILES) $(INCS)
 	-git commit -a
+	git pull origin master
 	git push origin master
 
 tests: $(QUIZ_DIR)
