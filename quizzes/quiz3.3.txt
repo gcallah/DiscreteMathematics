@@ -1,8 +1,6 @@
-Brute for algorithms have#^High time complexity#Both high time and space complexity#Low time complexity#High space complexity
-The brute force algorithm for matrix multiplication has#Factorial complexity#Linear time complexity#Factorial complexity#^Polynomial time complexity
-The algorithms with logarithim complexity run faster as compared to algorithms with factorial complexity.#False#^True
-What is the worst case comparisons for Bubble sort?#(n)(n)/2#^(n-1)n/2#(n-1)(n-1)/2#(n-1)n/2 -1
-What is the worst case comparisons for selection sort?#^n(n+1)/2 -1#n(n+1)/2#n(n-1)/2 -1#n(n-1)/2
-The order in which n>2 matrices are multiplied also determines the complexity of the algorithm?#^True#False
-In which order should the matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries—be multiplied to use the least number of multiplications of integers?#(A<sub>1</sub>A<sub>2</sub>)A<sub>3</sub>#^A<sub>1</sub>(A<sub>2</sub>A<sub>3</sub>)
-hat is the least possible multiplication for matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries?#10000#^14000#36000#20000
+Brute for algorithms have#High space complexity#^High time complexity#Both high time and space complexity#Low time complexity
+The brute force algorithm for matrix multiplication has#Polyarithmatic complexity#^Polynomial time complexity#Linear time complexity#Factorial complexity
+What is the worst case comparisons for Bubble sort?#(n)(n)/2#n(n+1)/2 -1#(n-1)(n-1)/2#^(n-1)n/2
+The order in which n>2 matrices are multiplied also determines the cruntime of the algorithm?#False#^True
+In which order should the matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries—be multiplied to use the least number of multiplications of integers?#^A<sub>1</sub>(A<sub>2</sub>A<sub>3</sub>)#(A<sub>1</sub>A<sub>2</sub>)A<sub>3</sub>#(A<sub>1</sub> A<sub>3</sub>) A<sub>2</sub>
+What is the least possible multiplication for matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries?#^14000#10000#20000#36000
