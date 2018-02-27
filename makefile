@@ -12,7 +12,8 @@ INCS = $(TEMPLATE_DIR)/menu.txt
 	git add $@
 
 website: $(HTMLFILES) $(INCS)
-	-git commit -a -m "Website rebuild."
+	-git commit -a
+	git pull origin master
 	git push origin master
 
 tests: $(QUIZ_DIR)

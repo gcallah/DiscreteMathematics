@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -16,7 +17,9 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/250px-Sierpinski_triangle.svg.png">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/250px-Sierpinski_triangle.svg.png"
+                        width="24%"
+                    >
                 </figure>
             </div>
             
@@ -183,7 +186,8 @@
                             INDUCTIVE STEP:
                         </p>
                         <p>
-                            P(k) holds for an arbitrary positive integer <i>k</i>.
+                            P(k) holds for an arbitrary
+                            positive integer <i>k</i>.
                             we assume that 1 + 2 + . . . + <i>k</i> =
                             <span class="frac">
                                 <sup>
@@ -312,13 +316,16 @@
                             <i>k</i> &lt; 2<sup><i>k</i></sup>,
                             then <i>k</i> + 1 &lt; 
                             2<sup><i>k</i>+1</sup>.
-                            <br> <i>k</i> + 1 = 2<sup><i>k</i> +
-                            1</sup> &le; 2<sup><i>k</i></sup>
+                            <br>
+
+                            <i>k</i> + 1 &lt; 2<sup><i>k</i></sup>
+                            + 1 &le; 2<sup><i>k</i></sup>
                             + 2<sup><i>k</i></sup> = 2 .
                             2<sup><i>k</i></sup>
-                            = 2<sup><i>k</i></sup> + 1.
+                            = 2<sup><i>k</i> + 1</sup>.
                             <br>
-                            This shows that <i>P(k</i> + 1)
+
+                            This shows that <i>P</i>(<i>k</i> + 1)
                             is true, namely,
                             that <i>k</i> + 1 &lt;
                             2<sup><i>k</i>+1</sup>,
@@ -404,9 +411,10 @@
                             we assume that every set with
                             <i>k</i> elements has 2<sup><i>k</i></sup> subsets
                             <br>
-                            let <i>T</i> be a set with <i>k</i> + 1 elements.
+                            Let <i>T</i> be a set with <i>k</i> + 1 elements.
                             <br>
-                            It is possible to write <i>T</i> = <i>S</i> &cup; {a},
+                            It is possible to write
+                            <i>T</i> = <i>S</i> &cup; {a},
                             where a is one of the elements of
                             <i>T</i> and <i>S</i> = <i>T</i> &minus; {a}
                             (and hence |<i>S</i>| = <i>k</i>).
@@ -436,6 +444,10 @@
                             has 2<sup><i>n</i></sup>
                             subsets whenever <i>n</i> is a
                             nonnegative integer.
+                            <br>
+                            <br>
+                            <b>NOTE</b>: This is Pascal's Triangle showing up
+                            again!
                         </p>
                        </details>
 
@@ -444,7 +456,8 @@
                             Proving Results about Algorithms
                            </summary>
                            <p>
-                               Not covered for Fall 2017
+                               Here we will discuss the greedy scheduling
+                               algorithm.
                            </p>
                     </details>                        
                 </details>
@@ -513,7 +526,7 @@
                     </li>
                 </ol>
                 </details>
-            <!--include quiz5.1.qhtm -->
+<!--include quiz5.1.qhtm -->
             </details>
 
             <details>
@@ -550,7 +563,7 @@
                         Example
                     </summary>
                     <p>
-                    Show that if n is an
+                    Show that if <i>n</i> is an
                     integer greater than 1,
                     then <i>n</i> can be written
                     as the product of primes.
@@ -568,7 +581,8 @@
                     <p>
                         The inductive hypothesis is the
                         assumption that <i>P(j</i>) is true for all
-                        integers j with 2 &le; <i>j</i> &le; <i>k</i>, that is,
+                        integers <i>j</i> with 2 &le;
+                        <i>j</i> &le; <i>k</i>, that is,
                         the assumption that <i>j</i> can be written
                         as the product of primes
                         whenever <i>j</i> is a positive integer
@@ -582,7 +596,7 @@
                         <i>k</i> + 1 is composite and
                         can be written as the product of two 
                         positive integers <i>a</i> and <i>b</i> with 
-                        2 &le; <i>a</i> &le; <i>b</i> <i>k</i> + 1. 
+                        2 &le; <i>a</i> &le; <i>b</i> &lt; <i>k</i> + 1. 
                         <br>
                         Because both <i>a</i> and <i>b</i> are integers at 
                         least 2 and not exceeding <i>k</i>, we can use 
@@ -604,10 +618,10 @@
                     <summary class="sum2">
                         Using Strong Induction in Computational Geometry
                         <br />
-                        Not Covered Fall 2017
+                        Not Covered Spring 2018
                     </summary>
                     <p>
-                        Not covered for Fall 2017
+                        Not covered for Spring 2018
                     </p>
                 </details>
 
@@ -615,10 +629,10 @@
                     <summary class="sum2">
                         Proofs Using the Well-Ordering Property
                         <br />
-                        Not Covered Fall 2017
+                        Not Covered Spring 2018
                     </summary>
                     <p>
-                        Not covered for Fall 2017
+                        Not covered for Spring 2018
                     </p>
                 </details>
             </details>
@@ -626,15 +640,13 @@
                 <summary class="sum1">
                 Recursive Definitions and Structural Induction
                 </summary>
-                <p>
-                    <h4>
-                        A Recursively Defined Picture.
-                    </h4>
-                    <figure>
-                        <img src = "graphics/RecursiveImage.svg.png">
-                    </figure>
-                    <br>
-                </p>
+
+                <figure>
+                    <img
+                         src="https://upload.wikimedia.org/wikipedia/en/0/02/Print_Gallery_by_M._C._Escher.jpg"
+                         width="24%">
+                </figure>
+
                 <details>
                     <summary class="sum2">
                         Recursively Defined Functions
@@ -750,33 +762,32 @@
                             strings formed from
                             symbols in &sum;. We can define the
                             concatenation of two strings,
-                            denoted by *, recursively as follows.
+                            denoted by &middot;, recursively as follows.
                         </p>
                         <p class="def">
                             BASIS STEP:
                         </p>
                         <p>
                             If <i>w</i> &isin; &sum;<sup>*</sup>,
-                            then <i>w</i> . &lambda; = <i>w</i>,
+                            then <i>w</i> &middot; &lambda; = <i>w</i>,
                             where &lambda; is the empty string.
                         </p>
                         <p class ="def">
                             RECURSIVE STEP:
                         </p>
                         <p>
-                            If <i>w</i><sub>1</sub> &isin; &sum;
-                            <sup>*</sup> and <i>w</i><sub>2</sub> &isin;
+                            If <i>w</i><sub>1</sub> &isin;
+                            &sum;<sup>*</sup> and
+                            <i>w</i><sub>2</sub> &isin;
                             &sum;<sup>*</sup>
-                            and x &isin; &sum;, then
-                            <i>w</i><sub>1</sub> *
-                            (<i>w</i><sub>2</sub>x)
-                            = (<i>w</i><sub>1</sub> *
-                            <i>w</i><sub>2</sub>)x.
-                            <details>
-                                <summary class="sum4">
-                                    Example
-                                </summary>
-                                <p>
+                            and <i>x</i> &isin; &sum;, then
+                            <i>w</i><sub>1</sub> &middot;
+                            (<i>w</i><sub>2</sub><i>x</i>)
+                            = (<i>w</i><sub>1</sub> &middot;
+                            <i>w</i><sub>2</sub>)<i>x</i>.
+
+                            <p>
+                                <b>Example</b>: 
                                     Give a recursive
                                     definition of l(w), the length
                                     of the string <i>w</i>.
@@ -788,9 +799,9 @@
                                     <br>
                                     <i>l(wx</i>) =
                                     <i>l(w</i>) + 1 if <i>w</i>
-                                    &isin; &sum;<sup>*</sup> and x &isin; &sum;.
-                                </p>
-                            </details>
+                                    &isin; &sum;<sup>*</sup>
+                                    and x &isin; &sum;.
+                            </p>
                          </p>   
                     </details>
                     <details >
@@ -821,25 +832,30 @@
                             <i>T</i><sub>2</sub>,
                             . . ., <i>T</i><sub>n</sub> are disjoint
                             rooted trees with roots
-                            <i>r</i><sub>1</sub>, <i>r</i><sub>2</sub>, . . . ,
+                            <i>r</i><sub>1</sub>,
+                            <i>r</i><sub>2</sub>, . . . ,
                             <i>r</i><sub>n</sub>, respectively.
                             Then the graph formed
                             by starting with a
-                            root r, which is not
+                            root <i>r</i>, which is not
                             in any of the rooted
                             trees <i>T</i><sub>1</sub>,
-                            <i>T</i><sub>2</sub>, . . . , <i>T</i><sub>n</sub>,
+                            <i>T</i><sub>2</sub>,
+                            . . . , <i>T</i><sub>n</sub>,
                             and adding an edge from
                             <i>r</i> to each of the vertices
                             <i>r</i><sub>1</sub>, <i>r</i><sub>2</sub>,
                             . . . , <i>r</i><sub>n</sub>,
                             is also a rooted tree.
                             <br>
-                            <b>Building Up Rooted Trees.</b>
                         </p>
                         <figure>
-                            <img src="graphics/RootedTrees.svg.png">
-                            <br>
+                            <img src="graphics/RootedTrees.svg.png"
+                                width="40%"
+                            >
+                            <figcaption>
+                                Building rooted trees
+                            </figcaption>
                         </figure>
                     </details>
                     <details>
@@ -849,7 +865,8 @@
                         <figure>
                                 <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/2/26/Waldburg_Ahnentafel.jpg"
-                                height="300" width="360">
+                                width="40%"
+                                >
                                 <figcaption>
                                 A binary tree
                                 </figcaption>
@@ -875,7 +892,7 @@
                             extended binary trees,
                             there is an extended
                             binary tree, denoted by <i>T</i><sub>1</sub>
-                            . <i>T</i><sub>2</sub>,
+                            &middot; <i>T</i><sub>2</sub>,
                             consisting of a root <i>r</i>
                             together with edges connecting
                             the root to each of the roots 
@@ -884,10 +901,14 @@
                             the right subtree <i>T</i><sub>2</sub> when 
                             these trees are nonempty.
                             <br>
-                            <b>Building Up Extended Binary Trees.</b>
                         </p>
                         <figure>
-                            <img src="graphics/ExtendedBinary.svg.png">
+                            <img src="graphics/ExtendedBinary.svg.png"
+                                width="40%"
+                            >
+                            <figcaption>
+                            Building Extended Binary Trees
+                            </figcaption>
                         </figure>
                     </details>
     
@@ -1127,7 +1148,7 @@
             <summary class="sum1">
             Program Correctness
             <br />
-            Not Covered Fall 2017
+            Not Covered Spring 2018
             </summary>
             <details>
                 <summary class="sum2">
@@ -1170,7 +1191,7 @@
             </details>
             <details>
                 <summary class="sum2">
-                    DEFINITION 1
+                    Definition 1
                 </summary>
                 <p>
                     A program, or program segment, 
@@ -1188,19 +1209,19 @@
                     assertion p and the final assertion q.
                 </p>   
             </details>
+            <h4>
+                Conditional Statements
+            </h4>
+            <p>
+                Not covered for Spring 2018
+            </p>
+            
+            <h4>
+                Loop Invariants
+            </h4>
+            <p>
+                Not covered for Spring 2018
+            </p>
         </details>
-        <h4>
-            CONDITIONAL STATEMENTS
-        </h4>
-        <p>
-            Not covered for Fall 2017
-        </p>
-        
-        <h4>
-            LOOP INVARIANTS
-        </h4>
-        <p>
-            Not covered for Fall 2017
-        </p>
     </body>
 </html>

@@ -1,0 +1,129 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                Brute for algorithms have
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                High space complexity
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                High time complexity
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                Both high time and space complexity
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                Low time complexity
+                </li>
+            </ol>
+            <li>
+                The brute force algorithm for matrix multiplication has
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                Polyarithmatic complexity
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                Polynomial time complexity
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                Linear time complexity
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                Factorial complexity
+                </li>
+            </ol>
+            <li>
+                What is the worst case comparisons for Bubble sort?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                (n)(n)/2
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                n(n+1)/2 -1
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                (n-1)(n-1)/2
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                (n-1)n/2
+                </li>
+            </ol>
+            <li>
+                The order in which n>2 matrices are multiplied also determines the cruntime of the algorithm?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                In which order should the matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries—be multiplied to use the least number of multiplications of integers?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                A<sub>1</sub>(A<sub>2</sub>A<sub>3</sub>)
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                (A<sub>1</sub>A<sub>2</sub>)A<sub>3</sub>
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                (A<sub>1</sub> A<sub>3</sub>) A<sub>2</sub>
+                </li>
+            </ol>
+            <li>
+                What is the least possible multiplication for matrices A1, A2, and A3—where A1 is 30 × 20, A2 is 20 × 40, and A3 is 40 × 10, all with integer entries?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q6" value="a">
+                14000
+                </li>
+                <li>
+                <input type="radio" name="q6" value="b">
+                10000
+                </li>
+                <li>
+                <input type="radio" name="q6" value="c">
+                20000
+                </li>
+                <li>
+                <input type="radio" name="q6" value="d">
+                36000
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. b; 2. b; 3. d; 4. b; 5. a; 6. a; 
+            </p>
+        </details>
+    </details>
