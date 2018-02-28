@@ -4,7 +4,7 @@ export QUIZ_DIR = quizzes
 export UTIL_DIR = ./utils
 
 HTMLFILES = $(shell ls *.ptml | sed -e 's/ptml/html/g')
-INCS = $(TEMPLATE_DIR)/menu.txt
+INCS = $(TEMPLATE_DIR)/menu.txt $(TEMPLATE_DIR)/head.txt
  
 %.html: %.ptml $(INCS)
 	python3 $(UTIL_DIR)/html_checker.py $<
@@ -12,7 +12,8 @@ INCS = $(TEMPLATE_DIR)/menu.txt
 	git add $@
 
 website: $(HTMLFILES) $(INCS)
-	-git commit -a -m "Website rebuild."
+	-git commit -a
+	git pull origin master
 	git push origin master
 
 tests: $(QUIZ_DIR)

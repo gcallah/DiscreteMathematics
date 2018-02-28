@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Homework for Infinite Recursion
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Homework for Infinite Recursion
+        </h1>
+
+        <p>
+            The homework form has moved to the following location:
+            <br />
+            <a href="recursionHW.html">
+                Infinite Recursion Homework
+            </a>
+        </p>
+
+    </body>
+</html>

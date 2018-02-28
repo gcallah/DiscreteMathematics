@@ -1,0 +1,129 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                Which of the following is NOT a basic counting principle?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                The pigeonhole principle
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                The sum rule
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                The product rule
+                </li>
+            </ol>
+            <li>
+                Suppose a procedure can be broken down into two tasks. According to the ‘product rule’, if there are n<sub>1</sub> ways to do the first task and for each of these ways of doing the first task, there are n<sub>2</sub>  ways to do the second task, then how many ways are there to do the procedure?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                n<sub>1</sub>n<sub>2</sub>
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                n<sub>1</sub> / n<sub>2</sub>
+                </li>
+                <li>
+                <input type="radio" name="q2" value="c">
+                n<sub>1</sub> + n<sub>2</sub>
+                </li>
+                <li>
+                <input type="radio" name="q2" value="d">
+                n<sub>2</sub>  - n<sub>1</sub>
+                </li>
+            </ol>
+            <li>
+                A customer can choose one of 5 monitors, one of 4 keyboards, one of 2 CPUs and one of 3 printers, to buy a computer system. Determine the number of possible systems that the customer can choose from.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                121
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                14
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                120
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                15
+                </li>
+            </ol>
+            <li>
+                Mona wants to make a list of passwords, with each password containing a sequence of 2 lowercase English alphabets followed by 3 digits. How many different passwords can Mona create?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                676,000
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                6,760
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                82
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                80
+                </li>
+            </ol>
+            <li>
+                A computer company receives 350 applications from computer graduates for a job planning a line of new Web servers. Suppose that 220 of these applicants majored in computer science, 147 majored in business, and 51 majored both in computer science and in business. How many of these applicants majored neither in computer science nor in business?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                29
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                34
+                </li>
+                <li>
+                <input type="radio" name="q5" value="c">
+                31
+                </li>
+                <li>
+                <input type="radio" name="q5" value="d">
+                35
+                </li>
+            </ol>
+            <li>
+                True or False: There are <i>d</i>/<i>n</i> ways to do a task if it can be done using a procedure that can be carried out in <i>n</i> ways, and for every way <i>w</i>, exactly <i>d</i> of the <i>n</i> ways correspond to way <i>w</i>.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q6" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q6" value="b">
+                True
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. a; 2. a; 3. c; 4. a; 5. b; 6. a; 
+            </p>
+        </details>
+    </details>
