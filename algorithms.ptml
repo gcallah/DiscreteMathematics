@@ -1,7 +1,6 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
     <script src="Algocynfas/lib/bootstrap.min.js"></script>
     <script src="Algocynfas/lib/fabric.js"></script>
 

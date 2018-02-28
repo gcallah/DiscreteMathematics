@@ -1,13 +1,12 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Counting
         </title>
     </head>
 
     <body>
-
 
 <!--include menu.txt -->
 
@@ -24,9 +23,9 @@
 
 
         <details>
-                    <summary class="sum1">
-                    Introduction
-                    </summary>
+            <summary class="sum1">
+            Introduction
+            </summary>
 
             <p>
             <b>Combinatorics:</b> Study of arangement of objects.<br>
@@ -291,22 +290,27 @@
 
 
         <details>
-                    <summary class="sum2">
-                    The Subtraction Rule (Inclusion-Exclusion for Two Sets)
-                    </summary>
-
-
-            <figure>
-            <img src="graphics/Count3_subtractrule.png">
-            </figure>
+            <summary class="sum2">
+            The Subtraction Rule (Inclusion-Exclusion for Two Sets)
+            </summary>
 
             <p>
-            <b>Example:</b><br>
+            <b>The Subtraction Rule</b>
+            <br />
+            If a task can be done in <i>n</i><sub>1</sub> ways or
+            <i>n</i><sub>2</sub> ways, then the number of total ways it
+            can be done is <i>n</i><sub>1</sub> +
+            <i>n</i><sub>2</sub> minus the number of ways common to
+            <i>n</i><sub>1</sub> and <i>n</i><sub>2</sub>.
+            </p>
+
+            <p>
+            <b>Example:</b>
             </p>
             <p>
             A computer company receives 350 applications
              from computer graduates for a job planning
-              a line of new Web servers.
+              a line of new web servers.
               Suppose that 220 of these applicants
               majored in computer science, 147 majored in business,
                and 51 majored both in computer science and in business.
@@ -325,44 +329,55 @@
                     can subtract the number of students who majored
                     either in computer science or in business (or both)
                     from the total number of applicants.
-                     Let A 1 be the set of students who majored in
-                     computer science and A 2 the set of students
-                      who majored in business.
-                      Then A<sub>1</sub> &cup;
-                      A<sub>2</sub> is the
-                       set of students who majored in
-                       computer science or business (or both),
-                        and A 1 &cap; A 2 is the set of students who
-                        majored both in computer science and in business.
-                        By the subtraction rule the number of students
-                        who majored either in computer science
-                         or in business (or both) equals<br>
+                    Let <i>A</i><sub>1</sub> be the set of students who majored in
+                    computer science and <i>A</i><sub>2</sub> the set of students
+                    who majored in business.
+                    Then <i>A</i><sub>1</sub> &cup;
+                    <i>A</i><sub>2</sub> is the
+                    set of students who majored in
+                    computer science or business (or both),
+                    and <i>A</i><sub>1</sub> &cap;
+                    <i>A</i><sub>2</sub> is the set of students who
+                    majored both in computer science and in business.
+                    By the subtraction rule the number of students
+                    who majored either in computer science
+                    or in business (or both) equals:
+                    <br>
 
-<b>|A 1 &cup; A 2 | = |A 1 | + |A 2 | - |A 1 &cap; A 2 | = 220 + 147 - 51 = 316.</b><br>
-We conclude that <b> 350 - 316 = 34 </b> of the applicants majored neither in computer science nor in business.
+                    |<i>A</i><sub>1</sub> &cup; <i>A</i><sub>2</sub>|
+                    = |<i>A</i><sub>1</sub> | + |<i>A</i><sub>2</sub>|
+                    - |<i>A</i><sub>1</sub> &cap; <i>A</i><sub>2</sub>|
+                    = 220 + 147 - 51 = 316.
+                    <br>
+                    We conclude that 350 - 316 = 34 of the applicants
+                    majored neither in computer science nor in business.
 
                     </p>
-                    </details>
                 </details>
+            </details>
 
-        <details>
-                    <summary class="sum2">
-                    The Division Rule
-                    </summary>
+            <details>
+                <summary class="sum2">
+                The Division Rule
+                </summary>
 
-            <figure>
-            <img src="graphics/Count4_divisionrule.png">
-            </figure>
+                <p>
+                <b>The Division Rule</b>
+                <br />
+                There are <i>n</i> / <i>d</i> ways to do a task
+                when it can be carried out in <i>n</i> ways, and for every
+                way <i>w</i> exactly <i>d</i> of the <i>n</i>
+                ways correspond to <i>w</i>.
+                </p>
 
-
-            <p>
-            <b>Example:</b><br>
-            How many different ways are
-             there to seat four people around a circular table,
-              where two seatings are considered the same
-              when each person has the same left neighbor
-              and the same right neighbor?<br>
-            </p>
+                <p>
+                <b>Example:</b><br>
+                How many different ways are
+                 there to seat four people around a circular table,
+                  where two seatings are considered the same
+                  when each person has the same left neighbor
+                  and the same right neighbor?<br>
+                </p>
 
                     <details>
                         <summary class="sum3">
