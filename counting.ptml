@@ -449,26 +449,26 @@
                 The Pigeonhole Principle
                 </summary>
 
-        <figure>
-            <img src="graphics/Count8_pigeon.jpeg" width="242" height="242">
-        </figure>
+                <figure>
+                    <img src="graphics/Count8_pigeon.jpeg" width="25%">
+                </figure>
 
                 <details>
                     <summary class="sum2">
                     Introduction
                     </summary>
 
-            <figure>
-            <img src="graphics/Count10_pigeon2.png">
-            </figure>
-
-            <p>
-            <br>The <b>pigeonhole principle </b>states that
-            if there are more pigeons than pigeonholes,
-            then there must be at least one pigeonhole
-            with at least two pigeons in it
-            <br><br>
-            </p>
+                    <figure>
+                    <img src="graphics/Count10_pigeon2.png">
+                    </figure>
+        
+                    <p>
+                    <br>The <b>pigeonhole principle </b>states that
+                    if there are more pigeons than pigeonholes,
+                    then there must be at least one pigeonhole
+                    with at least two pigeons in it
+                    <br><br>
+                    </p>
 
 
                     <details>
