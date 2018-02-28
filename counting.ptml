@@ -671,19 +671,21 @@
                 </p>
 
                 <details>
-                                <summary class="sum4">
-                                Answer:
-                                </summary>
+                    <summary class="sum4">
+                    Answer:
+                    </summary>
 
                     <p>
-                      The <b> Ramsey number R(m, n)</b>, where m and n
+                      The Ramsey number <i>R</i>(<i>m</i>, <i>n</i>),
+                      where <i>m</i> and <i>n</i>
                       are positive integers greater than or equal to 2,
                       denotes the minimum number of people at a party
-                      such that there are either m mutual friends or
-                      n mutual enemies, assuming that every pair of
-                      people at the party are friends or enemies.<br>
-                      Example 2 shows that R(3, 3) &le; 6.<br>
-                      We conclude that <b>R(3, 3) = 6</b>
+                      such that there are either <i>m</i> mutual friends or
+                      <i>n</i> mutual enemies, assuming that every pair of
+                      people at the party are friends or enemies.
+                      <br>
+                      Example 2 shows that <i>R</i>(3, 3) &le; 6.<br>
+                      We conclude that <b><i>R</i>(3, 3) = 6</b>
                       because in a group of five people where
                       every two people are friends or enemies,
                       there may not be three mutual friends
