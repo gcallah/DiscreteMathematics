@@ -460,50 +460,57 @@
 
                     <figure>
                     <img src="graphics/Count10_pigeon2.png">
+                    <figcaption>
+                        13 pigeons and 12 pigeonholes
+                    </figcaption>
                     </figure>
         
                     <p>
                     <br>The <b>pigeonhole principle </b>states that
                     if there are more pigeons than pigeonholes,
                     then there must be at least one pigeonhole
-                    with at least two pigeons in it
-                    <br><br>
+                    with at least two pigeons in it.
                     </p>
 
-
                     <details>
-                            <summary class="sum3">
-                            Theorem 1
-                            </summary>
+                        <summary class="sum3">
+                        Theorem 1
+                        </summary>
 
-                <figure>
-                <img src="graphics/Count9_pigeonth.png" width="942" height="120">
-                </figure>
-
-              </details>
+                        <p>
+                            <b>The Pigeonhole Principle</b>
+                            <br />
+                            If <i>k</i> is a positive integer and <i>k</i> 
+                            + 1 objects are to be placed into <i>k</i> 
+                            boxes, then at least one box must have more than
+                            one object in it.
+                        </p>
+                    </details>
 
                     <details>
                             <summary class="sum3">
                             Corollary 1
                             </summary>
 
-                <figure>
-                <img src="graphics/Count11_pigeoncol.png" width="1042" height="100">
-                </figure>
+                            <p>
+                            A function <i>f</i> from a set with <i>k</i> + 1 or
+                            more elements to a set with <i>k</i> elements is
+                            not one-to-one.
+                            </p>
 
-              </details>
+                    </details>
 
                     <details>
-                            <summary class="sum3">
-                            Example:
-                            </summary>
+                        <summary class="sum3">
+                        Example:
+                        </summary>
 
-                <p>
-How many students must be in a class to
- guarantee that at least two students receive
- the same score on the final exam,
- if the exam is graded on a scale from 0 to 100 points?<br><br>
-                </p>
+                    <p>
+                    How many students must be in a class to
+                     guarantee that at least two students receive
+                     the same score on the final exam,
+                     if the exam is graded on a scale from 0 to 100 points?
+                    </p>
 
                 <details>
                                 <summary class="sum4">
@@ -511,7 +518,10 @@ How many students must be in a class to
                                 </summary>
 
                     <p>
-                    There are<b> 101</b> possible scores on the final. The pigeonhole principle shows that among any <b>102 </b>students there must be at least <b>2 </b>students with the same score.<br><br>
+                    There are<b> 101</b> possible scores on the final. The
+                    pigeonhole principle shows that among any <b>102
+                    </b>students there must be at least <b>2 </b>students with
+                    the same score.
                     </p>
 
                   </details>
@@ -525,58 +535,65 @@ How many students must be in a class to
                     Generalized Pigeonhole Principle
                     </summary>
 
-        <p>
-The pigeonhole principle states that there must
-be at least two objects in the same box when
-there are more objects than boxes.
-However, even more can be said when the number of
-objects exceeds a multiple of the number of boxes.
- For instance, among any set of 21 decimal digits
- there must be 3 that are the same.
- This follows because when 21 objects are distributed into 10 boxes,
-  one box must have more than 2 objects.<br>
-        </p>
+                        <p>
+                        The pigeonhole principle states that there must
+                        be at least two objects in the same box when
+                        there are more objects than boxes.
+                        However, even more can be said when the number of
+                        objects exceeds a multiple of the number of boxes.
+                        For instance, among any set of 21 decimal digits
+                        there must be 3 that are the same.
+                        This follows because when 21 objects are
+                        distributed into 10 boxes,
+                        one box must have more than 2 objects.
+                        </p>
 
-            <details>
-                            <summary class="sum3">
-                            Theorem 2
-                            </summary>
+                    <details>
+                        <summary class="sum3">
+                        Theorem 2
+                        </summary>
 
-                <figure>
-                <img src="graphics/Count12_pigeonth2.png" width="942" height="100">
-                </figure>
 
-              </details>
+                        <p>
+                            <b>The Generalized Pigeonhole Principle</b>
+                            <br />
+                            If <i>n</i> objects are placed into <i>k</i> 
+                            boxes, then there is at least one box containing at
+                            least ceiling(<i>n</i> / <i>k</i>) objects.
+                        </p>
 
+                  </details>
             <details>
                             <summary class="sum3">
                             Example:
                             </summary>
 
                 <p>
-What is the minimum number of students required in a
-discrete mathematics class to be sure that
- at least six will receive the same grade,
-  if there are five possible grades, A, B, C, D, and F?
-                <br><br>
+                What is the minimum number of students required in a
+                discrete mathematics class to be sure that
+                 at least six will receive the same grade,
+                  if there are five possible grades, A, B, C, D, and F?
                 </p>
 
                 <details>
-                                <summary class="sum4">
-                                Answer:
-                                </summary>
+                    <summary class="sum4">
+                    Answer:
+                    </summary>
 
                     <p>
-The minimum number of students needed to ensure that
- at least six students receive the same grade is
-  the smallest integer N such that N/5 = 6.<br>
-   The smallest such integer is <b>N = 5 * 5 + 1 = 26</b>.
-   <br>If you have only 25 students, it is possible for
-   there to be five who have received each grade so that no six
-    students have received the same grade.
-     Thus, 26 is the minimum number of students needed to ensure
-     that at least six students will receive the same grade.
-                    <br><br>
+                    The minimum number of students needed to ensure that
+                    at least six students receive the same grade is
+                    the smallest integer <i>n</i> such that
+                    ceiling(<i>n</i> / 5) = 6.
+                    <br>
+                    The smallest such integer is <i>n</i> = 5 * 5 + 1 = 26.
+                    <br>
+                    If you have only 25 students, it is possible for
+                    there to be five who have received
+                    each grade so that no six
+                    students have received the same grade.
+                    Thus, 26 is the minimum number of students needed to ensure
+                    that at least six students will receive the same grade.
                     </p>
 
                   </details>
@@ -590,57 +607,50 @@ The minimum number of students needed to ensure that
                     Some Elegant Applications of the Pigeonhole Principle
                     </summary>
 
-            <details>
-                            <summary class="sum3">
-                            Theorem 3
-                            </summary>
-
-                <figure>
-                <img src="graphics/Count13_pigeonth3.png" width="942" height="100">
-                </figure>
-
-              </details>
-
-            <details>
+                    <details>
                             <summary class="sum3">
                             Example 1:
                             </summary>
 
                 <p>
-During a month with 30 days,
-a baseball team plays at least one game a day,
-but no more than 45 games.
- Show that there must be a period of some number of consecutive days
- during which the team must play exactly 14 games.
-                <br><br>
+                    During a month with 30 days,
+                    a baseball team plays at least one game a day,
+                    but no more than 45 games.
+                     Show that there must be a period of some number
+                     of consecutive days
+                     during which the team must play exactly 14 games.
                 </p>
 
                 <details>
-                                <summary class="sum4">
-                                Answer:
-                                </summary>
+                    <summary class="sum4">
+                    Answer:
+                    </summary>
 
                     <p>
-Let a<sub>j</sub> be the number of games played on or
- before the jth day of the month.
- Then a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub>
- is an increasing sequence of distinct positive integers,
- with 1 &le; a<sub>j</sub> &le; 45.<br>
-More-over, a<sub>1</sub> + 14, a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14
-is also an increasing sequence of distinct positive integers,
-with 15 &le; a<sub>j</sub> + 14 &le; 59.<br>
-The 60 positive integers a<sub>1</sub> ,
- a<sub>2</sub> , . . . , a<sub>30</sub> , a<sub>1</sub> + 14,
- a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 are
-  all less than or equal to 59.<br>
-Hence, by the pigeonhole principle two of these integers are equal.
-<br>
-Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all
-distinct and the integers a<sub>j</sub> + 14, j = 1, 2, . . . ,
-30 are all distinct,
-there must be indices i and j with a<sub>i</sub> = a<sub>j</sub> + 14.
-This means that exactly 14 games were played from day j + 1 to day i.
-                    <br><br>
+                    Let a<sub>j</sub> be the number of games played on or
+                     before the jth day of the month.
+                     Then a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub>
+                     is an increasing sequence of distinct positive integers,
+                     with 1 &le; a<sub>j</sub> &le; 45.<br>
+                    More-over, a<sub>1</sub> + 14, a<sub>2</sub> + 14,
+                    . . . , a<sub>30</sub> + 14
+                    is also an increasing sequence of
+                    distinct positive integers,
+                    with 15 &le; a<sub>j</sub> + 14 &le; 59.<br>
+                    The 60 positive integers a<sub>1</sub> ,
+                     a<sub>2</sub> , . . . , a<sub>30</sub> , a<sub>1</sub> + 14,
+                     a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 are
+                      all less than or equal to 59.<br>
+                    Hence, by the pigeonhole principle
+                    two of these integers are equal.
+                    <br>
+                    Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all
+                    distinct and the integers a<sub>j</sub> + 14, j = 1, 2, . . . ,
+                    30 are all distinct,
+                    there must be indices i and j with a<sub>i</sub>
+                    = a<sub>j</sub> + 14.
+                    This means that exactly 14 games were played
+                    from day j + 1 to day i.
                     </p>
 
                   </details>
@@ -666,18 +676,18 @@ This means that exactly 14 games were played from day j + 1 to day i.
                                 </summary>
 
                     <p>
-    The <b> Ramsey number R(m, n)</b>, where m and n
-    are positive integers greater than or equal to 2,
-    denotes the minimum number of people at a party
-    such that there are either m mutual friends or
-    n mutual enemies, assuming that every pair of
-    people at the party are friends or enemies.<br>
-    Example 2 shows that R(3, 3) &le; 6.<br>
-    We conclude that <b>R(3, 3) = 6</b>
-    because in a group of five people where
-    every two people are friends or enemies,
-    there may not be three mutual friends or three mutual enemies.
-                    <br><br>
+                      The <b> Ramsey number R(m, n)</b>, where m and n
+                      are positive integers greater than or equal to 2,
+                      denotes the minimum number of people at a party
+                      such that there are either m mutual friends or
+                      n mutual enemies, assuming that every pair of
+                      people at the party are friends or enemies.<br>
+                      Example 2 shows that R(3, 3) &le; 6.<br>
+                      We conclude that <b>R(3, 3) = 6</b>
+                      because in a group of five people where
+                      every two people are friends or enemies,
+                      there may not be three mutual friends
+                      or three mutual enemies.
                     </p>
 
                   </details>
@@ -1154,15 +1164,17 @@ There are<b> 84 </b>different ways to choose the six cookies.
                     </summary>
 
             <details>
-                            <summary class="sum3">
-                            Theorem 3
-                            </summary>
+                    <summary class="sum3">
+                    Theorem 3
+                    </summary>
 
-                <figure>
-                <img src="graphics/Count33_permth3.png" width="742" height="170">
-                </figure>
-
-              </details>
+                    <p>
+                        Every sequence of <i>n</i><sup>2</sup> + 1 distinct
+                        numbers must contain a sequence of length <i>n</i> 
+                        + 1 that is either strictly increasing or strictly
+                        decreasing.
+                    </p>
+            </details>
 
             <details>
                             <summary class="sum3">
