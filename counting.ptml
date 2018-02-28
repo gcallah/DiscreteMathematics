@@ -34,7 +34,7 @@
 
             <br>
             Say we have a set of objects with certain properties.<br>
-            <i><b>Counting</b></i> is used to determine the number of these objects.<br>
+            <b>Counting</b> is used to determine the number of these objects.<br>
             </p>
 
             </details>
@@ -45,42 +45,49 @@
                 </summary>
 
                 <p>
-        Counting problems arise throughout
-        mathematics and computer science.<br>
-        Examples:<br>
-        1. The successful outcomes of experiments.<br>
-        2. The number of operations used by an
-        algorithm to study its Time Complexity.
-                        <br>
-        </p>
+                    Counting problems arise throughout
+                    mathematics and computer science.<br>
+                    Examples:<br>
+                    1. The successful outcomes of experiments.<br>
+                    2. The number of operations used by an
+                    algorithm: its time complexity.
+                </p>
 
                 <details>
                     <summary class="sum2">
                     Basic Counting Principles
                     </summary>
 
-            <p>
-            There are two basic counting principles.<br>
-            </p>
+                    <p>
+                    There are two basic counting principles.<br>
+                    </p>
 
                     <details>
                         <summary class="sum3">
                         The Product Rule
                         </summary>
 
-                        <figure>
-                        <img src="graphics/Count1_productrule.png">
-                        </figure>
+                        <p>
+                            <b>The Product Rule</b>
+                            <br />
+                            Suppose that a procedure can be broken into two
+                            parts, and there are <i>n</i><sub>1</sub> ways
+                            to do the first part, and <i>n</i><sub>2</sub>
+                            ways to do the second (and the choices for the two
+                            parts are independent). Then there are
+                            <i>n</i><sub>1</sub><i>n</i><sub>2</sub> ways to do
+                            the task.
+                        </p>
 
                         <p>
-                        <b>Examples:</b><br>
+                        <b>Examples:</b>
+                        <br>
                         1. The chairs of an auditorium are to be
                         labeled with an uppercase English
                         letter followed by a positive
                          integer not exceeding <b>100</b>. <br>
                         What is the largest number of chairs
                          that can be labeled differently?<br>
-
 
                         <details>
                             <summary class="sum4">
@@ -98,7 +105,7 @@
                                </b>different ways that a chair can be labeled.
                                Therefore, the largest number of chairs
                                that can be
-                                labeled differently is <b>2600 </b>.
+                                labeled differently is <b>2600</b>.
                             </p>
                             <br>
                         </details>
@@ -140,9 +147,14 @@
                         The Sum Rule
                         </summary>
 
-                        <figure>
-                        <img src="graphics/Count2_sumrule.png">
-                        </figure>
+                        <p>
+                            <b>The Sum Rule</b>
+                            <br />
+                            If a task can be done in either one of
+                            <i>n</i><sub>1</sub> ways or one of
+                            <i>n</i><sub>2</sub> ways, then it can be done in
+                            <i>n</i><sub>1</sub> + <i>n</i><sub>2</sub> ways.
+                        </p>
 
                         <p>
                         <b>Examples:</b><br>
@@ -152,7 +164,7 @@
                           <b>19 </b>possible projects, respectively.
                           No project is on more than one list.<br>
                            How many possible projects are there to choose from?
-                        <br>
+                        </p>
 
 
                         <details>
@@ -161,24 +173,22 @@
                             </summary>
                             <p>
                             The student can choose a project
-                             by selecting a project from the first list,
-                              the second list, or the third list.
-                              Because no project is on more than one list,
-                               by the sum rule there are <br><b>23 + 15 + 19 = 57 </b>ways
-                               to choose a project.
-
+                            by selecting a project from the first list,
+                            the second list, or the third list.
+                            Because no project is on more than one list,
+                            by the sum rule there are <br><b>23 + 15 + 19 = 57 </b>ways
+                            to choose a project.
                             </p>
-                            <br>
                         </details>
-                        </p>
+
                         <p>
-                        <br>
-                        2.What is the value of k after
+                        2.What is the value of <i>k</i> after
                         the following code,
-                         where n<sub>1</sub> , n<sub>2</sub> , . . . ,
-                         n<sub>m</sub> are positive integers,
+                         where <i>n</i><sub>1</sub>, <i>n</i><sub>2</sub>,
+                         . . . ,
+                         <i>n</i><sub><i>m</i></sub> are positive integers,
                          has been executed?
-                        <br>
+                        </p>
 
                         <figure>
                         <img src="graphics/Count6_sumeg.png">
@@ -189,27 +199,25 @@
                             Answer:
                             </summary>
                             <p>
-                            The initial value of k is zero.
-                            This block of code is made up of m different loops.
-                             Each time a loop is traversed, 1 is added to k.
-                              To determine the value of k
-                               after this code has been executed,
-                               we need to determine how
-                                many times we traverse a loop.
-                                Note that there are n <sub>i</sub> ways
-                                to traverse the ith loop.
-                                 Because we only
-                                 traverse one loop at a time,
-                                  the sum rule shows
-                                   that the final value of k,
-                                  which is the number of ways to traverse
-                                  one of the m loops is <br><b>n<sub>1</sub>+
-                                  n <sub>2</sub> + ... + n <sub>m</sub></b> .
-
-                            </p>
+                            The initial value of <i>k</i> is zero.
+                            This block of code is made up of <i>m</i> different loops.
+                            Each time a loop is traversed, 1 is added to <i>k</i>.
+                            To determine the value of <i>k</i>
+                            after this code has been executed,
+                            we need to determine how
+                            many times we traverse a loop.
+                            Note that there are <i>n</i><sub><i>i</i></sub> ways
+                            to traverse the <i>i</i>th loop.
+                            Because we only traverse one loop at a time,
+                            the sum rule shows that the final value of <i>k</i>,
+                            which is the number of ways to traverse
+                            all of the <i>m</i> loops is:
                             <br>
+                            <i>n</i><sub>1</sub> +
+                            <i>n</i><sub>2</sub> + ...
+                            + <i>n</i><sub><i>m</i></sub>
+                            </p>
                         </details>
-                        </p>
 
                     </details>
 
@@ -234,35 +242,52 @@
                 Answer:
                 </summary>
                 <p>
-                Let P be the total number of possible passwords,
-                 and let P<sub>6</sub> , P<sub>7</sub> ,
-                 and P<sub>8</sub> denote the number of
-                 possible passwords of length 6, 7, and 8, respectively.
-                  <br>By the sum rule, <b>P =
-                  P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> </b>.
-                   <br>We will now find P<sub>6</sub> , P<sub>7</sub> ,
-                   and P<sub>8</sub> . <br>Finding P<sub>6</sub>
-                   directly is difficult. To find P<sub>6</sub>
-                   it is easier to find the number of strings of
-                    uppercase letters and digits that are six characters long,
-                     including those with no digits, and subtract from t
-                     his the number of strings with no digits.
-                      By the product rule, the number of strings of
-                      six characters is 36<sup>6</sup>,
-                      and the number of strings with no
-                      digits is 26<sup>6</sup>. Hence,<br>
-
-P<sub>6</sub> = 36<sup>6</sup> - 26<sup>6</sup> = 2,176,782,336 - 308,915,776 = 1,867,866,560.<br>
-Similarly, we have<br>
-P<sub>7</sub> = 36<sup>7</sup> - 26<sup>7</sup> = 78,364,164,096 - 8,031,810,176 = 70,332,353,920<br>
-and<br>
-P<sub>8</sub> = 36<sup>8</sup> - 26<sup>8</sup> = 2,821,109,907,456 - 208,827,064,576 = 2,612,282,842,880.<br>
-<b>P = P<sub>6</sub> + P<sub>7</sub> + P<sub>8</sub> = 2,684,483,063,360.</b><br>
-                </p>
+                Let <i>P</i> be the total number of possible passwords,
+                and let <i>P</i><sub>6</sub>, <i>P</i><sub>7</sub>,
+                and <i>P</i><sub>8</sub> denote the number of
+                possible passwords of length 6, 7, and 8, respectively.
                 <br>
+                By the sum rule, <i>P</i> =
+                <i>P</i><sub>6</sub> + <i>P</i><sub>7</sub> + <i>P</i><sub>8</sub>.
+                <br>
+                We will now find <i>P</i><sub>6</sub> , <i>P</i><sub>7</sub>,
+                and <i>P</i><sub>8</sub>.
+                <br>
+                Finding <i>P</i><sub>6</sub>
+                directly is difficult. To find <i>P</i><sub>6</sub>
+                it is easier to find the number of strings of
+                uppercase letters and digits that are six characters long,
+                including those with no digits, and subtract from 
+                this the number of strings with no digits.
+                By the product rule, the number of strings of
+                six characters is 36<sup>6</sup>,
+                and the number of strings with no
+                digits is 26<sup>6</sup>. Hence,
+                <br>
+
+                <i>P</i><sub>6</sub> =
+                36<sup>6</sup> - 26<sup>6</sup> =
+                2,176,782,336 - 308,915,776 = 1,867,866,560.
+                <br>
+                Similarly, we have
+                <br>
+                <i>P</i><sub>7</sub> =
+                36<sup>7</sup> - 26<sup>7</sup> =
+                78,364,164,096 - 8,031,810,176 = 70,332,353,920
+                <br>
+                and
+                <br>
+                <i>P</i><sub>8</sub> =
+                36<sup>8</sup> - 26<sup>8</sup> =
+                2,821,109,907,456 - 208,827,064,576 = 2,612,282,842,880.
+                <br>
+                <i>P</i> =
+                <i>P</i><sub>6</sub> + <i>P</i><sub>7</sub> + <i>P</i><sub>8</sub> =
+                2,684,483,063,360.
+                </p>
             </details>
 
-                </details>
+        </details>
 
 
         <details>
