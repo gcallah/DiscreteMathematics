@@ -429,7 +429,7 @@
                       <summary class="sum3">
                           Definition 3: If in a poset
                                      (<i>S</i>, &le;) every two elements of
-                                     <i>S</i> are comparable, then S is called
+                                     <i>S</i> are comparable, then <i>S</i> is called
                                      a totally ordered or linearly ordered set
                                      or a chain.
                       </summary>
@@ -437,7 +437,7 @@
                           <details>
                               <summary class="sum3"> Definition 4:
                                   (<i>S</i>, &le;) is a well-ordered set if it
-                                  is a poset such that &le; is a total
+                                  is a poset such that &le; is a total
                                   ordering and every nonempty subset of
                                   <i>S</i> has a least element.  </summary> <p>
                               least element is an element of <i>S</i> that is
@@ -447,41 +447,73 @@
                               set of negative integers, which is a subset of
                               <i>Z</i>, has no least element.
 
-                </p>
-                          </details>
-                <details>
-                    <summary class="sum3"> Theorem 1: THE
+                </p> </details> <details> <summary class="sum3"> Theorem 1: THE
                         PRINCIPLE OF WELL-ORDERED INDUCTION: Suppose that
                         <i>S</i> is a wellordered set. Then P(x) is true for
                         all x &isin; <i>S</i>, if For every <i>y</i> &isin;
                         <i>S</i>, if <i>P(x)</i> is true for all <i>x</i>
                         &isin; S with <i>x</i> &le; <i>y</i> , then <i>P(y)</i>
-                        is true.
-                    </summary>
-                </details>
+                is true.  </summary> </details> </details> <details> <summary
+                                                   class="sum2"> Lexicographic
+                                                   Order </summary> <p> This is
+                                               the ordering which is based on
+                                               ordering of letters in alphabet.
+                                               The words in a dictionary are
+                                               arranged in lexographic order
+                                               </p> <p> The lexographic order
+                                               on two posets (<i>A</i> , &le;) and (<i>B</i>,
+                                               &le;) is defined by specifiying
+                                               that one pair is (<i>a</i><sub>0</sub>,
+                                               <i>b</i><sub>0</sub>) is less than (<i>a</i>
+                                               <sub>1</sub>, <i>b</i><sub>1</sub>),
+                                               that is, (<i>a</i><sub>1</sub>,
+                                               <i>b</i><sub>1</sub>) &le;
+                                               (a<sub>2</sub>,
+                                               <i>b</i><sub>2</sub>),either if <i>a</i> &le;
+                                                   <i>b</i> or if both (<i>a</i><sub>1</sub>
+                                                   &equals;  <i>b</i><sub>1</sub>)
+                                                       and <i>a</i><sub>2</sub> &le;
+                                                       <i>b</i><sub>2</sub>.  </p>
+    </details>
+     <details>
+      <summary class="sum2">
+        Hasse Diagram 
+      </summary>
+       <p> As
+        we know from above discussions that Partial Ordering is reflexive,
+        transitive.  Hence in a directed graph for a poset, say {(<i>a</i>, <i>b</i>) | <i>a</i>
+        &le; <i>b</i>} on the set {1, 2, 3, 4} we don't have to show loops for all the
+        vertices ( 1, 2, 3 and 4), as it is implicit.  </p> <p> Similarly, as
+        the poset hold transitivity, if (1 &lt; 2) and (2 &lt; 3) this implies
+        that (1 &lt; 3) hence, we don't need to show a directed edge from 1 to
+        3.  </p> <p> If we assume that all edges are pointed upwards, we need
+        not show the direction of vertices </p>
+        <div style="text-align:center">
+            <figure class="lead-figure">
+              <img src="graphics/Hasse_diagram.png" width="300px" height="300px">
+                <figcaption> Hasse diagram, partial ordering. Image
+                    source:Rosen_Dicrete_Mathematics_and_it's_application
+                </figcaption>
+              </figure>
+             </div>
+
                 </details>
                 <details>
-                    <summary class="sum2">
-                        Lexicographic Order
-                    </summary>
-                    <p>
-                    This is the ordering which is based on ordering of letters in
-                    alphabet. The words in a dictionary are arranged in
-                    lexographic order
-                    </p>
-                    <p>
-                    The lexographic order on two posets (A , &le;) and (B,
-                    &le;) is defined by specifiying that one pair is
-                    (a<sub>0</sub>,
-                        b<sub>0</sub>) is less
-                        than (a <sub>1</sub>, b<sub>1</sub>), that is,
-                        (a<sub>1</sub>, b<sub>1</sub>) &le; (a<sub>2</sub>,
-                        b<sub>2</sub>),either if a &le; b or if both
-                        (a<sub>1</sub> &equals;  b<sub>1</sub>)  and
-                        a<sub>2</sub> &le;
-                        b<sub>2</sub>.
-                    </p>
+                  <summary class="sum2">
+                    Maximal and Minimal Lattice
+                  </summary>
                 </details>
+                <details>
+                  <summary class="sum2">
+                    Lattices
+                  </summary>
+                </details>
+                <details>
+                  <summary class="sum2">
+                    Topological Sorting
+                  </summary>
+                </details>
+
             </details>
 
             <h3>
