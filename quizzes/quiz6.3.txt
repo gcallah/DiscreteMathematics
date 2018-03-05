@@ -1,0 +1,5 @@
+If Jimmy has red, blue, yellow and green gloves and if he decides to blindly pull out a few gloves, how many gloves must he pull out to guarantee that he has a pair?#4#3#^5#Cannot be determined
+According to the generalized Pigeonhole Principle, if n objects are placed into k boxes, then there is at least one box containing at least ceiling(k/n) objects#^False#True
+What is the minimum number of students required in a discrete mathematics class to be sure that at least six will receive the same grade, if there are five possible grades, A, B, C, D, and F?#25#10#6#^26
+How many students must be in a class to guarantee that at least two students receive the same score on the final exam, if the exam is graded on a scale from 0 to 100 points?#^102#98#100#101
+The pigeonhole principle states that there must be at least two objects in the same box when there are more objects than boxes.#False#^True
