@@ -1,0 +1,104 @@
+    <details>
+        <summary class="sum2">
+            Test Yourself!
+        </summary>
+        <ol class="nested">
+            <li>
+                If Jimmy has red, blue, yellow and green gloves and if he decides to blindly pull out a few gloves, how many gloves must he pull out to guarantee that he has a pair?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q1" value="a">
+                4
+                </li>
+                <li>
+                <input type="radio" name="q1" value="b">
+                3
+                </li>
+                <li>
+                <input type="radio" name="q1" value="c">
+                5
+                </li>
+                <li>
+                <input type="radio" name="q1" value="d">
+                Cannot be determined
+                </li>
+            </ol>
+            <li>
+                According to the generalized Pigeonhole Principle, if n objects are placed into k boxes, then there is at least one box containing at least ceiling(k/n) objects
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q2" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q2" value="b">
+                True
+                </li>
+            </ol>
+            <li>
+                What is the minimum number of students required in a discrete mathematics class to be sure that at least six will receive the same grade, if there are five possible grades, A, B, C, D, and F?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q3" value="a">
+                25
+                </li>
+                <li>
+                <input type="radio" name="q3" value="b">
+                10
+                </li>
+                <li>
+                <input type="radio" name="q3" value="c">
+                6
+                </li>
+                <li>
+                <input type="radio" name="q3" value="d">
+                26
+                </li>
+            </ol>
+            <li>
+                How many students must be in a class to guarantee that at least two students receive the same score on the final exam, if the exam is graded on a scale from 0 to 100 points?
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q4" value="a">
+                102
+                </li>
+                <li>
+                <input type="radio" name="q4" value="b">
+                98
+                </li>
+                <li>
+                <input type="radio" name="q4" value="c">
+                100
+                </li>
+                <li>
+                <input type="radio" name="q4" value="d">
+                101
+                </li>
+            </ol>
+            <li>
+                The pigeonhole principle states that there must be at least two objects in the same box when there are more objects than boxes.
+            </li>
+            <ol type="a" class="nested">
+                <li>
+                <input type="radio" name="q5" value="a">
+                False
+                </li>
+                <li>
+                <input type="radio" name="q5" value="b">
+                True
+                </li>
+            </ol>
+        </ol>
+        <details>
+            <summary class="sum3">
+                Answers
+            </summary>
+            <p>
+                1. c; 2. a; 3. d; 4. a; 5. b; 
+            </p>
+        </details>
+    </details>

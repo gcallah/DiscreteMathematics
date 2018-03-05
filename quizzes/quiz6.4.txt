@@ -2,4 +2,4 @@ A student is taking History, Math, English and Chemistry in her current semester
 Mia has 4 walls in her house left to paint. Each wall can be painted any color. If 6 different colors of paint are available, how many ways can the walls be painted?#120#180#728#^1296
 An electrician buys a few light bulbs and realizes that 10 are working and 4 are defective. In how many ways can 5 bulbs be selected if only 3 work?#^720#120#240#24
 A jar contains blue marbles, red marbles and green marbles. If 4 marbles are selected at random from the jar, how many unique marble combinations are there?#25#^15#20#19
-MThe number of diagonals in a pentagonn is:#8#7#6#^5
+The number of diagonals in a pentagon is:#8#7#6#^5

@@ -256,7 +256,7 @@
                 directly is difficult. To find <i>P</i><sub>6</sub>
                 it is easier to find the number of strings of
                 uppercase letters and digits that are six characters long,
-                including those with no digits, and subtract from 
+                including those with no digits, and subtract from
                 this the number of strings with no digits.
                 By the product rule, the number of strings of
                 six characters is 36<sup>6</sup>,
@@ -464,7 +464,7 @@
                         13 pigeons and 12 pigeonholes
                     </figcaption>
                     </figure>
-        
+
                     <p>
                     <br>The <b>pigeonhole principle </b>states that
                     if there are more pigeons than pigeonholes,
@@ -480,8 +480,8 @@
                         <p>
                             <b>The Pigeonhole Principle</b>
                             <br />
-                            If <i>k</i> is a positive integer and <i>k</i> 
-                            + 1 objects are to be placed into <i>k</i> 
+                            If <i>k</i> is a positive integer and <i>k</i>
+                            + 1 objects are to be placed into <i>k</i>
                             boxes, then at least one box must have more than
                             one object in it.
                         </p>
@@ -557,7 +557,7 @@
                         <p>
                             <b>The Generalized Pigeonhole Principle</b>
                             <br />
-                            If <i>n</i> objects are placed into <i>k</i> 
+                            If <i>n</i> objects are placed into <i>k</i>
                             boxes, then there is at least one box containing at
                             least ceiling(<i>n</i> / <i>k</i>) objects.
                         </p>
@@ -697,7 +697,7 @@
              </details>
 
                 </details>
-
+            <!--include quiz6.3.qhtm -->
             </details>
 
             <details>
@@ -905,7 +905,7 @@ Hence, there are C(n, r) bit strings of length n
               </details>
 
                 </details>
-
+            <!--include quiz6.4.qhtm -->
             </details>
 
             <details>
@@ -1172,7 +1172,7 @@ There are<b> 84 </b>different ways to choose the six cookies.
 
                     <p>
                         Every sequence of <i>n</i><sup>2</sup> + 1 distinct
-                        numbers must contain a sequence of length <i>n</i> 
+                        numbers must contain a sequence of length <i>n</i>
                         + 1 that is either strictly increasing or strictly
                         decreasing.
                     </p>
