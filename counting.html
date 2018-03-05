@@ -28,14 +28,6 @@
         <h1 class="chap-title">
             Counting
         </h1>
-            <div style="text-align:center">
-                <figure class="lead-figure">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/
-                        Indian_numerals_100AD.svg/343px-Indian_numerals_100AD.svg.png">
-                </figure>
-            </div>
-
 
         <details>
             <summary class="sum1">
@@ -44,11 +36,13 @@
 
             <p>
             <b>Combinatorics:</b> Study of arangement of objects.<br>
-            <b>Enumeration:</b> Counting of objects with certain properties.<br>
+            <b>Enumeration:</b> Counting of objects with certain properties.
+            <br>
 
             <br>
             Say we have a set of objects with certain properties.<br>
-            <b>Counting</b> is used to determine the number of these objects.<br>
+            <b>Counting</b> is used to determine the number of these objects.
+            <br>
             </p>
 
             </details>
@@ -450,7 +444,7 @@
             </p>
 
             <figure>
-            <img src="graphics/Count7_treeeg.png">
+            <img src="graphics/Count7_treeeg.png" width="60%">
             </figure>
 
                       </details>
@@ -602,7 +596,7 @@
                     </summary>
 
                     <figure>
-                    <img src="graphics/Count10_pigeon2.png">
+                    <img src="graphics/Count10_pigeon2.png" width="60%">
                     <figcaption>
                         13 pigeons and 12 pigeonholes
                     </figcaption>
@@ -747,63 +741,9 @@
 
                 <details>
                     <summary class="sum2">
-                    Some Elegant Applications of the Pigeonhole Principle
+                    An Elegant Application of the Pigeonhole Principle
                     </summary>
 
-                    <details>
-                            <summary class="sum3">
-                            Example 1:
-                            </summary>
-
-                <p>
-                    During a month with 30 days,
-                    a baseball team plays at least one game a day,
-                    but no more than 45 games.
-                     Show that there must be a period of some number
-                     of consecutive days
-                     during which the team must play exactly 14 games.
-                </p>
-
-                <details>
-                    <summary class="sum4">
-                    Answer:
-                    </summary>
-
-                    <p>
-                    Let a<sub>j</sub> be the number of games played on or
-                     before the jth day of the month.
-                     Then a<sub>1</sub> , a<sub>2</sub> , . . . , a<sub>30</sub>
-                     is an increasing sequence of distinct positive integers,
-                     with 1 &le; a<sub>j</sub> &le; 45.<br>
-                    More-over, a<sub>1</sub> + 14, a<sub>2</sub> + 14,
-                    . . . , a<sub>30</sub> + 14
-                    is also an increasing sequence of
-                    distinct positive integers,
-                    with 15 &le; a<sub>j</sub> + 14 &le; 59.<br>
-                    The 60 positive integers a<sub>1</sub> ,
-                     a<sub>2</sub> , . . . , a<sub>30</sub> , a<sub>1</sub> + 14,
-                     a<sub>2</sub> + 14, . . . , a<sub>30</sub> + 14 are
-                      all less than or equal to 59.<br>
-                    Hence, by the pigeonhole principle
-                    two of these integers are equal.
-                    <br>
-                    Because the integers a<sub>j</sub> , j = 1, 2, . . . , 30 are all
-                    distinct and the integers a<sub>j</sub> + 14, j = 1, 2, . . . ,
-                    30 are all distinct,
-                    there must be indices i and j with a<sub>i</sub>
-                    = a<sub>j</sub> + 14.
-                    This means that exactly 14 games were played
-                    from day j + 1 to day i.
-                    </p>
-
-                  </details>
-
-             </details>
-
-            <details>
-                            <summary class="sum3">
-                            Example 2:
-                            </summary>
 
                 <p>
                 Assume that in a group of six people, each pair of
@@ -813,31 +753,6 @@
                 <br><br>
                 </p>
 
-                <details>
-                    <summary class="sum4">
-                    Answer:
-                    </summary>
-
-                    <p>
-                      The Ramsey number <i>R</i>(<i>m</i>, <i>n</i>),
-                      where <i>m</i> and <i>n</i>
-                      are positive integers greater than or equal to 2,
-                      denotes the minimum number of people at a party
-                      such that there are either <i>m</i> mutual friends or
-                      <i>n</i> mutual enemies, assuming that every pair of
-                      people at the party are friends or enemies.
-                      <br>
-                      Example 2 shows that <i>R</i>(3, 3) &le; 6.<br>
-                      We conclude that <b><i>R</i>(3, 3) = 6</b>
-                      because in a group of five people where
-                      every two people are friends or enemies,
-                      there may not be three mutual friends
-                      or three mutual enemies.
-                    </p>
-
-                  </details>
-
-             </details>
 
                 </details>
     <details>
@@ -1132,7 +1047,8 @@ How many ways are there to select five players from a
                             </summary>
 
                 <p>
-                How many bit strings of length n contain exactly r 1s?<br>
+                How many bit strings of length <i>n</i> contain
+                exactly <i>r</i> 1s?<br>
                 </p>
 
                 <details>
@@ -1141,14 +1057,17 @@ How many ways are there to select five players from a
                                 </summary>
 
                     <p>
-The positions of r 1s in a bit string of length n form
-an r-combination of the set {1, 2, 3, . . . , n}. <br>
-Hence, there are C(n, r) bit strings of length n
- that contain exactly r 1s..<br><br>
+                The positions of <i>r</i> 1s in a bit
+                string of length <i>n</i> form
+                an <i>r</i>-combination of the set {1, 2, 3, . . . , n}.
+                <br>
+                Hence, there are <i>C</i>(<i>n</i>, <i>r</i>)
+                bit strings of length <i>n</i>
+                 that contain exactly <i>r</i> 1s..
                     </p>
-                            </details>
+                    </details>
 
-              </details>
+                  </details>
 
                 </details>
     <details>
@@ -1319,7 +1238,7 @@ A binomial expression is simply the sum of two terms, such as x + y.
             <details>
                             <summary class="sum3">
                             Binomial Corollary 2:
-                            Not Covered Fall 2017
+                            Not Covered Spring 2018
                             </summary>
 
                 <figure>
@@ -1331,7 +1250,7 @@ A binomial expression is simply the sum of two terms, such as x + y.
             <details>
                             <summary class="sum3">
                             Binomial Corollary 3:
-                            Not Covered Fall 2017
+                            Not Covered Spring 2018
                             </summary>
 
                 <figure>
@@ -1381,11 +1300,13 @@ A binomial expression is simply the sum of two terms, such as x + y.
                 <details>
                     <summary class="sum2">
                     Other Identities Involving Binomial Cooefficients
+                    <br />
+                    Not Covered Spring 2018
                     </summary>
 
             <details>
                             <summary class="sum3">
-                            Theorem 3: Not Covered Fall 2017
+                            Theorem 3: Not Covered Spring 2018
                             </summary>
 
                 <figure>
@@ -1397,7 +1318,7 @@ A binomial expression is simply the sum of two terms, such as x + y.
 
             <details>
                             <summary class="sum3">
-                            Corollary 4: Not Covered Fall 2017
+                            Corollary 4: Not Covered Spring 2018
                             </summary>
 
                 <figure>
@@ -1409,7 +1330,7 @@ A binomial expression is simply the sum of two terms, such as x + y.
 
             <details>
                             <summary class="sum3">
-                            Theorem 4: Not Covered Fall 2017
+                            Theorem 4: Not Covered Spring 2018
                             </summary>
 
                 <figure>
@@ -1426,7 +1347,7 @@ A binomial expression is simply the sum of two terms, such as x + y.
                 <summary class="sum1">
                 Generalized Permutations and Combinations
                 <br />
-                Not covered Fall 2017
+                Not covered Spring 2018
                 </summary>
 
                 <details>
@@ -1693,7 +1614,7 @@ into four identical boxes, where a box can contain as many as six books?
                 <summary class="sum1">
                 Generating Permutations and Combinations
                 <br />
-                Not covered Fall 2017
+                Not covered Spring 2018
                 </summary>
 
                 <details>
