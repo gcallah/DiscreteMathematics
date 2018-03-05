@@ -488,6 +488,71 @@
                   <summary class="sum2">
                     Maximal and Minimal Lattice
                   </summary>
+                <p>
+                An element in a poset is called <b>maximal</b> if there is no
+                element in set greater than that element. 
+                </p>
+                <p>
+                Similarly, an element is called <b>minimal</b> if there is no
+                element lesser than that in a set
+                </p>
+                <p>
+                Hasse diagram can be easily used to find maximal and minimal
+                elements as they are respectively top and bottom elements in
+                the diagram
+                </p>
+                <details>
+                    <summary class="sum3">
+                        Definitions
+                    </summary>
+                <ul class="nested">
+                    <ol>
+                        least element
+                    </ol>
+                    <p>
+                        An element which is lesser than all other elements in
+                        the set.It is unique when it exist
+                    </p>
+                    <ol>
+                        greatest element
+                    </ol>
+                    <p>
+                        An element greater than every element in the set and is
+                        unique when it exist
+                        </p>
+                    <ol>
+                        upper bound
+                    </ol>
+                        <p>
+                        An element which is greater than or equal to all the
+                        elements in the subset is an upper bound 
+                        </p>
+                    <ol>
+                        lower bound
+                    </ol>
+                    <p>
+                    An element which is less than or equal to all the elements
+                    in the subset is a lower bound
+                    </p>
+                    <ol>
+                        least upper bound
+                    </ol>
+                    <p>
+                    An element <i>x</i> is called a least upper bound of a set
+                    <i>A</i> if it is lesser than all other upper bounds of
+                    <i>A</i> there is only one such element like this
+                    </p>
+                    <ol>
+                        greatest lower bound
+                    </ol>
+                    <p>
+                    An element which is greater than all the lower bounds of a
+                    set is a greatest lower bound. There is only one such
+                    element
+                    </p>
+                </ul>
+                </details>
+
                 </details>
                 <details>
                   <summary class="sum2">
