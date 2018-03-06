@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Relations
         </title>
@@ -44,13 +44,15 @@
                       Introduction
                    </summary>
                    <p>
-                     Ordered Pairs can be used to express relation between two elements.
-                     These are called as binary relations.
+                     Ordered Pairs can be used to express relation between two
+                     elements.  These are called as binary relations.
                    </p>
 
                    <details> <summary class="sum3"> DEFINITION 1: </summary>
-                       <p> A binary relation from <i>A</i> to <i>B</i> is a
-                       subset of <i>A</i> x <i>B</i>; </p> <p> <b>Example</b>
+                       <p>
+                    A binary relation from <i>A</i> to <i>B</i> is a
+                       subset of <i>A</i> x <i>B</i>; </p> <p>
+                    <b>Example</b>
                        Let <i>A</i> &equals; {0,1,2} and <i>B</i> &equals;
                        {1,2} then a relation set of {x | x &isin; R x
                        &equals;x} is given by {1,1} ,{2,2} </p> </details>
@@ -59,16 +61,19 @@
                     <summary class="sum2"> Functions as
                         Relations
                     </summary>
-                    <p> A relation between a function
+                    <p>
+                    A relation between a function
                     from <i>A</i> to <i>B</i>  is defined by assigning exactly
                     one element of <i>B</i> to <i>A</i>; </p>
-                    <p> The graph of
+                    <p>
+                    The graph of
                     <i>f</i> is the set of ordered pairs (<i>a</i>, <i>b</i>)
                     such that <i>b</i> &equals; f <i>(a)</i>.  </p> <p>
                     <b>Example</b> A relation on a set <i>A</i> is a subset of
                     <i>A</i> x <i>A</i>.  Because <i>A</i> x <i>A</i> has
                     n<sup>2</sup> elements </p>
-                    <p> when <i>A</i> has <i>n</i>
+                    <p>
+                    when <i>A</i> has <i>n</i>
                     elements, and there are 2 n<sup>2</sup> subsets of <i>A</i>
                     x <i>A</i>.  Thus, there are 2 n<sup>2</sup> relations on a
                     set with <i>n</i> elements.
@@ -126,7 +131,8 @@
                         DEFINITION 5:
                          </summary>
 
-                      <p> A relation <i>R</i> on a set <i>A</i> is called
+                      <p>
+                    A relation <i>R</i> on a set <i>A</i> is called
                       transitive if whenever (<i>a</i>,  <i>b</i>) &isin;
                       <i>R</i> and (<i>b</i>, <i>c</i>) &isin; <i>R</i>, then
                       (<i>a</i>, <i>c</i>) &isin; <i>R</i>, for all <i>a </i>,
@@ -198,7 +204,8 @@
                      Representing Relations Using Digraphs
                   </summary>
                   <p>
-                    Relations can be expressed using Directed graphs (Digraphs),
+                    Relations can be expressed using
+                    Directed graphs (Digraphs),
                      in this elements of sets are represented by a point,
                   </p>
                   <p>
@@ -230,7 +237,8 @@
                      <p>
                        <b> Example</b>
                        Draw a directed graph of the following ordered pairs:
-                       {(1, 1), (1, 3), (2, 1), (2, 3), (2, 4), (3, 1), (3, 2), (4, 1)}
+                       {(1, 1), (1, 3), (2, 1), (2, 3), (2, 4),
+                       (3, 1), (3, 2), (4, 1)}
 
                      </p>
                   </details>
@@ -245,14 +253,18 @@
 
                 <details> <summary class="sum2"> Introduction </summary> <p>
                     Let <i>R</i> be relation containing ordered pairs
-                    (<i>a</i>, <i>b</i>) </p> <p> which determine connection
+                    (<i>a</i>, <i>b</i>) </p> <p>
+                    which determine connection
                     between two cities. If there is no direct connection
-                    between two cities, </p> <p> then the ordered pair won't
+                    between two cities, </p> <p>
+                    then the ordered pair won't
                     exist in the Relation set, even though there is a
-                    connection indirectly.  </p> <p> In such cases, we need to
+                    connection indirectly.  </p> <p>
+                    In such cases, we need to
                     construct a transitive relation <i> S </i> which is a
                     subset of <i> R</i> such that it contains all the
-                    transitive relations in <i>R</i> </p> <p> This is called as
+                    transitive relations in <i>R</i> </p> <p>
+                    This is called as
                     <b>transitive closure</b> </p> </details>
 
                 <details>
@@ -387,7 +399,8 @@
                     <summary class="sum2">
                         Introduction
                     </summary>
-                    <p> A set with a binary
+                    <p>
+                    A set with a binary
                     relation R such that, for certain pairs of elements in the
                     set, one of the elements precedes the other in the ordering
                     that is partial order is created </p>
@@ -428,7 +441,8 @@
                                   <i>S</i> has a least element.  </summary> <p>
                               least element is an element of <i>S</i> that is
                               smaller than every other element of <i>S</i> </p>
-                              <p> Example: The set <i>Z</i>, with the usual
+                              <p>
+                    Example: The set <i>Z</i>, with the usual
                               &le; ordering, is not well-ordered because the
                               set of negative integers, which is a subset of
                               <i>Z</i>, has no least element.
@@ -441,12 +455,14 @@
                         &isin; S with <i>x</i> &le; <i>y</i> , then <i>P(y)</i>
                 is true.  </summary> </details> </details> <details> <summary
                                                    class="sum2"> Lexicographic
-                                                   Order </summary> <p> This is
+                                                   Order </summary> <p>
+                    This is
                                                the ordering which is based on
                                                ordering of letters in alphabet.
                                                The words in a dictionary are
                                                arranged in lexographic order
-                                               </p> <p> The lexographic order
+                                               </p> <p>
+                    The lexographic order
                                                on two posets (<i>A</i> , &le;) and (<i>B</i>,
                                                &le;) is defined by specifiying
                                                that one pair is (<i>a</i><sub>0</sub>,
@@ -465,14 +481,18 @@
       <summary class="sum2">
         Hasse Diagram 
       </summary>
-       <p> As
+       <p>
+                    As
         we know from above discussions that Partial Ordering is reflexive,
-        transitive.  Hence in a directed graph for a poset, say {(<i>a</i>, <i>b</i>) | <i>a</i>
+        transitive.  Hence in a directed graph for a poset, say {(<i>a</i>,
+        <i>b</i>) | <i>a</i>
         &le; <i>b</i>} on the set {1, 2, 3, 4} we don't have to show loops for all the
-        vertices ( 1, 2, 3 and 4), as it is implicit.  </p> <p> Similarly, as
+        vertices ( 1, 2, 3 and 4), as it is implicit.  </p> <p>
+                    Similarly, as
         the poset hold transitivity, if (1 &lt; 2) and (2 &lt; 3) this implies
         that (1 &lt; 3) hence, we don't need to show a directed edge from 1 to
-        3.  </p> <p> If we assume that all edges are pointed upwards, we need
+        3.  </p> <p>
+                    If we assume that all edges are pointed upwards, we need
         not show the direction of vertices </p>
         <div style="text-align:center">
             <figure class="lead-figure">
@@ -559,8 +579,8 @@
                     Lattices
                   </summary>
                   <p>
-                  A poset in which every pair of elements has both a least upper 
-                  bound and a greatest lower bound is called a lattice.
+                  A poset in which every pair of elements has both a least
+                  upper bound and a greatest lower bound is called a lattice.
                   </p>
                 </details>
                 <details>
@@ -593,7 +613,8 @@
                     <li>
                         Partial ordering: By I, KSmrq, CC BY-SA 3.0,
                         https://commons.wikimedia.org/w/index.php?curid=2118211
-                        Equivalence class example :By Lfahlberg - Own work, CC BY-SA 3.0,
+                        Equivalence class example:
+                        By Lfahlberg - Own work, CC BY-SA 3.0,
                         https://commons.wikimedia.org/w/index.php?curid=29230748
                     </li>
                 </ul>
