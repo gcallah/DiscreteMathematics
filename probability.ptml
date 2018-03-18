@@ -19,22 +19,22 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PascalTriangleAnimated2.gif/220px-PascalTriangleAnimated2.gif">
                 </figure>
             </div>
-            
+
             <details>
                 <summary class="sum1">
-                An Introduction to Discrete Probability 
+                An Introduction to Discrete Probability
                 </summary>
                 <details>
                     <summary class="sum2">
                         Finite Probability
                     </summary>
                     <p>
-                        An experiment is a procedure that 
-                        yields one of a given set of 
-                        possible outcomes. The sample space of 
-                        the experiment is the set of possible 
-                        outcomes. An event is a subset 
-                        of the sample space. 
+                        An experiment is a procedure that
+                        yields one of a given set of
+                        possible outcomes. The sample space of
+                        the experiment is the set of possible
+                        outcomes. An event is a subset
+                        of the sample space.
                     </p>
                     <p class="def">
                         DEFINITION
@@ -69,7 +69,7 @@
                         <summary class="sum3">
                           Example
                         </summary>
-                          <p> 
+                          <p>
                           What is the probability that when
                           two dice are rolled, the sum of
                           the numbers on the two dice is 7?<br></p>
@@ -81,7 +81,7 @@
                             There are a total of 36 equally
                             likely possible outcomes when two
                             dice are rolled.There are six successful
-                            outcomes, namely, 
+                            outcomes, namely,
                                (1, 6), (2, 5), (3, 4),
                                (4, 3), (5, 2), and (6, 1),
                                where the values of the first
@@ -188,7 +188,7 @@
                     </p>
                     <p>
                     An example of probabilistic reasoning is using past situations and                          statistics to predict an outcome.</p>
-                    
+
                     <p>
                     It is used to define which of two events is more
                     likely.Analyzing the probabilities of such events can
@@ -216,7 +216,7 @@
 
             <details>
                 <summary class="sum1">
-                   Probability Theory 
+                   Probability Theory
                 </summary>
                 <summary class="sum2">
                    Overview
@@ -247,7 +247,7 @@
                  countable number of outcomes.We assign a probability p(s) to
                  each outcome s.
                  </p>
-                 
+
                  <p>We require that two conditions be met:</p>
                      <ol class="nested">
                        <li>0 &le; p(s) &le; for each s∈S </li>
@@ -257,17 +257,17 @@
                     The function p from the set of all outcomes of the sample
                     space S is called a probability distribution.
                     </p>
-                    
+
                     <p>
                     The probability p(s) assigned to an outcome s should
                     equal the limit of the number of times s occurs divided by
                     the number of times the experiment is performed,as this
                     number grows without bound.</p>
-                    
+
                     <p class="def">
                         DEFINITION 1
                     </p>
-                    
+
                     <p>
                     Consider a set <i>S</i> with n elements,then,the
                     probability of each element of <i>S</i> considering uniform
@@ -277,7 +277,7 @@
 
                 <details>
                     <summary class="sum2">
-                        Probabilities of Complements and 
+                        Probabilities of Complements and
                         Unions of Events
                     </summary>
 
@@ -293,7 +293,7 @@
                     </p>
                     <p>
                         The probability of any event composed of a
-                        sequence of disjoint events is just the sum of 
+                        sequence of disjoint events is just the sum of
                         the individual probabilities.
                     </p>
 
@@ -301,7 +301,7 @@
                             THEOREM 2
                     </p>
                     <p>
-                        If <i>E</i> and <i>F</i> are events in the 
+                        If <i>E</i> and <i>F</i> are events in the
                         sample space <i>S</i>, then:
                         <br />
                         <i>p</i>(<i>E</i> &cup; <i>F</i>)
@@ -362,7 +362,7 @@
 
                     <p>
                         Events <i>E</i> and <i>F</i> are <i>independent</i>
-                        if and only if <i>p</i>(<i>E</i> &cap; <i>F</i>) 
+                        if and only if <i>p</i>(<i>E</i> &cap; <i>F</i>)
                         = <i>p</i>(<i>E</i>)<i>p</i>(<i>F</i>)
                     </p>
 
@@ -387,9 +387,9 @@
                         <br />
                         Event <i>C</i> is the second toss is heads.
                         <br />
-                        Notice that if <i>B</i> and <i>C</i> both occur, or 
+                        Notice that if <i>B</i> and <i>C</i> both occur, or
                         both don't occur, <i>A</i> occured for sure.
-                        And if only one of <i>B</i> and <i>C</i> occured, 
+                        And if only one of <i>B</i> and <i>C</i> occured,
                         <i>A</i> didn't occur for sure.
                         <br />
                         Nevertheless, any two pairs of these events, taken on
@@ -435,7 +435,7 @@
                     mutually independent if the conditional probability of
                     success on any given trial is <i>p</i>,
                     given any information
-                    whatsoever about the outcomes of the other trials.) 
+                    whatsoever about the outcomes of the other trials.)
                     </p>
 
                     <p class="def">
@@ -486,10 +486,10 @@
                     <p class="def">
                         DEFINITION 7
                     </p>
-                    
+
                     <p>
                         The <i>distribution</i> of a random variable is the
-                        complete set of probabilities for each possible 
+                        complete set of probabilities for each possible
                         value of the variable.
                         <br />
                         <b>Example</b>: In the above case of three coin tosses,
@@ -513,7 +513,7 @@
                     </figure>
                     <p>
                         How many people have to enter a party before it is
-                        likely (p &gt; .5) that two of them have the same 
+                        likely (p &gt; .5) that two of them have the same
                         birthday?
                         <br />
                         Note that this <i>resembles</i> a pigeonhole problem,
@@ -529,14 +529,14 @@
                         and then the probability two will have the same
                         birthday will be 1 &minus; <i>p<sub>n</sub></i>.
                         The first person obviously will not have "the same"
-                        birthday as anyone else. The probability the 
-                        second person will have a different birthday is 
+                        birthday as anyone else. The probability the
+                        second person will have a different birthday is
                         365 / 366. For the third (assuming no match yet!)
                         it is 364 / 366. And so on.
                     </p>
                     <p>
-                        So our question becomes, at what point does 
-                        1 &minus; <i>p<sub>n</sub></i> become greater 
+                        So our question becomes, at what point does
+                        1 &minus; <i>p<sub>n</sub></i> become greater
                         than .5? And the answer is the surprisingly small
                         number 23!
                         <br />
@@ -568,12 +568,12 @@
                         </figcaption>
                     </figure>
                     <p>
-                        These are examples of <i>probabilistic 
-                        algorithms</i>. Most of the time, we study 
+                        These are examples of <i>probabilistic
+                        algorithms</i>. Most of the time, we study
                         algorithms that produce a definite answer.
                         But probabilistic algorithms produce correct
                         answers only with some likelihood.
-                        A <i>Monte Carlo Algorithm</i> runs repeated 
+                        A <i>Monte Carlo Algorithm</i> runs repeated
                         trials of some process until the answer it gives is
                         "close enough" to certainty for the purposes of
                         the person or persons employing the algorithm.
@@ -584,7 +584,7 @@
                         will pass Miller's test for fewer than <i>n</i>/4 bases
                         <i>b</i> with 1 &lt; <i>b</i> &lt; <i>n</i>. We can
                         generate a large number and try, say, <i>k</i>
-                        iterations of the algorithm, and if it passes each 
+                        iterations of the algorithm, and if it passes each
                         iteration, the that it is not prime are
                         (1/4)<sup><i>k</i></sup>. For 30 iterations, this will
                         give us a probability that <i>n</i> is composite
@@ -612,9 +612,9 @@
 
             <details>
                 <summary class="sum1">
-                Bayes' Theorem 
+                Bayes' Theorem
                 <br />
-                NOT COVERED FALL 2017
+                NOT COVERED SPRING 2018
                 </summary>
                 <details>
                     <summary class="sum2">
@@ -635,17 +635,17 @@
 
             <details>
                 <summary class="sum1">
-                Expected Value and Variance 
+                Expected Value and Variance
                 </summary>
                 <details>
                     <summary class="sum2">
                         Expected Values
                     </summary>
-                   
+
                     <p class="def">
                         DEFINITION 1
                     </p>
-                    
+
                     <p>
                        The expected value of the random variable<i> X</i>on the
                        sample space <i>S</i>, is
@@ -655,15 +655,15 @@
                         This is also called the <i>mean</i> of the random
                         variable.
                         <br />
-                        <b>Example:</b> The expected value of 1 toss of 
+                        <b>Example:</b> The expected value of 1 toss of
                         a fair die is 7/2.
                     </p>
 
-              
+
                     <p class="def">
                         THEOREM 1
                     </p>
-               
+
                     <p>
                         We can also get the above by summing up the
                         probability-weighted values for <i>X</i> being
@@ -673,14 +673,14 @@
                         Use two coin tosses to illustrate this.
                     </p>
 
-                
+
                     <p class="def">
                         THEOREM 2
                     </p>
                     <p>
                         The expected number of successes in <i>n</i>
-                        Bernoulli trials where the probability of 
-                        success in each trial is <i>p</i> = 
+                        Bernoulli trials where the probability of
+                        success in each trial is <i>p</i> =
                             <i>np</i>.
                         <br />
                         <b>Example:</b>
@@ -693,17 +693,17 @@
                 <details>
                     <summary class="sum2">
                         Linearity of Expectations
-                    </summary>   
+                    </summary>
 
                     <p class="def">
                         THEOREM 3
                     </p>
                     <p>
-                        <i>E</i>&Sigma;(<i>X</i><sub>1</sub> + 
+                        <i>E</i>&Sigma;(<i>X</i><sub>1</sub> +
                         <i>X</i><sub>2</sub> + ... +
                         <i>X</i><sub>n</sub>
                         = &Sigma;(
-                            <i>E</i>(<i>X</i><sub>1</sub>) + 
+                            <i>E</i>(<i>X</i><sub>1</sub>) +
                             <i>E</i>(<i>X</i><sub>2</sub>) + ... +
                             <i>E</i>(<i>X</i><sub>n</sub>))
                     </p>
@@ -785,7 +785,7 @@
                     <p>
                         If <i>X</i> is a random variable,
                         <i>V</i>(<i>X</i>) = <i>E</i>((<i>X</i>
-                        &minus; <i>&mu;</i>)<sup>2</sup>) 
+                        &minus; <i>&mu;</i>)<sup>2</sup>)
                     </p>
 
 
@@ -801,7 +801,7 @@
                         <p>It defines the likeliness of a random variable to take a value far from it's expected value</p>
                         <p class="def">
                              THEOREM 8
-                        </p>        
+                        </p>
                         <p>Let <i>X</i> be a random variable on a sample space <i>S</i> with probability function p. If r is a positive real number, then <i>p(|X(s) − E(X)| &ge; r) &le; V (X)/r<sup>2</sup>.</i></p>
 
                     </details>

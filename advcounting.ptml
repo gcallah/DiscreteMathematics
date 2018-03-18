@@ -29,7 +29,7 @@
 
             <details>
                 <summary class="sum1">
-                Applications of Recurrence Relations 
+                Applications of Recurrence Relations
                 </summary>
                 <figure>
                     <img
@@ -40,20 +40,20 @@
                 </figure>
                 <p>
                     In this section we will show that recurrence relations can be
-                    used to study and to solve counting problems. For example, 
+                    used to study and to solve counting problems. For example,
                     suppose that the number of bacteria in a colony doubles every hour.
                     If a colony begins with five bacteria,
-                    how many will be present in n hours? 
+                    how many will be present in n hours?
                     <br>
                     To solve this problem, let
-                    <i>a</i><sub><i>n</i></sub> be the number of 
+                    <i>a</i><sub><i>n</i></sub> be the number of
                     bacteria at the end of <i>n</i> hours.
-                    Because the number of bacteria 
+                    Because the number of bacteria
                     doubles every hour, the relationship
                     <i>a</i><sub><i>n</i></sub>
-                    = 2<i>a</i><sub><i>n</i>&minus;1</sub> 
+                    = 2<i>a</i><sub><i>n</i>&minus;1</sub>
                     holds whenever <i>n</i> is a positive integer.
-                    This recurrence relation, 
+                    This recurrence relation,
                     together with the initial condition
                     <i>a</i><sub>0</sub> = 5, uniquely determines
                     <i>a</i><sub><i>n</i></sub> for
@@ -80,13 +80,13 @@
                         </figure>
                         <br />
                         Rabbit breeding pairs.
-                    </li>  
+                    </li>
                     <li>
                         <b>Codeword Enumeration</b>
                         <br />
                         <br />
                         Imagine valid codewords are strings of digits
-                        containing even numbers of zeroes. How many such 
+                        containing even numbers of zeroes. How many such
                         strings of length <i>n</i> are there?
                         <br />
                         We can append a digit other than 0 to a valid string.
@@ -110,7 +110,7 @@
                             <br />
                             = 8<i>a</i><sub><i>n</i>&minus;1</sub>
                             + 10<sup><i>n</i>&minus;1</sup>
-                    </li>   
+                    </li>
                     <li>
                         <a id="Hanoi">
                         <b>The Towers of Hanoi</b>
@@ -145,7 +145,7 @@
                         <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/220px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif">
                         </figure>
-            
+
                         <br>
                         <br>
                         Recurrence:
@@ -227,12 +227,12 @@
 
             <details>
                 <summary class="sum1">
-                Solving Linear Recurrence Relations 
+                Solving Linear Recurrence Relations
                 <br />
-                NOT COVERED FALL 2017
+                NOT COVERED SPRING 2018
                 </summary>
                 <p>
-                <i>A linear homogeneous recurrence relation of degree k with 
+                <i>A linear homogeneous recurrence relation of degree k with
                 constant coefficients is a recurrence relation of the form</i>
                 <br>
                 a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub>
@@ -249,15 +249,15 @@
                         <li>
                         <b>Theorem 1</b>:
                         Let c<sub>1</sub> and c<sub>2</sub> be real numbers.
-                        Suppose that r<sup>2</sup> &minus; 
+                        Suppose that r<sup>2</sup> &minus;
                         c<sub>1</sub>r  &minus;  c<sub>2</sub>
-                        = 0 has two 
+                        = 0 has two
                         distinct roots r<sub>1</sub> and r<sub>2</sub>.
-                        Then the sequence {a<sub>n</sub>} 
+                        Then the sequence {a<sub>n</sub>}
                         is a solution of the recurrence relation a<sub>n</sub>
                         = c<sub>1</sub>a<sub>n &minus;
                             1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub>
-                        if and only if 
+                        if and only if
                         <br>
                         a<sub>n</sub> = &alpha;<sub>1</sub>r<sub>1</sub><sup>n</sup>
                         + &alpha;<sub>2</sub>r<sub>2</sub><sup>n</sup>
@@ -268,7 +268,7 @@
                         <li>
                         <b>Theorem 2</b>: Let c<sub>1</sub> and c<sub>2</sub> be real numbers with c2 &ne; 0.
                         Suppose that r<sup>2</sup>  &minus;  c<sub>1</sub>r  &minus;  c<sub>2</sub> = 0 has only one root r<sub>0</sub>.
-                        A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> if and only if 
+                        A sequence {a<sub>n</sub>} is a solution of the recurrence relation a<sub>n</sub> = c<sub>1</sub>a<sub>n &minus; 1</sub> + c<sub>2</sub>a<sub>n &minus; 2</sub> if and only if
                         <br>
                         a<sub>n</sub> =
                         &alpha;<sub>1</sub>r<sub>0</sub><sup>n</sup>
@@ -281,7 +281,7 @@
                             , c<sub>k</sub> be real numbers.
                         Suppose that the characteristic equation
                         <br>
-                        r<sub>k</sub>  &minus; 
+                        r<sub>k</sub>  &minus;
                        c<sub>1</sub>r<sub>k &minus; 1</sub>
                        &minus;  · · ·  &minus;  c<sub>k</sub> = 0
                         <br>
@@ -301,12 +301,12 @@
                         &alpha;k are constants.
                         </li>
                     </ol>
-                </details>    
+                </details>
             </details>
 
             <details>
                 <summary class="sum1">
-                Divide-and-Conquer Algorithms and Recurrence Relations 
+                Divide-and-Conquer Algorithms and Recurrence Relations
                 </summary>
                 <p>
                     <a
@@ -321,13 +321,13 @@
                     Suppose that a recursive algorithm divides a problem of size
                     <i>n</i> into a subproblems,
                     where each subproblem is of size <i>n/b </i>
-                    (for simplicity, assume that <i>n</i> is a multiple 
+                    (for simplicity, assume that <i>n</i> is a multiple
                     of <i>b</i>; in reality, the smaller problems
                     are often of size equal to the nearest
                     integers either less than or equal to, or
                     greater than or equal to, <i>n/b </i>).
                     Also, suppose that a total of <i>g(n)</i>
-                    extra operations are required in the 
+                    extra operations are required in the
                     conquer step of the algorithm to combine the
                     solutions of the subproblems
                     into a solution of the original problem.
@@ -344,9 +344,9 @@
 
             <details>
                 <summary class="sum1">
-                Generating Functions 
+                Generating Functions
                 <br />
-                NOT COVERED FALL 2017
+                NOT COVERED SPRING 2018
                 </summary>
                 <p>
                 The generating function for the sequence a<sub>0</sub>,
@@ -361,9 +361,9 @@
 
             <details>
                 <summary class="sum1">
-                Inclusion-Exclusion 
+                Inclusion-Exclusion
                 <br />
-                NOT COVERED FALL 2017
+                NOT COVERED SPRING 2018
                 </summary>
                 <p>
                 The <i>inclusion–exclusion</i> principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets; symbolically expressed as
@@ -386,7 +386,7 @@
                 <summary class="sum1">
                 Applications of Inclusion-Exclusion
                 <br />
-                NOT COVERED FALL 2017
+                NOT COVERED SPRING 2018
                 </summary>
                 <p>
                 Many counting problems can be solved using the principle of inclusion–exclusion.
