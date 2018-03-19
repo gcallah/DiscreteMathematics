@@ -250,19 +250,24 @@
 
                  <p>We require that two conditions be met:</p>
                      <ol class="nested">
-                       <li>0 &le; p(s) &le; for each s ∈ S
+                       <li>0 &le; <i>p</i>(<i>s</i>) &le;
+                           1 for each <i>s</i> ∈ <i>S</i>
                        </li>
-                      <li><b>&sum;</b><sub>s∈S</sub> p(s) = 1
+                      <li><b>&sum;</b><sub><i>s</i>∈<i>S</i></sub>
+                          <i>p</i>(<i>s</i>) = 1
                       </li>
                      </ol>
                     <p>
-                    The function p from the set of all outcomes of the sample
-                    space S is called a probability distribution.
+                    The function <i>p</i> from the
+                    set of all outcomes of the sample
+                    space <i>S</i> is called a probability distribution.
                     </p>
 
                     <p>
-                    The probability p(s) assigned to an outcome s should
-                    equal the limit of the number of times s occurs divided by
+                    The probability <i>p</i>(<i>s</i>)
+                    assigned to an outcome <i>s</i> should
+                    equal the limit of the number of
+                    times <i>s</i> occurs divided by
                     the number of times the experiment is performed,
                     as this number grows without bound.
                     </p>
