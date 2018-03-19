@@ -228,8 +228,8 @@
                </p>
 
                 <p>
-                However,many experiments have outcomes that are not equally
-                likely. For  instance, a coin may be biased so that it comes up
+                However, many experiments have outcomes that are not equally
+                likely. For instance, a coin may be biased so that it comes up
                 heads twice as often as tails.
                 </p>
 
@@ -244,14 +244,16 @@
                     </summary>
                  <p>
                  Let S be the sample space of an experiment with a finite or
-                 countable number of outcomes.We assign a probability p(s) to
+                 countable number of outcomes. We assign a probability p(s) to
                  each outcome s.
                  </p>
 
                  <p>We require that two conditions be met:</p>
                      <ol class="nested">
-                       <li>0 &le; p(s) &le; for each s∈S </li>
-                      <li><b>&sum;</b><sub> s∈S </sub>p(s)=1</li>
+                       <li>0 &le; p(s) &le; for each s ∈ S
+                       </li>
+                      <li><b>&sum;</b><sub>s∈S</sub> p(s) = 1
+                      </li>
                      </ol>
                     <p>
                     The function p from the set of all outcomes of the sample
@@ -261,17 +263,18 @@
                     <p>
                     The probability p(s) assigned to an outcome s should
                     equal the limit of the number of times s occurs divided by
-                    the number of times the experiment is performed,as this
-                    number grows without bound.</p>
+                    the number of times the experiment is performed,
+                    as this number grows without bound.
+                    </p>
 
                     <p class="def">
                         DEFINITION 1
                     </p>
 
                     <p>
-                    Consider a set <i>S</i> with n elements,then,the
-                    probability of each element of <i>S</i> considering uniform
-                    distribution is 1/n
+                    Consider a set <i>S</i> with <i>n</i> elements, then, the
+                    probability of each element of <i>S</i>
+                    considering uniform distribution is 1/<i>n</i>.
                     </p>
                 </details>
 
@@ -370,7 +373,8 @@
                         Notice how this was <i>not</i> the case with the shark
                         attacks! <i>Given</i> a shark is around, the
                         probability of a shark bite is much higher than
-                        <i>p</i>(<i>E</i>)<i>p</i>(<i>F</i>) (which was .0000005).
+                        <i>p</i>(<i>E</i>)<i>p</i>(<i>F</i>)
+                        (which was .0000005).
                         This would not be
                         true if <i>F</i> were, say, "UFO present."
                     </p>
@@ -416,6 +420,8 @@
                 <details>
                     <summary class="sum2">
                         Bernoulli Trials and the Binomial Distribution
+                        <br />
+                        NOT COVERED SPRING 2018
                     </summary>
                     <p>
                      <b>Bernoulli trial</b>: an experiment with only two
@@ -596,7 +602,7 @@
                     <summary class="sum2">
                         The Probabilistic Method
                         <br />
-                        Not Covered Fall 2017
+                        NOT COVERED SPRING 2018
                     </summary>
 
                     <p class="def">
@@ -636,6 +642,8 @@
             <details>
                 <summary class="sum1">
                 Expected Value and Variance
+                <br />
+                COVERED AFTER MIDTERM SPRING 2018
                 </summary>
                 <details>
                     <summary class="sum2">
