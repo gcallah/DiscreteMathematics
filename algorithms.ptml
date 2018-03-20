@@ -197,11 +197,22 @@
                     <b>Psuedocode</b>
                     <br>
                 </p>
+                <p>
+                   <b>procedure</b>
+                   <i>bubblesort</i>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
+                     . . , <i>a<sub>n</sub></i>: real numbers n &ge; 2)<br>
+                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>n</i>-1)<br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <b>for</b> ( <i>j</i> to <i>n</i>-1) <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <b>if</b> <i>a</i> <sub> <i>j</i></sub> &gt;
+                     <i>a</i><sub><i>j</i>+1</sub> <b>then</b>
+                     interchange <i>a</i><sub><i>j</i></sub> and
+                                <i>a</i><sub><i>j</i>+1</sub><br>
+                    &nbsp; &nbsp; &nbsp; {<i>a</i><sub>1</sub>, . . . ,<i>a</i>
+                                <sub>n</sub> is in increasing order}
+                 </p>
 
-                <figure>
-                    <img src="graphics/BubbleSort.svg.png">
-                    <br>
-                </figure>
             </details>
             <details>
                 <summary class="sum3">
@@ -261,12 +272,33 @@
                     </script>
                 </p>
 
-                <figure>
-                    <img src="graphics/InsertionSort.svg.png">
-                    <figcaption>
-                        Insertion Sort Pseudocode
-                    </figcaption>
-                </figure>
+                <p>
+                   <b>procedure</b>
+                   <b>insertionsort</b>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
+                   . . , <i>a</i><sub><i>n</i></sub>: real numbers <i>n </i>&ge; 2)<br>
+                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>j := 2</i> to <i>n</i>)<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <i>i</i> :&equals; 1 <br>
+
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <b>while</b> <i>a</i> <sub> <i>j</i></sub> &gt;
+                    <i>a</i><sub><i>i</i></sub> <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                     <i> i</i> :&equals; <i>i</i>+1<br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <i>m</i> :&equals; <i>a</i><sub><i>j</i></sub> <br>
+                     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                     <b>for</b> <i>k</i> :&equals; 0 to <i>j</i> &minus; <i>i</i> &minus; 1 <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <i>a</i><sub><i>j</i></sub><sub>&minus;</sub><sub><i>k</i></sub>
+                      :&equals;  <i>a</i><sub><i>j</i></sub>
+                     <sub>&minus;</sub><sub><i>k</i></sub>
+                     <sub> &minus; 1</sub> <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <i>a</i><sub><i>i</i></sub> :&equals; <i>m</i> <br>
+                         &nbsp; &nbsp; &nbsp;{<i>a</i><sub>1</sub>, . . . ,
+                         <i>a</i><sub><i>n</i></sub>}
+                </p> 
             </details>
         </details>
         <details>
