@@ -61,7 +61,9 @@
                     <tr>
                         <th>Type</th>
                         <th>Edges</th>
-                        <th>Multiple Edges Allowed?</th>
+                        <th>Multiple Edges Allowed
+                            <br />
+                            Between Two Vertices?</th>
                         <th>Loops Allowed?</th>
                      </tr>
                     <tr>
@@ -116,11 +118,18 @@
                         <summary class="sum3">
                         Social Networks
                         </summary>
+                        <figure>
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/47/Diagram_of_a_social_network.jpg"
+                            width="25%">
+                            <figcaption>
+                                A social network
+                            </figcaption>
+                        </figure>
                         <p>
                         Examples: Acquaintanceship (Friendship Graphs),
                         Influence Graphs, Collaboration Graphs.
                         </p>
-
 
                     </details>
 
@@ -128,6 +137,13 @@
                         <summary class="sum3">
                         Communication Networks
                         </summary>
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Jersey_Telecom_switchboard_and_operator.jpg/500px-Jersey_Telecom_switchboard_and_operator.jpg"
+                            width="33%">
+                            <figcaption>
+                                A telephone switchboard
+                            </figcaption>
+                        </figure>
                         <p>
                         Examples: Call Graphs
                         </p>
@@ -165,6 +181,13 @@
                         <summary class="sum3">
                         Biological Networks
                         </summary>
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Genetic_interactions_between_Ras_signalling_and_chromatin_remodelling-A.jpg"
+                            width="34%">
+                            <figcaption>
+                                Protein-protein interactions
+                            </figcaption>
+                        </figure>
                         <p>
                         Examples: Niche Overlap Graphs in Ecology,
                         Protein Interaction Graphs.
@@ -175,6 +198,12 @@
                         <summary class="sum3">
                         Tournaments
                         </summary>
+                        <figure>
+                            <img src="graphics/bracket.png"
+                                width="28%">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
                         <p>
                         Examples: Round-Robin Tournaments,
                         Single-EliminationTournaments.
@@ -377,7 +406,8 @@ pair of distinct vertex not connected
                     </summary>
                     <figure>
                         <img
-                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Undirected_6_cycle.svg/320px-Undirected_6_cycle.svg.png">
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Undirected_6_cycle.svg/320px-Undirected_6_cycle.svg.png"
+                             width="33%">
                         <figcaption>
                             A cycle graph of length 6
                         </figcaption>
@@ -386,16 +416,18 @@ pair of distinct vertex not connected
                    <p>
                     <b>A cycle <i>C</i><sub><i>n</i></sub></b>,
                     <i>n</i> &ge; 3,
-                    consists of <i>n</i> vertices v<sub>1</sub>,
-                    v<sub>2</sub>,..., v<sub>n</sub> and
+                    consists of <i>n</i> vertices
+                    <i>v</i><sub>1</sub>,
+                    <i>v</i><sub>2</sub>,...,
+                    <i>v</i><sub><i>n</i></sub> and
                     edges
-                    {v<sub>1</sub>, v<sub>2</sub>},
-                    {v<sub>2</sub>,
-                    v<sub>3</sub>}, ..., 
-                    {v<sub>n-1</sub>,
-                     v<sub>n</sub>},
-                    and {v<sub>n</sub>,
-                    v<sub>1</sub>}.
+                    {<i>v</i><sub>1</sub>, <i>v</i><sub>2</sub>},
+                    {<i>v</i><sub>2</sub>,
+                    <i>v</i><sub>3</sub>}, ..., 
+                    {<i>v</i><sub><i>n</i>&minus;1</sub>,
+                     <i>v</i><sub><i>n</i></sub>},
+                    and {<i>v</i><sub><i>n</i></sub>,
+                    <i>v</i><sub>1</sub>}.
                     </p>
                     </details>
 
