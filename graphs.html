@@ -46,27 +46,30 @@
 
                 <p>
                 <b>Definition 1:</b><br>
-                A graph <b>G = (V , E) </b>consists of V ,
-                a nonempty set of vertices (or nodes) and E, a set of
-                edges. Each edge has either one or
+                A graph <b><i>G</i> = (<i>V</i>, <i>E</i>)</b>
+                consists of <i>V</i>,
+                a nonempty set of vertices (or nodes) and <i>E</i>,
+                a set of edges. Each edge has either one or
                 two vertices associated with it,
-                called its endpoints. An edge is said to connect its endpoints.
+                called its endpoints. An edge is said 
+                to connect its endpoints.
                 </p>
                 <p>
                 <b>Definition 2:</b><br>
-                A <i>directed graph (or digraph)</i><b> (V , E) </b>consists
-                 of a nonempty set of vertices V and a set of
-                 directed edges (or arcs) E. Each directed edge is associated
-                 with an ordered pair of vertices.
+                A <i>directed graph (or digraph)</i> <b>(<i>V</i>,
+                <i>E</i>)</b> consists of a nonempty set of vertices <i>V</i>
+                and a set of directed edges (or arcs) <i>E</i>.
+                Each directed edge is associated with
+                an ordered pair of vertices.
                  The directed edge associated with the <i>ordered pair</i>
-                 <b> (u, v) </b>is said to start at u and end at v.
+                 <b>(<i>u</i>, <i>v</i>)</b> is said to start at
+                 <i>u</i> and end at <i>v</i>.
                 </p>
 
                 <details>
                     <summary class="sum3">
                        Graph Terminology
                     </summary>
-
 
                 <table style="width:80%">
                     <tr>
@@ -78,38 +81,38 @@
                     <tr>
                         <td>Simple Graph</td>
                         <td>Undirected</td>
-                        <td>NO</td>
-                        <td>NO</td>
+                        <td>No</td>
+                        <td>No</td>
                     </tr>
                     <tr>
                         <td>Multigraph</td>
                         <td>Undirected</td>
-                        <td>YES</td>
-                        <td>NO</td>
+                        <td>Yes</td>
+                        <td>No</td>
                     </tr>
                     <tr>
                         <td>Pseudograph</td>
                         <td>Undirected</td>
-                        <td>YES</td>
-                        <td>YES</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
                     </tr>
                     <tr>
                         <td>Simple Directed Graph</td>
                         <td>Directed</td>
-                        <td>NO</td>
-                        <td>NO</td>
+                        <td>No</td>
+                        <td>No</td>
                     </tr>
                     <tr>
                         <td>Directed Multigraph Graph</td>
                         <td>Directed</td>
-                        <td>YES</td>
-                        <td>YES</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
                     </tr>
                     <tr>
                         <td>Mixed Graph</td>
                         <td>Directed and Undirected</td>
-                        <td>YES</td>
-                        <td>YES</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
                     </tr>
                 </table>
 
@@ -211,11 +214,16 @@
                        Definition 1:
                     </summary>
                         <p>
-                        Two vertices u and v in an undirected graph G
-                        are called <i>adjacent</i> (or neighbors) in G if u
-                        and v are endpoints of an edge e of G.
-                        Such an edge e is called <i>incident </i>with the vertices u
-                        and v and e is said to <i>connect </i>u and v.
+                        Two vertices <i>u</i> and <i>v</i>
+                        in an undirected graph <i>G</i>
+                        are called <i>adjacent</i>
+                        (or neighbors) in <i>G</i> if <i>u</i>
+                        and <i>v</i> are endpoints
+                        of an edge <i>e</i> of <i>G</i>.
+                        Such an edge <i>e</i> is called
+                        <i>incident </i>with the vertices <i>u</i>
+                        and <i>v</i> and <i>e</i> is said to
+                        <i>connect</i> <i>u</i> and <i>v</i>.
                         </p>
 
                     </details>
@@ -226,12 +234,17 @@
                     </summary>
                         <p>
                        The set of all neighbors of a vertex v of
-                       G = (V , E), denoted by N (v), is called the
+                       <i>G</i> = (<i>V</i>, <i>E</i>),
+                       denoted by <i>N</i>(<i>v</i>), is called the
                        <i> neighborhood</i>
-                       of v. If A is a subset of V ,
-                       we denote by N (A) the set of all vertices in G that are
-                       adjacent to at least one vertex in A. So, N (A) =<b> &cup;</b><sub>
-                      v∈A</sub> <i>N (v)</i>.
+                       of <i>v</i>. If <i>A</i>
+                       is a subset of <i>V</i>,
+                       we denote by <i>N</i>(<i>A</i>) the set of
+                       all vertices in <i>G</i> that are
+                       adjacent to at least one vertex
+                       in <i>A</i>. So, <i>N</i>(<i>A</i>)
+                       = <b>&cup;</b><sub>v &isin; A</sub>
+                       <i>N(v)</i>.
                         </p>
 
                     </details>
@@ -245,7 +258,7 @@
                         is the number of edges incident with it, except
                         that a loop at a vertex contributes
                         twice to the degree of that vertex. The degree of the
-                        vertex v is denoted by deg(v).
+                        vertex <i>v</i> is denoted by deg(<i>v</i>).
                         </p>
 
                     </details>
@@ -256,12 +269,16 @@
                        Theorem 1:
                     </summary>
                         <p>
-                        <b> The Handshaking Theorem.</b>
+                        <b> The Handshaking Theorem:</b>
 
-                       Let G = (V , E) be an undirected graph with m
+                       Let <i>G</i> = (<i>V</i>, <i>E</i>)
+                       be an undirected graph with <i>m</i>
                        edges. Then<br>
-                       2m = <sup><b>&sum;</b></sup><sub><sub> v∈V</sub></sub> deg(v).<br>
-                       (Note that this applies even if multiple edges and loops are present.)
+                       2<i>m</i> = &sum;
+                       <sub><i>v</i> &isin; <i>V</i></sub>
+                       deg(<i>v</i>).<br>
+                       (Note that this applies even if multiple
+                       edges and loops are present.)
 
                         </p>
 
@@ -274,7 +291,8 @@
                         <p>
                         An undirected graph has an even number
                          of vertices of odd degree.
-
+                         <br />
+                         Let's try proving this by induction.
                         </p>
 
                     </details>
@@ -284,15 +302,18 @@
                        Definition 4:
                     </summary>
                         <p>
-                       When (u, v) is an edge of the
-                       graph G with directed edges,
-                        u is said to be<i> adjacent</i> to v and v
-                        is said to be<i> adjacent</i> from u.
-                        The vertex u is called the <i>initial vertex of (u, v)</i>,
-                        and v is called
-                        the <i>terminal or end vertex of (u, v)</i>.
-                        The initial vertex and terminal vertex of a loop are the
-                        same.
+                       When (<i>u</i>, <i>v</i>) is an edge of the
+                       graph <i>G</i> with directed edges,
+                        <i>u</i> is said to be <i>adjacent</i>
+                        to <i>v</i> and <i>v</i>
+                        is said to be<i> adjacent</i> from <i>u</i>.
+                        The vertex <i>u</i> is called the
+                        <i>initial vertex</i> of (<i>u</i>, <i>v</i>),
+                        and <i>v</i> is called
+                        the <i>terminal</i>
+                        or <i>end vertex</i> of (<i>u</i>, <i>v</i>).
+                        The initial vertex and terminal
+                        vertex of a loop are the same.
                         </p>
 
                     </details>
@@ -303,14 +324,15 @@
                     </summary>
                         <p>
                        In a graph with directed edges the
-                        <i>in-degree of a vertex v</i>,
-                        denoted by deg<sup>−</sup>(v), is the number
-of edges with v as their terminal vertex.
- The <i>out-degree of v</i>,
- denoted by deg<sup>+</sup>(v), is the
-number of edges with v as their initial vertex.<br>
- (Note that a loop at a vertex contributes 1 to
-both the in-degree and the out-degree of this vertex.)
+                       <i>in-degree</i> of a vertex <i>v</i>,
+                        denoted by deg<sup>-</sup>(<i>v</i>), is the number
+                   of edges with <i>v</i> as their terminal vertex.
+                   The <i>out-degree</i> of <i>v</i>,
+                    denoted by deg<sup>+</sup>(<i>v</i>), is the
+                   number of edges with <i>v</i> as their initial vertex.
+                   <br>
+                    (Note that a loop at a vertex contributes 1 to
+                   both the in-degree and the out-degree of this vertex.)
                         </p>
 
                     </details>
@@ -321,9 +343,12 @@ both the in-degree and the out-degree of this vertex.)
                     </summary>
                         <p>
 
-Let G = (V , E) be a graph with directed edges. Then<br>
-
-<b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>−</sup>(v) = <b>&sum;</b><sub><sub> v∈V</sub></sub> deg<sup>+</sup>(v) = |E|
+                        Let <i>G</i> = (<i>V</i>, <i>E</i>) be a graph
+                        with directed edges. Then<br>
+                        &sum;<sub><i>v</i> &isin; <i>V</i></sub>
+                        deg<sup>-</sup>(<i>v</i>) =
+                        &sum;<sub><i>v</i> &isin; <i>V</i></sub>
+                        deg<sup>+</sup>(<i>v</i>) = |<i>E</i>|
 
                         </p>
 
@@ -366,21 +391,26 @@ pair of distinct vertex not connected
                     </summary>
                     <figure>
                         <img
-                        src="graphics/graph2.jpg"
-                        height="250" width="600">
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Undirected_6_cycle.svg/320px-Undirected_6_cycle.svg.png">
                         <figcaption>
-                            Cycles
+                            A cycle graph of length 6
                         </figcaption>
                     </figure>
 
                    <p>
-                    <b>A cycle C<sub>n</sub></b>, n ≥ 3,
-                    consists of n vertices v<sub>1</sub>,
+                    <b>A cycle <i>C</i><sub><i>n</i></sub></b>,
+                    <i>n</i> &ge; 3,
+                    consists of <i>n</i> vertices v<sub>1</sub>,
                     v<sub>2</sub>,..., v<sub>n</sub> and
-                    edges {v<sub>1</sub>, v2},
-{v<sub>2</sub>, v<sub>3</sub>},...,{v<sub>n-1</sub>,
- v<sub>n</sub>}, and {v<sub>n</sub>, v<sub>1</sub>}.
-</p>
+                    edges
+                    {v<sub>1</sub>, v<sub>2</sub>},
+                    {v<sub>2</sub>,
+                    v<sub>3</sub>}, ..., 
+                    {v<sub>n-1</sub>,
+                     v<sub>n</sub>},
+                    and {v<sub>n</sub>,
+                    v<sub>1</sub>}.
+                    </p>
                     </details>
 
 
