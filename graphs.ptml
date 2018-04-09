@@ -512,8 +512,8 @@ a <i>bipartition </i>of the vertex set V of G.
                         <p>
                         A simple graph is bipartite if and only if it is
                         possible to assign one of two different colors to
-each vertex of the graph so that no two
-adjacent vertices are assigned the same color.
+                        each vertex of the graph so that no two
+                        adjacent vertices are assigned the same color.
                         </p>
                     </details>
 
@@ -524,21 +524,32 @@ adjacent vertices are assigned the same color.
                        Bipartite Graphs and Matchings
                     </summary>
 
-                    <details>
-                    <summary class="sum3">
+                    <p class="def">
+                        Definition:
+                    </p>
+
+                    <p>
+                        A <i>matching</i> is a set of edges without common
+                        vertices.
+                    </p>
+
+                    <p class="def">
                        Theorem 5:
-                    </summary>
-                        <p>
-                        <b>HALL’S MARRIAGE THEOREM</b> <br>
-                        The bipartite graph G = (V , E) with bipartition
-(V<sub>1</sub>, V<sub>2</sub>) has a complete matching from
- V<sub>1</sub> to V<sub>2</sub> if and only if
-  |N (A)| &ge; |A| for all subsets
-A of V<sub>2</sub>.
-                        </p>
-                    </details>
+                    </p>
 
-
+                    <p>
+                    <b>HALL'S MARRIAGE THEOREM</b> <br>
+                    The bipartite graph <i>G</i> =
+                    (<i>V</i>, <i>E</i>) with bipartition
+                    (<i>V</i><sub>1</sub>, <i>V</i><sub>2</sub>) has
+                    a complete matching from
+                     <i>V</i><sub>1</sub> to
+                     <i>V</i><sub>2</sub> if and only if
+                     |<i>N</i>(<i>A</i>)| &ge; |<i>A</i>| for all subsets
+                    <i>A</i> of <i>V</i><sub>1</sub>.
+                    <br />
+                    (<i>N</i>(<i>A</i>) is the neighborhood of <i>A</i>.)
+                    </p>
                 </details>
 
                 <details>
@@ -576,10 +587,13 @@ A of V<sub>2</sub>.
                        Definition 7:
                     </summary>
                      <p>
-                     A <i>subgraph of a graph G = (V , E)</i>
-                     is a graph H = (W, F ), where W &sube; V and F &sube; E. A
-subgraph <i>H of G is a proper
- subgraph of G if H &ne; G</i>.
+                     A <i>subgraph</i> of a graph
+                     <i>G</i> = (<i>V</i>, <i>E</i>)
+                     is a graph <i>H</i> = (<i>W</i>, <i>F</i>), where
+                     <i>W</i> &sube; <i>V</i> and
+                     <i>F</i> &sube; <i>E</i>. A
+                     subgraph <i>H</i> of <i>G</i> is a <i>proper
+                     subgraph</i> of <i>G</i> if <i>H</i> &ne; <i>G</i>.
                      </p>
 
 
@@ -590,11 +604,13 @@ subgraph <i>H of G is a proper
                        Definition 8:
                     </summary>
                      <p>
-                     Let G = (V , E) be a simple graph.
-                      The <i>subgraph induced </i>by a subset W of the vertex set V
-is the graph <i>(W, F )</i>, where the edge set F
-contains an edge in E if and only if both endpoints
-of this edge are in W.
+                     Let <i>G</i> = (<i>V</i>, <i>E</i>) be a simple graph.
+                      The <i>subgraph induced</i> by a subset <i>W</i>
+                      of the vertex set <i>V</i>
+                is the graph (<i>W</i>, <i>F</i>)
+                where the edge set <i>F</i>
+                contains an edge in <i>E</i> if and only if both endpoints
+                of this edge are in <i>W</i>.
                      </p>
 
 
@@ -606,9 +622,13 @@ of this edge are in W.
                     </summary>
                      <p>
                      The <i>union</i> of two simple graphs
-                      <i>G1 = (V1, E1) and G2 = (V2, E2)</i> is the simple graph with
-vertex set <i>V1 &cup; V2</i> and edge set <i>E1 &cup; E2</i>.
-The union of G1 and G2 is denoted by <i>G1 &cup; G2</i>.
+                      G1 = (V1, E1) and
+                      G2 = (V2, E2)
+                      is the simple graph with
+                    vertex set V1 &cup; V2
+                    and edge set E1 &cup; E2.
+                    The union of G1 and G2 is
+                    denoted by G1 &cup; G2.
                      </p>
 
 
@@ -1151,10 +1171,12 @@ an<i> isomorphism</i>.
                         That number will be (<i>n</i> - 1)! / 2,
                         which grows very fast.
                         <br />
-                        For 12 cities, it will be around 20 million circuits
+                        For 12 cities, it will be around
+                        20 million circuits
                         to try.
                         <br />
-                        For 16 cities, it is approaching 1 trillion circuits!
+                        For 16 cities, it is approaching
+                        1 trillion circuits!
                     </p>
                 </details>
 
@@ -1164,7 +1186,7 @@ an<i> isomorphism</i>.
                 <summary class="sum1">
                 Planar Graphs
                 <br />
-                NOT COVERED SPRING 2018
+                PERHAPS NOT COVERED SPRING 2018
                 </summary>
             </details>
 
