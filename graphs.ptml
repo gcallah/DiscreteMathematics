@@ -872,7 +872,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Network_Community_Structure.svg/440px-Network_Community_Structure.svg.png"
-                        width=33%>
+                        width=25%>
                         <figcaption>
                         </figcaption>
                     </figure>
@@ -905,7 +905,7 @@ an<i> isomorphism</i>.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/440px-Sample-graph.jpg">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/440px-Sample-graph.jpg" width= 25%>
                         <figcaption>
                             The dashed line signifies the edge that, if
                             removed, would split the graph into two connected
@@ -953,7 +953,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="http://images.slideplayer.com/28/9296211/slides/slide_6.jpg"
-                        hwidth=33%>
+                        width=33%>
                         <figcaption>
                         </figcaption>
                     </figure>
@@ -990,7 +990,7 @@ an<i> isomorphism</i>.
 
                         <figure class="lead-figure">
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png">
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png" width=25%>
                             <figcaption>
                             The Bridges of K&ouml;nigsberg
                             </figcaption>
@@ -1005,7 +1005,7 @@ an<i> isomorphism</i>.
                         <figure>
                             <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
-                            width=33%>
+                            width=24%>
                             <figcaption>
                                 The graph Euler used to solve the problem
                             </figcaption>
@@ -1049,7 +1049,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/440px-Hamiltonian_path.svg.png"
-                        width=33%>
+                        width=28%>
                         <figcaption>
                             A Hamilton circuit on a dodecahedron
                         </figcaption>
@@ -1095,7 +1095,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Encoder_Disc_%283-Bit%29.svg/440px-Encoder_Disc_%283-Bit%29.svg.png"
-                        width=33%>
+                        width=28%>
                         <figcaption>
                             Rotary encoder for angle-measuring devices
                         </figcaption>
