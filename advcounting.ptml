@@ -19,7 +19,7 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iterated_logistic_functions.svg/220px-Iterated_logistic_functions.svg.png">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iterated_logistic_functions.svg/220px-Iterated_logistic_functions.svg.png" width=33%>
                 </figure>
                 <figcaption>
                     The logistic equation and its iterated versions.
@@ -34,7 +34,7 @@
                 <figure>
                     <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Prokaryote_cell.svg/440px-Prokaryote_cell.svg.png"
-                    height="300" width="240">
+                    width=33%>
                     <figcaption>
                     </figcaption>
                 </figure>
@@ -73,7 +73,7 @@
                         <br />
                         <figure>
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rabbit_in_montana.jpg/500px-Rabbit_in_montana.jpg">
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rabbit_in_montana.jpg/500px-Rabbit_in_montana.jpg" width=33%>
                             <figcaption>
                             I've been multiplying like a rabbit!
                             </figcaption>
@@ -119,7 +119,7 @@
                         <br>
                         <figure>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg">
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg" width=33%>
                         </figure>
                         <br>
                         The monks in a temple have the job of moving all of the
@@ -143,7 +143,7 @@
                         <br>
                         <figure>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/220px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif">
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/220px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" width=33%>
                         </figure>
 
                         <br>
@@ -152,10 +152,10 @@
                         <br>
                         <i>T</i>(<i>n</i>) = 2<i>T</i>(<i>n</i>&minus;1) + 1
                         <br>
-                        <img src="graphics/RecEq2.gif">
+                        <img src="graphics/RecEq2.gif" width= 33%>
                         <br>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tower_of_Hanoi_recursion_SMIL.svg/220px-Tower_of_Hanoi_recursion_SMIL.svg.png">
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tower_of_Hanoi_recursion_SMIL.svg/220px-Tower_of_Hanoi_recursion_SMIL.svg.png" width=33%>
                         <br>
                         <br>
                         <br>
@@ -368,7 +368,7 @@
                 <p>
                 The <i>inclusion–exclusion</i> principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets; symbolically expressed as
                 <br>
-                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/05f67b2ce4414f2a1f96e4210a86d71028aa53b6">
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/05f67b2ce4414f2a1f96e4210a86d71028aa53b6" width=33%>
                 <br>
                 where A and B are two finite sets and |S| indicates the cardinality of
                 a set S (which may be considered as the number of elements of the set,
@@ -378,7 +378,7 @@
                 of the two sets and the count is corrected by subtracting the size of the intersection.
                 <br>
                 The principle is more clearly seen in the case of three sets, which for the sets A, B and C is given by
-                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/0b8e7c1631ec013eed94feb5aa406a573caa3559">
+                <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/0b8e7c1631ec013eed94feb5aa406a573caa3559" width=33%>
                 </p>
             </details>
 
