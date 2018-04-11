@@ -667,7 +667,8 @@ a <i>bipartition </i>of the vertex set V of G.
                         src="graphics/graph6.png"
                         width="33%">
                         <figcaption>
-                            Adjacency List Representation of the above Graph
+                            Adjacency List Representation of the
+                            above Graph
                         </figcaption>
                     </figure>
 
@@ -676,7 +677,8 @@ a <i>bipartition </i>of the vertex set V of G.
                         src="graphics/graph7.png"
                         width="33%">
                         <figcaption>
-                            Adjacency List Representation of the Directed Graph
+                            Adjacency List Representation of
+                            the Directed Graph
                         </figcaption>
                     </figure>
                     </p>
@@ -687,7 +689,6 @@ a <i>bipartition </i>of the vertex set V of G.
                     <summary class="sum2">
                        Adjacency Matrices
                     </summary>
-
 
                     <p>
                     <figure>
@@ -714,7 +715,8 @@ a <i>bipartition </i>of the vertex set V of G.
                         src="graphics/graph9.png"
                         width="33%">
                         <figcaption>
-                    Adjacency Matrix Representation of the Directed Graph
+                        Adjacency Matrix Representation
+                        of the Directed Graph
                         </figcaption>
                     </figure>
                     </p>
@@ -779,25 +781,27 @@ a <i>bipartition </i>of the vertex set V of G.
                        Isomorphisms of Graphs
                     </summary>
 
-                    <details>
-                    <summary class="sum3">
+                    <p class="def">
                        Definition 1:
-                    </summary>
-                    <p>
-                    The simple graphs G<sub>1</sub> = (V<sub>1</sub>,
-                    E<sub>1</sub>) and G<sub>2</sub> = (V<sub>2</sub>,
-                     E<sub>2</sub>) are <i>isomorphic</i> if there exists
-                     a oneto-one
-and onto function <i>f</i> from V<sub>1</sub> to V<sub>2</sub> with the property
-that a and b are adjacent in G<sub>1</sub> if
-and only if <i>f (a)</i> and <i>f (b)</i> are adjacent in G<sub>2</sub>,
- for all a and b in V<sub>1</sub>. Such a function <i>f</i> is called
-an<i> isomorphism</i>.
- Two simple graphs that are not isomorphic are called <i>nonisomorphic</i>.
                     </p>
-
-                    </details>
-
+                    <p>
+                    The simple graphs <i>G</i><sub>1</sub>
+                    = (<i>V</i><sub>1</sub>,
+                    <i>E</i><sub>1</sub>) and <i>G</i><sub>2</sub>
+                    = (<i>V</i><sub>2</sub>,
+                     <i>E</i><sub>2</sub>) are <i>isomorphic</i> if there exists
+                     a one-to-one and onto function
+                     <i>f</i> from <i>V</i><sub>1</sub> to
+                     <i>V</i><sub>2</sub> with the property
+                     that <i>a</i> and <i>b</i> are adjacent
+                     in <i>G</i><sub>1</sub> if and only if
+                     <i>f</i>(<i>a</i>) and <i>f</i>(<i>b</i>) are
+                     adjacent in <i>G</i><sub>2</sub>,
+                     for all <i>a</i> and <i>b</i>
+                     in <i>V</i><sub>1</sub>. Such a function <i>f</i>
+                     is called an <i>isomorphism</i>. Two simple graphs that
+                     are not isomorphic are called <i>nonisomorphic</i>.
+                    </p>
 
                 </details>
 
@@ -807,9 +811,20 @@ an<i> isomorphism</i>.
                        Isomorphic
                     </summary>
                     <p>
-                    It is difficult to show that two graphs are isomorphic. There are many possible one to one correspondences between the vertex sets of two simple graphs.There are n! possible mappings for graph with n vertices.
+                    It is difficult to show that two graphs are isomorphic.
+                    There are many possible one to one correspondences between
+                    the vertex sets of two simple graphs.
+                    There are <i>n</i>! possible
+                    mappings for graph with <i>n</i> vertices.
                     </p>
-  <p>Instead of testing for each correspondence,we can show that two graphs are not isomorphic. If we can find only one property that only one of the two graphs has,then we can prove that thew graphs are not isomorphic</p>
+                    <p>
+                    Instead of testing for each
+                    correspondence, we can show that
+                    two graphs are not isomorphic. If we can find only one
+                    property that only one of the two graphs has,
+                    then we can
+                    prove that the graphs are not isomorphic
+                    </p>
 
                 </details>
 
@@ -924,22 +939,24 @@ an<i> isomorphism</i>.
                         Connectedness in Directed Graphs
                     </summary>
 
-                    <details>
-                        <summary class="sum3">
+                        <p class="def">
                          Definition 4:
-                        </summary>
-                               <p>
-                                  A directed graph is strongly connected if there is a path from <i>a</i> to <i>b</i> and from <i>b</i> to <i>a</i> whenever <i>a</i> and <i>b</i> are vertices in                             the graph
-                               </p>
-                    </details>
-                    <details>
-                       <summary class="sum3">
+                        </p>
+                           <p>
+                              A directed graph is strongly connected if
+                              there is a path from <i>a</i> to <i>b</i> and
+                              from <i>b</i> to <i>a</i> whenever <i>a</i>
+                              and <i>b</i> are vertices in
+                              the graph
+                           </p>
+                        <p class="def">
                              Definition 5:
-                      </summary>
-                                 <p>
-                                 A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph
-                                </p>
-                    </details>
+                        </p>
+                         <p>
+                         A directed graph is weakly connected if there
+                         is a path between every two vertices in the
+                         underlying undirected graph
+                        </p>
                 </details>
 
                 <details>
@@ -947,7 +964,11 @@ an<i> isomorphism</i>.
                         Paths and Isomorphism
                     </summary>
                     <p>
-                      Paths and circuits can help in determining isomorphism.Length of circuit is a useful invariant in determining the isomorphism of two graphs, also mappings constructed using path can help in deciding isomorphism.
+                      Paths and circuits can help in determining
+                      isomorphism.Length of circuit is a useful invariant in
+                      determining the isomorphism of two graphs. Also mappings
+                      constructed using paths can help in detecting
+                      isomorphism or its lack.
                     </p>
                     <figure>
                         <img
@@ -969,7 +990,7 @@ an<i> isomorphism</i>.
 
             <details>
                 <summary class="sum1">
-                Euler and Hamilton Paths
+                Euler and Hamilton Paths and Circuits
                 </summary>
 
                 <details>
@@ -1058,7 +1079,7 @@ an<i> isomorphism</i>.
                         There is no easy way to always detect Hamilton
                         circuits, but... a graph with a Hamilton circuit:
                     </p>
-                    <ul>
+                    <ul class="nested">
                         <li>
                             Has no vertices of degree one.
                         </li>
@@ -1067,7 +1088,7 @@ an<i> isomorphism</i>.
                             circuit.
                         </li>
                         <li>
-                            All incidenet edges of a traversed vertex, except
+                            All incident edges of a traversed vertex, except
                             those used building the circuit, can be dropped.
                         </li>
                         <li>
@@ -1088,6 +1109,10 @@ an<i> isomorphism</i>.
                     </summary>
 
                     <p>
+                        Traveling salesperson problem (see below).
+                    </p>
+
+                    <p>
                         Gray codes
                     </p>
 
@@ -1106,6 +1131,10 @@ an<i> isomorphism</i>.
                 <summary class="sum1">
                 Shortest-Path Problems
                 </summary>
+
+                <p>
+                    Introduce weighted graphs.
+                </p>
 
                 <p>
                 <a
