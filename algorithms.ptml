@@ -313,9 +313,31 @@
                 <br>
             </p>
 
-            <figure>
-                <img src="graphics/GreedyChangeMaking.svg.png">
-            </figure>
+                <p>
+                   <b>procedure</b>
+                   <b>change</b>(<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>, .
+                   . . , <i>c</i><sub><i>n</i></sub>: value of denominations
+                   where <i>c</i><sub>1</sub> &gt; <i>c</i><sub>2</sub> &gt; .
+                   . . , <i>c</i><sub><i>n</i></sub> : <i>n </i> is a positive
+                   integer)<br>
+                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>r</i>)<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <i>d</i><sub>i</sub> :&equals; 0 {<i>d</i><sub>i</sub>
+                    counts the number of denominations <i>c</i><sub>i</sub>
+                    used <br>
+
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <b>while</b> <i>n</i>  &ge;
+                    <i>c</i><sub><i>i</i></sub> <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <i>d</i><sub>i</sub> :&equals; <i>d</i><sub>i</sub> +
+                     1 {add a coin of denomination <i>c</i><sub>i</sub> } <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <i>n</i> :&equals; <i>n</i> -  <i>c</i><sub><i>i</i></sub> <br>
+                     <i>d</i><sub><i>i</i></sub> is the number of coins of
+                     denominations in  <i>c</i><sub>i</sub> in change for
+                     <i>i</i> &equals; 1, 2, 3 <br>
+                </p>
             <p class="def">
                 LEMMA 1
             </p>
@@ -346,9 +368,27 @@
                 <b>Greedy Algorithm for Scheduling Talks</b>
             </p>
 
-            <figure>
-                <img src="graphics/GreedyScheduling.svg.png">
-            </figure>
+                <p>
+                   <b>procedure</b>
+                   <b>schedule</b>(<i>s</i><sub>1</sub> &le;
+                   <i>s</i><sub>2</sub> &le; .
+                   . . , <i>s</i><sub><i>n</i></sub>: start time of talks <br>
+                    <i>e</i><sub>1</sub> &le; <i>e</i><sub>2</sub> &le; .
+                   . . , <i>e</i><sub><i>n</i></sub> : <i>n </i> ending times
+                   of talks)<br>
+                   sort talks by finish time and reorder so that <i>e</i><sub>1</sub> &le; 
+                   <i>e</i><sub>2</sub> &le; . . , <i>e</i><sub><i>n</i></sub>
+                   <br>
+                   &nbsp; &nbsp; &nbsp; S :&equals; 0<br>
+                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>n</i>)<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     if talk j is compatible with S <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    S :&equals; S &union; {talk j} <br>
+                    &nbsp; &nbsp; &nbsp; return S{ S is the set of talks produced}
+                    <br>
+                </p>
         </details>
 
         <details>

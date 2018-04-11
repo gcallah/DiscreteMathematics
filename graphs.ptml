@@ -37,7 +37,7 @@
                 a nonempty set of vertices (or nodes) and <i>E</i>,
                 a set of edges. Each edge has either one or
                 two vertices associated with it,
-                called its endpoints. An edge is said 
+                called its endpoints. An edge is said
                 to connect its endpoints.
                 </p>
                 <p>
@@ -200,7 +200,7 @@
                         </summary>
                         <figure>
                             <img src="graphics/bracket.png"
-                                width="28%">
+                                width="33%">
                             <figcaption>
                             </figcaption>
                         </figure>
@@ -423,7 +423,7 @@ pair of distinct vertex not connected
                     edges
                     {<i>v</i><sub>1</sub>, <i>v</i><sub>2</sub>},
                     {<i>v</i><sub>2</sub>,
-                    <i>v</i><sub>3</sub>}, ..., 
+                    <i>v</i><sub>3</sub>}, ...,
                     {<i>v</i><sub><i>n</i>&minus;1</sub>,
                      <i>v</i><sub><i>n</i></sub>},
                     and {<i>v</i><sub><i>n</i></sub>,
@@ -648,7 +648,7 @@ a <i>bipartition </i>of the vertex set V of G.
                 Representing Graphs and Graph Isomorphism
                 </summary>
 
-                <details>
+                    <details>
                     <summary class="sum2">
                        Adjacency List
                     </summary>
@@ -681,7 +681,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     </figure>
                     </p>
 
-                </details>
+                    </details>
 
                 <details>
                     <summary class="sum2">
@@ -693,7 +693,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <figure>
                         <img
                         src="graphics/graph5.png"
-                        width="33%">
+                        width="20%">
                         <figcaption>
                             Example Simple Graph
                         </figcaption>
@@ -702,7 +702,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <figure>
                         <img
                         src="graphics/graph8.png"
-                        width="33%">
+                        width="24%">
                         <figcaption>
                             Adjacency Matrix Representation
                             of the above Graph
@@ -732,7 +732,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <i>v</i><sub>2</sub>,...,
                     <i>v</i><sub>n</sub> are the vertices
                     and <i>e</i><sub>1</sub>,
-                    <i>e</i><sub>2</sub>, ..., 
+                    <i>e</i><sub>2</sub>, ...,
                     <i>e</i><sub>m</sub> are the edges
                     of <i>G</i>. Then the incidence
                     matrix with respect to this
@@ -747,7 +747,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <figure>
                         <img
                         src="graphics/graph10.png"
-                        width="33%">
+                        width="28%">
                         <figcaption>
                     Example Graph
                         </figcaption>
@@ -755,7 +755,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <figure>
                         <img
                         src="graphics/graph11.png"
-                        width="33%">
+                        width="28%">
                         <figcaption>
                     Incidence Matrix for the graph
                         </figcaption>
@@ -763,7 +763,7 @@ a <i>bipartition </i>of the vertex set V of G.
                     <figure>
                         <img
                         src="graphics/graph12.png"
-                        width="33%">
+                        width="28%">
                         <figcaption>
                     Directed Graph and its Incidence Matrix
                         </figcaption>
@@ -871,7 +871,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Network_Community_Structure.svg/440px-Network_Community_Structure.svg.png"
-                        width="33%">
+                        width="25%">
                         <figcaption>
                         </figcaption>
                     </figure>
@@ -904,7 +904,7 @@ an<i> isomorphism</i>.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/440px-Sample-graph.jpg">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/440px-Sample-graph.jpg" width= 25%>
                         <figcaption>
                             The dashed line signifies the edge that, if
                             removed, would split the graph into two connected
@@ -989,7 +989,7 @@ an<i> isomorphism</i>.
 
                         <figure class="lead-figure">
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png">
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png" width=25%>
                             <figcaption>
                             The Bridges of K&ouml;nigsberg
                             </figcaption>
@@ -1004,7 +1004,7 @@ an<i> isomorphism</i>.
                         <figure>
                             <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
-                            width="33%">
+                            width="24%">
                             <figcaption>
                                 The graph Euler used to solve the problem
                             </figcaption>
@@ -1048,7 +1048,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/440px-Hamiltonian_path.svg.png"
-                        width="33%">
+                        width="28%">
                         <figcaption>
                             A Hamilton circuit on a dodecahedron
                         </figcaption>
@@ -1094,7 +1094,7 @@ an<i> isomorphism</i>.
                     <figure>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Encoder_Disc_%283-Bit%29.svg/440px-Encoder_Disc_%283-Bit%29.svg.png"
-                        width="33%">
+                        width="28%">
                         <figcaption>
                             Rotary encoder for angle-measuring devices
                         </figcaption>
@@ -1192,8 +1192,6 @@ an<i> isomorphism</i>.
             <details>
                 <summary class="sum1">
                 Planar Graphs
-                <br />
-                PERHAPS NOT COVERED SPRING 2018
                 </summary>
             </details>
 
