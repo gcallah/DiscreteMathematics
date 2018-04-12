@@ -30,21 +30,21 @@
                 <p>
                 <b>Division</b>:
                 <br>
-                If a and b are integers with a &ne; 0, we say that a
-                divides b if there is an integer c such that b = ac,
-                or equivalently, if b is an integer. When a divides b
-                we say that a is a factor or divisor when a does not divide b.
+                If <i>a</i> and <i>b</i> are integers with <i>a</i> &ne; 0, we say that <i>a</i>
+                divides <i>b</i> if there is an integer <i>c</i> such that <i>b</i> = <i>ac</i>,
+                or equivalently, if <i>b</i> is an integer. When <i>a</i> divides <i>b</i>
+                we say that a is a factor or divisor when <i>a</i> does not divide <i>b</i>.
                 </p>
                 <br>
                 <p>
                 <b>Modular Arithmetic</b>:
-                If a and b are integers and m is a positive integer,
-                then a is congruent to b modulo m if m divides a − b.
-                We use the notation a &equiv; b (mod m) to indicate that a
-                is congruent to b modulo m. We say that a &equiv; b (mod m)
-                is a congruence and that m is its modulus (plural moduli).
-                If a and b are not congruent modulo m,
-                we write a ̸&equiv; b (mod m).
+                If <i>a</i> and <i>b</i> are integers and <i>m</i> is a positive integer,
+                then <i>a</i> is congruent to <i>b</i> modulo <i>m</i> if <i>m</i> divides <i>a</i> − <i>b</i>.
+                We use the notation <i>a</i> &equiv; <i>b</i> (mod <i>m</i>) to indicate that <i>a</i>
+                is congruent to <i>b</i> modulo <i>m</i>. We say that <i>a</i> &equiv; <i>b</i> (mod <i>m</i>)
+                is a congruence and that <i>m</i> is its modulus (plural moduli).
+                If <i>a</i> and <i>b</i> are not congruent modulo <i>m</i>,
+                we write <i>a ̸</i>&equiv; <i>b</i> (mod <i>m</i>).
                 </p>
                 <p>
                 <b>Modular arithmetic </b>is a system of arithmetic
@@ -58,45 +58,45 @@
                     </summary>
                     <ol class="nested">
                         <li>
-                        Let a, b, and c be integers, where a &ne; 0. Then
+                        Let <i>a</i>, <i>b</i>, and <i>c</i> be integers, where <i>a</i> &ne; 0. Then
                         <br>
-                        (i) if a | b and a | c, then a | (b + c);
+                        (i) if <i>a</i> | <i>b</i> and <i>a</i> | <i>c</i>, then <i>a</i> | (<i>b</i> + <i>c</i>);
                         <br>
-                        (ii) if a | b,then a | bc for all integers c;
+                        (ii) if <i>a</i> | <i>b</i>,then <i>a</i> | <i>bc</i> for all integers <i>c</i>;
                         <br>
-                        (iii) if a | b and b | c, then a | c.
+                        (iii) if <i>a</i> | <i>b</i> and <i>b</i> | <i>c</i>, then <i>a</i> | <i>c</i>.
                         </li>
                         <li>
-                        <b>THE DIVISION ALGORITHM</b> Let a be an integer
-                             and d a positive integer. Then there are
-                             unique integers q and r, with 0
-                             &le; r &lt; d,
-                             such that a = dq + r.
+                        <b>THE DIVISION ALGORITHM</b> Let <i>a</i> be an integer
+                             and <i>d</i> a positive integer. Then there are
+                             unique integers <i>q</i> and <i>r</i>, with 0
+                             &le; <i>r</i> &lt; <i>d</i>,
+                             such that <i>a</i> = <i>dq</i> + <i>r</i>.
                         </li>
                         <li>
-                        Let a and b be integers, and let m be a positive integer.
-                        Then a &equiv; b (mod m) if and only if a mod m = b mod m.
+                        Let <i>a</i> and <i>b</i> be integers, and let <i>m</i> be a positive integer.
+                        Then <i>a</i> &equiv; <i>b</i> (mod <i>m</i>) if and only if <i>a</i> mod <i>m</i> = <i>b</i> mod <i>m</i>.
                         </li>
                         <li>
-                        Let m be a positive integer. The integers a and b are
-                        congruent modulo m if and only if there is an
-                        integer k such that a = b + km
+                        Let <i>m</i> be a positive integer. The integers <i>a</i> and <i>b</i> are
+                        congruent modulo <i>m</i> if and only if there is an
+                        integer <i>k</i> such that <i>a</i> = <i>b</i> + <i>km</i>
                         </li>
                         <li>
-                        Let m be a positive integer. If a &equiv; b (mod m)
-                        and c &equiv; d (mod m), then a + c &equiv; b + d (mod m)
-                        and ac &equiv; bd (mod m).
+                        Let <i>m</i> be a positive integer. If <i>a</i> &equiv; <i>b</i> (mod <i>m</i>)
+                        and <i>c</i> &equiv; <i>d</i> (mod <i>m</i>), then <i>a</i> + <i>c</i> &equiv; <i>b</i> + <i>d</i> (mod <i>m</i>)
+                        and <i>ac</i> &equiv; <i>bd</i> (mod <i>m</i>).
                         </li>
                     </ol>
                     <p>
-                    <b>Corollary:</b> 1. If a, b, and c are integers,
-                    where a &ne; 0, such that a | b and a | c, then
-                    a | mb + nc whenever m and n are integers.
+                    <b>Corollary:</b> 1. If <i>a</i>, <i>b</i>, and <i>c</i> are integers,
+                    where <i>a</i> &ne; 0, such that <i>a</i> | <i>b</i> and <i>a</i> | <i>c</i>, then
+                    <i>a</i> | <i>mb</i> + <i>nc</i> whenever <i>m</i> and <i>n</i> are integers.
                     <br>
-                    2. Let m be a positive integer and let a and b be
-                    integers. Then (a + b) mod m = ((a mod m) + (b mod m)) mod m
+                    2. Let <i>m</i> be a positive integer and let <i>a</i> and <i>b</i> be
+                    integers. Then (<i>a</i> + <i>b</i>) mod <i>m</i> = ((<i>a</i> mod <i>m</i>) + (<i>b</i> mod <i>m</i>)) mod <i>m</i>
                     and
-                    ab mod m = ((a mod m)(b mod m)) mod m.
+                    <i>ab</i> mod <i>m</i> = ((<i>a</i> mod <i>m</i>)(<i>b</i> mod <i>m</i>)) mod <i>m</i>.
                     </p>
                 </details>
             </details>
@@ -110,9 +110,9 @@
                 string of bits, using the binary numeral system. The order
                 of the memory bytes storing the bits varies; see endianness.
                 The width or precision of an integral type is the number
-                of bits in its representation. An integral type with n
-                bits can encode 2n numbers; for example an unsigned type
-                typically represents the non-negative values 0 through 2<sup>n</sup>−1.
+                of bits in its representation. An integral type with <i>n</i>
+                bits can encode 2<i>n</i> numbers; for example an unsigned type
+                typically represents the non-negative values 0 through 2<sup><i>n</i></sup>−1.
                 Other encodings of integer values to bit patterns are
                 sometimes used, for example Binary-coded decimal or Gray code,
                 or as printed character codes such as ASCII.
@@ -158,28 +158,28 @@
                     pairs of binary digits together with carries,
                     when they occur, to compute the sum of two integers.
                     <br>
-                    <i>Example:</i>Add a = (1110)<sub>2</sub> and b = (1011)<sub>2</sub>
+                    <i>Example:</i>Add <i>a</i> = (1110)<sub>2</sub> and <i>b</i> = (1011)<sub>2</sub>
                     <br>
                     <i>Solutions:</i>
                     Following the procedure specified in the algorithm, first note that
                     <br>
-                    a<sub>0</sub> + b<sub>0</sub> = 0 + 1 = 0·2 + 1,
+                    <i>a</i><sub>0</sub> + <i>b</i><sub>0</sub> = 0 + 1 = 0·2 + 1,
                     <br>
-                    so that c<sub>0</sub> = 0 and s<sub>0</sub> = 1. Then, because
+                    so that <i>c</i><sub>0</sub> = 0 and <i>s</i><sub>0</sub> = 1. Then, because
                     <br>
-                    a<sub>1</sub> + b<sub>1</sub> + c<sub>0</sub> = 1 + 1 + 0 = 1·2 + 0,
+                    <i>a</i><sub>1</sub> + <i>b</i><sub>1</sub> + <i>c</i><sub>0</sub> = 1 + 1 + 0 = 1·2 + 0,
                     <br>
-                    it follows that c<sub>1</sub> = 1 and s<sub>1</sub> = 0. Continuing,
+                    it follows that <i>c</i><sub>1</sub> = 1 and <i>s</i><sub>1</sub> = 0. Continuing,
                     <br>
-                    a<sub>2</sub> + b<sub>2</sub> + c<sub>1</sub> = 1 + 0 + 1 = 1·2 + 0,
+                    <i>a</i><sub>2</sub> + <i>b</i><sub>2</sub> + <i>c</i><sub>1</sub> = 1 + 0 + 1 = 1·2 + 0,
                     <br>
-                    so that c<sub>2</sub> = 1 and s<sub>2</sub> = 0.
-                    Finally, because a<sub>3</sub> + b<sub>3</sub> +
-                    c<sub>2</sub> = 1 + 1 + 1 = 1·2 + 1,
+                    so that <i>c</i><sub>2</sub> = 1 and <i>s</i><sub>2</sub> = 0.
+                    Finally, because <i>a</i><sub>3</sub> + <i>b</i><sub>3</sub> +
+                    <i>c</i><sub>2</sub> = 1 + 1 + 1 = 1·2 + 1,
                     <br>
-                    follows that c<sub>3</sub> = 1 and s<sub>3</sub> = 1.
-                    This means that s<sub>4</sub> = c<sub>3</sub> = 1.
-                    Therefore, s = a + b = (11001)<sub>2</sub>.
+                    follows that <i>c</i><sub>3</sub> = 1 and <i>s</i><sub>3</sub> = 1.
+                    This means that <i>s</i><sub>4</sub> = <i>c</i><sub>3</sub> = 1.
+                    Therefore, <i>s</i> = <i>a</i> + <i>b</i> = (11001)<sub>2</sub>.
                     </li>
                     <li>
                     <i>MULTIPLICATION ALGORITHM:</i>
@@ -188,12 +188,12 @@
                     The conventional algorithm (used when multiplying with pencil and paper)
                     works as follows. Using the distributive law, we see that
                     <br>
-                    ab = a(b<sub>0</sub>2<sup>0</sup>
-                    + b<sub>1</sub>2<sup>1</sup> +···+ b<sub>n−1</sub>2<sup>n−1</sup>)
+                    <i>ab</i> = <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>
+                    + <i>b</i><sub>1</sub>2<sup>1</sup> +···+ <i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
                     <br>
-                    = a(b<sub>0</sub>2<sup>0</sup>)
-                    + a(b<sub>1</sub>2<sup>1</sup>)
-                    + · · · + a(b<sub>n−1</sub>2<sup>n−1</sup>)
+                    = <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>)
+                    + <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
+                    + · · · + <i>a</i>(<i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
                     </li>
                     </ol>
                 </details>
