@@ -227,16 +227,18 @@
                 Prime numbers are quite important as they are used in modern
                 cryptographic systems. The length of time required to factor
                 large integers into their prime factors is the basis for the
-                strength of these systems.
+                strength of these systems.<br>
                 </p>
                 <p>
                 <b>Definition 1</b>: An integer <i>p</i> greater than 1 is called prime
                 if the only positive factors of <i>p</i> are 1 and <i>p</i>. A
-                positive integer that is greater than 1 and is not prime is called composite.
+                positive integer that is greater than 1 and is not prime is
+                called composite.<br>
                 </p>
                 <p>
                 <b>Definition 2</b>: If <i>n</i> is a composite integer, then
-                <i>n</i> has a prime divisor less than or equal to root n .<br>
+                <i>n</i> has a prime divisor less than or equal to &radic; n
+                .<br><br>
                 </p>
                 <details>
                     <summary class="sum2">
@@ -250,10 +252,51 @@
                             <li>
                 Because the only primes less than 10 are 2, 3, 5, and 7, the primes not exceeding 100 are these 
                 four primes and those positive integers greater than 1 and not exceeding 100 that are divisible by
-                none of 2, 3, 5, or 7<br>
+                none of 2, 3, 5, or 7<br> <br>
                             </li>
                         </ol>
                 </details>
+                <p>
+                <b> Greatest common divisor (gcd) </b> The largest integer that
+                divides both the two integers.<br>
+                </p>
+                <p>
+                <b>Relatively prime</b> Two numbers are said to be realtively
+                prime if their gcd is 1 <br>
+                </p>
+                <p>
+                <b>Least Common Multiple (lcm)</b> the smallest integer that is
+                divisible by both a and b.<br>
+                </p>
+                <p>If <i>a</i> and <i>b</i> are positvie integers then,
+                <i>a</i><i>b</i> &equals; gcd(<i>a</i>,<i>b</i>) &mul;
+                lcm(<i>a</i>.<i>b</i>) <br>
+                </p>
+                <p> <b> Eucledian Algorithm</b> Computing gcd using prime
+                factorization is a time consuming process. Eucledian algorithm
+                gives an efficient way to compute gcd.<br> 
+                </p>
+                <p>
+                <b> Steps</b>
+                To find gcd(<i>a</i>, <i>b</i>)
+                <ol class = "nested">
+                    <li>
+                        Divide the larger of two numbers (say <i>a</i>) by the
+                        smaller number (say <i>b</i>) , let the divisor be
+                        (<i>c</i>)
+                    </li>
+                    <li>
+                        Now, the problem changes to finding
+                        gcd(<i>b</i>, <i>c</i>) 
+                    </li>
+                    <li>
+                        Continue the above procedure,till one of the integers
+                        is 0
+                    </li>
+                </ol>
+
+                </p>
+
             </details>
 
             <details>
