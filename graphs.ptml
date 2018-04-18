@@ -1244,7 +1244,7 @@ a <i>bipartition </i>of the vertex set V of G.
                         <i>e</i>: # edges
                         <br />
                         <b>Euler's formula</b>:
-                        <i>r</i> = <i>v</i> - <i>e</i> + 2
+                        <i>r</i> = <i>e</i> - <i>v</i> + 2
                         <br />
                         <b>Also rendered as</b>:
                         <br />
