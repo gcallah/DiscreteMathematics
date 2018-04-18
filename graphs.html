@@ -1204,6 +1204,14 @@ a <i>bipartition </i>of the vertex set V of G.
                         </pre>
                     </code>
                     </p>
+
+                    <p>
+                     Run-time analysis: at most <i>n</i> iterations of outer loop.
+                     <br />
+                     At most <i>n</i> - 1 iterations of inner loop.
+                     <br />
+                     So we are O(<i>n</i><sup>2</sup>).
+                    </p>
                 </details>
 
                 <details>
@@ -1237,6 +1245,50 @@ a <i>bipartition </i>of the vertex set V of G.
                 Planar Graphs
                 </summary>
             </details>
+    
+                <details>
+                    <summary class="sum2">
+                        Euler's Formula
+                    </summary>
+
+                    <p>
+                        <i>r</i>: # regions (or faces)
+                        <br />
+                        <i>v</i>: # vertices
+                        <br />
+                        <i>e</i>: # edges
+                        <br />
+                        <b>Euler's formula</b>:
+                        <i>r</i> = <i>v</i> - <i>e</i> + 2
+                        <br />
+                        <b>Also rendered as</b>:
+                        <br />
+                        <i>v</i> - <i>e</i> + <i>f</i> = 2
+                    </p>
+
+                    <figure>
+                        <img src="graphics/EulerPolys.png" width="33%">
+                        <figcaption>
+                            The formula holds for convex polyhedra.
+                            <br />
+                            (Source:
+                            https://en.wikipedia.org/wiki/Euler_characteristic)
+                        </figcaption>
+                    </figure>
+
+                    <p class="def">
+                        CORROLARY 1:
+                    </p>
+
+                    <p>
+                        If <i>G</i>(<i>V</i>, <i>E</i>)
+                        is a connected planar graph and |<i>V</i>| &gt; 2,
+                        then |<i>E</i>| &le; 3|<i>V</i>| - 6.
+                        <br />
+                        Show <i>K</i><sub>5</sub> is not planar.
+                    </p>
+
+                </details>
 
             <details>
                 <summary class="sum1">
