@@ -16,7 +16,7 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Caterpillar_tree.svg/300px-Caterpillar_tree.svg.png" width=24%>
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Caterpillar_tree.svg/300px-Caterpillar_tree.svg.png" width="24%">
                 </figure>
             </div>
 
@@ -35,7 +35,7 @@
                 </p>
 
                 <figure>
-                    <img src="graphics/DirectedCyclicGraphs.svg" width=20%>
+                    <img src="graphics/DirectedCyclicGraphs.svg" width="20%">
                     <figcaption>
                         Not a Tree
                         <br />
@@ -87,7 +87,7 @@
                          which is not a root.
                     </li>
                     <figure>
-                        <img src="graphics/tree_example.gif" width=33%>
+                        <img src="graphics/tree_example.gif" width="33%">
                         <figcaption>
                             Tree Example
                             <br />
@@ -131,7 +131,7 @@
                     </summary>
 
                     <figure>
-                        <img src="graphics/OrgChart.png" width=33%>
+                        <img src="graphics/OrgChart.png" width="33%">
                         <figcaption>
                             An org chart
                             <br />
@@ -337,7 +337,7 @@
 
                       <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png" width=33%>
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png" width="33%">
                       </figure>
 
                         <p>
@@ -381,7 +381,7 @@
                           </p>
 
                             <figure>
-                            <img src="graphics/Huffman.png" width=33%>
+                            <img src="graphics/Huffman.png" width="33%">
                           </figure>
                             <p>
                             <br>
@@ -466,7 +466,7 @@
 
                         <figure>
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sorted_binary_tree_preorder.svg/220px-Sorted_binary_tree_preorder.svg.png" width=20%>
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sorted_binary_tree_preorder.svg/220px-Sorted_binary_tree_preorder.svg.png" width="20%">
                             <figcaption>
                                 Preorder traversal: F, B, A, D, C, E, G, I, H.
                             </figcaption>
@@ -498,7 +498,7 @@
 
                         <figure>
                             <img
-                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sorted_binary_tree_inorder.svg/220px-Sorted_binary_tree_inorder.svg.png" width=20%>
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sorted_binary_tree_inorder.svg/220px-Sorted_binary_tree_inorder.svg.png" width="20%">
                             <figcaption>
                                 Inorder traversal: A, B, C, D, E, F, G, H, I.
                             </figcaption>
@@ -560,7 +560,7 @@
                         </summary>
 
                         <figure>
-                            <img src="graphics/ParseTree.png" width=20%>
+                            <img src="graphics/ParseTree.png" width="20%">
                             <figcaption>
                                 Parse tree for ((x + y)^2) + ((x - 4) / 3)
                             </figcaption>
@@ -609,7 +609,7 @@
                     </summary>
 
                     <figure>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/300px-Depth-first-tree.svg.png" width=20%>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/300px-Depth-first-tree.svg.png" width="20%">
                         <figcaption>
                             The order in which nodes are visited in a DFS.
                         </figcaption>
@@ -651,7 +651,7 @@
                     </summary>
 
                     <figure>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/300px-Breadth-first-tree.svg.png" width=20%>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/300px-Breadth-first-tree.svg.png" width="20%">
                         <figcaption>
                             The order in which nodes are visited in a BFS.
                         </figcaption>
