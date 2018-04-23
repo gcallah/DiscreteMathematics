@@ -115,188 +115,172 @@
                 </details>
             </details>
 
-            <details>
-                <summary class="sum1">
-                Integer Representations and Algorithms
-                </summary>
-                <p>
-                The most common representation of a positive integer is a
-                string of bits, using the binary numeral system. The order
-                of the memory bytes storing the bits varies; see endianness.
-                The width or precision of an integral type is the number
-                of bits in its representation. An integral type with <i>n</i>
-                bits can encode 2<i>n</i> numbers; for example an unsigned type
-                typically represents the non-negative values 0 through 2<sup><i>n</i></sup>−1.
-                Other encodings of integer values to bit patterns are
-                sometimes used, for example Binary-coded decimal or Gray code,
-                or as printed character codes such as ASCII.
-                </p>
-                <details>
-                    <summary class="sum2">
-                    Theorems
-                    </summary>
-                    <ol class="nested">
-                    <li>
-                    Let <i>b</i> be an integer greater than 1. Then if <i>n</i> is a positive
-                    integer, it can be expressed uniquely in the form
-                    <br>
-                    <i>n</i> = a<sub>k</sub>b<sup>k</sup> + a<sub>k-1</sub>b<sup>k-1</sup> +···+ a<sub>1</sub>b + a<sub>0</sub>,
-                    <br>
-                    where <i>k</i> is a nonnegative integer, a<sub>0</sub>, a<sub>1</sub>, . . . , a<sub>k</sub>
-                    are non-negative integers less than <i>b</i>, and a<sub>k</sub> &ne; 0.
-                    </li>
-                    </ol>
-            </details>
-            </details>
-            <details>
-                <summary class="sum1">
-                Algorithms for Integer Operations
-                </summary>
-                <p>
-                The algorithms for performing operations with integers using their
-                binary expansions are extremely important in computer arithmetic.
-                </p>
-                <p>
-                We will describe algorithms for the addition and the multiplication
-                of two integers expressed in binary notation.
-                </p>
-                <details>
-                    <summary class="sum2">
-                    Types of Algorithms
-                    </summary>
-                    <ol class="nested">
-                    <li>
-                    <i>ADDITION ALGORITHM:</i>
-                    Consider the problem of adding two integers in binary notation.
-                    A procedure to perform addition can be based on the usual
-                    method for adding numbers with
-                    pencil and paper. This method proceeds by adding
-                    pairs of binary digits together with carries,
-                    when they occur, to compute the sum of two integers.
-                    <br>
-                    <i>Example:</i>Add <i>a</i> = (1110)<sub>2</sub> and <i>b</i> = (1011)<sub>2</sub>
-                    <br>
-                    <i>Solutions:</i>
-                    Following the procedure specified in the algorithm, first note that
-                    <br>
-                    <i>a</i><sub>0</sub> + <i>b</i><sub>0</sub> = 0 + 1 = 0·2 + 1,
-                    <br>
-                    so that <i>c</i><sub>0</sub> = 0 and <i>s</i><sub>0</sub> = 1. Then, because
-                    <br>
-                    <i>a</i><sub>1</sub> + <i>b</i><sub>1</sub> + <i>c</i><sub>0</sub> = 1 + 1 + 0 = 1·2 + 0,
-                    <br>
-                    it follows that <i>c</i><sub>1</sub> = 1 and <i>s</i><sub>1</sub> = 0. Continuing,
-                    <br>
-                    <i>a</i><sub>2</sub> + <i>b</i><sub>2</sub> + <i>c</i><sub>1</sub> = 1 + 0 + 1 = 1·2 + 0,
-                    <br>
-                    so that <i>c</i><sub>2</sub> = 1 and <i>s</i><sub>2</sub> = 0.
-                    Finally, because <i>a</i><sub>3</sub> + <i>b</i><sub>3</sub> +
-                    <i>c</i><sub>2</sub> = 1 + 1 + 1 = 1·2 + 1,
-                    <br>
-                    follows that <i>c</i><sub>3</sub> = 1 and <i>s</i><sub>3</sub> = 1.
-                    This means that <i>s</i><sub>4</sub> = <i>c</i><sub>3</sub> = 1.
-                    Therefore, <i>s</i> = <i>a</i> + <i>b</i> = (11001)<sub>2</sub>.
-                    </li>
-                    <li>
-                    <i>MULTIPLICATION ALGORITHM:</i>
-                    Consider the multiplication of two <i>n</i>-bit
-                    integers <i>a</i> and <i>b</i>.
-                    The conventional algorithm (used when multiplying with pencil and paper)
-                    works as follows. Using the distributive law, we see that
-                    <br>
-                    <i>ab</i> = <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>
-                    + <i>b</i><sub>1</sub>2<sup>1</sup> +···+ <i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
-                    <br>:
-                    = <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>)
-                    + <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
-                    + · · · + <i>a</i>(<i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
-                    </li>
-                    </ol>
-                </details>
-            </details>
+            <details> <summary class="sum1"> Integer Representations and
+                    Algorithms </summary> <p> The most common representation of
+                a positive integer is a string of bits, using the binary
+                numeral system. The order of the memory bytes storing the bits
+                varies; see endianness.  The width or precision of an integral
+                type is the number of bits in its representation. An integral
+                type with <i>n</i> bits can encode 2<i>n</i> numbers; for
+                example an unsigned type typically represents the non-negative
+                values 0 through 2<sup><i>n</i></sup>−1.  Other encodings of
+                integer values to bit patterns are sometimes used, for example
+                        Binary-coded decimal or Gray code, or as printed
+                        character codes such as ASCII.  </p> <details> <summary
+                               class="sum2"> Theorems </summary> <ol
+                               class="nested"> <li> Let <i>b</i> be an integer
+                                   greater than 1. Then if <i>n</i> is a
+                                   positive integer, it can be expressed
+                                   uniquely in the form <br> <i>n</i> =
+                                   a<sub>k</sub>b<sup>k</sup> +
+                                   a<sub>k-1</sub>b<sup>k-1</sup> +···+
+                                   a<sub>1</sub>b + a<sub>0</sub>, <br> where
+                                   <i>k</i> is a nonnegative integer,
+                               a<sub>0</sub>, a<sub>1</sub>, . . . ,
+                               a<sub>k</sub> are non-negative integers less
+                           than <i>b</i>, and a<sub>k</sub> &ne; 0.  </li>
+                            </ol> </details> </details> <details> <summary
+                               class="sum1"> Algorithms for Integer Operations
+                                </summary> <p> The algorithms for performing
+                                operations with integers using their binary
+                                expansions are extremely important in computer
+                                arithmetic.  </p> <p> We will describe
+                                algorithms for the addition and the
+                                multiplication of two integers expressed in
+                                binary notation.  </p> <details> <summary
+                               class="sum2"> Types of Algorithms </summary> <ol
+                               class="nested"> <li> <i>ADDITION ALGORITHM:</i>
+                                   Consider the problem of adding two integers
+                                   in binary notation.  A procedure to perform
+                                   addition can be based on the usual method
+                                   for adding numbers with pencil and paper.
+                                   This method proceeds by adding pairs of
+                                   binary digits together with carries, when
+                                   they occur, to compute the sum of two
+                                   integers.  <br> <i>Example:</i>Add <i>a</i>
+                                   = (1110)<sub>2</sub> and <i>b</i> =
+                                   (1011)<sub>2</sub> <br> <i>Solutions:</i>
+                                   Following the procedure specified in the
+                                   algorithm, first note that <br>
+                                   <i>a</i><sub>0</sub> + <i>b</i><sub>0</sub>
+                                   = 0 + 1 = 0·2 + 1, <br> so that
+                                   <i>c</i><sub>0</sub> = 0 and
+                                   <i>s</i><sub>0</sub> = 1. Then, because <br>
+                                   <i>a</i><sub>1</sub> + <i>b</i><sub>1</sub>
+                                   + <i>c</i><sub>0</sub> = 1 + 1 + 0 = 1·2 +
+                                   0, <br> it follows that <i>c</i><sub>1</sub>
+                                   = 1 and <i>s</i><sub>1</sub> = 0.
+                                   Continuing, <br> <i>a</i><sub>2</sub> +
+                                   <i>b</i><sub>2</sub> + <i>c</i><sub>1</sub>
+                                   = 1 + 0 + 1 = 1·2 + 0, <br> so that
+                                   <i>c</i><sub>2</sub> = 1 and
+                                   <i>s</i><sub>2</sub> = 0.  Finally, because
+                                   <i>a</i><sub>3</sub> + <i>b</i><sub>3</sub>
+                                   + <i>c</i><sub>2</sub> = 1 + 1 + 1 = 1·2 +
+                                   1, <br> follows that <i>c</i><sub>3</sub> =
+                                   1 and <i>s</i><sub>3</sub> = 1.  This means
+                                   that <i>s</i><sub>4</sub> =
+                                   <i>c</i><sub>3</sub> = 1.  Therefore,
+                                   <i>s</i> = <i>a</i> + <i>b</i> =
+                                   (11001)<sub>2</sub>.  </li> <li>
+                                   <i>MULTIPLICATION ALGORITHM:</i> Consider
+                                   the multiplication of two <i>n</i>-bit
+                                   integers <i>a</i> and <i>b</i>.  The
+                                   conventional algorithm (used when
+                                   multiplying with pencil and paper) works as
+                                   follows. Using the distributive law, we see
+                                   that <br> <i>ab</i> =
+                                   <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup> +
+                                   <i>b</i><sub>1</sub>2<sup>1</sup> +···+
+                                   <i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
+                                   <br>: =
+                                   <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>)
+                                   +
+                                   <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
+                                   + · · · +
+                                   <i>a</i>(<i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
+                               </li> </ol> </details> </details>
 
-            <details>
-                <summary class="sum1">
-                Primes and Greatest Common Divisors
-                </summary>
-                <p>
-                A prime is an integer excluding 1, that is divisible by no
-                positive integers other than 1 and itself. <br>
-                </p>
-                <p>
-                Prime numbers are quite important as they are used in modern
-                cryptographic systems. The length of time required to factor
-                large integers into their prime factors is the basis for the
-                strength of these systems.<br>
-                </p>
-                <p>
-                <b>Definition 1</b>: An integer <i>p</i> greater than 1 is called prime
-                if the only positive factors of <i>p</i> are 1 and <i>p</i>. A
-                positive integer that is greater than 1 and is not prime is
-                called composite.<br>
-                </p>
-                <p>
-                <b>Definition 2</b>: If <i>n</i> is a composite integer, then
-                <i>n</i> has a prime divisor less than or equal to &radic; n
-                .<br><br>
-                </p>
-                <details>
-                    <summary class="sum2">
-                        <b>The seive of eratosthenes</b>
-                    </summary>
-                        <ol class=" nested">
-                            <li> The sieve of Eratosthenes is used to find all primes not exceeding a specified positive integer.
-                For instance, the following procedure is used to find the
-                primes not exceeding 100.<br>
-                            </li>
-                            <li>
-                Because the only primes less than 10 are 2, 3, 5, and 7, the primes not exceeding 100 are these
-                four primes and those positive integers greater than 1 and not exceeding 100 that are divisible by
-                none of 2, 3, 5, or 7<br> <br>
-                            </li>
-                        </ol>
-                </details>
-                <p>
-                <b> Greatest common divisor (gcd) </b> The largest integer that
-                divides both the two integers.<br>
-                </p>
-                <p>
-                <b>Relatively prime</b> Two numbers are said to be realtively
-                prime if their gcd is 1 <br>
-                </p>
-                <p>
-                <b>Least Common Multiple (lcm)</b> the smallest integer that is
-                divisible by both a and b.<br>
-                </p>
-                <p>If <i>a</i> and <i>b</i> are positvie integers then,
-                <i>a</i><i>b</i> &equals; gcd(<i>a</i>,<i>b</i>) &mul;
-                lcm(<i>a</i>.<i>b</i>) <br>
-                </p>
-                <p> <b> Eucledian Algorithm</b> Computing gcd using prime
-                factorization is a time consuming process. Eucledian algorithm
-                gives an efficient way to compute gcd.<br>
-                </p>
-                <p>
-                <b> Steps</b>
-                To find gcd(<i>a</i>, <i>b</i>)
-                <ol class = "nested">
-                    <li>
-                        Divide the larger of two numbers (say <i>a</i>) by the
-                        smaller number (say <i>b</i>) , let the divisor be
-                        (<i>c</i>)
-                    </li>
-                    <li>
-                        Now, the problem changes to finding
-                        gcd(<i>b</i>, <i>c</i>)
-                    </li>
-                    <li>
-                        Continue the above procedure,till one of the integers
-                        is 0
-                    </li>
-                </ol>
-
-                </p>
-
+            <details> <summary class="sum1"> Primes and Greatest Common
+                    Divisors </summary> <p> A prime is an integer excluding 1,
+                that is divisible by no positive integers other than 1 and
+                itself. <br> </p> <p> Prime numbers are quite important as they
+                are used in modern cryptographic systems. The length of time
+                required to factor large integers into their prime factors is
+                the basis for the strength of these systems.<br> </p> <p>
+                <b>Definition 1</b>: An integer <i>p</i> greater than 1 is
+                called prime if the only positive factors of <i>p</i> are 1 and
+                <i>p</i>. A positive integer that is greater than 1 and is not
+                prime is called composite.<br> </p> <p> <b>Definition 2</b>: If
+                <i>n</i> is a composite integer, then <i>n</i> has a prime
+                divisor less than or equal to &radic; n .<br><br> </p>
+                            <details> <summary class="sum2"> <b>The seive of
+                                        eratosthenes</b> </summary>
+                                <ol class="nested"> <li> The sieve of Eratosthenes is
+                                        used to find all primes not exceeding a
+                                        specified positive integer.  For
+                                        instance, the following procedure is
+                                        used to find the primes not exceeding
+                                        100.<br> </li>
+                                    <li> Because the only
+                                        primes less than 10 are 2, 3, 5, and 7,
+                                        the primes not exceeding 100 are these
+                                        four primes and those positive integers
+                            greater than 1 and not exceeding 100 that are
+                            divisible by none of 2, 3, 5, or 7<br> <br> </li>
+                                </ol> 
+                            </details> 
+                            <details>
+                                <summary class="sum2">
+                                    <b>More definitions</b>
+                                </summary>
+                                <ol class="nested">
+                                    <li>
+                                        <b> Greatest common divisor (gcd) </b>
+                                        The largest integer that
+                                divides both the two integers.<br> 
+                                    </li>
+                                    <li>
+                                        <b>Relatively prime</b> 
+                                        Two numbers are said to
+                                be realtively prime if their gcd is 1 <br>
+                                    </li>
+                                    <li>
+                                    <b>Least Common Multiple (lcm)</b> the
+                                smallest integer that is divisible by both a
+                                and b.<br> 
+                                If <i>a</i> and <i>b</i> are
+                                positvie integers then, <i>a</i> &times; <i>b</i>
+                                &equals; gcd(<i>a</i>, <i>b</i>) &times;
+                                lcm(<i>a</i>, <i>b</i>) <br>
+                                
+                                </li>
+                                <li> <b>Eucledian Algorithm</b>
+                                    Computing gcd using prime factorization is
+                                    a time consuming process.
+                                    Eucledian algorithm gives an 
+                                    `efficient way to
+                                    compute gcd.<br> 
+                                    <b> Steps</b> 
+                                    To find gcd(<i>a</i>, <i>b</i>)
+                                    <ol class ="nested" type="i"
+                                    style="font-size:.75em">
+                                        <li> Divide the larger of
+                                                two numbers (say <i>a</i>) by
+                                                the smaller number (say
+                                                <i>b</i>) , let the divisor be
+                                                (<i>c</i>) </li> <li> Now, the
+                                                problem changes to finding
+                                                gcd(<i>b</i>, <i>c</i>)
+                                        </li>
+                                                <li> Continue the above
+                                                    procedure,till one of the
+                                                    integers is 0
+                                                </li>
+                                    </ol>
+                                </li>
+                                </ol>    
+                            </details>
             </details>
 
             <details>
@@ -346,6 +330,26 @@
                       Furthermore, for every integer <i>a</i> we have
                       <i>a</i><sup><i>p</i></sup> &equiv; <i>a</i> (mod <i>p</i>).
                    </p>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        <b>Definitions</b>
+                    </summary>
+                    <ol class = "nested">
+                        <li>
+                            <b>Pseudoprime</b>
+                            <p>
+                            If <i>n</i> is a composite prime and <i>b</i> is a positive
+                            integer.then, if <i>b</i> <sup><i>n-1</i></sup> &equiv; 1
+                            (mod <i>n</i>), then <i>n</i> is a pseudoprime, with respect to <i>b</i>
+                            </p>
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+                        </li>
+                    </ol>
                 </details>
             </details>
 
