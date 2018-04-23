@@ -17,7 +17,7 @@
                 <figure class="lead-figure">
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ModularGroup-FundamentalDomain.svg/220px-ModularGroup-FundamentalDomain.svg.png"
-                        width="33%">
+                        width="14%">
                     <figcaption>
                         Action of the modular group on the upper-half plane
                     </figcaption>
@@ -43,18 +43,21 @@
                 <br>
                 <p>
                 <b>Modular Arithmetic</b>:
-                If <i>a</i> and <i>b</i> are integers and <i>m</i> is a positive integer,
-                then <i>a</i> is congruent to <i>b</i> modulo <i>m</i> if <i>m</i> divides <i>a</i> − <i>b</i>.
-                We use the notation <i>a</i> &equiv; <i>b</i> (mod <i>m</i>) to indicate that <i>a</i>
-                is congruent to <i>b</i> modulo <i>m</i>. We say that <i>a</i> &equiv; <i>b</i> (mod <i>m</i>)
+                If <i>a</i> and <i>b</i> are integers and <i>m</i> is a
+                positive integer, then <i>a</i> is congruent to <i>b</i> modulo
+                <i>m</i> if <i>m</i> divides <i>a</i> &minus; <i>b</i>.
+                We use the notation <i>a</i> &equiv; <i>b</i> (mod <i>m</i>) to
+                indicate that <i>a</i> is congruent to <i>b</i> modulo
+                <i>m</i>. We say that <i>a</i> &equiv; <i>b</i> (mod <i>m</i>)
                 is a congruence and that <i>m</i> is its modulus (plural moduli).
                 If <i>a</i> and <i>b</i> are not congruent modulo <i>m</i>,
-                we write <i>a ̸</i>&equiv; <i>b</i> (mod <i>m</i>).
+                we write <i>a</i> &#8802; <i>b</i> (mod <i>m</i>).
                 </p>
+
                 <p>
                 <b>Modular arithmetic </b>is a system of arithmetic
                 for integers, where numbers "wrap around"
-                upon reaching a certain value—the modulus (plural moduli)
+                upon reaching a certain value -- the modulus (plural moduli)
                 </p>
 
                 <details>
@@ -63,13 +66,17 @@
                     </summary>
                     <ol class="nested">
                         <li>
-                        Let <i>a</i>, <i>b</i>, and <i>c</i> be integers, where <i>a</i> &ne; 0. Then
+                        Let <i>a</i>, <i>b</i>, and <i>c</i> be integers, where
+                        <i>a</i> &ne; 0. Then
                         <br>
-                        (i) if <i>a</i> | <i>b</i> and <i>a</i> | <i>c</i>, then <i>a</i> | (<i>b</i> + <i>c</i>);
+                        (i) if <i>a</i> | <i>b</i> and <i>a</i> | <i>c</i>,
+                        then <i>a</i> | (<i>b</i> + <i>c</i>);
                         <br>
-                        (ii) if <i>a</i> | <i>b</i>,then <i>a</i> | <i>bc</i> for all integers <i>c</i>;
+                        (ii) if <i>a</i> | <i>b</i>,then <i>a</i> | <i>bc</i>
+                        for all integers <i>c</i>;
                         <br>
-                        (iii) if <i>a</i> | <i>b</i> and <i>b</i> | <i>c</i>, then <i>a</i> | <i>c</i>.
+                        (iii) if <i>a</i> | <i>b</i> and <i>b</i> | <i>c</i>,
+                        then <i>a</i> | <i>c</i>.
                         </li>
                         <li>
                         <b>THE DIVISION ALGORITHM</b> Let <i>a</i> be an integer
@@ -106,7 +113,6 @@
                 </details>
             </details>
 
-=======
             <details>
                 <summary class="sum1">
                     Integer Representations and
@@ -117,10 +123,10 @@
                 type is the number of bits in its representation. An integral
                 type with <i>n</i> bits can encode 2<i>n</i> numbers; for
                 example an unsigned type typically represents the non-negative
-                values 0 through 2<sup><i>n</i></sup>−1.  Other encodings of
-                integer values to bit patterns are sometimes used, for example
-                        Binary-coded decimal or Gray code, or as printed
-                        character codes such as ASCII.
+                values 0 through 2<sup><i>n</i></sup> &minus; 1.
+                Other encodings of integer values to bit patterns are sometimes
+                used, for example Binary-coded decimal or Gray code, or as
+                printed character codes such as ASCII.
                 </p>
                 <details>
                     <summary
@@ -132,10 +138,11 @@
                                    positive integer, it can be expressed
                                    uniquely in the form <br> <i>n</i> =
                                    a<sub>k</sub>b<sup>k</sup> +
-                                   a<sub>k-1</sub>b<sup>k-1</sup> +···+
+                                   a<sub>k-1</sub>b<sup>k-1</sup>
+                                   + &#8231;&#8231;&#8231; +
                                    a<sub>1</sub>b + a<sub>0</sub>, <br> where
                                    <i>k</i> is a nonnegative integer,
-                               a<sub>0</sub>, a<sub>1</sub>, . . . ,
+                               a<sub>0</sub>, a<sub>1</sub>, ... ,
                                a<sub>k</sub> are non-negative integers less
                            than <i>b</i>, and a<sub>k</sub> &ne; 0.  </li>
                             </ol> </details> </details> <details> <summary
@@ -198,8 +205,10 @@
                                    <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
                                    + · · · +
                                    <i>a</i>(<i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
-                               </li> </ol> </details> </details>
->>>>>>> 1b66b5bfb8e69ed39e62eba192d04394e79f33f0
+                               </li>
+                           </ol>
+                        </details>
+                    </details>
 
             <details> <summary class="sum1"> Primes and Greatest Common
                     Divisors </summary> <p> A prime is an integer excluding 1,
@@ -255,7 +264,7 @@
                                 lcm(<i>a</i>, <i>b</i>) <br>
                                 
                                 </li>
-                                <li> <b>Eucledian Algorithm</b>
+                                <li> <b>Euclidean Algorithm</b>
                                     Computing gcd using prime factorization is
                                     a time consuming process.
                                     Eucledian algorithm gives an 
@@ -273,9 +282,11 @@
                                                 problem changes to finding
                                                 gcd(<i>b</i>, <i>c</i>)
                                         </li>
-                                                <li> Continue the above
-                                                    procedure,till one of the
-                                                    integers is 0
+                                                <li>
+                                                    Continue the above
+                                                    procedure,
+                                                    till one of the
+                                                    integers is 0.
                                                 </li>
                                     </ol>
                                 </li>
@@ -288,8 +299,10 @@
                 Solving Congruences
                 </summary>
                 <p>
-                <b> Linear Congruences</b> A congruence of the form a<i>x</i> ≡ b (mod m),
-                    where m is a positive integer, a and b are integers, and <i>x</i> is a
+                <b> Linear Congruences</b>
+                A congruence of the form a<i>x</i> &equiv; b (mod m),
+                    where m is a positive integer, a and b
+                    are integers, and <i>x</i> is a
                     variable, is called a linear congruence.
                 </p>
                 <p>
