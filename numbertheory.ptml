@@ -35,10 +35,9 @@
                 <i>a</i> &ne; 0, we say that <i>a</i>
                 divides <i>b</i> if there is an integer
                 <i>c</i> such that <i>b</i> = <i>ac</i>,
-                or equivalently, if <i>b</i> is an integer.
+                or equivalently, if <i>b</i>/<i>a</i> is an integer.
                 When <i>a</i> divides <i>b</i>
-                we say that a is a factor or divisor when
-                <i>a</i> does not divide <i>b</i>.
+                we say that <i>a</i> is a factor.
                 </p>
                 <br>
                 <p>
