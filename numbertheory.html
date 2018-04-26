@@ -182,20 +182,22 @@
                                    Following the procedure specified in the
                                    algorithm, first note that <br>
                                    <i>a</i><sub>0</sub> + <i>b</i><sub>0</sub>
-                                   = 0 + 1 = 0·2 + 1, <br> so that
+                                   = 0 + 1 = 0 &times; 2 + 1, <br> so that
                                    <i>c</i><sub>0</sub> = 0 and
                                    <i>s</i><sub>0</sub> = 1. Then, because <br>
                                    <i>a</i><sub>1</sub> + <i>b</i><sub>1</sub>
-                                   + <i>c</i><sub>0</sub> = 1 + 1 + 0 = 1·2 +
+                                   + <i>c</i><sub>0</sub> = 1 + 1 + 0 = 1
+                                   &times; 2 +
                                    0, <br> it follows that <i>c</i><sub>1</sub>
                                    = 1 and <i>s</i><sub>1</sub> = 0.
                                    Continuing, <br> <i>a</i><sub>2</sub> +
                                    <i>b</i><sub>2</sub> + <i>c</i><sub>1</sub>
-                                   = 1 + 0 + 1 = 1·2 + 0, <br> so that
+                                   = 1 + 0 + 1 = 1 &times; 2 + 0, <br> so that
                                    <i>c</i><sub>2</sub> = 1 and
                                    <i>s</i><sub>2</sub> = 0.  Finally, because
                                    <i>a</i><sub>3</sub> + <i>b</i><sub>3</sub>
-                                   + <i>c</i><sub>2</sub> = 1 + 1 + 1 = 1·2 +
+                                   + <i>c</i><sub>2</sub> = 1 + 1 + 1 = 1
+                                   &times; 2 +
                                    1, <br> follows that <i>c</i><sub>3</sub> =
                                    1 and <i>s</i><sub>3</sub> = 1.  This means
                                    that <i>s</i><sub>4</sub> =
@@ -210,14 +212,17 @@
                                    follows. Using the distributive law, we see
                                    that <br> <i>ab</i> =
                                    <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup> +
-                                   <i>b</i><sub>1</sub>2<sup>1</sup> +···+
-                                   <i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
+                                   <i>b</i><sub>1</sub>2<sup>1</sup> + &#8231;
+                                   &#8231; &#8231; +
+                                   <i>b</i><sub><i>n</i> &minus;
+                                       1</sub>2<sup><i>n</i> &minus; 1</sup>)
                                    <br>: =
                                    <i>a</i>(<i>b</i><sub>0</sub>2<sup>0</sup>)
                                    +
                                    <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
-                                   + · · · +
-                                   <i>a</i>(<i>b</i><sub><i>n</i>−1</sub>2<sup><i>n</i>−1</sup>)
+                                   + &#8231; &#8231; &#8231; +
+                                   <i>a</i>(<i>b</i><sub><i>n</i> &minus; 1</sub>2<sup><i>n</i>
+                                       &minus; 1</sup>)
                                </li>
                            </ol>
                         </details>
@@ -359,22 +364,39 @@
                 </details>
                 <details>
                     <summary class="sum2">
-                        <b>Definitions</b>
+                        Definitions
                     </summary>
                     <ol class = "nested">
                         <li>
                             <b>Pseudoprime</b>
-                            <p>
                             If <i>n</i> is a composite prime and <i>b</i> is a positive
                             integer.then, if <i>b</i> <sup><i>n-1</i></sup> &equiv; 1
                             (mod <i>n</i>), then <i>n</i> is a pseudoprime, with respect to <i>b</i>
-                            </p>
                         </li>
                         <li>
+                            <b>Carmichael number</b>
+                            A composite number <i>n</i> which satisfies the
+                            congruence <i>b</i> <sup> <i>n</i>&minus; 1</sup>
+                            &equiv; 1 (mod <i>n</i>) for all positive integers <i>b</i>
+                            and gcd(<i>b</i>, <i> n</i>) &equals; 1
+                        </li>
+                        <li>
+                        <b> Primitive root </b>
+                        A primitive root modulo of a prime <i>p</i> is an integer <i>r</i>,
+                        such that every power of <i>r</i> is an element of Z
+                        <sub><i>p</i></sub>
+                        </li>
+                        <li>
+                        <b> Discrete Logarithm</b>
+                        Suppose that <i>p</i> is a prime, <i>r</i> is a primitive root
+                        modulo <i>p</i>, and <i>a</i> is an integer between 1 and
+                        <i>p</i> &minus; 1 inclusive. If <i>r</i> <sup><i>e</i></sup> mod <i>p</i>
+                        &equals; <i>a</i> and 0 &le; <i>e</i> &le; <i>p</i> &minus; 
+                        1, we say that <i>e</i> is the discrete logarithm of <i>a</i>
+                        modulo <i>p</i> to the base <i>r</i> and we write 
+                        log <i><sub>r</sub></i> <i>a</i> &equals; <i>e</i>.
+                        </li>
 
-                        </li>
-                        <li>
-                        </li>
                     </ol>
                 </details>
             </details>
