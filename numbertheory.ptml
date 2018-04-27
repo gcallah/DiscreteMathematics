@@ -427,23 +427,46 @@
                 </p>
                 <ol class ="nested">
                     <li>
-                        modulus m 
+                        modulus <i>m</i> 
                     </li>
                     <li>
-                        multiplier a, with 2 &le; a &lt; m
+                        multiplier <i>a</i>, with 2 &le; <i>a</i> &lt; <i>m</i>
                     </li>
                     <li>
-                        increment c, with 0 &le; c &lt; m
+                        increment <i>c</i>, with 0 &le; <i>c</i> &lt; <i>m</i>
                     </li>
                     <li>
-                        seed x<sub>0</sub> with 0 &le; x<sub>0</sub> &lt; m.
+                        seed <i>x</i><sub>0</sub> with 0 &le; <i>x</i><sub>0</sub> &lt; <i>m</i>.
                     </li>
+                    a pseudorandom number {<i>x</i><sub><i>n</i></sub>} is recursively generated such that
+                    0 &le; <i>x</i><sub><i>n</i></sub> &lt; <i>m</i> for all <i>n</i>
+                    <i>x</i><sub><i>n</i>+1</sub> &equals; (<i>a</i> <i>x</i><sub><i>n</i></sub> + <i>c</i>) mod <i>m</i>
                 </ol>
                 </details>
                 <details>
                 <summary class = "sum2">
                 Check Digits
                 </summary>
+                <p>
+                These are used to verify correctness of a particular string,
+                and finds its application in digital information, verifying
+                product codes etc.
+                </p>
+                <p>
+                An extra digit is added at the end of string. This final digit
+                is then checked to see whether the value is correct or not
+                </p>
+                <ol>
+                    <li>
+                        Parity check bits
+                    </li>
+                    <li>
+                        Universal code products
+                    </li>
+                    <li>
+                        International standard book number
+                    </li>
+                </ol>
                 </details>
             </details>
 
