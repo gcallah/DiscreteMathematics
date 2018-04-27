@@ -391,6 +391,60 @@
                 <summary class="sum1">
                 Applications of Congruences
                 </summary>
+                <p>
+                Congruences are applied in many fields of computer Science,
+                like assigning memory address to file systems, generating
+                pseudorandom numbers, check digits etc.
+                </p>
+                <details>
+                <summary class="sum2">
+                    Hashing Functions
+                </summary>
+                <p>
+                Records in database are stored and identified using unique id.
+                These id's are stored at a location formed using 
+                hashing functions.</br>
+                </p>
+                <p>
+                A hashing function assigns memory address h(<i>k</i>) to a record that
+                has key <i>k</i>.One of the most common used for this is 
+                h(<i>k</i>) &equals; <i>k</i> (mod <i>m</i>)
+                </p>
+                <p>
+                To find h(<i>k</i>), we need only compute the remainder when <i>k</i> is divided
+                by <i>m</i>. Furthermore, the hashing function should be onto, so that
+                all memory locations are possible
+                </p>
+                </details>
+                <details>
+                <summary class = "sum2">
+                    Pseudorandom Number
+                </summary>
+                <p>
+                Linear congruential method is generaly used for 
+                generating pseudorandom
+                numbers.We need four integers
+                </p>
+                <ol class ="nested">
+                    <li>
+                        modulus m 
+                    </li>
+                    <li>
+                        multiplier a, with 2 &le; a &lt; m
+                    </li>
+                    <li>
+                        increment c, with 0 &le; c &lt; m
+                    </li>
+                    <li>
+                        seed x<sub>0</sub> with 0 &le; x<sub>0</sub> &lt; m.
+                    </li>
+                </ol>
+                </details>
+                <details>
+                <summary class = "sum2">
+                Check Digits
+                </summary>
+                </details>
             </details>
 
             <details>
