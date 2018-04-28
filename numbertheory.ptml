@@ -84,30 +84,41 @@
                              &le; <i>r</i> &lt; <i>d</i>,
                              such that <i>a</i> = <i>dq</i> + <i>r</i>.
                         </li>
+                        
                         <li>
-                        Let <i>a</i> and <i>b</i> be integers, and let <i>m</i> be a positive integer.
-                        Then <i>a</i> &equiv; <i>b</i> (mod <i>m</i>) if and only if <i>a</i> mod <i>m</i> = <i>b</i> mod <i>m</i>.
+                        Let <i>a</i> and <i>b</i> be integers, and let <i>m</i>
+                        be a positive integer.  Then <i>a</i> &equiv; <i>b</i>
+                        (mod <i>m</i>) if and only if <i>a</i> mod <i>m</i> =
+                        <i>b</i> mod <i>m</i>.
                         </li>
+                        
                         <li>
-                        Let <i>m</i> be a positive integer. The integers <i>a</i> and <i>b</i> are
-                        congruent modulo <i>m</i> if and only if there is an
-                        integer <i>k</i> such that <i>a</i> = <i>b</i> + <i>km</i>
+                        Let <i>m</i> be a positive integer. The integers
+                        <i>a</i> and <i>b</i> are congruent modulo <i>m</i> if
+                        and only if there is an integer <i>k</i> such that
+                        <i>a</i> = <i>b</i> + <i>km</i>
                         </li>
+
                         <li>
-                        Let <i>m</i> be a positive integer. If <i>a</i> &equiv; <i>b</i> (mod <i>m</i>)
-                        and <i>c</i> &equiv; <i>d</i> (mod <i>m</i>), then <i>a</i> + <i>c</i> &equiv; <i>b</i> + <i>d</i> (mod <i>m</i>)
-                        and <i>ac</i> &equiv; <i>bd</i> (mod <i>m</i>).
+                        Let <i>m</i> be a positive integer. If <i>a</i> &equiv;
+                        <i>b</i> (mod <i>m</i>) and <i>c</i> &equiv; <i>d</i>
+                        (mod <i>m</i>), then <i>a</i> + <i>c</i> &equiv;
+                        <i>b</i> + <i>d</i> (mod <i>m</i>) and <i>ac</i>
+                        &equiv; <i>bd</i> (mod <i>m</i>).
                         </li>
                     </ol>
                     <p>
-                    <b>Corollary:</b> 1. If <i>a</i>, <i>b</i>, and <i>c</i> are integers,
-                    where <i>a</i> &ne; 0, such that <i>a</i> | <i>b</i> and <i>a</i> | <i>c</i>, then
-                    <i>a</i> | <i>mb</i> + <i>nc</i> whenever <i>m</i> and <i>n</i> are integers.
+                    <b>Corollary:</b> 1. If <i>a</i>, <i>b</i>, and <i>c</i>
+                    are integers, where <i>a</i> &ne; 0, such that <i>a</i> |
+                    <i>b</i> and <i>a</i> | <i>c</i>, then <i>a</i> | <i>mb</i>
+                    + <i>nc</i> whenever <i>m</i> and <i>n</i> are integers.
                     <br>
-                    2. Let <i>m</i> be a positive integer and let <i>a</i> and <i>b</i> be
-                    integers. Then (<i>a</i> + <i>b</i>) mod <i>m</i> = ((<i>a</i> mod <i>m</i>) + (<i>b</i> mod <i>m</i>)) mod <i>m</i>
-                    and
-                    <i>ab</i> mod <i>m</i> = ((<i>a</i> mod <i>m</i>)(<i>b</i> mod <i>m</i>)) mod <i>m</i>.
+                    2. Let <i>m</i> be a positive integer and let <i>a</i> and
+                    <i>b</i> be integers. Then (<i>a</i> + <i>b</i>) mod
+                    <i>m</i> = ((<i>a</i> mod <i>m</i>) + (<i>b</i> mod
+                    <i>m</i>)) mod <i>m</i> and <i>ab</i> mod <i>m</i> =
+                    ((<i>a</i> mod <i>m</i>)(<i>b</i> mod <i>m</i>)) mod
+                    <i>m</i>.
                     </p>
                 </details>
             </details>
@@ -115,7 +126,12 @@
             <details>
                 <summary class="sum1">
                     Integer Representations and
-                    Algorithms </summary> <p> The most common representation of
+                    Algorithms
+                    <br />
+                    NOT COVERED SPRING 2018
+                </summary>
+                <p>
+                The most common representation of
                 a positive integer is a string of bits, using the binary
                 numeral system. The order of the memory bytes storing the bits
                 varies; see endianness.  The width or precision of an integral
@@ -124,37 +140,59 @@
                 example an unsigned type typically represents the non-negative
                 values 0 through 2<sup><i>n</i></sup> &minus; 1.
                 Other encodings of integer values to bit patterns are sometimes
-                used, for example Binary-coded decimal or Gray code, or as
+                used, for example Binary-coded decimal or Gray code, or 
                 printed character codes such as ASCII.
                 </p>
                 <details>
-                    <summary
-                               class="sum2">
-                               Theorems </summary>
-                    <ol
-                               class="nested"> <li> Let <i>b</i> be an integer
-                                   greater than 1. Then if <i>n</i> is a
-                                   positive integer, it can be expressed
-                                   uniquely in the form <br> <i>n</i> =
-                                   a<sub>k</sub>b<sup>k</sup> +
-                                   a<sub>k-1</sub>b<sup>k-1</sup>
-                                   + &#8231;&#8231;&#8231; +
-                                   a<sub>1</sub>b + a<sub>0</sub>, <br> where
-                                   <i>k</i> is a nonnegative integer,
-                               a<sub>0</sub>, a<sub>1</sub>, ... ,
-                               a<sub>k</sub> are non-negative integers less
-                           than <i>b</i>, and a<sub>k</sub> &ne; 0.  </li>
-                            </ol> </details> </details> <details> <summary
-                               class="sum1"> Algorithms for Integer Operations
-                                </summary> <p> The algorithms for performing
+                    <summary class="sum2">
+                       Theorem 1
+                    </summary>
+                    <ol class="nested">
+                        <li>
+                            Let <i>b</i> be an integer
+                               greater than 1. Then if <i>n</i> is a
+                               positive integer, it can be expressed
+                               uniquely in the form <br> <i>n</i> =
+                               <i>a</i><sub><i>k</i></sub><i>b</i><sup><i>k</i></sup>
+                               +
+                               <i>a</i><sub><i>k</i>-1</sub><i>b</i><sup><i>k</i>-1</sup>
+                               + &#8231;&#8231;&#8231; +
+                               <i>a</i><sub>1</sub><i>b</i>
+                               + <i>a</i><sub>0</sub>,
+                               <br>
+                               where
+                               <i>k</i> is a nonnegative integer,
+                           <i>a</i><sub>0</sub>, <i>a</i><sub>1</sub>, ... ,
+                           <i>a</i><sub>k</sub> are non-negative integers less
+                           than <i>b</i>, and <i>a</i><sub><i>k</i></sub> &ne; 0.
+                        </li>
+                    </ol>
+                </details>
+                
+            <details>
+                <summary class="sum2">
+                    Algorithms for Integer Operations
+                </summary>
+                <p>
+                                The algorithms for performing
                                 operations with integers using their binary
                                 expansions are extremely important in computer
-                                arithmetic.  </p> <p> We will describe
+                                arithmetic.  
+                </p>
+
+                <p>
+                We will describe
                                 algorithms for the addition and the
                                 multiplication of two integers expressed in
-                                binary notation.  </p> <details> <summary
-                               class="sum2"> Types of Algorithms </summary> <ol
-                               class="nested"> <li> <i>ADDITION ALGORITHM:</i>
+                                binary notation.
+                </p>
+                <details>
+                    <summary class="sum3">
+                             Types of Algorithms
+                    </summary>
+                    <ol class="nested">
+                    <li>
+                    <i>ADDITION ALGORITHM:</i>
                                    Consider the problem of adding two integers
                                    in binary notation.  A procedure to perform
                                    addition can be based on the usual method
@@ -187,7 +225,8 @@
                                    that <i>s</i><sub>4</sub> =
                                    <i>c</i><sub>3</sub> = 1.  Therefore,
                                    <i>s</i> = <i>a</i> + <i>b</i> =
-                                   (11001)<sub>2</sub>.  </li> <li>
+                                   (11001)<sub>2</sub>.  </li>
+                    <li>
                                    <i>MULTIPLICATION ALGORITHM:</i> Consider
                                    the multiplication of two <i>n</i>-bit
                                    integers <i>a</i> and <i>b</i>.  The
@@ -208,50 +247,75 @@
                            </ol>
                         </details>
                     </details>
+            </details>
 
-            <details> <summary class="sum1"> Primes and Greatest Common
-                    Divisors </summary> <p> A prime is an integer excluding 1,
-                that is divisible by no positive integers other than 1 and
-                itself. <br> </p> <p> Prime numbers are quite important as they
+            <details>
+                <summary class="sum1">
+                    Primes and Greatest Common Divisors
+                </summary>
+                <p>
+                A prime is an integer 
+                that is divisible by two positive integers, 1 and
+                itself. 
+                </p>
+
+                <p>
+                Prime numbers are quite important as they
                 are used in modern cryptographic systems. The length of time
                 required to factor large integers into their prime factors is
-                the basis for the strength of these systems.<br> </p> <p>
+                the basis for the strength of these systems.
+                </p>
+
+                <p>
                 <b>Definition 1</b>: An integer <i>p</i> greater than 1 is
                 called prime if the only positive factors of <i>p</i> are 1 and
                 <i>p</i>. A positive integer that is greater than 1 and is not
-                prime is called composite.<br> </p> <p> <b>Definition 2</b>: If
+                prime is called composite.
+                </p>
+
+                <p>
+                <b>Definition 2</b>: If
                 <i>n</i> is a composite integer, then <i>n</i> has a prime
-                divisor less than or equal to &radic; n .<br><br> </p>
-                            <details> <summary class="sum2"> <b>The seive of
-                                        eratosthenes</b> </summary>
-                                <ol class="nested"> <li> The sieve of Eratosthenes is
-                                        used to find all primes not exceeding a
-                                        specified positive integer.  For
-                                        instance, the following procedure is
-                                        used to find the primes not exceeding
-                                        100.<br> </li>
-                                    <li> Because the only
-                                        primes less than 10 are 2, 3, 5, and 7,
-                                        the primes not exceeding 100 are these
-                                        four primes and those positive integers
-                            greater than 1 and not exceeding 100 that are
-                            divisible by none of 2, 3, 5, or 7<br> <br> </li>
-                                </ol> 
-                            </details> 
-                            <details>
-                                <summary class="sum2">
-                                    <b>More definitions</b>
-                                </summary>
-                                <ol class="nested">
+                divisor less than or equal to &radic; <i>n</i> .
+                </p>
+                    <details>
+                        <summary class="sum2">
+                            The Sieve of Eratosthenes
+                        </summary>
+                        <ol class="nested">
+                            <li>
+                                The sieve of Eratosthenes is
+                                used to find all primes not exceeding a
+                                specified positive integer.  For
+                                instance, the following procedure is
+                                used to find the primes not exceeding
+                                100.
+                             </li>
+                             <li>
+                                Because the only
+                                primes less than 10 are 2, 3, 5, and 7,
+                                the primes not exceeding 100 are these
+                                four primes and those positive integers
+                                greater than 1 and not exceeding 100 that are
+                                divisible by none of 2, 3, 5, or 7.
+                        </li>
+                    </ol> 
+                    </details> 
+
+                    <details>
+                            <summary class="sum2">
+                                More definitions
+                            </summary>
+                            <ol class="nested">
                                     <li>
                                         <b> Greatest common divisor (gcd) </b>
                                         The largest integer that
-                                divides both the two integers.<br> 
+                                        divides both of two integers.
                                     </li>
                                     <li>
                                         <b>Relatively prime</b> 
                                         Two numbers are said to
-                                be realtively prime if their gcd is 1 <br>
+                                        be relatively prime if their gcd is 1.
                                     </li>
                                     <li>
                                     <b>Least Common Multiple (lcm)</b> the
@@ -263,31 +327,32 @@
                                 lcm(<i>a</i>, <i>b</i>) <br>
                                 
                                 </li>
-                                <li> <b>Euclidean Algorithm</b>
+                                <li>
+                                    <b>Euclidean Algorithm</b>
+                                    <br />
                                     Computing gcd using prime factorization is
-                                    a time consuming process.
-                                    Eucledian algorithm gives an 
-                                    `efficient way to
-                                    compute gcd.<br> 
+                                    a time consuming process.  The Euclidean
+                                    algorithm gives an `efficient way
+                                    to compute gcd.<br> 
                                     <b> Steps</b> 
                                     To find gcd(<i>a</i>, <i>b</i>)
-                                    <ol class ="nested" type="i"
+                                <ol class ="nested" type="i"
                                     style="font-size:.75em">
-                                        <li> Divide the larger of
-                                                two numbers (say <i>a</i>) by
-                                                the smaller number (say
-                                                <i>b</i>) , let the divisor be
-                                                (<i>c</i>) </li> <li> Now, the
-                                                problem changes to finding
-                                                gcd(<i>b</i>, <i>c</i>)
-                                        </li>
-                                                <li>
-                                                    Continue the above
-                                                    procedure,
-                                                    till one of the
-                                                    integers is 0.
-                                                </li>
-                                    </ol>
+                                    <li>
+                                        Divide the larger of two numbers (say
+                                        <i>a</i>) by the smaller number (say
+                                        <i>b</i>), let the remainder be
+                                        (<i>c</i>).
+                                    </li>
+                                    <li>
+                                        Now, the problem changes to finding
+                                        gcd(<i>b</i>, <i>c</i>)
+                                    </li>
+                                    <li>
+                                            Continue the above procedure,
+                                            till one of the integers is 0.
+                                    </li>
+                                </ol>
                                 </li>
                                 </ol>    
                             </details>
@@ -310,26 +375,32 @@
                 congruences.
                 </p>
                 <p>
-                <b>Theorem 1</b> If <i>a</i> and <i>m</i> are relatively prime integers and <i>m</i>
-                &ge; 1, then an inverse of <i>a</i> modulo <i>m</i> exists which is unique.
-                and every inverse of <i>a</i> modulo <i>m</i> is congruent to <i>a</i> modulo <i>m</i>.
+                <b>Theorem 1</b> If <i>a</i> and <i>m</i> are relatively prime
+                integers and <i>m</i> &ge; 1, then an inverse of <i>a</i>
+                modulo <i>m</i> exists which is unique.  And every inverse of
+                <i>a</i> modulo <i>m</i> is congruent to <i>a</i> modulo
+                <i>m</i>.
                 </p>
                 <details>
                     <summary class="sum2">
                         The Chinese Remainder Theorem
                     </summary>
                     <p>
-                    Let <i>m</i><sub>1</sub>,<i>m</i><sub>2</sub>, . . . ,
+                    Let <i>m</i><sub>1</sub>,<i>m</i><sub>2</sub>, ... ,
                     <i>m</i><sub>n</sub> be pairwise relatively
                     prime positive integers greater than 1 and
                     <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>,
-                    . . . , <i>a</i><sub><i>n</i></sub> be arbitrary integers. Then,
-                    <i>x</i> &equiv; <i>a</i><sub>1</sub> (mod <i>m</i><sub>1</sub>),
-                    x &equiv; <i>a</i><sub>2</sub> (mod <i>m</i><sub>2</sub>),
-                    <i>x</i> &equiv; <i>a</i><sub><i>n</i></sub> (mod m<sub>n</sub>)
-                    has a unique solution modulo <i>m</i> &euiv; <i>m</i><sub>1</sub><i>m</i><sub>2</sub>
-                    &lowast; &lowast; &lowast;<i>m</i><sub><i>n</i></sub>. (That is, there is a solution <i>x</i> with
-                    0 &le; <i>x</i> &lt; <i>m</i>, and all other solutions are congruent modulo <i>m</i> to this solution.)
+                    ... , <i>a</i><sub><i>n</i></sub> be arbitrary integers. Then,
+                    <i>x</i> &equiv; <i>a</i><sub>1</sub> (mod
+                    <i>m</i><sub>1</sub>), x &equiv; <i>a</i><sub>2</sub> (mod
+                    <i>m</i><sub>2</sub>), <i>x</i> &equiv;
+                    <i>a</i><sub><i>n</i></sub> (mod m<sub>n</sub>)
+                    has a unique solution modulo <i>m</i>
+                    &euiv; <i>m</i><sub>1</sub><i>m</i><sub>2</sub>
+                    &lowast; &lowast; &lowast;<i>m</i><sub><i>n</i></sub>.
+                    (That is, there is a solution <i>x</i> with 0 &le; <i>x</i>
+                    &lt; <i>m</i>, and all other solutions are congruent modulo
+                    <i>m</i> to this solution.)
                     </p>
                 </details>
                 <details>
@@ -337,8 +408,9 @@
                      Fermat's Little Theorem
                    </summary>
                    <p>
-                      If <i>p</i> is prime and <i>a</i> is an integer not divisible by <i>p</i>, then
-                      <i>a</i><sup><i>p</i> &minus; <i>1</i> </sup> &equiv; 1 (mod <i>p</i>).
+                      If <i>p</i> is prime and <i>a</i> is an integer not
+                      divisible by <i>p</i>, then <i>a</i><sup><i>p</i> &minus;
+                          <i>1</i> </sup> &equiv; 1 (mod <i>p</i>).
                       Furthermore, for every integer <i>a</i> we have
                       <i>a</i><sup><i>p</i></sup> &equiv; <i>a</i> (mod <i>p</i>).
                    </p>
@@ -350,16 +422,12 @@
                     <ol class = "nested">
                         <li>
                             <b>Pseudoprime</b>
-                            <p>
-                            If <i>n</i> is a composite prime and <i>b</i> is a positive
-                            integer.then, if <i>b</i> <sup><i>n-1</i></sup> &equiv; 1
-                            (mod <i>n</i>), then <i>n</i> is a pseudoprime, with respect to <i>b</i>
-                            </p>
-                        </li>
-                        <li>
-
-                        </li>
-                        <li>
+                            <br>
+                            If <i>n</i> is a composite prime and <i>b</i> is a
+                            positive integer.then, if <i>b</i>
+                            <sup><i>n-1</i></sup> &equiv; 1 (mod <i>n</i>),
+                            then <i>n</i> is a pseudoprime, with respect to
+                            <i>b</i>
                         </li>
                     </ol>
                 </details>
