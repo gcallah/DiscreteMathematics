@@ -260,7 +260,8 @@
                                    +
                                    <i>a</i>(<i>b</i><sub>1</sub>2<sup>1</sup>)
                                    + &#8231; &#8231; &#8231; +
-                                   <i>a</i>(<i>b</i><sub><i>n</i> &minus; 1</sub>2<sup><i>n</i>
+                                   <i>a</i>(<i>b</i><sub><i>n</i>
+                                       &minus; 1</sub>2<sup><i>n</i>
                                        &minus; 1</sup>)
                                </li>
                            </ol>
@@ -272,109 +273,117 @@
                 <summary class="sum1">
                     Primes and Greatest Common Divisors
                 </summary>
-                <p>
-                A prime is an integer 
-                that is divisible by two positive integers, 1 and
-                itself. 
-                </p>
 
-                <p>
-                Prime numbers are quite important as they
-                are used in modern cryptographic systems. The length of time
-                required to factor large integers into their prime factors is
-                the basis for the strength of these systems.
-                </p>
 
-                <p>
-                <b>Definition 1</b>: An integer <i>p</i> greater than 1 is
-                called prime if the only positive factors of <i>p</i> are 1 and
-                <i>p</i>. A positive integer that is greater than 1 and is not
-                prime is called composite.
-                </p>
+                <details>
+                    <summary class="sum2">
+                        Primes
+                    </summary>
 
-                <p>
-                <b>Definition 2</b>: If
-                <i>n</i> is a composite integer, then <i>n</i> has a prime
-                divisor less than or equal to &radic; <i>n</i> .
-                </p>
-                    <details>
-                        <summary class="sum2">
-                            The Sieve of Eratosthenes
-                        </summary>
-                        <ol class="nested">
-                            <li>
-                                The sieve of Eratosthenes is
-                                used to find all primes not exceeding a
-                                specified positive integer.  For
-                                instance, the following procedure is
-                                used to find the primes not exceeding
-                                100.
-                             </li>
-                             <li>
-                                Because the only
-                                primes less than 10 are 2, 3, 5, and 7,
-                                the primes not exceeding 100 are these
-                                four primes and those positive integers
-                                greater than 1 and not exceeding 100 that are
-                                divisible by none of 2, 3, 5, or 7.
+                    <p>
+                    A prime is an integer 
+                    that is divisible by two positive integers, 1 and
+                    itself. 
+                    </p>
+    
+                    <p>
+                    Prime numbers are quite important as they
+                    are used in modern cryptographic systems. The length of time
+                    required to factor large integers into their prime factors is
+                    the basis for the strength of these systems.
+                    </p>
+    
+                    <p>
+                    <b>Definition 1</b>: An integer <i>p</i> greater than 1 is
+                    called prime if the only positive factors of <i>p</i> are 1
+                    and <i>p</i>. A positive integer that is greater than 1 and
+                    is not prime is called composite.
+                    </p>
+    
+                    <p>
+                    <b>Definition 2</b>: If
+                    <i>n</i> is a composite integer, then <i>n</i> has a prime
+                    divisor less than or equal to &radic; <i>n</i> .
+                    </p>
+                </details>
+                <details>
+                    <summary class="sum2">
+                        The Sieve of Eratosthenes
+                    </summary>
+                    <ol class="nested">
+                        <li>
+                            The sieve of Eratosthenes is
+                            used to find all primes not exceeding a
+                            specified positive integer.  For
+                            instance, the following procedure is
+                            used to find the primes not exceeding
+                            100.
+                         </li>
+                         <li>
+                            Because the only
+                            primes less than 10 are 2, 3, 5, and 7,
+                            the primes not exceeding 100 are these
+                            four primes and those positive integers
+                            greater than 1 and not exceeding 100 that are
+                            divisible by none of 2, 3, 5, or 7.
+                    </li>
+                </ol> 
+                </details> 
+
+                <details>
+                    <summary class="sum2">
+                        More definitions
+                    </summary>
+                    <ol class="nested">
+                        <li>
+                            <b> Greatest common divisor (gcd) </b>
+                            The largest integer that
+                            divides both of two integers.
                         </li>
-                    </ol> 
-                    </details> 
-
-                    <details>
-                            <summary class="sum2">
-                                More definitions
-                            </summary>
-                            <ol class="nested">
-                                    <li>
-                                        <b> Greatest common divisor (gcd) </b>
-                                        The largest integer that
-                                        divides both of two integers.
-                                    </li>
-                                    <li>
-                                        <b>Relatively prime</b> 
-                                        Two numbers are said to
-                                        be relatively prime if their gcd is 1.
-                                    </li>
-                                    <li>
-                                    <b>Least Common Multiple (lcm)</b> the
-                                smallest integer that is divisible by both a
-                                and b.<br> 
-                                If <i>a</i> and <i>b</i> are
-                                positvie integers then, <i>a</i> &times; <i>b</i>
-                                &equals; gcd(<i>a</i>, <i>b</i>) &times;
-                                lcm(<i>a</i>, <i>b</i>) <br>
-                                
-                                </li>
-                                <li>
-                                    <b>Euclidean Algorithm</b>
-                                    <br />
-                                    Computing gcd using prime factorization is
-                                    a time consuming process.  The Euclidean
-                                    algorithm gives an `efficient way
-                                    to compute gcd.<br> 
-                                    <b> Steps</b> 
-                                    To find gcd(<i>a</i>, <i>b</i>)
-                                <ol class ="nested" type="i"
-                                    style="font-size:.75em">
-                                    <li>
-                                        Divide the larger of two numbers (say
-                                        <i>a</i>) by the smaller number (say
-                                        <i>b</i>), let the remainder be
-                                        (<i>c</i>).
-                                    </li>
-                                    <li>
-                                        Now, the problem changes to finding
-                                        gcd(<i>b</i>, <i>c</i>)
-                                    </li>
-                                    <li>
-                                            Continue the above procedure,
-                                            till one of the integers is 0.
-                                    </li>
-                                </ol>
-                                </li>
-                                </ol>    
-                            </details>
+                        <li>
+                            <b>Relatively prime</b> 
+                            Two numbers are said to
+                            be relatively prime if their gcd is 1.
+                        </li>
+                        <li>
+                            <b>Least Common Multiple (lcm)</b> the
+                        smallest integer that is divisible by both a
+                        and b.<br> 
+                        If <i>a</i> and <i>b</i> are
+                        positvie integers then, <i>a</i> &times; <i>b</i>
+                        &equals; gcd(<i>a</i>, <i>b</i>) &times;
+                        lcm(<i>a</i>, <i>b</i>) <br>
+                        
+                        </li>
+                        <li>
+                            <b>Euclidean Algorithm</b>
+                            <br />
+                            Computing gcd using prime factorization is
+                            a time consuming process.  The Euclidean
+                            algorithm gives an `efficient way
+                            to compute gcd.<br> 
+                            <b> Steps</b> 
+                            To find gcd(<i>a</i>, <i>b</i>)
+                        <ol class ="nested" type="i"
+                            style="font-size:.75em">
+                            <li>
+                                Divide the larger of two numbers (say
+                                <i>a</i>) by the smaller number (say
+                                <i>b</i>), let the remainder be
+                                (<i>c</i>).
+                            </li>
+                            <li>
+                                Now, the problem changes to finding
+                                gcd(<i>b</i>, <i>c</i>)
+                            </li>
+                            <li>
+                                    Continue the above procedure,
+                                    till one of the integers is 0.
+                            </li>
+                        </ol>
+                        </li>
+                        </ol>    
+                    </details>
             </details>
 
             <details>
@@ -441,41 +450,38 @@
                     <ol class = "nested">
                         <li>
                             <b>Pseudoprime</b>
-<<<<<<< HEAD
                             <br>
                             If <i>n</i> is a composite prime and <i>b</i> is a
                             positive integer.then, if <i>b</i>
                             <sup><i>n-1</i></sup> &equiv; 1 (mod <i>n</i>),
                             then <i>n</i> is a pseudoprime, with respect to
                             <i>b</i>
-=======
-                            If <i>n</i> is a composite prime and <i>b</i> is a positive
-                            integer.then, if <i>b</i> <sup><i>n-1</i></sup> &equiv; 1
-                            (mod <i>n</i>), then <i>n</i> is a pseudoprime, with respect to <i>b</i>
                         </li>
                         <li>
                             <b>Carmichael number</b>
                             A composite number <i>n</i> which satisfies the
                             congruence <i>b</i> <sup> <i>n</i>&minus; 1</sup>
-                            &equiv; 1 (mod <i>n</i>) for all positive integers <i>b</i>
-                            and gcd(<i>b</i>, <i> n</i>) &equals; 1
+                            &equiv; 1 (mod <i>n</i>) for all positive integers
+                            <i>b</i> and gcd(<i>b</i>, <i> n</i>) &equals; 1
                         </li>
                         <li>
                         <b> Primitive root </b>
-                        A primitive root modulo of a prime <i>p</i> is an integer <i>r</i>,
-                        such that every power of <i>r</i> is an element of Z
-                        <sub><i>p</i></sub>
+                        A primitive root modulo of a prime <i>p</i> is an
+                        integer <i>r</i>, such that every power of <i>r</i> is
+                        an element of Z <sub><i>p</i></sub>
                         </li>
+
                         <li>
                         <b> Discrete Logarithm</b>
-                        Suppose that <i>p</i> is a prime, <i>r</i> is a primitive root
-                        modulo <i>p</i>, and <i>a</i> is an integer between 1 and
-                        <i>p</i> &minus; 1 inclusive. If <i>r</i> <sup><i>e</i></sup> mod <i>p</i>
-                        &equals; <i>a</i> and 0 &le; <i>e</i> &le; <i>p</i> &minus; 
-                        1, we say that <i>e</i> is the discrete logarithm of <i>a</i>
-                        modulo <i>p</i> to the base <i>r</i> and we write 
-                        log <i><sub>r</sub></i> <i>a</i> &equals; <i>e</i>.
->>>>>>> 91501ef45a98f52caa8b1b0dcefbad0fabeccd7b
+                        Suppose that <i>p</i> is a prime, <i>r</i> is a
+                        primitive root modulo <i>p</i>, and <i>a</i> is an
+                        integer between 1 and <i>p</i> &minus; 1 inclusive. If
+                        <i>r</i> <sup><i>e</i></sup> mod <i>p</i> &equals;
+                        <i>a</i> and 0 &le; <i>e</i> &le; <i>p</i> &minus; 1,
+                        we say that <i>e</i> is the discrete logarithm of
+                        <i>a</i> modulo <i>p</i> to the base <i>r</i> and we
+                        write log <i><sub>r</sub></i> <i>a</i> &equals;
+                        <i>e</i>.
                         </li>
                     </ol>
 
