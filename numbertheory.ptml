@@ -274,9 +274,9 @@
     
                     <p>
                     Prime numbers are quite important as they
-                    are used in modern cryptographic systems. The length of time
-                    required to factor large integers into their prime factors is
-                    the basis for the strength of these systems.
+                    are used in modern cryptographic systems. The length of
+                    time required to factor large integers into their prime
+                    factors is the basis for the strength of these systems.
                     </p>
     
                     <p>
@@ -292,6 +292,7 @@
                     divisor less than or equal to &radic; <i>n</i> .
                     </p>
                 </details>
+
                 <details>
                     <summary class="sum2">
                         The Sieve of Eratosthenes
@@ -312,8 +313,64 @@
                             four primes and those positive integers
                             greater than 1 and not exceeding 100 that are
                             divisible by none of 2, 3, 5, or 7.
-                    </li>
-                </ol> 
+                        </li>
+                    </ol> 
+                </details> 
+
+                <details>
+                    <summary class="sum2">
+                        Conjectures and Open Problems About Primes
+                    </summary>
+                </details> 
+
+                <details>
+                    <summary class="sum2">
+                        Greatest Common Divisors and Least Common Multiples
+                    </summary>
+                    <p>
+                        <b> Greatest common divisor (gcd) </b>
+                        The largest integer that
+                        divides both of two integers.
+                    </p>
+                </details> 
+
+                <details>
+                    <summary class="sum2">
+                        The Euclidean Algorithm
+                    </summary>
+                        <p>
+                            <b>Euclidean Algorithm</b>
+                            <br />
+                            Computing gcd using prime factorization is
+                            a time consuming process.  The Euclidean
+                            algorithm gives an `efficient way
+                            to compute gcd.<br> 
+                            <b> Steps</b> 
+                            To find gcd(<i>a</i>, <i>b</i>)
+                        </p>
+                        <ol class ="nested" type="i"
+                            style="font-size:.75em">
+                            <li>
+                                Divide the larger of two numbers (say
+                                <i>a</i>) by the smaller number (say
+                                <i>b</i>), let the remainder be
+                                (<i>c</i>).
+                            </li>
+                            <li>
+                                Now, the problem changes to finding
+                                gcd(<i>b</i>, <i>c</i>)
+                            </li>
+                            <li>
+                                Continue the above procedure,
+                                till one of the integers is 0.
+                            </li>
+                        </ol>
+                </details> 
+
+                <details>
+                    <summary class="sum2">
+                        gcd as a Linear Combination
+                    </summary>
                 </details> 
 
                 <details>
@@ -321,11 +378,6 @@
                         More definitions
                     </summary>
                     <ol class="nested">
-                        <li>
-                            <b> Greatest common divisor (gcd) </b>
-                            The largest integer that
-                            divides both of two integers.
-                        </li>
                         <li>
                             <b>Relatively prime</b> 
                             Two numbers are said to
@@ -340,33 +392,6 @@
                         &equals; gcd(<i>a</i>, <i>b</i>) &times;
                         lcm(<i>a</i>, <i>b</i>) <br>
                         
-                        </li>
-                        <li>
-                            <b>Euclidean Algorithm</b>
-                            <br />
-                            Computing gcd using prime factorization is
-                            a time consuming process.  The Euclidean
-                            algorithm gives an `efficient way
-                            to compute gcd.<br> 
-                            <b> Steps</b> 
-                            To find gcd(<i>a</i>, <i>b</i>)
-                        <ol class ="nested" type="i"
-                            style="font-size:.75em">
-                            <li>
-                                Divide the larger of two numbers (say
-                                <i>a</i>) by the smaller number (say
-                                <i>b</i>), let the remainder be
-                                (<i>c</i>).
-                            </li>
-                            <li>
-                                Now, the problem changes to finding
-                                gcd(<i>b</i>, <i>c</i>)
-                            </li>
-                            <li>
-                                    Continue the above procedure,
-                                    till one of the integers is 0.
-                            </li>
-                        </ol>
                         </li>
                         </ol>    
                     </details>
