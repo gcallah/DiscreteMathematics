@@ -628,12 +628,14 @@
                         The RSA Cryptosystem
                     </summary>
                     <p>
-                    In the RSA cryptosystem, each individual has an encryption key
-                    (<i>n</i>, <i>e</i>) where <i>n</i> = <i>pq</i>, the
+                    In the RSA cryptosystem, each individual has 
+                    an encryption key (<i>n</i>, <i>e</i>) where
+                    <i>n</i> &equals; <i>pq</i>, the
                     modulus is the product of two large primes
-                    <i>p</i> and <i>q</i>, and an exponent <i>e</i> that is
-                    relatively prime to (<i>p</i> − 1)(<i>q</i> − 1).
-                     To produce a usable key, two large primes must be found.
+                    <i>p</i> and <i>q</i>, and an exponent <i>e</i>
+                    that is relatively prime to (<i>p</i> &minus; 1)
+                    (<i>q</i> &minus; 1).To produce a usable key, 
+                    two large primes must be found.
                     </p>
                 </details>
                 
@@ -650,7 +652,7 @@
                         <i>m<sub>i</sub></i> to a
                         ciphertext block <i>c<sub>i</sub></i> . This is done
                         using the function
-                        <i>C</i> = <i>M<sup>e</sup></i> mod <i>n</i>.
+                        <i>C</i> &equals; <i>M<sup>e</sup></i> mod <i>n</i>.
                         </p>
                 </details>
                 <details>
@@ -661,9 +663,10 @@
                         The plaintext message can be quickly recovered
                         from a ciphertext message when the decryption
                         key <i>d</i>, an inverse of 
-                        <i>e</i> modulo (<i>p</i> − 1)(<i>q</i> − 1),
+                        <i>e</i> modulo (<i>p</i> &minus; 1)(<i>q</i> &minus; 1),
                         is known. An inverse surely exists because
-                        gcd(<i>e</i>, (<i>p</i> − 1)(<i>q</i> − 1)) = 1
+                        gcd(<i>e</i>, (<i>p</i> &minus;  1)(<i>q</i> &minus; 1))
+                        &equals; 1
                     </p>
                 </details>
                 <details>
@@ -674,11 +677,12 @@
                     RSA is used as public key system as it is easily possible
                     to construct a public key by finding two large primes
                     <i>p</i> and <i>q</i>,
-                    and to find an integer <i>e</i> relatively prime to (<i>p</i> − 1)
-                    (<i>q</i> − 1).
+                    and to find an integer <i>e</i> relatively prime to
+                    (<i>p</i> &minus; 1)
+                    (<i>q</i> &minus; 1).
                     When we know <i>p</i> and <i>q</i>, 
                     we can easily compute the inverse <i>d</i> of <i>e</i> modulo
-                    (<i>p</i> − 1) (<i>q</i> − 1).
+                    (<i>p</i> &minus; 1) (<i>q</i> &minus; 1).
                     </p>
                     <p>
                     Factorization is difficult
@@ -693,9 +697,11 @@
                         Cryptographic Protocols
                         </summary>
                         <p>
-                        Cryptographic protocol is exchange of messages between two
-                        parties over an insecure communication channel.
-                        This requires forming a key to be shared between both
+                        Cryptographic protocol is exchange of 
+                        messages between two
+                        parties over an insecure communication 
+                        channel. This requires forming a key to 
+                        be shared between both
                         parties.
                         </p>
                         <p>
@@ -723,8 +729,9 @@
                         </ol>
                         </p>
                         <p>
-                            The protocol ensures that <i>k1</i>, <i>k2</i>, and the common
-                            key are kept secret,no other method is known for finding the
+                            The protocol ensures that <i>k1</i>, <i>k2</i>, 
+                            and the common key are kept secret,no other 
+                            method is known for finding the
                             shared key using just the public information.
                         
                         </p>
