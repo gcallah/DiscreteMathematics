@@ -625,7 +625,7 @@
                 </details>
                 <details>
                     <summary class="sum2">
-                        RSA Algorithm
+                        The RSA Cryptosystem
                     </summary>
                     <p>
                     In the RSA cryptosystem, each individual has an encryption key
@@ -636,15 +636,21 @@
                      To produce a usable key, two large primes must be found.
                     </p>
                 </details>
-                <details>
-                    <summary class="sum2">
-                     The RSA Cryptosystem
-                    </summary>
-                </details>
+                
                 <details>
                     <summary class="sum2">
                         RSA Encryption
                         </summary>
+                        <p>
+                       Plaintext message M into a sequence of integers
+                       <i>m<sub>1</sub></i>, <i>m<sub>2</sub></i>, . . . ,
+                       <i>m<sub>k</sub></i> for some integer <i>k</i>. 
+                        Encryption proceeds by transforming each block
+                        <i>m<sub>i</sub></i> to a
+                        ciphertext block <i>c<sub>i</sub></i> . This is done
+                        using the function
+                        <i>C</i> = <i>M<sup>e</sup></i> mod <i>n</i>.
+                        </p>
                 </details>
                 <details>
                     <summary class="sum2">
