@@ -656,8 +656,9 @@
                         RSA Encryption
                         </summary>
                         <p>
-                       Plaintext message M into a sequence of integers
-                       <i>m<sub>1</sub></i>, <i>m<sub>2</sub></i>, . . . ,
+                        A plaintext message M is converted into a sequence
+                        of integers <i>m<sub>1</sub></i>,
+                        <i>m<sub>2</sub></i>, . . . ,
                        <i>m<sub>k</sub></i> for some integer <i>k</i>. 
                         Encryption proceeds by transforming each block
                         <i>m<sub>i</sub></i> to a
@@ -670,16 +671,77 @@
                     <summary class="sum2">
                         RSA Decryption
                     </summary>
+                    <p>
+                        The plaintext message can be quickly recovered
+                        from a ciphertext message when the decryption
+                        key <i>d</i>, an inverse of 
+                        <i>e</i> modulo (<i>p</i> − 1)(<i>q</i> − 1),
+                        is known. An inverse surely exists because
+                        gcd(<i>e</i>, (<i>p</i> − 1)(<i>q</i> − 1)) = 1
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
                         RSA as a Public Key System
                     </summary>
+                    <p>
+                    RSA is used as public key system as it is easily possible
+                    to construct a public key by finding two large primes
+                    <i>p</i> and <i>q</i>,
+                    and to find an integer <i>e</i> relatively prime to (<i>p</i> − 1)
+                    (<i>q</i> − 1).
+                    When we know <i>p</i> and <i>q</i>, 
+                    we can easily compute the inverse <i>d</i> of <i>e</i> modulo
+                    (<i>p</i> − 1) (<i>q</i> − 1).
+                    </p>
+                    <p>
+                    Factorization is difficult
+                    as opposed to finding large primes <i>p</i> and <i>q</i>.
+                    The most efficient factorization methods known
+                    require billions of years 
+                    to factor 400-digit integers.
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
                         Cryptographic Protocols
                         </summary>
+                        <p>
+                        Cryptographic protocol is exchange of messages between two
+                        parties over an insecure communication channel.
+                        This requires forming a key to be shared between both
+                        parties.
+                        </p>
+                        <p>
+                        the following protocol is followed:
+                        <ol class="nested">
+                            <li>
+                                A prime number say <i>p</i> and <i>a</i> primitive root 
+                                of <i>p</i>, say <i>a</i> is agreed to be 
+                                used by both parties.
+                            </li>
+                            <li>
+                                The first party chooses <i>a</i> secret integer
+                                k1 and sends <i>a</i><sup><i>k1</i></sup> mod <i>p</i> to
+                                the second party
+                            </li>
+                            <li>
+                                The second party chooses <i>a</i> secret integer
+                                <i>k2</i> and sends <i>a</i><sup>k2</sup> mod <i>p</i>
+                            </li>
+                            <li>
+                                Alice computes (<i>a</i><sup><i>k2</i></sup>)<sup><i>k1</i></sup> mod <i>p</i>.
+                                Second party computes (<i>a</i><sup><i>k1</i></sup>)<sup><i>k2</i></sup> mod <i>p</i>
+                                which is the shared key
+                            </li>
+                        </ol>
+                        </p>
+                        <p>
+                            The protocol ensures that <i>k1</i>, <i>k2</i>, and the common
+                            key are kept secret,no other method is known for finding the
+                            shared key using just the public information.
+                        
+                        </p>
                 </details>
                 
 
