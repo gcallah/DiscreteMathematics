@@ -348,8 +348,7 @@
                             <b> Steps</b> 
                             To find gcd(<i>a</i>, <i>b</i>)
                         </p>
-                        <ol class ="nested" type="i"
-                            style="font-size:.75em">
+                        <ol class ="nested" type="i">
                             <li>
                                 Divide the larger of two numbers (say
                                 <i>a</i>) by the smaller number (say
@@ -550,10 +549,13 @@
                     <li>
                         seed <i>x</i><sub>0</sub> with 0 &le; <i>x</i><sub>0</sub> &lt; <i>m</i>.
                     </li>
+                </ol>
+                <p>
                     a pseudorandom number {<i>x</i><sub><i>n</i></sub>} is recursively generated such that
                     0 &le; <i>x</i><sub><i>n</i></sub> &lt; <i>m</i> for all <i>n</i>
                     <i>x</i><sub><i>n</i>+1</sub> &equals; (<i>a</i> <i>x</i><sub><i>n</i></sub> + <i>c</i>) mod <i>m</i>
-                </ol>
+
+                </p>
                 </details>
                 <details>
                 <summary class = "sum2">
