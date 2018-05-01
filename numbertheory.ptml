@@ -321,8 +321,29 @@
                     <summary class="sum2">
                         Conjectures and Open Problems About Primes
                     </summary>
-                </details> 
+                    <p>
+                    There are few conjectures which have not yet been proved.
+                    Below are few conjectures whose proofs has not been found
+                    </p>
+                    <ol class="nested">
+                        <li>
+                            <b>Goldbach's Conjecture</b>Any even number greater 
+                            than 2, can be written as sum of two primes.
 
+                        </li>
+                        <li>
+                            
+                            The <b> twin prime conjecture </b> asserts that
+                            there are infinitely many twin primes
+
+                        </li>
+                        <li>
+                            There are infinitely many primes of the form
+                            <i>n</i><sup>2</sup> &plus; 1, where <i>n</i> is a positive integer.
+
+                        </li>
+                    </ol>
+                </details> 
                 <details>
                     <summary class="sum2">
                         Greatest Common Divisors and Least Common Multiples
