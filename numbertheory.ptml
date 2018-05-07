@@ -359,6 +359,12 @@
                     <summary class="sum2">
                         The Euclidean Algorithm
                     </summary>
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Euclid%27s_algorithm_Book_VII_Proposition_2_3.png"
+                        width="24%">
+                        <figcaption>
+                        </figcaption>
+                    </figure>
                         <p>
                             <b>Euclidean Algorithm</b>
                             <br />
