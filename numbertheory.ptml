@@ -488,7 +488,7 @@
                         <li>
                             <b>Pseudoprime</b>
                             <br>
-                            If <i>n</i> is a composite prime and <i>b</i> is a
+                            If <i>n</i> is a composite number and <i>b</i> is a
                             positive integer.then, if <i>b</i>
                             <sup><i>n-1</i></sup> &equiv; 1 (mod <i>n</i>),
                             then <i>n</i> is a pseudoprime, with respect to
