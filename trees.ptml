@@ -716,6 +716,30 @@
                         </a>
                     </p>
 
+                    <details>
+                        <summary class="sum3">
+                        Minimum Spanning Tree Animation:
+                        </summary>
+<!--include Algocynfas/templates/graphHead.txt -->
+<!--include Algocynfas/templates/minSpanningTHead.txt -->                        
+                        <div class="container" style ="margin-left: 4em">
+<!--include Algocynfas/templates/spanningType.txt -->
+<!--include Algocynfas/templates/speedButtons.txt -->
+<!--include Algocynfas/templates/spanningSamples.txt -->
+<!--include Algocynfas/templates/nodeNum.txt -->
+<!--include Algocynfas/templates/graphNodeBtn.txt -->
+<!--include Algocynfas/templates/SpanningEdgeWeightBox.txt -->
+<!--include Algocynfas/templates/graphEdgeBtn.txt -->
+<!--include Algocynfas/templates/runStopButtons.txt -->
+<!--include Algocynfas/templates/clearGraphBtn.txt -->
+<!--include Algocynfas/templates/clearEdgeBtn.txt -->
+<!--include Algocynfas/templates/graphContainer.txt -->
+<!--include Algocynfas/templates/minSpanningFooter.txt -->
+                        </div>
+<!--include Algocynfas/templates/spanningGraphGlobal.txt -->
+
+                    </details>
+
                 </details>
             </details>
 

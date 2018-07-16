@@ -730,6 +730,121 @@
                         </a>
                     </p>
 
+                    <details>
+                        <summary class="sum3">
+                        Minimum Spanning Tree Animation:
+                        </summary>
+ <meta charset="UTF-8">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+ <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+
+  <script src="lib/sigma/sigma.min.js"></script>
+
+  <script src="lib/sigma/sigma.renderers.canvas.js"></script>
+  <script src="lib/sigma/canvas/sigma.canvas.labels.def.js"></script>
+  <script src="lib/sigma/canvas/sigma.canvas.nodes.def.js"></script>
+  <script src="lib/sigma/canvas/sigma.canvas.edges.def.js"></script>
+  <script src="lib/sigma/canvas/sigma.canvas.edges.arrow.js"></script>
+
+
+  <script src="lib/sigma/sigma.plugins.dragNodes.js"></script>
+  <script src="lib/sigma/sigma.canvas.labels.def.js"></script>
+  <script src="lib/sigma/sigma.canvas.edges.labels.def.js"></script>
+  <script src="lib/sigma/setting.js"></script>
+  <script src="lib/sigma/sigma.classes.graph.js"></script>
+  <script src="lib/sigma/graphArrange.js"></script>
+  <script src="lib/sigma/sigma.core.js"></script>
+
+  <script src="widgets.js"></script>
+  <script src="graph.js"></script>
+  <script src = "minSpanningTree.js"></script>
+                        <div class="container" style ="margin-left: 4em">
+<b> Algorithms: 
+
+           <input type="radio" name="algo" id="kruskal" checked = "true"/>
+           <label for="kruskal">Kruskal's Algorithm</label>
+
+           <input type="radio" name="algo" id="prims" />
+           <label for="prim">Prim's Algorithm</label>
+
+           <br>
+ </b>
+           <b>Choose Speed:
+
+           <input type="radio" name="speed" value="500" id="Fast"/> 
+           <label for="Fast">Fast</label>
+           <input type="radio" name="speed" value="1000" id="Medium" checked="true"/>
+           <label for="Medium">Medium</label>
+           <input type="radio" name="speed" value="2000" id="Slow"/> 
+           <label for="Slow">Slow</label>
+
+            <br>
+            </b>
+            <b>
+            Fill the input box with sample values:
+            </b>
+                <select id= sampleChoice onchange="setSample()">
+                <option value="Select" >Select one</option>
+                <option value="sample1" >5 nodes with 8 edges </option>
+                <option value="sample2"> 10 nodes with 16 edges </option>
+                <option value="sample3"> Disconnected graph </option>
+              </select>
+
+
+            <br>
+            <br>
+  <input type="text" class="numBox" id="nodeNum" 
+  placeholder="Enter node#, max 16 nodes"  >
+  <button class="btn btn-outline-primary" id="add-node-button" type="button" 
+  onclick="createGraph(false)">Create Nodes
+ </button> 
+
+&emsp;
+<br> <br>
+<input type="text" class="edgeBox" id="edges" 
+placeholder="Enter edges (e.g: a-b, e-f-g)" >
+&emsp;
+<input type="text" class="weightBox" id="weights" 
+placeholder="Enter weights in the order of edges, e.g: 1,2"style = "display: inline" >
+<button class="btn btn-outline-primary" id="add-node-button" type="button" 
+onclick="createGraph(true)"> Create Edges
+</button>
+<br>
+<br>
+       <button id = "run-button" type="button" class="btn btn-success col-1" onclick="run()">Run</button>
+           &emsp;&emsp;&emsp;
+           <button id = "stop-button" type="button" class="btn btn-danger col-1" onclick="stopAnime()">Stop</button>
+           <br>
+           <br>
+           
+         
+       
+  
+       
+
+<button id = "stop-button" type="button" class="btn btn-danger col-1" 
+style = "max-width: 150px ;width: 130px" onclick="clearGraph()">Clear Graph</button>
+&emsp;
+<button id = "stop-button" type="button" class="btn btn-danger col-1" 
+style = "max-width: 150px ;width: 130px" onclick="clearEdges()">Clear Edges</button>
+
+<div id="graphContainer" class = "graph"></div>
+ <footer id="legend">
+        <script> window.display_legend("Graph edge", "Minimum spanning tree path", '#0039e6', '#F5B041') </script>
+</footer>
+                        </div>
+  <script>
+  let inputType = "num";  //by giving number as node input
+  let dir = 0;       //undirected
+  let weight = 1;    //Weighted
+  let Graph = null;
+  let animeRunning = true;
+</script>
+
+                    </details>
+
                 </details>
             </details>
 
