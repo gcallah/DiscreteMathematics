@@ -5,6 +5,9 @@
         <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="Algocynfas/lib/bootstrap.min.js"></script>
     <script src="Algocynfas/lib/fabric.js"></script>
+    <script src="Algocynfas/algocynfas.js"></script>
+    <script src="Algocynfas/sort.js"></script>
+    <script src="Algocynfas/widgets.js"></script>
 
     <title>
         Algorithms
@@ -212,80 +215,24 @@
                     <b>Psuedocode</b>
                     <br>
                 </p>
-                <p>
-                   <b>procedure</b>
-                   <i>bubblesort</i>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
-                     . . , <i>a<sub>n</sub></i>: real numbers n &ge; 2)<br>
-                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>n</i>-1)<br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b>for</b> ( <i>j</i> to <i>n</i>-1) <br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <b>if</b> <i>a</i> <sub> <i>j</i></sub> &gt;
-                     <i>a</i><sub><i>j</i>+1</sub> <b>then</b>
-                     interchange <i>a</i><sub><i>j</i></sub> and
-                                <i>a</i><sub><i>j</i>+1</sub><br>
-                    &nbsp; &nbsp; &nbsp; {<i>a</i><sub>1</sub>, . . . ,<i>a</i>
-                                <sub>n</sub> is in increasing order}
-                 </p>
+                   <p>
+                   <code>
+                       <pre>
+                       
+    <b>procedure</b> <i>bubblesort</i>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, . . . , <i>a<sub>n</sub></i>: real numbers n &ge; 2)
+        <b>for</b> ( <i>i := 1</i> to <i>n</i>-1)
+            <b>for</b> ( <i>j</i> to <i>n</i>-1)
+                <b>if</b> <i>a</i> <sub> <i>j</i></sub> &gt; <i>a</i><sub><i>j</i>+1</sub> <b>then</b> interchange <i>a</i><sub><i>j</i></sub> and <i>a</i><sub><i>j</i>+1</sub><br>
+        {<i>a</i><sub>1</sub>, . . . ,<i>a</i> <sub>n</sub> is in increasing order}
+                       </pre>
+                   </code>
+                   </p>
 
             </details>
             <details>
                 <summary class="sum3">
                     Insertion Sort
                 </summary>
-
-                <div class="input-group justify-content-around">
-                    <p>
-                    <button id="runButton" type="button"
-                        class="btn btn-primary col-1"
-                        onclick="sort()">Run</button>
-                    <button id="stopButton" type="button"
-                        class="btn btn-danger col-1"
-                        onclick="stopAnime()">Stop</button>
-                    <input id="myDelay" type="range"
-                                        class="col-6 form-control-range"
-                           min=100 max=1000 step=100 value=100
-                           onchange="updateDelay()"/>
-                    <label id="delayLbl" for="myDelay"
-                        class="col-2 input-group-text">Delay: 100
-                    </label>
-                    </p>
-    
-                </div>
-    
-                <br/>
-                <p>
-                    <canvas id="canvas" width="800" height="144"
-                        style="border:1px solid #000000"></canvas>
-                </p>
-
-                <script src="Algocynfas/algocynfas.js"></script>
-                <script src="Algocynfas/insertion_sort.js"></script>
-                <script src="Algocynfas/widgets.js"></script>
-                <script>
-                    var canvas = new fabric.Canvas('canvas');
-                    var list = [7, 4, 6, 9, 2, 1, 12];
-                    var fList = window.createList(canvas, list);
-    
-                    async function sort() {
-                        animeRunning = true;
-    
-                        let runButton = document.getElementById("runButton");
-                        runButton.disabled = true;
-                        await window.insertionSort(fList);
-                        runButton.disabled = false;
-                    }
-    
-                    function stopAnime() {
-                        animeRunning = false;
-                    }
-                </script>
-
-                <p id="legend">
-                    <script>
-                        window.display_legend()
-                    </script>
-                </p>
 
                 <p>
                    <b>procedure</b>
@@ -315,6 +262,14 @@
                          <i>a</i><sub><i>n</i></sub>}
                 </p> 
             </details>
+
+            <details>
+                <summary class="sum3">
+                    Try Sorting Algorithms
+                </summary>
+                <!-- put includes for animation here! -->
+            </details>
+
         </details>
         <details>
             <summary class="sum2">
