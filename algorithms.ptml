@@ -252,7 +252,17 @@
                 <summary class="sum3">
                     Try Sorting Algorithms
                 </summary>
-                <!-- put includes for animation here! -->
+                  <div class="container" style = "margin-left: 5em">
+                <!--include Algocynfas/templates/sortType.txt -->
+                <!--include Algocynfas/templates/speedButtons.txt -->
+                <!--include Algocynfas/templates/sampleInput.txt -->
+                <!--include Algocynfas/templates/sortBoxBtn.txt -->
+                <!--include Algocynfas/templates/runButton.txt --> 
+                <!--include Algocynfas/templates/stopButton.txt -->
+                <!--include Algocynfas/templates/sortCanvas.txt -->
+                <!--include Algocynfas/templates/sortGlobal.txt -->
+                <!--include Algocynfas/templates/sortFooter.txt -->
+            </div>
             </details>
 
         </details>

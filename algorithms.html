@@ -267,7 +267,79 @@
                 <summary class="sum3">
                     Try Sorting Algorithms
                 </summary>
-                <!-- put includes for animation here! -->
+                  <div class="container" style = "margin-left: 5em">
+           <b> Sort Types: 
+
+           <input type="radio" name="sort" id="insertion" checked = "true"/>
+           <label for="insertion">Insertion Sort</label>
+
+           <input type="radio" name="sort" id="bubble"/>
+           <label for="bubble">Bubble Sort</label>
+
+           <input type="radio" name="sort" id="quick"/>
+           <label for="quick">Quick Sort</label>
+
+           <br>
+           </b>
+           <b>Choose Speed:
+
+           <input type="radio" name="speed" value="500" id="Fast"/> 
+           <label for="Fast">Fast</label>
+           <input type="radio" name="speed" value="1000" id="Medium" checked="true"/>
+           <label for="Medium">Medium</label>
+           <input type="radio" name="speed" value="2000" id="Slow"/> 
+           <label for="Slow">Slow</label>
+
+            <br>
+            </b>
+
+            <b>
+            Fill the input box with sample values:
+            </b>
+                <select id= sampleChoice onchange="setSample()">
+                <option value="Select" >Select one</option>
+                <option value="sample1" >More random input </option>
+                <option value="sample2"> More sorted input </option>
+              </select>
+
+
+            <br>
+            <br>
+           
+       
+
+            <input type="text" class="inputbox" id="number-input" 
+            placeholder="Enter a list of Integers between -99 to 99 separate by comma" 
+            aria-label="Enter a list of Integers between -99 to 99 separate by comma" style="width: 30em">
+           
+                <button class="btn btn-primary" id="add-number-button" type="button" 
+                onclick="inputNumberToArray()">Create a List
+               </button>
+          <br>
+       <button id = "run-button" type="button" class="btn btn-success col-1" onclick="run()">Run</button>
+                 
+  
+       
+ &emsp;&emsp;&emsp;
+           <button id = "stop-button" type="button" class="btn btn-danger col-1" onclick="stopAnime()">Stop</button>
+           <br>
+           <br>
+
+           
+         
+<canvas id="canvas" width="800" height="144"
+style="border:0.1em solid #000000"></canvas>
+<script>
+const numbersGroup = document.getElementsByClassName("numbers-group")[0];
+let canvas = new fabric.Canvas('canvas');
+let list = [];
+let fList = null;
+drawListOnScreen(list);
+</script>
+<footer id="legend">
+        <script> window.display_legend("Item Swapped", "Item being Compared") </script>
+ </footer>
+            </div>
             </details>
 
         </details>
