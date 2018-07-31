@@ -1,12 +1,13 @@
 <html>
 <head>
+<link rel="stylesheet" href="Algocynfas/lib/bootstrap.min.css">
+<link rel="stylesheet" href="Algocynfas/userInterface.css">
+<script src="Algocynfas/lib/bootstrap.min.js"></script>
+<script src="Algocynfas/lib/fabric.js"></script>
+<script src="Algocynfas/algocynfas.js"></script>
+<script src="Algocynfas/widgets.js"></script>
+<script src="Algocynfas/sort.js"></script>
 <!--include head.txt -->
-    <script src="Algocynfas/lib/bootstrap.min.js"></script>
-    <script src="Algocynfas/lib/fabric.js"></script>
-    <script src="Algocynfas/algocynfas.js"></script>
-    <script src="Algocynfas/sort.js"></script>
-    <script src="Algocynfas/widgets.js"></script>
-
     <title>
         Algorithms
     </title>
