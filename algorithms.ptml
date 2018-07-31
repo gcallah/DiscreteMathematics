@@ -1,13 +1,36 @@
 <html>
 <head>
-<link rel="stylesheet" href="Algocynfas/lib/bootstrap.min.css">
-<link rel="stylesheet" href="Algocynfas/userInterface.css">
-<script src="Algocynfas/lib/bootstrap.min.js"></script>
-<script src="Algocynfas/lib/fabric.js"></script>
-<script src="Algocynfas/algocynfas.js"></script>
-<script src="Algocynfas/widgets.js"></script>
-<script src="Algocynfas/sort.js"></script>
-<!--include head.txt -->
+
+    <!-- for sort animation -->
+    <link rel="stylesheet" href="Algocynfas/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="Algocynfas/userInterface.css">
+    <script src="Algocynfas/lib/bootstrap.min.js"></script>
+    <script src="Algocynfas/lib/fabric.js"></script>
+    <script src="Algocynfas/algocynfas.js"></script>
+    <script src="Algocynfas/widgets.js"></script>
+    <script src="Algocynfas/sort.js"></script>
+
+  <!-- for binary search tree animation -->
+  <script src="Algocynfas/lib/jquery.min.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.min.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.renderers.canvas.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.nodes.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.edges.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.edges.arrow.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.plugins.dragNodes.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.canvas.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.canvas.edges.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/setting.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.classes.graph.js"></script>
+  <script src="Algocynfas/lib/sigma/graphArrange.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.core.js"></script>
+  <script src="Algocynfas/graph.js"></script>
+  <script src="Algocynfas/binarySTree.js"></script>
+
+
+
+    <!--include head.txt -->
     <title>
         Algorithms
     </title>
@@ -29,353 +52,390 @@
 
     <details>
         <summary class="sum1">
-           Algorithms 
+         Algorithms 
+     </summary>
+     <details>
+        <summary class="sum2">
+            Overview
         </summary>
-        <details>
-            <summary class="sum2">
-                Overview
-            </summary>
-            <p>
-               An <b>algorithm</b> is a finite
-               sequence of precise instructions 
-               for performing a computation or for solving a problem.
+        <p>
+         An <b>algorithm</b> is a finite
+         sequence of precise instructions 
+         for performing a computation or for solving a problem.
+     </p>
+
+     <p>
+         Algorithm for finding the maximum (largest) value in a finite 
+         sequence of integers:
+         Solution Steps:
+     </p>
+
+     <ol class="nested">
+        <li>
+            Set the temporary maximum equal 
+            to the first integer in 
+            the sequence.
+        </li>
+        <li>
+            Compare the next integer in the 
+            sequence to the temporary 
+            maximum, and if it is larger than the 
+            temporary maximum, set the 
+            temporary maximum equal to this integer.
+        </li>
+        <li>
+            Repeat the previous step if there 
+            are more integers in the
+            sequence.
+        </li>
+        <li>
+            Stop when there are no integers 
+            left in the sequence. 
+            The temporary maximum at this point 
+            is the largest integer in 
+            the sequence.
+        </li>
+    </ol>
+    <p>
+      Properties of an Algorithm
+  </p>
+
+  <ol class="nested">
+    <li>
+        Input
+    </li>
+    <li>
+        Output
+    </li>
+    <li>
+        Definitiveness
+    </li>
+    <li>
+        Correctness
+    </li>
+    <li>
+        Finiteness
+    </li>
+    <li>
+        Effectiveness
+    </li>
+    <li>
+        Generality
+    </li>
+</ol>
+</details>
+<details>
+    <summary class="sum2">
+        Searching Algorithms 
+    </summary>
+    <p>
+        The problem of locating an element 
+        in an ordered list occurs in 
+        many contexts. For instance, a program 
+        that checks the spelling of 
+        words searches for them in a dictionary, 
+        which is just an ordered 
+        list of words. Problems of this kind are 
+        called searching problems.
+    </p>
+
+    <details>
+        <summary class="sum3">
+            Linear Search
+        </summary>
+        <figure>
+            <img src="https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif" 
+            alt="Linear Search Animation">
+        </figure>
+        <p>
+            <b>procedure</b> <i>linear search(x</i>: integer,
+            <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
+            . . , <i>a<sub>n</sub></i>: distinct integers)<br>
+            <i>i := 1</i><br>
+            <b>while</b> (<i>i</i> &le; <i>n</i> 
+            and <i>x</i> != <i>a</i>[<i>i</i>] )<br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <i>i</i> = <i>i</i> + 1
+            <br>
+            <b>if</b> <i>i</i> &le; <i>n</i> <b>then</b>
+            <i>location</i> := <i>i</i><br>
+            <b>else</b> <i>location</i> := 0
+            <br>
+            <b>return</b> <i>location</i> 
+            {<i>location</i> is the subscript of 
+                the term that equals <i>x</i>,
+                or is 0 if <i>x</i> is not found}
             </p>
 
-            <p>
-               Algorithm for finding the maximum (largest) value in a finite 
-               sequence of integers:
-               Solution Steps:
-            </p>
-
-            <ol class="nested">
-                <li>
-                    Set the temporary maximum equal 
-                    to the first integer in 
-                    the sequence.
-                </li>
-                <li>
-                    Compare the next integer in the 
-                    sequence to the temporary 
-                    maximum, and if it is larger than the 
-                    temporary maximum, set the 
-                    temporary maximum equal to this integer.
-                </li>
-                <li>
-                    Repeat the previous step if there 
-                    are more integers in the
-                    sequence.
-                </li>
-                <li>
-                    Stop when there are no integers 
-                    left in the sequence. 
-                    The temporary maximum at this point 
-                    is the largest integer in 
-                    the sequence.
-                </li>
-            </ol>
-            <p>
-              Properties of an Algorithm
-            </p>
-
-            <ol class="nested">
-                <li>
-                    Input
-                </li>
-                <li>
-                    Output
-                </li>
-                <li>
-                    Definitiveness
-                </li>
-                <li>
-                    Correctness
-                </li>
-                <li>
-                    Finiteness
-                </li>
-                <li>
-                    Effectiveness
-                </li>
-                <li>
-                    Generality
-                </li>
-            </ol>
         </details>
+
+        
         <details>
-            <summary class="sum2">
-                Searching Algorithms 
+            <summary class="sum3">
+                Binary Search
             </summary>
             <p>
-                The problem of locating an element 
-                in an ordered list occurs in 
-                many contexts. For instance, a program 
-                that checks the spelling of 
-                words searches for them in a dictionary, 
-                which is just an ordered 
-                list of words. Problems of this kind are 
-                called searching problems.
-            </p>
+             This algorithm can be used when 
+             the list has terms occurring in 
+             order of increasing size (for instance: 
+             if the terms are numbers, 
+             they are listed from smallest to largest; 
+             if they are words, they 
+             are listed in lexicographic, or alphabetic, 
+             order). This second 
+             searching algorithm is called the binary search algorithm.
+             <br>
+         </p>
 
-            <details>
-                <summary class="sum3">
-                    Linear Search
-                </summary>
-                <figure>
-                    <img src="https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif" 
-                    alt="Linear Search Animation">
-                </figure>
-                <p>
-                    <b>procedure</b> <i>linear search(x</i>: integer,
-                    <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
-                    . . , <i>a<sub>n</sub></i>: distinct integers)<br>
-                    <i>i := 1</i><br>
-                    <b>while</b> (<i>i</i> &le; <i>n</i> 
-                    and <i>x</i> != <i>a</i>[<i>i</i>] )<br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <i>i</i> = <i>i</i> + 1
-                    <br>
-                    <b>if</b> <i>i</i> &le; <i>n</i> <b>then</b>
-                    <i>location</i> := <i>i</i><br>
-                    <b>else</b> <i>location</i> := 0
-                    <br>
-                    <b>return</b> <i>location</i> 
-                    {<i>location</i> is the subscript of 
-                    the term that equals <i>x</i>,
-                    or is 0 if <i>x</i> is not found}
-                </p>
+         <figure>
+            <img 
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_0.jpg">
+            <br>
+            <img 
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_1.jpg">
+            <br>
+            <img
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_2.jpg">
+            <br>
+            <img 
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_3.jpg">
+            <br>
+            <img
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_4.jpg">
+            <br>
+            <img
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_5.jpg">
+            <br>
+            <img
+            src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_6.jpg">
+        </figure>
+    </details>  
 
-            </details>
-            <details>
-                <summary class="sum3">
-                    Binary Search
-                </summary>
-                <p>
-                   This algorithm can be used when 
-                   the list has terms occurring in 
-                   order of increasing size (for instance: 
-                   if the terms are numbers, 
-                   they are listed from smallest to largest; 
-                   if they are words, they 
-                   are listed in lexicographic, or alphabetic, 
-                   order). This second 
-                   searching algorithm is called the binary search algorithm.
-                   <br>
-                </p>
-
-                <figure>
-                    <img 
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_0.jpg">
-                    <br>
-                    <img 
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_1.jpg">
-                    <br>
-                    <img
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_2.jpg">
-                    <br>
-                    <img 
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_3.jpg">
-                    <br>
-                    <img
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_4.jpg">
-                    <br>
-                    <img
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_5.jpg">
-                    <br>
-                    <img
-                    src = "https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_6.jpg">
-                </figure>
-            </details>
-        </details>
         <details>
-            <summary class="sum2">
-               Sorting Algorithms
-            </summary>
-            <details>
-                <summary class="sum3">
-                    Bubble Sort
-                </summary>
-                <figure>
-                    <img src="http://www.opentechguides.com/images/howto/howto_5101.png">
-                </figure>
-                <p>
-                    <b>Psuedocode</b>
-                    <br>
-                </p>
-                   <p>
-                   <code>
-                       <pre>
-                       
-    <b>procedure</b> <i>bubblesort</i>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, . . . , <i>a<sub>n</sub></i>: real numbers n &ge; 2)
-        <b>for</b> ( <i>i := 1</i> to <i>n</i>-1)
+        <summary class="sum3">
+            Try Binary Search Tree Algorithms
+        </summary>
+        <div class="container" style = "margin-left: 10em">
+           <h5 style = "margin-left: 0em">1. Create a Binary Search Tree: </h5>
+           <!--include Algocynfas/templates/binaryList.txt -->
+           <!--include Algocynfas/templates/binaryListBtn.txt -->
+           <!--include Algocynfas/templates/binarySample.txt -->
+           <!--include Algocynfas/templates/random.txt --> 
+           <hr>
+           <h5 style = "margin-left: 0em">2. Choose an algorithm: </h5>
+           <!--include Algocynfas/templates/speedButtons.txt -->
+           <!--include Algocynfas/templates/binaryInsert.txt -->
+           <!--include Algocynfas/templates/binaryInsertBtn.txt -->
+           <!--include Algocynfas/templates/binaryDelete.txt -->
+           <!--include Algocynfas/templates/binaryDeleteBtn.txt -->
+           <!--include Algocynfas/templates/binaryPreInPost.txt -->
+           <!--include Algocynfas/templates/binaryPreInPostBtn.txt -->
+           <!--include Algocynfas/templates/binarySearch.txt -->
+           <!--include Algocynfas/templates/binarySearchBtn.txt -->
+           <!--include Algocynfas/templates/binaryMinOrMax.txt -->
+           <!--include Algocynfas/templates/binaryMinOrMaxBtn.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSuc.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSucBox.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSucBtn.txt -->
+           <!--include Algocynfas/templates/clearGraphBtn.txt -->
+           <!--include Algocynfas/templates/stopButton.txt -->
+           <!--include Algocynfas/templates/graphGlobal.txt -->
+       </div> 
+       <!--include Algocynfas/templates/binaryContainer.txt -->
+       <!--include Algocynfas/templates/bstFooter.txt -->
+
+       </details>
+</details>
+<details>
+    <summary class="sum2">
+     Sorting Algorithms
+ </summary>
+ <details>
+    <summary class="sum3">
+        Bubble Sort
+    </summary>
+    <figure>
+        <img src="http://www.opentechguides.com/images/howto/howto_5101.png">
+    </figure>
+    <p>
+        <b>Psuedocode</b>
+        <br>
+    </p>
+    <p>
+     <code>
+         <pre>
+
+            <b>procedure</b> <i>bubblesort</i>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, . . . , <i>a<sub>n</sub></i>: real numbers n &ge; 2)
+            <b>for</b> ( <i>i := 1</i> to <i>n</i>-1)
             <b>for</b> ( <i>j</i> to <i>n</i>-1)
-                <b>if</b> <i>a</i> <sub> <i>j</i></sub> &gt; <i>a</i><sub><i>j</i>+1</sub> <b>then</b> interchange <i>a</i><sub><i>j</i></sub> and <i>a</i><sub><i>j</i>+1</sub><br>
-        {<i>a</i><sub>1</sub>, . . . ,<i>a</i> <sub>n</sub> is in increasing order}
-                       </pre>
-                   </code>
-                   </p>
+            <b>if</b> <i>a</i> <sub> <i>j</i></sub> &gt; <i>a</i><sub><i>j</i>+1</sub> <b>then</b> interchange <i>a</i><sub><i>j</i></sub> and <i>a</i><sub><i>j</i>+1</sub><br>
+            {<i>a</i><sub>1</sub>, . . . ,<i>a</i> <sub>n</sub> is in increasing order}
+        </pre>
+    </code>
+</p>
 
-            </details>
-            <details>
-                <summary class="sum3">
-                    Insertion Sort
-                </summary>
+</details>
+<details>
+    <summary class="sum3">
+        Insertion Sort
+    </summary>
 
-                <p>
-                   <b>procedure</b>
-                   <b>insertionsort</b>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
-                   . . , <i>a</i><sub><i>n</i></sub>: real numbers <i>n </i>&ge; 2)<br>
-                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>j := 2</i> to <i>n</i>)<br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <i>i</i> :&equals; 1 <br>
+    <p>
+     <b>procedure</b>
+     <b>insertionsort</b>(<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, .
+     . . , <i>a</i><sub><i>n</i></sub>: real numbers <i>n </i>&ge; 2)<br>
+     &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>j := 2</i> to <i>n</i>)<br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>i</i> :&equals; 1 <br>
 
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b>while</b> <i>a</i> <sub> <i>j</i></sub> &gt;
-                    <i>a</i><sub><i>i</i></sub> <br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-                     <i> i</i> :&equals; <i>i</i>+1<br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <i>m</i> :&equals; <i>a</i><sub><i>j</i></sub> <br>
-                     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-                     <b>for</b> <i>k</i> :&equals; 0 to <i>j</i> &minus; <i>i</i> &minus; 1 <br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <i>a</i><sub><i>j</i></sub><sub>&minus;</sub><sub><i>k</i></sub>
-                      :&equals;  <i>a</i><sub><i>j</i></sub>
-                     <sub>&minus;</sub><sub><i>k</i></sub>
-                     <sub> &minus; 1</sub> <br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <i>a</i><sub><i>i</i></sub> :&equals; <i>m</i> <br>
-                         &nbsp; &nbsp; &nbsp;{<i>a</i><sub>1</sub>, . . . ,
-                         <i>a</i><sub><i>n</i></sub>}
-                </p> 
-            </details>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <b>while</b> <i>a</i> <sub> <i>j</i></sub> &gt;
+     <i>a</i><sub><i>i</i></sub> <br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+     <i> i</i> :&equals; <i>i</i>+1<br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>m</i> :&equals; <i>a</i><sub><i>j</i></sub> <br>
+     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+     <b>for</b> <i>k</i> :&equals; 0 to <i>j</i> &minus; <i>i</i> &minus; 1 <br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>a</i><sub><i>j</i></sub><sub>&minus;</sub><sub><i>k</i></sub>
+     :&equals;  <i>a</i><sub><i>j</i></sub>
+     <sub>&minus;</sub><sub><i>k</i></sub>
+     <sub> &minus; 1</sub> <br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>a</i><sub><i>i</i></sub> :&equals; <i>m</i> <br>
+     &nbsp; &nbsp; &nbsp;{<i>a</i><sub>1</sub>, . . . ,
+     <i>a</i><sub><i>n</i></sub>}
+ </p> 
+</details>
 
-            <details>
-                <summary class="sum3">
-                    Try Sorting Algorithms
-                </summary>
-                  <div class="container" style = "margin-left: 5em">
-                <!--include Algocynfas/templates/sortType.txt -->
-                <!--include Algocynfas/templates/speedButtons.txt -->
-                <!--include Algocynfas/templates/sampleInput.txt -->
-                <!--include Algocynfas/templates/sortBoxBtn.txt -->
-                <!--include Algocynfas/templates/runButton.txt --> 
-                <!--include Algocynfas/templates/stopButton.txt -->
-                <!--include Algocynfas/templates/sortCanvas.txt -->
-                <!--include Algocynfas/templates/sortGlobal.txt -->
-                <!--include Algocynfas/templates/sortFooter.txt -->
-            </div>
-            </details>
+<details>
+    <summary class="sum3">
+        Try Sorting Algorithms
+    </summary>
+    <div class="container" style = "margin-left: 5em">
+        <!--include Algocynfas/templates/sortType.txt -->
+        <!--include Algocynfas/templates/speedButtons.txt -->
+        <!--include Algocynfas/templates/sampleInput.txt -->
+        <!--include Algocynfas/templates/sortBoxBtn.txt -->
+        <!--include Algocynfas/templates/runButton.txt --> 
+        <!--include Algocynfas/templates/stopButton.txt -->
+        <!--include Algocynfas/templates/sortCanvas.txt -->
+        <!--include Algocynfas/templates/sortGlobal.txt -->
+        <!--include Algocynfas/templates/sortFooter.txt -->
+    </div>
+</details>
 
-        </details>
-        <details>
-            <summary class="sum2">
-                Greedy Algorithms
-            </summary>
-            <p>
-                Algorithms that make what seems to be the best
-                choice at each step are called <b>greedy algorithms.</b>
-                <br>
-                <b>Greedy Change-Making Algorithm</b>
-                <br>
-            </p>
+</details>
+<details>
+    <summary class="sum2">
+        Greedy Algorithms
+    </summary>
+    <p>
+        Algorithms that make what seems to be the best
+        choice at each step are called <b>greedy algorithms.</b>
+        <br>
+        <b>Greedy Change-Making Algorithm</b>
+        <br>
+    </p>
 
-                <p>
-                   <b>procedure</b>
-                   <b>change</b>(<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>, .
-                   . . , <i>c</i><sub><i>n</i></sub>: value of denominations
-                   where <i>c</i><sub>1</sub> &gt; <i>c</i><sub>2</sub> &gt; .
-                   . . , <i>c</i><sub><i>n</i></sub> : <i>n </i> is a positive
-                   integer)<br>
-                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>r</i>)<br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <i>d</i><sub>i</sub> :&equals; 0 {<i>d</i><sub>i</sub>
-                    counts the number of denominations <i>c</i><sub>i</sub>
-                    used <br>
+    <p>
+     <b>procedure</b>
+     <b>change</b>(<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>, .
+     . . , <i>c</i><sub><i>n</i></sub>: value of denominations
+     where <i>c</i><sub>1</sub> &gt; <i>c</i><sub>2</sub> &gt; .
+     . . , <i>c</i><sub><i>n</i></sub> : <i>n </i> is a positive
+     integer)<br>
+     &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>r</i>)<br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>d</i><sub>i</sub> :&equals; 0 {<i>d</i><sub>i</sub>
+     counts the number of denominations <i>c</i><sub>i</sub>
+     used <br>
 
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b>while</b> <i>n</i>  &ge;
-                    <i>c</i><sub><i>i</i></sub> <br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <i>d</i><sub>i</sub> :&equals; <i>d</i><sub>i</sub> +
-                     1 {add a coin of denomination <i>c</i><sub>i</sub> } <br>
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     <i>n</i> :&equals; <i>n</i> -  <i>c</i><sub><i>i</i></sub> <br>
-                     <i>d</i><sub><i>i</i></sub> is the number of coins of
-                     denominations in  <i>c</i><sub>i</sub> in change for
-                     <i>i</i> &equals; 1, 2, 3 <br>
-                </p>
-            <p class="def">
-                LEMMA 1
-            </p>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <b>while</b> <i>n</i>  &ge;
+     <i>c</i><sub><i>i</i></sub> <br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>d</i><sub>i</sub> :&equals; <i>d</i><sub>i</sub> +
+     1 {add a coin of denomination <i>c</i><sub>i</sub> } <br>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <i>n</i> :&equals; <i>n</i> -  <i>c</i><sub><i>i</i></sub> <br>
+     <i>d</i><sub><i>i</i></sub> is the number of coins of
+     denominations in  <i>c</i><sub>i</sub> in change for
+     <i>i</i> &equals; 1, 2, 3 <br>
+ </p>
+ <p class="def">
+    LEMMA 1
+</p>
 
-            <p>
-                If n is a positive integer, 
-                then <i>n</i> cents in change using 
-                quarters, dimes, nickels, and pennies 
-                using the fewest coins possible 
-                has at most two dimes, at most one nickel, 
-                at most four pennies, and 
-                cannot have two dimes and a nickel. 
-                The amount of change in dimes, 
-                nickels, and pennies cannot exceed 24 cents.
-            </p>
+<p>
+    If n is a positive integer, 
+    then <i>n</i> cents in change using 
+    quarters, dimes, nickels, and pennies 
+    using the fewest coins possible 
+    has at most two dimes, at most one nickel, 
+    at most four pennies, and 
+    cannot have two dimes and a nickel. 
+    The amount of change in dimes, 
+    nickels, and pennies cannot exceed 24 cents.
+</p>
 
-            <p class="def">
-               THEOREM 1
-            </p>
+<p class="def">
+ THEOREM 1
+</p>
 
-            <p>
-                The greedy algorithm produces change using the 
-                fewest coins possible.
-                <br>
-            </p>
+<p>
+    The greedy algorithm produces change using the 
+    fewest coins possible.
+    <br>
+</p>
 
-            <p>
-                <b>Greedy Algorithm for Scheduling Talks</b>
-            </p>
+<p>
+    <b>Greedy Algorithm for Scheduling Talks</b>
+</p>
 
-                <p>
-                   <b>procedure</b>
-                   <b>schedule</b>(<i>s</i><sub>1</sub> &le;
-                   <i>s</i><sub>2</sub> &le; .
-                   . . , <i>s</i><sub><i>n</i></sub>: start time of talks <br>
-                    <i>e</i><sub>1</sub> &le; <i>e</i><sub>2</sub> &le; .
-                   . . , <i>e</i><sub><i>n</i></sub> : <i>n </i> ending times
-                   of talks)<br>
-                   sort talks by finish time and reorder so that <i>e</i><sub>1</sub> &le; 
-                   <i>e</i><sub>2</sub> &le; . . , <i>e</i><sub><i>n</i></sub>
-                   <br>
-                   &nbsp; &nbsp; &nbsp; S :&equals; 0<br>
-                    &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>n</i>)<br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                     if talk j is compatible with S <br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp;
-                    S :&equals; S &union; {talk j} <br>
-                    &nbsp; &nbsp; &nbsp; return S{ S is the set of talks produced}
-                    <br>
-                </p>
-        </details>
+<p>
+ <b>procedure</b>
+ <b>schedule</b>(<i>s</i><sub>1</sub> &le;
+ <i>s</i><sub>2</sub> &le; .
+ . . , <i>s</i><sub><i>n</i></sub>: start time of talks <br>
+ <i>e</i><sub>1</sub> &le; <i>e</i><sub>2</sub> &le; .
+ . . , <i>e</i><sub><i>n</i></sub> : <i>n </i> ending times
+ of talks)<br>
+ sort talks by finish time and reorder so that <i>e</i><sub>1</sub> &le; 
+ <i>e</i><sub>2</sub> &le; . . , <i>e</i><sub><i>n</i></sub>
+ <br>
+ &nbsp; &nbsp; &nbsp; S :&equals; 0<br>
+ &nbsp; &nbsp; &nbsp; <b>for</b> ( <i>i := 1</i> to <i>n</i>)<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ if talk j is compatible with S <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp;
+ S :&equals; S &union; {talk j} <br>
+ &nbsp; &nbsp; &nbsp; return S{ S is the set of talks produced}
+ <br>
+</p>
+</details>
 
-        <details>
-            <summary class="sum2">
-                The Halting Problem
-            </summary>
-            <p>
-                <b>The Halting Problem is Unsolvable</b><br>
-            </p>
+<details>
+    <summary class="sum2">
+        The Halting Problem
+    </summary>
+    <p>
+        <b>The Halting Problem is Unsolvable</b><br>
+    </p>
 
-            <figure>
-                <img src="graphics/HaltingProblem.svg.png">
-            </figure>
-            <p>
-                <a href="http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html">
-                    Scooping the Loop Snooper
-                </a>
-            </p>
+    <figure>
+        <img src="graphics/HaltingProblem.svg.png">
+    </figure>
+    <p>
+        <a href="http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html">
+            Scooping the Loop Snooper
+        </a>
+    </p>
 
 
-        </details>
+</details>
 <!--include quiz3.1.qhtm --!>
     </details>
     <details>
