@@ -1,6 +1,31 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="Algocynfas/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="Algocynfas/userInterface.css">
+    <script src="Algocynfas/lib/bootstrap.min.js"></script>
+    <!--include head.txt -->
+        
+     <!-- for binary search tree animation -->
+  <script src="Algocynfas/lib/jquery.min.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.min.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.renderers.canvas.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.nodes.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.edges.def.js"></script>
+  <script src="Algocynfas/lib/sigma/canvas/sigma.canvas.edges.arrow.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.plugins.dragNodes.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.canvas.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.canvas.edges.labels.def.js"></script>
+  <script src="Algocynfas/lib/sigma/setting.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.classes.graph.js"></script>
+  <script src="Algocynfas/lib/sigma/graphArrange.js"></script>
+  <script src="Algocynfas/lib/sigma/sigma.core.js"></script>
+  <script src="Algocynfas/graph.js"></script>
+  <script src="Algocynfas/binarySTree.js"></script>
+  <script src="Algocynfas/minSpanningTree.js"></script>
+  <script src="Algocynfas/widgets.js"></script>
+
         <title>
             Trees
         </title>
@@ -9,6 +34,7 @@
     <body>
 
 <!--include menu.txt -->
+
 
         <h1 class="chap-title">
             Trees
@@ -227,6 +253,41 @@
                     </p>
 
                 </details>
+
+                 <details>
+        <summary class="sum3">
+            Try Binary Search Tree Algorithms
+        </summary>
+        <div class="container" style = "margin-left: 10em">
+           <h5 style = "margin-left: 0em">1. Create a Binary Search Tree: </h5>
+           <!--include Algocynfas/templates/binaryList.txt -->
+           <!--include Algocynfas/templates/binaryListBtn.txt -->
+           <!--include Algocynfas/templates/binarySample.txt -->
+           <!--include Algocynfas/templates/random.txt --> 
+           <hr>
+           <h5 style = "margin-left: 0em">2. Choose an algorithm: </h5>
+           <!--include Algocynfas/templates/speedButtons.txt -->
+           <!--include Algocynfas/templates/binaryInsert.txt -->
+           <!--include Algocynfas/templates/binaryInsertBtn.txt -->
+           <!--include Algocynfas/templates/binaryDelete.txt -->
+           <!--include Algocynfas/templates/binaryDeleteBtn.txt -->
+           <!--include Algocynfas/templates/binaryPreInPost.txt -->
+           <!--include Algocynfas/templates/binaryPreInPostBtn.txt -->
+           <!--include Algocynfas/templates/binarySearch.txt -->
+           <!--include Algocynfas/templates/binarySearchBtn.txt -->
+           <!--include Algocynfas/templates/binaryMinOrMax.txt -->
+           <!--include Algocynfas/templates/binaryMinOrMaxBtn.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSuc.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSucBox.txt -->
+           <!--include Algocynfas/templates/binaryPreOrSucBtn.txt -->
+           <!--include Algocynfas/templates/clearBstBtn.txt -->
+           <!--include Algocynfas/templates/stopButton.txt -->
+           <!--include Algocynfas/templates/graphGlobal.txt -->
+       </div> 
+       <!--include Algocynfas/templates/binaryContainer.txt -->
+       <!--include Algocynfas/templates/bstFooter.txt -->
+
+       </details>
 
                 <details>
                     <summary class="sum2">
@@ -715,28 +776,31 @@
                             Minimum Spanning Trees from DAA
                         </a>
                     </p>
-
+ 
                     <details>
                         <summary class="sum3">
                         Minimum Spanning Tree Animation:
                         </summary>
-<!--include Algocynfas/templates/graphHead.txt -->
-<!--include Algocynfas/templates/minSpanningTHead.txt -->                        
-                        <div class="container" style ="margin-left: 4em">
-<!--include Algocynfas/templates/spanningType.txt -->
-<!--include Algocynfas/templates/speedButtons.txt -->
-<!--include Algocynfas/templates/spanningSamples.txt -->
-<!--include Algocynfas/templates/nodeNum.txt -->
-<!--include Algocynfas/templates/graphNodeBtn.txt -->
-<!--include Algocynfas/templates/SpanningEdgeWeightBox.txt -->
-<!--include Algocynfas/templates/graphEdgeBtn.txt -->
-<!--include Algocynfas/templates/runStopButtons.txt -->
-<!--include Algocynfas/templates/clearGraphBtn.txt -->
-<!--include Algocynfas/templates/clearEdgeBtn.txt -->
-<!--include Algocynfas/templates/graphContainer.txt -->
-<!--include Algocynfas/templates/minSpanningFooter.txt -->
-                        </div>
-<!--include Algocynfas/templates/spanningGraphGlobal.txt -->
+                        <script>
+                          weight = 1;   
+                       </script>
+
+                        <div class="container" style ="margin-left: 5em">
+                         <!--include Algocynfas/templates/spanningType.txt -->
+                         <!--include Algocynfas/templates/speedButtons.txt -->
+                         <!--include Algocynfas/templates/spanningSamples.txt -->
+                         <!--include Algocynfas/templates/nodeNum.txt -->
+                         <!--include Algocynfas/templates/spanningNodeBtn.txt -->
+                         <!--include Algocynfas/templates/spanningEdgeWeightBox.txt -->
+                         <!--include Algocynfas/templates/spanningEdgeBtn.txt -->
+                         <!--include Algocynfas/templates/runButton.txt --> 
+                         <!--include Algocynfas/templates/stopButton.txt -->
+                         <!--include Algocynfas/templates/clearSpanningBtn.txt -->
+                         <!--include Algocynfas/templates/clearEdgeBtn.txt -->
+                         <!--include Algocynfas/templates/spanningContainer.txt -->
+                         <!--include Algocynfas/templates/minSpanningFooter.txt -->
+
+                     </div> 
 
                     </details>
 
