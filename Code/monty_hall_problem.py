@@ -36,4 +36,5 @@ def runTrials(n,yesNo):
 print("We'll show through simulation that changing the selection in the Monty Hall problem leads to a 66% success rate.")
 n = int(input("Input the number of 100 attempts you'd like to carry out: "))
 yesNo = input("Would you like to show the average for each 100 trials? (Y/N) ")
+
 print(runTrials(n,yesNo))
