@@ -13,9 +13,11 @@ Quizzes
 </h1>
 
                <h3>
+               	   <li>
                     <a href="quizOne.html">
                     Quiz 1
                     </a>
+                    </li>
                 </h3>
 </body>
 </html>
