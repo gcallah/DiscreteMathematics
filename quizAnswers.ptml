@@ -18,6 +18,12 @@ Quiz Answers
                     Quiz 1 Answer
                     </a>
                     </li>
+
+                     <li>
+                    <a href="quizTwo.html">
+                    Quiz 2 Answer
+                    </a>
+                    </li>
                 </ul>
 </body>
 </html>
