@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Course Outline Fall 2018
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Course Outline Fall 2018
+        </h1>
+            <p>
+                This is the plan of attack for Fall 2018
+                It may be adjusted due to conditions in the field.
+            </p>
+
+            <ul class="nested">
+                <li>
+                    1. Logic
+                </li>
+
+                <li>
+                    2. Proofs
+                </li>
+
+                <li>
+                    3. Sets
+                </li>
+
+                <li>
+                    4. Functions
+                </li>
+
+                <li>
+                    TBD...
+                </li>
+
+            </ul>
+    </body>
+</html>
