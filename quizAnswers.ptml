@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+
+
+<!--include menu.txt -->
+
+               <h3>
+                    <a href="quizOne.html">
+                    Quiz 1
+                    </a>
+                </h3>
+</body>
+</html>

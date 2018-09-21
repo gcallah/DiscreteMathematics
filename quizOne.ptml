@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+       
+    </head>
+
+    <body>
+
+
+<!--include menu.txt -->
+<h1>
+Discrete Mathematics Quiz 1 Answer
+</h1>
+<h3>
+
+
+1) Which of the following is a contradiction?
+<br>
+*a) p ∧ ¬p   
+<br>
+b) p ∧¬r     
+<br>
+c) p ∧ ¬q    
+<br>
+d) all of the above  
+<br>
+<br>
+
+2) Translate (q → r) into English:
+<br>
+a) q implies r
+<br>
+b) if q, then r
+<br>
+c) r is sufficient for q
+<br>
+*d) all of the above
+<br>
+<br>
+
+3) Let p = "It is raining", q = "The roads are wet" and r = "Travel is safe". Please translate "It is raining and the roads are wet therefore travel is not safe" into symbolic logic:
+<br>
+a) p ∧ q → r
+<br>
+*b) p ∧ q → ¬r
+<br>
+c) p ∧ q ∧ r
+<br>
+d) none of the above
+<br>
+<br>
+
+4) Which of the following is a tautology?
+<br>
+*a) p ∧ q → q
+<br>
+b) p ∧¬r → r
+<br>
+c) p ∧ ¬q → ¬p
+<br>
+d) all of the above
+<br>
+<br>
+
+5) Let p = "I love this course", q = "My recitation lecturers are great", and r = "I will say anything to get an A". Translate "I love this course and my recitation lecturers are great does not imply I will say anything to get an A"
+<br>
+a) (¬r ∧ (q → r)) → ¬q 
+<br>
+*b) ¬((p ∧ q) → r)
+<br>
+c) ((p ∧ q) → ¬r)
+<br>
+d) none of the above
+<br>
+
+
+
+
+</h3>     
+</body>
+</html>
