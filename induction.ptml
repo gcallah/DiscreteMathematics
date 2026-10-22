@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Induction and Recursion
         </title>
@@ -18,7 +18,7 @@
                 <figure class="lead-figure">
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/250px-Sierpinski_triangle.svg.png"
-                        width="24%"
+                        width="250" alt="Sierpinski triangle"
                     >
                 </figure>
             </div>

@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Applications of Propositional Logic
         </title>
@@ -17,7 +18,8 @@
         <div style="text-align:center">
             <figure class="lead-figure">
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/7400.jpg/180px-7400.jpg">
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/TexasInstruments_7400_chip%2C_view_and_element_placement.jpg/250px-TexasInstruments_7400_chip%2C_view_and_element_placement.jpg"
+                    width="180" alt="A 7400 chip">
                 <figcaption>
                     The 7400 chip, containing four NAND gates.
                 </figcaption>

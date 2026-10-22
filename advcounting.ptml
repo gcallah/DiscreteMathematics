@@ -2,8 +2,7 @@
 <html>
 
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <meta charset="UTF-8">
+        <!--include head.txt -->
         <title>
             Advanced Counting Techniques
         </title>
@@ -19,7 +18,7 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iterated_logistic_functions.svg/220px-Iterated_logistic_functions.svg.png" width=33%>
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iterated_logistic_functions.svg/250px-Iterated_logistic_functions.svg.png" width=33%>
                 </figure>
                 <figcaption>
                     The logistic equation and its iterated versions.
@@ -33,7 +32,7 @@
                 </summary>
                 <figure>
                     <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Prokaryote_cell.svg/440px-Prokaryote_cell.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Prokaryote_cell.svg/500px-Prokaryote_cell.svg.png"
                     width=33%>
                     <figcaption>
                     </figcaption>
@@ -119,7 +118,7 @@
                         <br>
                         <figure>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg" width=33%>
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/330px-Tower_of_Hanoi.jpeg" width=33%>
                         </figure>
                         <br>
                         The monks in a temple have the job of moving all of the
@@ -143,7 +142,7 @@
                         <br>
                         <figure>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/220px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" width=33%>
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/250px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" width=33%>
                         </figure>
 
                         <br>
@@ -155,7 +154,7 @@
                         <img src="graphics/RecEq2.gif" width= 33%>
                         <br>
                         <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tower_of_Hanoi_recursion_SMIL.svg/220px-Tower_of_Hanoi_recursion_SMIL.svg.png" width=33%>
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tower_of_Hanoi_recursion_SMIL.svg/250px-Tower_of_Hanoi_recursion_SMIL.svg.png" width=33%>
                         <br>
                         <br>
                         <br>

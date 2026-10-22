@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Graphs
         </title>
@@ -406,7 +407,7 @@ pair of distinct vertex not connected
                     </summary>
                     <figure>
                         <img
-                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Undirected_6_cycle.svg/320px-Undirected_6_cycle.svg.png"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Undirected_6_cycle.svg/330px-Undirected_6_cycle.svg.png"
                              width="24%">
                         <figcaption>
                             A cycle graph of length 6
@@ -559,7 +560,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Star_Topology.png/440px-Star_Topology.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Star_Topology.png/500px-Star_Topology.png"
                         width="33%">
                         <figcaption>
                             A network with a star topology
@@ -568,7 +569,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NetworkTopology-Ring.png/440px-NetworkTopology-Ring.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NetworkTopology-Ring.png/500px-NetworkTopology-Ring.png"
                         width="33%">
                         <figcaption>
                             Ring network topology
@@ -842,8 +843,8 @@ a <i>bipartition </i>of the vertex set V of G.
                     </summary>
 
                     <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Thottu_Varambu.jpg/440px-Thottu_Varambu.jpg">
+                        <img width="440"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Thottu_Varambu.jpg/500px-Thottu_Varambu.jpg">
                         <figcaption>
                         </figcaption>
                     </figure>
@@ -885,7 +886,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Network_Community_Structure.svg/440px-Network_Community_Structure.svg.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Network_Community_Structure.svg/500px-Network_Community_Structure.svg.png"
                         width="25%">
                         <figcaption>
                         </figcaption>
@@ -919,7 +920,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/440px-Sample-graph.jpg" width= 25%>
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sample-graph.jpg/500px-Sample-graph.jpg" width= 25%>
                         <figcaption>
                             The dashed line signifies the edge that, if
                             removed, would split the graph into two connected
@@ -1010,7 +1011,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                         <figure class="lead-figure">
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/220px-Konigsberg_bridges.png" width=25%>
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/250px-Konigsberg_bridges.png" width=25%>
                             <figcaption>
                             The Bridges of K&ouml;nigsberg
                             </figcaption>
@@ -1024,7 +1025,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                         <figure>
                             <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/360px-K&ouml;nigsberg_graph.svg.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/K&ouml;nigsberg_graph.svg/330px-K&ouml;nigsberg_graph.svg.png"
                             width="24%">
                             <figcaption>
                                 The graph Euler used to solve the problem
@@ -1068,7 +1069,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/440px-Hamiltonian_path.svg.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/500px-Hamiltonian_path.svg.png"
                         width="28%">
                         <figcaption>
                             A Hamilton circuit on a dodecahedron
@@ -1118,7 +1119,7 @@ a <i>bipartition </i>of the vertex set V of G.
 
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Encoder_Disc_%283-Bit%29.svg/440px-Encoder_Disc_%283-Bit%29.svg.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Encoder_Disc_%283-Bit%29.svg/500px-Encoder_Disc_%283-Bit%29.svg.png"
                         width="28%">
                         <figcaption>
                             Rotary encoder for angle-measuring devices

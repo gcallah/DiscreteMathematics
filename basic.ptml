@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Basic Structures: Sets, Functions, Etc.
         </title>
@@ -17,8 +16,8 @@
         </h1>
             <div style="text-align:center">
                 <figure class="lead-figure">
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
+                    <img width="220"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/250px-Example_of_a_set.svg.png">
                 </figure>
             </div>
 
@@ -160,8 +159,8 @@
                         Venn Diagrams
                         </summary>
                         <figure>
-                            <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg/440px-%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg.png">
+                            <img width="440"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg/500px-%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg.png">
                         </figure>
                         <br>
                         <p>
@@ -179,8 +178,8 @@
                         </summary>
                             <p>
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/300px-Venn_A_subset_B.svg.png">
+                            <img width="300"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/330px-Venn_A_subset_B.svg.png">
                             <br>
                             The set <i>A</i> is a <b>subset</b> of <i>B</i>
                             iff every element of <i>A</i> is
@@ -192,8 +191,8 @@
                             quantification ∀x(x &isin; <i>A</i> &rarr; x &isin; <i>B</i>)
                             is true.
                         <figure>
-                            <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/300px-Venn_A_subset_B.svg.png">
+                            <img width="300"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/330px-Venn_A_subset_B.svg.png">
                             <figcaption>
                             </figcaption>
                         </figure>
@@ -340,8 +339,8 @@
                         Cartesian Products
                         </summary>
                         <figure>
-                            <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cartesian_Product_qtl1.svg/440px-Cartesian_Product_qtl1.svg.png">
+                            <img width="440"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cartesian_Product_qtl1.svg/500px-Cartesian_Product_qtl1.svg.png">
                         </figure>
 
                         <p>
@@ -407,8 +406,8 @@
                           members of either <i>A</i> or <i>B</i>.
                         </p>
                         <figure>
-                          <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/440px-Venn0111.svg.png">
+                          <img width="440"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/500px-Venn0111.svg.png">
                               <figcaption>
                               The union of <i>A</i> and <i>B</i>, denoted <i>A</i> &cup; <i>B</i>
                               </figcaption>
@@ -437,7 +436,7 @@
                             then <i>A</i> and <i>B</i> are said to be disjoint.
                         </p>
                         <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/440px-Venn0001.svg.png">
+                            <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/500px-Venn0001.svg.png">
                               <figcaption>
                               The intersection of <i>A</i> and <i>B</i>,
                                   denoted <i>A</i> &cap; <i>B</i>.
@@ -465,7 +464,7 @@
                             but not members of <i>B</i>.
                         </p>
                         <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Venn0100.svg/440px-Venn0100.svg.png">
+                            <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Venn0100.svg/500px-Venn0100.svg.png">
                               <figcaption>
                               The relative complement of <i>B</i> in <i>A</i>
                               </figcaption>
@@ -477,7 +476,7 @@
                             Complements
                             </summary>
                             <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/440px-Venn1010.svg.png">
+                            <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/500px-Venn1010.svg.png">
                             <figcaption>
                             The complement of <i>A</i> in <i>U</i>
                             </figcaption>
@@ -677,7 +676,7 @@
                 </p>
 
                 <figure>
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/440px-Function_machine2.svg.png">
+                <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/500px-Function_machine2.svg.png">
                 <figcaption>Figure 1: A function f takes an input x, and returns a single output f(x).</figcaption>
                 </figure>
 
@@ -778,8 +777,8 @@
                         a different function.
                         </p>
                         <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/402px-Function_machine5.svg.png">
+                        <img width="402"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Function_machine5.svg/500px-Function_machine5.svg.png">
                         <figcaption>
                         The first function takes input x and outputs
                         f(x). The second function takes as input the value
@@ -834,7 +833,7 @@
                     The Graphs of Functions
                     </summary>
                     <figure>
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/440px-Gerade.svg.png">
+                        <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gerade.svg/500px-Gerade.svg.png">
                         <br>
                         <figcaption>
                         Linear function: f(x) = ax + b.
@@ -842,14 +841,14 @@
                     </figure>
                     <br />
                     <figure>
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/440px-Polynomialdeg2.svg.png">
+                        <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/500px-Polynomialdeg2.svg.png">
                         <figcaption>
                         Quadratic function: f(x) = ax<sup>2</sup> + bx + c.
                         </figcaption>
                     </figure>
                     <br />
                     <figure>
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/440px-Sine_cosine_one_period.svg.png">
+                        <img width="440" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sine_cosine_one_period.svg/500px-Sine_cosine_one_period.svg.png">
                         <figcaption>
                         Trigonometric functions sine and cosine
                         </figcaption>
@@ -875,7 +874,7 @@
                         Floor
                         </summary>
                         <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/400px-Floor_function.svg.png">
+                            <img width="400" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Floor_function.svg/500px-Floor_function.svg.png">
                             <figcaption>
                             Floor function
                             </figcaption>
@@ -896,7 +895,7 @@
                         </p>
 
                         <figure>
-                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/400px-Ceiling_function.svg.png">
+                            <img width="400" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ceiling_function.svg/500px-Ceiling_function.svg.png">
                             <figcaption>
                             Ceiling function
                             </figcaption>
@@ -1138,7 +1137,7 @@
                 number of columns and the corresponding
                 entries in every position are equal.
                 <br>
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Matrix.svg/494px-Matrix.svg.png">
+                <img width="494" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Matrix.svg/500px-Matrix.svg.png">
                 </p>
 
                 <details>
@@ -1189,7 +1188,7 @@
                 <br>
                 <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/db581eb370e44283170093b08a2ae8407bc38314">
                 <br>
-                <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Matrix_multiplication_diagram_2.svg/400px-Matrix_multiplication_diagram_2.svg.png">
+                <img width="400" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Matrix_multiplication_diagram_2.svg/500px-Matrix_multiplication_diagram_2.svg.png">
                 </li>
                 </ol>
                 </details>

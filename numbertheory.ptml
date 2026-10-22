@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Number Theory and Cryptography
         </title>
@@ -16,7 +17,7 @@
             <div style="text-align:center">
                 <figure class="lead-figure">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ModularGroup-FundamentalDomain.svg/220px-ModularGroup-FundamentalDomain.svg.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ModularGroup-FundamentalDomain.svg/250px-ModularGroup-FundamentalDomain.svg.png"
                         width="14%">
                     <figcaption>
                         Action of the modular group on the upper-half plane

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Predicates and Quantifiers
         </title>
@@ -74,8 +74,8 @@
                 </summary>
 
                 <figure>
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Black_Swan_at_SF_Zoo.jpg/440px-Black_Swan_at_SF_Zoo.jpg">
+                    <img width="440"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Black_Swan_at_SF_Zoo.jpg/500px-Black_Swan_at_SF_Zoo.jpg">
                     <figcaption>
                         The black swan
                     </figcaption>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
 <!--include head.txt -->
@@ -15,8 +16,8 @@
         </h1>
             <div style="text-align:center">
                 <figure class="lead-figure">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PascalTriangleAnimated2.gif/220px-PascalTriangleAnimated2.gif">
+                    <img width="220"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PascalTriangleAnimated2.gif/250px-PascalTriangleAnimated2.gif">
                 </figure>
             </div>
 
@@ -339,8 +340,8 @@
                     </figure>
 
                     <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/240px-White_shark.jpg">
+                        <img width="240"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/250px-White_shark.jpg">
                         <figcaption>
                             When the shark bites, with his teeth big...
                         </figcaption>
@@ -573,7 +574,7 @@
                     </summary>
                     <figure>
                         <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Roulette_casino.JPG/1024px-Roulette_casino.JPG"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Roulette_casino.JPG/1280px-Roulette_casino.JPG"
                          height="300" width="400">
                         <figcaption>
                         </figcaption>

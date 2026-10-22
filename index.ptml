@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Discrete Mathematics
         </title>
@@ -10,154 +10,192 @@
     <body>
 
 <!--include menu.txt -->
-            
-        <h1 id="course-title">
-            Discrete Mathematics
-        </h1>
-            <div style="text-align:center">
-                <figure class="lead-figure">
-                    <img src="graphics/FourColourMap.svg.png">
-                    <figcaption>
-                        Four-color mapping
-                    </figcaption>
-                </figure>
 
-                <hr>
-
-                <h2>
-                    Topics
-                </h2>
-
-                <h3>
-                    <a href="background.html">
-                    0. Some Background: Logs, Modulus, and More
-                    </a>
-                </h3>
-                <h3>
-                    <a href="foundation.html">
-                    1. The Foundation: Logic and Proofs
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="basic.html">
-                    2. Basic Structures: Sets, Functions, Etc.
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="algorithms.html">
-                    3. Algorithms
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="numbertheory.html">
-                    4. Number Theory and Cryptography
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="induction.html"> 
-                    5. Induction and Recursion
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="counting.html">
-                    6. Counting
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="probability.html">
-                    7. Discrete Probability
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="advcounting.html">
-                    8. Advanced Counting Techniques
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="relations.html">
-                    9. Relations
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="graphs.html">
-                    10. Graphs
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="trees.html">
-                    11. Trees
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="boolean.html">
-                    12. Boolean Algebra
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="computation.html">
-                    13. Modeling Computation
-                    </a>
-                </h3>
-    
-                <hr>
-    
-                <h2>
-                    Other Material
-                </h2>
-                <p text-align="center">
-                    <a href="SyllabusF2018.pdf">
-                        Syllabus Fall 2018
-                    </a>
-                    <br />
-                    <br />
-                    <a href="OutlineFall2018.html">
-                        Course Outline Fall 2018
-                    </a>
-                    <br />
-                    <br />
-                    <a href="TAHours.html">
-
-                        TA Hours Fall 2018
-                    </a>
-                    <br />
-                    <br />
-                    <a href="quizAnswers.html">
-                        Fall 2018 Quiz answers
-
-                    </a>
-                    <br />
-                    <br />
-                    <a href="Homework/index.html">
-                        Homework Sets
-                    </a>
-                    <br />
-                    <br />
-                    <a href="tests/index.html">
-                        Past Tests
-                    </a>
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">
+                    Logic &middot; Sets &middot; Counting &middot; Graphs
                 </p>
-    
-                <h4>
-                    Credits
-                </h4>
-                <p text-align="center">
-                    Four-color graphic by
-                    <a href="https://commons.wikimedia.org/wiki/User:Inductiveload">
-                        Inductiveload
+                <h1 class="toc-head">
+                    Discrete Mathematics
+                </h1>
+                <p class="hero-lead">
+                    Course notes on logic and proof, sets and functions,
+                    number theory, induction, counting, probability,
+                    relations, graphs, trees, Boolean algebra, and models
+                    of computation.
+                </p>
+                <p class="hero-actions">
+                    <a class="button primary" href="#topics">
+                        Browse the topics
+                    </a>
+                    <a class="button" href="https://github.com/gcallah/DiscreteMathematics">
+                        View on GitHub
                     </a>
                 </p>
             </div>
+            <img class="hero-art" src="graphics/hero.svg"
+                 width="560" height="400"
+                 alt="A graph whose vertices are colored with four colors so that no two neighbors share a color">
+        </section>
+
+        <figure class="feature-card">
+            <img src="graphics/FourColourMap.svg.png"
+                 width="292" height="174"
+                 alt="A map colored with four colors">
+            <figcaption>
+                Four colors are always enough to color any map so that no
+                two neighboring regions share a color: one of the most
+                famous results in discrete mathematics, and the first major
+                theorem proved with the help of a computer.
+                <cite>
+                    Four-color graphic by
+                    <a href="https://commons.wikimedia.org/wiki/User:Inductiveload">Inductiveload</a>
+                </cite>
+            </figcaption>
+        </figure>
+
+        <h2 id="topics" class="section-head">
+            Topics
+        </h2>
+        <div class="topic-grid">
+            <a class="topic-card" href="background.html">
+                <img src="graphics/topics/background.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 0</span>
+                    Some Background: Logs, Modulus, and More
+                </span>
+            </a>
+            <a class="topic-card" href="foundation.html">
+                <img src="graphics/topics/foundation.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 1</span>
+                    The Foundation: Logic and Proofs
+                </span>
+            </a>
+            <a class="topic-card" href="basic.html">
+                <img src="graphics/topics/basic.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 2</span>
+                    Basic Structures: Sets, Functions, Etc.
+                </span>
+            </a>
+            <a class="topic-card" href="algorithms.html">
+                <img src="graphics/topics/algorithms.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 3</span>
+                    Algorithms
+                </span>
+            </a>
+            <a class="topic-card" href="numbertheory.html">
+                <img src="graphics/topics/numbertheory.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 4</span>
+                    Number Theory and Cryptography
+                </span>
+            </a>
+            <a class="topic-card" href="induction.html">
+                <img src="graphics/topics/induction.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 5</span>
+                    Induction and Recursion
+                </span>
+            </a>
+            <a class="topic-card" href="counting.html">
+                <img src="graphics/topics/counting.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 6</span>
+                    Counting
+                </span>
+            </a>
+            <a class="topic-card" href="probability.html">
+                <img src="graphics/topics/probability.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 7</span>
+                    Discrete Probability
+                </span>
+            </a>
+            <a class="topic-card" href="advcounting.html">
+                <img src="graphics/topics/advcounting.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 8</span>
+                    Advanced Counting Techniques
+                </span>
+            </a>
+            <a class="topic-card" href="relations.html">
+                <img src="graphics/topics/relations.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 9</span>
+                    Relations
+                </span>
+            </a>
+            <a class="topic-card" href="graphs.html">
+                <img src="graphics/topics/graphs.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 10</span>
+                    Graphs
+                </span>
+            </a>
+            <a class="topic-card" href="trees.html">
+                <img src="graphics/topics/trees.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 11</span>
+                    Trees
+                </span>
+            </a>
+            <a class="topic-card" href="boolean.html">
+                <img src="graphics/topics/boolean.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 12</span>
+                    Boolean Algebra
+                </span>
+            </a>
+            <a class="topic-card" href="computation.html">
+                <img src="graphics/topics/computation.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 13</span>
+                    Modeling Computation
+                </span>
+            </a>
+        </div>
+
+        <h2 class="section-head">
+            Other Material
+        </h2>
+        <div class="link-grid">
+            <a class="link-card" href="SyllabusF2018.pdf">
+                <span class="tag">Fall 2018</span>
+                Syllabus
+            </a>
+            <a class="link-card" href="OutlineFall2018.html">
+                <span class="tag">Fall 2018</span>
+                Course Outline
+            </a>
+            <a class="link-card" href="TAHours.html">
+                <span class="tag">Fall 2018</span>
+                TA Hours
+            </a>
+            <a class="link-card" href="Homework/index.html">
+                <span class="tag">Practice</span>
+                Homework Sets
+            </a>
+            <a class="link-card" href="tests/index.html">
+                <span class="tag">Archive</span>
+                Past Tests and Quizzes
+            </a>
+            <a class="link-card" href="https://gcallah.github.io/Algocynfas/">
+                <span class="tag">Project</span>
+                Algocynfas
+            </a>
+        </div>
+
+        <footer class="site-footer">
+            <p>
+                Discrete Mathematics &middot;
+                <a href="about.html">About</a> &middot;
+                <a href="https://github.com/gcallah/DiscreteMathematics">GitHub</a>
+            </p>
+        </footer>
+
     </body>
 </html>
