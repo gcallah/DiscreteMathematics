@@ -6,3 +6,4 @@
 *.fld
 IaconeMaterials/*
 Gradebooks/*
+.superset/config.local.json
